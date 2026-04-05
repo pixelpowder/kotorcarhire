@@ -37,7 +37,7 @@ export default function ContentPage({ title, subtitle, image, description, child
           <div className="sidebar-card">
             <h3 className="sidebar-card__title">{t('sidebar.helpTitle')}</h3>
             <p className="sidebar-card__text">{t('sidebar.helpText')}</p>
-            <a href="mailto:info@montenegrocarhire.com" className="sidebar-card__btn sidebar-card__btn--outline">{t('common.emailUs') || 'Email Us'}</a>
+            <a href="mailto:info@kotorcarhire.com" className="sidebar-card__btn sidebar-card__btn--outline">{t('common.emailUs') || 'Email Us'}</a>
           </div>
           <div className="sidebar-card">
             <h3 className="sidebar-card__title">{t('sidebar.popularDest')}</h3>

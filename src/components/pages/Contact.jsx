@@ -18,7 +18,7 @@ export default function Contact() {
               Contact Us
             </h1>
             <p style={{ fontSize: '16px', color: 'var(--gray-600)', marginBottom: '40px', lineHeight: 1.6 }}>
-              Have a question about renting a car in Montenegro? Get in touch and we'll help you find the perfect vehicle for your trip.
+              Have a question about renting a car in Kotor or the Bay of Kotor area? Get in touch and we'll help you find the perfect vehicle for your trip.
             </p>
 
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px', marginBottom: '40px' }}>
@@ -32,7 +32,7 @@ export default function Contact() {
                 </div>
               </a>
 
-              <a href={`https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Montenegro.`} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '12px', padding: '20px', background: 'var(--gray-50)', borderRadius: '12px', textDecoration: 'none', color: 'var(--navy)' }}>
+              <a href={`https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Kotor.`} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '12px', padding: '20px', background: 'var(--gray-50)', borderRadius: '12px', textDecoration: 'none', color: 'var(--navy)' }}>
                 <div style={{ width: '40px', height: '40px', borderRadius: '10px', background: '#25d366', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', flexShrink: 0 }}>
                   <MessageCircle size={18} />
                 </div>

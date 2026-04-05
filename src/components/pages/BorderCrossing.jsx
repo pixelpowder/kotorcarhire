@@ -4,7 +4,7 @@ import ContentPage from '../../ContentPage';
 export default function BorderCrossing() {
   const { t } = useTranslation();
   return (
-    <ContentPage title={t("border-crossing.title")} subtitle={t("border-crossing.subtitle")} description={t("border-crossing.seoDesc")} image="/img/pexels-26161092.jpg">
+    <ContentPage title={t("border-crossing.title")} subtitle={t("border-crossing.subtitle")} description={t("border-crossing.seoDesc")} image="/img/montenegro-coast-road.webp">
       <img src="/img/pexels-30944550.jpg" alt="Mostar Bridge" loading="lazy" />
       <h2>{t('borderCrossingBody.h1')}</h2>
       <p>{t('borderCrossingBody.p1')}</p>

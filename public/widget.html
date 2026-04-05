@@ -28,9 +28,9 @@
   </style>
   <script>
     // Intercept widget style injections and recolour green → navy/blue
-    const NAVY  = '#05203c';
-    const BLUE  = '#0062e3';
-    const LIGHT = '#e8f0fd';
+    const NAVY  = '#0A1929';
+    const BLUE  = '#1B3A5C';
+    const LIGHT = '#E8EEF5';
 
     // Colours to replace (widget greens)
     const replacements = [
@@ -39,11 +39,11 @@
       [/#00a651/gi, BLUE],
       [/#2ecc71/gi, BLUE],
       [/#27ae60/gi, BLUE],
-      [/rgb\(57,\s*181,\s*74\)/gi,  'rgb(0,98,227)'],
-      [/rgb\(76,\s*175,\s*80\)/gi,  'rgb(0,98,227)'],
-      [/rgb\(0,\s*166,\s*81\)/gi,   'rgb(0,98,227)'],
-      [/rgba\(57,\s*181,\s*74,/gi,  'rgba(0,98,227,'],
-      [/rgba\(76,\s*175,\s*80,/gi,  'rgba(0,98,227,'],
+      [/rgb\(57,\s*181,\s*74\)/gi,  'rgb(27,58,92)'],
+      [/rgb\(76,\s*175,\s*80\)/gi,  'rgb(27,58,92)'],
+      [/rgb\(0,\s*166,\s*81\)/gi,   'rgb(27,58,92)'],
+      [/rgba\(57,\s*181,\s*74,/gi,  'rgba(27,58,92,'],
+      [/rgba\(76,\s*175,\s*80,/gi,  'rgba(27,58,92,'],
     ];
 
     function recolour(css) {
@@ -86,6 +86,7 @@
       script.async = true;
       script.setAttribute('data-mrc-wl',   'true');
       script.setAttribute('data-affiliate','14905');
+      script.setAttribute('data-marker',   'kotor');
       script.setAttribute('data-country',  '133');
       script.setAttribute('data-city',     cityId);
       script.setAttribute('data-routing',  'on');
@@ -186,7 +187,7 @@
       /* Search bar — match nav exactly */
       .search-cigarette,
       .search-cigarette__wrap,
-      .search-cigarette__row { background: rgb(5,32,60) !important; }
+      .search-cigarette__row { background: rgb(10,25,41) !important; }
       .search-cigarette__city,
       .search-cigarette__calendar,
       .search-cigarette__place-time { border-color: rgba(255,255,255,0.12) !important; }
@@ -196,7 +197,7 @@
       .search-place-time { color: #fff !important; }
       .search-cigarette__placeholder { color: rgba(255,255,255,0.55) !important; }
       .search-filters,
-      .search-filters__wrap { border-color: rgba(255,255,255,0.2) !important; color: #fff !important; background: rgb(5,32,60) !important; }
+      .search-filters__wrap { border-color: rgba(255,255,255,0.2) !important; color: #fff !important; background: rgb(10,25,41) !important; }
       .search-cigarette__calendar { background: #fff !important; border-radius: 8px; }
       .search-calendar,
       .search-calendar__date,
@@ -207,30 +208,30 @@
       .date-range__days,
       .date-range__dash,
       .search-cigarette__calendar .search-cigarette__trigger,
-      .search-cigarette__calendar .search-cigarette__placeholder { color: rgb(5,32,60) !important; }
+      .search-cigarette__calendar .search-cigarette__placeholder { color: rgb(10,25,41) !important; }
 
       /* Calendar selected range — fix invisible white-on-white text */
       .calendar-day.calendar-highlighted {
-        background: rgba(0,98,227,0.12) !important;
-        color: rgb(5,32,60) !important;
+        background: rgba(27,58,92,0.12) !important;
+        color: rgb(10,25,41) !important;
       }
       .calendar-day.calendar-selected {
-        background: rgb(0,98,227) !important;
+        background: rgb(27,58,92) !important;
         color: #fff !important;
       }
 
       /* Low deposit badge — wildcard to beat inline styles */
       .product-sticker--low-deposit,
-      [class*="low-deposit"] { background: rgb(0,98,227) !important; color: #fff !important; border-color: rgb(0,98,227) !important; }
+      [class*="low-deposit"] { background: rgb(27,58,92) !important; color: #fff !important; border-color: rgb(27,58,92) !important; }
 
       /* Buttons */
-      .button { background: rgb(0,98,227) !important; border-color: rgb(0,98,227) !important; color: #fff !important; }
-      .button:hover { background: rgb(0,75,195) !important; }
-      .embla__button { background: rgb(0,98,227) !important; border-color: rgb(0,98,227) !important; }
+      .button { background: rgb(27,58,92) !important; border-color: rgb(27,58,92) !important; color: #fff !important; }
+      .button:hover { background: rgb(20,45,74) !important; }
+      .embla__button { background: rgb(27,58,92) !important; border-color: rgb(27,58,92) !important; }
 
       /* Progress & accents */
-      .search__progress { background: rgb(0,98,227) !important; }
-      .vehicle-card-info__badge { color: rgb(0,98,227) !important; }
+      .search__progress { background: rgb(27,58,92) !important; }
+      .vehicle-card-info__badge { color: rgb(27,58,92) !important; }
 
       /* Hide promotional banners and filter badges */
       [class*="banner"], [class*="promo"], [class*="winter"], [class*="notification"],

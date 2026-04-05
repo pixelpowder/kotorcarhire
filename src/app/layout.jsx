@@ -9,10 +9,10 @@ import { LanguageContext } from '@/src/i18n/LanguageContext';
 import { DEFAULT_LANG } from '@/src/i18n/languages';
 
 export const metadata = {
-  title: 'Montenegro Car Hire — Tivat & Podgorica Airport Pickup',
+  title: 'Kotor Car Hire — Bay of Kotor & Tivat Airport Pickup',
   description:
-    'Rent a car in Montenegro from €13/day. Pick up at Tivat Airport, Podgorica Airport, Kotor, Budva and 28+ locations. Free cancellation, full insurance, no hidden fees.',
-  metadataBase: new URL('https://www.montenegrocarhire.com'),
+    'Rent a car in Kotor from €13/day. Pick up at Tivat Airport (8 km away) or Kotor Old Town. Explore the UNESCO bay, Perast, Budva, and Lovcen. Free cancellation, full insurance, no hidden fees.',
+  metadataBase: new URL('https://www.kotorcarhire.com'),
 };
 
 export default function RootLayout({ children }) {

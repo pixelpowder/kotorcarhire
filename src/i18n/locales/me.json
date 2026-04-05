@@ -12,11 +12,11 @@
     "perDay": "po danu"
   },
   "hero": {
-    "headline": "Rent a Car Crna Gora",
+    "headline": "Rent a Car Kotor",
     "badges": {
       "freeCancellation": "Besplatna Otkazivanja",
       "fullInsurance": "Puno Osiguranje Uključeno",
-      "airportPickup": "Preuzimanje na Aerodromu za 10 Min",
+      "airportPickup": "Aerodrom Tivat 8 km",
       "trustpilot": "4.8/5 na Trustpilot"
     },
     "search": "Pretraži",
@@ -222,13 +222,13 @@
   },
   "testimonials": {
     "0": {
-      "text": "Preuzeo sam besprijekornu Octavia na aerodromu Tivat za manje od 5 minuta. Nevjerovatna vrijednost."
+      "text": "Preuzeli smo Polo na aerodromu Tivat i za 15 minuta bili u Starom gradu Kotora. Cijelu sedmicu istraživali Perast, Budvu i Lovćen. Fantastičan servis."
     },
     "1": {
-      "text": "BMW je bio u savršenom stanju, a dokumenti za Croatia bili su spremni kada smo stigli. Toplo preporučujem."
+      "text": "Put uz zaliv od Kotora do Perasta bio je vrhunac našeg odmora. Imati vlastiti auto omogućilo nam je zaustavljanje na svakom vidikovcu. Zeleni karton za Croatia bio je spreman pri preuzimanju."
     },
     "2": {
-      "text": "Istraživali smo Crna Gora dvije sedmice. Jeep je savršeno savladao planinske puteve."
+      "text": "Odvezli smo se od Kotora do Dubrovnika i nazad u jednom danu, a sljedećeg dana istražili Nacionalni park Lovćen. Jeep je savršeno savladao planinske puteve."
     }
   },
   "faqItems": {
@@ -285,12 +285,12 @@
     "tivat-airport": {
       "name": "Aerodrom Tivat",
       "tag": "Najpopularnije",
-      "desc": "Naš glavni hub. Dočekujemo vas na dolascima."
+      "desc": "Samo 8 km od Kotora. Dočekujemo vas na dolascima."
     },
     "kotor": {
       "name": "Kotor",
-      "tag": "UNESCO lokalitet",
-      "desc": "Srednjovjekovni utvrđeni grad na Jadranu."
+      "tag": "UNESCO Stari Grad",
+      "desc": "Srednjovjekovni utvrđeni grad i kruzerska luka."
     },
     "podgorica-airport": {
       "name": "Aerodrom Podgorica",
@@ -299,32 +299,32 @@
     },
     "perast": {
       "name": "Perast",
-      "tag": "Skriveni dragulj",
-      "desc": "Barokno selo na Boka Bay."
+      "tag": "15 min od Kotora",
+      "desc": "Barokno selo i Gospa od Škrpjela."
     },
     "budva": {
       "name": "Budva",
-      "tag": "Primorski grad",
-      "desc": "Plaže Rivijere i zidine starog grada."
+      "tag": "30 min od Kotora",
+      "desc": "Plaže Rivijere i živahan stari grad."
     },
     "dubrovnik-airport": {
       "name": "Aerodrom Dubrovnik",
       "tag": "Prekogranično",
-      "desc": "Doletite u Dubrovnik, vozite u Crna Gora."
+      "desc": "Doletite u Dubrovnik, do Kotora za 2 sata."
     },
     "tivat": {
       "name": "Tivat",
-      "tag": "Grad marine",
-      "desc": "Porto Crna Gora i zadivljujuća Boka Bay."
+      "tag": "20 min od Kotora",
+      "desc": "Porto Montenegro i Boka Bay."
     },
     "podgorica": {
       "name": "Podgorica",
       "tag": "Glavni grad",
-      "desc": "Moderna prijestonica Crna Gora — kultura i trgovina."
+      "desc": "Prijestonica Crna Gora — vrata ka unutrašnjosti."
     }
   },
   "aboutBody": {
-    "h1": "Rent a car Crna Gora",
+    "h1": "Rent a car Kotor",
     "p1": "Od 2007. godine, Crna Gora Car Hire povezuje putnike sa pouzdanim i pristupačnim rent-a-car vozilima širom Crna Gora. Ono što je počelo kao jednostavna ideja — olakšati posjetiocima istraživanje ovog zadivljujućeg kutka Adriatic — izraslo je u jednu od najpouzdanijih usluga iznajmljivanja vozila u zemlji.",
     "h2": "Zašto smo počeli",
     "p2": "Crna Gora je zemlja koja se najbolje doživljava sopstvenim tempom. Vijugavi obalni putevi, skrivena planinska sela i gradovi pod zaštitom UNESCO-a teško su dostupni javnim prevozom. Prepoznali smo priliku da putnicima pružimo slobodu da otkriju Crna Gora na svoj način — bez rasporeda turističkih autobusa, bez propuštenih vidikovaca, bez kompromisa.",

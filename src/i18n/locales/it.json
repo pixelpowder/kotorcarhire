@@ -12,11 +12,11 @@
     "perDay": "al giorno"
   },
   "hero": {
-    "headline": "Noleggio Auto Montenegro",
+    "headline": "Noleggio Auto Kotor",
     "badges": {
       "freeCancellation": "Cancellazione Gratuita",
       "fullInsurance": "Assicurazione Completa Inclusa",
-      "airportPickup": "Ritiro in Aeroporto in 10 Min",
+      "airportPickup": "Aeroporto di Tivat 8 km",
       "trustpilot": "4.8/5 su Trustpilot"
     },
     "search": "Cerca",
@@ -62,7 +62,7 @@
   },
   "destinations": {
     "label": "Destinazioni Principali",
-    "title": "Esplora il Montenegro",
+    "title": "Esplora da Kotor",
     "subtitle": "Dalle Bocche di Kotor al confine albanese — ogni destinazione è un mondo diverso."
   },
   "features": {
@@ -127,7 +127,7 @@
   "about": {
     "title": "Chi Siamo",
     "subtitle": "Aiutiamo i viaggiatori a esplorare il Montenegro dal 2007.",
-    "seoDesc": "Chi è Montenegro Car Hire. Dal 2007 aiutiamo i viaggiatori a esplorare il Montenegro con auto affidabili, consegna in aeroporto e competenza locale."
+    "seoDesc": "Chi è Kotor Car Hire. Dal 2007 aiutiamo i viaggiatori a esplorare il Montenegro con auto affidabili, consegna in aeroporto e competenza locale."
   },
   "kotor": {
     "title": "Noleggio Auto a Kotor",
@@ -182,17 +182,17 @@
   "privacy": {
     "title": "Informativa sulla Privacy",
     "subtitle": "Come gestiamo le tue informazioni.",
-    "seoDesc": "Informativa sulla privacy di Montenegro Car Hire. Come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali durante la ricerca di auto a noleggio."
+    "seoDesc": "Informativa sulla privacy di Kotor Car Hire. Come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali durante la ricerca di auto a noleggio."
   },
   "terms": {
     "title": "Termini e Condizioni",
     "subtitle": "Condizioni di utilizzo del nostro sito web.",
-    "seoDesc": "Termini e condizioni di utilizzo di Montenegro Car Hire. Scopri il processo di prenotazione, il partner di noleggio, i prezzi e la responsabilità."
+    "seoDesc": "Termini e condizioni di utilizzo di Kotor Car Hire. Scopri il processo di prenotazione, il partner di noleggio, i prezzi e la responsabilità."
   },
   "cookie-policy": {
     "title": "Politica sui Cookie",
     "subtitle": "Come utilizziamo i cookie su questo sito.",
-    "seoDesc": "Politica sui cookie di Montenegro Car Hire. Scopri quali cookie utilizziamo, come il widget di prenotazione memorizza le preferenze e come gestirli."
+    "seoDesc": "Politica sui cookie di Kotor Car Hire. Scopri quali cookie utilizziamo, come il widget di prenotazione memorizza le preferenze e come gestirli."
   },
   "featureCards": {
     "airportPickup": {
@@ -222,13 +222,13 @@
   },
   "testimonials": {
     "0": {
-      "text": "Ho ritirato un'Octavia impeccabile all'aeroporto di Tivat in meno di 5 minuti. Valore incredibile."
+      "text": "Abbiamo ritirato una Polo all'aeroporto di Tivat e in 15 minuti eravamo nella città vecchia di Kotor. Tutta la settimana a esplorare Perast, Budva e il Lovcen. Servizio fantastico."
     },
     "1": {
-      "text": "La BMW era in condizioni perfette e i documenti per la Croatia erano pronti al nostro arrivo. Altamente consigliato."
+      "text": "La strada della baia da Kotor a Perast è stata il momento clou della nostra vacanza. Avere la nostra auto ci ha permesso di fermarci ad ogni punto panoramico. La carta verde per la Croatia era pronta al ritiro."
     },
     "2": {
-      "text": "Abbiamo esplorato il Montenegro per due settimane. Il Jeep ha affrontato perfettamente le strade di montagna."
+      "text": "Abbiamo fatto Kotor-Dubrovnik andata e ritorno in un giorno, poi il Parco Nazionale del Lovcen il giorno dopo. Il Jeep ha affrontato le strade di montagna senza problemi."
     }
   },
   "faqItems": {
@@ -285,12 +285,12 @@
     "tivat-airport": {
       "name": "Aeroporto di Tivat",
       "tag": "Più popolare",
-      "desc": "Il nostro hub principale. Ti incontriamo agli arrivi."
+      "desc": "A soli 8 km da Kotor. Ti incontriamo agli arrivi."
     },
     "kotor": {
       "name": "Kotor",
-      "tag": "Sito UNESCO",
-      "desc": "Città medievale murata sull'Adriatico."
+      "tag": "Città vecchia UNESCO",
+      "desc": "Città medievale murata e porto crocieristico."
     },
     "podgorica-airport": {
       "name": "Aeroporto di Podgorica",
@@ -299,33 +299,33 @@
     },
     "perast": {
       "name": "Perast",
-      "tag": "Gioiello nascosto",
-      "desc": "Villaggio barocco sulla Baia di Kotor."
+      "tag": "15 min da Kotor",
+      "desc": "Villaggio barocco e Nostra Signora delle Rocce."
     },
     "budva": {
       "name": "Budva",
-      "tag": "Città balneare",
-      "desc": "Spiagge della riviera e le mura della città vecchia."
+      "tag": "30 min da Kotor",
+      "desc": "Spiagge della riviera e città vecchia vivace."
     },
     "dubrovnik-airport": {
       "name": "Aeroporto di Dubrovnik",
       "tag": "Oltre confine",
-      "desc": "Vola a Dubrovnik, guida fino al Montenegro."
+      "desc": "Vola a Dubrovnik, raggiungi Kotor in 2 ore."
     },
     "tivat": {
       "name": "Tivat",
-      "tag": "Città del porto",
-      "desc": "Porto Montenegro e la splendida Boka Bay."
+      "tag": "20 min da Kotor",
+      "desc": "Porto Montenegro e la Boka Bay."
     },
     "podgorica": {
       "name": "Podgorica",
       "tag": "Capitale",
-      "desc": "La moderna capitale del Montenegro — cultura e commercio."
+      "desc": "Capitale del Montenegro — porta verso l'interno."
     }
   },
   "aboutBody": {
-    "h1": "Noleggio Auto Montenegro",
-    "p1": "Dal 2007, Montenegro Car Hire mette in contatto i viaggiatori con auto a noleggio affidabili e convenienti in tutto il Montenegro. Quella che è nata come una semplice idea — rendere più facile per i visitatori esplorare questo splendido angolo dell'Adriatic — è diventata uno dei servizi di autonoleggio più affidabili del Paese.",
+    "h1": "Noleggio Auto Kotor",
+    "p1": "Dal 2007, Kotor Car Hire mette in contatto i viaggiatori con auto a noleggio affidabili e convenienti in tutto il Montenegro. Quella che è nata come una semplice idea — rendere più facile per i visitatori esplorare questo splendido angolo dell'Adriatic — è diventata uno dei servizi di autonoleggio più affidabili del Paese.",
     "h2": "Perché abbiamo iniziato",
     "p2": "Il Montenegro è un Paese che si vive meglio al proprio ritmo. Le tortuose strade costiere, i villaggi di montagna nascosti e le città patrimonio UNESCO sono difficili da raggiungere con i mezzi pubblici. Abbiamo colto l'opportunità di offrire ai viaggiatori la libertà di scoprire il Montenegro alle proprie condizioni — niente orari di pullman turistici, niente panorami persi, nessun compromesso.",
     "h3": "Cosa offriamo",

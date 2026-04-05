@@ -9,7 +9,7 @@ export default function CookiePolicy() {
       title={t("cookie-policy.title")}
       subtitle={t("cookie-policy.subtitle")}
       description={t("cookie-policy.seoDesc")}
-      image="/img/pexels-2437291.jpg"
+      image="/img/kotor-bay-aerial.webp"
     >
       <p><strong>Last updated:</strong> April 2026</p>
 
@@ -45,7 +45,7 @@ export default function CookiePolicy() {
       <p>Note that blocking essential cookies may affect the functionality of the booking widget.</p>
 
       <h2>Contact</h2>
-      <p>Questions about our use of cookies? Contact us at info@montenegrocarhire.com.</p>
+      <p>Questions about our use of cookies? Contact us at info@kotorcarhire.com.</p>
     </ContentPage>
   );
 }

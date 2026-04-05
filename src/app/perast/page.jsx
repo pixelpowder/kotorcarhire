@@ -3,7 +3,7 @@ import Perast from '@/src/components/pages/Perast';
 
 export async function generateMetadata() {
   return {
-    title: t('en', 'perast.title') + ' | Montenegro Car Hire',
+    title: t('en', 'perast.title') + ' | Kotor Car Hire',
     description: t('en', 'perast.seoDesc'),
     alternates: buildAlternates('perast'),
   };

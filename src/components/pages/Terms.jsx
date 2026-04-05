@@ -9,22 +9,22 @@ export default function Terms() {
       title={t("terms.title")}
       subtitle={t("terms.subtitle")}
       description={t("terms.seoDesc")}
-      image="/img/pexels-2437291.jpg"
+      image="/img/kotor-bay-aerial.webp"
     >
       <p><strong>Last updated:</strong> April 2026</p>
 
       <h2>About This Website</h2>
-      <p>Montenegro Car Hire (montenegrocarhire.com) is an affiliate website that connects travellers with car rental services in Montenegro. We are not a car rental company — we partner with LocalRent to provide real-time availability and booking services.</p>
+      <p>Kotor Car Hire (kotorcarhire.com) is an affiliate website that connects travellers with car rental services in and around Kotor, Montenegro. We are not a car rental company — we partner with LocalRent to provide real-time availability and booking services.</p>
 
       <h2>Booking & Rental Terms</h2>
-      <p>All car rental bookings made through our website are processed and fulfilled by our partner, LocalRent. When you complete a booking, you enter into a rental agreement directly with the vehicle supplier, not with Montenegro Car Hire.</p>
+      <p>All car rental bookings made through our website are processed and fulfilled by our partner, LocalRent. When you complete a booking, you enter into a rental agreement directly with the vehicle supplier, not with Kotor Car Hire.</p>
       <p>The rental terms, including cancellation policies, insurance coverage, age requirements, and payment conditions, are set by the vehicle supplier and displayed during the booking process. We recommend reading these terms carefully before confirming any booking.</p>
 
       <h2>Our Role</h2>
       <p>We provide:</p>
       <ul>
         <li>A search interface to browse available rental vehicles</li>
-        <li>Destination and travel information about Montenegro</li>
+        <li>Destination and travel information about Kotor and the Bay of Kotor region</li>
         <li>Customer support to help with enquiries before booking</li>
       </ul>
       <p>We do not:</p>
@@ -41,7 +41,7 @@ export default function Terms() {
       <p>We make every effort to ensure that information on this website is accurate and up to date. However, travel information, driving regulations, and border crossing requirements can change. We recommend verifying critical details (especially border crossing documents and driving rules) with official sources before your trip.</p>
 
       <h2>Limitation of Liability</h2>
-      <p>Montenegro Car Hire acts as an intermediary and is not liable for:</p>
+      <p>Kotor Car Hire acts as an intermediary and is not liable for:</p>
       <ul>
         <li>The condition or availability of rental vehicles</li>
         <li>Actions or omissions by rental suppliers</li>
@@ -50,10 +50,10 @@ export default function Terms() {
       </ul>
 
       <h2>Intellectual Property</h2>
-      <p>All content on this website, including text, design, and graphics, is owned by Montenegro Car Hire unless otherwise credited. Stock photography is used under licence from Pexels.</p>
+      <p>All content on this website, including text, design, and graphics, is owned by Kotor Car Hire unless otherwise credited. Stock photography is used under licence from Pexels.</p>
 
       <h2>Contact</h2>
-      <p>Questions about these terms? Contact us at info@montenegrocarhire.com.</p>
+      <p>Questions about these terms? Contact us at info@kotorcarhire.com.</p>
     </ContentPage>
   );
 }

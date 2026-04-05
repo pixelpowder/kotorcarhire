@@ -3,7 +3,7 @@ import Tivat from '@/src/components/pages/Tivat';
 
 export async function generateMetadata() {
   return {
-    title: t('en', 'tivat.title') + ' | Montenegro Car Hire',
+    title: t('en', 'tivat.title') + ' | Kotor Car Hire',
     description: t('en', 'tivat.seoDesc'),
     alternates: buildAlternates('tivat'),
   };

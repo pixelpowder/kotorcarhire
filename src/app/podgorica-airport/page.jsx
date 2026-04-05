@@ -3,7 +3,7 @@ import PodgoricaAirport from '@/src/components/pages/PodgoricaAirport';
 
 export async function generateMetadata() {
   return {
-    title: t('en', 'podgorica-airport.title') + ' | Montenegro Car Hire',
+    title: t('en', 'podgorica-airport.title') + ' | Kotor Car Hire',
     description: t('en', 'podgorica-airport.seoDesc'),
     alternates: buildAlternates('podgorica-airport'),
   };

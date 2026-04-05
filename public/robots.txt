@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /widget.html
 
-Sitemap: https://www.montenegrocarhire.com/sitemap.xml
+Sitemap: https://www.kotorcarhire.com/sitemap.xml

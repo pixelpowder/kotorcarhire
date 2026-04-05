@@ -3,7 +3,7 @@ import About from '@/src/components/pages/About';
 
 export async function generateMetadata() {
   return {
-    title: t('en', 'about.title') + ' | Montenegro Car Hire',
+    title: t('en', 'about.title') + ' | Kotor Car Hire',
     description: t('en', 'about.seoDesc'),
     alternates: buildAlternates('about'),
   };

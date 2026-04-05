@@ -4,8 +4,8 @@ import ContentPage from '../../ContentPage';
 export default function Kotor() {
   const { t } = useTranslation();
   return (
-    <ContentPage title={t("kotor.title")} subtitle={t("kotor.subtitle")} description={t("kotor.seoDesc")} image="/img/pexels-29071814.jpg">
-      <img src="/img/pexels-5668157.jpg" alt="Bay of Kotor" loading="lazy" />
+    <ContentPage title={t("kotor.title")} subtitle={t("kotor.subtitle")} description={t("kotor.seoDesc")} image="/img/kotor-fortress.webp">
+      <img src="/img/kotor-old-town.webp" alt="Bay of Kotor" loading="lazy" />
       <h2>{t('kotorBody.h1')}</h2>
       <p>{t('kotorBody.p1')}</p>
       <p>{t('kotorBody.p2')}</p>

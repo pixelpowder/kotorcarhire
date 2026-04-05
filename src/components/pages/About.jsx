@@ -9,9 +9,9 @@ export default function About() {
       title={t("about.title")}
       subtitle={t("about.subtitle")}
       description={t("about.seoDesc")}
-      image="/img/pexels-2437291.jpg"
+      image="/img/kotor-bay-aerial.webp"
     >
-      <img src="/img/pexels-27151410.jpg" alt="Bay of Kotor" loading="lazy" />
+      <img src="/img/kotor-bay-aerial.webp" alt="Bay of Kotor" loading="lazy" />
       <h2>{t('aboutBody.h1')}</h2>
       <p>{t('aboutBody.p1')}</p>
 

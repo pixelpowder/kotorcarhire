@@ -3,7 +3,7 @@ import Podgorica from '@/src/components/pages/Podgorica';
 
 export async function generateMetadata() {
   return {
-    title: t('en', 'podgorica.title') + ' | Montenegro Car Hire',
+    title: t('en', 'podgorica.title') + ' | Kotor Car Hire',
     description: t('en', 'podgorica.seoDesc'),
     alternates: buildAlternates('podgorica'),
   };

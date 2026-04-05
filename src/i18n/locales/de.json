@@ -12,11 +12,11 @@
     "perDay": "pro Tag"
   },
   "hero": {
-    "headline": "Mietwagen in Montenegro",
+    "headline": "Mietwagen in Kotor",
     "badges": {
       "freeCancellation": "Kostenlose Stornierung",
       "fullInsurance": "Vollkasko inklusive",
-      "airportPickup": "10-Min Flughafen-Abholung",
+      "airportPickup": "Tivat Airport 8 km",
       "trustpilot": "4.8/5 auf Trustpilot"
     },
     "search": "Suchen",
@@ -32,8 +32,8 @@
     "noHiddenFeesDesc": "Der angezeigte Preis ist all-inclusive",
     "fullInsurance": "Vollkasko",
     "fullInsuranceDesc": "Option ohne Selbstbeteiligung verfügbar",
-    "fastPickup": "10-Min Abholung",
-    "fastPickupDesc": "Wir empfangen Sie am Ankunftsbereich"
+    "fastPickup": "Flughafen Tivat",
+    "fastPickupDesc": "Nur 8 km von Kotor Altstadt"
   },
   "stats": {
     "years": "Jahre Erfahrung",
@@ -49,7 +49,7 @@
     "step1Desc": "Wählen Sie aus Flughäfen, Kotor, Budva, Perast und weiteren Abholpunkten in ganz Montenegro und darüber hinaus.",
     "step2Title": "Wählen Sie Ihr Auto",
     "step2Desc": "Entdecken Sie unsere Flotte von sparsamen Kleinwagen bis zu Premium-SUVs. Filtern Sie nach Größe, Getriebe oder Budget.",
-    "step3Title": "Fahren Sie durch Montenegro",
+    "step3Title": "Erkunden Sie die Bucht von Kotor",
     "step3Desc": "Wir empfangen Sie am Ankunftsbereich. Ihr Auto steht bereit. Entdecken Sie Küste, Berge und historische Städte."
   },
   "fleet": {
@@ -62,7 +62,7 @@
   },
   "destinations": {
     "label": "Top-Reiseziele",
-    "title": "Montenegro entdecken",
+    "title": "Von Kotor aus entdecken",
     "subtitle": "Von der Bay of Kotor bis zur albanischen Grenze — jedes Reiseziel eine andere Welt."
   },
   "features": {
@@ -81,7 +81,7 @@
     "subtitle": "Alles, was Sie vor Ihrer Buchung wissen müssen."
   },
   "cta": {
-    "title": "Bereit, Montenegro zu entdecken?",
+    "title": "Bereit, die Bucht von Kotor zu entdecken?",
     "subtitle": "In wenigen Minuten buchen. Am Flughafen abholen. Die gesamte Adriatic-Küste in Ihrem eigenen Tempo erkunden.",
     "browseFleet": "Flotte ansehen"
   },
@@ -127,7 +127,7 @@
   "about": {
     "title": "Über uns",
     "subtitle": "Wir helfen Reisenden seit 2007, Montenegro zu entdecken.",
-    "seoDesc": "Über Montenegro Car Hire. Seit 2007 helfen wir Reisenden, Montenegro mit zuverlässigen Mietwagen, Flughafenzustellung und lokaler Expertise zu entdecken."
+    "seoDesc": "Über Kotor Car Hire. Seit 2007 helfen wir Reisenden, Montenegro mit zuverlässigen Mietwagen, Flughafenzustellung und lokaler Expertise zu entdecken."
   },
   "kotor": {
     "title": "Mietwagen in Kotor",
@@ -182,17 +182,17 @@
   "privacy": {
     "title": "Datenschutzrichtlinie",
     "subtitle": "Wie wir mit Ihren Daten umgehen.",
-    "seoDesc": "Datenschutzrichtlinie von Montenegro Car Hire. Wie wir Ihre personenbezogenen Daten bei der Suche nach Mietwagen erheben, verwenden und schützen."
+    "seoDesc": "Datenschutzrichtlinie von Kotor Car Hire. Wie wir Ihre personenbezogenen Daten bei der Suche nach Mietwagen erheben, verwenden und schützen."
   },
   "terms": {
     "title": "Allgemeine Geschäftsbedingungen",
     "subtitle": "Nutzungsbedingungen für unsere Website.",
-    "seoDesc": "Allgemeine Geschäftsbedingungen für die Nutzung von Montenegro Car Hire. Erfahren Sie mehr über Buchungsprozess, Mietpartner, Preise und Haftung."
+    "seoDesc": "Allgemeine Geschäftsbedingungen für die Nutzung von Kotor Car Hire. Erfahren Sie mehr über Buchungsprozess, Mietpartner, Preise und Haftung."
   },
   "cookie-policy": {
     "title": "Cookie-Richtlinie",
     "subtitle": "Wie wir Cookies auf dieser Website verwenden.",
-    "seoDesc": "Cookie-Richtlinie von Montenegro Car Hire. Erfahren Sie, welche Cookies wir verwenden, wie das Buchungs-Widget Einstellungen speichert und wie Sie sie verwalten."
+    "seoDesc": "Cookie-Richtlinie von Kotor Car Hire. Erfahren Sie, welche Cookies wir verwenden, wie das Buchungs-Widget Einstellungen speichert und wie Sie sie verwalten."
   },
   "featureCards": {
     "airportPickup": {
@@ -222,13 +222,13 @@
   },
   "testimonials": {
     "0": {
-      "text": "Einen makellosen Octavia am Flughafen Tivat in unter 5 Minuten abgeholt. Die gesamte Küste bis nach Ulcinj gefahren. Unglaubliches Preis-Leistungs-Verhältnis."
+      "text": "Am Flughafen Tivat einen Polo abgeholt und waren in 15 Minuten in Kotors Altstadt. Die ganze Woche Perast, Budva und Lovcen erkundet. Fantastischer Service."
     },
     "1": {
-      "text": "Der BMW war in perfektem Zustand und die Grenzübertrittsdokumente für Croatia waren bei unserer Ankunft bereit. Sehr empfehlenswert."
+      "text": "Die Buchtstraße von Kotor nach Perast war das Highlight unseres Urlaubs. Mit eigenem Auto konnten wir an jedem Aussichtspunkt anhalten. Grüne Karte für Kroatien war bei Abholung bereit."
     },
     "2": {
-      "text": "Wir haben Montenegro zwei Wochen lang erkundet. Der Jeep meisterte Bergstraßen perfekt. Die beste Mietwagen-Erfahrung, die wir je hatten."
+      "text": "Wir sind von Kotor nach Dubrovnik und zurück an einem Tag gefahren, am nächsten Tag den Lovcen-Nationalpark erkundet. Der Jeep meisterte die Bergstraßen problemlos."
     }
   },
   "faqItems": {
@@ -285,12 +285,12 @@
     "tivat-airport": {
       "name": "Flughafen Tivat",
       "tag": "Beliebteste Wahl",
-      "desc": "Unser Hauptstandort. Wir treffen Sie bei der Ankunft."
+      "desc": "Nur 8 km von Kotor. Wir treffen Sie bei der Ankunft."
     },
     "kotor": {
       "name": "Kotor",
-      "tag": "UNESCO-Welterbe",
-      "desc": "Mittelalterliche ummauerte Stadt an der Adria."
+      "tag": "UNESCO-Altstadt",
+      "desc": "Mittelalterliche ummauerte Stadt und Kreuzfahrthafen."
     },
     "podgorica-airport": {
       "name": "Flughafen Podgorica",
@@ -299,33 +299,33 @@
     },
     "perast": {
       "name": "Perast",
-      "tag": "Geheimtipp",
-      "desc": "Barockdorf an der Bucht von Kotor."
+      "tag": "15 Min von Kotor",
+      "desc": "Barockdorf und Maria vom Felsen."
     },
     "budva": {
       "name": "Budva",
-      "tag": "Strandstadt",
-      "desc": "Riviera-Strände und die Altstadt-Mauern."
+      "tag": "30 Min von Kotor",
+      "desc": "Riviera-Strände und lebhafte Altstadt."
     },
     "dubrovnik-airport": {
       "name": "Flughafen Dubrovnik",
       "tag": "Grenzüberschreitend",
-      "desc": "Fliegen Sie nach Dubrovnik, fahren Sie nach Montenegro."
+      "desc": "Fliegen Sie nach Dubrovnik, fahren Sie in 2 Stunden nach Kotor."
     },
     "tivat": {
       "name": "Tivat",
-      "tag": "Hafenstadt",
-      "desc": "Porto Montenegro und die atemberaubende Boka Bay."
+      "tag": "20 Min von Kotor",
+      "desc": "Porto Montenegro und die Boka Bay."
     },
     "podgorica": {
       "name": "Podgorica",
       "tag": "Hauptstadt",
-      "desc": "Montenegros moderne Hauptstadt — Kultur und Handel."
+      "desc": "Montenegros Hauptstadt — Tor ins Landesinnere."
     }
   },
   "aboutBody": {
-    "h1": "Montenegro Autovermietung",
-    "p1": "Seit 2007 verbindet Montenegro Car Hire Reisende mit zuverlässigen und erschwinglichen Mietwagen in ganz Montenegro. Was als einfache Idee begann — Besuchern die Erkundung dieser atemberaubenden Ecke der Adriatic zu erleichtern — hat sich zu einem der vertrauenswürdigsten Mietwagenservices des Landes entwickelt.",
+    "h1": "Kotor Autovermietung",
+    "p1": "Seit 2007 verbindet Kotor Car Hire Reisende mit zuverlässigen und erschwinglichen Mietwagen in ganz Montenegro. Was als einfache Idee begann — Besuchern die Erkundung dieser atemberaubenden Ecke der Adriatic zu erleichtern — hat sich zu einem der vertrauenswürdigsten Mietwagenservices des Landes entwickelt.",
     "h2": "Warum wir angefangen haben",
     "p2": "Montenegro ist ein Land, das man am besten in eigenem Tempo erlebt. Die kurvigen Küstenstraßen, versteckten Bergdörfer und UNESCO-Welterbestätten sind mit öffentlichen Verkehrsmitteln nur schwer erreichbar. Wir sahen die Möglichkeit, Reisenden die Freiheit zu geben, Montenegro auf eigene Faust zu entdecken — keine Reisebusfahrpläne, keine verpassten Aussichtspunkte, keine Kompromisse.",
     "h3": "Was wir anbieten",

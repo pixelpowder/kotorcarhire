@@ -4,7 +4,7 @@ import ContentPage from '../../ContentPage';
 export default function Tivat() {
   const { t } = useTranslation();
   return (
-    <ContentPage title={t("tivat.title")} subtitle={t("tivat.subtitle")} description={t("tivat.seoDesc")} image="/img/pexels-6216512.jpg">
+    <ContentPage title={t("tivat.title")} subtitle={t("tivat.subtitle")} description={t("tivat.seoDesc")} image="/img/kotor-marina.webp">
       <img src="/img/pexels-6216520.jpg" alt="Porto Montenegro marina" loading="lazy" />
       <h2>{t('tivatBody.h1')}</h2>
       <p>{t('tivatBody.p1')}</p>

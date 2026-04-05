@@ -599,7 +599,7 @@ function TrustpilotBanner() {
           data-style-width="100%"
           data-token="048c09ab-d890-4af6-91a4-0c5532f846df"
         >
-          <a href="https://www.trustpilot.com/review/montenegrocarhire.com" target="_blank" rel="noopener">Trustpilot</a>
+          <a href="https://www.trustpilot.com/review/kotorcarhire.com" target="_blank" rel="noopener">Trustpilot</a>
         </div>
       </div>
     </div>
@@ -738,8 +738,8 @@ function CTABanner() {
             <a href={localePath("/book")} className="cta-btn--primary" style={{ textDecoration: 'none' }}>
               {t('cta.browseFleet')} <ArrowRight size={16} />
             </a>
-            <a href="mailto:info@montenegrocarhire.com" className="cta-btn--outline">
-              <Mail size={15} /> info@montenegrocarhire.com
+            <a href="mailto:info@kotorcarhire.com" className="cta-btn--outline">
+              <Mail size={15} /> info@kotorcarhire.com
             </a>
           </div>
         </div>

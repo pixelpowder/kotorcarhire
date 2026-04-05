@@ -57,7 +57,7 @@ export default function Nav({ logoHref }) {
             </div>
             <div className="nav__logo-text">
               {config.name}
-              <span className="nav__logo-sub">Montenegro</span>
+              <span className="nav__logo-sub">Bay of Kotor</span>
             </div>
           </a>
 
@@ -100,7 +100,7 @@ export default function Nav({ logoHref }) {
               <div className="mobile-drawer__header">
                 <div className="nav__logo-text">
                   {config.name}
-                  <span className="nav__logo-sub">Montenegro</span>
+                  <span className="nav__logo-sub">Bay of Kotor</span>
                 </div>
                 <button className="mobile-drawer__close" onClick={() => setMenuOpen(false)} aria-label="Close menu">
                   <X size={22} />
