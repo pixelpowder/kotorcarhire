@@ -95,8 +95,8 @@
   },
   "book": {
     "title": "Find Your Car",
-    "seoTitle": "Book a Car",
-    "seoDesc": "Search and book rental cars in Kotor and the Bay of Kotor. Real-time availability, instant confirmation, free cancellation."
+    "seoTitle": "Book a Car in Kotor",
+    "seoDesc": "Choose from 200+ vehicles for Bay of Kotor pickup. Compare prices, book online, and collect your car at Tivat Airport or Kotor Old Town."
   },
   "footer": {
     "brandDesc": "Car hire in Kotor and the Bay of Kotor. Tivat Airport pickup, full insurance, and no hidden fees.",
@@ -123,12 +123,12 @@
     "searchCars": "Search Cars"
   },
   "home": {
-    "seoDesc": "Rent a car in Kotor from \u20ac13/day. Pick up at Tivat Airport (8 km), Kotor Old Town, or 28+ locations. Explore the UNESCO bay, Perast, Budva, and Lovcen. Free cancellation, full insurance, no hidden fees."
+    "seoDesc": "Explore Kotor's UNESCO walled city and the fjord-like bay by car. Collect at Tivat Airport, just 8 km away, or right outside the medieval gates. From \u20ac13/day with full insurance."
   },
   "about": {
     "title": "About Us",
     "subtitle": "Helping travellers explore Kotor and the bay since 2007.",
-    "seoDesc": "About Kotor Car Hire. Helping travellers explore the Bay of Kotor since 2007 with reliable rental cars, Tivat Airport delivery, and local expertise.",
+    "seoDesc": "15+ years helping visitors navigate the Bay of Kotor. Local heritage knowledge, Tivat Airport meet-and-greet, and honest advice on fortress hikes and bay roads.",
     "heading1": "Kotor Car Hire",
     "p1": "Since 2007, Kotor Car Hire has been connecting travellers with reliable, affordable rental cars in the Bay of Kotor. What started as a simple idea \u2014 making it easier for visitors to explore this UNESCO-listed corner of the Adriatic \u2014 has grown into one of the region's most trusted car rental services.",
     "heading2": "Why We Started",
@@ -162,7 +162,7 @@
   "kotor": {
     "title": "Car Hire in Kotor",
     "subtitle": "Explore Montenegro's UNESCO jewel and the Bay of Kotor at your own pace.",
-    "seoDesc": "Rent a car in Kotor, Montenegro. Explore the UNESCO Old Town, Bay of Kotor, San Giovanni fortress, and nearby Perast. Tivat Airport pickup, 8 km away.",
+    "seoDesc": "Inside the medieval walls: Cat Museum, St Tryphon Cathedral, and 1,200 steps to San Giovanni fortress. Park outside the gates and explore on foot.",
     "heading1": "Kotor \u2014 UNESCO World Heritage Site",
     "p1": "Kotor is one of the best-preserved medieval towns on the Adriatic, sitting at the head of a dramatic fjord-like bay. The UNESCO-listed Old Town is a maze of narrow streets, Venetian palaces, Romanesque churches, and lively squares. Above it all, the fortress of San Giovanni climbs 1,200 steps to offer sweeping views across the bay.",
     "p2a": "Renting a car in Kotor",
@@ -189,62 +189,62 @@
   "tivat-airport": {
     "title": "Tivat Airport Car Hire",
     "subtitle": "Collect your rental car at arrivals \u2014 just 8 km from Kotor Old Town.",
-    "seoDesc": "Pick up your rental car at Tivat Airport (TIV), just 8 km from Kotor. We meet you at arrivals. Drive to the UNESCO Old Town, Perast, or Budva in minutes."
+    "seoDesc": "Land at TIV and be in Kotor's Old Town in 15 minutes. We meet every flight at arrivals — no queues, no shuttle buses. 8 km of coastal road separates you from the bay."
   },
   "budva": {
     "title": "Car Hire in Budva",
     "subtitle": "Montenegro's riviera \u2014 30 minutes from Kotor.",
-    "seoDesc": "Hire a car in Budva, 30 minutes from Kotor. Drive to Mogren beach, Sveti Stefan, and the riviera's best nightlife. Tivat Airport pickup available."
+    "seoDesc": "Swap Kotor's stone lanes for Budva's beaches — 25 km south along the coast. Mogren Beach by day, Old Town nightlife after dark. A world apart in 30 minutes."
   },
   "perast": {
     "title": "Car Hire in Perast",
     "subtitle": "A baroque gem 15 minutes from Kotor.",
-    "seoDesc": "Rent a car and visit Perast, 15 minutes from Kotor. See Our Lady of the Rocks island and stunning waterfront palaces on the Bay of Kotor."
+    "seoDesc": "Drive 15 minutes along the bay to Perast's baroque palaces. Hop on a boat to Our Lady of the Rocks — the island locals built stone by stone since 1452."
   },
   "podgorica": {
     "title": "Car Hire in Podgorica",
     "subtitle": "Montenegro's capital \u2014 90 minutes from Kotor.",
-    "seoDesc": "Car hire in Podgorica, Montenegro's capital. Drive from Kotor via the scenic mountain road. Explore Lake Skadar, Ostrog Monastery, and Durmitor."
+    "seoDesc": "Take the dramatic Lovcen serpentine road from Kotor to the capital. 25 hairpin bends, Lake Skadar views, and 1.5 hours of Montenegro's wildest scenery."
   },
   "podgorica-airport": {
     "title": "Podgorica Airport Car Hire",
     "subtitle": "Montenegro's main international gateway \u2014 drive to Kotor in 90 minutes.",
-    "seoDesc": "Collect your rental car at Podgorica Airport (TGD). Drive to Kotor and the Bay of Kotor in 90 minutes via the scenic inland route."
+    "seoDesc": "Flying budget airlines into TGD? Collect your car at Podgorica arrivals and reach Kotor's bay in 90 minutes via the 170 km inland route through the mountains."
   },
   "dubrovnik-airport": {
     "title": "Dubrovnik Airport Car Hire",
     "subtitle": "Fly into Croatia, drive to Kotor in 2 hours.",
-    "seoDesc": "Rent a car at Dubrovnik Airport and drive to Kotor in 2 hours via the coastal road. Full insurance and green card included for the border crossing."
+    "seoDesc": "Arriving via Dubrovnik? The 2-hour coastal drive to Kotor passes one border crossing. Green card and full insurance included — just show your passport and go."
   },
   "tivat": {
     "title": "Car Hire in Tivat",
     "subtitle": "Montenegro's marina town \u2014 20 minutes from Kotor.",
-    "seoDesc": "Hire a car in Tivat, home of Porto Montenegro marina. Drive to Kotor in 20 minutes. Explore the Bay of Kotor with affordable car rental."
+    "seoDesc": "Porto Montenegro's superyachts are 20 minutes from Kotor's medieval walls. Grab your car in Tivat and contrast marina luxury with UNESCO heritage in one day."
   },
   "montenegro": {
     "title": "Montenegro Driving Guide",
     "subtitle": "Everything you need to know about driving from Kotor across Montenegro.",
-    "seoDesc": "Complete guide to driving in Montenegro from Kotor. Road rules, speed limits, fuel prices, and the best scenic routes from the bay to the mountains."
+    "seoDesc": "Narrow bay roads, mountain switchbacks, and Old Town parking decoded. Speed limits, fuel prices, and what cruise-ship visitors need to know before driving."
   },
   "border-crossing": {
     "title": "Balkans Border Crossing Guide",
     "subtitle": "Everything you need to know about driving your rental car across borders from Kotor.",
-    "seoDesc": "Guide to crossing borders from Montenegro by rental car. Green card insurance, required documents, and tips for Croatia, Bosnia, Albania, and Serbia."
+    "seoDesc": "Green card, vehicle papers, and passport — what you need to cross into Croatia, Bosnia, Albania, or Kosovo from Kotor. Wait times and queue tips included."
   },
   "privacy": {
     "title": "Privacy Policy",
     "subtitle": "How we handle your information.",
-    "seoDesc": "Privacy policy for Kotor Car Hire. How we collect, use, and protect your personal data when you search for rental cars."
+    "seoDesc": "How Kotor Car Hire handles your data. What we store when you search for bay-area rentals, and how your booking details stay protected."
   },
   "terms": {
     "title": "Terms & Conditions",
     "subtitle": "Terms of use for our website.",
-    "seoDesc": "Terms and conditions for using Kotor Car Hire. Learn about our booking process, rental partner, pricing, and liability."
+    "seoDesc": "Booking terms for Kotor Car Hire. Covers Kotor Old Town and Tivat Airport pickup, cancellation windows, insurance details, and supplier liability."
   },
   "cookie-policy": {
     "title": "Cookie Policy",
     "subtitle": "How we use cookies on this website.",
-    "seoDesc": "Cookie policy for Kotor Car Hire. Learn what cookies we use, how the booking widget stores preferences, and how to manage them."
+    "seoDesc": "Cookies on kotorcarhire.com: what the booking widget stores, which analytics we run, and how to adjust your preferences in one click."
   },
   "featureCards": {
     "airportPickup": {

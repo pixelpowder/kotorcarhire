@@ -9,9 +9,9 @@ import { LanguageContext } from '@/src/i18n/LanguageContext';
 import { DEFAULT_LANG } from '@/src/i18n/languages';
 
 export const metadata = {
-  title: 'Kotor Car Hire — Bay of Kotor & Tivat Airport Pickup',
+  title: 'Kotor Car Hire — UNESCO Bay & Old Town Rentals',
   description:
-    'Rent a car in Kotor from €13/day. Pick up at Tivat Airport (8 km away) or Kotor Old Town. Explore the UNESCO bay, Perast, Budva, and Lovcen. Free cancellation, full insurance, no hidden fees.',
+    'Explore Kotor\'s UNESCO walled city and the fjord-like bay by car. Collect at Tivat Airport, just 8 km away, or right outside the medieval gates. From €13/day with full insurance.',
   metadataBase: new URL('https://www.kotorcarhire.com'),
 };
 
