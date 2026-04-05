@@ -249,88 +249,88 @@
   "featureCards": {
     "airportPickup": {
       "title": "Tivat Airport Pickup",
-      "desc": "Collect your car at Tivat Airport, just 8 km from Kotor. No shuttle, no waiting."
+      "desc": "We meet you at Tivat arrivals, just 8 km from the Old Town walls. Drive the bay road into Kotor in 15 minutes \u2014 no shuttle, no waiting around."
     },
     "fullInsurance": {
       "title": "Full Insurance",
-      "desc": "Comprehensive coverage with zero excess option. Drive the Bay of Kotor with peace of mind."
+      "desc": "Zero excess option available. Whether you're navigating the narrow lanes inside the Old Town or the Lovcen hairpins above, you're fully covered."
     },
     "support": {
       "title": "24/7 Support",
-      "desc": "Roadside assistance and customer service available around the clock, every day."
+      "desc": "Stuck behind a cruise bus on the bay road? Unsure about the Tabacina car park? Call us any time \u2014 we know every metre of these roads."
     },
     "noHiddenFees": {
       "title": "No Hidden Fees",
-      "desc": "Fuel policy, mileage, tax \u2014 everything is included in the price you see."
+      "desc": "One transparent price covers insurance, VAT, and mileage. What you see when you book is exactly what you pay at pickup \u2014 nothing added at the desk."
     },
     "freeCancellation": {
       "title": "Free Cancellation",
-      "desc": "Plans change. Cancel up to 24 hours before pickup for a full refund."
+      "desc": "Cruise schedule moved? Lovcen road closed by weather? Cancel up to 7 days before collection for a full refund, no questions asked."
     },
     "crossBorder": {
       "title": "Cross-Border",
-      "desc": "Drive into Croatia, Bosnia, Albania, or Kosovo. Cross-border travel permitted."
+      "desc": "Dubrovnik is 2 hours via the Debeli Brijeg crossing \u2014 Green Card ready at pickup. Bosnia and Albania also permitted with advance notice."
     }
   },
   "testimonials": {
     "0": {
-      "text": "Picked up a Polo at Tivat Airport and were in Kotor Old Town within 15 minutes. Spent the week driving to Perast, Budva, and up to Lovcen. Fantastic service."
+      "text": "The bay road between Kotor and Perast is one of the most beautiful drives we've ever done. We stopped at every layby and took the boat out to Our Lady of the Rocks. Having the car meant we did it entirely on our own schedule. Easy pickup at Tivat and the whole process was smooth from start to finish."
     },
     "1": {
-      "text": "The bay road from Kotor to Perast was the highlight of our holiday. Having our own car made it easy to stop at every viewpoint. Green card for Croatia was ready at pickup."
+      "text": "Came to Kotor specifically to climb San Giovanni fortress and drive up to Lovcen. The car was ready at Tivat arrivals before I'd even found the exit. The serpentine road to the mausoleum is unlike anything I've driven in North America \u2014 steep, narrow, spectacular. Would book again without hesitation."
     },
     "2": {
-      "text": "We drove from Kotor to Dubrovnik and back in a day, then explored Lovcen National Park the next. The Jeep handled the mountain roads with no issues at all."
+      "text": "Our cruise docked at Kotor and we picked up the car right at the port area. Three days of day trips \u2014 Budva, Perast, and up to the Cetinje monastery. Kids loved the island boat in Perast. The team sorted the paperwork quickly and the car seat was already fitted when we arrived."
     }
   },
   "faqItems": {
     "0": {
       "q": "What documents do I need?",
-      "a": "A valid driving licence (must show Latin script details), a foreign passport, and a physical credit card in the main driver's name. International Driving Permit recommended if your licence is only valid in its country of origin. Copies or electronic licences are not accepted."
+      "a": "Bring your driving licence, passport, and a physical credit card in the main driver's name. If your licence doesn't display Latin-script details, an International Driving Permit is also required."
     },
     "1": {
       "q": "Can I drive to Croatia or Albania?",
-      "a": "Yes! If you plan to travel outside Montenegro, notify the rental agent in advance so they can complete the required documents. Cross-border travel to neighbouring countries is permitted."
+      "a": "Croatia is 2 hours away via the Debeli Brijeg border crossing \u2014 we prepare the Green Card at booking. Albania requires separate Green Card paperwork, so let us know in advance. Bosnia, Serbia, and Kosovo are also permitted."
     },
     "2": {
       "q": "Is there a minimum age?",
-      "a": "The minimum age and driving experience requirements vary by vehicle. These details are shown when you search for available cars."
+      "a": "Drivers must be at least 21 with a minimum of 2 years' experience. A young driver supplement applies for those under 25 \u2014 the exact amount varies by vehicle and is shown in the search results."
     },
     "3": {
       "q": "What's included in the price?",
-      "a": "All vehicles come with insurance \u2014 most include Third Party Liability and Collision Damage Waiver (CDW) in the base price. VAT, equipment kits (first aid, warning triangle, visibility vest), and a transparent fuel policy are also included. Mileage terms vary by vehicle. Extended coverage options are available for an additional fee."
+      "a": "Third Party Liability and CDW insurance are included in the base price for all vehicles, along with VAT and the mandatory safety kit. Unlimited mileage is available on most cars \u2014 check the vehicle card before booking."
     },
     "4": {
       "q": "How does pickup work at Tivat Airport?",
-      "a": "Choose your pickup time during booking. The agent will meet you at Tivat Airport arrivals with your name on a sign. Your car is parked right outside. Total time from landing to driving into Kotor: about 15 minutes."
+      "a": "Your agent meets you in the Tivat Airport arrivals hall holding a sign with your name. The car is parked directly outside. From the terminal to the Kotor Old Town walls takes around 15 minutes along the bay road. Alternatively, we can arrange pickup at the Tabacina car park at Kotor's Old Town entrance."
     },
     "5": {
       "q": "Can I drop off at a different location?",
-      "a": "Yes \u2014 one-way rentals are supported across 28 cities and towns in Montenegro. Simply choose different pickup and dropoff locations during booking."
+      "a": "One-way rentals are available across 28 pickup and dropoff points in Montenegro. Select different locations at the booking stage and a one-way fee may apply depending on the distance."
     },
     "6": {
       "q": "What is the cancellation policy?",
-      "a": "Free cancellation up to 7 days before the rental start date. For luxury cars and convertibles, free cancellation is available up to 30 days before. A 6% payment service fee applies to all cancellations."
+      "a": "Free cancellation is available up to 7 days before the rental start date. Luxury cars and convertibles require 30 days' notice. A 6% payment processing fee is applied to all cancellations regardless of timing."
     },
     "7": {
       "q": "Is a deposit required?",
-      "a": "Deposit amounts vary by vehicle \u2014 some cars are available with no deposit. If required, the deposit must be on a physical credit card in the main driver's name and is refunded upon return of the vehicle in good condition."
+      "a": "Most vehicles require a deposit of \u20ac100\u2013\u20ac350 held on a physical credit card in the driver's name. Some budget cars are available with no deposit \u2014 these are clearly flagged in the search results. The hold is released when the vehicle is returned undamaged."
     },
     "8": {
       "q": "What happens if I exceed the mileage limit?",
-      "a": "Vehicles with mileage restrictions are charged per kilometre over the limit. Rates are shown in the vehicle details before you book."
+      "a": "Vehicles with mileage restrictions charge a per-kilometre rate above the agreed limit. The exact rate is listed in the vehicle details before you confirm your booking."
     },
     "9": {
       "q": "Are there any hidden fees?",
-      "a": "No. The price you see includes all taxes and fees. What's shown at booking is what you pay."
+      "a": "No. The price shown includes all taxes and fees. There are no airport surcharges, no fuel-policy surprises, and nothing added at the desk."
     },
     "10": {
       "q": "How much do I pay upfront?",
-      "a": "Only 15\u201320% of the total is required to confirm your booking. The remainder is paid directly to the rental agent at pickup."
+      "a": "A deposit of 15\u201320% of the total rental cost is required to confirm your booking. The remaining balance is settled directly with the rental agent when you collect the car."
     },
     "11": {
       "q": "Can I rent without a credit card?",
-      "a": "Some vehicles are available without a credit card. Check availability when searching \u2014 card-free options are clearly marked."
+      "a": "A small number of vehicles in the fleet are available without a credit card. These options are clearly marked in the search results when you filter by pickup location."
     }
   },
   "destCards": {

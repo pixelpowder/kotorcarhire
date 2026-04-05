@@ -196,89 +196,89 @@
   },
   "featureCards": {
     "airportPickup": {
-      "title": "Flughafenabholung",
-      "desc": "Holen Sie Ihr Auto am Flughafen Tivat oder Podgorica ab. Kein Shuttle, kein Warten."
+      "title": "Flughafenabholung Tivat",
+      "desc": "Wir empfangen Sie am Flughafen Tivat, nur 8 km von der Altstadt. Die Buchtstraße nach Kotor fahren Sie in 15 Minuten — kein Shuttle, kein Warten."
     },
     "fullInsurance": {
       "title": "Vollversicherung",
-      "desc": "Umfassender Schutz mit Null-Selbstbeteiligung-Option. Fahren Sie völlig sorgenfrei."
+      "desc": "Option ohne Selbstbeteiligung verfügbar. Ob Sie durch die engen Gassen der Altstadt oder über die Serpentinen des Lovcen fahren — Sie sind rundum abgesichert."
     },
     "support": {
       "title": "24/7 Support",
-      "desc": "Pannenhilfe und Kundenservice rund um die Uhr, jeden Tag."
+      "desc": "Hinter einem Kreuzfahrtbus auf der Buchtstraße festgesteckt? Unsicher wegen des Tabacina-Parkplatzes? Rufen Sie uns jederzeit an — wir kennen jeden Meter dieser Straßen."
     },
     "noHiddenFees": {
       "title": "Keine versteckten Kosten",
-      "desc": "Tankpolitik, Kilometerstand, Steuern — alles ist im angezeigten Preis enthalten."
+      "desc": "Ein transparenter Preis für Versicherung, MwSt. und Kilometerleistung. Was Sie bei der Buchung sehen, zahlen Sie bei der Abholung — nichts kommt am Schalter dazu."
     },
     "freeCancellation": {
       "title": "Kostenlose Stornierung",
-      "desc": "Pläne ändern sich. Stornieren Sie bis 24 Stunden vor Abholung für eine volle Rückerstattung."
+      "desc": "Kreuzfahrtplan geändert? Lovcen-Straße wegen Wetter gesperrt? Stornieren Sie bis 7 Tage vor Abholung für eine volle Rückerstattung, ohne Fragen."
     },
     "crossBorder": {
       "title": "Grenzüberschreitend",
-      "desc": "Fahren Sie nach Croatia, Bosnia, Albania oder Kosovo. Grenzüberschreitendes Reisen erlaubt."
+      "desc": "Dubrovnik ist 2 Stunden entfernt über den Grenzübergang Debeli Brijeg — Grüne Karte bei Abholung bereit. Bosnien und Albanien mit Vorankündigung ebenfalls erlaubt."
     }
   },
   "testimonials": {
     "0": {
-      "text": "Am Flughafen Tivat einen Polo abgeholt und waren in 15 Minuten in Kotors Altstadt. Die ganze Woche Perast, Budva und Lovcen erkundet. Fantastischer Service."
+      "text": "Die Buchtstraße zwischen Kotor und Perast ist eine der schönsten Fahrten, die wir je gemacht haben. Wir hielten an jeder Ausweichstelle und fuhren mit dem Boot zur Felseninsel. Mit dem Auto konnten wir alles in unserem eigenen Tempo erleben. Einfache Abholung in Tivat und der gesamte Ablauf war reibungslos."
     },
     "1": {
-      "text": "Die Buchtstraße von Kotor nach Perast war das Highlight unseres Urlaubs. Mit eigenem Auto konnten wir an jedem Aussichtspunkt anhalten. Grüne Karte für Kroatien war bei Abholung bereit."
+      "text": "Ich bin extra nach Kotor gereist, um die Festung San Giovanni zu besteigen und nach Lovcen zu fahren. Das Auto war schon in Tivat bereit, bevor ich den Ausgang gefunden hatte. Die Serpentinenstraße zum Mausoleum ist wie nichts, was ich bisher in Europa gefahren bin — steil, eng, spektakulär. Jederzeit wieder."
     },
     "2": {
-      "text": "Wir sind von Kotor nach Dubrovnik und zurück an einem Tag gefahren, am nächsten Tag den Lovcen-Nationalpark erkundet. Der Jeep meisterte die Bergstraßen problemlos."
+      "text": "Unser Kreuzfahrtschiff legte in Kotor an und wir holten das Auto direkt am Hafen ab. Drei Tage Ausflüge — Budva, Perast und das Cetinje-Kloster. Die Kinder liebten das Bootsfahren zur Inselkirche in Perast. Das Team erledigte den Papierkram schnell und der Kindersitz war bereits montiert."
     }
   },
   "faqItems": {
     "0": {
       "q": "Welche Dokumente werden benötigt?",
-      "a": "Führerschein in lateinischer Schrift, Reisepass und eine Kreditkarte, die auf den Namen des Hauptfahrers ausgestellt ist. Ein internationaler Führerschein wird benötigt, wenn der Führerschein nur nationale Gültigkeit hat. Dokumentkopien und Dokumente in elektronischer Form werden nicht anerkannt."
+      "a": "Bringen Sie Führerschein, Reisepass und eine physische Kreditkarte auf den Namen des Hauptfahrers mit. Enthält Ihr Führerschein keine Angaben in lateinischer Schrift, ist zusätzlich ein internationaler Führerschein erforderlich."
     },
     "1": {
       "q": "Sind Fahrten nach Kroatien oder Albanien erlaubt?",
-      "a": "Ja! Informieren Sie den Vermieter vorab über Ihre Reiseabsichten ins Ausland, damit dieser die benötigten Dokumente vorbereiten kann. Grenzüberschreitende Reisen in die benachbarten Länder sind erlaubt."
+      "a": "Kroatien ist über den Grenzübergang Debeli Brijeg 2 Stunden entfernt — wir bereiten die Grüne Karte bei der Buchung vor. Albanien erfordert separate Grüne-Karte-Unterlagen, bitte rechtzeitig Bescheid geben. Bosnien, Serbien und Kosovo sind ebenfalls erlaubt."
     },
     "2": {
       "q": "Gibt es ein Mindestalter?",
-      "a": "Die Voraussetzungen variieren je nach Fahrzeug und werden bei den Suchergebnissen angezeigt."
+      "a": "Fahrer müssen mindestens 21 Jahre alt sein und mindestens 2 Jahre Fahrerfahrung vorweisen. Für Fahrer unter 25 gilt ein Jungefahrer-Aufschlag — der genaue Betrag variiert je nach Fahrzeug und wird in den Suchergebnissen angezeigt."
     },
     "3": {
       "q": "Was ist im Preis enthalten?",
-      "a": "Eine Haftpflichtversicherung ist für alle Fahrzeuge im Preis enthalten. Viele Angebote beinhalten im Grundpreis auch eine Kaskoversicherung (CDW, engl. Collision Damage Waiver). Ebenso im Preis enthalten sind Mehrwertsteuer, Notfall- und Pannenausrüstung (Verbandkasten, Warndreieck, Sicherheitsweste) und eine transparente Kraftstoffrichtlinie. Vereinbarungen zur Kilometerlaufleistung variieren je nach Fahrzeug. Weitere Versicherungsoptionen sind gegen Aufpreis erhältlich."
+      "a": "Haftpflicht- und CDW-Versicherung sind im Grundpreis aller Fahrzeuge enthalten, ebenso Mehrwertsteuer und Pflichtausrüstung. Unbegrenzte Kilometerleistung ist bei den meisten Autos verfügbar — prüfen Sie die Fahrzeugkarte vor der Buchung."
     },
     "4": {
-      "q": "Wie funktioniert die Abholung?",
-      "a": "Die Angebote für eine Abholung mit dem Mietfahrzeug variieren je nach Anbieter und Reiseziel. Geben Sie bei der Buchung den gewünschten Ort und Zeitpunkt an, um ein Treffen vor Ort zu arrangieren. Für genauere Vereinbarungen zum Treffpunkt kontaktieren Sie bitte das Vermietunternehmen direkt im Anschluss an Ihre Buchung."
+      "q": "Wie funktioniert die Abholung am Flughafen Tivat?",
+      "a": "Ihr Agent wartet im Ankunftsbereich des Flughafens Tivat mit einem Schild mit Ihrem Namen. Das Auto steht direkt davor. Vom Terminal bis zu den Altstadtmauern Kotors dauert es entlang der Buchtstraße etwa 15 Minuten. Alternativ ist auch eine Abholung am Tabacina-Parkplatz am Altstadteingang möglich."
     },
     "5": {
       "q": "Ist eine Rückgabe an einem anderen Ort möglich?",
-      "a": "Ja — Einwegmieten werden für 28 Ziele in Montenegro angeboten. Wählen Sie hierzu bei der Buchung einfach Ihre gewünschten Abhol- und Rückgabeorte aus."
+      "a": "Einwegmieten sind an 28 Abhol- und Rückgabepunkten in Montenegro verfügbar. Wählen Sie bei der Buchung verschiedene Orte aus — je nach Entfernung kann eine Einweggebühr anfallen."
     },
     "6": {
       "q": "Kann ich meine Buchung stornieren?",
-      "a": "Eine Stornierung ist bis zu sieben Tage vor Beginn des Mietzeitraums kostenfrei möglich. Für Premiumfahrzeuge und Cabriolets ist die Stornierung bis zu 30 Tage vor Beginn des Mietzeitraums kostenfrei möglich. Für alle Stornierungen fällt eine Zahlungsgebühr von 6% des Mietpreises an."
+      "a": "Kostenlose Stornierung bis 7 Tage vor Mietbeginn. Für Luxusfahrzeuge und Cabriolets sind 30 Tage Vorlauf erforderlich. Bei allen Stornierungen fällt unabhängig vom Zeitpunkt eine Bearbeitungsgebühr von 6 % an."
     },
     "7": {
       "q": "Ist eine Mietkaution erforderlich?",
-      "a": "Die Höhe der Kaution variiert je nach Fahrzeug — einige Fahrzeuge können auch kautionsfrei gemietet werden. Für die Kautionszahlung wird eine physische Kreditkarte im Namen des Hauptfahrers benötigt. Der Kautionsbetrag wird bei Rückgabe des unbeschädigten Fahrzeuges zurückgezahlt."
+      "a": "Die meisten Fahrzeuge erfordern eine Kaution von 100–350 € auf einer physischen Kreditkarte des Hauptfahrers. Einige Kleinwagen sind ohne Kaution erhältlich — diese sind in den Suchergebnissen klar gekennzeichnet. Die Rückgabe der Kaution erfolgt bei unbeschädigter Fahrzeugrückgabe."
     },
     "8": {
       "q": "Was passiert bei Überschreitung der Kilometerlaufleistung?",
-      "a": "Für Fahrzeuge mit beschränkter Kilometerlaufleistung fällt oberhalb der vereinbarten Grenze eine Zusatzgebühr pro gefahrenen Mehrkilometer an. Die Rate ist den Mietbedingungen für das Fahrzeug zu entnehmen."
+      "a": "Fahrzeuge mit Kilometerbeschränkung berechnen einen Preis pro Kilometer über dem vereinbarten Limit. Der genaue Tarif ist in den Fahrzeugdetails vor der Buchungsbestätigung angegeben."
     },
     "9": {
       "q": "Gibt es versteckte Kosten?",
-      "a": "Der Endpreis für die Miete beinhaltet alle Steuern und Gebühren; versteckte Kosten sind nicht enthalten."
+      "a": "Nein. Der angezeigte Preis enthält alle Steuern und Gebühren. Keine Flughafenzuschläge, keine Überraschungen bei der Tankpolitik, nichts kommt am Schalter dazu."
     },
     "10": {
       "q": "Wie hoch ist die Anzahlung?",
-      "a": "Für die Bestätigung Ihrer Buchung fällt eine Anzahlung von 15–20% an. Den offenen Restbetrag begleichen Sie mit dem Vermietunternehmen bei der Abholung vor Ort."
+      "a": "Zur Bestätigung der Buchung werden 15–20 % des Gesamtmietpreises fällig. Den Restbetrag begleichen Sie direkt beim Mietanbieter bei der Fahrzeugabholung."
     },
     "11": {
       "q": "Können Fahrzeuge ohne Kreditkarte gemietet werden?",
-      "a": "Einige Fahrzeuge können auch ohne Kreditkarte gemietet werden — verfügbare Angebote sind in der Fahrzeugsuche entsprechend markiert."
+      "a": "Eine kleine Anzahl von Fahrzeugen in der Flotte ist ohne Kreditkarte verfügbar. Diese Optionen sind in den Suchergebnissen bei der Filterung nach Abholort klar markiert."
     }
   },
   "destCards": {
