@@ -1,0 +1,552 @@
+{
+  "nav": {
+    "book": "Prenota",
+    "destinations": "Destinazioni",
+    "about": "Chi Siamo"
+  },
+  "common": {
+    "home": "Home",
+    "searchCars": "Cerca Auto",
+    "callUs": "Chiamaci",
+    "bookNow": "Prenota Ora",
+    "perDay": "al giorno"
+  },
+  "hero": {
+    "headline": "Noleggio Auto Montenegro",
+    "badges": {
+      "freeCancellation": "Cancellazione Gratuita",
+      "fullInsurance": "Assicurazione Completa Inclusa",
+      "airportPickup": "Ritiro in Aeroporto in 10 Min",
+      "trustpilot": "4.8/5 su Trustpilot"
+    },
+    "search": "Cerca",
+    "pickupLocation": "Luogo di ritiro",
+    "searchLocation": "Cerca luogo…",
+    "pickupDate": "Data di ritiro",
+    "pickupTime": "Ora",
+    "dropoffDate": "Data di riconsegna",
+    "dropoffTime": "Ora"
+  },
+  "trust": {
+    "noHiddenFees": "Nessun Costo Nascosto",
+    "noHiddenFeesDesc": "Il prezzo indicato è tutto incluso",
+    "fullInsurance": "Assicurazione Completa",
+    "fullInsuranceDesc": "Opzione zero franchigia disponibile",
+    "fastPickup": "Ritiro in 10 Min",
+    "fastPickupDesc": "Ti accogliamo agli arrivi"
+  },
+  "stats": {
+    "years": "Anni di Esperienza",
+    "rentals": "Noleggi Soddisfatti",
+    "rating": "Valutazione Clienti",
+    "locations": "Punti di Ritiro"
+  },
+  "howItWorks": {
+    "label": "Come Funziona",
+    "title": "In Strada in 3 Passi",
+    "subtitle": "Prenotazione semplice. Conferma immediata. Nessuna coda in aeroporto.",
+    "step1Title": "Scegli il Luogo",
+    "step1Desc": "Scegli tra aeroporti, Kotor, Budva, Perast e altri punti di ritiro in tutto il Montenegro e oltre.",
+    "step2Title": "Scegli la Tua Auto",
+    "step2Desc": "Sfoglia la nostra flotta dalle utilitarie ai SUV premium. Filtra per dimensione, cambio o budget.",
+    "step3Title": "Guida in Montenegro",
+    "step3Desc": "Ti accogliamo agli arrivi. La tua auto è pronta. Esplora la costa, le montagne e le città storiche."
+  },
+  "fleet": {
+    "label": "La Nostra Flotta",
+    "title": "Scegli la Tua Auto",
+    "subtitle": "Consulta disponibilità e prezzi in tempo reale — prenota direttamente."
+  },
+  "brands": {
+    "label": "Marchi affidabili nella nostra flotta"
+  },
+  "destinations": {
+    "label": "Destinazioni Principali",
+    "title": "Esplora il Montenegro",
+    "subtitle": "Dalle Bocche di Kotor al confine albanese — ogni destinazione è un mondo diverso."
+  },
+  "features": {
+    "label": "Perché Sceglierci",
+    "title": "Pensato per i Viaggiatori",
+    "subtitle": "Tutto ciò che serve per un noleggio auto senza stress in Montenegro."
+  },
+  "reviews": {
+    "label": "Recensioni",
+    "title": "Amato dai Viaggiatori",
+    "subtitle": "Esperienze reali di clienti reali in tutto il Montenegro."
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Domande Frequenti",
+    "subtitle": "Tutto ciò che devi sapere prima di prenotare."
+  },
+  "cta": {
+    "title": "Pronto a Esplorare il Montenegro?",
+    "subtitle": "Prenota in pochi minuti. Ritira in aeroporto. Percorri tutta la costa adriatica al tuo ritmo.",
+    "browseFleet": "Sfoglia la Flotta"
+  },
+  "sidebar": {
+    "bookTitle": "Prenota la Tua Auto",
+    "bookText": "Cerca disponibilità e prezzi in tempo reale in tutto il Montenegro.",
+    "helpTitle": "Hai Bisogno di Aiuto?",
+    "helpText": "Il nostro team è disponibile via WhatsApp, Viber o telefono.",
+    "popularDest": "Destinazioni Popolari"
+  },
+  "book": {
+    "title": "Trova la Tua Auto",
+    "seoTitle": "Prenota un'Auto",
+    "seoDesc": "Cerca e prenota auto a noleggio in Montenegro. Disponibilità in tempo reale, conferma immediata, cancellazione gratuita."
+  },
+  "footer": {
+    "brandDesc": "Noleggio auto premium in Montenegro dal 2007. Ritiro in aeroporto, assicurazione completa e nessun costo nascosto.",
+    "quickLinks": "Link Rapidi",
+    "guides": "Guide",
+    "locations": "Sedi",
+    "carHireBooking": "Prenotazione Noleggio Auto",
+    "ourFleet": "La Nostra Flotta",
+    "destinations": "Destinazioni",
+    "aboutUs": "Chi Siamo",
+    "faqLink": "FAQ",
+    "montenegroGuide": "Guida Viaggio Montenegro",
+    "borderGuide": "Guida Attraversamento Frontiere",
+    "searchCars": "Cerca Auto",
+    "privacyPolicy": "Informativa sulla Privacy",
+    "terms": "Termini e Condizioni",
+    "cookiePolicy": "Politica sui Cookie"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Strada Sbagliata",
+    "text": "Sembra che tu abbia preso una deviazione. Questa strada non porta da nessuna parte — ma le migliori rotte del Montenegro sono a un solo clic.",
+    "backHome": "Torna alla Home",
+    "searchCars": "Cerca Auto"
+  },
+  "home": {
+    "seoDesc": "Noleggia un'auto in Montenegro da 13 €/giorno. Ritiro all'aeroporto di Tivat, Podgorica, Kotor, Budva e oltre 28 punti. Cancellazione gratuita, assicurazione completa, nessun costo nascosto. Prenota online in pochi minuti."
+  },
+  "about": {
+    "title": "Chi Siamo",
+    "subtitle": "Aiutiamo i viaggiatori a esplorare il Montenegro dal 2007.",
+    "seoDesc": "Chi è Montenegro Car Hire. Dal 2007 aiutiamo i viaggiatori a esplorare il Montenegro con auto affidabili, consegna in aeroporto e competenza locale."
+  },
+  "kotor": {
+    "title": "Noleggio Auto a Kotor",
+    "subtitle": "Esplora il gioiello UNESCO del Montenegro al tuo ritmo.",
+    "seoDesc": "Noleggia un'auto a Kotor, Montenegro. Esplora il centro storico UNESCO, le Bocche di Kotor e la vicina Perast con noleggio conveniente e consegna gratuita in aeroporto."
+  },
+  "tivat-airport": {
+    "title": "Noleggio Auto Aeroporto Tivat",
+    "subtitle": "Ritira la tua auto a noleggio agli arrivi.",
+    "seoDesc": "Ritira la tua auto a noleggio all'aeroporto di Tivat (TIV). Ti aspettiamo agli arrivi con il veicolo pronto. Raggiungi Kotor, Budva o Porto Montenegro in pochi minuti."
+  },
+  "budva": {
+    "title": "Noleggio Auto a Budva",
+    "subtitle": "La riviera del Montenegro — spiagge, vita notturna e fascino della città vecchia.",
+    "seoDesc": "Noleggia un'auto a Budva, Montenegro. Raggiungi la spiaggia di Mogren, Sveti Stefan e la migliore vita notturna della riviera. Assicurazione completa, nessun costo nascosto."
+  },
+  "perast": {
+    "title": "Noleggio Auto a Perast",
+    "subtitle": "Un gioiello barocco sulle Bocche di Kotor.",
+    "seoDesc": "Noleggia un'auto e visita Perast, un gioiello barocco sulle Bocche di Kotor. Ammira l'isola della Madonna dello Scalpello e splendidi palazzi sul lungomare al tuo ritmo."
+  },
+  "podgorica": {
+    "title": "Noleggio Auto a Podgorica",
+    "subtitle": "La capitale del Montenegro — cultura, fiumi e fascino moderno.",
+    "seoDesc": "Noleggio auto a Podgorica, capitale del Montenegro. Esplora il Lago di Scutari, il Monastero di Ostrog e Durmitor con un'auto a noleggio. Ritiro in aeroporto disponibile."
+  },
+  "podgorica-airport": {
+    "title": "Noleggio Auto Aeroporto Podgorica",
+    "subtitle": "Il principale gateway internazionale del Montenegro.",
+    "seoDesc": "Ritira la tua auto a noleggio all'aeroporto di Podgorica (TGD). Consegniamo il veicolo agli arrivi. Raggiungi la costa, il Lago di Scutari o il Parco Nazionale Durmitor."
+  },
+  "dubrovnik-airport": {
+    "title": "Noleggio Auto Aeroporto Dubrovnik",
+    "subtitle": "Vola in Croazia, guida verso il Montenegro.",
+    "seoDesc": "Noleggia un'auto all'aeroporto di Dubrovnik e guida verso il Montenegro. Attraversa il confine in meno di un'ora. Assicurazione completa e carta verde incluse."
+  },
+  "tivat": {
+    "title": "Noleggio Auto a Tivat",
+    "subtitle": "La città marina del Montenegro sulle Bocche di Kotor.",
+    "seoDesc": "Noleggia un'auto a Tivat, sede del porto turistico Porto Montenegro. Esplora le spiagge vicine, Kotor e le Bocche di Kotor con un noleggio conveniente."
+  },
+  "montenegro": {
+    "title": "Noleggio Auto e Guida Viaggio Montenegro",
+    "subtitle": "Tutto ciò che devi sapere sulla guida in Montenegro.",
+    "seoDesc": "Guida completa alla guida in Montenegro. Regole stradali, limiti di velocità, prezzi del carburante e i migliori percorsi panoramici dalla costa alle montagne."
+  },
+  "border-crossing": {
+    "title": "Guida Attraversamento Frontiere Balcani",
+    "subtitle": "Tutto sul passaggio delle frontiere con la tua auto a noleggio.",
+    "seoDesc": "Guida all'attraversamento delle frontiere dal Montenegro con auto a noleggio. Assicurazione carta verde, documenti necessari e consigli per Croazia, Bosnia, Albania e Serbia."
+  },
+  "privacy": {
+    "title": "Informativa sulla Privacy",
+    "subtitle": "Come gestiamo le tue informazioni.",
+    "seoDesc": "Informativa sulla privacy di Montenegro Car Hire. Come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali durante la ricerca di auto a noleggio."
+  },
+  "terms": {
+    "title": "Termini e Condizioni",
+    "subtitle": "Condizioni di utilizzo del nostro sito web.",
+    "seoDesc": "Termini e condizioni di utilizzo di Montenegro Car Hire. Scopri il processo di prenotazione, il partner di noleggio, i prezzi e la responsabilità."
+  },
+  "cookie-policy": {
+    "title": "Politica sui Cookie",
+    "subtitle": "Come utilizziamo i cookie su questo sito.",
+    "seoDesc": "Politica sui cookie di Montenegro Car Hire. Scopri quali cookie utilizziamo, come il widget di prenotazione memorizza le preferenze e come gestirli."
+  },
+  "featureCards": {
+    "airportPickup": {
+      "title": "Ritiro in aeroporto",
+      "desc": "Ritira la tua auto agli arrivi dell'aeroporto di Tivat o Podgorica. Nessuna navetta, nessuna attesa."
+    },
+    "fullInsurance": {
+      "title": "Assicurazione completa",
+      "desc": "Copertura completa con opzione franchigia zero. Guida in totale tranquillità."
+    },
+    "support": {
+      "title": "Assistenza 24/7",
+      "desc": "Soccorso stradale e servizio clienti disponibili 24 ore su 24, tutti i giorni."
+    },
+    "noHiddenFees": {
+      "title": "Nessun costo nascosto",
+      "desc": "Politica carburante, chilometraggio, tasse — tutto è incluso nel prezzo che vedi."
+    },
+    "freeCancellation": {
+      "title": "Cancellazione gratuita",
+      "desc": "I piani cambiano. Cancella fino a 24 ore prima del ritiro per un rimborso completo."
+    },
+    "crossBorder": {
+      "title": "Oltre confine",
+      "desc": "Guida in Croatia, Bosnia, Albania o Kosovo. Viaggi transfrontalieri consentiti."
+    }
+  },
+  "testimonials": {
+    "0": {
+      "text": "Ho ritirato un'Octavia impeccabile all'aeroporto di Tivat in meno di 5 minuti. Valore incredibile."
+    },
+    "1": {
+      "text": "La BMW era in condizioni perfette e i documenti per la Croatia erano pronti al nostro arrivo. Altamente consigliato."
+    },
+    "2": {
+      "text": "Abbiamo esplorato il Montenegro per due settimane. Il Jeep ha affrontato perfettamente le strade di montagna."
+    }
+  },
+  "faqItems": {
+    "0": {
+      "q": "Quali documenti mi servono?",
+      "a": "Una patente di guida valida (deve riportare i dati in caratteri latini), un passaporto e una carta di credito fisica intestata al conducente principale. Si consiglia la Patente Internazionale di Guida se la propria patente è valida solo nel paese di rilascio. Copie o patenti elettroniche non sono accettate."
+    },
+    "1": {
+      "q": "Posso guidare in Croazia o Albania?",
+      "a": "Sì! Se prevedi di viaggiare fuori dal Montenegro, avvisa in anticipo l'agente di noleggio affinché possa preparare i documenti necessari. I viaggi transfrontalieri nei paesi limitrofi sono consentiti."
+    },
+    "2": {
+      "q": "C'è un'età minima?",
+      "a": "L'età minima e i requisiti di esperienza di guida variano in base al veicolo. Questi dettagli vengono mostrati quando cerchi le auto disponibili."
+    },
+    "3": {
+      "q": "Cosa è incluso nel prezzo?",
+      "a": "Tutti i veicoli sono assicurati — la maggior parte include l'assicurazione di responsabilità civile e la copertura per danni da collisione (CDW) nel prezzo base. IVA, kit di equipaggiamento (kit di primo soccorso, triangolo di emergenza, giubbotto catarifrangente) e una politica carburante trasparente sono inclusi. Le condizioni sul chilometraggio variano in base al veicolo. Opzioni di copertura estesa sono disponibili a un costo aggiuntivo."
+    },
+    "4": {
+      "q": "Come funziona il ritiro?",
+      "a": "Scegli l'orario e il luogo di ritiro durante la prenotazione — le opzioni variano in base all'agente di noleggio e alla destinazione. L'agente organizzerà l'incontro nel luogo concordato. Per i dettagli precisi sul punto di incontro, contatta l'agente direttamente dopo la prenotazione."
+    },
+    "5": {
+      "q": "Posso restituire il veicolo in un luogo diverso?",
+      "a": "Sì — il noleggio con riconsegna in altra sede è disponibile in 28 città e località del Montenegro. Basta scegliere luoghi di ritiro e riconsegna diversi durante la prenotazione."
+    },
+    "6": {
+      "q": "Qual è la politica di cancellazione?",
+      "a": "Cancellazione gratuita fino a 7 giorni prima della data di inizio noleggio. Per auto di lusso e cabriolet, la cancellazione gratuita è disponibile fino a 30 giorni prima. Una commissione del 6 % per il servizio di pagamento si applica a tutte le cancellazioni."
+    },
+    "7": {
+      "q": "È richiesto un deposito cauzionale?",
+      "a": "L'importo del deposito varia in base al veicolo — alcuni veicoli sono disponibili senza deposito. Se richiesto, il deposito deve essere su una carta di credito fisica intestata al conducente principale e viene rimborsato alla riconsegna del veicolo in buone condizioni."
+    },
+    "8": {
+      "q": "Cosa succede se supero il limite di chilometraggio?",
+      "a": "Per i veicoli con limiti di chilometraggio viene addebitato un costo per ogni chilometro eccedente. Le tariffe sono indicate nei dettagli del veicolo prima della prenotazione."
+    },
+    "9": {
+      "q": "Ci sono costi nascosti?",
+      "a": "No. Il prezzo visualizzato include tutte le tasse e i costi. Quello che vedi al momento della prenotazione è quello che paghi."
+    },
+    "10": {
+      "q": "Quanto pago in anticipo?",
+      "a": "Solo il 15–20 % del totale è richiesto per confermare la prenotazione. Il saldo viene pagato direttamente all'agente di noleggio al momento del ritiro."
+    },
+    "11": {
+      "q": "Posso noleggiare senza carta di credito?",
+      "a": "Alcuni veicoli sono disponibili senza carta di credito. Verifica la disponibilità durante la ricerca — le opzioni senza carta di credito sono chiaramente indicate."
+    }
+  },
+  "destCards": {
+    "tivat-airport": {
+      "name": "Aeroporto di Tivat",
+      "tag": "Più popolare",
+      "desc": "Il nostro hub principale. Ti incontriamo agli arrivi."
+    },
+    "kotor": {
+      "name": "Kotor",
+      "tag": "Sito UNESCO",
+      "desc": "Città medievale murata sull'Adriatico."
+    },
+    "podgorica-airport": {
+      "name": "Aeroporto di Podgorica",
+      "tag": "Hub della capitale",
+      "desc": "Il principale aeroporto internazionale del Montenegro."
+    },
+    "perast": {
+      "name": "Perast",
+      "tag": "Gioiello nascosto",
+      "desc": "Villaggio barocco sulla Baia di Kotor."
+    },
+    "budva": {
+      "name": "Budva",
+      "tag": "Città balneare",
+      "desc": "Spiagge della riviera e le mura della città vecchia."
+    },
+    "dubrovnik-airport": {
+      "name": "Aeroporto di Dubrovnik",
+      "tag": "Oltre confine",
+      "desc": "Vola a Dubrovnik, guida fino al Montenegro."
+    },
+    "tivat": {
+      "name": "Tivat",
+      "tag": "Città del porto",
+      "desc": "Porto Montenegro e la splendida Boka Bay."
+    },
+    "podgorica": {
+      "name": "Podgorica",
+      "tag": "Capitale",
+      "desc": "La moderna capitale del Montenegro — cultura e commercio."
+    }
+  },
+  "aboutBody": {
+    "h1": "Noleggio Auto Montenegro",
+    "p1": "Dal 2007, Montenegro Car Hire mette in contatto i viaggiatori con auto a noleggio affidabili e convenienti in tutto il Montenegro. Quella che è nata come una semplice idea — rendere più facile per i visitatori esplorare questo splendido angolo dell'Adriatic — è diventata uno dei servizi di autonoleggio più affidabili del Paese.",
+    "h2": "Perché abbiamo iniziato",
+    "p2": "Il Montenegro è un Paese che si vive meglio al proprio ritmo. Le tortuose strade costiere, i villaggi di montagna nascosti e le città patrimonio UNESCO sono difficili da raggiungere con i mezzi pubblici. Abbiamo colto l'opportunità di offrire ai viaggiatori la libertà di scoprire il Montenegro alle proprie condizioni — niente orari di pullman turistici, niente panorami persi, nessun compromesso.",
+    "h3": "Cosa offriamo",
+    "p3": "Offriamo servizi di autonoleggio in tutto il Montenegro, con ritiro e riconsegna presso l'aeroporto di Tivat, l'aeroporto di Podgorica e in diverse località lungo la costa e nell'entroterra. La nostra flotta spazia dalle auto compatte per la città ai SUV spaziosi, tutti con assicurazione completa e senza costi nascosti.",
+    "promiseTitle": "La nostra promessa",
+    "promise1": "Assicurazione completa con opzione franchigia zero",
+    "promise2": "Accoglienza in aeroporto — portiamo l'auto direttamente all'area arrivi",
+    "promise3": "Nessun costo nascosto — il prezzo che vedi è il prezzo che paghi",
+    "promise4": "Viaggi transfrontalieri consentiti verso Croazia, Bosnia, Albania, Serbia e Kosovo",
+    "promise5": "Cancellazione gratuita sulla maggior parte delle prenotazioni",
+    "promise6": "Assistenza stradale 24/7 per tutta la durata del viaggio",
+    "h4": "Conoscenza locale",
+    "p4": "Con sede in Montenegro, conosciamo le strade, i percorsi migliori e le perle nascoste che le guide non menzionano. Che stiate guidando dall'aeroporto di Tivat al centro storico medievale di Kotor, percorrendo la strada panoramica attraverso le Bocche di Kotor fino a Perast, o dirigendovi verso l'entroterra fino al Parco Nazionale del Durmitor, possiamo aiutarvi a pianificare il viaggio in auto perfetto.",
+    "h5": "Contattaci",
+    "p5": "Hai domande sul noleggio auto in Montenegro? Siamo raggiungibili via telefono, WhatsApp e Viber. Sfoglia la nostra flotta online e prenota in pochi minuti — oppure contattaci e ti aiuteremo a trovare l'auto perfetta per il tuo viaggio."
+  },
+  "kotorBody": {
+    "h1": "Kotor — Patrimonio Mondiale dell'UNESCO",
+    "p1": "Kotor è una delle città costiere più affascinanti del Montenegro, che offre spiagge magnifiche, il fascino del centro storico e mura medievali che ospitano gallerie d'arte, caffè e ristoranti eccellenti. In quanto Patrimonio Mondiale dell'UNESCO, i monumenti della città sono concentrati nel centro storico splendidamente conservato.",
+    "p2": "Noleggiare un'auto a Kotor vi dà la libertà di esplorare le attrazioni locali e le città e aree naturali montenegrine vicine al vostro ritmo. La disponibilità di parcheggio varia stagionalmente, con il turismo estivo che crea scarsità nel centro — ma ci sono parcheggi più grandi sulle strade di accesso.",
+    "landmarksTitle": "Monumenti",
+    "stJohnTitle": "Fortezza di San Giovanni",
+    "stJohnText": "Un'imponente struttura che storicamente proteggeva la città dagli attacchi dei pirati. Caratteristiche degne di nota includono la Torre Contarini e la Chiesa della Madonna della Salute, che offre viste mozzafiato sul centro storico e sulla Baia di Kotor.",
+    "cathedralTitle": "Cattedrale di San Trifone",
+    "cathedralText": "Costruita nell'809 d.C. e ricostruita nel 1124, questa cattedrale contiene una notevole architettura bizantina e opere d'arte che riflettono la ricca storia della regione.",
+    "dayTripsTitle": "Gite Giornaliere da Kotor",
+    "perastTrip": "Situata nella vicina Perast, questa chiesa si trova su un'isola artificiale nella Baia di Kotor. I pescatori vi hanno gettato pietre ogni anno dal 1452, facendo crescere gradualmente l'isola. L'accesso in traghetto costa circa 1 Euro; le barche private costano circa 5 Euro. Il tragitto in auto da Kotor dura meno di 30 minuti percorrendo la E65/E80 verso nord.",
+    "cetinjeTrip": "Costruito nel 1701, il monastero custodisce la mano di Giovanni Battista. Presenta decorazioni ornamentali e arte ortodossa. Il tragitto in auto da Kotor dura circa un'ora attraverso panoramiche strade di montagna.",
+    "royalCourtText": "Il palazzo reale del Montenegro del 1871, che espone opere d'arte, manufatti e fotografie della storia reale del paese. Situato accanto al monastero nell'antica capitale reale."
+  },
+  "budvaBody": {
+    "h1": "Budva — Il Cuore della Riviera Montenegrina",
+    "p1": "Budva è la destinazione balneare più popolare del Montenegro, che attira visitatori da tutta Europa con la sua splendida costa, la vivace vita notturna e il centro storico medievale splendidamente conservato. Con un'auto a noleggio, l'intera Riviera di Budva e oltre è a portata di mano.",
+    "p2": "La città si trova a circa 20 minuti a sud dell'Aeroporto di Tivat, rendendola una delle destinazioni costiere più facili da raggiungere dopo l'atterraggio. Budva combina 2.500 anni di storia con un'atmosfera vacanziera completamente moderna — antiche mura cittadine di giorno, vivaci bar sulla spiaggia di notte.",
+    "beachesTitle": "Spiagge",
+    "beachesIntro": "La Riviera di Budva si estende per 21 chilometri, offrendo alcune delle più belle spiagge della costa adriatica:",
+    "mogren": "Due spiagge di ciottoli collegate, raggiungibili attraverso un tunnel scavato nelle scogliere, a pochi minuti dal centro storico",
+    "jaz": "Un'ampia spiaggia sabbiosa popolare sia tra i locali che tra i visitatori, sede di festival musicali in estate",
+    "svetiStefan": "L'iconico isolotto-hotel visibile dalla strada costiera, con una spiaggia pubblica su un lato",
+    "becici": "Una lunga distesa di sabbia fine che è stata votata come la spiaggia più bella d'Europa",
+    "oldTownTitle": "Centro Storico",
+    "oldTownText": "Il centro storico di Budva (Stari Grad) è una compatta cittadella fortificata su una piccola penisola. All'interno delle mura troverete strette stradine acciottolate, architettura dell'epoca veneziana, piccole chiese risalenti al VII secolo e un vivace mix di ristoranti, gallerie e boutique. La fortezza Citadela sulla punta meridionale offre viste panoramiche sulla costa e sulle isole vicine.",
+    "dayTripsTitle": "Gite Giornaliere da Budva",
+    "svetiStefanTrip": "A soli 6 km a sud, questo fotogenico villaggio-isola fortificato è oggi un hotel di lusso, ma le viste dalla strada sovrastante sono spettacolari e gratuite. La spiaggia sul lato della terraferma è aperta a tutti.",
+    "kotorTrip": "Un viaggio di 30 minuti in auto verso nord attraverso un suggestivo tunnel montano vi porta alla Baia di Kotor e al suo centro storico inserito nella lista UNESCO.",
+    "lovcenTrip": "Dirigetevi verso l'interno per ammirare i paesaggi montani e il Mausoleo di Njegos, arroccato a 1.657 metri con viste su quattro paesi nelle giornate limpide. La strada tortuosa dalla costa è un'esperienza in sé.",
+    "gettingAroundTitle": "Come Spostarsi",
+    "gettingAroundText": "Mentre il centro storico di Budva è meglio esplorarlo a piedi, un'auto a noleggio è essenziale per raggiungere le migliori spiagge, i villaggi vicini e le attrazioni dell'entroterra. Il parcheggio è disponibile vicino alle mura del centro storico e in diversi parcheggi pubblici lungo la strada principale. In piena estate, arrivare presto assicura i posti migliori."
+  },
+  "perastBody": {
+    "h1": "Perast — Gemma Nascosta sulla Baia",
+    "p1": "Il piccolo villaggio di Perast si trova a breve distanza in auto — meno di 20 minuti — da Kotor. I turisti che noleggiano un'auto per il loro tour del Montenegro vorranno certamente percorrere l'autostrada E65/E80 per trascorrere del tempo in questo incantevole villaggio di pescatori.",
+    "p2": "Sebbene abbia solo circa 850 abitanti, la lunga e colorata storia di Perast supera certamente le sue piccole dimensioni. Dal 1420 al 1797, la città appartenne alla Repubblica di Venezia ed era nota per i suoi maestri costruttori navali e marinai. Perast possiede molti splendidi ricordi del passato e alcuni eccellenti esempi di architettura barocca.",
+    "islandsTitle": "Le Isole",
+    "stGeorgeTitle": "Isola di San Giorgio",
+    "stGeorgeText": "Un'isola naturale appena al largo della costa nella Baia di Kotor, sede del Monastero Benedettino di San Giorgio, costruito nel XII secolo. Piccole imbarcazioni dal porto portano i visitatori sull'isola per pochi Euro.",
+    "ladyOfRocksTitle": "Madonna dello Scalpello",
+    "ladyOfRocksText": "Un'isola artificiale che ospita la chiesa omonima. L'isola fu creata dai marinai della città che gettavano pietre e affondavano vecchie barche e navi nel corso dei secoli. Ogni anno questa tradizione continua, e il 22 luglio i turisti possono assistere mentre gli abitanti del luogo riempiono le loro barche di pietre per contribuire a mantenere intatta l'isola.",
+    "historicTitle": "Siti Storici",
+    "historicText": "La città vanta numerosi palazzi, cattedrali e diverse torri di guardia che un tempo proteggevano la città. Per chi è interessato a conoscere in dettaglio la storia di Perast, il Museo di Perast contiene molti manufatti, archivi, dipinti, sculture e documenti cittadini. Il museo si trova nell'antico Palata Buiovich, che molti considerano l'edificio più bello della costa montenegrina.",
+    "monasteryTitle": "Monastero di Banja",
+    "monasteryText": "Situato appena a nord di Perast sulla strada per Risan, il Monastero di Banja presenta molti antichi pezzi religiosi provenienti da dinastie russe, greche e di Boka. Per raggiungere il monastero, continuate verso nord sulla E65/E80 per pochi chilometri."
+  },
+  "tivatBody": {
+    "h1": "Tivat — Città del Porto Turistico",
+    "p1": "Tivat è una delle città più recenti lungo la costa montenegrina, costruita poco più di un secolo fa. La città ospita uno dei soli due aeroporti pubblici del Montenegro — l'Aeroporto di Tivat — rendendola una base incredibilmente comoda per i visitatori che arrivano in aereo.",
+    "p2": "Questa località balneare ha una popolazione di circa 13.000 abitanti. I visitatori possono godersi le passeggiate sul lungomare, cenare nei bistrot fronte mare ed esplorare i negozi nascosti in stretti vicoli. Durante l'alta stagione, la città bilancia la tranquillità con una vivace attività turistica.",
+    "beachesTitle": "Spiagge",
+    "beachesText": "Tivat vanta 17 spiagge distribuite su 3 chilometri di costa, riconosciute tra le più belle del Mediterraneo. Le spiagge principali includono:",
+    "beach1": "Plavi Horizanti (Orizzonti Blu): Sabbia bianca, acque cristalline, perfetta per nuotare e prendere il sole",
+    "beach2": "Przno sull'Isola di Sveti Marko: Un'area turistica abbandonata che offre isolamento e acque incontaminate, ideale per gli sport acquatici",
+    "portoTitle": "Porto Montenegro",
+    "portoText": "Il gioiello di Tivat è Porto Montenegro, un porto turistico di lusso per yacht e un villaggio sul lungomare che ha trasformato la città in una delle destinazioni più alla moda dell'Adriatico. Il complesso del porto turistico presenta boutique, ristoranti, un pool club ed eventi regolari durante tutta la stagione estiva.",
+    "culturalTitle": "Attrazioni Culturali",
+    "monasteryTitle": "Monastero di San Michele Arcangelo",
+    "monasteryText": "Rovine del X secolo situate sulla penisola di Prevlaka, con lavori archeologici in corso che portano alla luce l'antica storia del sito.",
+    "churchTitle": "Chiesa di Sveti Antun Padovanski",
+    "churchText": "Costruita nel 1734, questa chiesa contiene dipinti e manufatti religiosi, con splendide viste sulla baia.",
+    "museumText": "A soli 10 minuti di auto a Kotor, il Museo Marittimo espone il ricco patrimonio marinaro del Montenegro e centri di apprendimento storico."
+  },
+  "tivatAirportBody": {
+    "h1": "Noleggio Auto all'Aeroporto di Tivat (TIV)",
+    "p1": "La piccola città di Tivat possiede l'unico altro aeroporto commerciale del Montenegro oltre a Podgorica. La struttura ha subito una recente modernizzazione, con un nuovo terminal per le partenze internazionali e gli arrivi nazionali. Il codice aeroportuale è TIV, situato a soli 4 km dal centro città.",
+    "p2": "Come Podgorica, l'Aeroporto di Tivat ha più voli durante l'alta stagione estiva ma mantiene voli giornalieri per Belgrado tutto l'anno. I voli charter operano intensamente durante i mesi estivi. A causa del terreno unico che circonda l'aeroporto, è ben noto come uno degli aeroporti più impegnativi in cui atterrare.",
+    "distancesTitle": "Distanze dall'Aeroporto di Tivat",
+    "dist1": "Kotor: circa 10 minuti",
+    "dist2": "Budva: circa 20 minuti",
+    "dist3": "Podgorica: 80 km",
+    "dist4": "Bar: 58 km",
+    "facilitiesTitle": "Servizi dell'Aeroporto",
+    "facilitiesText": "L'aeroporto offre caffetterie, telefoni pubblici, negozi di souvenir e shopping duty-free. I servizi di autobus collegano a Herceg Novi e Budva, con servizio taxi disponibile anche all'esterno del terminal.",
+    "whyTitle": "Perché Noleggiare all'Aeroporto di Tivat?",
+    "whyText": "L'Aeroporto di Tivat è l'aeroporto più vicino alle destinazioni costiere più popolari del Montenegro. Pochi minuti dopo l'atterraggio, potrete guidare lungo la Baia di Kotor verso la città medievale fortificata, o dirigervi a sud verso le spiagge di Budva. Ritirare l'auto a Tivat significa nessun trasferimento, nessuna attesa per gli autobus — direttamente dal terminal alla strada aperta.",
+    "meetText": "Vi accogliamo nella sala arrivi con il vostro nome su un cartello. La vostra auto è parcheggiata proprio fuori. Tempo totale dall'atterraggio alla guida: circa 10 minuti."
+  },
+  "podgoricaBody": {
+    "h1": "Podgorica — La Capitale",
+    "p1": "La maggior parte dei turisti che volano in Montenegro inizierà il proprio viaggio all'Aeroporto di Podgorica (TGD), situato a 9 km dal centro città. Essendo sia la capitale che la città più grande del Montenegro, Podgorica ospita circa 170.000 residenti e si trova in posizione unica sulle rive di sei fiumi: la Moraca, la Ribnica, la Zeta, la Sitnica, la Mareza e la Cijevna.",
+    "p2": "L'architettura della città riflette diverse influenze storiche. Il dominio ottomano ha lasciato il suo segno, mentre strutture medievali si affiancano a edifici funzionalisti dell'era comunista e moderne torri di vetro. Il Ponte del Millennio è diventato un simbolo dell'estetica moderna della città.",
+    "p3": "Podgorica è la capitale culturale del paese. I turisti che si precipitano verso le città balneari o le montagne senza trascorrere del tempo qui perderanno certamente una parte importante del Montenegro.",
+    "seeTitle": "Cosa Vedere",
+    "seeText": "Tra le attrazioni per lo shopping spiccano i tessuti italiani, le gallerie d'arte e i vini e le grappe locali. Le attrazioni degne di nota includono la Sat-Kula (la torre dell'orologio) di epoca ottomana e Duklja, un sito archeologico risalente a circa duemila anni fa.",
+    "dayTripsTitle": "Gite Giornaliere da Podgorica",
+    "skadarTitle": "Lago di Skadar",
+    "skadarText": "Potenzialmente il lago più bello d'Europa, situato al confine tra Montenegro e Albania come Parco Nazionale. Dimora di milioni di pellicani, è il lago più grande dei Balcani e una meta imperdibile per gli amanti della natura.",
+    "danilovgradTitle": "Danilovgrad",
+    "danilovgradText": "Una pittoresca città fluviale a circa trenta minuti a ovest di Podgorica, che offre spiagge lungo il fiume, gite in barca, gallerie e il vicino monastero di Zdrebaonik.",
+    "zabljak": "Una città alpina nella regione montuosa del Durmitor, situata a 1.500 metri sul livello del mare e a 170 chilometri da Podgorica. Una destinazione per tutto l'anno che offre sci in inverno e escursionismo, rafting e mountain bike in estate."
+  },
+  "podgoricaAirportBody": {
+    "h1": "Noleggio Auto all'Aeroporto di Podgorica (TGD)",
+    "p1": "Sebbene molti visitatori scelgano ancora di volare nell'Aeroporto di Dubrovnik nella vicina Croazia, ogni anno si aprono sempre più voli verso gli aeroporti montenegrini. L'Aeroporto di Podgorica funge da più grande aeroporto pubblico del Montenegro e hub per i vettori nazionali.",
+    "p2": "Un nuovo terminal è stato inaugurato nel maggio 2006, mentre il vecchio terminal ora funziona come museo che documenta la storia dell'aviazione montenegrina. Il codice aeroportuale TGD è un riferimento storico al precedente nome della città, Titograd.",
+    "distancesTitle": "Posizione e Distanze",
+    "distIntro": "L'aeroporto è situato a 12 chilometri a sud del centro di Podgorica.",
+    "dist1": "Centro di Podgorica: 12 km (taxi circa 10 Euro)",
+    "dist2": "Budva: circa 40 minuti",
+    "dist3": "Kolasin: 80 km",
+    "dist4": "Zabljak: 170 km",
+    "flightsTitle": "Voli e Compagnie Aeree",
+    "flightsText": "L'aeroporto gestisce voli sia internazionali che nazionali. Il servizio giornaliero collega a Belgrado, con voli regolari per Parigi, Roma, Francoforte, Vienna, Budapest, Lubiana e Mosca. Le rotte stagionali includono Praga e servizi aggiuntivi per Mosca.",
+    "facilitiesTitle": "Servizi dell'Aeroporto",
+    "facilitiesText": "Il terminal dispone di otto gate per le partenze, due gate per gli arrivi, 5.500 metri quadrati di superficie e 25.000 metri quadrati di parcheggio. I servizi includono caffetterie, shopping duty-free e vari servizi.",
+    "awardText": "Sebbene piccolo, l'Aeroporto di Podgorica è una struttura pluripremiata, avendo vinto il premio ACI Europe per il miglior aeroporto con meno di 1 milione di passeggeri.",
+    "rentalTitle": "Ritirare l'Auto a Noleggio",
+    "rentalText": "Vi accogliamo nella sala arrivi e portiamo l'auto direttamente da voi. Nessuna coda, nessun autobus navetta verso parcheggi esterni. Pochi minuti dopo aver superato la dogana, sarete già in strada verso la vostra destinazione."
+  },
+  "dubrovnikAirportBody": {
+    "h1": "Noleggio Auto all'Aeroporto di Dubrovnik (DBV)",
+    "p1": "Molti turisti che visitano il Montenegro scelgono di volare all'Aeroporto di Dubrovnik e noleggiare un'auto per guidare fino in Montenegro. L'aeroporto si trova a sole due ore di auto dalle località costiere di Budva, Perast e Kotor, ed è meglio collegato con molte compagnie aeree che non offrono ancora un servizio diretto per il Montenegro.",
+    "p2": "Poiché questa è una rotta così comune, attraversare il confine non è un compito difficile — a condizione che i visitatori abbiano tutti i documenti di noleggio e i documenti di viaggio in ordine.",
+    "p3": "Noleggiare un'auto per un viaggio in Montenegro è un'ottima idea. Permette ai visitatori di vedere questa parte del mondo alle proprie condizioni, con i propri tempi. Il traffico tra i paesi di questa regione è comune, quindi gli attraversamenti di frontiera sono generalmente semplici.",
+    "borderTitle": "Consigli per l'Attraversamento del Confine",
+    "borderText": "Durante la stagione turistica, il Montenegro si riempie di visitatori e lunghe attese per attraversare il confine non sono rare. Attraversare la mattina presto o la sera tardi è un modo per evitare la folla. Assicuratevi che la vostra compagnia di noleggio vi abbia fornito una Carta Verde per l'assicurazione transfrontaliera.",
+    "facilitiesTitle": "Servizi dell'Aeroporto",
+    "facilitiesText1": "L'Aeroporto di Dubrovnik dispone di un moderno edificio terminale situato a meno di mezz'ora di auto dalla città di Dubrovnik sulla E65. L'aeroporto ha parcheggi limitati disponibili, con macchine che elaborano il pagamento in contanti e con carte di credito. Poiché il parcheggio è limitato — specialmente in alta stagione — i visitatori dovrebbero prenotare i loro posti in anticipo se possibile. È disponibile uno sconto per la prenotazione anticipata.",
+    "facilitiesText2": "All'interno dell'aeroporto si trovano un ufficio di cambio, una banca e un ufficio postale. Sono disponibili anche piccoli ristoranti, caffetterie, un negozio duty-free e un'edicola.",
+    "gettingTitle": "Come Raggiungere il Montenegro",
+    "gettingText1": "I trasporti pubblici sono disponibili all'aeroporto sotto forma di taxi situati all'esterno del terminal, oltre a servizi di autobus e navette. Per i viaggiatori diretti alla città di Dubrovnik, assicuratevi di prendere gli autobus che arrivano fino al centro città piuttosto che quelli che si fermano a Cavtat, per risparmiare un trasferimento.",
+    "gettingText2": "Il viaggio dall'Aeroporto di Dubrovnik alla costa montenegrina vi porta lungo una delle strade costiere più panoramiche d'Europa. Entro due ore passerete attraverso il confine e arriverete alla Baia di Kotor — uno degli approcci più spettacolari a qualsiasi destinazione nel Mediterraneo."
+  },
+  "montenegroBody": {
+    "h1": "Esplorare il Montenegro in Auto",
+    "p1": "Il Montenegro si distingue come una delle destinazioni europee più gratificanti per l'esplorazione in auto. Dalle spettacolari strade di montagna e i tranquilli villaggi dell'entroterra alle tortuose strade costiere lungo l'Adriatico, il paese offre paesaggi diversificati a distanze sorprendentemente brevi. Noleggiare un'auto fornisce accesso a luoghi ben oltre la portata dei trasporti pubblici.",
+    "p2": "Sebbene compatto nelle dimensioni, il Montenegro richiede tempi di percorrenza più lunghi di quanto le mappe suggeriscano. I tornanti di montagna, le strette strade costiere e i percorsi panoramici incoraggiano soste frequenti. I viaggiatori ottengono la libertà di vivere sia il viaggio che la destinazione — navigando baie simili a fiordi, città storiche e punti panoramici d'altura al proprio ritmo.",
+    "startTitle": "Come Iniziare",
+    "startText": "Molti visitatori ritirano l'auto a noleggio in uno degli aeroporti del Montenegro o all'Aeroporto di Dubrovnik in Croazia, a seconda della disponibilità dei voli. L'Aeroporto di Tivat è il più vicino alla costa — a soli 10 minuti da Kotor e 20 minuti da Budva. L'Aeroporto di Podgorica serve la capitale e l'interno. L'Aeroporto di Dubrovnik rimane popolare in quanto spesso dispone di più voli internazionali.",
+    "timesTitle": "Tempi di Percorrenza",
+    "timesText1": "I tempi di percorrenza effettivi superano regolarmente quanto indicato dalle mappe. I tornanti di montagna, le strade costiere frastagliate, gli ostacoli rurali (incluso il bestiame) e la neve montana invernale contribuiscono tutti a viaggi più lunghi. L'esperienza panoramica costiera e della campagna giustifica ampiamente il tempo di viaggio prolungato.",
+    "timesText2": "Il viaggio tra le città costiere varia tipicamente da trenta minuti a un'ora. Il tragitto da Herceg-Novi a Podgorica attraverso la E65/E80 richiede circa due ore.",
+    "rulesTitle": "Regole Stradali e Sicurezza",
+    "rulesIntro": "I controlli della polizia stradale avvengono frequentemente ma non rappresentano un problema se si dispone della documentazione corretta. Avrete bisogno di:",
+    "rule1": "Una patente di guida valida (patente internazionale accettata)",
+    "rule2": "Contratto di noleggio o prova di proprietà del veicolo",
+    "rule3": "Documentazione assicurativa",
+    "rule4": "Una \"Carta Verde\" per gli attraversamenti di frontiera (circa 15 Euro per 15 giorni)",
+    "keyRulesTitle": "Regole Principali",
+    "keyRule1": "Le cinture di sicurezza sono obbligatorie per tutti i passeggeri",
+    "keyRule2": "L'uso del telefono cellulare durante la guida è proibito",
+    "keyRule3": "Bere e guidare è illegale — tolleranza zero",
+    "keyRule4": "I limiti di velocità sono rigorosamente applicati",
+    "conditionsTitle": "Condizioni Stradali",
+    "conditionsText": "Le strade cittadine mantengono condizioni discrete. Le strade di montagna possono essere più impegnative, con guardrail minimi in alcuni punti. Alcuni conducenti guidano in modo aggressivo, quindi si consiglia prudenza in tutto il paese — in particolare sui passi di montagna e nei tratti costieri stretti.",
+    "routesTitle": "Percorsi Principali",
+    "e65Title": "E65/E80",
+    "e65Text": "Il principale percorso costiero collega Herceg-Novi a Podgorica, passando per Kotor, Perast, Tivat e Budva. Questo è il percorso di guida più popolare e offre viste mozzafiato sulla Baia di Kotor.",
+    "e762Title": "E762",
+    "e762Text": "Attraversa il paese dalla costa all'interno, conducendo nella Croazia orientale. Questo percorso vi porta attraverso il cuore montuoso del Montenegro.",
+    "borderTitle": "Attraversamenti di Frontiera",
+    "borderText": "Il viaggio transfrontaliero è semplice con la documentazione corretta. I posti di blocco possono subire forte congestione durante l'alta stagione, con code di auto lunghe chilometri comuni agli attraversamenti più frequentati. Gli orari ottimali per l'attraversamento sono le mattine dei giorni feriali o le sere tarde.",
+    "nationTitle": "Una Nazione Giovane",
+    "nationText": "Il Montenegro ha raggiunto l'indipendenza nel giugno 2006, diventando una delle nazioni più giovani del mondo. Lo sviluppo turistico continua a crescere, offrendo un'avventura più esotica e leggermente più aspra rispetto ai paesi vicini. Il paesaggio combina montagne verdi attraversate da fiordi pieni di acque adriatiche blu profondo, una varietà di spiagge e i misteri degli antichi centri storici."
+  },
+  "borderCrossingBody": {
+    "h1": "Posso Portare l'Auto a Noleggio Oltre Confine?",
+    "p1": "Sì. Il viaggio transfrontaliero è consentito dal Montenegro verso Croazia, Bosnia ed Erzegovina, Albania, Kosovo e Serbia. Basta comunicarlo alla compagnia di noleggio al momento della prenotazione affinché possano preparare la documentazione necessaria.",
+    "greenCardTitle": "Cos'è una Carta Verde?",
+    "greenCardText": "Una Carta Verde è un certificato internazionale di assicurazione auto che dimostra che il vostro veicolo è assicurato nel paese in cui state entrando. È richiesta ad ogni attraversamento di frontiera nei Balcani.",
+    "greenCard1": "Costo: circa 15 Euro per 15 giorni",
+    "greenCard2": "Dove ottenerla: la vostra compagnia di noleggio la organizza — basta confermare al momento della prenotazione",
+    "greenCard3": "Paesi coperti: Croazia, Bosnia, Albania, Kosovo, Serbia",
+    "greenCardWarn": "Senza una Carta Verde, le guardie di frontiera non vi lasceranno passare. Controllate sempre che la carta copra tutti i paesi sul vostro itinerario pianificato prima di partire.",
+    "docsTitle": "Documenti Necessari alla Frontiera",
+    "doc1": "Passaporto valido o carta d'identità UE",
+    "doc2": "Patente di guida (patente internazionale accettata)",
+    "doc3": "Contratto di noleggio (originale, non una fotocopia)",
+    "doc4": "Certificato di assicurazione Carta Verde",
+    "doc5": "Documento di immatricolazione del veicolo (fornito con l'auto)",
+    "crossingsTitle": "Attraversamenti di Frontiera dal Montenegro",
+    "croatiaTitle": "Montenegro → Croazia",
+    "croatiaText": "L'attraversamento più popolare per i turisti. Il principale posto di blocco si trova a Debeli Brijeg sulla strada costiera (E65) tra Herceg Novi e Dubrovnik. Questo attraversamento diventa estremamente trafficato in estate — aspettatevi code di 1-2 ore durante l'alta stagione (luglio-agosto).",
+    "croatiaTip": "Orari migliori per attraversare: la mattina presto (prima delle 8) o la sera tardi (dopo le 20). Le mattine dei giorni feriali sono significativamente più tranquille rispetto ai fine settimana.",
+    "croatiaFerry": "C'è anche la scorciatoia del traghetto Kamenari-Lepetane attraverso la Baia di Kotor che evita di percorrere l'intera baia — fa risparmiare circa 45 minuti.",
+    "albaniaTitle": "Montenegro → Albania",
+    "albaniaText": "Due attraversamenti principali: Sukobin/Muriqan (costiero, vicino a Ulcinj) e Hani i Hotit (interno, vicino al Lago di Skadar). L'attraversamento costiero è più adatto ai viaggiatori e ha tipicamente tempi di attesa più brevi.",
+    "albaniaNote": "Nota: le strade albanesi differiscono significativamente da quelle montenegrine. Guidate con cautela, specialmente sulle strade rurali.",
+    "bosniaTitle": "Montenegro → Bosnia ed Erzegovina",
+    "bosniaText": "L'attraversamento principale è a Šćepan Polje (vicino a Foča) se vi dirigete a nord, oppure via Vilusi da Nikšić. Gli attraversamenti sono generalmente tranquilli con tempi di attesa minimi al di fuori dell'estate.",
+    "serbiaTitle": "Montenegro → Serbia",
+    "serbiaText": "Attraversate a Dobrakovo (sulla E65 a nord di Bijelo Polje). Questo attraversamento si collega direttamente al sistema autostradale serbo verso Belgrado.",
+    "kosovoTitle": "Montenegro → Kosovo",
+    "kosovoText": "L'attraversamento a Kula (vicino a Rožaje) si collega a Peja/Peć in Kosovo. Verificate con la vostra compagnia di noleggio che il Kosovo sia incluso nella vostra Carta Verde — alcune polizze lo escludono.",
+    "tipsTitle": "Consigli per Attraversamenti di Frontiera Senza Problemi",
+    "tip1": "Tenete tutti i documenti pronti prima di raggiungere il posto di blocco — non cercateli al finestrino",
+    "tip2": "Spegnete il motore mentre aspettate in coda (le guardie di frontiera lo apprezzano)",
+    "tip3": "I fine settimana estivi sono i peggiori — pianificate di attraversare nei giorni feriali se possibile",
+    "tip4": "L'attraversamento costiero croato (Debeli Brijeg) è il più trafficato; gli attraversamenti interni sono più tranquilli",
+    "tip5": "Tenete del contante in Euro — utile per i pedaggi e piccoli acquisti dall'altra parte",
+    "tip6": "Roaming dati mobile: verificate che il vostro piano copra il paese in cui state entrando",
+    "lawsTitle": "Regole Stradali che Cambiano ai Confini",
+    "lawsIntro": "Ogni paese ha leggi sul traffico leggermente diverse. Differenze principali da notare:",
+    "law1": "Croazia: i fari devono essere accesi in ogni momento. Si applicano pedaggi autostradali (contanti o carta)",
+    "law2": "Albania: i limiti di velocità sono più bassi sulle strade rurali. La qualità stradale varia significativamente",
+    "law3": "Bosnia: pneumatici invernali obbligatori da novembre ad aprile. Portate un kit di pronto soccorso e un triangolo di emergenza",
+    "law4": "Serbia: tolleranza zero per l'alcol alla guida. Vignetta autostradale obbligatoria",
+    "law5": "Kosovo: si guida a destra. Patente di guida internazionale raccomandata",
+    "popularTitle": "Percorsi Transfrontalieri Popolari",
+    "route1": "Tivat → Dubrovnik: 2 ore via la costiera E65. Paesaggi mozzafiato, un attraversamento di frontiera",
+    "route2": "Kotor → Mostar (Bosnia): 3-4 ore via Trebinje. Visitate il famoso ponte",
+    "route3": "Budva → Shkodër (Albania): 2,5 ore via l'attraversamento costiero di Ulcinj",
+    "route4": "Podgorica → Belgrado (Serbia): 5-6 ore via la E65 nord",
+    "ctaText": "Avete bisogno di un'auto con documentazione transfrontaliera pronta? Cercate nella nostra flotta — selezionate semplicemente i paesi di destinazione alla prenotazione e organizzeremo la Carta Verde."
+  }
+}

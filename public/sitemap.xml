@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.montenegrocarhire.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.montenegrocarhire.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.montenegrocarhire.com/de/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.montenegrocarhire.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.montenegrocarhire.com/it/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.montenegrocarhire.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.montenegrocarhire.com/me/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.montenegrocarhire.com/" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Book -->
+  <url>
+    <loc>https://www.montenegrocarhire.com/book</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.montenegrocarhire.com/book" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.montenegrocarhire.com/de/book" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.montenegrocarhire.com/ru/book" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.montenegrocarhire.com/it/book" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.montenegrocarhire.com/fr/book" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.montenegrocarhire.com/me/book" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.montenegrocarhire.com/book" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://www.montenegrocarhire.com/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.montenegrocarhire.com/about" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.montenegrocarhire.com/de/about" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.montenegrocarhire.com/ru/about" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.montenegrocarhire.com/it/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.montenegrocarhire.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.montenegrocarhire.com/me/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.montenegrocarhire.com/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Kotor -->
+  <url>
+    <loc>https://www.montenegrocarhire.com/kotor</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.montenegrocarhire.com/kotor" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.montenegrocarhire.com/de/kotor" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.montenegrocarhire.com/ru/kotor" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.montenegrocarhire.com/it/kotor" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.montenegrocarhire.com/fr/kotor" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.montenegrocarhire.com/me/kotor" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.montenegrocarhire.com/kotor" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Budva -->
+  <url>
+    <loc>https://www.montenegrocarhire.com/budva</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.montenegrocarhire.com/budva" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.montenegrocarhire.com/de/budva" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.montenegrocarhire.com/ru/budva" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.montenegrocarhire.com/it/budva" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.montenegrocarhire.com/fr/budva" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.montenegrocarhire.com/me/budva" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.montenegrocarhire.com/budva" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Tivat -->
+  <url>
+    <loc>https://www.montenegrocarhire.com/tivat</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.montenegrocarhire.com/tivat" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.montenegrocarhire.com/de/tivat" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.montenegrocarhire.com/ru/tivat" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.montenegrocarhire.com/it/tivat" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.montenegrocarhire.com/fr/tivat" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.montenegrocarhire.com/me/tivat" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.montenegrocarhire.com/tivat" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Perast -->
+  <url>
+    <loc>https://www.montenegrocarhire.com/perast</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.montenegrocarhire.com/perast" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.montenegrocarhire.com/de/perast" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.montenegrocarhire.com/ru/perast" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.montenegrocarhire.com/it/perast" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.montenegrocarhire.com/fr/perast" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.montenegrocarhire.com/me/perast" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.montenegrocarhire.com/perast" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Podgorica -->
+  <url>
+    <loc>https://www.montenegrocarhire.com/podgorica</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.montenegrocarhire.com/podgorica" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.montenegrocarhire.com/de/podgorica" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.montenegrocarhire.com/ru/podgorica" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.montenegrocarhire.com/it/podgorica" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.montenegrocarhire.com/fr/podgorica" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.montenegrocarhire.com/me/podgorica" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.montenegrocarhire.com/podgorica" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Tivat Airport -->
+  <url>
+    <loc>https://www.montenegrocarhire.com/tivat-airport</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.montenegrocarhire.com/tivat-airport" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.montenegrocarhire.com/de/tivat-airport" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.montenegrocarhire.com/ru/tivat-airport" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.montenegrocarhire.com/it/tivat-airport" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.montenegrocarhire.com/fr/tivat-airport" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.montenegrocarhire.com/me/tivat-airport" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.montenegrocarhire.com/tivat-airport" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Podgorica Airport -->
+  <url>
+    <loc>https://www.montenegrocarhire.com/podgorica-airport</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.montenegrocarhire.com/podgorica-airport" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.montenegrocarhire.com/de/podgorica-airport" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.montenegrocarhire.com/ru/podgorica-airport" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.montenegrocarhire.com/it/podgorica-airport" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.montenegrocarhire.com/fr/podgorica-airport" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.montenegrocarhire.com/me/podgorica-airport" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.montenegrocarhire.com/podgorica-airport" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Dubrovnik Airport -->
+  <url>
+    <loc>https://www.montenegrocarhire.com/dubrovnik-airport</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.montenegrocarhire.com/dubrovnik-airport" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.montenegrocarhire.com/de/dubrovnik-airport" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.montenegrocarhire.com/ru/dubrovnik-airport" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.montenegrocarhire.com/it/dubrovnik-airport" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.montenegrocarhire.com/fr/dubrovnik-airport" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.montenegrocarhire.com/me/dubrovnik-airport" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.montenegrocarhire.com/dubrovnik-airport" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Montenegro Travel Guide -->
+  <url>
+    <loc>https://www.montenegrocarhire.com/montenegro</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.montenegrocarhire.com/montenegro" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.montenegrocarhire.com/de/montenegro" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.montenegrocarhire.com/ru/montenegro" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.montenegrocarhire.com/it/montenegro" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.montenegrocarhire.com/fr/montenegro" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.montenegrocarhire.com/me/montenegro" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.montenegrocarhire.com/montenegro" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Border Crossing Guide -->
+  <url>
+    <loc>https://www.montenegrocarhire.com/border-crossing-guide</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.montenegrocarhire.com/border-crossing-guide" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.montenegrocarhire.com/de/border-crossing-guide" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.montenegrocarhire.com/ru/border-crossing-guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.montenegrocarhire.com/it/border-crossing-guide" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.montenegrocarhire.com/fr/border-crossing-guide" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.montenegrocarhire.com/me/border-crossing-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.montenegrocarhire.com/border-crossing-guide" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://www.montenegrocarhire.com/privacy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Terms -->
+  <url>
+    <loc>https://www.montenegrocarhire.com/terms</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Cookie Policy -->
+  <url>
+    <loc>https://www.montenegrocarhire.com/cookie-policy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

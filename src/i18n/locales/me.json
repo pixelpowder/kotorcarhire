@@ -1,0 +1,552 @@
+{
+  "nav": {
+    "book": "Rezerviši",
+    "destinations": "Destinacije",
+    "about": "O Nama"
+  },
+  "common": {
+    "home": "Početna",
+    "searchCars": "Pretraži Auta",
+    "callUs": "Pozovite Nas",
+    "bookNow": "Rezerviši Sad",
+    "perDay": "po danu"
+  },
+  "hero": {
+    "headline": "Rent a Car Crna Gora",
+    "badges": {
+      "freeCancellation": "Besplatna Otkazivanja",
+      "fullInsurance": "Puno Osiguranje Uključeno",
+      "airportPickup": "Preuzimanje na Aerodromu za 10 Min",
+      "trustpilot": "4.8/5 na Trustpilot"
+    },
+    "search": "Pretraži",
+    "pickupLocation": "Mjesto preuzimanja",
+    "searchLocation": "Pretraži lokaciju…",
+    "pickupDate": "Datum preuzimanja",
+    "pickupTime": "Vrijeme",
+    "dropoffDate": "Datum vraćanja",
+    "dropoffTime": "Vrijeme"
+  },
+  "trust": {
+    "noHiddenFees": "Bez Skrivenih Troškova",
+    "noHiddenFeesDesc": "Prikazana cijena uključuje sve",
+    "fullInsurance": "Puno Osiguranje",
+    "fullInsuranceDesc": "Opcija bez učešća dostupna",
+    "fastPickup": "Preuzimanje za 10 Min",
+    "fastPickupDesc": "Dočekujemo vas na izlazu"
+  },
+  "stats": {
+    "years": "Godina Iskustva",
+    "rentals": "Zadovoljnih Iznajmljivanja",
+    "rating": "Ocjena Korisnika",
+    "locations": "Lokacija za Preuzimanje"
+  },
+  "howItWorks": {
+    "label": "Kako Funkcioniše",
+    "title": "Na Putu u 3 Koraka",
+    "subtitle": "Jednostavna rezervacija. Trenutna potvrda. Bez čekanja na aerodromu.",
+    "step1Title": "Izaberite Lokaciju",
+    "step1Desc": "Birajte između aerodroma, Kotora, Budve, Perasta i drugih tačaka za preuzimanje širom Crne Gore i šire.",
+    "step2Title": "Izaberite Auto",
+    "step2Desc": "Pregledajte našu flotu od ekonomičnih gradskih automobila do premium SUV-ova. Filtrirajte po veličini, mjenjaču ili budžetu.",
+    "step3Title": "Vozite Crnom Gorom",
+    "step3Desc": "Dočekujemo vas na izlazu. Vaš auto je spreman. Istražite obalu, planine i istorijske gradove."
+  },
+  "fleet": {
+    "label": "Naša Flota",
+    "title": "Izaberite Vaše Vozilo",
+    "subtitle": "Pregledajte dostupnost i cijene u realnom vremenu — rezervišite direktno."
+  },
+  "brands": {
+    "label": "Provjereni brendovi u našoj floti"
+  },
+  "destinations": {
+    "label": "Top Destinacije",
+    "title": "Istražite Crnu Goru",
+    "subtitle": "Od Bokokotorskog zaliva do albanske granice — svaka destinacija je drugi svijet."
+  },
+  "features": {
+    "label": "Zašto Mi",
+    "title": "Napravljeno za Putnike",
+    "subtitle": "Sve što vam treba za bezbrižan rent a car u Crnoj Gori."
+  },
+  "reviews": {
+    "label": "Recenzije",
+    "title": "Omiljeni Među Putnicima",
+    "subtitle": "Stvarna iskustva stvarnih korisnika širom Crne Gore."
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Česta Pitanja",
+    "subtitle": "Sve što treba da znate prije rezervacije."
+  },
+  "cta": {
+    "title": "Spremni da Istražite Crnu Goru?",
+    "subtitle": "Rezervišite za nekoliko minuta. Preuzmite na aerodromu. Vozite cijelom jadranskom obalom sopstvenim tempom.",
+    "browseFleet": "Pregledaj Flotu"
+  },
+  "sidebar": {
+    "bookTitle": "Rezervišite Vaš Auto",
+    "bookText": "Pretražite dostupnost i cijene u realnom vremenu širom Crne Gore.",
+    "helpTitle": "Trebate Pomoć?",
+    "helpText": "Naš tim je dostupan putem WhatsApp, Viber ili telefona.",
+    "popularDest": "Popularne Destinacije"
+  },
+  "book": {
+    "title": "Pronađite Vaš Auto",
+    "seoTitle": "Rezervišite Auto",
+    "seoDesc": "Pretražite i rezervišite rent a car u Crnoj Gori. Dostupnost u realnom vremenu, trenutna potvrda, besplatno otkazivanje."
+  },
+  "footer": {
+    "brandDesc": "Premium rent a car u Crnoj Gori od 2007. Preuzimanje na aerodromu, puno osiguranje i bez skrivenih troškova.",
+    "quickLinks": "Brzi Linkovi",
+    "guides": "Vodiči",
+    "locations": "Lokacije",
+    "carHireBooking": "Rezervacija Vozila",
+    "ourFleet": "Naša Flota",
+    "destinations": "Destinacije",
+    "aboutUs": "O Nama",
+    "faqLink": "FAQ",
+    "montenegroGuide": "Vodič za Putovanje po Crnoj Gori",
+    "borderGuide": "Vodič za Prelazak Granice",
+    "searchCars": "Pretraži Auta",
+    "privacyPolicy": "Politika Privatnosti",
+    "terms": "Uslovi Korišćenja",
+    "cookiePolicy": "Politika Kolačića"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Pogrešno Skretanje",
+    "text": "Izgleda da ste skrenuli s puta. Ova cesta ne vodi nikuda — ali najbolje rute Crne Gore su na jedan klik.",
+    "backHome": "Nazad na Početnu",
+    "searchCars": "Pretraži Auta"
+  },
+  "home": {
+    "seoDesc": "Iznajmite auto u Crnoj Gori od 13 €/dan. Preuzimanje na aerodromu Tivat, Podgorica, u Kotoru, Budvi i na više od 28 lokacija. Besplatno otkazivanje, puno osiguranje, bez skrivenih troškova. Rezervišite online za nekoliko minuta."
+  },
+  "about": {
+    "title": "O Nama",
+    "subtitle": "Pomažemo putnicima da istraže Crnu Goru od 2007.",
+    "seoDesc": "O Crna Gora Car Hire. Od 2007. pomažemo putnicima da istraže Crnu Goru sa pouzdanim automobilima, isporukom na aerodrom i lokalnom ekspertizom."
+  },
+  "kotor": {
+    "title": "Rent a Car Kotor",
+    "subtitle": "Istražite UNESCO dragulj Crne Gore sopstvenim tempom.",
+    "seoDesc": "Iznajmite auto u Kotoru, Crna Gora. Istražite UNESCO stari grad, Bokokotorski zaliv i obližnji Perast uz povoljnu najam i besplatnu isporuku sa aerodroma."
+  },
+  "tivat-airport": {
+    "title": "Rent a Car Aerodrom Tivat",
+    "subtitle": "Preuzmite vaš auto na izlazu iz zone dolaska.",
+    "seoDesc": "Preuzmite rent a car na aerodromu Tivat (TIV). Čekamo vas na izlazu sa vašim vozilom. Stignite do Kotora, Budve ili Porto Montenegra za nekoliko minuta."
+  },
+  "budva": {
+    "title": "Rent a Car Budva",
+    "subtitle": "Rivijera Crne Gore — plaže, noćni život i šarm starog grada.",
+    "seoDesc": "Iznajmite auto u Budvi, Crna Gora. Odvezite se na plažu Mogren, Sveti Stefan i do najboljeg noćnog života rivijere. Puno osiguranje, bez skrivenih troškova."
+  },
+  "perast": {
+    "title": "Rent a Car Perast",
+    "subtitle": "Barokni dragulj na Bokokotorskom zalivu.",
+    "seoDesc": "Iznajmite auto i posjetite Perast, barokni dragulj na Bokokotorskom zalivu. Pogledajte ostrvo Gospa od Škrpjela i veličanstvene palate uz obalu sopstvenim tempom."
+  },
+  "podgorica": {
+    "title": "Rent a Car Podgorica",
+    "subtitle": "Glavni grad Crne Gore — kultura, rijeke i moderni šarm.",
+    "seoDesc": "Rent a car u Podgorici, glavnom gradu Crne Gore. Istražite Skadarsko jezero, manastir Ostrog i Durmitor iznajmljenim autom. Preuzimanje na aerodromu dostupno."
+  },
+  "podgorica-airport": {
+    "title": "Rent a Car Aerodrom Podgorica",
+    "subtitle": "Glavna međunarodna kapija Crne Gore.",
+    "seoDesc": "Preuzmite rent a car na aerodromu Podgorica (TGD). Isporučujemo vozilo do zone dolaska. Stignite do obale, Skadarskog jezera ili Nacionalnog parka Durmitor."
+  },
+  "dubrovnik-airport": {
+    "title": "Rent a Car Aerodrom Dubrovnik",
+    "subtitle": "Doletite u Hrvatsku, odvezite se u Crnu Goru.",
+    "seoDesc": "Iznajmite auto na aerodromu Dubrovnik i odvezite se u Crnu Goru. Prelazak granice za manje od sat vremena. Puno osiguranje i zeleni karton uključeni."
+  },
+  "tivat": {
+    "title": "Rent a Car Tivat",
+    "subtitle": "Grad marina Crne Gore na Bokokotorskom zalivu.",
+    "seoDesc": "Iznajmite auto u Tivtu, domu marine Porto Crna Gora. Istražite obližnje plaže, Kotor i Bokokotorski zaliv uz povoljnu najam automobila."
+  },
+  "montenegro": {
+    "title": "Rent a Car i Vodič za Crnu Goru",
+    "subtitle": "Sve što treba da znate o vožnji u Crnoj Gori.",
+    "seoDesc": "Kompletan vodič za vožnju u Crnoj Gori. Saobraćajna pravila, ograničenja brzine, cijene goriva i najbolje panoramske rute od obale do planina."
+  },
+  "border-crossing": {
+    "title": "Vodič za Prelazak Granica na Balkanu",
+    "subtitle": "Sve o prelaženju granica sa vašim rentiranim automobilom.",
+    "seoDesc": "Vodič za prelazak granica iz Crne Gore rentiranim autom. Osiguranje zeleni karton, potrebna dokumenta i savjeti za Hrvatsku, Bosnu, Albaniju i Srbiju."
+  },
+  "privacy": {
+    "title": "Politika Privatnosti",
+    "subtitle": "Kako obrađujemo vaše podatke.",
+    "seoDesc": "Politika privatnosti Crna Gora Car Hire. Kako prikupljamo, koristimo i štitimo vaše lične podatke prilikom pretrage automobila za najam."
+  },
+  "terms": {
+    "title": "Uslovi Korišćenja",
+    "subtitle": "Uslovi korišćenja naše web stranice.",
+    "seoDesc": "Uslovi korišćenja Crna Gora Car Hire. Saznajte o procesu rezervacije, partneru za najam, cijenama i odgovornosti."
+  },
+  "cookie-policy": {
+    "title": "Politika Kolačića",
+    "subtitle": "Kako koristimo kolačiće na ovom sajtu.",
+    "seoDesc": "Politika kolačića Crna Gora Car Hire. Saznajte koje kolačiće koristimo, kako widget za rezervaciju čuva postavke i kako njima upravljati."
+  },
+  "featureCards": {
+    "airportPickup": {
+      "title": "Preuzimanje na aerodromu",
+      "desc": "Preuzmite automobil na aerodromu Tivat ili Podgorica. Bez prevoza, bez čekanja."
+    },
+    "fullInsurance": {
+      "title": "Potpuno osiguranje",
+      "desc": "Sveobuhvatna pokrivenost sa opcijom nulte franšize. Vozite potpuno bezbrižno."
+    },
+    "support": {
+      "title": "Podrška 24/7",
+      "desc": "Pomoć na putu i korisnička podrška dostupni non-stop, svakog dana."
+    },
+    "noHiddenFees": {
+      "title": "Bez skrivenih troškova",
+      "desc": "Politika goriva, kilometraža, porez — sve je uključeno u cijenu koju vidite."
+    },
+    "freeCancellation": {
+      "title": "Besplatno otkazivanje",
+      "desc": "Planovi se mijenjaju. Otkažite do 24 sata prije preuzimanja za puni povrat novca."
+    },
+    "crossBorder": {
+      "title": "Prelazak granice",
+      "desc": "Vozite u Croatia, Bosnia, Albania ili Kosovo. Prekogranična putovanja su dozvoljena."
+    }
+  },
+  "testimonials": {
+    "0": {
+      "text": "Preuzeo sam besprijekornu Octavia na aerodromu Tivat za manje od 5 minuta. Nevjerovatna vrijednost."
+    },
+    "1": {
+      "text": "BMW je bio u savršenom stanju, a dokumenti za Croatia bili su spremni kada smo stigli. Toplo preporučujem."
+    },
+    "2": {
+      "text": "Istraživali smo Crna Gora dvije sedmice. Jeep je savršeno savladao planinske puteve."
+    }
+  },
+  "faqItems": {
+    "0": {
+      "q": "Koja dokumenta su mi potrebna?",
+      "a": "Važeća vozačka dozvola (mora sadržavati podatke na latinici), pasoš i fizička kreditna kartica na ime glavnog vozača. Međunarodna vozačka dozvola se preporučuje ako vaša dozvola važi samo u zemlji izdavanja. Kopije ili elektronske vozačke dozvole se ne prihvataju."
+    },
+    "1": {
+      "q": "Mogu li voziti do Hrvatske ili Albanije?",
+      "a": "Da! Ako planirate putovanje van Crne Gore, unaprijed obavijestite agenta za iznajmljivanje kako bi pripremio potrebnu dokumentaciju. Prekogranična putovanja u susjedne zemlje su dozvoljena."
+    },
+    "2": {
+      "q": "Postoji li minimalna starosna granica?",
+      "a": "Minimalna starost i zahtjevi za vozačko iskustvo zavise od vozila. Ovi detalji se prikazuju kada pretražujete dostupne automobile."
+    },
+    "3": {
+      "q": "Šta je uključeno u cijenu?",
+      "a": "Sva vozila su osigurana — većina uključuje osiguranje od odgovornosti prema trećim licima i zaštitu od oštećenja u sudaru (CDW) u osnovnu cijenu. PDV, komplet opreme (prva pomoć, trougao upozorenja, reflektujući prsluk) i transparentna politika goriva su takođe uključeni. Uslovi kilometraže zavise od vozila. Proširene opcije pokrića su dostupne uz doplatu."
+    },
+    "4": {
+      "q": "Kako funkcioniše preuzimanje vozila?",
+      "a": "Izaberite vrijeme i mjesto preuzimanja tokom rezervacije — opcije zavise od agenta za iznajmljivanje i destinacije. Agent će organizovati susret na dogovorenom mjestu. Za tačne detalje o mjestu susreta, kontaktirajte agenta direktno nakon rezervacije."
+    },
+    "5": {
+      "q": "Mogu li vratiti vozilo na drugoj lokaciji?",
+      "a": "Da — jednosmjerno iznajmljivanje je dostupno u 28 gradova i mjesta u Crnoj Gori. Jednostavno izaberite različita mjesta preuzimanja i vraćanja tokom rezervacije."
+    },
+    "6": {
+      "q": "Koja je politika otkazivanja?",
+      "a": "Besplatno otkazivanje do 7 dana prije početka iznajmljivanja. Za luksuzne automobile i kabriolete, besplatno otkazivanje je moguće do 30 dana unaprijed. Naknada za platni servis od 6 % se primjenjuje na sva otkazivanja."
+    },
+    "7": {
+      "q": "Da li je potreban depozit?",
+      "a": "Iznos depozita zavisi od vozila — neki automobili su dostupni bez depozita. Ako je potreban, depozit mora biti na fizičkoj kreditnoj kartici na ime glavnog vozača i vraća se po povratku vozila u dobrom stanju."
+    },
+    "8": {
+      "q": "Šta se dešava ako prekoračim limit kilometraže?",
+      "a": "Za vozila sa ograničenjem kilometraže naplaćuje se svaki dodatni kilometar. Tarife su prikazane u detaljima vozila prije rezervacije."
+    },
+    "9": {
+      "q": "Ima li skrivenih naknada?",
+      "a": "Ne. Cijena koju vidite uključuje sve poreze i naknade. Ono što je prikazano pri rezervaciji je ono što plaćate."
+    },
+    "10": {
+      "q": "Koliko plaćam unaprijed?",
+      "a": "Samo 15–20 % ukupnog iznosa je potrebno za potvrdu rezervacije. Ostatak se plaća direktno agentu za iznajmljivanje prilikom preuzimanja."
+    },
+    "11": {
+      "q": "Mogu li iznajmiti bez kreditne kartice?",
+      "a": "Neki automobili su dostupni bez kreditne kartice. Provjerite dostupnost prilikom pretrage — opcije bez kreditne kartice su jasno označene."
+    }
+  },
+  "destCards": {
+    "tivat-airport": {
+      "name": "Aerodrom Tivat",
+      "tag": "Najpopularnije",
+      "desc": "Naš glavni hub. Dočekujemo vas na dolascima."
+    },
+    "kotor": {
+      "name": "Kotor",
+      "tag": "UNESCO lokalitet",
+      "desc": "Srednjovjekovni utvrđeni grad na Jadranu."
+    },
+    "podgorica-airport": {
+      "name": "Aerodrom Podgorica",
+      "tag": "Glavni grad hub",
+      "desc": "Glavni međunarodni aerodrom Crna Gora."
+    },
+    "perast": {
+      "name": "Perast",
+      "tag": "Skriveni dragulj",
+      "desc": "Barokno selo na Boka Bay."
+    },
+    "budva": {
+      "name": "Budva",
+      "tag": "Primorski grad",
+      "desc": "Plaže Rivijere i zidine starog grada."
+    },
+    "dubrovnik-airport": {
+      "name": "Aerodrom Dubrovnik",
+      "tag": "Prekogranično",
+      "desc": "Doletite u Dubrovnik, vozite u Crna Gora."
+    },
+    "tivat": {
+      "name": "Tivat",
+      "tag": "Grad marine",
+      "desc": "Porto Crna Gora i zadivljujuća Boka Bay."
+    },
+    "podgorica": {
+      "name": "Podgorica",
+      "tag": "Glavni grad",
+      "desc": "Moderna prijestonica Crna Gora — kultura i trgovina."
+    }
+  },
+  "aboutBody": {
+    "h1": "Rent a car Crna Gora",
+    "p1": "Od 2007. godine, Crna Gora Car Hire povezuje putnike sa pouzdanim i pristupačnim rent-a-car vozilima širom Crna Gora. Ono što je počelo kao jednostavna ideja — olakšati posjetiocima istraživanje ovog zadivljujućeg kutka Adriatic — izraslo je u jednu od najpouzdanijih usluga iznajmljivanja vozila u zemlji.",
+    "h2": "Zašto smo počeli",
+    "p2": "Crna Gora je zemlja koja se najbolje doživljava sopstvenim tempom. Vijugavi obalni putevi, skrivena planinska sela i gradovi pod zaštitom UNESCO-a teško su dostupni javnim prevozom. Prepoznali smo priliku da putnicima pružimo slobodu da otkriju Crna Gora na svoj način — bez rasporeda turističkih autobusa, bez propuštenih vidikovaca, bez kompromisa.",
+    "h3": "Šta nudimo",
+    "p3": "Pružamo usluge iznajmljivanja vozila širom Crna Gora, sa preuzimanjem i vraćanjem na aerodromu Tivat, aerodromu Podgorica, kao i na lokacijama duž obale i u unutrašnjosti. Naša flota obuhvata sve, od kompaktnih gradskih automobila do prostranih SUV vozila, sa potpunim osiguranjem i bez skrivenih troškova.",
+    "promiseTitle": "Naše obećanje",
+    "promise1": "Potpuno osiguranje sa opcijom nulte franšize",
+    "promise2": "Doček na aerodromu — donosimo automobil direktno do sale za dolaske",
+    "promise3": "Bez skrivenih troškova — cijena koju vidite je cijena koju plaćate",
+    "promise4": "Dozvoljena prekogranična putovanja u Hrvatsku, Bosnu, Albaniju, Srbiju i Kosovo",
+    "promise5": "Besplatno otkazivanje za većinu rezervacija",
+    "promise6": "Pomoć na putu 24/7 tokom cijelog putovanja",
+    "h4": "Lokalno znanje",
+    "p4": "Sa sjedištem u Crna Gora, poznajemo puteve, najbolje rute i skrivene dragulje koje turistički vodiči ne pominju. Bilo da vozite sa aerodroma Tivat do srednjovjekovnog starog grada Kotor, idete slikovitom rutom kroz Boku Kotorsku do Perast, ili se upućujete u unutrašnjost ka Nacionalnom parku Durmitor, možemo vam pomoći da isplanirate savršeno putovanje.",
+    "h5": "Kontaktirajte nas",
+    "p5": "Imate pitanje o iznajmljivanju automobila u Crna Gora? Dostupni smo putem telefona, WhatsApp i Viber. Pregledajte našu flotu online i rezervišite za nekoliko minuta — ili nam se javite i pomoći ćemo vam da pronađete savršen automobil za vaše putovanje."
+  },
+  "kotorBody": {
+    "h1": "Kotor -- Lokalitet pod Zastitom UNESCO-a",
+    "p1": "Kotor je jedan od najljepših primorskih gradova Crne Gore, koji nudi prekrasne plaže, šarm istorijskog Starog grada i srednjovjekovne zidine unutar kojih se nalaze umjetničke galerije, kafići i odlični restorani. Kao lokalitet pod zaštitom UNESCO-a, znamenitosti grada su koncentrisane u predivno očuvanom Starom gradu.",
+    "p2": "Iznajmljivanje automobila u Kotoru daje vam slobodu da istražujete lokalne atrakcije i obližnje crnogorske gradove i prirodna područja sopstvenim tempom. Dostupnost parkinga varira sezonski, jer ljetnji turizam stvara nestašicu u centru — ali postoje veća parkirališta na prilaznim putevima.",
+    "landmarksTitle": "Znamenitosti",
+    "stJohnTitle": "Tvrđava Sv. Ivana",
+    "stJohnText": "Impozantna građevina koja je istorijski štitila grad od gusarskih napada. Značajne karakteristike uključuju Kulu Contarini i Crkvu Gospe od Zdravlja, koja pruža zapanjujuće poglede na Stari grad i Bokokotorski zaliv.",
+    "cathedralTitle": "Katedrala Sv. Tripuna",
+    "cathedralText": "Sagrađena 809. godine i obnovljena 1124. godine, ova katedrala sadrži izuzetnu vizantijsku arhitekturu i umjetnost koja odražava bogatu istoriju regiona.",
+    "dayTripsTitle": "Jednodnevni Izleti iz Kotora",
+    "perastTrip": "Smještena u obližnjem Perastu, ova crkva se nalazi na vještačkom ostrvu u Bokokotorskom zalivu. Ribari tamo bacaju kamenje svake godine od 1452., postepeno proširujući ostrvo. Prevoz trajektom košta oko 1 Euro; privatni čamci koštaju oko 5 Eura. Vožnja iz Kotora traje manje od 30 minuta putem E65/E80 na sjever.",
+    "cetinjeTrip": "Sagrađen 1701. godine, manastir čuva ruku Jovana Krstitelja. Odlikuje se bogatom dekoracijom i pravoslavnom umjetnošću. Vožnja iz Kotora traje približno jedan sat kroz slikovite planinske puteve.",
+    "royalCourtText": "Crnogorska kraljevska palata iz 1871. godine, u kojoj su izloženi umjetnički predmeti, artefakti i fotografije iz kraljevske istorije zemlje. Nalazi se pored manastira u nekadašnjoj kraljevskoj prijestonici."
+  },
+  "budvaBody": {
+    "h1": "Budva -- Srce Crnogorske Rivijere",
+    "p1": "Budva je najpopularnija plažna destinacija u Crnoj Gori, koja privlači posjetioce iz čitave Evrope svojom zapanjujućom obalom, živahnim noćnim životom i predivno očuvanim srednjovjekovnim Starim gradom. Sa iznajmljenim automobilom, čitava Budvanska rivijera i šire su vam nadohvat ruke.",
+    "p2": "Grad se nalazi otprilike 20 minuta južno od aerodroma Tivat, što ga čini jednom od najlakše dostupnih primorskih destinacija nakon slijetanja. Budva kombinuje 2.500 godina istorije sa potpuno modernom atmosferom za odmor — drevne gradske zidine danju, živahni plažni barovi noću.",
+    "beachesTitle": "Plaže",
+    "beachesIntro": "Budvanska rivijera se proteže na 21 kilometar, nudeći neke od najljepših plaža na jadranskoj obali:",
+    "mogren": "Dvije povezane šljunčane plaže do kojih se stiže kroz tunel usječen u stijene, svega nekoliko minuta od Starog grada",
+    "jaz": "Velika pješčana plaža popularna među lokalnim stanovništvom i posjetiocima, domaćin muzičkih festivala ljeti",
+    "svetiStefan": "Ikonični ostrvo-hotel vidljiv sa obalne ceste, sa javnom plažom na jednoj strani",
+    "becici": "Dugačka prostrana pješčana plaža koja je nekada proglašena najljepšom plažom u Evropi",
+    "oldTownTitle": "Stari Grad",
+    "oldTownText": "Budvanski Stari Grad je kompaktna utvrđena citadela na malom poluostrvu. Unutar zidina naći ćete uske popločane ulice, venecijansku arhitekturu, male crkve koje datiraju iz 7. vijeka, te živahnu mješavinu restorana, galerija i butika. Tvrđava Citadela na južnom vrhu nudi panoramske poglede na obalu i obližnja ostrva.",
+    "dayTripsTitle": "Jednodnevni Izleti iz Budve",
+    "svetiStefanTrip": "Samo 6 km južno, ovo fotogenično utvrđeno ostrvsko selo sada je luksuzni hotel, ali pogledi sa puta iznad su spektakularni i besplatni. Plaža na kopnenoj strani je otvorena za sve.",
+    "kotorTrip": "Vožnja od 30 minuta na sjever kroz dramatičan planinski tunel dovodi vas do Bokokotorskog zaliva i njegovog Starog grada pod zaštitom UNESCO-a.",
+    "lovcenTrip": "Uputite se u unutrašnjost ka planinskim pejzažima i Njegoševom mauzoleju, smještenom na 1.657 metara nadmorske visine, sa pogledom na četiri zemlje po vedrom danu. Vijugavi put od obale je doživljaj sam po sebi.",
+    "gettingAroundTitle": "Kretanje",
+    "gettingAroundText": "Dok je Budvanski Stari Grad najbolje istraživati pješice, iznajmljeni automobil je neophodan za dolazak do najljepših plaža, obližnjih sela i atrakcija u unutrašnjosti. Parking je dostupan u blizini zidina Starog grada i na nekoliko javnih parkirališta duž glavnog puta. U vrhu ljeta, rani dolazak osigurava najbolja mjesta."
+  },
+  "perastBody": {
+    "h1": "Perast -- Skriveni Dragulj na Zalivu",
+    "p1": "Malo selo Perast se nalazi na kratkoj vožnji — manje od 20 minuta — od Kotora. Turisti koji iznajme automobil za obilazak Crne Gore sigurno će poželjeti da se provezaju autoputem E65/E80 kako bi proveli vrijeme u ovom ljupkom ribarskom selu.",
+    "p2": "Iako je dom za samo oko 850 ljudi, duga i šarena istorija Perasta svakako nadmašuje njegovu malu veličinu. Od 1420. do 1797. godine, grad je pripadao Republici Veneciji i bio je poznat po svojim majstorima brodogradnje i mornarima. Perast ima mnogo prekrasnih podsjetnika na prošlost i neke odlične primjere barokne arhitekture.",
+    "islandsTitle": "Ostrva",
+    "stGeorgeTitle": "Ostrvo Sv. Đorđa",
+    "stGeorgeText": "Prirodno ostrvo nedaleko od obale u Bokokotorskom zalivu, dom Benediktinskog manastira Sv. Đorđa, sagrađenog u 12. vijeku. Mali čamci iz luke voze posjetioce tamo za nekoliko Eura.",
+    "ladyOfRocksTitle": "Gospa od Škrpjela",
+    "ladyOfRocksText": "Vještačko ostrvo na kojem se nalazi istoimena crkva. Ostrvo su stvorili mornari iz grada bacajući kamenje i potapajući stare čamce i brodove tokom vijekova. Svake godine ova tradicija se nastavlja, a 22. jula turisti mogu gledati kako lokalno stanovništvo puni svoje čamce kamenjem kako bi pomogli da ostrvo ostane netaknuto.",
+    "historicTitle": "Istorijski Lokaliteti",
+    "historicText": "Grad se može pohvaliti brojnim palatama, katedralama i nekoliko stražarskih kula koje su nekada štitile grad. Za one koji žele detaljno naučiti o istoriji Perasta, Muzej Perasta sadrži mnoge artefakte, arhive, slike, skulpture i gradske zapise. Muzej se nalazi u staroj Palati Bujović, koju mnogi smatraju najljepšom zgradom na crnogorskoj obali.",
+    "monasteryTitle": "Manastir Banja",
+    "monasteryText": "Smješten sjeverno od Perasta na putu prema Risnu, manastir Banja sadrži mnoge drevne vjerske predmete iz ruskih, grčkih i bokeljskih dinastija. Da biste stigli do manastira, nastavite na sjever putem E65/E80 samo nekoliko kilometara."
+  },
+  "tivatBody": {
+    "h1": "Tivat -- Grad Marine",
+    "p1": "Tivat je jedan od novijih gradova duž crnogorske obale, izgrađen prije nešto više od jednog vijeka. Grad ima jedan od samo dva javna aerodroma u Crnoj Gori — aerodrom Tivat — što ga čini izuzetno pogodnom bazom za posjetioce koji dolaze avionom.",
+    "p2": "Ovo primorsko odmaralište ima populaciju od oko 13.000 stanovnika. Posjetioci mogu uživati u šetnjama uz more, jesti u restoranima na obali i istraživati prodavnice skrivene u uskim uličicama. Tokom vrhunca sezone, grad balansira između mira i živahne turističke aktivnosti.",
+    "beachesTitle": "Plaže",
+    "beachesText": "Tivat se može pohvaliti sa 17 plaža koje se prostiru na 3 kilometra obale, priznatih među najljepšima na Mediteranu. Među najboljim plažama su:",
+    "beach1": "Plavi Horizonti: Bijeli pijesak, kristalno čista voda, savršeno za plivanje i sunčanje",
+    "beach2": "Pržno na ostrvu Sveti Marko: Napušteno odmaralište koje nudi osamu i netaknutu vodu, idealno za vodene sportove",
+    "portoTitle": "Porto Crna Gora",
+    "portoText": "Dragulj Tivta je Porto Crna Gora, luksuzna marina za jahte i naselje na obali koje je transformisalo grad u jednu od najmodernijih destinacija na Jadranu. Kompleks marine sadrži butike, restorane, bazenski klub i redovne događaje tokom ljetnje sezone.",
+    "culturalTitle": "Kulturne Atrakcije",
+    "monasteryTitle": "Manastir Sv. Mihaila Arhanđela",
+    "monasteryText": "Ruševine iz 10. vijeka smještene na poluostrvu Prevlaka, sa tekućim arheološkim radovima koji otkrivaju drevnu istoriju lokaliteta.",
+    "churchTitle": "Crkva Sv. Antuna Padovanskog",
+    "churchText": "Sagrađena 1734. godine, ova crkva sadrži religiozne slike i artefakte, sa prekrasnim pogledom na zaliv.",
+    "museumText": "Na samo 10 minuta vožnje u Kotoru, Pomorski muzej prikazuje bogato pomorsko nasljeđe Crne Gore i istorijske obrazovne centre."
+  },
+  "tivatAirportBody": {
+    "h1": "Iznajmljivanje Automobila na Aerodromu Tivat (TIV)",
+    "p1": "Mali grad Tivat ima jedini drugi komercijalni aerodrom u Crnoj Gori osim Podgorice. Objekat je nedavno prošao modernizaciju, sa novim terminalom za međunarodne odlaske i domaće dolaske. Aerodromski kod je TIV, a nalazi se samo 4 km od centra grada.",
+    "p2": "Kao i Podgorica, aerodrom Tivat ima više letova tokom ljetnje sezone, ali održava dnevne letove za Beograd tokom čitave godine. Čarter letovi intenzivno operišu tokom ljetnih mjeseci. Zbog jedinstvenog terena koji okružuje aerodrom, poznat je kao jedan od najzahtjevnijih aerodroma za slijetanje.",
+    "distancesTitle": "Udaljenosti od Aerodroma Tivat",
+    "dist1": "Kotor: približno 10 minuta",
+    "dist2": "Budva: približno 20 minuta",
+    "dist3": "Podgorica: 80 km",
+    "dist4": "Bar: 58 km",
+    "facilitiesTitle": "Sadržaji Aerodroma",
+    "facilitiesText": "Aerodrom nudi kafiće, javne telefone, suvenirnice i bescarinsku kupovinu. Autobuske linije povezuju Herceg Novi i Budvu, a taksi usluge su takođe dostupne ispred terminala.",
+    "whyTitle": "Zašto Iznajmiti na Aerodromu Tivat?",
+    "whyText": "Aerodrom Tivat je najbliži aerodrom najpopularnijim primorskim destinacijama u Crnoj Gori. U roku od nekoliko minuta nakon slijetanja, možete voziti duž Bokokotorskog zaliva prema srednjovjekovnom utvrđenom gradu, ili se uputiti na jug prema plažama Budve. Preuzimanje automobila na Tivtu znači bez transfera, bez čekanja na autobuse — direktno od terminala do otvorenog puta.",
+    "meetText": "Dočekujemo vas u hali za dolaske sa vašim imenom na tabli. Vaš automobil je parkiran odmah ispred. Ukupno vrijeme od slijetanja do vožnje: oko 10 minuta."
+  },
+  "podgoricaBody": {
+    "h1": "Podgorica -- Glavni Grad",
+    "p1": "Većina turista koji dolijeću u Crnu Goru započeće svoje putovanje na aerodromu Podgorica (TGD), koji se nalazi 9 km od centra grada. Kao glavni i najveći grad Crne Gore, Podgorica je dom za približno 170.000 stanovnika i jedinstveno se nalazi na obalama šest rijeka: Morače, Ribnice, Zete, Sitnice, Mareže i Cijevne.",
+    "p2": "Arhitektura grada odražava raznovrsne istorijske uticaje. Osmanska vladavina je ostavila svoj trag, dok srednjovjekovne strukture stoje uz funkcionalne zgrade iz komunističkog perioda i savremene staklene tornjeve. Most Milenijum je postao simbol moderne estetike grada.",
+    "p3": "Podgorica je kulturna prijestonica zemlje. Turisti koji požure na primorske gradove ili planine bez provođenja vremena ovdje sigurno će propustiti važan dio Crne Gore.",
+    "seeTitle": "Šta Vidjeti",
+    "seeText": "Među istaknutim mjestima za kupovinu su italijanske tkanine, umjetničke galerije i lokalna vina i rakije. Značajne atrakcije uključuju Sahat-kulu iz osmanskog perioda i Duklju, arheološki lokalitet star približno dvije hiljade godina.",
+    "dayTripsTitle": "Jednodnevni Izleti iz Podgorice",
+    "skadarTitle": "Skadarsko Jezero",
+    "skadarText": "Potencijalno najljepše jezero u Evropi, smješteno na crnogorsko-albanskoj granici kao Nacionalni park. Dom milionima pelikana, to je najveće jezero na Balkanu i obavezna destinacija za ljubitelje prirode.",
+    "danilovgradTitle": "Danilovgrad",
+    "danilovgradText": "Slikovit riječni grad približno trideset minuta zapadno od Podgorice, koji nudi riječne plaže, vožnje čamcem, galerije i obližnji manastir Zdrebaonik.",
+    "zabljak": "Alpski grad u planinskom regionu Durmitora, na 1.500 metara nadmorske visine i 170 kilometara od Podgorice. Cjelogodišnja destinacija koja nudi skijanje zimi te planinarenje, rafting i brdski biciklizam ljeti."
+  },
+  "podgoricaAirportBody": {
+    "h1": "Iznajmljivanje Automobila na Aerodromu Podgorica (TGD)",
+    "p1": "Iako mnogi posjetioci i dalje biraju da dolete na aerodrom Dubrovnik u susjednoj Hrvatskoj, svake godine se otvaraju novi letovi ka crnogorskim aerodromima. Aerodrom Podgorica služi kao najveći javni aerodrom u Crnoj Gori i čvorište za nacionalne aviokompanije.",
+    "p2": "Novi terminal je otvoren u maju 2006. godine, dok stari terminal sada funkcioniše kao muzej koji dokumentuje istoriju crnogorskog vazduhoplovstva. Aerodromski kod TGD je istorijska referenca na nekadašnje ime grada, Titograd.",
+    "distancesTitle": "Lokacija i Udaljenosti",
+    "distIntro": "Aerodrom se nalazi 12 kilometara južno od centra Podgorice.",
+    "dist1": "Centar Podgorice: 12 km (taksi približno 10 Eura)",
+    "dist2": "Budva: približno 40 minuta",
+    "dist3": "Kolašin: 80 km",
+    "dist4": "Žabljak: 170 km",
+    "flightsTitle": "Letovi i Avio-kompanije",
+    "flightsText": "Aerodrom opslužuje i međunarodne i domaće letove. Dnevna linija povezuje Beograd, sa redovnim letovima za Pariz, Rim, Frankfurt, Beč, Budimpeštu, Ljubljanu i Moskvu. Sezonske rute uključuju Prag i dodatne letove za Moskvu.",
+    "facilitiesTitle": "Sadržaji Aerodroma",
+    "facilitiesText": "Terminal ima osam izlaza za odlaske, dva izlaza za dolaske, 5.500 kvadratnih metara površine i 25.000 kvadratnih metara parkinga. Sadržaji uključuju kafiće, bescarinsku kupovinu i razne usluge.",
+    "awardText": "Iako mali, aerodrom Podgorica je nagrađivani objekat, koji je osvojio nagradu ACI Europe za najbolji aerodrom sa manje od milion putnika.",
+    "rentalTitle": "Preuzimanje Vašeg Iznajmljenog Automobila",
+    "rentalText": "Dočekujemo vas u hali za dolaske i dovodimo automobil do vas. Bez redova, bez shuttle autobusa do udaljenih parkirališta. U roku od nekoliko minuta nakon prolaska carinske kontrole, bićete na putu prema vašoj destinaciji."
+  },
+  "dubrovnikAirportBody": {
+    "h1": "Iznajmljivanje Automobila na Aerodromu Dubrovnik (DBV)",
+    "p1": "Mnogi turisti koji posjećuju Crnu Goru biraju da dolete na aerodrom Dubrovnik i iznajme automobil za vožnju do Crne Gore. Aerodrom se nalazi na kratkoj dvosatnoj vožnji od primorskih odmarališta Budve, Perasta i Kotora, te je bolje povezan sa mnogim avio-kompanijama koje još nemaju direktne letove za Crnu Goru.",
+    "p2": "Budući da je ovo toliko uobičajena ruta, prelazak granice nije težak zadatak — pod uslovom da posjetioci imaju sve ugovore o iznajmljivanju i putne dokumente u redu.",
+    "p3": "Iznajmljivanje automobila za putovanje u Crnu Goru je odlična ideja. Omogućava posjetiocima da vide ovaj dio svijeta pod sopstvenim uslovima, u sopstvenom tempu. Saobraćaj između zemalja u ovom regionu je uobičajen, pa su granični prelazi generalno jednostavni.",
+    "borderTitle": "Savjeti za Prelazak Granice",
+    "borderText": "Tokom turističke sezone, Crna Gora biva preplavljena posjetiocima i dugo čekanje na prelazak granice nije neuobičajeno. Prelazak rano ujutru ili kasno noću je jedan od načina da izbjegnete gužve. Obavezno provjerite da vam je kompanija za iznajmljivanje obezbijedila Zelenu kartu za prekogranično osiguranje.",
+    "facilitiesTitle": "Sadržaji Aerodroma",
+    "facilitiesText1": "Aerodrom Dubrovnik ima modernu terminalnu zgradu smještenu na manje od pola sata vožnje od grada Dubrovnika na E65. Aerodrom ima ograničen parking, sa automatima koji primaju plaćanje gotovinom i kreditnim karticama. Budući da je parking ograničen — posebno u sezoni — posjetioci bi trebali unaprijed rezervisati svoja mjesta ako je moguće. Postoji popust za unaprijed rezervisanje.",
+    "facilitiesText2": "Unutar aerodroma nalazi se mjenjačnica, banka i pošta. Takođe su dostupni mali restorani, kafići, bescarinska prodavnica i kiosk sa novinama.",
+    "gettingTitle": "Kako Stići do Crne Gore",
+    "gettingText1": "Javni prevoz je dostupan na aerodromu u vidu taksija ispred terminala, te autobuskih linija i shuttle prevoza. Za putnika koji se upućuju prema gradu Dubrovniku, obavezno uzmite autobuse koji idu do samog centra grada, umjesto onih koji staju u Cavtatu, kako biste izbjegli presjedanje.",
+    "gettingText2": "Vožnja od aerodroma Dubrovnik do crnogorske obale vodi vas duž jednog od najslikovitijih obalnih puteva u Evropi. U roku od dva sata proći ćete granicu i stići do Bokokotorskog zaliva — jednog od najdramatičnijih prilaza bilo kojoj destinaciji na Mediteranu."
+  },
+  "montenegroBody": {
+    "h1": "Istraživanje Crne Gore Automobilom",
+    "p1": "Crna Gora je jedna od najnagrađivanijih destinacija u Evropi za samostalno istraživanje automobilom. Od dramatičnih planinskih puteva i mirnih sela u unutrašnjosti do vijugavih obalnih vožnji duž Jadrana, zemlja nudi raznolike pejzaže na iznenađujuće kratkim udaljenostima. Iznajmljivanje automobila pruža pristup lokacijama daleko van dometa javnog prevoza.",
+    "p2": "Iako kompaktna po veličini, Crna Gora zahtijeva duža vremena vožnje nego što mape sugerišu. Planinske serpentine, uske obalne ceste i slikovite rute ohrabruju česte zaustavljanja. Putnici dobijaju slobodu da dožive i putovanje i odredište — krstarenje zaljevima nalik fjordovima, istorijskim gradovima i planinskim vidikovcima sopstvenim tempom.",
+    "startTitle": "Početak Putovanja",
+    "startText": "Mnogi posjetioci preuzimaju svoj iznajmljeni automobil na jednom od crnogorskih aerodroma ili na aerodromu Dubrovnik u Hrvatskoj, u zavisnosti od dostupnosti letova. Aerodrom Tivat je najbliži obali — samo 10 minuta od Kotora i 20 minuta od Budve. Aerodrom Podgorica opslužuje glavni grad i unutrašnjost. Aerodrom Dubrovnik ostaje popularan jer često ima više dostupnih međunarodnih letova.",
+    "timesTitle": "Vremena Vožnje",
+    "timesText1": "Stvarna vremena vožnje redovno premašuju ono što mape pokazuju. Planinske serpentine, nazubljene obalne ceste, ruralne prepreke (uključujući stoku) i zimski snijeg na planinama doprinose dužim putovanjima. Slikovito obalno i pejzažno iskustvo više nego opravdava produženo vrijeme putovanja.",
+    "timesText2": "Putovanje između primorskih gradova obično traje od trideset minuta do jednog sata. Vožnja od Herceg-Novog do Podgorice putem E65/E80 traje približno dva sata.",
+    "rulesTitle": "Pravila Vožnje i Bezbjednost",
+    "rulesIntro": "Kontrole saobraćajne policije se dešavaju često, ali ne predstavljaju problem ako imate ispravnu dokumentaciju. Trebaće vam:",
+    "rule1": "Važeća vozačka dozvola (međunarodna dozvola se prihvata)",
+    "rule2": "Ugovor o iznajmljivanju ili dokaz o vlasništvu vozila",
+    "rule3": "Dokumentacija o osiguranju",
+    "rule4": "\"Zelena karta\" za granične prelaze (približno 15 Eura za 15 dana)",
+    "keyRulesTitle": "Ključna Pravila",
+    "keyRule1": "Pojasevi su obavezni za sve putnike",
+    "keyRule2": "Korišćenje mobilnog telefona tokom vožnje je zabranjeno",
+    "keyRule3": "Bilo kakva vožnja pod uticajem alkohola je ilegalna — nulta tolerancija",
+    "keyRule4": "Ograničenja brzine se strogo sprovode",
+    "conditionsTitle": "Stanje Puteva",
+    "conditionsText": "Gradski putevi su u zadovoljavajućem stanju. Planinski putevi mogu biti zahtjevniji, sa minimalnim zaštitnim ogradama na nekim mjestima. Neki vozači voze agresivno, pa se preporučuje oprez širom zemlje — posebno na planinskim prevlakama i uskim obalnim dionicama.",
+    "routesTitle": "Glavne Rute",
+    "e65Title": "E65/E80",
+    "e65Text": "Glavna obalna ruta povezuje Herceg-Novi sa Podgoricom, prolazeći kroz Kotor, Perast, Tivat i Budvu. Ovo je najpopularnija ruta za vožnju i nudi zapanjujuće poglede na Bokokotorski zaliv.",
+    "e762Title": "E762",
+    "e762Text": "Presijeca zemlju od obale do unutrašnjosti, vodeći ka istočnoj Hrvatskoj. Ova ruta vas vodi kroz planinsko srce Crne Gore.",
+    "borderTitle": "Granični Prelazi",
+    "borderText": "Prekogranično putovanje je jednostavno sa ispravnom dokumentacijom. Kontrolni punktovi mogu doživjeti veliku gužvu tokom sezone, sa kilometarskim kolonama automobila uobičajenim na popularnim prelazima. Optimalna vremena za prelazak su radnim danima ujutru ili kasno uveče.",
+    "nationTitle": "Mlada Nacija",
+    "nationText": "Crna Gora je stekla nezavisnost u junu 2006. godine, čineći je jednom od najmlađih nacija na svijetu. Razvoj turizma nastavlja da raste, nudeći egzotičniju i nešto grublju avanturu u poređenju sa susjednim zemljama. Pejzaž kombinuje zelene planine kroz koje se probijaju fjordovi puni duboke plave jadranske vode, raznolikost plaža i misterije drevnih starih gradova."
+  },
+  "borderCrossingBody": {
+    "h1": "Mogu Li Odvesti Iznajmljeni Auto Preko Granice?",
+    "p1": "Da. Prekogranično putovanje je dozvoljeno iz Crne Gore u Hrvatsku, Bosnu i Hercegovinu, Albaniju, Kosovo i Srbiju. Samo trebate obavijestiti kompaniju za iznajmljivanje pri rezervaciji kako bi mogli pripremiti neophodnu dokumentaciju.",
+    "greenCardTitle": "Šta je Zelena Karta?",
+    "greenCardText": "Zelena karta je međunarodni sertifikat o osiguranju motornog vozila koji dokazuje da je vaše vozilo osigurano u zemlji u koju ulazite. Obavezna je na svakom graničnom prelazu na Balkanu.",
+    "greenCard1": "Cijena: približno 15 Eura za 15 dana",
+    "greenCard2": "Gdje je nabaviti: vaša kompanija za iznajmljivanje to uređuje — samo potvrdite pri rezervaciji",
+    "greenCard3": "Zemlje koje pokriva: Hrvatska, Bosna, Albanija, Kosovo, Srbija",
+    "greenCardWarn": "Bez Zelene karte, granični službenici vas neće propustiti. Uvijek provjerite da karta pokriva sve zemlje na vašoj planiranoj ruti prije nego što krenete.",
+    "docsTitle": "Dokumenti Koji Su Vam Potrebni na Granici",
+    "doc1": "Važeći pasoš ili EU lična karta",
+    "doc2": "Vozačka dozvola (međunarodna dozvola se prihvata)",
+    "doc3": "Ugovor o iznajmljivanju (original, ne fotokopija)",
+    "doc4": "Sertifikat o osiguranju — Zelena karta",
+    "doc5": "Saobraćajna dozvola vozila (obezbijeđena uz automobil)",
+    "crossingsTitle": "Granični Prelazi iz Crne Gore",
+    "croatiaTitle": "Crna Gora → Hrvatska",
+    "croatiaText": "Najpopularniji prelaz za turiste. Glavni kontrolni punkt je na Debelom Brijegu na obalnom putu (E65) između Herceg Novog i Dubrovnika. Ovaj prelaz postaje izuzetno prometan ljeti — očekujte redove od 1-2 sata tokom sezone (jul-avgust).",
+    "croatiaTip": "Najbolja vremena za prelazak: rano ujutru (prije 8h) ili kasno uveče (poslije 20h). Radnim danima ujutru je znatno mirnije nego vikendom.",
+    "croatiaFerry": "Postoji i trajektna prečica Kamenari-Lepetane preko Bokokotorskog zaliva koja izbjegava vožnju oko čitavog zaliva — štedi oko 45 minuta.",
+    "albaniaTitle": "Crna Gora → Albanija",
+    "albaniaText": "Dva glavna prelaza: Sukobin/Muriqan (obalni, blizu Ulcinja) i Hani i Hotit (kopneni, blizu Skadarskog jezera). Obalni prelaz je pogodniji za putnike i obično ima kraća vremena čekanja.",
+    "albaniaNote": "Napomena: Albanski putevi se značajno razlikuju od crnogorskih. Vozite oprezno, posebno na ruralnim putevima.",
+    "bosniaTitle": "Crna Gora → Bosna i Hercegovina",
+    "bosniaText": "Glavni prelaz je kod Šćepan Polja (blizu Foče) ako idete na sjever, ili preko Viluša iz Nikšića. Prelazi su generalno mirni sa minimalnim vremenom čekanja van ljeta.",
+    "serbiaTitle": "Crna Gora → Srbija",
+    "serbiaText": "Prelazite kod Dobrakova (na E65 sjeverno od Bijelog Polja). Ovaj prelaz se direktno povezuje sa srpskim autoputnim sistemom prema Beogradu.",
+    "kosovoTitle": "Crna Gora → Kosovo",
+    "kosovoText": "Prelaz kod Kule (blizu Rožaja) povezuje se sa Pejom/Peći na Kosovu. Provjerite sa kompanijom za iznajmljivanje da li je Kosovo uključeno u vašu Zelenu kartu — neke polise ga isključuju.",
+    "tipsTitle": "Savjeti za Nesmetane Granične Prelaze",
+    "tip1": "Pripremite sve dokumente prije nego što stignete do kontrolnog punkta — ne tražite ih na prozoru",
+    "tip2": "Ugasite motor dok čekate u redu (granični službenici to cijene)",
+    "tip3": "Ljetnji vikendi su najgori — planirajte da prelazite radnim danima ako je moguće",
+    "tip4": "Hrvatski obalni prelaz (Debeli Brijeg) je najprometiniji; kopneni prelazi su mirniji",
+    "tip5": "Imajte pri ruci nešto gotovine u Eurima — korisno za putarine i manje kupovine s druge strane",
+    "tip6": "Mobilni podaci u romingu: provjerite da vaš plan pokriva zemlju u koju ulazite",
+    "lawsTitle": "Pravila Vožnje Koja Se Mijenjaju na Granicama",
+    "lawsIntro": "Svaka zemlja ima nešto drugačije saobraćajne zakone. Ključne razlike na koje treba obratiti pažnju:",
+    "law1": "Hrvatska: svjetla moraju biti upaljena u svako doba. Primjenjuju se putarine na autoputevima (gotovina ili kartica)",
+    "law2": "Albanija: ograničenja brzine su niža na ruralnim putevima. Kvalitet puteva značajno varira",
+    "law3": "Bosna: zimske gume obavezne od novembra do aprila. Nosite komplet za prvu pomoć i sigurnosni trougao",
+    "law4": "Srbija: nulta tolerancija na alkohol za vozače. Potrebna je autoputna vinjeta",
+    "law5": "Kosovo: vozi se desnom stranom. Preporučuje se međunarodna vozačka dozvola",
+    "popularTitle": "Popularne Prekogranične Rute",
+    "route1": "Tivat → Dubrovnik: 2 sata obalnim putem E65. Zapanjujući pejzaži, jedan granični prelaz",
+    "route2": "Kotor → Mostar (Bosna): 3-4 sata preko Trebinja. Posjetite čuveni most",
+    "route3": "Budva → Skadar (Albanija): 2,5 sata preko obalnog prelaza kod Ulcinja",
+    "route4": "Podgorica → Beograd (Srbija): 5-6 sati putem E65 na sjever",
+    "ctaText": "Trebate automobil sa prekograničnom dokumentacijom? Pretražite našu flotu — samo odaberite odredišne zemlje pri rezervaciji i mi ćemo urediti Zelenu kartu."
+  }
+}

@@ -1,0 +1,552 @@
+{
+  "nav": {
+    "book": "Buchen",
+    "destinations": "Reiseziele",
+    "about": "Über uns"
+  },
+  "common": {
+    "home": "Startseite",
+    "searchCars": "Autos suchen",
+    "callUs": "Rufen Sie uns an",
+    "bookNow": "Jetzt buchen",
+    "perDay": "pro Tag"
+  },
+  "hero": {
+    "headline": "Mietwagen in Montenegro",
+    "badges": {
+      "freeCancellation": "Kostenlose Stornierung",
+      "fullInsurance": "Vollkasko inklusive",
+      "airportPickup": "10-Min Flughafen-Abholung",
+      "trustpilot": "4.8/5 auf Trustpilot"
+    },
+    "search": "Suchen",
+    "pickupLocation": "Abholort",
+    "searchLocation": "Ort suchen…",
+    "pickupDate": "Abholdatum",
+    "pickupTime": "Uhrzeit",
+    "dropoffDate": "Rückgabedatum",
+    "dropoffTime": "Uhrzeit"
+  },
+  "trust": {
+    "noHiddenFees": "Keine versteckten Kosten",
+    "noHiddenFeesDesc": "Der angezeigte Preis ist all-inclusive",
+    "fullInsurance": "Vollkasko",
+    "fullInsuranceDesc": "Option ohne Selbstbeteiligung verfügbar",
+    "fastPickup": "10-Min Abholung",
+    "fastPickupDesc": "Wir empfangen Sie am Ankunftsbereich"
+  },
+  "stats": {
+    "years": "Jahre Erfahrung",
+    "rentals": "Zufriedene Vermietungen",
+    "rating": "Kundenbewertung",
+    "locations": "Abholorte"
+  },
+  "howItWorks": {
+    "label": "So funktioniert's",
+    "title": "In 3 Schritten unterwegs",
+    "subtitle": "Einfache Buchung. Sofortige Bestätigung. Kein Anstehen am Flughafen.",
+    "step1Title": "Wählen Sie Ihren Abholort",
+    "step1Desc": "Wählen Sie aus Flughäfen, Kotor, Budva, Perast und weiteren Abholpunkten in ganz Montenegro und darüber hinaus.",
+    "step2Title": "Wählen Sie Ihr Auto",
+    "step2Desc": "Entdecken Sie unsere Flotte von sparsamen Kleinwagen bis zu Premium-SUVs. Filtern Sie nach Größe, Getriebe oder Budget.",
+    "step3Title": "Fahren Sie durch Montenegro",
+    "step3Desc": "Wir empfangen Sie am Ankunftsbereich. Ihr Auto steht bereit. Entdecken Sie Küste, Berge und historische Städte."
+  },
+  "fleet": {
+    "label": "Unsere Flotte",
+    "title": "Wählen Sie Ihr Fahrzeug",
+    "subtitle": "Verfügbarkeit und Preise in Echtzeit — direkt buchen."
+  },
+  "brands": {
+    "label": "Vertrauenswürdige Marken in unserer Flotte"
+  },
+  "destinations": {
+    "label": "Top-Reiseziele",
+    "title": "Montenegro entdecken",
+    "subtitle": "Von der Bay of Kotor bis zur albanischen Grenze — jedes Reiseziel eine andere Welt."
+  },
+  "features": {
+    "label": "Warum wir",
+    "title": "Für Reisende gemacht",
+    "subtitle": "Alles, was Sie für eine stressfreie Autovermietung in Montenegro brauchen."
+  },
+  "reviews": {
+    "label": "Bewertungen",
+    "title": "Von Reisenden geliebt",
+    "subtitle": "Echte Erfahrungen von echten Kunden in ganz Montenegro."
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Häufige Fragen",
+    "subtitle": "Alles, was Sie vor Ihrer Buchung wissen müssen."
+  },
+  "cta": {
+    "title": "Bereit, Montenegro zu entdecken?",
+    "subtitle": "In wenigen Minuten buchen. Am Flughafen abholen. Die gesamte Adriatic-Küste in Ihrem eigenen Tempo erkunden.",
+    "browseFleet": "Flotte ansehen"
+  },
+  "sidebar": {
+    "bookTitle": "Ihr Auto buchen",
+    "bookText": "Echtzeit-Verfügbarkeit und Preise in ganz Montenegro durchsuchen.",
+    "helpTitle": "Brauchen Sie Hilfe?",
+    "helpText": "Unser Team ist per WhatsApp, Viber oder Telefon erreichbar.",
+    "popularDest": "Beliebte Reiseziele"
+  },
+  "book": {
+    "title": "Finden Sie Ihr Auto",
+    "seoTitle": "Auto buchen",
+    "seoDesc": "Mietwagen in Montenegro suchen und buchen. Echtzeit-Verfügbarkeit, sofortige Bestätigung, kostenlose Stornierung."
+  },
+  "footer": {
+    "brandDesc": "Premium-Autovermietung in Montenegro seit 2007. Flughafenabholung, Vollkasko und keine versteckten Kosten.",
+    "quickLinks": "Schnelllinks",
+    "guides": "Reiseführer",
+    "locations": "Standorte",
+    "carHireBooking": "Mietwagen-Buchung",
+    "ourFleet": "Unsere Flotte",
+    "destinations": "Reiseziele",
+    "aboutUs": "Über uns",
+    "faqLink": "FAQ",
+    "montenegroGuide": "Montenegro Reiseführer",
+    "borderGuide": "Grenzübergang-Ratgeber",
+    "searchCars": "Autos suchen",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "terms": "Allgemeine Geschäftsbedingungen",
+    "cookiePolicy": "Cookie-Richtlinie"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Falsch abgebogen",
+    "text": "Es sieht so aus, als hätten Sie einen Umweg genommen. Diese Straße führt nirgendwohin — aber Montenegros beste Routen sind nur einen Klick entfernt.",
+    "backHome": "Zurück zur Startseite",
+    "searchCars": "Autos suchen"
+  },
+  "home": {
+    "seoDesc": "Mietwagen in Montenegro ab 13 €/Tag. Abholung am Flughafen Tivat, Flughafen Podgorica, Kotor, Budva und über 28 Standorten. Kostenlose Stornierung, Vollkasko, keine versteckten Kosten. Online in wenigen Minuten buchen."
+  },
+  "about": {
+    "title": "Über uns",
+    "subtitle": "Wir helfen Reisenden seit 2007, Montenegro zu entdecken.",
+    "seoDesc": "Über Montenegro Car Hire. Seit 2007 helfen wir Reisenden, Montenegro mit zuverlässigen Mietwagen, Flughafenzustellung und lokaler Expertise zu entdecken."
+  },
+  "kotor": {
+    "title": "Mietwagen in Kotor",
+    "subtitle": "Entdecken Sie Montenegros UNESCO-Juwel in Ihrem eigenen Tempo.",
+    "seoDesc": "Mietwagen in Kotor, Montenegro. Entdecken Sie die UNESCO-Altstadt, die Bucht von Kotor und das nahe Perast mit günstiger Autovermietung und kostenloser Flughafenzustellung."
+  },
+  "tivat-airport": {
+    "title": "Mietwagen am Flughafen Tivat",
+    "subtitle": "Holen Sie Ihren Mietwagen am Ankunftsbereich ab.",
+    "seoDesc": "Mietwagen am Flughafen Tivat (TIV) abholen. Wir treffen Sie am Ankunftsbereich mit Ihrem Fahrzeug. Fahren Sie in wenigen Minuten nach Kotor, Budva oder Porto Montenegro."
+  },
+  "budva": {
+    "title": "Mietwagen in Budva",
+    "subtitle": "Montenegros Riviera — Strände, Nachtleben und Altstadtcharme.",
+    "seoDesc": "Mietwagen in Budva, Montenegro. Fahren Sie zum Mogren-Strand, Sveti Stefan und zum besten Nachtleben der Riviera. Vollkasko, keine versteckten Kosten."
+  },
+  "perast": {
+    "title": "Mietwagen in Perast",
+    "subtitle": "Ein barockes Juwel an der Bay of Kotor.",
+    "seoDesc": "Mieten Sie ein Auto und besuchen Sie Perast, ein barockes Juwel an der Bucht von Kotor. Sehen Sie die Insel Unserer Lieben Frau vom Felsen und beeindruckende Uferpaläste."
+  },
+  "podgorica": {
+    "title": "Mietwagen in Podgorica",
+    "subtitle": "Montenegros Hauptstadt — Kultur, Flüsse und moderner Charme.",
+    "seoDesc": "Mietwagen in Podgorica, Montenegros Hauptstadt. Erkunden Sie den Skadarsee, das Kloster Ostrog und Durmitor mit einem Mietwagen. Flughafenabholung verfügbar."
+  },
+  "podgorica-airport": {
+    "title": "Mietwagen am Flughafen Podgorica",
+    "subtitle": "Montenegros wichtigstes internationales Tor.",
+    "seoDesc": "Mietwagen am Flughafen Podgorica (TGD) abholen. Wir liefern Ihr Fahrzeug zum Ankunftsbereich. Fahren Sie zur Küste, zum Skadarsee oder zum Nationalpark Durmitor."
+  },
+  "dubrovnik-airport": {
+    "title": "Mietwagen am Flughafen Dubrovnik",
+    "subtitle": "Fliegen Sie nach Kroatien, fahren Sie nach Montenegro.",
+    "seoDesc": "Mieten Sie ein Auto am Flughafen Dubrovnik und fahren Sie nach Montenegro. Grenzübergang in unter einer Stunde. Vollkasko und Grüne Karte inklusive."
+  },
+  "tivat": {
+    "title": "Mietwagen in Tivat",
+    "subtitle": "Montenegros Hafenstadt an der Bay of Kotor.",
+    "seoDesc": "Mietwagen in Tivat, Heimat des Yachthafens Porto Montenegro. Entdecken Sie nahe Strände, Kotor und die Bucht von Kotor mit günstiger Autovermietung."
+  },
+  "montenegro": {
+    "title": "Mietwagen & Reiseführer Montenegro",
+    "subtitle": "Alles, was Sie über das Autofahren in Montenegro wissen müssen.",
+    "seoDesc": "Kompletter Leitfaden zum Autofahren in Montenegro. Verkehrsregeln, Geschwindigkeitsbegrenzungen, Kraftstoffpreise und die schönsten Routen von der Küste bis zu den Bergen."
+  },
+  "border-crossing": {
+    "title": "Balkan-Grenzübergangsführer",
+    "subtitle": "Alles, was Sie über das Fahren mit Ihrem Mietwagen über Grenzen wissen müssen.",
+    "seoDesc": "Leitfaden für Grenzübertritte von Montenegro mit dem Mietwagen. Grüne Karte Versicherung, erforderliche Dokumente und Tipps für Kroatien, Bosnien, Albanien und Serbien."
+  },
+  "privacy": {
+    "title": "Datenschutzrichtlinie",
+    "subtitle": "Wie wir mit Ihren Daten umgehen.",
+    "seoDesc": "Datenschutzrichtlinie von Montenegro Car Hire. Wie wir Ihre personenbezogenen Daten bei der Suche nach Mietwagen erheben, verwenden und schützen."
+  },
+  "terms": {
+    "title": "Allgemeine Geschäftsbedingungen",
+    "subtitle": "Nutzungsbedingungen für unsere Website.",
+    "seoDesc": "Allgemeine Geschäftsbedingungen für die Nutzung von Montenegro Car Hire. Erfahren Sie mehr über Buchungsprozess, Mietpartner, Preise und Haftung."
+  },
+  "cookie-policy": {
+    "title": "Cookie-Richtlinie",
+    "subtitle": "Wie wir Cookies auf dieser Website verwenden.",
+    "seoDesc": "Cookie-Richtlinie von Montenegro Car Hire. Erfahren Sie, welche Cookies wir verwenden, wie das Buchungs-Widget Einstellungen speichert und wie Sie sie verwalten."
+  },
+  "featureCards": {
+    "airportPickup": {
+      "title": "Flughafenabholung",
+      "desc": "Holen Sie Ihr Auto am Flughafen Tivat oder Podgorica ab. Kein Shuttle, kein Warten."
+    },
+    "fullInsurance": {
+      "title": "Vollversicherung",
+      "desc": "Umfassender Schutz mit Null-Selbstbeteiligung-Option. Fahren Sie völlig sorgenfrei."
+    },
+    "support": {
+      "title": "24/7 Support",
+      "desc": "Pannenhilfe und Kundenservice rund um die Uhr, jeden Tag."
+    },
+    "noHiddenFees": {
+      "title": "Keine versteckten Kosten",
+      "desc": "Tankpolitik, Kilometerstand, Steuern — alles ist im angezeigten Preis enthalten."
+    },
+    "freeCancellation": {
+      "title": "Kostenlose Stornierung",
+      "desc": "Pläne ändern sich. Stornieren Sie bis 24 Stunden vor Abholung für eine volle Rückerstattung."
+    },
+    "crossBorder": {
+      "title": "Grenzüberschreitend",
+      "desc": "Fahren Sie nach Croatia, Bosnia, Albania oder Kosovo. Grenzüberschreitendes Reisen erlaubt."
+    }
+  },
+  "testimonials": {
+    "0": {
+      "text": "Einen makellosen Octavia am Flughafen Tivat in unter 5 Minuten abgeholt. Die gesamte Küste bis nach Ulcinj gefahren. Unglaubliches Preis-Leistungs-Verhältnis."
+    },
+    "1": {
+      "text": "Der BMW war in perfektem Zustand und die Grenzübertrittsdokumente für Croatia waren bei unserer Ankunft bereit. Sehr empfehlenswert."
+    },
+    "2": {
+      "text": "Wir haben Montenegro zwei Wochen lang erkundet. Der Jeep meisterte Bergstraßen perfekt. Die beste Mietwagen-Erfahrung, die wir je hatten."
+    }
+  },
+  "faqItems": {
+    "0": {
+      "q": "Welche Dokumente werden benötigt?",
+      "a": "Führerschein in lateinischer Schrift, Reisepass und eine Kreditkarte, die auf den Namen des Hauptfahrers ausgestellt ist. Ein internationaler Führerschein wird benötigt, wenn der Führerschein nur nationale Gültigkeit hat. Dokumentkopien und Dokumente in elektronischer Form werden nicht anerkannt."
+    },
+    "1": {
+      "q": "Sind Fahrten nach Kroatien oder Albanien erlaubt?",
+      "a": "Ja! Informieren Sie den Vermieter vorab über Ihre Reiseabsichten ins Ausland, damit dieser die benötigten Dokumente vorbereiten kann. Grenzüberschreitende Reisen in die benachbarten Länder sind erlaubt."
+    },
+    "2": {
+      "q": "Gibt es ein Mindestalter?",
+      "a": "Die Voraussetzungen variieren je nach Fahrzeug und werden bei den Suchergebnissen angezeigt."
+    },
+    "3": {
+      "q": "Was ist im Preis enthalten?",
+      "a": "Eine Haftpflichtversicherung ist für alle Fahrzeuge im Preis enthalten. Viele Angebote beinhalten im Grundpreis auch eine Kaskoversicherung (CDW, engl. Collision Damage Waiver). Ebenso im Preis enthalten sind Mehrwertsteuer, Notfall- und Pannenausrüstung (Verbandkasten, Warndreieck, Sicherheitsweste) und eine transparente Kraftstoffrichtlinie. Vereinbarungen zur Kilometerlaufleistung variieren je nach Fahrzeug. Weitere Versicherungsoptionen sind gegen Aufpreis erhältlich."
+    },
+    "4": {
+      "q": "Wie funktioniert die Abholung?",
+      "a": "Die Angebote für eine Abholung mit dem Mietfahrzeug variieren je nach Anbieter und Reiseziel. Geben Sie bei der Buchung den gewünschten Ort und Zeitpunkt an, um ein Treffen vor Ort zu arrangieren. Für genauere Vereinbarungen zum Treffpunkt kontaktieren Sie bitte das Vermietunternehmen direkt im Anschluss an Ihre Buchung."
+    },
+    "5": {
+      "q": "Ist eine Rückgabe an einem anderen Ort möglich?",
+      "a": "Ja — Einwegmieten werden für 28 Ziele in Montenegro angeboten. Wählen Sie hierzu bei der Buchung einfach Ihre gewünschten Abhol- und Rückgabeorte aus."
+    },
+    "6": {
+      "q": "Kann ich meine Buchung stornieren?",
+      "a": "Eine Stornierung ist bis zu sieben Tage vor Beginn des Mietzeitraums kostenfrei möglich. Für Premiumfahrzeuge und Cabriolets ist die Stornierung bis zu 30 Tage vor Beginn des Mietzeitraums kostenfrei möglich. Für alle Stornierungen fällt eine Zahlungsgebühr von 6% des Mietpreises an."
+    },
+    "7": {
+      "q": "Ist eine Mietkaution erforderlich?",
+      "a": "Die Höhe der Kaution variiert je nach Fahrzeug — einige Fahrzeuge können auch kautionsfrei gemietet werden. Für die Kautionszahlung wird eine physische Kreditkarte im Namen des Hauptfahrers benötigt. Der Kautionsbetrag wird bei Rückgabe des unbeschädigten Fahrzeuges zurückgezahlt."
+    },
+    "8": {
+      "q": "Was passiert bei Überschreitung der Kilometerlaufleistung?",
+      "a": "Für Fahrzeuge mit beschränkter Kilometerlaufleistung fällt oberhalb der vereinbarten Grenze eine Zusatzgebühr pro gefahrenen Mehrkilometer an. Die Rate ist den Mietbedingungen für das Fahrzeug zu entnehmen."
+    },
+    "9": {
+      "q": "Gibt es versteckte Kosten?",
+      "a": "Der Endpreis für die Miete beinhaltet alle Steuern und Gebühren; versteckte Kosten sind nicht enthalten."
+    },
+    "10": {
+      "q": "Wie hoch ist die Anzahlung?",
+      "a": "Für die Bestätigung Ihrer Buchung fällt eine Anzahlung von 15–20% an. Den offenen Restbetrag begleichen Sie mit dem Vermietunternehmen bei der Abholung vor Ort."
+    },
+    "11": {
+      "q": "Können Fahrzeuge ohne Kreditkarte gemietet werden?",
+      "a": "Einige Fahrzeuge können auch ohne Kreditkarte gemietet werden — verfügbare Angebote sind in der Fahrzeugsuche entsprechend markiert."
+    }
+  },
+  "destCards": {
+    "tivat-airport": {
+      "name": "Flughafen Tivat",
+      "tag": "Beliebteste Wahl",
+      "desc": "Unser Hauptstandort. Wir treffen Sie bei der Ankunft."
+    },
+    "kotor": {
+      "name": "Kotor",
+      "tag": "UNESCO-Welterbe",
+      "desc": "Mittelalterliche ummauerte Stadt an der Adria."
+    },
+    "podgorica-airport": {
+      "name": "Flughafen Podgorica",
+      "tag": "Hauptstadt-Hub",
+      "desc": "Montenegros wichtigster internationaler Flughafen."
+    },
+    "perast": {
+      "name": "Perast",
+      "tag": "Geheimtipp",
+      "desc": "Barockdorf an der Bucht von Kotor."
+    },
+    "budva": {
+      "name": "Budva",
+      "tag": "Strandstadt",
+      "desc": "Riviera-Strände und die Altstadt-Mauern."
+    },
+    "dubrovnik-airport": {
+      "name": "Flughafen Dubrovnik",
+      "tag": "Grenzüberschreitend",
+      "desc": "Fliegen Sie nach Dubrovnik, fahren Sie nach Montenegro."
+    },
+    "tivat": {
+      "name": "Tivat",
+      "tag": "Hafenstadt",
+      "desc": "Porto Montenegro und die atemberaubende Boka Bay."
+    },
+    "podgorica": {
+      "name": "Podgorica",
+      "tag": "Hauptstadt",
+      "desc": "Montenegros moderne Hauptstadt — Kultur und Handel."
+    }
+  },
+  "aboutBody": {
+    "h1": "Montenegro Autovermietung",
+    "p1": "Seit 2007 verbindet Montenegro Car Hire Reisende mit zuverlässigen und erschwinglichen Mietwagen in ganz Montenegro. Was als einfache Idee begann — Besuchern die Erkundung dieser atemberaubenden Ecke der Adriatic zu erleichtern — hat sich zu einem der vertrauenswürdigsten Mietwagenservices des Landes entwickelt.",
+    "h2": "Warum wir angefangen haben",
+    "p2": "Montenegro ist ein Land, das man am besten in eigenem Tempo erlebt. Die kurvigen Küstenstraßen, versteckten Bergdörfer und UNESCO-Welterbestätten sind mit öffentlichen Verkehrsmitteln nur schwer erreichbar. Wir sahen die Möglichkeit, Reisenden die Freiheit zu geben, Montenegro auf eigene Faust zu entdecken — keine Reisebusfahrpläne, keine verpassten Aussichtspunkte, keine Kompromisse.",
+    "h3": "Was wir anbieten",
+    "p3": "Wir bieten Mietwagenservices in ganz Montenegro an, mit Abholung und Rückgabe am Tivat Airport, Podgorica Airport sowie an Standorten entlang der Küste und im Landesinneren. Unsere Flotte reicht von kompakten Stadtwagen bis zu geräumigen SUVs — alle vollversichert und ohne versteckte Gebühren.",
+    "promiseTitle": "Unser Versprechen",
+    "promise1": "Vollkaskoversicherung mit Option auf null Selbstbeteiligung",
+    "promise2": "Persönliche Begrüßung am Flughafen — wir bringen das Auto direkt zur Ankunftshalle",
+    "promise3": "Keine versteckten Gebühren — der angezeigte Preis ist der Endpreis",
+    "promise4": "Grenzüberschreitende Fahrten nach Kroatien, Bosnien, Albanien, Serbien und Kosovo erlaubt",
+    "promise5": "Kostenlose Stornierung bei den meisten Buchungen",
+    "promise6": "24/7 Pannenhilfe während Ihrer gesamten Reise",
+    "h4": "Lokales Wissen",
+    "p4": "Wir sind in Montenegro ansässig und kennen die Straßen, die besten Routen und die versteckten Schätze, die in keinem Reiseführer stehen. Ob Sie vom Tivat Airport zur mittelalterlichen Altstadt von Kotor fahren, die malerische Route durch die Bucht von Kotor nach Perast nehmen oder ins Landesinnere zum Durmitor-Nationalpark aufbrechen — wir helfen Ihnen, den perfekten Roadtrip zu planen.",
+    "h5": "Kontaktieren Sie uns",
+    "p5": "Haben Sie Fragen zur Autovermietung in Montenegro? Wir sind per Telefon, WhatsApp und Viber erreichbar. Durchsuchen Sie unsere Flotte online und buchen Sie in wenigen Minuten — oder kontaktieren Sie uns und wir finden das perfekte Auto für Ihre Reise."
+  },
+  "kotorBody": {
+    "h1": "Kotor — UNESCO-Weltkulturerbe",
+    "p1": "Kotor ist eine der schönsten Küstenstädte Montenegros und bietet herrliche Strände, den historischen Charme der Altstadt sowie mittelalterliche Mauern, hinter denen sich Kunstgalerien, Cafés und ausgezeichnete Restaurants verbergen. Als UNESCO-Weltkulturerbe konzentrieren sich die Sehenswürdigkeiten der Stadt in der wunderschön erhaltenen Altstadt.",
+    "p2": "Mit einem Mietwagen in Kotor haben Sie die Freiheit, lokale Sehenswürdigkeiten sowie nahegelegene montenegrinische Städte und Naturgebiete in Ihrem eigenen Tempo zu erkunden.",
+    "landmarksTitle": "Sehenswürdigkeiten",
+    "stJohnTitle": "Festung St. John",
+    "stJohnText": "Ein imposantes Bauwerk, das die Stadt historisch vor Piratenangriffen schützte. Zu den bemerkenswerten Merkmalen gehören der Contarini-Turm und die Kirche Unserer Lieben Frau der Gesundheit, die atemberaubende Ausblicke über die Altstadt und die Bucht von Kotor bietet.",
+    "cathedralTitle": "Kathedrale St. Tryphon",
+    "cathedralText": "Die 809 n. Chr. erbaute und 1124 wiederaufgebaute Kathedrale beherbergt bemerkenswerte byzantinische Architektur und Kunst.",
+    "dayTripsTitle": "Tagesausflüge ab Kotor",
+    "perastTrip": "Diese Kirche befindet sich im nahegelegenen Perast auf einer künstlichen Insel in der Bucht von Kotor. Fischer werfen dort seit 1452 jährlich Steine ins Wasser.",
+    "cetinjeTrip": "Das 1701 erbaute Kloster beherbergt die Hand Johannes des Täufers. Die Fahrt von Kotor dauert etwa eine Stunde durch malerische Bergstraßen.",
+    "royalCourtText": "Montenegros königlicher Palast von 1871 in der ehemaligen königlichen Hauptstadt."
+  },
+  "budvaBody": {
+    "h1": "Budva — Das Herz der Montenegrinischen Riviera",
+    "p1": "Budva ist Montenegros beliebtestes Strandziel und zieht Besucher aus ganz Europa an seine atemberaubende Küste, sein pulsierendes Nachtleben und seine wunderschön erhaltene mittelalterliche Altstadt. Mit einem Mietwagen liegt die gesamte Budva-Riviera und darüber hinaus direkt vor Ihrer Haustür.",
+    "p2": "Die Stadt liegt etwa 20 Minuten südlich des Flughafens Tivat und ist damit eines der am einfachsten erreichbaren Küstenziele nach der Landung. Budva vereint 2.500 Jahre Geschichte mit einer durch und durch modernen Urlaubsatmosphäre — tagsüber antike Stadtmauern, nachts lebhafte Strandbars.",
+    "beachesTitle": "Strände",
+    "beachesIntro": "Die Budva-Riviera erstreckt sich über 21 Kilometer und bietet einige der schönsten Strände an der Adriaküste:",
+    "mogren": "Zwei miteinander verbundene Kieselstrände, die durch einen in die Klippen gehauenen Tunnel erreichbar sind, nur wenige Minuten von der Altstadt entfernt",
+    "jaz": "Ein großer Sandstrand, der bei Einheimischen und Besuchern gleichermaßen beliebt ist und im Sommer Musikfestivals beherbergt",
+    "svetiStefan": "Die ikonische Insel mit Hotel, sichtbar von der Küstenstraße, mit einem öffentlichen Strand auf einer Seite",
+    "becici": "Ein langer Abschnitt aus feinem Sand, der einst zum schönsten Strand Europas gewählt wurde",
+    "oldTownTitle": "Altstadt",
+    "oldTownText": "Budvas Altstadt (Stari Grad) ist eine kompakte, ummauerte Zitadelle auf einer kleinen Halbinsel. Innerhalb der Mauern finden Sie enge Kopfsteinpflasterstraßen, venezianische Architektur, kleine Kirchen aus dem 7. Jahrhundert und eine lebhafte Mischung aus Restaurants, Galerien und Boutiquen. Die Festung Citadela an der Südspitze bietet einen Panoramablick auf die Küste und die nahe gelegenen Inseln.",
+    "dayTripsTitle": "Tagesausflüge ab Budva",
+    "svetiStefanTrip": "Nur 6 km südlich gelegen, ist dieses fotogene befestigte Inseldorf heute ein Luxushotel, aber die Aussicht von der Straße oberhalb ist spektakulär und kostenlos. Der Strand auf der Festlandseite ist für alle zugänglich.",
+    "kotorTrip": "Eine 30-minütige Fahrt nach Norden durch einen beeindruckenden Bergtunnel bringt Sie zur Bucht von Kotor und ihrer UNESCO-gelisteten Altstadt.",
+    "lovcenTrip": "Fahren Sie ins Landesinnere für Berglandschaften und das Njegoš-Mausoleum, das auf 1.657 Metern Höhe thront und an klaren Tagen Ausblicke auf vier Länder bietet. Die kurvenreiche Straße von der Küste ist ein Erlebnis für sich.",
+    "gettingAroundTitle": "Fortbewegung",
+    "gettingAroundText": "Während Budvas Altstadt am besten zu Fuß erkundet wird, ist ein Mietwagen unverzichtbar, um die besten Strände, nahegelegene Dörfer und Attraktionen im Landesinneren zu erreichen. Parkplätze sind in der Nähe der Altstadtmauern und auf mehreren öffentlichen Parkplätzen entlang der Hauptstraße vorhanden. Im Hochsommer sichert frühes Ankommen die besten Plätze."
+  },
+  "perastBody": {
+    "h1": "Perast — Verborgenes Juwel an der Bucht",
+    "p1": "Das kleine Dorf Perast liegt nur eine kurze Autofahrt — weniger als 20 Minuten — von Kotor entfernt. Touristen, die für ihre Montenegro-Rundreise ein Auto mieten, werden sicherlich die Fahrt über die Autobahn E65/E80 unternehmen wollen, um Zeit in diesem reizenden Fischerdorf zu verbringen.",
+    "p2": "Obwohl Perast nur etwa 850 Einwohner hat, überwiegt die lange und farbenfrohe Geschichte des Ortes bei weitem seine geringe Größe. Von 1420 bis 1797 gehörte die Stadt zur Republik Venedig und war bekannt für ihre meisterhaften Schiffsbauer und Seefahrer. Perast besitzt viele wunderschöne Zeugnisse der Vergangenheit und einige hervorragende Beispiele barocker Architektur.",
+    "islandsTitle": "Die Inseln",
+    "stGeorgeTitle": "Insel St. Georg",
+    "stGeorgeText": "Eine natürliche Insel direkt vor der Küste in der Bucht von Kotor, auf der sich das im 12. Jahrhundert erbaute Benediktinerkloster St. Georg befindet. Kleine Boote vom Hafen bringen Besucher für wenige Euro dorthin.",
+    "ladyOfRocksTitle": "Maria vom Felsen",
+    "ladyOfRocksText": "Eine künstliche Insel mit der gleichnamigen Kirche. Die Insel wurde über Jahrhunderte hinweg von Seefahrern aus der Stadt erschaffen, die Steine warfen und alte Boote und Schiffe versenkten. Jedes Jahr wird diese Tradition fortgesetzt, und am 22. Juli können Touristen zusehen, wie die Einheimischen ihre Boote mit Steinen beladen, um die Insel intakt zu halten.",
+    "historicTitle": "Historische Sehenswürdigkeiten",
+    "historicText": "Die Stadt verfügt über zahlreiche Paläste, Kathedralen und mehrere Wachtürme, die einst die Stadt schützten. Für diejenigen, die sich eingehend mit der Geschichte von Perast beschäftigen möchten, beherbergt das Museum von Perast zahlreiche Artefakte, Archive, Gemälde, Skulpturen und Stadtchroniken. Das Museum befindet sich im alten Palata Buiovich, den viele als das schönste Gebäude an der montenegrinischen Küste betrachten.",
+    "monasteryTitle": "Kloster Banja",
+    "monasteryText": "Das Kloster Banja liegt nördlich von Perast an der Straße nach Risan und beherbergt viele alte religiöse Stücke aus russischen, griechischen und Boka-Dynastien. Um das Kloster zu erreichen, fahren Sie einfach wenige Kilometer weiter nördlich auf der E65/E80."
+  },
+  "tivatBody": {
+    "h1": "Tivat — Hafenstadt",
+    "p1": "Tivat ist eine der neueren Städte an der montenegrinischen Küste, die vor etwas mehr als einem Jahrhundert erbaut wurde. Die Stadt beherbergt einen von nur zwei öffentlichen Flughäfen in Montenegro — den Flughafen Tivat — was sie zu einem äußerst praktischen Ausgangspunkt für Besucher macht, die mit dem Flugzeug anreisen.",
+    "p2": "Dieser Badeort hat eine Bevölkerung von rund 13.000 Einwohnern. Besucher können Uferpromenaden genießen, in Restaurants am Wasser speisen und Geschäfte erkunden, die in engen Gassen versteckt sind. Während der Hochsaison vereint die Stadt Ruhe mit lebhafter touristischer Aktivität.",
+    "beachesTitle": "Strände",
+    "beachesText": "Tivat verfügt über 17 Strände entlang von 3 Kilometern Küstenlinie, die zu den schönsten des Mittelmeerraums zählen. Zu den besten Stränden gehören:",
+    "beach1": "Plavi Horizanti (Blaue Horizonte): Weißer Sand, kristallklares Wasser, perfekt zum Schwimmen und Sonnenbaden",
+    "beach2": "Przno auf der Insel Sveti Marko: Ein verlassenes Feriengebiet, das Abgeschiedenheit und unberührtes Wasser bietet, ideal für Wassersport",
+    "portoTitle": "Porto Montenegro",
+    "portoText": "Das Juwel von Tivat ist Porto Montenegro, ein Luxus-Yachthafen und Uferviertel, das die Stadt in eines der modischsten Reiseziele an der Adriatic verwandelt hat. Der Marinakomplex bietet Boutiquen, Restaurants, einen Poolclub und regelmäßige Veranstaltungen während der Sommersaison.",
+    "culturalTitle": "Kulturelle Sehenswürdigkeiten",
+    "monasteryTitle": "Kloster des Erzengels Michael",
+    "monasteryText": "Ruinen aus dem 10. Jahrhundert auf der Halbinsel Prevlaka, mit laufenden archäologischen Arbeiten, die die antike Geschichte des Ortes freilegen.",
+    "churchTitle": "Kirche Sveti Antun Padovanski",
+    "churchText": "Diese 1734 erbaute Kirche enthält religiöse Gemälde und Artefakte und bietet einen wunderschönen Blick über die Bucht.",
+    "museumText": "Nur 10 Autominuten entfernt in Kotor zeigt das Schifffahrtsmuseum das reiche Seefahrtserbe Montenegros und historische Bildungszentren."
+  },
+  "tivatAirportBody": {
+    "h1": "Autovermietung am Flughafen Tivat (TIV)",
+    "p1": "Die kleine Stadt Tivat besitzt neben Podgorica den einzigen weiteren kommerziellen Flughafen in Montenegro. Die Einrichtung wurde kürzlich modernisiert und verfügt über ein neues Terminal für internationale Abflüge und Inlandsankünfte. Der Flughafencode ist TIV, und er liegt nur 4 km vom Stadtzentrum entfernt.",
+    "p2": "Wie Podgorica hat auch der Flughafen Tivat während der sommerlichen Hochsaison mehr Flüge, unterhält aber ganzjährig tägliche Flüge nach Belgrade. Charterflüge verkehren in den Sommermonaten besonders häufig. Aufgrund des einzigartigen Geländes rund um den Flughafen ist er als einer der anspruchsvollsten Flughäfen für Landungen bekannt.",
+    "distancesTitle": "Entfernungen vom Flughafen Tivat",
+    "dist1": "Kotor: ungefähr 10 Minuten",
+    "dist2": "Budva: ungefähr 20 Minuten",
+    "dist3": "Podgorica: 80 km",
+    "dist4": "Bar: 58 km",
+    "facilitiesTitle": "Flughafeneinrichtungen",
+    "facilitiesText": "Der Flughafen bietet Cafés, öffentliche Telefone, Souvenirgeschäfte und Duty-Free-Shopping. Busverbindungen bestehen nach Herceg Novi und Budva, und vor dem Terminal stehen auch Taxis zur Verfügung.",
+    "whyTitle": "Warum am Flughafen Tivat mieten?",
+    "whyText": "Der Flughafen Tivat ist der nächstgelegene Flughafen zu Montenegros beliebtesten Küstenzielen. Innerhalb von Minuten nach der Landung können Sie entlang der Bay of Kotor zur mittelalterlichen ummauerten Stadt fahren oder Richtung Süden zu den Stränden von Budva aufbrechen. Wenn Sie Ihr Auto in Tivat abholen, bedeutet das keine Transfers, kein Warten auf Busse — einfach direkt vom Terminal auf die offene Straße.",
+    "meetText": "Wir empfangen Sie in der Ankunftshalle mit Ihrem Namen auf einem Schild. Ihr Auto steht direkt draußen bereit. Gesamtzeit von der Landung bis zur Abfahrt: etwa 10 Minuten."
+  },
+  "podgoricaBody": {
+    "h1": "Podgorica — Die Hauptstadt",
+    "p1": "Die meisten Touristen, die nach Montenegro fliegen, beginnen ihre Reise am Flughafen Podgorica (TGD), der 9 km vom Stadtzentrum entfernt liegt. Als Hauptstadt und größte Stadt Montenegros hat Podgorica etwa 170.000 Einwohner und liegt einzigartig an den Ufern von sechs Flüssen: Moraca, Ribnica, Zeta, Sitnica, Mareza und Cijevna.",
+    "p2": "Die Architektur der Stadt spiegelt vielfältige historische Einflüsse wider. Die osmanische Herrschaft hat ihre Spuren hinterlassen, während mittelalterliche Bauwerke neben funktionalistischen Gebäuden aus der kommunistischen Ära und modernen Glastürmen stehen. Die Millenniumsbrücke ist zum Symbol der modernen Ästhetik der Stadt geworden.",
+    "p3": "Podgorica ist die kulturelle Hauptstadt des Landes. Touristen, die ohne Aufenthalt zu den Badeorten oder Bergen weiterreisen, verpassen mit Sicherheit einen wichtigen Teil Montenegros.",
+    "seeTitle": "Sehenswertes",
+    "seeText": "Einkaufshighlights umfassen italienische Stoffe, Kunstgalerien sowie lokale Weine und Brände. Bemerkenswerte Sehenswürdigkeiten sind Sat-Kula (der Uhrturm) aus osmanischer Zeit und Duklja, eine archäologische Stätte, die etwa zweitausend Jahre zurückreicht.",
+    "dayTripsTitle": "Tagesausflüge ab Podgorica",
+    "skadarTitle": "Skadar-See",
+    "skadarText": "Möglicherweise der schönste See Europas, gelegen an der Grenze zwischen Montenegro und Albanien als Nationalpark. Heimat von Millionen von Pelikanen, ist er der größte See auf dem Balkan und ein Muss für Naturliebhaber.",
+    "danilovgradTitle": "Danilovgrad",
+    "danilovgradText": "Eine malerische Flussstadt etwa dreißig Minuten westlich von Podgorica, mit Flussstränden, Bootsfahrten, Galerien und dem nahegelegenen Kloster Zdrebaonik.",
+    "zabljak": "Eine Alpenstadt in der Gebirgsregion Durmitor, auf 1.500 Metern über dem Meeresspiegel und 170 Kilometer von Podgorica entfernt. Ein Ganzjahresziel, das im Winter Skifahren und im Sommer Wandern, Rafting und Mountainbiken bietet."
+  },
+  "podgoricaAirportBody": {
+    "h1": "Autovermietung am Flughafen Podgorica (TGD)",
+    "p1": "Obwohl viele Besucher immer noch den Flughafen Dubrovnik im benachbarten Kroatien bevorzugen, werden jedes Jahr mehr Flüge zu Montenegros eigenen Flughäfen eröffnet. Der Flughafen Podgorica dient als Montenegros größter öffentlicher Flughafen und Drehkreuz für nationale Fluggesellschaften.",
+    "p2": "Ein neues Terminal wurde im Mai 2006 eröffnet, während das alte Terminal heute als Museum dient, das die Luftfahrtgeschichte Montenegros dokumentiert. Der Flughafencode TGD ist ein historischer Verweis auf den früheren Namen der Stadt, Titograd.",
+    "distancesTitle": "Lage & Entfernungen",
+    "distIntro": "Der Flughafen liegt 12 Kilometer südlich des Stadtzentrums von Podgorica.",
+    "dist1": "Podgorica Zentrum: 12 km (Taxi ungefähr 10 Euro)",
+    "dist2": "Budva: ungefähr 40 Minuten",
+    "dist3": "Kolasin: 80 km",
+    "dist4": "Zabljak: 170 km",
+    "flightsTitle": "Flüge & Fluggesellschaften",
+    "flightsText": "Der Flughafen wickelt sowohl internationale als auch Inlandsflüge ab. Der tägliche Service verbindet mit Belgrade, mit regelmäßigen Flügen nach Paris, Rom, Frankfurt, Wien, Budapest, Ljubljana und Moskau. Saisonale Strecken umfassen Prag und zusätzliche Moskau-Verbindungen.",
+    "facilitiesTitle": "Flughafeneinrichtungen",
+    "facilitiesText": "Das Terminal verfügt über acht Abflug-Gates, zwei Ankunfts-Gates, 5.500 Quadratmeter Grundfläche und 25.000 Quadratmeter Parkplatz. Zu den Annehmlichkeiten gehören Cafés, Duty-Free-Shopping und verschiedene Serviceleistungen.",
+    "awardText": "Obwohl klein, ist der Flughafen Podgorica eine preisgekrönte Einrichtung, die den ACI Europe-Preis für den besten Flughafen mit weniger als 1 Million Passagieren gewonnen hat.",
+    "rentalTitle": "Ihr Mietwagen",
+    "rentalText": "Wir empfangen Sie in der Ankunftshalle und bringen den Wagen direkt zu Ihnen. Keine Warteschlangen, keine Shuttlebusse zu externen Parkplätzen. Innerhalb weniger Minuten nach der Zollabfertigung sind Sie auf dem Weg zu Ihrem Ziel."
+  },
+  "dubrovnikAirportBody": {
+    "h1": "Autovermietung am Flughafen Dubrovnik (DBV)",
+    "p1": "Viele Touristen, die Montenegro besuchen, fliegen zum Flughafen Dubrovnik und mieten ein Auto, um nach Montenegro zu fahren. Der Flughafen liegt nur eine kurze zweistündige Fahrt von den Küstenorten Budva, Perast und Kotor entfernt und ist besser angebunden, da viele Fluggesellschaften noch keine Direktflüge nach Montenegro anbieten.",
+    "p2": "Da dies eine so häufige Route ist, stellt die Grenzüberquerung keine große Schwierigkeit dar — vorausgesetzt, die Besucher haben alle Mietverträge und Reisedokumente in Ordnung.",
+    "p3": "Ein Auto für eine Reise nach Montenegro zu mieten ist eine großartige Idee. Es ermöglicht Besuchern, diesen Teil der Welt nach ihren eigenen Vorstellungen und in ihrem eigenen Tempo zu erkunden. Der Verkehr zwischen den Ländern in dieser Region ist üblich, daher sind Grenzübertritte in der Regel unkompliziert.",
+    "borderTitle": "Tipps zur Grenzüberquerung",
+    "borderText": "Während der Touristensaison wird Montenegro von Besuchern überflutet, und lange Wartezeiten an der Grenze sind keine Seltenheit. Frühmorgens oder spät in der Nacht zu überqueren ist eine Möglichkeit, den Massen auszuweichen. Stellen Sie sicher, dass Ihre Autovermietung Ihnen eine Grüne Karte für die grenzüberschreitende Versicherung ausgestellt hat.",
+    "facilitiesTitle": "Flughafeneinrichtungen",
+    "facilitiesText1": "Der Flughafen Dubrovnik verfügt über ein modernes Terminalgebäude, das weniger als eine halbe Stunde Fahrt von der Stadt Dubrovnik an der E65 entfernt liegt. Der Flughafen bietet begrenzte Parkmöglichkeiten, wobei Automaten Zahlungen per Bargeld und Kreditkarte akzeptieren. Da die Parkplätze begrenzt sind — besonders in der Hochsaison — sollten Besucher ihre Plätze nach Möglichkeit im Voraus buchen. Für Vorausbuchungen gibt es einen Rabatt.",
+    "facilitiesText2": "Im Flughafen befinden sich eine Wechselstube, eine Bank und eine Post. Kleine Restaurants, Cafés, ein Duty-Free-Shop und ein Zeitungskiosk sind ebenfalls vorhanden.",
+    "gettingTitle": "Anreise nach Montenegro",
+    "gettingText1": "Am Flughafen stehen öffentliche Verkehrsmittel in Form von Taxis vor dem Terminal sowie Busverbindungen und Shuttles zur Verfügung. Reisende, die in die Stadt Dubrovnik möchten, sollten darauf achten, die Busse zu nehmen, die bis ins Stadtzentrum fahren.",
+    "gettingText2": "Die Fahrt vom Flughafen Dubrovnik an die Küste Montenegros führt Sie über eine der landschaftlich schönsten Küstenstraßen Europas. Innerhalb von zwei Stunden passieren Sie die Grenze und erreichen die Bay of Kotor — eine der dramatischsten Annäherungen an ein Reiseziel im gesamten Mittelmeerraum."
+  },
+  "montenegroBody": {
+    "h1": "Montenegro mit dem Auto entdecken",
+    "p1": "Montenegro zählt zu den lohnendsten Reisezielen Europas für Erkundungen mit dem Mietwagen. Von dramatischen Bergstraßen und ruhigen Dörfern im Landesinneren bis hin zu kurvigen Küstenfahrten entlang der Adria bietet das Land vielfältige Landschaften auf überraschend kurzen Distanzen. Ein Mietwagen ermöglicht den Zugang zu Orten, die weit über die Reichweite öffentlicher Verkehrsmittel hinausgehen.",
+    "p2": "Obwohl Montenegro flächenmäßig kompakt ist, erfordern die Fahrzeiten mehr Zeit, als Karten vermuten lassen. Serpentinen in den Bergen, schmale Küstenstraßen und landschaftlich reizvolle Strecken laden zu häufigen Stopps ein. Reisende gewinnen die Freiheit, sowohl die Fahrt als auch das Ziel zu genießen — fjordähnliche Buchten, historische Städte und Aussichtspunkte im Hochland in ihrem eigenen Tempo zu erkunden.",
+    "startTitle": "Erste Schritte",
+    "startText": "Viele Besucher übernehmen ihren Mietwagen an einem der Flughäfen Montenegros oder am Flughafen Dubrovnik in Kroatien, je nach Flugverfügbarkeit. Der Flughafen Tivat liegt am nächsten zur Küste — nur 10 Minuten von Kotor und 20 Minuten von Budva entfernt. Der Flughafen Podgorica bedient die Hauptstadt und das Landesinnere. Der Flughafen Dubrovnik bleibt beliebt, da er oft über ein größeres Angebot an internationalen Flügen verfügt.",
+    "timesTitle": "Fahrzeiten",
+    "timesText1": "Die tatsächlichen Fahrzeiten übersteigen regelmäßig die Angaben auf Karten. Serpentinen in den Bergen, zerklüftete Küstenstraßen, ländliche Hindernisse (einschließlich Vieh) und Schnee auf den Bergstraßen im Winter tragen alle zu längeren Fahrten bei. Das landschaftliche Erlebnis an der Küste und auf dem Land rechtfertigt die verlängerte Reisezeit mehr als genug.",
+    "timesText2": "Fahrten zwischen Küstenstädten dauern in der Regel zwischen dreißig Minuten und einer Stunde. Die Fahrt von Herceg-Novi nach Podgorica über die E65/E80 dauert ungefähr zwei Stunden.",
+    "rulesTitle": "Verkehrsregeln & Sicherheit",
+    "rulesIntro": "Verkehrspolizeikontrollen finden häufig statt, stellen jedoch kein Problem dar, wenn Sie die richtigen Dokumente dabeihaben. Sie benötigen:",
+    "rule1": "Einen gültigen Führerschein (internationaler Führerschein wird akzeptiert)",
+    "rule2": "Mietvertrag oder Nachweis des Fahrzeugbesitzes",
+    "rule3": "Versicherungsunterlagen",
+    "rule4": "Eine „Grüne Karte“ für Grenzübertritte (ca. 15 Euro für 15 Tage)",
+    "keyRulesTitle": "Wichtige Regeln",
+    "keyRule1": "Sicherheitsgurte sind für alle Insassen Pflicht",
+    "keyRule2": "Die Nutzung von Mobiltelefonen während der Fahrt ist verboten",
+    "keyRule3": "Jegliches Trinken und Fahren ist illegal — Null-Toleranz-Grenze",
+    "keyRule4": "Geschwindigkeitsbegrenzungen werden streng kontrolliert",
+    "conditionsTitle": "Straßenverhältnisse",
+    "conditionsText": "Stadtstraßen sind in akzeptablem Zustand. Bergstraßen können anspruchsvoller sein, mit stellenweise minimalen Leitplanken. Einige Fahrer fahren aggressiv, daher ist im gesamten Land Vorsicht geboten — insbesondere auf Bergpässen und schmalen Küstenabschnitten.",
+    "routesTitle": "Hauptrouten",
+    "e65Title": "E65/E80",
+    "e65Text": "Die Hauptküstenroute verbindet Herceg-Novi mit Podgorica und führt durch Kotor, Perast, Tivat und Budva. Dies ist die beliebteste Fahrstrecke und bietet atemberaubende Ausblicke auf die Bucht von Kotor.",
+    "e762Title": "E762",
+    "e762Text": "Diese Route durchquert das Land von der Küste bis ins Landesinnere und führt weiter ins östliche Kroatien. Sie führt durch das gebirgige Herzland Montenegros.",
+    "borderTitle": "Grenzübergänge",
+    "borderText": "Grenzüberschreitende Fahrten sind mit den richtigen Dokumenten unkompliziert. An den Kontrollpunkten kann es in der Hochsaison zu erheblichen Staus kommen, wobei kilometerlange Autoschlangen an beliebten Übergängen üblich sind. Die besten Überquerungszeiten sind an Wochentagen morgens oder spätabends.",
+    "nationTitle": "Eine junge Nation",
+    "nationText": "Montenegro erlangte im Juni 2006 seine Unabhängigkeit und ist damit eine der jüngsten Nationen der Welt. Der Tourismus wächst stetig und bietet im Vergleich zu den Nachbarländern ein exotischeres und etwas ursprünglicheres Abenteuer. Die Landschaft vereint grüne Berge, die von Fjorden mit tiefblauem Adriawasser durchzogen sind, eine Vielfalt an Stränden und die Geheimnisse alter Altstädte."
+  },
+  "borderCrossingBody": {
+    "h1": "Kann ich meinen Mietwagen über Grenzen mitnehmen?",
+    "p1": "Ja. Grenzüberschreitende Fahrten sind von Montenegro nach Kroatien, Bosnien und Herzegowina, Albanien, Kosovo und Serbien erlaubt. Sie müssen lediglich Ihre Mietwagenfirma bei der Buchung informieren, damit diese die erforderlichen Dokumente vorbereiten kann.",
+    "greenCardTitle": "Was ist eine Grüne Karte?",
+    "greenCardText": "Eine Grüne Karte ist ein internationales Kfz-Versicherungszertifikat, das nachweist, dass Ihr Fahrzeug in dem Land, in das Sie einreisen, versichert ist. Sie wird an jedem Grenzübergang auf dem Balkan verlangt.",
+    "greenCard1": "Kosten: circa 15 Euro für 15 Tage",
+    "greenCard2": "Wo Sie sie erhalten: Ihre Mietwagenfirma kümmert sich darum — bestätigen Sie es einfach bei der Buchung",
+    "greenCard3": "Abgedeckte Länder: Kroatien, Bosnien, Albanien, Kosovo, Serbien",
+    "greenCardWarn": "Ohne Grüne Karte lassen die Grenzbeamten Sie nicht passieren. Überprüfen Sie immer vor der Abfahrt, dass die Karte alle Länder auf Ihrer geplanten Route abdeckt.",
+    "docsTitle": "Dokumente, die Sie an der Grenze benötigen",
+    "doc1": "Gültiger Reisepass oder EU-Personalausweis",
+    "doc2": "Führerschein (internationaler Führerschein wird akzeptiert)",
+    "doc3": "Mietvertrag (Original, keine Fotokopie)",
+    "doc4": "Grüne Karte (Versicherungszertifikat)",
+    "doc5": "Fahrzeugschein (wird mit dem Auto bereitgestellt)",
+    "crossingsTitle": "Grenzübergänge ab Montenegro",
+    "croatiaTitle": "Montenegro → Kroatien",
+    "croatiaText": "Der beliebteste Grenzübergang für Touristen. Der Hauptkontrollpunkt befindet sich bei Debeli Brijeg an der Küstenstraße (E65) zwischen Herceg Novi und Dubrovnik. Dieser Grenzübergang wird im Sommer extrem stark frequentiert — rechnen Sie in der Hochsaison (Juli–August) mit Wartezeiten von 1–2 Stunden.",
+    "croatiaTip": "Beste Zeiten für die Grenzüberquerung: früh morgens (vor 8 Uhr) oder spät abends (nach 20 Uhr). Werktags morgens ist es deutlich ruhiger als an Wochenenden.",
+    "croatiaFerry": "Es gibt auch die Fährverbindung Kamenari–Lepetane als Abkürzung über die Bucht von Kotor, die das Umfahren der gesamten Bucht erspart — das spart etwa 45 Minuten.",
+    "albaniaTitle": "Montenegro → Albanien",
+    "albaniaText": "Zwei Hauptübergänge: Sukobin/Muriqan (an der Küste, nahe Ulcinj) und Hani i Hotit (im Landesinneren, nahe dem Skadar-See). Der Küstenübergang ist reisefreundlicher und hat in der Regel kürzere Wartezeiten.",
+    "albaniaNote": "Hinweis: Die Straßen in Albanien unterscheiden sich erheblich von denen in Montenegro. Fahren Sie vorsichtig, besonders auf Landstraßen.",
+    "bosniaTitle": "Montenegro → Bosnien und Herzegowina",
+    "bosniaText": "Der Hauptübergang befindet sich bei Šćepan Polje (nahe Foča), wenn Sie nach Norden fahren, oder über Vilusi von Nikšić aus. Die Grenzübergänge sind in der Regel ruhig mit minimalen Wartezeiten außerhalb des Sommers.",
+    "serbiaTitle": "Montenegro → Serbien",
+    "serbiaText": "Überqueren Sie die Grenze bei Dobrakovo (an der E65 nördlich von Bijelo Polje). Dieser Grenzübergang verbindet direkt mit dem serbischen Autobahnnetz Richtung Belgrad.",
+    "kosovoTitle": "Montenegro → Kosovo",
+    "kosovoText": "Der Grenzübergang bei Kula (nahe Rožaje) verbindet mit Peja/Peć im Kosovo. Klären Sie mit Ihrer Mietwagenfirma, ob Kosovo in Ihrer Grünen Karte eingeschlossen ist — einige Policen schließen es aus.",
+    "tipsTitle": "Tipps für reibungslose Grenzüberquerungen",
+    "tip1": "Halten Sie alle Dokumente bereit, bevor Sie den Kontrollpunkt erreichen — suchen Sie nicht erst am Schalter danach",
+    "tip2": "Schalten Sie den Motor aus, während Sie in der Schlange warten (die Grenzbeamten wissen das zu schätzen)",
+    "tip3": "Sommerwochenenden sind am schlimmsten — planen Sie wenn möglich eine Überquerung an Werktagen",
+    "tip4": "Der kroatische Küstenübergang (Debeli Brijeg) ist am stärksten frequentiert; Übergänge im Landesinneren sind ruhiger",
+    "tip5": "Halten Sie etwas Bargeld in Euro bereit — nützlich für Mautgebühren und kleinere Einkäufe auf der anderen Seite",
+    "tip6": "Mobiles Datenroaming: Überprüfen Sie, ob Ihr Tarif das Land abdeckt, in das Sie einreisen",
+    "lawsTitle": "Verkehrsregeln, die sich an Grenzen ändern",
+    "lawsIntro": "Jedes Land hat leicht unterschiedliche Verkehrsgesetze. Wichtige Unterschiede, die Sie beachten sollten:",
+    "law1": "Kroatien: Scheinwerfer müssen jederzeit eingeschaltet sein. Auf Autobahnen fallen Mautgebühren an (bar oder mit Karte)",
+    "law2": "Albanien: Die Geschwindigkeitsbegrenzungen sind auf Landstraßen niedriger. Die Straßenqualität variiert erheblich",
+    "law3": "Bosnien: Winterreifen sind von November bis April Pflicht. Führen Sie einen Erste-Hilfe-Kasten und ein Warndreieck mit",
+    "law4": "Serbien: Null-Promille-Grenze für Fahrer. Eine Autobahnvignette ist erforderlich",
+    "law5": "Kosovo: Es wird auf der rechten Seite gefahren. Ein internationaler Führerschein wird empfohlen",
+    "popularTitle": "Beliebte grenzüberschreitende Routen",
+    "route1": "Tivat → Dubrovnik: 2 Stunden über die Küsten-E65. Atemberaubende Landschaft, ein Grenzübergang",
+    "route2": "Kotor → Mostar (Bosnien): 3–4 Stunden über Trebinje. Besuchen Sie die berühmte Brücke",
+    "route3": "Budva → Shkodër (Albanien): 2,5 Stunden über den Küstenübergang bei Ulcinj",
+    "route4": "Podgorica → Belgrad (Serbien): 5–6 Stunden über die E65 Richtung Norden",
+    "ctaText": "Benötigen Sie ein Auto mit fertig vorbereiteten Grenzübergangs-Dokumenten? Durchsuchen Sie unsere Flotte — wählen Sie einfach bei der Buchung Ihre Zielländer aus und wir kümmern uns um die Grüne Karte."
+  }
+}

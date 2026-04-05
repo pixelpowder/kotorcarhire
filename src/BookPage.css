@@ -1,0 +1,95 @@
+* { box-sizing: border-box; }
+
+.book-page {
+  min-height: 100svh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-top: 136px;
+}
+
+@media (max-width: 768px) {
+  .book-page {
+    padding-top: 64px;
+  }
+}
+
+/* ── Heading above widget ── */
+.book-page__heading {
+  margin-bottom: 24px;
+}
+
+.book-page__title {
+  font-size: clamp(22px, 3vw, 30px);
+  font-weight: 800;
+  color: rgb(5, 32, 60);
+  margin: 0 0 8px;
+  letter-spacing: -0.02em;
+}
+
+.book-page__subtitle {
+  font-size: 15px;
+  color: #6b7280;
+  margin: 0;
+}
+
+.book-page__summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0;
+}
+
+.book-page__summary-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(5, 32, 60);
+  background: rgba(0, 98, 227, 0.07);
+  border: 1px solid rgba(0, 98, 227, 0.15);
+  border-radius: 20px;
+  padding: 4px 12px;
+}
+
+/* ── Widget area ── */
+.book-page__body {
+  flex: 1;
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 32px 24px 60px;
+  background: #fff;
+}
+
+.book-page__widget {
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  display: block;
+  min-height: 400px;
+  color-scheme: light only;
+}
+
+.book-page__widget-direct {
+  width: 100%;
+  min-height: 400px;
+}
+
+@media (max-width: 768px) {
+  .book-page__hero {
+    padding: 28px 16px 36px;
+  }
+
+  .book-page__body {
+    padding: 20px 12px 40px;
+  }
+
+  .book-page__widget {
+    border-radius: 8px;
+    min-height: 400px;
+  }
+}

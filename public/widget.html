@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Book</title>
+  <meta name="color-scheme" content="light only" />
+  <style>
+    :root, html { color-scheme: light only; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { background: #fff; color: #333; }
+    @media (prefers-color-scheme: dark) {
+      html, body { background-color: #fff !important; color: #333 !important; }
+    }
+    /* Hide widget sections immediately — before JS loads */
+    .featuring-cool-cars,
+    .highlight-container,
+    [class*="featuring"],
+    [class*="top-pick"],
+    [class*="top_pick"],
+    [class*="banner"],
+    [class*="promo"],
+    [class*="winter"],
+    [class*="notification"] { display: none !important; height: 0 !important; overflow: hidden !important; visibility: hidden !important; }
+  </style>
+  <script>
+    // Intercept widget style injections and recolour green → navy/blue
+    const NAVY  = '#05203c';
+    const BLUE  = '#0062e3';
+    const LIGHT = '#e8f0fd';
+
+    // Colours to replace (widget greens)
+    const replacements = [
+      [/#39b54a/gi, BLUE],
+      [/#4caf50/gi, BLUE],
+      [/#00a651/gi, BLUE],
+      [/#2ecc71/gi, BLUE],
+      [/#27ae60/gi, BLUE],
+      [/rgb\(57,\s*181,\s*74\)/gi,  'rgb(0,98,227)'],
+      [/rgb\(76,\s*175,\s*80\)/gi,  'rgb(0,98,227)'],
+      [/rgb\(0,\s*166,\s*81\)/gi,   'rgb(0,98,227)'],
+      [/rgba\(57,\s*181,\s*74,/gi,  'rgba(0,98,227,'],
+      [/rgba\(76,\s*175,\s*80,/gi,  'rgba(0,98,227,'],
+    ];
+
+    function recolour(css) {
+      let out = css;
+      for (const [from, to] of replacements) out = out.replace(from, to);
+      return out;
+    }
+
+    function patchStyle(el) {
+      if (el._mrcPatched) return;
+      el._mrcPatched = true;
+      const original = el.textContent;
+      const patched  = recolour(original);
+      if (patched !== original) el.textContent = patched;
+    }
+
+    // Patch existing style tags
+    document.querySelectorAll('style').forEach(patchStyle);
+
+    // Patch future style tags
+    new MutationObserver(mutations => {
+      for (const m of mutations) {
+        for (const node of m.addedNodes) {
+          if (node.nodeName === 'STYLE') patchStyle(node);
+          if (node.querySelectorAll) node.querySelectorAll('style').forEach(patchStyle);
+        }
+      }
+    }).observe(document.documentElement, { childList: true, subtree: true });
+  </script>
+</head>
+<body>
+  <div id="localrent-widget"></div>
+  <script>
+    (function() {
+      const _params = new URLSearchParams(window.location.search);
+      const cityId = _params.get('city_id') || '9';
+      const widgetLang = _params.get('lang') || 'en';
+      const script = document.createElement('script');
+      script.src = 'https://static.localrent.com/booking/v2/wl/app.js';
+      script.async = true;
+      script.setAttribute('data-mrc-wl',   'true');
+      script.setAttribute('data-affiliate','14905');
+      script.setAttribute('data-country',  '133');
+      script.setAttribute('data-city',     cityId);
+      script.setAttribute('data-routing',  'on');
+      script.setAttribute('data-zindex',   '100');
+      script.setAttribute('data-locale',   widgetLang);
+      // Try every possible date attribute the widget might read
+      const dateFrom = _params.get('date_from');
+      const dateTo = _params.get('date_to');
+      const timeFrom = _params.get('time_from') || '10:00';
+      const timeTo = _params.get('time_to') || '10:00';
+      if (dateFrom) {
+        script.setAttribute('data-pickup-date', dateFrom);
+        script.setAttribute('data-date-from', dateFrom);
+        script.setAttribute('data-pickupdate', dateFrom);
+        script.setAttribute('data-pickup_date', dateFrom);
+        script.setAttribute('data-time-from', timeFrom);
+      }
+      if (dateTo) {
+        script.setAttribute('data-dropoff-date', dateTo);
+        script.setAttribute('data-date-to', dateTo);
+        script.setAttribute('data-dropoffdate', dateTo);
+        script.setAttribute('data-dropoff_date', dateTo);
+        script.setAttribute('data-time-to', timeTo);
+      }
+      document.body.appendChild(script);
+
+      // Inject dates into Vue store — try multiple approaches
+      if (dateFrom && dateTo) {
+        var attempts = 0;
+        var earlyPoll = setInterval(function() {
+          attempts++;
+          if (attempts > 200) { clearInterval(earlyPoll); return; } // 10s timeout
+
+          var vue = null;
+          for (var el of document.querySelectorAll('*')) {
+            if (el.__vue__ && el.__vue__.$store) { vue = el.__vue__; break; }
+          }
+          if (!vue) return;
+
+          var store = vue.$store;
+          var state = store.state;
+
+          // Approach 1: Set filtersDate directly
+          if (state.filtersDate) {
+            state.filtersDate.pickupDate = dateFrom;
+            state.filtersDate.dropoffDate = dateTo;
+          }
+
+          // Approach 2: Set calendar defaults
+          if (state.calendar) {
+            state.calendar.defaultPickup = dateFrom;
+            state.calendar.defaultDropoff = dateTo;
+          }
+
+          // Approach 3: Try all known commit mutations
+          try { store.commit('setSelectedDates', true); } catch(e) {}
+          try { store.commit('SET_FILTERS_DATE', { pickupDate: dateFrom, dropoffDate: dateTo }); } catch(e) {}
+          try { store.commit('setFiltersDate', { pickupDate: dateFrom, dropoffDate: dateTo }); } catch(e) {}
+          try { store.commit('filters/setDate', { pickupDate: dateFrom, dropoffDate: dateTo }); } catch(e) {}
+
+          // Approach 4: Set calendar component dates
+          var calEl = document.querySelector('.search-cigarette__calendar');
+          while (calEl) {
+            var v = calEl.__vue__;
+            if (v && v.$data && 'dates' in v.$data) {
+              v.$set(v.$data, 'dates', [dateFrom, dateTo]);
+              break;
+            }
+            calEl = calEl.parentElement;
+          }
+
+          // Approach 5: Dispatch action to trigger search with new dates
+          try { store.dispatch('fetchCars'); } catch(e) {}
+          try { store.dispatch('search/fetchCars'); } catch(e) {}
+
+          // Keep polling a few more times in case widget overwrites our values
+          if (attempts < 20) return;
+          clearInterval(earlyPoll);
+        }, 50);
+      }
+    })();
+  </script>
+  <script>
+    // Auto-resize — use body height to avoid counting invisible overflow
+    function sendHeight() {
+      const h = document.body.offsetHeight || document.documentElement.scrollHeight;
+      window.parent.postMessage({ type: 'iframeHeight', height: h }, '*');
+    }
+    const ro = new ResizeObserver(sendHeight);
+    ro.observe(document.body);
+    window.addEventListener('load', sendHeight);
+
+    // Inject brand overrides after widget CSS loads
+    const _p = new URLSearchParams(window.location.search);
+    const hideSearch = _p.get('hide_search') === '1';
+    const BRAND_CSS = `
+      ${hideSearch ? '.search-cigarette, .search-cigarette__wrap, .search-filters, .search-filters__wrap { display: none !important; }' : ''}
+      /* Search bar — match nav exactly */
+      .search-cigarette,
+      .search-cigarette__wrap,
+      .search-cigarette__row { background: rgb(5,32,60) !important; }
+      .search-cigarette__city,
+      .search-cigarette__calendar,
+      .search-cigarette__place-time { border-color: rgba(255,255,255,0.12) !important; }
+      .search-cigarette__trigger,
+      .search-cigarette__pinned,
+      .dropdown,
+      .search-place-time { color: #fff !important; }
+      .search-cigarette__placeholder { color: rgba(255,255,255,0.55) !important; }
+      .search-filters,
+      .search-filters__wrap { border-color: rgba(255,255,255,0.2) !important; color: #fff !important; background: rgb(5,32,60) !important; }
+      .search-cigarette__calendar { background: #fff !important; border-radius: 8px; }
+      .search-calendar,
+      .search-calendar__date,
+      .search-calendar__trigger,
+      .search-placeholder,
+      .search-placeholder__date-time { background: #fff !important; }
+      .date-range__date,
+      .date-range__days,
+      .date-range__dash,
+      .search-cigarette__calendar .search-cigarette__trigger,
+      .search-cigarette__calendar .search-cigarette__placeholder { color: rgb(5,32,60) !important; }
+
+      /* Calendar selected range — fix invisible white-on-white text */
+      .calendar-day.calendar-highlighted {
+        background: rgba(0,98,227,0.12) !important;
+        color: rgb(5,32,60) !important;
+      }
+      .calendar-day.calendar-selected {
+        background: rgb(0,98,227) !important;
+        color: #fff !important;
+      }
+
+      /* Low deposit badge — wildcard to beat inline styles */
+      .product-sticker--low-deposit,
+      [class*="low-deposit"] { background: rgb(0,98,227) !important; color: #fff !important; border-color: rgb(0,98,227) !important; }
+
+      /* Buttons */
+      .button { background: rgb(0,98,227) !important; border-color: rgb(0,98,227) !important; color: #fff !important; }
+      .button:hover { background: rgb(0,75,195) !important; }
+      .embla__button { background: rgb(0,98,227) !important; border-color: rgb(0,98,227) !important; }
+
+      /* Progress & accents */
+      .search__progress { background: rgb(0,98,227) !important; }
+      .vehicle-card-info__badge { color: rgb(0,98,227) !important; }
+
+      /* Hide promotional banners and filter badges */
+      [class*="banner"], [class*="promo"], [class*="winter"], [class*="notification"],
+      [class*="search-filter"], [class*="search-sticker"], [class*="sticker"],
+      [class*="categor"], [class*="tag-list"], [class*="tags-row"],
+      [class*="search-tag"], [class*="multi_tab"], [class*="multi-tab"],
+      [class*="tab-list"], [class*="tabs-row"], [class*="advantage"],
+      [class*="special"], [class*="perk"],
+      [class*="badge-list"], [class*="badges-row"],
+      .featuring-cool-cars, [class*="featuring"],
+      [class*="top-pick"], [class*="top_pick"] { display: none !important; }
+    `;
+    // Location name update after widget loads
+    const p = new URLSearchParams(window.location.search);
+    const placeName = p.get('place');
+    if (placeName) {
+      var locPoll = setInterval(function() {
+        var vue = null;
+        for (var el of document.querySelectorAll('*')) {
+          if (el.__vue__ && el.__vue__.$store) { vue = el.__vue__; break; }
+        }
+        if (!vue || !vue.$store.state.carsCountFinished) return;
+        clearInterval(locPoll);
+        try { vue.$store.commit('setPickupCityName', placeName); } catch(e) {}
+        try { vue.$store.commit('setDropoffCityName', placeName); } catch(e) {}
+      }, 200);
+    }
+
+    let injected = false;
+    function injectBrandStyles() {
+      if (injected) return;
+      // Inject as soon as any widget content appears
+      if (!document.querySelector('.search-cigarette') && !document.querySelector('.featuring-cool-cars') && !document.querySelector('[class*="vehicle"]')) return;
+      injected = true;
+      const style = document.createElement('style');
+      style.textContent = BRAND_CSS;
+      document.head.appendChild(style);
+    }
+
+    new MutationObserver(injectBrandStyles)
+      .observe(document.documentElement, { childList: true, subtree: true });
+    setTimeout(injectBrandStyles, 1000);
+    setTimeout(injectBrandStyles, 2000);
+    setTimeout(injectBrandStyles, 3000);
+  </script>
+</body>
+</html>

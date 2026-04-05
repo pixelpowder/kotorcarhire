@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Palette */
+  --cream:        #faf7f2;
+  --cream-dark:   #f2ede4;
+  --cream-deeper: #e8e0d4;
+  --beige:        #ede8df;
+  --beige-dark:   #d9d0c2;
+
+  --olive:        #2d5a27;
+  --olive-mid:    #3d7035;
+  --olive-light:  #527a48;
+  --olive-muted:  rgba(45, 90, 39, 0.08);
+  --olive-muted-strong: rgba(45, 90, 39, 0.14);
+
+  --bark:         #5a3e28;
+  --bark-light:   #7a5840;
+
+  --stone-50:     #faf9f7;
+  --stone-100:    #f0ece5;
+  --stone-200:    #e0d8cc;
+  --stone-300:    #c4b9a8;
+  --stone-400:    #a8998a;
+  --stone-500:    #897a6b;
+  --stone-600:    #6b5d50;
+  --stone-700:    #4d4238;
+  --stone-800:    #302920;
+  --stone-900:    #1e1812;
+
+  --white: #ffffff;
+
+  /* Typography */
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+
+  /* Radii */
+  --radius-xs:  6px;
+  --radius-sm:  10px;
+  --radius:     18px;
+  --radius-lg:  28px;
+  --radius-xl:  40px;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--cream);
+  color: var(--stone-800);
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--stone-900);
+  letter-spacing: -0.01em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: var(--font-body);
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+input, select {
+  font-family: var(--font-body);
+  outline: none;
+  border: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+  background: var(--olive);
+  color: var(--white);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--beige-dark);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--olive-light);
+}

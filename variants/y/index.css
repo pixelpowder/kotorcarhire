@@ -1,0 +1,49 @@
+/* ── Design Y — Modern Travel / Airbnb Style ── */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* ── Reset & tokens ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --coral:        #ff385c;
+  --coral-dark:   #e0284a;
+  --coral-light:  #fff1f3;
+  --gray-50:      #f7f7f7;
+  --gray-100:     #ebebeb;
+  --gray-200:     #dddddd;
+  --gray-400:     #717171;
+  --gray-600:     #484848;
+  --gray-900:     #222222;
+  --white:        #ffffff;
+  --shadow-sm:    0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+  --shadow-md:    0 4px 16px rgba(0,0,0,.10);
+  --shadow-lg:    0 8px 30px rgba(0,0,0,.13);
+  --shadow-xl:    0 20px 60px rgba(0,0,0,.18);
+  --radius:       14px;
+  --radius-sm:    8px;
+  --radius-pill:  9999px;
+  --font:         'Inter', sans-serif;
+  --max-w:        1240px;
+  --nav-h:        72px;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font);
+  color: var(--gray-900);
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+img { display: block; max-width: 100%; }
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+button { cursor: pointer; border: none; background: none; font-family: inherit; }
+input, select { font-family: inherit; }
