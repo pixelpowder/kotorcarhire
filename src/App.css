@@ -2497,3 +2497,64 @@ select.booking-field__input {
     justify-content: center;
   }
 }
+
+/* ─── CRUISE VISITORS (KOTOR UNIQUE) ─────────────────── */
+.cruise-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.cruise-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 28px 24px;
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+  transition: transform 0.3s cubic-bezier(0.4,0,0.2,1), box-shadow 0.3s;
+}
+
+.cruise-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(10,46,26,0.1);
+}
+
+.cruise-card__icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: var(--blue-light, #e6f4f1);
+  color: var(--blue, #0D8B7D);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  transition: transform 0.3s, background 0.3s, color 0.3s;
+}
+
+.cruise-card:hover .cruise-card__icon {
+  transform: scale(1.15);
+  background: var(--blue, #0D8B7D);
+  color: #fff;
+  box-shadow: 0 6px 20px rgba(13,139,125,0.3);
+}
+
+.cruise-card__title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 8px;
+}
+
+.cruise-card__desc {
+  font-size: 14px;
+  color: var(--gray-600);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .cruise-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+}
+@media (max-width: 480px) {
+  .cruise-grid { grid-template-columns: 1fr; }
+}

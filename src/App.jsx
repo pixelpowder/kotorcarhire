@@ -32,10 +32,7 @@ import {
   Menu,
   X,
   MessageCircle,
-  Award,
-  TrendingUp,
 } from 'lucide-react';
-import { useRef, useCallback } from 'react';
 import config from './siteConfig';
 import './App.css';
 
@@ -322,121 +319,28 @@ function TrustStrip() {
 }
 
 /* ─── STAT COUNTERS ────────────────────────────────────── */
-function useCountUp(end, duration = 1.8) {
-  const [count, setCount] = useState(0);
-  const ref = useRef(null);
-  const started = useRef(false);
-
-  const onView = useCallback((entry) => {
-    if (entry[0]?.isIntersecting && !started.current) {
-      started.current = true;
-      const start = performance.now();
-      const tick = (now) => {
-        const progress = Math.min((now - start) / (duration * 1000), 1);
-        const eased = 1 - Math.pow(1 - progress, 3);
-        setCount(Math.round(eased * end));
-        if (progress < 1) requestAnimationFrame(tick);
-      };
-      requestAnimationFrame(tick);
-    }
-  }, [end, duration]);
-
-  useEffect(() => {
-    const obs = new IntersectionObserver(onView, { threshold: 0.3 });
-    if (ref.current) obs.observe(ref.current);
-    return () => obs.disconnect();
-  }, [onView]);
-
-  return [count, ref];
-}
-
-function StatCounters() {
-  const { t } = useTranslation();
-  const [years, yearsRef] = useCountUp(18);
-  const [rentals, rentalsRef] = useCountUp(2000);
-  const [locations, locsRef] = useCountUp(30);
-
-  const stats = [
-    { value: `${years}+`, label: t('stats.years'), icon: <Award size={22} />, ref: yearsRef },
-    { value: rentals >= 2000 ? '2,000+' : rentals.toLocaleString(), label: t('stats.rentals'), icon: <TrendingUp size={22} />, ref: rentalsRef },
-    { value: '4.8/5', label: t('stats.rating'), icon: <Star size={22} fill="currentColor" />, ref: null },
-    { value: `${locations}+`, label: t('stats.locations'), icon: <MapPin size={22} />, ref: locsRef },
-  ];
-
+/* ─── CRUISE VISITORS (KOTOR UNIQUE) ──────────────────── */
+function CruiseVisitors() {
   return (
-    <section className="stats-section">
-      <div className="container">
-        <div className="stats-grid">
-          {stats.map((s, i) => (
-            <div
-              key={s.label}
-              className="stat-card reveal-item"
-              ref={s.ref}
-            >
-              <div className="stat-card__icon">{s.icon}</div>
-              <div className="stat-card__value">{s.value}</div>
-              <div className="stat-card__label">{s.label}</div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-/* ─── HOW IT WORKS ─────────────────────────────────────── */
-function HowItWorks() {
-  const { t } = useTranslation();
-  const steps = [
-    { num: '01', title: t('howItWorks.step1Title'), desc: t('howItWorks.step1Desc') },
-    { num: '02', title: t('howItWorks.step2Title'), desc: t('howItWorks.step2Desc') },
-    { num: '03', title: t('howItWorks.step3Title'), desc: t('howItWorks.step3Desc') },
-  ];
-  return (
-    <section className="section section--gray" id="how-it-works">
+    <section className="section section--gray" id="cruise">
       <div className="container">
         <div className="section-header">
-          <span className="section-label">{t('howItWorks.label')}</span>
-          <h2 className="section-title">{t('howItWorks.title')}</h2>
-          <p className="section-subtitle">{t('howItWorks.subtitle')}</p>
+          <span className="section-label">Cruise Port</span>
+          <h2 className="section-title">Arriving by Cruise Ship?</h2>
+          <p className="section-subtitle">Over 2,000 cruise ships dock in Kotor each year. Here is what you need to know.</p>
         </div>
-        <div className="steps-grid">
-          {steps.map((step, i) => (
-            <div key={step.num} className="step-card reveal-item">
-              <div className="step-card__num">{step.num}</div>
-              <h3 className="step-card__title">{step.title}</h3>
-              <p className="step-card__desc">{step.desc}</p>
+        <div className="cruise-grid">
+          {[
+            { icon: <MapPin size={24} />, title: 'Dock to Gate in 5 Min', desc: 'The cruise terminal sits at the foot of Kotor\'s walls. Walk off the ship, cross the quay, and enter the Old Town through the Sea Gate. No transfer needed.' },
+            { icon: <Car size={24} />, title: 'Car-Free Old Town', desc: 'The entire walled city is pedestrian. Walk end to end in 20 minutes. Cobblestones, churches, Maritime Museum, and cats on every corner.' },
+            { icon: <Star size={24} fill="currentColor" />, title: '1,355 Steps Up', desc: 'The San Giovanni fortress hike starts inside the walls. Allow 45 minutes up and 30 down. Start early to beat the midday heat and the crowds.' },
+            { icon: <Globe size={24} />, title: 'Bay Boat Trips', desc: 'Water taxis to Perast and Our Lady of the Rocks leave from the harbour. About 5 EUR return, every 15 minutes in season.' },
+          ].map((item) => (
+            <div key={item.title} className="cruise-card reveal-item">
+              <div className="cruise-card__icon">{item.icon}</div>
+              <h3 className="cruise-card__title">{item.title}</h3>
+              <p className="cruise-card__desc">{item.desc}</p>
             </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-/* ─── BRAND LOGOS ──────────────────────────────────────── */
-const CAR_BRANDS = [
-  { name: 'Toyota',     logo: '/img/logo-toyota.png' },
-  { name: 'Fiat',       logo: '/img/logo-fiat.png' },
-  { name: 'Volkswagen', logo: '/img/logo-volkswagen.png' },
-  { name: 'Peugeot',    logo: '/img/logo-peugeot.png' },
-  { name: 'Renault',    logo: '/img/logo-renault.png' },
-  { name: 'Hyundai',    logo: '/img/logo-hyundai.png' },
-  { name: 'Citroën',    logo: '/img/logo-citroen.png' },
-  { name: 'Suzuki',     logo: '/img/logo-suzuki.png' },
-  { name: 'Ford',       logo: '/img/logo-ford.png' },
-  { name: 'Dacia',      logo: '/img/logo-dacia.png' },
-];
-
-function BrandLogos() {
-  const { t } = useTranslation();
-  return (
-    <section className="brands-section">
-      <div className="container">
-        <p className="brands-label">{t("brands.label")}</p>
-        <div className="brands-row">
-          {CAR_BRANDS.map((brand) => (
-            <img key={brand.name} className="brand-logo" src={brand.logo} alt={brand.name} loading="lazy" />
           ))}
         </div>
       </div>
@@ -689,9 +593,9 @@ function FAQ() {
         </div>
 
         <div className="faq-list">
-          {[0, 6].map(start => (
+          {[0, 5].map(start => (
             <div key={start} className="faq-column">
-              {[0, 1, 2, 3, 4, 5].map(offset => {
+              {Array.from({ length: start === 0 ? 5 : 4 }, (_, i) => i).map(offset => {
                 const i = start + offset;
                 const isOpen = open === i;
                 return (
@@ -844,12 +748,9 @@ export default function App() {
           <Hero />
           <TrustStrip />
         </div>
-        <Fleet />
         <Reviews />
-        <TrustpilotBanner />
-        <HowItWorks />
-        <StatCounters />
-        <BrandLogos />
+        <Fleet />
+        <CruiseVisitors />
         <Destinations />
         <Features />
         <FAQ />
