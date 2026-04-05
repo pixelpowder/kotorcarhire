@@ -305,18 +305,14 @@
       "a": "Your agent meets you in the Tivat Airport arrivals hall holding a sign with your name. The car is parked directly outside. From the terminal to the Kotor Old Town walls takes around 15 minutes along the bay road. Alternatively, we can arrange pickup at the Tabacina car park at Kotor's Old Town entrance."
     },
     "5": {
-      "q": "Can I drop off at a different location?",
-      "a": "One-way rentals are available across 28 pickup and dropoff points in Montenegro. Select different locations at the booking stage and a one-way fee may apply depending on the distance."
-    },
-    "6": {
       "q": "What is the cancellation policy?",
       "a": "Free cancellation is available up to 7 days before the rental start date. Luxury cars and convertibles require 30 days' notice. A 6% payment processing fee is applied to all cancellations regardless of timing."
     },
-    "7": {
+    "6": {
       "q": "Is a deposit required?",
       "a": "Most vehicles require a deposit of \u20ac100\u2013\u20ac350 held on a physical credit card in the driver's name. Some budget cars are available with no deposit \u2014 these are clearly flagged in the search results. The hold is released when the vehicle is returned undamaged."
     },
-    "8": {
+    "7": {
       "q": "Where do I park in Kotor Old Town?",
       "a": "The Old Town is car-free. Use the Tabacina multi-storey (5-minute walk to the Sea Gate, fills by 10 am in summer) or the River Gate lot along the Skurda stream (cheaper, free off-season). A temporary overflow lot operates on the approach road in July and August with a shuttle to the walls."
     }

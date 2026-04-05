@@ -593,9 +593,9 @@ function FAQ() {
         </div>
 
         <div className="faq-list">
-          {[0, 5].map(start => (
+          {[0, 4].map(start => (
             <div key={start} className="faq-column">
-              {Array.from({ length: start === 0 ? 5 : 4 }, (_, i) => i).map(offset => {
+              {Array.from({ length: 4 }, (_, i) => i).map(offset => {
                 const i = start + offset;
                 const isOpen = open === i;
                 return (
