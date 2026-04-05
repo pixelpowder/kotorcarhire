@@ -223,14 +223,14 @@ const siteConfig = {
       slug: "podgorica-airport",
       tag: "Capital Hub",
       desc: "Montenegro's main international airport.",
-      image: "/img/kotor-bay-aerial.webp",
+      image: "/img/lovcen-mountain.webp",
     },
     {
       name: "Dubrovnik Airport",
       slug: "dubrovnik-airport",
       tag: "Cross-Border",
       desc: "Fly into Dubrovnik, drive to Kotor in 2 hours.",
-      image: "/img/montenegro-coast-road.webp",
+      image: "/img/tivat-airport.webp",
     },
     {
       name: "Podgorica",

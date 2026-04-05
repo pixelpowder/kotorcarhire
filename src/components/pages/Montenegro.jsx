@@ -4,7 +4,7 @@ import ContentPage from '../../ContentPage';
 export default function Montenegro() {
   const { t } = useTranslation();
   return (
-    <ContentPage title={t("montenegro.title")} subtitle={t("montenegro.subtitle")} description={t("montenegro.seoDesc")} image="/img/kotor-bay-aerial.webp">
+    <ContentPage title={t("montenegro.title")} subtitle={t("montenegro.subtitle")} description={t("montenegro.seoDesc")} image="/img/montenegro-coast-road.webp">
       <img src="/img/kotor-bay-aerial.webp" alt="Bay of Kotor aerial" loading="lazy" />
       <h2>{t('montenegroBody.h1')}</h2>
       <p>{t('montenegroBody.p1')}</p>
