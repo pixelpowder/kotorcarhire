@@ -196,89 +196,89 @@
   },
   "featureCards": {
     "airportPickup": {
-      "title": "Prise en charge à l'aéroport",
-      "desc": "Récupérez votre voiture aux arrivées de l'aéroport de Tivat ou Podgorica. Pas de navette, pas d'attente."
+      "title": "Prise en charge à Tivat",
+      "desc": "Nous vous accueillons aux arrivées de Tivat, à seulement 8 km des remparts de la vieille ville. La route de la baie jusqu'à Kotor se fait en 15 minutes \u2014 sans navette, sans attente."
     },
     "fullInsurance": {
       "title": "Assurance tous risques",
-      "desc": "Couverture complète avec option zéro franchise. Conduisez en toute sérénité."
+      "desc": "Option zéro franchise disponible. Que vous naviguiez dans les ruelles de la vieille ville ou sur les lacets du Lovcen, vous êtes entièrement couvert."
     },
     "support": {
       "title": "Assistance 24h/24",
-      "desc": "Assistance routière et service client disponibles jour et nuit, tous les jours."
+      "desc": "Bloqué derrière un bus de croisière sur la route de la baie ? Incertain pour le parking Tabacina ? Appelez-nous à tout moment \u2014 nous connaissons chaque mètre de ces routes."
     },
     "noHiddenFees": {
       "title": "Aucun frais caché",
-      "desc": "Politique carburant, kilométrage, taxes — tout est inclus dans le prix affiché."
+      "desc": "Un prix transparent couvrant assurance, TVA et kilométrage. Ce que vous voyez à la réservation est exactement ce que vous payez à la prise en charge \u2014 rien de plus au comptoir."
     },
     "freeCancellation": {
       "title": "Annulation gratuite",
-      "desc": "Les plans changent. Annulez jusqu'à 24 heures avant pour un remboursement intégral."
+      "desc": "Programme de croisière modifié ? Route du Lovcen fermée par mauvais temps ? Annulez jusqu'à 7 jours avant pour un remboursement intégral, sans justification."
     },
     "crossBorder": {
       "title": "Transfrontalier",
-      "desc": "Roulez en Croatia, Bosnia, Albania ou Kosovo. Les trajets transfrontaliers sont autorisés."
+      "desc": "Dubrovnik est à 2 heures via le passage de Debeli Brijeg \u2014 carte verte prête à la prise en charge. Bosnie et Albanie également autorisées avec préavis."
     }
   },
   "testimonials": {
     "0": {
-      "text": "Nous avons pris une Polo à l'aéroport de Tivat et étions dans la vieille ville de Kotor en 15 minutes. Toute la semaine à explorer Perast, Budva et le Lovcen. Service fantastique."
+      "text": "La route de la baie entre Kotor et Perast est l'un des plus beaux trajets que nous ayons jamais faits. Nous nous sommes arrêtés à chaque belvédère et avons pris le bateau jusqu'à Notre-Dame du Rocher. Avoir la voiture nous a permis de tout faire à notre propre rythme. Prise en charge facile à Tivat et tout s'est déroulé sans accroc du début à la fin."
     },
     "1": {
-      "text": "La route de la baie de Kotor à Perast a été le moment fort de nos vacances. Avoir notre propre voiture nous a permis de nous arrêter à chaque point de vue. La carte verte pour la Croatia était prête à la prise en charge."
+      "text": "Je suis venu à Kotor spécialement pour gravir la forteresse San Giovanni et monter jusqu'au Lovcen. La voiture était prête aux arrivées de Tivat avant même que j'aie trouvé la sortie. La route en lacets jusqu'au mausolée est comme rien de ce que j'ai conduit en Amérique du Nord \u2014 escarpée, étroite, spectaculaire. Je réserverai à nouveau sans hésiter."
     },
     "2": {
-      "text": "Nous avons fait l'aller-retour Kotor-Dubrovnik en une journée, puis exploré le parc national du Lovcen le lendemain. Le Jeep a géré les routes de montagne sans aucun problème."
+      "text": "Notre croisière a accosté à Kotor et nous avons récupéré la voiture directement près du port. Trois jours d'excursions \u2014 Budva, Perast et le monastère de Cetinje. Les enfants ont adoré la sortie en bateau vers l'église-île de Perast. L'équipe a réglé les formalités rapidement et le siège enfant était déjà installé à notre arrivée."
     }
   },
   "faqItems": {
     "0": {
       "q": "Quels documents dois-je fournir ?",
-      "a": "Un permis de conduire valide (les informations doivent figurer en caractères latins), un passeport et une carte de crédit physique au nom du conducteur principal. Un permis de conduire international est recommandé si votre permis n'est valable que dans son pays d'émission. Les copies ou permis électroniques ne sont pas acceptés."
+      "a": "Apportez votre permis de conduire, votre passeport et une carte de crédit physique au nom du conducteur principal. Si votre permis ne comporte pas de données en caractères latins, un permis de conduire international est également requis."
     },
     "1": {
       "q": "Puis-je conduire en Croatie ou en Albanie ?",
-      "a": "Oui ! Si vous prévoyez de voyager en dehors du Monténégro, informez l'agent de location à l'avance afin qu'il puisse préparer les documents nécessaires. Les déplacements transfrontaliers vers les pays voisins sont autorisés."
+      "a": "La Croatie est à 2 heures via le poste frontière de Debeli Brijeg \u2014 nous préparons la carte verte à la réservation. L'Albanie nécessite des documents de carte verte séparés, merci de nous prévenir à l'avance. La Bosnie, la Serbie et le Kosovo sont également autorisés."
     },
     "2": {
       "q": "Y a-t-il un âge minimum ?",
-      "a": "L'âge minimum et les exigences en matière d'expérience de conduite varient selon le véhicule. Ces détails sont affichés lorsque vous recherchez les voitures disponibles."
+      "a": "Les conducteurs doivent avoir au moins 21 ans et justifier de 2 ans d'expérience minimum. Un supplément jeune conducteur s'applique pour les moins de 25 ans \u2014 le montant exact varie selon le véhicule et est indiqué dans les résultats de recherche."
     },
     "3": {
       "q": "Qu'est-ce qui est inclus dans le prix ?",
-      "a": "Tous les véhicules sont assurés — la plupart incluent l'assurance responsabilité civile et la garantie dommages par collision (CDW) dans le prix de base. La TVA, les kits d'équipement (trousse de premiers secours, triangle de signalisation, gilet de haute visibilité) et une politique carburant transparente sont également inclus. Les conditions de kilométrage varient selon le véhicule. Des options de couverture étendue sont disponibles moyennant un supplément."
+      "a": "La responsabilité civile et l'assurance CDW sont incluses dans le prix de base pour tous les véhicules, ainsi que la TVA et le kit de sécurité obligatoire. Le kilométrage illimité est disponible sur la plupart des voitures \u2014 vérifiez la fiche du véhicule avant de réserver."
     },
     "4": {
-      "q": "Comment se passe la prise en charge ?",
-      "a": "Choisissez l'heure et le lieu de prise en charge lors de la réservation — les options varient selon l'agent de location et la destination. L'agent organisera la rencontre au lieu convenu. Pour les détails précis du point de rencontre, contactez l'agent directement après la réservation."
+      "q": "Comment se passe la prise en charge à l'aéroport de Tivat ?",
+      "a": "Votre agent vous attend dans le hall des arrivées de l'aéroport de Tivat avec une pancarte à votre nom. La voiture est garée juste à l'extérieur. Du terminal aux remparts de la vieille ville de Kotor, comptez environ 15 minutes par la route de la baie. Nous pouvons également organiser la prise en charge au parking Tabacina, à l'entrée de la vieille ville."
     },
     "5": {
       "q": "Puis-je restituer le véhicule dans un autre lieu ?",
-      "a": "Oui — les locations en aller simple sont proposées dans 28 villes et localités du Monténégro. Il vous suffit de choisir des lieux de prise en charge et de restitution différents lors de la réservation."
+      "a": "Les locations en aller simple sont disponibles dans 28 points de prise en charge et de restitution au Monténégro. Sélectionnez des lieux différents lors de la réservation \u2014 des frais de trajet unique peuvent s'appliquer selon la distance."
     },
     "6": {
       "q": "Quelle est la politique d'annulation ?",
-      "a": "Annulation gratuite jusqu'à 7 jours avant la date de début de location. Pour les voitures de luxe et les cabriolets, l'annulation gratuite est possible jusqu'à 30 jours avant. Des frais de service de paiement de 6 % s'appliquent à toutes les annulations."
+      "a": "L'annulation gratuite est possible jusqu'à 7 jours avant la date de début de location. Les voitures de luxe et les cabriolets nécessitent 30 jours de préavis. Des frais de traitement du paiement de 6 % sont appliqués à toutes les annulations, quel que soit le moment."
     },
     "7": {
       "q": "Un dépôt de garantie est-il requis ?",
-      "a": "Le montant du dépôt varie selon le véhicule — certains véhicules sont disponibles sans dépôt. Si un dépôt est requis, il doit être prélevé sur une carte de crédit physique au nom du conducteur principal et est remboursé à la restitution du véhicule en bon état."
+      "a": "La plupart des véhicules nécessitent un dépôt de 100 à 350 € sur une carte de crédit physique au nom du conducteur. Quelques véhicules économiques sont disponibles sans dépôt \u2014 clairement indiqués dans les résultats de recherche. La somme est libérée au retour du véhicule sans dommages."
     },
     "8": {
       "q": "Que se passe-t-il si je dépasse la limite de kilométrage ?",
-      "a": "Les véhicules avec restriction de kilométrage sont facturés au kilomètre supplémentaire. Les tarifs sont indiqués dans les détails du véhicule avant la réservation."
+      "a": "Les véhicules avec restriction de kilométrage appliquent un tarif par kilomètre supplémentaire. Le tarif exact figure dans les détails du véhicule avant confirmation de réservation."
     },
     "9": {
       "q": "Y a-t-il des frais cachés ?",
-      "a": "Non. Le prix affiché comprend toutes les taxes et tous les frais. Ce qui est indiqué lors de la réservation correspond à ce que vous payez."
+      "a": "Non. Le prix affiché comprend toutes les taxes et tous les frais. Pas de surcharges aéroport, pas de surprises sur la politique carburant, rien n'est ajouté au comptoir."
     },
     "10": {
       "q": "Combien dois-je payer à l'avance ?",
-      "a": "Seulement 15 à 20 % du montant total sont nécessaires pour confirmer votre réservation. Le solde est payé directement à l'agent de location lors de la prise en charge."
+      "a": "Un acompte de 15 à 20 % du coût total de la location est requis pour confirmer votre réservation. Le solde est réglé directement auprès de l'agent de location lors de la prise en charge du véhicule."
     },
     "11": {
       "q": "Puis-je louer sans carte de crédit ?",
-      "a": "Certains véhicules sont disponibles sans carte de crédit. Vérifiez la disponibilité lors de votre recherche — les options sans carte de crédit sont clairement indiquées."
+      "a": "Un petit nombre de véhicules de la flotte est disponible sans carte de crédit. Ces options sont clairement indiquées dans les résultats de recherche lorsque vous filtrez par lieu de prise en charge."
     }
   },
   "destCards": {

@@ -196,89 +196,89 @@
   },
   "featureCards": {
     "airportPickup": {
-      "title": "Preuzimanje na aerodromu",
-      "desc": "Preuzmite automobil na aerodromu Tivat ili Podgorica. Bez prevoza, bez čekanja."
+      "title": "Preuzimanje na aerodromu Tivat",
+      "desc": "Dočekujemo vas na dolasku u Tivatu, svega 8 km od zidina Starog grada. Putem uz zaliv do Kotora stižete za 15 minuta \u2014 bez prevoza, bez čekanja."
     },
     "fullInsurance": {
       "title": "Potpuno osiguranje",
-      "desc": "Sveobuhvatna pokrivenost sa opcijom nulte franšize. Vozite potpuno bezbrižno."
+      "desc": "Dostupna opcija nulte franšize. Bilo da vozite uskim ulicama Starog grada ili serpentinom Lovćena, u potpunosti ste osigurani."
     },
     "support": {
       "title": "Podrška 24/7",
-      "desc": "Pomoć na putu i korisnička podrška dostupni non-stop, svakog dana."
+      "desc": "Zaglavili ste iza kruzerskog autobusa na putu uz zaliv? Niste sigurni oko parkinga Tabacina? Pozovite nas u bilo kom trenutku \u2014 poznajemo svaki metar ovih puteva."
     },
     "noHiddenFees": {
       "title": "Bez skrivenih troškova",
-      "desc": "Politika goriva, kilometraža, porez — sve je uključeno u cijenu koju vidite."
+      "desc": "Jedna transparentna cijena pokriva osiguranje, PDV i kilometražu. Ono što vidite pri rezervaciji tačno je ono što plaćate pri preuzimanju \u2014 ništa se ne dodaje na šalteru."
     },
     "freeCancellation": {
       "title": "Besplatno otkazivanje",
-      "desc": "Planovi se mijenjaju. Otkažite do 24 sata prije preuzimanja za puni povrat novca."
+      "desc": "Promijenjen raspored kruzera? Put na Lovćen zatvoren zbog vremena? Otkažite do 7 dana prije preuzimanja za puni povrat, bez pitanja."
     },
     "crossBorder": {
       "title": "Prelazak granice",
-      "desc": "Vozite u Croatia, Bosnia, Albania ili Kosovo. Prekogranična putovanja su dozvoljena."
+      "desc": "Dubrovnik je 2 sata vožnje preko graničnog prelaza Debeli Brijeg \u2014 Zelena karta spremna pri preuzimanju. Bosna i Albanija također dozvoljene uz prethodnu najavu."
     }
   },
   "testimonials": {
     "0": {
-      "text": "Preuzeli smo Polo na aerodromu Tivat i za 15 minuta bili u Starom gradu Kotora. Cijelu sedmicu istraživali Perast, Budvu i Lovćen. Fantastičan servis."
+      "text": "Put uz zaliv između Kotora i Perasta jedno je od najljepših vožnji koje smo ikada doživjeli. Zaustavljali smo se na svakom proširenju i uzeli čamac do Gospe od Škrpjela. Imati auto značilo je da smo sve radili po svom rasporedu. Lako preuzimanje u Tivatu i cijeli proces prošao je glatko od početka do kraja."
     },
     "1": {
-      "text": "Put uz zaliv od Kotora do Perasta bio je vrhunac našeg odmora. Imati vlastiti auto omogućilo nam je zaustavljanje na svakom vidikovcu. Zeleni karton za Croatia bio je spreman pri preuzimanju."
+      "text": "Došao sam u Kotor posebno da se popnem na tvrđavu San Giovanni i odvezem do Lovćena. Auto je bio spreman na dolasku u Tivatu prije nego sam uopće našao izlaz. Serpentinska cesta do mauzoleja ne liči ni na šta što sam vozio u Sjevernoj Americi \u2014 strma, uska, spektakularna. Rezervisao bih ponovo bez oklijevanja."
     },
     "2": {
-      "text": "Odvezli smo se od Kotora do Dubrovnika i nazad u jednom danu, a sljedećeg dana istražili Nacionalni park Lovćen. Jeep je savršeno savladao planinske puteve."
+      "text": "Naš kruzer pristao je u Kotoru i preuzeli smo auto odmah pored luke. Tri dana izleta \u2014 Budva, Perast i manastir Cetinje. Djeca su obožavala plovidbu do crkvice na otočiću u Perastu. Tim je brzo sredio dokumentaciju, a dječije sjedište bilo je već postavljeno kada smo stigli."
     }
   },
   "faqItems": {
     "0": {
       "q": "Koja dokumenta su mi potrebna?",
-      "a": "Važeća vozačka dozvola (mora sadržavati podatke na latinici), pasoš i fizička kreditna kartica na ime glavnog vozača. Međunarodna vozačka dozvola se preporučuje ako vaša dozvola važi samo u zemlji izdavanja. Kopije ili elektronske vozačke dozvole se ne prihvataju."
+      "a": "Ponesite vozačku dozvolu, pasoš i fizičku kreditnu karticu na ime glavnog vozača. Ako vaša dozvola ne sadrži podatke na latiničnom pismu, potrebna je i međunarodna vozačka dozvola."
     },
     "1": {
       "q": "Mogu li voziti do Hrvatske ili Albanije?",
-      "a": "Da! Ako planirate putovanje van Crne Gore, unaprijed obavijestite agenta za iznajmljivanje kako bi pripremio potrebnu dokumentaciju. Prekogranična putovanja u susjedne zemlje su dozvoljena."
+      "a": "Hrvatska je 2 sata vožnje preko graničnog prelaza Debeli Brijeg \u2014 Zelenu kartu pripremamo pri rezervaciji. Albanija zahtijeva zasebnu dokumentaciju za Zelenu kartu, pa nas obavijestite unaprijed. Bosna, Srbija i Kosovo su takođe dozvoljeni."
     },
     "2": {
       "q": "Postoji li minimalna starosna granica?",
-      "a": "Minimalna starost i zahtjevi za vozačko iskustvo zavise od vozila. Ovi detalji se prikazuju kada pretražujete dostupne automobile."
+      "a": "Vozači moraju imati najmanje 21 godinu i minimum 2 godine iskustva. Za vozače mlađe od 25 godina primjenjuje se doplata za mlade vozače \u2014 tačan iznos zavisi od vozila i prikazan je u rezultatima pretrage."
     },
     "3": {
       "q": "Šta je uključeno u cijenu?",
-      "a": "Sva vozila su osigurana — većina uključuje osiguranje od odgovornosti prema trećim licima i zaštitu od oštećenja u sudaru (CDW) u osnovnu cijenu. PDV, komplet opreme (prva pomoć, trougao upozorenja, reflektujući prsluk) i transparentna politika goriva su takođe uključeni. Uslovi kilometraže zavise od vozila. Proširene opcije pokrića su dostupne uz doplatu."
+      "a": "Osiguranje od odgovornosti prema trećim licima i CDW zaštita uključeni su u osnovnu cijenu svih vozila, zajedno sa PDV-om i obaveznim sigurnosnim kompletom. Neograničena kilometraža dostupna je na većini automobila \u2014 provjerite karticu vozila prije rezervacije."
     },
     "4": {
-      "q": "Kako funkcioniše preuzimanje vozila?",
-      "a": "Izaberite vrijeme i mjesto preuzimanja tokom rezervacije — opcije zavise od agenta za iznajmljivanje i destinacije. Agent će organizovati susret na dogovorenom mjestu. Za tačne detalje o mjestu susreta, kontaktirajte agenta direktno nakon rezervacije."
+      "q": "Kako funkcioniše preuzimanje na aerodromu Tivat?",
+      "a": "Vaš agent čeka vas u holu dolazaka aerodroma Tivat s tablom na kojoj piše vaše ime. Auto je parkiran odmah ispred. Od terminala do zidina Starog grada Kotora traje oko 15 minuta putem uz zaliv. Alternativno, možemo organizovati preuzimanje na parkingu Tabacina, na ulazu u Stari grad."
     },
     "5": {
       "q": "Mogu li vratiti vozilo na drugoj lokaciji?",
-      "a": "Da — jednosmjerno iznajmljivanje je dostupno u 28 gradova i mjesta u Crnoj Gori. Jednostavno izaberite različita mjesta preuzimanja i vraćanja tokom rezervacije."
+      "a": "Jednosmjerno iznajmljivanje dostupno je u 28 mjesta za preuzimanje i vraćanje u Crnoj Gori. Izaberite različite lokacije u fazi rezervacije \u2014 naknada za jednosmjerni povratak može se primijeniti ovisno o udaljenosti."
     },
     "6": {
       "q": "Koja je politika otkazivanja?",
-      "a": "Besplatno otkazivanje do 7 dana prije početka iznajmljivanja. Za luksuzne automobile i kabriolete, besplatno otkazivanje je moguće do 30 dana unaprijed. Naknada za platni servis od 6 % se primjenjuje na sva otkazivanja."
+      "a": "Besplatno otkazivanje moguće je do 7 dana prije datuma početka najma. Luksuzni automobili i kabrioleti zahtijevaju 30 dana najave. Naknada za obradu plaćanja od 6 % primjenjuje se na sva otkazivanja bez obzira na vrijeme."
     },
     "7": {
       "q": "Da li je potreban depozit?",
-      "a": "Iznos depozita zavisi od vozila — neki automobili su dostupni bez depozita. Ako je potreban, depozit mora biti na fizičkoj kreditnoj kartici na ime glavnog vozača i vraća se po povratku vozila u dobrom stanju."
+      "a": "Većina vozila zahtijeva depozit od 100 do 350 € na fizičkoj kreditnoj kartici vozača. Neki ekonomični automobili dostupni su bez depozita \u2014 jasno su označeni u rezultatima pretrage. Blokada se oslobađa kada se vozilo vrati bez oštećenja."
     },
     "8": {
       "q": "Šta se dešava ako prekoračim limit kilometraže?",
-      "a": "Za vozila sa ograničenjem kilometraže naplaćuje se svaki dodatni kilometar. Tarife su prikazane u detaljima vozila prije rezervacije."
+      "a": "Vozila s ograničenjem kilometraže naplaćuju po kilometru iznad dogovorene granice. Tačna tarifa navedena je u detaljima vozila prije potvrde rezervacije."
     },
     "9": {
       "q": "Ima li skrivenih naknada?",
-      "a": "Ne. Cijena koju vidite uključuje sve poreze i naknade. Ono što je prikazano pri rezervaciji je ono što plaćate."
+      "a": "Ne. Prikazana cijena uključuje sve poreze i naknade. Nema aerodromskih doplata, nema iznenađenja vezanih za politiku goriva, ništa se ne dodaje na šalteru."
     },
     "10": {
       "q": "Koliko plaćam unaprijed?",
-      "a": "Samo 15–20 % ukupnog iznosa je potrebno za potvrdu rezervacije. Ostatak se plaća direktno agentu za iznajmljivanje prilikom preuzimanja."
+      "a": "Avans od 15\u201320 % ukupne cijene najma potreban je za potvrdu rezervacije. Preostali iznos plaća se direktno agentu za iznajmljivanje pri preuzimanju automobila."
     },
     "11": {
       "q": "Mogu li iznajmiti bez kreditne kartice?",
-      "a": "Neki automobili su dostupni bez kreditne kartice. Provjerite dostupnost prilikom pretrage — opcije bez kreditne kartice su jasno označene."
+      "a": "Mali broj vozila u floti dostupan je bez kreditne kartice. Te opcije su jasno označene u rezultatima pretrage kada filtrirate prema lokaciji preuzimanja."
     }
   },
   "destCards": {

@@ -577,9 +577,9 @@
   inset: 0;
   background: linear-gradient(
     to bottom,
-    rgba(10, 25, 41, 0.65) 0%,
-    rgba(10, 25, 41, 0.50) 50%,
-    rgba(10, 25, 41, 0.40) 100%
+    rgba(10, 25, 41, 0.55) 0%,
+    rgba(10, 25, 41, 0.40) 50%,
+    rgba(10, 25, 41, 0.30) 100%
   );
   z-index: 2;
 }
