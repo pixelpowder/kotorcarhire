@@ -718,13 +718,13 @@
 }
 .winter-package-banner--more,
 .link-dashed-M {
-  color: #0062e3 !important;
-  border-color: #0062e3 !important;
-  border-bottom-color: #0062e3 !important;
+  color: #1B3A5C !important;
+  border-color: #1B3A5C !important;
+  border-bottom-color: #1B3A5C !important;
 }
 .featuring-cool-cars__badge {
   background-color: rgba(0, 98, 227, 0.15) !important;
-  color: #0062e3 !important;
+  color: #1B3A5C !important;
 }
 /* Buttons / CTAs */
 .btn-primary,
@@ -732,8 +732,8 @@
 .search-cigarette__submit,
 [class*="button--primary"],
 [class*="btn--primary"] {
-  background-color: #0062e3 !important;
-  border-color: #0062e3 !important;
+  background-color: #1B3A5C !important;
+  border-color: #1B3A5C !important;
 }
 [class*="button--primary"]:hover,
 [class*="btn--primary"]:hover,
