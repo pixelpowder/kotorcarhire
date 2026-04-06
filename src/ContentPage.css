@@ -114,6 +114,18 @@
   margin-bottom: 6px;
 }
 
+.content-body__inner a {
+  color: var(--blue);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 500;
+  transition: color 0.15s;
+}
+
+.content-body__inner a:hover {
+  color: var(--blue-dark);
+}
+
 .content-body__inner strong {
   color: var(--navy);
 }

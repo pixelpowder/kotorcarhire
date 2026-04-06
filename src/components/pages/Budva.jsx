@@ -2,7 +2,7 @@
 import useTranslation from '../../i18n/useTranslation';
 import ContentPage from '../../ContentPage';
 export default function Budva() {
-  const { t } = useTranslation();
+  const { t, localePath } = useTranslation();
   return (
     <ContentPage title={t("budva.title")} subtitle={t("budva.subtitle")} description={t("budva.seoDesc")} image="/img/budva-from-kotor.webp">
       <img src="/img/pexels-28986995.jpg" alt="Budva Old Town peninsula from above" loading="lazy" />
@@ -30,7 +30,7 @@ export default function Budva() {
       <p>{t('budvaBody.lovcenTrip')}</p>
 
       <h2>{t('budvaBody.gettingAroundTitle')}</h2>
-      <p>{t('budvaBody.gettingAroundText')}</p>
+      <p>{t('budvaBody.gettingAroundText')} <a href={localePath('/tivat-airport')}>Collect your car at Tivat Airport</a> and reach Budva in 30 minutes.</p>
     </ContentPage>
   );
 }

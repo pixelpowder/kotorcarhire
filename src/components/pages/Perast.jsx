@@ -2,7 +2,7 @@
 import useTranslation from '../../i18n/useTranslation';
 import ContentPage from '../../ContentPage';
 export default function Perast() {
-  const { t } = useTranslation();
+  const { t, localePath } = useTranslation();
   return (
     <ContentPage title={t("perast.title")} subtitle={t("perast.subtitle")} description={t("perast.seoDesc")} image="/img/perast-village.webp">
       <img src="/img/our-lady-rocks.webp" alt="Perast waterfront with the two islands in the bay beyond" loading="lazy" />
@@ -23,7 +23,7 @@ export default function Perast() {
       <p>{t('perastBody.historicText')}</p>
 
       <h3>{t('perastBody.monasteryTitle')}</h3>
-      <p>{t('perastBody.monasteryText')}</p>
+      <p>{t('perastBody.monasteryText')} Plan your route with our <a href={localePath('/montenegro')}>Montenegro driving and routes guide</a>.</p>
     </ContentPage>
   );
 }

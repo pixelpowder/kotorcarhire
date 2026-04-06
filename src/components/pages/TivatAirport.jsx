@@ -3,7 +3,7 @@ import useTranslation from '../../i18n/useTranslation';
 import ContentPage from '../../ContentPage';
 
 export default function TivatAirport() {
-  const { t } = useTranslation();
+  const { t, localePath } = useTranslation();
   return (
     <ContentPage title={t("tivat-airport.title")} subtitle={t("tivat-airport.subtitle")} description={t("tivat-airport.seoDesc")} image="/img/tivat-airport.webp">
       <img src="/img/pexels-28609588.jpg" alt="Tivat Airport runway" loading="lazy" />
@@ -20,7 +20,7 @@ export default function TivatAirport() {
       <h2>{t('tivatAirportBody.facilitiesTitle')}</h2>
       <p>{t('tivatAirportBody.facilitiesText')}</p>
       <h2>{t('tivatAirportBody.whyTitle')}</h2>
-      <p>{t('tivatAirportBody.whyText')}</p>
+      <p>{t('tivatAirportBody.whyText')} <a href={localePath('/budva')}>Budva's beaches and Old Town</a> are 30 minutes south via the tunnel.</p>
       <p>{t('tivatAirportBody.meetText')}</p>
     </ContentPage>
   );
