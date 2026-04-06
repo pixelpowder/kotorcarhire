@@ -2146,7 +2146,18 @@ select.booking-field__input {
   }
 
   .booking-card__fields {
-    grid-template-columns: 2fr 1.3fr 0.9fr 1.3fr 0.9fr auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+  }
+
+  .booking-card__fields > .booking-field:first-child {
+    grid-column: 1 / -1;
+  }
+
+  .booking-card__search {
+    grid-column: 1 / -1;
+    height: 50px;
+    border-radius: 8px;
   }
 }
 
