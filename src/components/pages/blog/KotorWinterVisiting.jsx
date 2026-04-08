@@ -31,7 +31,7 @@ export default function KotorWinterVisiting() {
       <h3>{t('blogWinter.h3Carnival')}</h3>
       <p>{t('blogWinter.carnivalP')}</p>
       <h3>{t('blogWinter.h3DayTrips')}</h3>
-      <p>{t('blogWinter.dayTripsP')}</p>
+      <p>{t('blogWinter.dayTripsP')} {t('blogWinter.alsoP')} <a href={localePath('/blog/kotor-to-lovcen-drive')}>{t('blogWinter.alsoLink')}</a>.</p>
 
       <h2>{t('blogWinter.h2Prices')}</h2>
       <p>{t('blogWinter.pricesP')}</p>
@@ -45,8 +45,6 @@ export default function KotorWinterVisiting() {
         <li>{t('blogWinter.pack5')}</li>
       </ul>
 
-      <h2>{t('blogWinter.h2Also')}</h2>
-      <p>{t('blogWinter.alsoP')} <a href={localePath('/blog/kotor-to-lovcen-drive')}>{t('blogWinter.alsoLink')}</a>.</p>
     </ContentPage>
   );
 }

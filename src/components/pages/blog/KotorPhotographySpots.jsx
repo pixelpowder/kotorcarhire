@@ -29,7 +29,7 @@ export default function KotorPhotographySpots() {
       <p>{t('blogPhoto.spot4P')}</p>
 
       <h2>{t('blogPhoto.h2Spot5')}</h2>
-      <p>{t('blogPhoto.spot5P')}</p>
+      <p>{t('blogPhoto.spot5P')} {t('blogPhoto.accessP')} <a href={localePath('/blog/kotor-cruise-shore-excursion')}>{t('blogPhoto.accessLink')}</a>.</p>
 
       <h2>{t('blogPhoto.h2Spot6')}</h2>
       <p>{t('blogPhoto.spot6P')}</p>
@@ -51,8 +51,6 @@ export default function KotorPhotographySpots() {
         <li><strong>{t('blogPhoto.gearGoldenLabel')}</strong> {t('blogPhoto.gearGoldenVal')}</li>
       </ul>
 
-      <h2>{t('blogPhoto.h2Access')}</h2>
-      <p>{t('blogPhoto.accessP')} <a href={localePath('/blog/kotor-cruise-shore-excursion')}>{t('blogPhoto.accessLink')}</a>.</p>
     </ContentPage>
   );
 }

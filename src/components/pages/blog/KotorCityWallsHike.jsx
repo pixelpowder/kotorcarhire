@@ -29,7 +29,7 @@ export default function KotorCityWallsHike() {
       <p>{t('blogWalls.fortressP')}</p>
 
       <h2>{t('blogWalls.h2When')}</h2>
-      <p>{t('blogWalls.whenP')}</p>
+      <p>{t('blogWalls.whenP')} {t('blogWalls.afterP')} <a href={localePath('/blog/kotor-nightlife-dining')}>{t('blogWalls.afterLink')}</a>.</p>
 
       <h2>{t('blogWalls.h2Tips')}</h2>
       <ul>
@@ -39,9 +39,6 @@ export default function KotorCityWallsHike() {
         <li><strong>{t('blogWalls.tipSunLabel')}</strong> {t('blogWalls.tipSunVal')}</li>
         <li><strong>{t('blogWalls.tipCameraLabel')}</strong> {t('blogWalls.tipCameraVal')}</li>
       </ul>
-
-      <h2>{t('blogWalls.h2After')}</h2>
-      <p>{t('blogWalls.afterP')} <a href={localePath('/blog/kotor-nightlife-dining')}>{t('blogWalls.afterLink')}</a>.</p>
 
       <div className="route-info">
         <h3>{t('blogWalls.glanceTitle')}</h3>

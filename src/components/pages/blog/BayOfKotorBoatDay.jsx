@@ -35,10 +35,7 @@ export default function BayOfKotorBoatDay() {
       </ul>
 
       <h2>{t('blogBoat.h2Parking')}</h2>
-      <p>{t('blogBoat.parkingP')}</p>
-
-      <h2>{t('blogBoat.h2Combine')}</h2>
-      <p>{t('blogBoat.combineP')} <a href={localePath('/blog/kotor-photography-spots')}>{t('blogBoat.combineLink')}</a>.</p>
+      <p>{t('blogBoat.parkingP')} {t('blogBoat.combineP')} <a href={localePath('/blog/kotor-photography-spots')}>{t('blogBoat.combineLink')}</a>.</p>
 
       <div className="route-info">
         <h3>{t('blogBoat.glanceTitle')}</h3>

@@ -26,7 +26,7 @@ export default function KotorOldTownCats() {
       <h3>{t('blogCats.h3Trg')}</h3>
       <p>{t('blogCats.trgP')}</p>
       <h3>{t('blogCats.h3Walls')}</h3>
-      <p>{t('blogCats.wallsP')}</p>
+      <p>{t('blogCats.wallsP')} {t('blogCats.combineP')} <a href={localePath('/blog/kotor-city-walls-hike')}>{t('blogCats.combineLink')}</a>.</p>
       <h3>{t('blogCats.h3Bastion')}</h3>
       <p>{t('blogCats.bastionP')}</p>
 
@@ -41,8 +41,6 @@ export default function KotorOldTownCats() {
         <li>{t('blogCats.etiq4')}</li>
       </ul>
 
-      <h2>{t('blogCats.h2Combine')}</h2>
-      <p>{t('blogCats.combineP')} <a href={localePath('/blog/kotor-city-walls-hike')}>{t('blogCats.combineLink')}</a>.</p>
     </ContentPage>
   );
 }
