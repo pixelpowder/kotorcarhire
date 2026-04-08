@@ -34,7 +34,9 @@ export default function RootLayout({ children }) {
               "image": "https://www.kotorcarhire.com/img/hero-kotor.webp",
               "address": {
                 "@type": "PostalAddress",
+                "streetAddress": "Tabacina BB",
                 "addressLocality": "Kotor",
+                "postalCode": "85330",
                 "addressCountry": "ME"
               },
               "areaServed": [
