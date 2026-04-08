@@ -31,6 +31,7 @@ export default function RootLayout({ children }) {
               "url": "https://www.kotorcarhire.com",
               "description": "Rent a car in Kotor from trusted local providers with free cancellation, full insurance, and airport pickup included with every booking.",
               "email": "info@kotorcarhire.com",
+              "image": "https://www.kotorcarhire.com/img/hero-kotor.webp",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Kotor",
