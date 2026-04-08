@@ -568,7 +568,7 @@
   position: absolute;
   inset: 0;
   z-index: 0;
-  background: rgb(5,32,60);
+  background: rgb(5,32,60) url('/hero-bg.webp') center 30% / cover no-repeat;
 }
 
 .hero-wrapper__bg::after {
@@ -582,15 +582,6 @@
     rgba(10, 25, 41, 0.30) 100%
   );
   z-index: 2;
-}
-
-/* Mobile: background-image for hero */
-@media (max-width: 768px) {
-  .hero-wrapper__bg {
-    background-image: url('/hero-bg.webp');
-    background-size: cover;
-    background-position: center 30%;
-  }
 }
 
 .hero__video {
