@@ -88,7 +88,7 @@ export default function Footer() {
 
       <div className="footer__bottom">
         <span className="footer__copy">
-          &copy; 2007–{new Date().getFullYear()} {config.name}. All rights reserved.
+          &copy; 2025–{new Date().getFullYear()} {config.name}. All rights reserved.
         </span>
         <div className="footer__bottom-links">
           <a href={localePath('/privacy')} className="footer__bottom-link">{t('footer.privacyPolicy')}</a>
