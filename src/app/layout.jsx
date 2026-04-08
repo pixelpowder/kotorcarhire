@@ -19,6 +19,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KV9ELT3R9H" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-KV9ELT3R9H');`,
+          }}
+        />
         <link rel="preload" href="/hero-video.mp4" as="video" type="video/mp4" />
         <link rel="preload" href="/hero-bg.webp" as="image" type="image/webp" />
         <script
