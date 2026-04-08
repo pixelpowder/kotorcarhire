@@ -205,4 +205,144 @@
     <priority>0.3</priority>
   </url>
 
+  <!-- Blog Listing -->
+  <url>
+    <loc>https://www.kotorcarhire.com/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.kotorcarhire.com/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.kotorcarhire.com/de/blog" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.kotorcarhire.com/ru/blog" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.kotorcarhire.com/it/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.kotorcarhire.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.kotorcarhire.com/me/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.kotorcarhire.com/blog" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: Kotor City Walls Hike -->
+  <url>
+    <loc>https://www.kotorcarhire.com/blog/kotor-city-walls-hike</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.kotorcarhire.com/blog/kotor-city-walls-hike" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.kotorcarhire.com/de/blog/kotor-city-walls-hike" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.kotorcarhire.com/ru/blog/kotor-city-walls-hike" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.kotorcarhire.com/it/blog/kotor-city-walls-hike" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.kotorcarhire.com/fr/blog/kotor-city-walls-hike" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.kotorcarhire.com/me/blog/kotor-city-walls-hike" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.kotorcarhire.com/blog/kotor-city-walls-hike" />
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog: Bay of Kotor Boat Day -->
+  <url>
+    <loc>https://www.kotorcarhire.com/blog/bay-of-kotor-boat-day</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.kotorcarhire.com/blog/bay-of-kotor-boat-day" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.kotorcarhire.com/de/blog/bay-of-kotor-boat-day" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.kotorcarhire.com/ru/blog/bay-of-kotor-boat-day" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.kotorcarhire.com/it/blog/bay-of-kotor-boat-day" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.kotorcarhire.com/fr/blog/bay-of-kotor-boat-day" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.kotorcarhire.com/me/blog/bay-of-kotor-boat-day" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.kotorcarhire.com/blog/bay-of-kotor-boat-day" />
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog: Kotor to Lovcen Drive -->
+  <url>
+    <loc>https://www.kotorcarhire.com/blog/kotor-to-lovcen-drive</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.kotorcarhire.com/blog/kotor-to-lovcen-drive" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.kotorcarhire.com/de/blog/kotor-to-lovcen-drive" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.kotorcarhire.com/ru/blog/kotor-to-lovcen-drive" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.kotorcarhire.com/it/blog/kotor-to-lovcen-drive" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.kotorcarhire.com/fr/blog/kotor-to-lovcen-drive" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.kotorcarhire.com/me/blog/kotor-to-lovcen-drive" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.kotorcarhire.com/blog/kotor-to-lovcen-drive" />
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog: Cruise Shore Excursion -->
+  <url>
+    <loc>https://www.kotorcarhire.com/blog/kotor-cruise-shore-excursion</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.kotorcarhire.com/blog/kotor-cruise-shore-excursion" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.kotorcarhire.com/de/blog/kotor-cruise-shore-excursion" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.kotorcarhire.com/ru/blog/kotor-cruise-shore-excursion" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.kotorcarhire.com/it/blog/kotor-cruise-shore-excursion" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.kotorcarhire.com/fr/blog/kotor-cruise-shore-excursion" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.kotorcarhire.com/me/blog/kotor-cruise-shore-excursion" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.kotorcarhire.com/blog/kotor-cruise-shore-excursion" />
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog: Kotor Old Town Cats -->
+  <url>
+    <loc>https://www.kotorcarhire.com/blog/kotor-old-town-cats</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.kotorcarhire.com/blog/kotor-old-town-cats" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.kotorcarhire.com/de/blog/kotor-old-town-cats" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.kotorcarhire.com/ru/blog/kotor-old-town-cats" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.kotorcarhire.com/it/blog/kotor-old-town-cats" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.kotorcarhire.com/fr/blog/kotor-old-town-cats" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.kotorcarhire.com/me/blog/kotor-old-town-cats" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.kotorcarhire.com/blog/kotor-old-town-cats" />
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog: Nightlife and Dining -->
+  <url>
+    <loc>https://www.kotorcarhire.com/blog/kotor-nightlife-dining</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.kotorcarhire.com/blog/kotor-nightlife-dining" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.kotorcarhire.com/de/blog/kotor-nightlife-dining" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.kotorcarhire.com/ru/blog/kotor-nightlife-dining" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.kotorcarhire.com/it/blog/kotor-nightlife-dining" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.kotorcarhire.com/fr/blog/kotor-nightlife-dining" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.kotorcarhire.com/me/blog/kotor-nightlife-dining" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.kotorcarhire.com/blog/kotor-nightlife-dining" />
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog: Winter Visiting -->
+  <url>
+    <loc>https://www.kotorcarhire.com/blog/kotor-winter-visiting</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.kotorcarhire.com/blog/kotor-winter-visiting" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.kotorcarhire.com/de/blog/kotor-winter-visiting" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.kotorcarhire.com/ru/blog/kotor-winter-visiting" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.kotorcarhire.com/it/blog/kotor-winter-visiting" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.kotorcarhire.com/fr/blog/kotor-winter-visiting" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.kotorcarhire.com/me/blog/kotor-winter-visiting" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.kotorcarhire.com/blog/kotor-winter-visiting" />
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog: Risan Mosaics -->
+  <url>
+    <loc>https://www.kotorcarhire.com/blog/risan-mosaics-drive</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.kotorcarhire.com/blog/risan-mosaics-drive" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.kotorcarhire.com/de/blog/risan-mosaics-drive" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.kotorcarhire.com/ru/blog/risan-mosaics-drive" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.kotorcarhire.com/it/blog/risan-mosaics-drive" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.kotorcarhire.com/fr/blog/risan-mosaics-drive" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.kotorcarhire.com/me/blog/risan-mosaics-drive" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.kotorcarhire.com/blog/risan-mosaics-drive" />
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog: Photography Spots -->
+  <url>
+    <loc>https://www.kotorcarhire.com/blog/kotor-photography-spots</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.kotorcarhire.com/blog/kotor-photography-spots" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.kotorcarhire.com/de/blog/kotor-photography-spots" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.kotorcarhire.com/ru/blog/kotor-photography-spots" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.kotorcarhire.com/it/blog/kotor-photography-spots" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.kotorcarhire.com/fr/blog/kotor-photography-spots" />
+    <xhtml:link rel="alternate" hreflang="cnr" href="https://www.kotorcarhire.com/me/blog/kotor-photography-spots" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.kotorcarhire.com/blog/kotor-photography-spots" />
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>

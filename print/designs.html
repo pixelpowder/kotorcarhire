@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kotor Car Hire — 5 Business Card Designs</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Bebas+Neue&family=Oswald:wght@400;500;600;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Outfit', sans-serif;
+    background: #0c0c14;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .design-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .design-label {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 600;
+    padding: 6px 16px;
+    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .design-label .num {
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 700;
+  }
+
+  .card-pair {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .side-label {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgba(255,255,255,0.2);
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+  }
+
+  .card {
+    width: 420px;
+    height: 240px;
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4), 0 2px 8px rgba(0,0,0,0.2);
+  }
+
+  /* SVG car icon reusable */
+  .car-svg { display: inline-block; }
+
+  /* ══════════════════════════════════════════════════════════════
+     DESIGN 1 — "ADRIATIC BLUE" — Bold blue diagonals + bay photo
+     ══════════════════════════════════════════════════════════════ */
+  .d1-label { color: #38bdf8; background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.15); }
+
+  .d1-front {
+    background: #041a2e;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .d1-front .photo {
+    position: absolute;
+    right: 0; top: 0; bottom: 0;
+    width: 55%;
+    background: url('bay-night.webp') center/cover;
+  }
+
+  .d1-front .photo-mask {
+    position: absolute;
+    right: 0; top: 0; bottom: 0;
+    width: 55%;
+    background: linear-gradient(90deg, #041a2e 0%, rgba(4,26,46,0.4) 40%, rgba(4,26,46,0.2) 100%);
+  }
+
+  .d1-front .diagonal {
+    position: absolute;
+    top: 0; left: 0; bottom: 0;
+    width: 60%;
+    background: #041a2e;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+    z-index: 2;
+  }
+
+  .d1-front .accent-stripe {
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 47%;
+    width: 4px;
+    background: #38bdf8;
+    transform: skewX(-12deg);
+    z-index: 3;
+    box-shadow: 0 0 15px rgba(56,189,248,0.4);
+  }
+
+  .d1-front .content {
+    position: relative;
+    z-index: 4;
+    padding: 26px 28px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .d1-front .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .d1-front .logo {
+    width: 42px; height: 42px;
+    background: linear-gradient(135deg, #38bdf8, #0284c7);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(56,189,248,0.3);
+  }
+
+  .d1-front .logo svg { width: 22px; height: 22px; fill: #fff; }
+
+  .d1-front h1 {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+
+  .d1-front .tag {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 8.5px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #38bdf8;
+    font-weight: 500;
+    margin-top: 2px;
+  }
+
+  .d1-front .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 200px;
+  }
+
+  .d1-front .cl {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 9px;
+    color: rgba(255,255,255,0.55);
+  }
+
+  .d1-front .cl svg { width: 11px; height: 11px; fill: #38bdf8; flex-shrink: 0; }
+
+  .d1-front .url-badge {
+    position: absolute;
+    bottom: 22px;
+    right: 24px;
+    z-index: 5;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: #fff;
+    background: rgba(56,189,248,0.2);
+    backdrop-filter: blur(10px);
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(56,189,248,0.2);
+  }
+
+  /* D1 Back */
+  .d1-back {
+    background: #fff;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .d1-back .left-panel {
+    flex: 1;
+    padding: 26px 20px 26px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+
+  .d1-back .diag-bg {
+    position: absolute;
+    top: 0; right: 0; bottom: 0;
+    width: 60px;
+    background: #f0f7ff;
+    clip-path: polygon(40% 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .d1-back .b-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .d1-back .b-logo {
+    width: 34px; height: 34px;
+    background: linear-gradient(135deg, #041a2e, #0c3a5e);
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+  }
+
+  .d1-back .b-logo svg { width: 18px; height: 18px; fill: #fff; }
+  .d1-back .b-name { font-size: 13px; font-weight: 800; color: #041a2e; }
+  .d1-back .b-tag { font-family: 'Space Grotesk'; font-size: 7px; color: #38bdf8; letter-spacing: 2px; text-transform: uppercase; margin-top: 1px; }
+
+  .d1-back .usps {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .d1-back .usp {
+    display: flex; align-items: center; gap: 8px;
+    font-family: 'Space Grotesk'; font-size: 8.5px; color: #4b5563; font-weight: 500;
+  }
+
+  .d1-back .usp-d {
+    width: 6px; height: 6px; border-radius: 2px;
+    background: #38bdf8; flex-shrink: 0;
+  }
+
+  .d1-back .qr-panel {
+    width: 140px;
+    background: linear-gradient(180deg, #041a2e, #0c3a5e);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+    padding-left: 12px;
+  }
+
+  .d1-back .qr-box {
+    width: 88px; height: 88px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 6px;
+  }
+
+  .d1-back .qr-box img { width: 100%; height: 100%; border-radius: 5px; display: block; }
+  .d1-back .qr-txt { font-family: 'Space Grotesk'; font-size: 7px; color: rgba(255,255,255,0.5); letter-spacing: 2px; text-transform: uppercase; }
+
+
+  /* ══════════════════════════════════════════════════════════════
+     DESIGN 2 — "SUNSET RED" — Red/dark split, bold angles
+     ══════════════════════════════════════════════════════════════ */
+  .d2-label { color: #ef4444; background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.15); }
+
+  .d2-front {
+    background: #0f0f0f;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .d2-front .red-block {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 70px;
+    background: #dc2626;
+    clip-path: polygon(0 35%, 100% 0, 100% 100%, 0 100%);
+    z-index: 1;
+  }
+
+  .d2-front .photo {
+    position: absolute;
+    top: 0; right: 0; bottom: 0;
+    width: 50%;
+    background: url('road.webp') center/cover;
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .d2-front .photo-overlay {
+    position: absolute;
+    top: 0; right: 0; bottom: 0;
+    width: 50%;
+    background: linear-gradient(90deg, rgba(15,15,15,0.8), rgba(15,15,15,0.1));
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .d2-front .content {
+    position: relative;
+    z-index: 2;
+    padding: 24px 28px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .d2-front h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1;
+  }
+
+  .d2-front h1 span { color: #ef4444; }
+
+  .d2-front .sub {
+    font-family: 'Space Grotesk';
+    font-size: 9px;
+    color: rgba(255,255,255,0.4);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+
+  .d2-front .bottom-bar {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .d2-front .cl {
+    display: flex; align-items: center; gap: 6px;
+    font-family: 'Space Grotesk'; font-size: 8.5px; color: rgba(255,255,255,0.7);
+  }
+
+  .d2-front .cl svg { width: 12px; height: 12px; fill: #ef4444; }
+
+  .d2-front .url {
+    font-family: 'Oswald'; font-size: 13px; font-weight: 600;
+    color: #fff; text-transform: uppercase; letter-spacing: 1px;
+    margin-left: auto;
+  }
+
+  /* D2 Back */
+  .d2-back {
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .d2-back .red-accent {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 5px;
+    background: linear-gradient(90deg, #dc2626, #ef4444, #dc2626);
+  }
+
+  .d2-back .content {
+    padding: 28px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .d2-back .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .d2-back h2 {
+    font-family: 'Oswald';
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0f0f0f;
+    line-height: 1;
+  }
+
+  .d2-back h2 span { color: #dc2626; }
+
+  .d2-back .sub2 {
+    font-family: 'Space Grotesk';
+    font-size: 8px;
+    color: #9ca3af;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 4px;
+    margin-bottom: 16px;
+  }
+
+  .d2-back .usps {
+    display: flex;
+    gap: 14px;
+  }
+
+  .d2-back .usp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    text-align: center;
+  }
+
+  .d2-back .usp-icon {
+    width: 28px; height: 28px;
+    background: #fef2f2;
+    border-radius: 7px;
+    display: flex; align-items: center; justify-content: center;
+  }
+
+  .d2-back .usp-icon svg { width: 14px; height: 14px; fill: #dc2626; }
+  .d2-back .usp span { font-family: 'Space Grotesk'; font-size: 7px; color: #6b7280; font-weight: 600; letter-spacing: 0.5px; }
+
+  .d2-back .qr-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .d2-back .qr-box {
+    width: 100px; height: 100px;
+    border: 2px solid #f3f4f6;
+    border-radius: 12px;
+    padding: 8px;
+  }
+
+  .d2-back .qr-box img { width: 100%; height: 100%; display: block; border-radius: 6px; }
+  .d2-back .qr-txt { font-family: 'Space Grotesk'; font-size: 7px; color: #9ca3af; letter-spacing: 2px; text-transform: uppercase; font-weight: 600; }
+
+
+  /* ══════════════════════════════════════════════════════════════
+     DESIGN 3 — "OCEAN WAVE" — Organic wave shapes, coastal feel
+     ══════════════════════════════════════════════════════════════ */
+  .d3-label { color: #06b6d4; background: rgba(6,182,212,0.08); border: 1px solid rgba(6,182,212,0.15); }
+
+  .d3-front {
+    background: #0e2a3f;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .d3-front .wave1 {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 120px;
+    background: #164e6b;
+    clip-path: path('M0,40 C80,0 160,60 240,30 C320,0 400,50 420,35 L420,120 L0,120 Z');
+  }
+
+  .d3-front .wave2 {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 90px;
+    background: #1a7a9e;
+    clip-path: path('M0,50 C100,20 180,60 280,25 C350,5 400,40 420,30 L420,90 L0,90 Z');
+    opacity: 0.6;
+  }
+
+  .d3-front .wave3 {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 60px;
+    background: #22a7cc;
+    clip-path: path('M0,35 C60,10 140,45 220,20 C300,0 380,30 420,25 L420,60 L0,60 Z');
+    opacity: 0.4;
+  }
+
+  .d3-front .photo-circle {
+    position: absolute;
+    right: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 110px; height: 110px;
+    border-radius: 50%;
+    background: url('bay-night.webp') center/cover;
+    border: 3px solid rgba(255,255,255,0.15);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    z-index: 2;
+  }
+
+  .d3-front .content {
+    position: relative;
+    z-index: 3;
+    padding: 26px 28px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .d3-front .brand-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .d3-front .logo {
+    width: 38px; height: 38px;
+    background: linear-gradient(135deg, #06b6d4, #0891b2);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 3px 10px rgba(6,182,212,0.3);
+  }
+
+  .d3-front .logo svg { width: 20px; height: 20px; fill: #fff; }
+  .d3-front h1 { font-size: 18px; font-weight: 800; letter-spacing: -0.4px; }
+  .d3-front .tag { font-family: 'Space Grotesk'; font-size: 8px; color: #06b6d4; letter-spacing: 2px; text-transform: uppercase; margin-top: 2px; }
+
+  .d3-front .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 200px;
+  }
+
+  .d3-front .cl {
+    display: flex; align-items: center; gap: 8px;
+    font-family: 'Space Grotesk'; font-size: 9px; color: rgba(255,255,255,0.6);
+  }
+
+  .d3-front .cl svg { width: 11px; height: 11px; fill: #22d3ee; }
+
+  /* D3 Back */
+  .d3-back {
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .d3-back .wave-top {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 80px;
+    background: #0e2a3f;
+    clip-path: path('M0,0 L420,0 L420,40 C340,65 260,30 180,55 C100,80 40,45 0,60 Z');
+  }
+
+  .d3-back .content {
+    position: relative;
+    z-index: 1;
+    padding: 28px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+  }
+
+  .d3-back .b-logo {
+    width: 42px; height: 42px;
+    background: linear-gradient(135deg, #0e2a3f, #164e6b);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 12px rgba(14,42,63,0.2);
+  }
+
+  .d3-back .b-logo svg { width: 22px; height: 22px; fill: #fff; }
+  .d3-back .b-name { font-size: 15px; font-weight: 800; color: #0e2a3f; }
+  .d3-back .b-url { font-family: 'Space Grotesk'; font-size: 9px; color: #06b6d4; letter-spacing: 1px; margin-top: 2px; font-weight: 600; }
+
+  .d3-back .divider { width: 30px; height: 2px; background: linear-gradient(90deg, #06b6d4, #22d3ee); border-radius: 1px; margin: 12px 0; }
+
+  .d3-back .usps-row {
+    display: flex;
+    gap: 16px;
+  }
+
+  .d3-back .usp {
+    font-family: 'Space Grotesk'; font-size: 7.5px; color: #6b7280;
+    text-transform: uppercase; letter-spacing: 0.8px; font-weight: 600;
+    display: flex; align-items: center; gap: 5px;
+  }
+
+  .d3-back .usp::before {
+    content: '';
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: #06b6d4;
+  }
+
+
+  /* ══════════════════════════════════════════════════════════════
+     DESIGN 4 — "NEON DRIVE" — Dark with bright green accents
+     ══════════════════════════════════════════════════════════════ */
+  .d4-label { color: #4ade80; background: rgba(74,222,128,0.08); border: 1px solid rgba(74,222,128,0.15); }
+
+  .d4-front {
+    background: #0a0a0a;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .d4-front .stripe1 {
+    position: absolute;
+    top: 0; left: 30%;
+    width: 4px; height: 100%;
+    background: #22c55e;
+    transform: skewX(-20deg);
+    box-shadow: 0 0 12px rgba(34,197,94,0.4);
+  }
+
+  .d4-front .stripe2 {
+    position: absolute;
+    top: 0; left: 32.5%;
+    width: 2px; height: 100%;
+    background: rgba(34,197,94,0.3);
+    transform: skewX(-20deg);
+  }
+
+  .d4-front .photo {
+    position: absolute;
+    top: 0; right: 0; bottom: 0;
+    width: 52%;
+    background: url('bay-night.webp') center/cover;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .d4-front .photo-overlay {
+    position: absolute;
+    top: 0; right: 0; bottom: 0;
+    width: 52%;
+    background: linear-gradient(90deg, rgba(10,10,10,0.7), rgba(10,10,10,0.15));
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .d4-front .content {
+    position: relative;
+    z-index: 2;
+    padding: 24px 28px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 55%;
+  }
+
+  .d4-front h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 0.5px;
+  }
+
+  .d4-front h1 span { color: #4ade80; }
+
+  .d4-front .sub {
+    font-family: 'Space Grotesk';
+    font-size: 8.5px;
+    color: rgba(255,255,255,0.35);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+
+  .d4-front .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .d4-front .cl {
+    display: flex; align-items: center; gap: 7px;
+    font-family: 'Space Grotesk'; font-size: 9px; color: rgba(255,255,255,0.5);
+  }
+
+  .d4-front .cl svg { width: 11px; height: 11px; fill: #4ade80; }
+
+  .d4-front .url-pill {
+    position: absolute;
+    bottom: 22px; right: 24px;
+    z-index: 3;
+    font-family: 'Space Grotesk'; font-size: 10px; font-weight: 700;
+    color: #0a0a0a;
+    background: #4ade80;
+    padding: 8px 16px;
+    border-radius: 6px;
+    letter-spacing: 0.3px;
+    box-shadow: 0 4px 12px rgba(74,222,128,0.3);
+  }
+
+  /* D4 Back */
+  .d4-back {
+    background: #0a0a0a;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .d4-back .stripe {
+    position: absolute;
+    top: 0; left: 70%;
+    width: 3px; height: 100%;
+    background: #22c55e;
+    transform: skewX(-20deg);
+    opacity: 0.3;
+  }
+
+  .d4-back .content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .d4-back .left { text-align: center; }
+
+  .d4-back .b-name {
+    font-family: 'Oswald';
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .d4-back .b-name span { color: #4ade80; }
+
+  .d4-back .usps {
+    display: flex;
+    gap: 12px;
+    margin-top: 14px;
+  }
+
+  .d4-back .usp {
+    font-family: 'Space Grotesk'; font-size: 7px;
+    color: rgba(255,255,255,0.4);
+    text-transform: uppercase; letter-spacing: 1px;
+    padding: 4px 8px;
+    border: 1px solid rgba(74,222,128,0.15);
+    border-radius: 4px;
+  }
+
+  .d4-back .qr-box {
+    width: 96px; height: 96px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 6px;
+  }
+
+  .d4-back .qr-box img { width: 100%; height: 100%; border-radius: 6px; display: block; }
+  .d4-back .qr-txt { font-family: 'Space Grotesk'; font-size: 7px; color: rgba(255,255,255,0.3); letter-spacing: 2px; text-transform: uppercase; text-align: center; margin-top: 6px; }
+
+
+  /* ══════════════════════════════════════════════════════════════
+     DESIGN 5 — "GOLDEN HOUR" — Warm amber/gold premium
+     ══════════════════════════════════════════════════════════════ */
+  .d5-label { color: #fbbf24; background: rgba(251,191,36,0.08); border: 1px solid rgba(251,191,36,0.15); }
+
+  .d5-front {
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+  }
+
+  .d5-front .photo-full {
+    position: absolute;
+    inset: 0;
+    background: url('bay-night.webp') center 40%/cover;
+  }
+
+  .d5-front .overlay {
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(180deg,
+        rgba(20,10,0,0.75) 0%,
+        rgba(20,10,0,0.25) 35%,
+        rgba(20,10,0,0.55) 70%,
+        rgba(20,10,0,0.9) 100%);
+  }
+
+  .d5-front .gold-line {
+    position: absolute;
+    bottom: 60px; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(251,191,36,0.4), transparent);
+    z-index: 2;
+  }
+
+  .d5-front .content {
+    position: relative;
+    z-index: 3;
+    padding: 24px 28px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .d5-front .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .d5-front .brand { display: flex; align-items: center; gap: 12px; }
+
+  .d5-front .logo {
+    width: 42px; height: 42px;
+    background: rgba(251,191,36,0.15);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(251,191,36,0.2);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+  }
+
+  .d5-front .logo svg { width: 22px; height: 22px; fill: #fbbf24; }
+
+  .d5-front h1 { font-size: 19px; font-weight: 800; letter-spacing: -0.4px; }
+  .d5-front .tag { font-family: 'Space Grotesk'; font-size: 8px; color: #fbbf24; letter-spacing: 2.5px; text-transform: uppercase; margin-top: 3px; font-weight: 500; }
+
+  .d5-front .geo {
+    font-family: 'Space Grotesk'; font-size: 8px;
+    color: rgba(255,255,255,0.35);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid rgba(251,191,36,0.15);
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-top: 4px;
+  }
+
+  .d5-front .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .d5-front .contacts { display: flex; flex-direction: column; gap: 5px; }
+
+  .d5-front .cl {
+    display: flex; align-items: center; gap: 8px;
+    font-family: 'Space Grotesk'; font-size: 9px; color: rgba(255,255,255,0.5);
+  }
+
+  .d5-front .cl svg { width: 11px; height: 11px; fill: #fbbf24; }
+
+  .d5-front .url {
+    font-family: 'Space Grotesk'; font-size: 12px; font-weight: 700;
+    color: #fbbf24;
+    letter-spacing: 0.5px;
+  }
+
+  /* D5 Back */
+  .d5-back {
+    background: #1a1008;
+    color: #fff;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .d5-back .photos {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .d5-back .ph {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .d5-back .ph:nth-child(1) { background-image: url('bay-day.webp'); }
+  .d5-back .ph:nth-child(2) { background-image: url('old-town.webp'); }
+  .d5-back .ph:nth-child(3) { background-image: url('road.webp'); }
+
+  .d5-back .main {
+    flex: 1;
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-left: 2px solid rgba(251,191,36,0.15);
+  }
+
+  .d5-back .b-name {
+    font-size: 15px; font-weight: 800; color: #fff;
+    letter-spacing: -0.3px;
+  }
+
+  .d5-back .b-tag {
+    font-family: 'Space Grotesk'; font-size: 7.5px;
+    color: #fbbf24; letter-spacing: 2px;
+    text-transform: uppercase; margin-top: 2px; font-weight: 500;
+  }
+
+  .d5-back .gold-div { width: 24px; height: 1px; background: rgba(251,191,36,0.3); margin: 12px 0; }
+
+  .d5-back .usps { display: flex; flex-direction: column; gap: 6px; }
+
+  .d5-back .usp {
+    font-family: 'Space Grotesk'; font-size: 8px; color: rgba(255,255,255,0.45);
+    display: flex; align-items: center; gap: 6px;
+  }
+
+  .d5-back .usp::before {
+    content: ''; width: 4px; height: 4px;
+    border-radius: 1px; background: #fbbf24;
+    transform: rotate(45deg);
+  }
+
+  .d5-back .qr-section {
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border-left: 1px solid rgba(251,191,36,0.08);
+    padding: 0 12px;
+  }
+
+  .d5-back .qr-box {
+    width: 82px; height: 82px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 6px;
+  }
+
+  .d5-back .qr-box img { width: 100%; height: 100%; border-radius: 5px; display: block; }
+  .d5-back .qr-txt { font-family: 'Space Grotesk'; font-size: 6.5px; color: rgba(255,255,255,0.3); letter-spacing: 2px; text-transform: uppercase; }
+
+
+  @media print {
+    body { background: #fff; padding: 10mm; gap: 20mm; }
+    .design-label, .side-label { display: none; }
+    .card { box-shadow: none; border: 0.5px solid #ddd; page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══ DESIGN 1: ADRIATIC BLUE ═══ -->
+<div class="design-section">
+  <div class="design-label d1-label"><div class="num">1</div> Adriatic Blue</div>
+  <div class="card-pair">
+    <div class="side-label">Front</div>
+    <div class="card d1-front">
+      <div class="photo"></div>
+      <div class="photo-mask"></div>
+      <div class="diagonal"></div>
+      <div class="accent-stripe"></div>
+      <div class="content">
+        <div class="brand">
+          <div class="logo"><svg viewBox="0 0 24 24"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.85 7h10.29l1.08 3.11H5.77L6.85 7zM19 17H5v-5h14v5z"/><circle cx="7.5" cy="14.5" r="1.5"/><circle cx="16.5" cy="14.5" r="1.5"/></svg></div>
+          <div><h1>Kotor Car Hire</h1><div class="tag">Drive the Bay of Kotor</div></div>
+        </div>
+        <div class="contacts">
+          <div class="cl"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>info@kotorcarhire.com</div>
+          <div class="cl"><svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>WhatsApp: +382 69 000 000</div>
+          <div class="cl"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/></svg>Kotor, Montenegro</div>
+        </div>
+      </div>
+      <div class="url-badge">kotorcarhire.com</div>
+    </div>
+    <div class="side-label">Back</div>
+    <div class="card d1-back">
+      <div class="left-panel">
+        <div class="diag-bg"></div>
+        <div class="b-brand"><div class="b-logo"><svg viewBox="0 0 24 24"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.85 7h10.29l1.08 3.11H5.77L6.85 7zM19 17H5v-5h14v5z"/><circle cx="7.5" cy="14.5" r="1.5"/><circle cx="16.5" cy="14.5" r="1.5"/></svg></div><div><div class="b-name">Kotor Car Hire</div><div class="b-tag">Drive the Bay of Kotor</div></div></div>
+        <div class="usps">
+          <div class="usp"><div class="usp-d"></div>Full Insurance Included</div>
+          <div class="usp"><div class="usp-d"></div>No Hidden Fees</div>
+          <div class="usp"><div class="usp-d"></div>Free Cancellation</div>
+          <div class="usp"><div class="usp-d"></div>Cross-Border Ready</div>
+        </div>
+      </div>
+      <div class="qr-panel">
+        <div class="qr-box"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://kotorcarhire.com&color=041a2e&bgcolor=ffffff&margin=1" alt="QR"></div>
+        <div class="qr-txt">Scan to Book</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ DESIGN 2: SUNSET RED ═══ -->
+<div class="design-section">
+  <div class="design-label d2-label"><div class="num">2</div> Sunset Red</div>
+  <div class="card-pair">
+    <div class="side-label">Front</div>
+    <div class="card d2-front">
+      <div class="red-block"></div>
+      <div class="photo"></div>
+      <div class="photo-overlay"></div>
+      <div class="content">
+        <div>
+          <h1>KOTOR<br><span>CAR HIRE</span></h1>
+          <div class="sub">Drive the Bay of Kotor &middot; Montenegro</div>
+        </div>
+        <div class="bottom-bar">
+          <div class="cl"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>info@kotorcarhire.com</div>
+          <div class="cl"><svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>+382 69 000 000</div>
+          <div class="url">KOTORCARHIRE.COM</div>
+        </div>
+      </div>
+    </div>
+    <div class="side-label">Back</div>
+    <div class="card d2-back">
+      <div class="red-accent"></div>
+      <div class="content">
+        <div class="left">
+          <h2>KOTOR<br><span>CAR HIRE</span></h2>
+          <div class="sub2">Montenegro</div>
+          <div class="usps">
+            <div class="usp"><div class="usp-icon"><svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg></div><span>Insurance</span></div>
+            <div class="usp"><div class="usp-icon"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg></div><span>No Fees</span></div>
+            <div class="usp"><div class="usp-icon"><svg viewBox="0 0 24 24"><path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z"/></svg></div><span>Cancel Free</span></div>
+          </div>
+        </div>
+        <div class="qr-side">
+          <div class="qr-box"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://kotorcarhire.com&color=dc2626&bgcolor=ffffff&margin=1" alt="QR"></div>
+          <div class="qr-txt">Scan to Book</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ DESIGN 3: OCEAN WAVE ═══ -->
+<div class="design-section">
+  <div class="design-label d3-label"><div class="num">3</div> Ocean Wave</div>
+  <div class="card-pair">
+    <div class="side-label">Front</div>
+    <div class="card d3-front">
+      <div class="wave1"></div>
+      <div class="wave2"></div>
+      <div class="wave3"></div>
+      <div class="photo-circle"></div>
+      <div class="content">
+        <div class="brand-row"><div class="logo"><svg viewBox="0 0 24 24"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.85 7h10.29l1.08 3.11H5.77L6.85 7zM19 17H5v-5h14v5z"/><circle cx="7.5" cy="14.5" r="1.5"/><circle cx="16.5" cy="14.5" r="1.5"/></svg></div><div><h1>Kotor Car Hire</h1><div class="tag">Drive the Bay of Kotor</div></div></div>
+        <div class="contacts">
+          <div class="cl"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>info@kotorcarhire.com</div>
+          <div class="cl"><svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>WhatsApp: +382 69 000 000</div>
+          <div class="cl"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/></svg>kotorcarhire.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="side-label">Back</div>
+    <div class="card d3-back">
+      <div class="wave-top"></div>
+      <div class="content">
+        <div class="b-logo"><svg viewBox="0 0 24 24"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.85 7h10.29l1.08 3.11H5.77L6.85 7zM19 17H5v-5h14v5z"/><circle cx="7.5" cy="14.5" r="1.5"/><circle cx="16.5" cy="14.5" r="1.5"/></svg></div>
+        <div class="b-name">Kotor Car Hire</div>
+        <div class="b-url">kotorcarhire.com</div>
+        <div class="divider"></div>
+        <div class="usps-row">
+          <div class="usp">Full Insurance</div>
+          <div class="usp">No Hidden Fees</div>
+          <div class="usp">Free Cancellation</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ DESIGN 4: NEON DRIVE ═══ -->
+<div class="design-section">
+  <div class="design-label d4-label"><div class="num">4</div> Neon Drive</div>
+  <div class="card-pair">
+    <div class="side-label">Front</div>
+    <div class="card d4-front">
+      <div class="stripe1"></div>
+      <div class="stripe2"></div>
+      <div class="photo"></div>
+      <div class="photo-overlay"></div>
+      <div class="content">
+        <div>
+          <h1>KOTOR<br><span>CAR HIRE</span></h1>
+          <div class="sub">Montenegro &middot; Bay of Kotor</div>
+        </div>
+        <div class="contacts">
+          <div class="cl"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>info@kotorcarhire.com</div>
+          <div class="cl"><svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>+382 69 000 000</div>
+        </div>
+      </div>
+      <div class="url-pill">kotorcarhire.com</div>
+    </div>
+    <div class="side-label">Back</div>
+    <div class="card d4-back">
+      <div class="stripe"></div>
+      <div class="content">
+        <div class="left">
+          <div class="b-name">KOTOR <span>CAR HIRE</span></div>
+          <div class="usps">
+            <div class="usp">Insurance</div>
+            <div class="usp">No Fees</div>
+            <div class="usp">Cancel Free</div>
+          </div>
+        </div>
+        <div>
+          <div class="qr-box"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://kotorcarhire.com&color=22c55e&bgcolor=ffffff&margin=1" alt="QR"></div>
+          <div class="qr-txt">Scan to Book</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ DESIGN 5: GOLDEN HOUR ═══ -->
+<div class="design-section">
+  <div class="design-label d5-label"><div class="num">5</div> Golden Hour</div>
+  <div class="card-pair">
+    <div class="side-label">Front</div>
+    <div class="card d5-front">
+      <div class="photo-full"></div>
+      <div class="overlay"></div>
+      <div class="gold-line"></div>
+      <div class="content">
+        <div class="top-row">
+          <div class="brand">
+            <div class="logo"><svg viewBox="0 0 24 24"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.85 7h10.29l1.08 3.11H5.77L6.85 7zM19 17H5v-5h14v5z"/><circle cx="7.5" cy="14.5" r="1.5"/><circle cx="16.5" cy="14.5" r="1.5"/></svg></div>
+            <div><h1>Kotor Car Hire</h1><div class="tag">Drive the Bay of Kotor</div></div>
+          </div>
+          <div class="geo">Montenegro</div>
+        </div>
+        <div class="bottom">
+          <div class="contacts">
+            <div class="cl"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>info@kotorcarhire.com</div>
+            <div class="cl"><svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>WhatsApp: +382 69 000 000</div>
+            <div class="cl"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/></svg>Kotor, Montenegro</div>
+          </div>
+          <div class="url">kotorcarhire.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="side-label">Back</div>
+    <div class="card d5-back">
+      <div class="photos"><div class="ph"></div><div class="ph"></div><div class="ph"></div></div>
+      <div class="main">
+        <div class="b-name">Kotor Car Hire</div>
+        <div class="b-tag">Drive the Bay of Kotor</div>
+        <div class="gold-div"></div>
+        <div class="usps">
+          <div class="usp">Full Insurance Included</div>
+          <div class="usp">No Hidden Fees</div>
+          <div class="usp">Free Cancellation</div>
+          <div class="usp">Cross-Border Ready</div>
+        </div>
+      </div>
+      <div class="qr-section">
+        <div class="qr-box"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://kotorcarhire.com&color=1a1008&bgcolor=ffffff&margin=1" alt="QR"></div>
+        <div class="qr-txt">Scan to Book</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

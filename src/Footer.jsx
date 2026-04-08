@@ -66,6 +66,7 @@ export default function Footer() {
         </FooterColumn>
 
         <FooterColumn title={t('footer.guides')}>
+          <a href={localePath('/blog')} className="footer__link"><ChevronRight size={12} /> {t('nav.blog') || 'Blog'}</a>
           <a href={localePath('/montenegro')} className="footer__link"><ChevronRight size={12} /> {t('footer.montenegroGuide')}</a>
           <a href={localePath('/border-crossing-guide')} className="footer__link"><ChevronRight size={12} /> {t('footer.borderGuide')}</a>
           <a href={localePath('/#destinations')} className="footer__link"><ChevronRight size={12} /> {t('footer.destinations')}</a>
