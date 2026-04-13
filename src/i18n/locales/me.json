@@ -199,7 +199,7 @@
   "featureCards": {
     "airportPickup": {
       "title": "Preuzimanje na aerodromu Tivat",
-      "desc": "Dočekujemo vas na dolasku u Tivatu, svega 8 km od zidina Starog grada. Putem uz zaliv do Kotora stižete za 15 minuta \u2014 bez prevoza, bez čekanja."
+      "desc": "Dočekujemo vas na dolasku u Tivatu, svega 8 km od zidina Starog grada. Putem uz zaliv do Kotora stižete za 15 minuta — bez prevoza, bez čekanja."
     },
     "fullInsurance": {
       "title": "Potpuno osiguranje",
@@ -207,11 +207,11 @@
     },
     "support": {
       "title": "Podrška 24/7",
-      "desc": "Zaglavili ste iza kruzerskog autobusa na putu uz zaliv? Niste sigurni oko parkinga Tabacina? Pozovite nas u bilo kom trenutku \u2014 poznajemo svaki metar ovih puteva."
+      "desc": "Zaglavili ste iza kruzerskog autobusa na putu uz zaliv? Niste sigurni oko parkinga Tabacina? Pozovite nas u bilo kom trenutku — poznajemo svaki metar ovih puteva."
     },
     "noHiddenFees": {
       "title": "Bez skrivenih troškova",
-      "desc": "Jedna transparentna cijena pokriva osiguranje, PDV i kilometražu. Ono što vidite pri rezervaciji tačno je ono što plaćate pri preuzimanju \u2014 ništa se ne dodaje na šalteru."
+      "desc": "Jedna transparentna cijena pokriva osiguranje, PDV i kilometražu. Ono što vidite pri rezervaciji tačno je ono što plaćate pri preuzimanju — ništa se ne dodaje na šalteru."
     },
     "freeCancellation": {
       "title": "Besplatno otkazivanje",
@@ -219,7 +219,7 @@
     },
     "crossBorder": {
       "title": "Prelazak granice",
-      "desc": "Dubrovnik je 2 sata vožnje preko graničnog prelaza Debeli Brijeg \u2014 Zelena karta spremna pri preuzimanju. Bosna i Albanija također dozvoljene uz prethodnu najavu."
+      "desc": "Dubrovnik je 2 sata vožnje preko graničnog prelaza Debeli Brijeg — Zelena karta spremna pri preuzimanju. Bosna i Albanija također dozvoljene uz prethodnu najavu."
     }
   },
   "testimonials": {
@@ -227,10 +227,10 @@
       "text": "Put uz zaliv između Kotora i Perasta jedno je od najljepših vožnji koje smo ikada doživjeli. Zaustavljali smo se na svakom proširenju i uzeli čamac do Gospe od Škrpjela. Imati auto značilo je da smo sve radili po svom rasporedu. Lako preuzimanje u Tivatu i cijeli proces prošao je glatko od početka do kraja."
     },
     "1": {
-      "text": "Došao sam u Kotor posebno da se popnem na tvrđavu San Giovanni i odvezem do Lovćena. Auto je bio spreman na dolasku u Tivatu prije nego sam uopće našao izlaz. Serpentinska cesta do mauzoleja ne liči ni na šta što sam vozio u Sjevernoj Americi \u2014 strma, uska, spektakularna. Rezervisao bih ponovo bez oklijevanja."
+      "text": "Došao sam u Kotor posebno da se popnem na tvrđavu San Giovanni i odvezem do Lovćena. Auto je bio spreman na dolasku u Tivatu prije nego sam uopće našao izlaz. Serpentinska cesta do mauzoleja ne liči ni na šta što sam vozio u Sjevernoj Americi — strma, uska, spektakularna. Rezervisao bih ponovo bez oklijevanja."
     },
     "2": {
-      "text": "Naš kruzer pristao je u Kotoru i preuzeli smo auto odmah pored luke. Tri dana izleta \u2014 Budva, Perast i manastir Cetinje. Djeca su obožavala plovidbu do crkvice na otočiću u Perastu. Tim je brzo sredio dokumentaciju, a dječije sjedište bilo je već postavljeno kada smo stigli."
+      "text": "Naš kruzer pristao je u Kotoru i preuzeli smo auto odmah pored luke. Tri dana izleta — Budva, Perast i manastir Cetinje. Djeca su obožavala plovidbu do crkvice na otočiću u Perastu. Tim je brzo sredio dokumentaciju, a dječije sjedište bilo je već postavljeno kada smo stigli."
     }
   },
   "faqItems": {
@@ -240,15 +240,15 @@
     },
     "1": {
       "q": "Mogu li voziti do Hrvatske ili Albanije?",
-      "a": "Hrvatska je 2 sata vožnje preko graničnog prelaza Debeli Brijeg \u2014 Zelenu kartu pripremamo pri rezervaciji. Albanija zahtijeva zasebnu dokumentaciju za Zelenu kartu, pa nas obavijestite unaprijed. Bosna, Srbija i Kosovo su takođe dozvoljeni."
+      "a": "Hrvatska je 2 sata vožnje preko graničnog prelaza Debeli Brijeg — Zelenu kartu pripremamo pri rezervaciji. Albanija zahtijeva zasebnu dokumentaciju za Zelenu kartu, pa nas obavijestite unaprijed. Bosna, Srbija i Kosovo su takođe dozvoljeni."
     },
     "2": {
       "q": "Postoji li minimalna starosna granica?",
-      "a": "Vozači moraju imati najmanje 21 godinu i minimum 2 godine iskustva. Za vozače mlađe od 25 godina primjenjuje se doplata za mlade vozače \u2014 tačan iznos zavisi od vozila i prikazan je u rezultatima pretrage."
+      "a": "Vozači moraju imati najmanje 21 godinu i minimum 2 godine iskustva. Za vozače mlađe od 25 godina primjenjuje se doplata za mlade vozače — tačan iznos zavisi od vozila i prikazan je u rezultatima pretrage."
     },
     "3": {
       "q": "Šta je uključeno u cijenu?",
-      "a": "Osiguranje od odgovornosti prema trećim licima i CDW zaštita uključeni su u osnovnu cijenu svih vozila, zajedno sa PDV-om i obaveznim sigurnosnim kompletom. Neograničena kilometraža dostupna je na većini automobila \u2014 provjerite karticu vozila prije rezervacije."
+      "a": "Osiguranje od odgovornosti prema trećim licima i CDW zaštita uključeni su u osnovnu cijenu svih vozila, zajedno sa PDV-om i obaveznim sigurnosnim kompletom. Neograničena kilometraža dostupna je na većini automobila — provjerite karticu vozila prije rezervacije."
     },
     "4": {
       "q": "Kako funkcioniše preuzimanje na aerodromu Tivat?",
@@ -256,7 +256,7 @@
     },
     "5": {
       "q": "Mogu li vratiti vozilo na drugoj lokaciji?",
-      "a": "Jednosmjerno iznajmljivanje dostupno je u 28 mjesta za preuzimanje i vraćanje u Crnoj Gori. Izaberite različite lokacije u fazi rezervacije \u2014 naknada za jednosmjerni povratak može se primijeniti ovisno o udaljenosti."
+      "a": "Jednosmjerno iznajmljivanje dostupno je u 28 mjesta za preuzimanje i vraćanje u Crnoj Gori. Izaberite različite lokacije u fazi rezervacije — naknada za jednosmjerni povratak može se primijeniti ovisno o udaljenosti."
     },
     "6": {
       "q": "Koja je politika otkazivanja?",
@@ -264,7 +264,7 @@
     },
     "7": {
       "q": "Da li je potreban depozit?",
-      "a": "Većina vozila zahtijeva depozit od 100 do 350 € na fizičkoj kreditnoj kartici vozača. Neki ekonomični automobili dostupni su bez depozita \u2014 jasno su označeni u rezultatima pretrage. Blokada se oslobađa kada se vozilo vrati bez oštećenja."
+      "a": "Većina vozila zahtijeva depozit od 100 do 350 € na fizičkoj kreditnoj kartici vozača. Neki ekonomični automobili dostupni su bez depozita — jasno su označeni u rezultatima pretrage. Blokada se oslobađa kada se vozilo vrati bez oštećenja."
     },
     "8": {
       "q": "Šta se dešava ako prekoračim limit kilometraže?",
@@ -276,7 +276,7 @@
     },
     "10": {
       "q": "Koliko plaćam unaprijed?",
-      "a": "Avans od 15\u201320 % ukupne cijene najma potreban je za potvrdu rezervacije. Preostali iznos plaća se direktno agentu za iznajmljivanje pri preuzimanju automobila."
+      "a": "Avans od 15–20 % ukupne cijene najma potreban je za potvrdu rezervacije. Preostali iznos plaća se direktno agentu za iznajmljivanje pri preuzimanju automobila."
     },
     "11": {
       "q": "Mogu li iznajmiti bez kreditne kartice?",
@@ -356,7 +356,9 @@
     "dayTripsTitle": "Jednodnevni Izleti iz Kotora",
     "perastTrip": "Smještena u obližnjem Perastu, ova crkva se nalazi na vještačkom ostrvu u Bokokotorskom zalivu. Ribari tamo bacaju kamenje svake godine od 1452., postepeno proširujući ostrvo. Prevoz trajektom košta oko 1 Euro; privatni čamci koštaju oko 5 Eura. Vožnja iz Kotora traje manje od 30 minuta putem E65/E80 na sjever.",
     "cetinjeTrip": "Sagrađen 1701. godine, manastir čuva ruku Jovana Krstitelja. Odlikuje se bogatom dekoracijom i pravoslavnom umjetnošću. Vožnja iz Kotora traje približno jedan sat kroz slikovite planinske puteve.",
-    "royalCourtText": "Crnogorska kraljevska palata iz 1871. godine, u kojoj su izloženi umjetnički predmeti, artefakti i fotografije iz kraljevske istorije zemlje. Nalazi se pored manastira u nekadašnjoj kraljevskoj prijestonici."
+    "royalCourtText": "Crnogorska kraljevska palata iz 1871. godine, u kojoj su izloženi umjetnički predmeti, artefakti i fotografije iz kraljevske istorije zemlje. Nalazi se pored manastira u nekadašnjoj kraljevskoj prijestonici.",
+    "perastLinkText": "Vožnja do Perasta",
+    "perastLinkAfter": " — 15 minuta duž zaliva, sa izletima brodom do Gospe od Škrpjela."
   },
   "budvaBody": {
     "h1": "Budva -- Srce Crnogorske Rivijere",
@@ -375,7 +377,9 @@
     "kotorTrip": "Vožnja od 30 minuta na sjever kroz dramatičan planinski tunel dovodi vas do Bokokotorskog zaliva i njegovog Starog grada pod zaštitom UNESCO-a.",
     "lovcenTrip": "Uputite se u unutrašnjost ka planinskim pejzažima i Njegoševom mauzoleju, smještenom na 1.657 metara nadmorske visine, sa pogledom na četiri zemlje po vedrom danu. Vijugavi put od obale je doživljaj sam po sebi.",
     "gettingAroundTitle": "Kretanje",
-    "gettingAroundText": "Dok je Budvanski Stari Grad najbolje istraživati pješice, iznajmljeni automobil je neophodan za dolazak do najljepših plaža, obližnjih sela i atrakcija u unutrašnjosti. Parking je dostupan u blizini zidina Starog grada i na nekoliko javnih parkirališta duž glavnog puta. U vrhu ljeta, rani dolazak osigurava najbolja mjesta."
+    "gettingAroundText": "Dok je Budvanski Stari Grad najbolje istraživati pješice, iznajmljeni automobil je neophodan za dolazak do najljepših plaža, obližnjih sela i atrakcija u unutrašnjosti. Parking je dostupan u blizini zidina Starog grada i na nekoliko javnih parkirališta duž glavnog puta. U vrhu ljeta, rani dolazak osigurava najbolja mjesta.",
+    "tivatLinkText": "Preuzmite auto na Aerodromu Tivat",
+    "tivatLinkAfter": " i stigните do Budve za 30 minuta."
   },
   "perastBody": {
     "h1": "Perast -- Skriveni Dragulj na Zalivu",
@@ -499,7 +503,10 @@
     "borderTitle": "Granični Prelazi",
     "borderText": "Prekogranično putovanje je jednostavno sa ispravnom dokumentacijom. Kontrolni punktovi mogu doživjeti veliku gužvu tokom sezone, sa kilometarskim kolonama automobila uobičajenim na popularnim prelazima. Optimalna vremena za prelazak su radnim danima ujutru ili kasno uveče.",
     "nationTitle": "Mlada Nacija",
-    "nationText": "Crna Gora je stekla nezavisnost u junu 2006. godine, čineći je jednom od najmlađih nacija na svijetu. Razvoj turizma nastavlja da raste, nudeći egzotičniju i nešto grublju avanturu u poređenju sa susjednim zemljama. Pejzaž kombinuje zelene planine kroz koje se probijaju fjordovi puni duboke plave jadranske vode, raznolikost plaža i misterije drevnih starih gradova."
+    "nationText": "Crna Gora je stekla nezavisnost u junu 2006. godine, čineći je jednom od najmlađih nacija na svijetu. Razvoj turizma nastavlja da raste, nudeći egzotičniju i nešto grublju avanturu u poređenju sa susjednim zemljama. Pejzaž kombinuje zelene planine kroz koje se probijaju fjordovi puni duboke plave jadranske vode, raznolikost plaža i misterije drevnih starih gradova.",
+    "startLinkBefore": "Počnite sa ",
+    "startLinkText": "iznajmljivanjem auta na Aerodromu Tivat",
+    "startLinkAfter": " — najbližem aerodromu Boki Kotorskoj."
   },
   "borderCrossingBody": {
     "h1": "Mogu Li Odvesti Iznajmljeni Auto Preko Granice?",
@@ -549,7 +556,10 @@
     "route2": "Kotor → Mostar (Bosna): 3-4 sata preko Trebinja. Posjetite čuveni most",
     "route3": "Budva → Skadar (Albanija): 2,5 sata preko obalnog prelaza kod Ulcinja",
     "route4": "Podgorica → Beograd (Srbija): 5-6 sati putem E65 na sjever",
-    "ctaText": "Trebate automobil sa prekograničnom dokumentacijom? Pretražite našu flotu — samo odaberite odredišne zemlje pri rezervaciji i mi ćemo urediti Zelenu kartu."
+    "ctaText": "Trebate automobil sa prekograničnom dokumentacijom? Pretražite našu flotu — samo odaberite odredišne zemlje pri rezervaciji i mi ćemo urediti Zelenu kartu.",
+    "dubrovnikLinkBefore": "Iznajmljivanje na ",
+    "dubrovnikLinkText": "Aerodromu Dubrovnik",
+    "dubrovnikLinkAfter": " je najpopularnija prekogranična opcija."
   },
   "blogIndex": {
     "breadcrumbBlog": "Blog",
@@ -575,7 +585,6 @@
     "card_photo_title": "9 Fotografskih Lokacija oko Zaliva",
     "card_photo_excerpt": "Od vrha tvrđave do Veriga — kadrovi zbog kojih se fotografi vraćaju u Kotor iz godine u godinu."
   },
-
   "blogWalls": {
     "title": "Uspon na Kotorsku Tvrđavu",
     "subtitle": "1.350 stepenika od srednjovjekovnih kapija do tvrđave San Đovani — šta očekivati u svakoj fazi uspona.",
@@ -619,7 +628,6 @@
     "glanceEntry": "Ulaznica",
     "glanceEntryVal": "€8 (besplatno nov–mart)"
   },
-
   "blogBoat": {
     "title": "Iznajmljeni Auto i Vožnja Brodom po Zalivu",
     "subtitle": "Odvezite se putem uz zaliv do Perasta, uzmite taksi-čamac do Gospe od Škrpjela i otkrijte kutke Bokokotorskog zaliva do kojih turistički autobusi nikad ne stižu.",
@@ -658,7 +666,6 @@
     "glanceDuration": "Cio Dan",
     "glanceDurationVal": "5–7 sati sa Plavom Špiljom"
   },
-
   "blogLovcen": {
     "title": "Kotor do Lovćena: 25 Oštrih Krivina Iznad Zaliva",
     "subtitle": "Serpentinski put od morske razine do Njegoševog mauzoleja na 1.657 metara — jedna od najdramatičnijih planinskih vožnji u Evropi.",
@@ -699,7 +706,6 @@
     "glanceBestCar": "Preporučeni Automobil",
     "glanceBestCarVal": "Kompaktan sa obrtnim momentom (Octavia, Corolla)"
   },
-
   "blogCruise": {
     "title": "Izlet sa Kruzera iz Kotorske Luke Iznajmljenim Automobilom",
     "subtitle": "Vaš kruzer pristaje u Kotoru na 4–8 sati. Evo kako vidjeti Perast, put uz zaliv i Stari grad bez pridruživanja grupnoj turi.",
@@ -743,7 +749,6 @@
     "glanceTip": "Savjet",
     "glanceTipVal": "Rezervišite 3+ dana prije pristajanja"
   },
-
   "blogCats": {
     "title": "Mačke Kotora: Samostalni Obilazak",
     "subtitle": "Poznati kotorski mačji stanovnici imaju sopstveni muzej, posvećene prodavnice i omiljena mjesta za drijemanje. Prošetajte njihovom teritorijom kroz srednjovjekovne ulice Starog grada.",
@@ -774,7 +779,6 @@
     "combineP": "Poslije mačjeg obilaska, skinite pecivo uspоnom do tvrđave iznad. Pročitajte naš vodič za",
     "combineLink": "pješačenje po kotorskim gradskim zidinama"
   },
-
   "blogDining": {
     "title": "Gdje Jesti i Piti u Kotoru Poslije Mraka",
     "subtitle": "Starogradske konobe, morski plodovi na obali, vinarski barovi u Dobroti i kasnonoćna mjesta koja nastavljaju sa radom i nakon odlaska kruzera.",
@@ -806,7 +810,6 @@
     "tipParkLabel": "Parkiranje:",
     "tipParkVal": "Besplatno poslije 20h na parkingu Tabačina van Starog grada. Tokom dana koristite parking iza Vrmačkog tunela."
   },
-
   "blogWinter": {
     "title": "Posjet Kotoru van Sezone: Zimski Vodič",
     "subtitle": "Manje gužve, niže cijene i zaliv u najatmosferskijem izdanju. Zašto bi novembar do mart mogao biti najbolje vrijeme za posjet Kotoru.",
@@ -840,7 +843,6 @@
     "alsoP": "Ako vrijeme dopusti i put je otvoren, zimska vožnja do vrha Lovćena je izvanredna. Pročitajte naš vodič za",
     "alsoLink": "planinski put Kotor–Lovćen"
   },
-
   "blogRisan": {
     "title": "Rimski Mozaici Risna: Zaboravljena Stanica na Zalivu",
     "subtitle": "Dvadeset minuta vožnje od Kotora do jednog od najzanemarenijih arheoloških lokaliteta na Jadranu — mozaici na podu iz drugog vijeka u mirnom gradiću na zalivu.",
@@ -870,7 +872,6 @@
     "glancePeriod": "Period",
     "glancePeriodVal": "2. vijek n.e. (Rimski)"
   },
-
   "blogPhoto": {
     "title": "9 Najboljih Fotografskih Lokacija oko Bokokotorskog Zaliva",
     "subtitle": "Od vrha tvrđave do Veriških tjesnaca — kadrovi zbog kojih se fotografi vraćaju na ovaj zaliv iz godine u godinu.",
@@ -909,11 +910,116 @@
     "accessP": "Svih devet lokacija je dostupno automobilom sa parkingom unutar 200 metara. Cjelodnevna foto-tura počevši od izlaska sunca i završavajući na zalasku može pokriti sve sa vremenom za pauze za kafu. Ako dolazite kruzerom, naš vodič za",
     "accessLink": "samostalne izlete sa kruzera iz kotorske luke"
   },
-
   "blogHome": {
     "sectionLabel": "Vodiči za Putovanja",
     "sectionTitle": "Iz Našeg Bloga",
     "sectionSubtitle": "Rute za vožnju, skrivena zaustavljanja i lokalni savjeti za istraživanje Bokokotorskog zaliva automobilom.",
     "viewAll": "Pogledaj sve vodiče"
+  },
+  "contactPage": {
+    "title": "Kontaktirajte nas",
+    "intro": "Imate pitanje o iznajmljivanju automobila u Kotoru ili okolini Boke Kotorske? Javite nam se i pomoći ćemo vam da pronađete savršeno vozilo za vaše putovanje.",
+    "emailLabel": "Email",
+    "whatsappLabel": "WhatsApp",
+    "chatWithUs": "Pišite nam",
+    "sendUsMessage": "Pošaljite nam poruku",
+    "yourName": "Vaše ime",
+    "yourEmail": "Vaš email",
+    "howCanWeHelp": "Kako vam možemo pomoći?",
+    "sendMessage": "Pošalji poruku"
+  },
+  "privacyBody": {
+    "lastUpdated": "Poslednje ažuriranje:",
+    "lastUpdatedDate": "April 2026",
+    "whoWeAreTitle": "Ko smo mi",
+    "whoWeAreText": "Kotor Car Hire djeluje kao afilijatni partner koji povezuje putnike sa pružaocima usluga iznajmljivanja automobila u Kotoru i okolini, Crna Gora. Naš sajt je kotorcarhire.com.",
+    "whatWeCollectTitle": "Koje informacije prikupljamo",
+    "infoYouProvideTitle": "Informacije koje vi pružate",
+    "infoYouProvideText": "Kada koristite našu formu za pretragu, prikupljamo lokaciju, datume i vremena za pronalaženje dostupnih vozila. Ove informacije se prosljeđuju našem partneru (LocalRent). Ne prikupljamo podatke o plaćanju — sva plaćanja obrađuje direktno pružalac usluge.",
+    "autoCollectedTitle": "Automatski prikupljene informacije",
+    "autoCollected1": "Podaci o korišćenju: posjećene stranice, vrijeme na sajtu, referentni sajt",
+    "autoCollected2": "Informacije o uređaju: tip pretraživača, operativni sistem, rezolucija ekrana",
+    "autoCollected3": "IP adresa: za približnu lokaciju i sigurnost",
+    "howWeUseTitle": "Kako koristimo vaše informacije",
+    "howWeUse1": "Za povezivanje sa dostupnošću i cijenama automobila",
+    "howWeUse2": "Za poboljšanje sajta i korisničkog iskustva",
+    "howWeUse3": "Za razumijevanje ponašanja posjetilaca (analitika)",
+    "howWeUse4": "Za odgovaranje na upite putem WhatsApp-a, Vibera ili emaila",
+    "thirdPartyTitle": "Usluge trećih strana",
+    "thirdPartyIntro": "Naš sajt koristi sljedeće usluge trećih strana:",
+    "thirdParty1": "LocalRent: vidžet za rezervacije — obrađuje pretrage i upravlja rezervacijama i plaćanjima",
+    "thirdParty2": "Vercel: hosting sajta",
+    "thirdParty3": "Pexels: stock fotografije",
+    "thirdPartyNote": "Svaka od ovih usluga ima vlastitu politiku privatnosti.",
+    "cookiesTitle": "Kolačići",
+    "cookiesText": "Koristimo samo minimalne kolačiće neophodne za rad sajta. LocalRent vidžet može postaviti sopstvene kolačiće. Pogledajte našu",
+    "cookiesLink": "Politiku kolačića",
+    "cookiesAfter": "za detalje.",
+    "yourRightsTitle": "Vaša prava",
+    "yourRightsIntro": "Imate pravo da:",
+    "right1": "Zatražite pristup ličnim podacima koje posjedujemo",
+    "right2": "Zatražite ispravku ili brisanje podataka",
+    "right3": "Povučete saglasnost za obradu podataka",
+    "right4": "Podnesete žalbu organu za zaštitu podataka",
+    "contactTitle": "Kontakt",
+    "contactText": "Za pitanja o privatnosti, kontaktirajte nas putem emaila na info@kotorcarhire.com."
+  },
+  "termsBody": {
+    "lastUpdated": "Poslednje ažuriranje:",
+    "lastUpdatedDate": "April 2026",
+    "aboutTitle": "O ovom sajtu",
+    "aboutText": "Kotor Car Hire (kotorcarhire.com) je afilijatni sajt koji povezuje putnike sa uslugama iznajmljivanja automobila u Kotoru, Crna Gora. Nismo kompanija za iznajmljivanje — sarađujemo sa LocalRent-om.",
+    "bookingTitle": "Uslovi rezervacije i iznajmljivanja",
+    "bookingText1": "Sve rezervacije obrađuje naš partner LocalRent. Zaključujete ugovor direktno sa dobavljačem vozila, ne sa Kotor Car Hire.",
+    "bookingText2": "Uslovi iznajmljivanja, uključujući politiku otkazivanja, osiguranje, starosne uslove i uslove plaćanja, određuje dobavljač. Preporučujemo da ih pažljivo pročitate.",
+    "roleTitle": "Naša uloga",
+    "roleProvide": "Nudimo:",
+    "provide1": "Interfejs za pretragu dostupnih vozila",
+    "provide2": "Informacije o destinacijama i putovanjima u Kotoru i Boki Kotorskoj",
+    "provide3": "Podršku korisnicima za pitanja prije rezervacije",
+    "roleDoNot": "Ne:",
+    "doNot1": "Posjedujemo, upravljamo ili održavamo vozila",
+    "doNot2": "Obrađujemo plaćanja ili povrate",
+    "doNot3": "Određujemo cijene, uslove osiguranja ili politiku otkazivanja",
+    "pricingTitle": "Cijene",
+    "pricingText": "Cijene su u realnom vremenu od našeg partnera i mogu se mijenjati. Konačna cijena se potvrđuje pri rezervaciji. Sve cijene uključuju PDV i obavezno osiguranje.",
+    "contentTitle": "Sadržaj sajta",
+    "contentText": "Trudimo se da informacije budu tačne i ažurne. Međutim, putne informacije i propisi se mogu mijenjati. Preporučujemo provjeru važnih detalja iz zvaničnih izvora.",
+    "liabilityTitle": "Ograničenje odgovornosti",
+    "liabilityIntro": "Kotor Car Hire kao posrednik nije odgovoran za:",
+    "liability1": "Stanje ili dostupnost vozila",
+    "liability2": "Radnje ili propuste dobavljača",
+    "liability3": "Gubitke zbog graničnih problema ili dokumentacije",
+    "liability4": "Promjene cijena nakon potvrde rezervacije",
+    "ipTitle": "Intelektualna svojina",
+    "ipText": "Sav sadržaj sajta je vlasništvo Kotor Car Hire. Stock fotografije se koriste pod licencom Pexels-a.",
+    "contactTitle": "Kontakt",
+    "contactText": "Pitanja o ovim uslovima? Kontaktirajte nas na info@kotorcarhire.com."
+  },
+  "cookieBody": {
+    "lastUpdated": "Poslednje ažuriranje:",
+    "lastUpdatedDate": "April 2026",
+    "whatAreCookiesTitle": "Šta su kolačići?",
+    "whatAreCookiesText": "Kolačići su mali tekstualni fajlovi koji se čuvaju na vašem uređaju kada posjetite sajt. Pomažu sajtu da zapamti vaše postavke.",
+    "cookiesWeUseTitle": "Kolačići koje koristimo",
+    "essentialTitle": "Neophodni kolačići",
+    "essentialText": "Neophodni su za rad sajta i ne mogu se isključiti.",
+    "essential1": "Sesijski kolačići: održavaju vašu sesiju pri navigaciji",
+    "essential2": "Kolačići preferencija: pamte vaš jezik i izbor lokacije",
+    "thirdPartyTitle": "Kolačići trećih strana",
+    "thirdPartyText": "Naš vidžet za rezervacije (LocalRent) može postaviti kolačiće za:",
+    "thirdParty1": "Pamćenje parametara pretrage (datumi, lokacija)",
+    "thirdParty2": "Održavanje sesije tokom rezervacije",
+    "thirdParty3": "Praćenje afilijatnih referala",
+    "thirdPartyNote": "Ove kolačiće postavlja LocalRent prema svojoj politici privatnosti.",
+    "managingTitle": "Upravljanje kolačićima",
+    "managingText": "Možete kontrolisati kolačiće putem postavki pretraživača. Većina pretraživača omogućava:",
+    "manage1": "Pregledanje sačuvanih kolačića",
+    "manage2": "Brisanje pojedinih ili svih kolačića",
+    "manage3": "Blokiranje kolačića sa određenih sajtova",
+    "manage4": "Blokiranje svih kolačića trećih strana",
+    "managingNote": "Blokiranje neophodnih kolačića može uticati na rad vidžeta za rezervacije.",
+    "contactTitle": "Kontakt",
+    "contactText": "Pitanja o kolačićima? Kontaktirajte nas na info@kotorcarhire.com."
   }
 }

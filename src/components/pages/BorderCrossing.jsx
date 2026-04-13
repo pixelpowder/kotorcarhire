@@ -18,7 +18,7 @@ export default function BorderCrossing() {
       <h3>{t('borderCrossingBody.croatiaTitle')}</h3>
       <p>{t('borderCrossingBody.croatiaText')}</p>
       <p>{t('borderCrossingBody.croatiaTip')}</p>
-      <p>{t('borderCrossingBody.croatiaFerry')} Hiring from <a href={localePath('/dubrovnik-airport')}>Dubrovnik Airport</a> is the most popular cross-border option.</p>
+      <p>{t('borderCrossingBody.croatiaFerry')} {t('borderCrossingBody.dubrovnikLinkBefore')}<a href={localePath('/dubrovnik-airport')}>{t('borderCrossingBody.dubrovnikLinkText')}</a>{t('borderCrossingBody.dubrovnikLinkAfter')}</p>
       <h3>{t('borderCrossingBody.albaniaTitle')}</h3>
       <p>{t('borderCrossingBody.albaniaText')}</p>
       <p>{t('borderCrossingBody.albaniaNote')}</p>

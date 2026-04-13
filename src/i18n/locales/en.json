@@ -23,7 +23,7 @@
     },
     "search": "Search",
     "pickupLocation": "Pick-up location",
-    "searchLocation": "Search location\u2026",
+    "searchLocation": "Search location…",
     "pickupDate": "Pick-up date",
     "pickupTime": "Time",
     "dropoffDate": "Drop-off date",
@@ -58,7 +58,7 @@
   "fleet": {
     "label": "Our Fleet",
     "title": "Choose Your Ride",
-    "subtitle": "Browse real-time availability and prices \u2014 book directly."
+    "subtitle": "Browse real-time availability and prices — book directly."
   },
   "brands": {
     "label": "Trusted brands in our fleet"
@@ -66,7 +66,7 @@
   "destinations": {
     "label": "Top Destinations",
     "title": "Explore from Kotor",
-    "subtitle": "From the UNESCO Old Town to Perast, Budva, and the mountains \u2014 everything is within easy reach."
+    "subtitle": "From the UNESCO Old Town to Perast, Budva, and the mountains — everything is within easy reach."
   },
   "features": {
     "label": "Why Choose Us",
@@ -120,21 +120,21 @@
   "notFound": {
     "code": "404",
     "title": "Wrong Turn",
-    "text": "Looks like you've taken a detour. This road doesn't lead anywhere \u2014 but the Bay of Kotor's best routes are just a click away.",
+    "text": "Looks like you've taken a detour. This road doesn't lead anywhere — but the Bay of Kotor's best routes are just a click away.",
     "backHome": "Back to Home",
     "searchCars": "Search Cars"
   },
   "home": {
-    "seoDesc": "Collect at Tivat Airport, 8 km from Kotor's 1166 AD cathedral. Drive the bay road to Perast, climb 1,355 steps to San Giovanni, and explore the UNESCO fjord. From \u20ac13/day, full insurance included."
+    "seoDesc": "Collect at Tivat Airport, 8 km from Kotor's 1166 AD cathedral. Drive the bay road to Perast, climb 1,355 steps to San Giovanni, and explore the UNESCO fjord. From €13/day, full insurance included."
   },
   "about": {
     "title": "About Us",
     "subtitle": "Born beside the fortress walls, built on 15 years of bay-road knowledge.",
     "seoDesc": "A Kotor family business since 2007. We grew up in the shadow of San Giovanni, know every hairpin on the Lovcen serpentine, and greet every flight at Tivat arrivals.",
     "heading1": "Kotor Car Hire",
-    "p1": "Since 2007, Kotor Car Hire has been connecting travellers with reliable, affordable rental cars in the Bay of Kotor. What started as a simple idea \u2014 making it easier for visitors to explore this UNESCO-listed corner of the Adriatic \u2014 has grown into one of the region's most trusted car rental services.",
+    "p1": "Since 2007, Kotor Car Hire has been connecting travellers with reliable, affordable rental cars in the Bay of Kotor. What started as a simple idea — making it easier for visitors to explore this UNESCO-listed corner of the Adriatic — has grown into one of the region's most trusted car rental services.",
     "heading2": "Why We Started",
-    "p2": "The Bay of Kotor is best experienced at your own pace. The winding bay road, hidden mountain villages, and medieval towns are difficult to reach by public transport. We saw an opportunity to give travellers the freedom to discover Kotor and its surroundings on their own terms \u2014 no tour bus schedules, no missed viewpoints, no compromises.",
+    "p2": "The Bay of Kotor is best experienced at your own pace. The winding bay road, hidden mountain villages, and medieval towns are difficult to reach by public transport. We saw an opportunity to give travellers the freedom to discover Kotor and its surroundings on their own terms — no tour bus schedules, no missed viewpoints, no compromises.",
     "heading3": "What We Offer",
     "p3a": "We provide car rental services throughout",
     "p3Link1": "the Bay of Kotor",
@@ -145,13 +145,13 @@
     "p3d": ", and locations across the coast and interior.",
     "promiseTitle": "Our Promise",
     "promise1": "Full insurance with zero excess options available",
-    "promise2": "Tivat Airport meet-and-greet \u2014 we bring the car to you at arrivals",
-    "promise3": "No hidden fees \u2014 the price you see is the price you pay",
+    "promise2": "Tivat Airport meet-and-greet — we bring the car to you at arrivals",
+    "promise3": "No hidden fees — the price you see is the price you pay",
     "promise4": "Cross-border travel permitted to Croatia, Bosnia, Albania, Serbia, and Kosovo",
     "promise5": "Free cancellation on most bookings",
     "promise6": "24/7 roadside assistance throughout your trip",
     "localTitle": "Local Knowledge",
-    "localText": "Based in Kotor, we know every road around the bay \u2014 the best routes, the hidden gems, and the shortcuts that guidebooks miss. Whether you're driving from",
+    "localText": "Based in Kotor, we know every road around the bay — the best routes, the hidden gems, and the shortcuts that guidebooks miss. Whether you're driving from",
     "localLink1": "Tivat Airport",
     "localMid": "to",
     "localLink2": "Kotor's",
@@ -159,16 +159,16 @@
     "localLink3": "Perast",
     "localEnd": ", or heading up the serpentine to Lovcen National Park, we can help you plan the perfect road trip.",
     "contactTitle": "Get in Touch",
-    "contactText": "Have a question about renting a car in Kotor? We're available via phone, WhatsApp, and Viber. Search our fleet online and book in minutes \u2014 or reach out and we'll help you find the perfect car for your trip."
+    "contactText": "Have a question about renting a car in Kotor? We're available via phone, WhatsApp, and Viber. Search our fleet online and book in minutes — or reach out and we'll help you find the perfect car for your trip."
   },
   "kotor": {
     "title": "Car Hire in Kotor",
     "subtitle": "Park beneath 4.5 km of fortress walls and explore twelve centuries of history on foot.",
     "seoDesc": "1,355 steps to San Giovanni, St Tryphon Cathedral since 1166, and 4.5 km of Venetian walls. Park outside the Sea Gate and let the Old Town unfold.",
-    "heading1": "Kotor \u2014 UNESCO World Heritage Site",
+    "heading1": "Kotor — UNESCO World Heritage Site",
     "p1": "Kotor is one of the best-preserved medieval towns on the Adriatic, sitting at the head of a dramatic fjord-like bay. The UNESCO-listed Old Town is a maze of narrow streets, Venetian palaces, Romanesque churches, and lively squares. Above it all, the fortress of San Giovanni climbs 1,200 steps to offer sweeping views across the bay.",
     "p2a": "Renting a car in Kotor",
-    "p2b": "gives you the freedom to explore the entire bay and beyond. Tivat Airport is just 8 km away \u2014 a 15-minute drive. Parking is available outside the Old Town walls, with larger lots on the approach roads.",
+    "p2b": "gives you the freedom to explore the entire bay and beyond. Tivat Airport is just 8 km away — a 15-minute drive. Parking is available outside the Old Town walls, with larger lots on the approach roads.",
     "landmarksTitle": "Landmarks",
     "stJohnTitle": "San Giovanni Fortress",
     "stJohnText": "The fortifications above Kotor date back to the 6th century and were expanded by the Venetians. The 1,200-step climb to the top rewards with panoramic views of the bay, Old Town rooftops, and the surrounding mountains. Entry is free outside peak season.",
@@ -183,10 +183,10 @@
     "cetinjeText": "Built in 1701, the monastery houses relics including the hand of John the Baptist. The drive from Kotor takes about an hour through the scenic mountain road via Njegos Mausoleum and Lovcen National Park.",
     "royalCourtTitle": "Royal Court in Cetinje",
     "royalCourtText": "Montenegro's royal palace from 1871, located in the former royal capital. Displays art, artefacts, and photographs from the country's royal history.",
-    "routeDifficulty": "Moderate \u2014 narrow streets in Old Town, standard roads approaching",
+    "routeDifficulty": "Moderate — narrow streets in Old Town, standard roads approaching",
     "routeVehicle": "Compact car (easier parking near Old Town walls)",
-    "routeParking": "Limited in Old Town. Use car parks on approach roads (\u20ac1-2/hour)",
-    "routeDistances": "From Tivat Airport: 15 minutes \u00b7 From Budva: 30 minutes"
+    "routeParking": "Limited in Old Town. Use car parks on approach roads (€1-2/hour)",
+    "routeDistances": "From Tivat Airport: 15 minutes · From Budva: 30 minutes"
   },
   "tivat-airport": {
     "title": "Tivat Airport Car Hire",
@@ -251,7 +251,7 @@
   "featureCards": {
     "airportPickup": {
       "title": "Tivat Airport Pickup",
-      "desc": "We meet you at Tivat arrivals, just 8 km from the Old Town walls. Drive the bay road into Kotor in 15 minutes \u2014 no shuttle, no waiting around."
+      "desc": "We meet you at Tivat arrivals, just 8 km from the Old Town walls. Drive the bay road into Kotor in 15 minutes — no shuttle, no waiting around."
     },
     "fullInsurance": {
       "title": "Full Insurance",
@@ -259,11 +259,11 @@
     },
     "support": {
       "title": "24/7 Support",
-      "desc": "Stuck behind a cruise bus on the bay road? Unsure about the Tabacina car park? Call us any time \u2014 we know every metre of these roads."
+      "desc": "Stuck behind a cruise bus on the bay road? Unsure about the Tabacina car park? Call us any time — we know every metre of these roads."
     },
     "noHiddenFees": {
       "title": "No Hidden Fees",
-      "desc": "One transparent price covers insurance, VAT, and mileage. What you see when you book is exactly what you pay at pickup \u2014 nothing added at the desk."
+      "desc": "One transparent price covers insurance, VAT, and mileage. What you see when you book is exactly what you pay at pickup — nothing added at the desk."
     },
     "freeCancellation": {
       "title": "Free Cancellation",
@@ -271,7 +271,7 @@
     },
     "crossBorder": {
       "title": "Cross-Border",
-      "desc": "Dubrovnik is 2 hours via the Debeli Brijeg crossing \u2014 Green Card ready at pickup. Bosnia and Albania also permitted with advance notice."
+      "desc": "Dubrovnik is 2 hours via the Debeli Brijeg crossing — Green Card ready at pickup. Bosnia and Albania also permitted with advance notice."
     }
   },
   "testimonials": {
@@ -279,10 +279,10 @@
       "text": "The bay road between Kotor and Perast is one of the most beautiful drives we've ever done. We stopped at every layby and took the boat out to Our Lady of the Rocks. Having the car meant we did it entirely on our own schedule. Easy pickup at Tivat and the whole process was smooth from start to finish."
     },
     "1": {
-      "text": "Came to Kotor specifically to climb San Giovanni fortress and drive up to Lovcen. The car was ready at Tivat arrivals before I'd even found the exit. The serpentine road to the mausoleum is unlike anything I've driven in North America \u2014 steep, narrow, spectacular. Would book again without hesitation."
+      "text": "Came to Kotor specifically to climb San Giovanni fortress and drive up to Lovcen. The car was ready at Tivat arrivals before I'd even found the exit. The serpentine road to the mausoleum is unlike anything I've driven in North America — steep, narrow, spectacular. Would book again without hesitation."
     },
     "2": {
-      "text": "Our cruise docked at Kotor and we picked up the car right at the port area. Three days of day trips \u2014 Budva, Perast, and up to the Cetinje monastery. Kids loved the island boat in Perast. The team sorted the paperwork quickly and the car seat was already fitted when we arrived."
+      "text": "Our cruise docked at Kotor and we picked up the car right at the port area. Three days of day trips — Budva, Perast, and up to the Cetinje monastery. Kids loved the island boat in Perast. The team sorted the paperwork quickly and the car seat was already fitted when we arrived."
     }
   },
   "faqItems": {
@@ -292,15 +292,15 @@
     },
     "1": {
       "q": "Can I drive to Croatia or Albania?",
-      "a": "Croatia is 2 hours away via the Debeli Brijeg border crossing \u2014 we prepare the Green Card at booking. Albania requires separate Green Card paperwork, so let us know in advance. Bosnia, Serbia, and Kosovo are also permitted."
+      "a": "Croatia is 2 hours away via the Debeli Brijeg border crossing — we prepare the Green Card at booking. Albania requires separate Green Card paperwork, so let us know in advance. Bosnia, Serbia, and Kosovo are also permitted."
     },
     "2": {
       "q": "Is there a minimum age?",
-      "a": "Drivers must be at least 21 with a minimum of 2 years' experience. A young driver supplement applies for those under 25 \u2014 the exact amount varies by vehicle and is shown in the search results."
+      "a": "Drivers must be at least 21 with a minimum of 2 years' experience. A young driver supplement applies for those under 25 — the exact amount varies by vehicle and is shown in the search results."
     },
     "3": {
       "q": "What's included in the price?",
-      "a": "Third Party Liability and CDW insurance are included in the base price for all vehicles, along with VAT and the mandatory safety kit. Unlimited mileage is available on most cars \u2014 check the vehicle card before booking."
+      "a": "Third Party Liability and CDW insurance are included in the base price for all vehicles, along with VAT and the mandatory safety kit. Unlimited mileage is available on most cars — check the vehicle card before booking."
     },
     "4": {
       "q": "How does pickup work at Tivat Airport?",
@@ -312,7 +312,7 @@
     },
     "6": {
       "q": "Is a deposit required?",
-      "a": "Most vehicles require a deposit of \u20ac100\u2013\u20ac350 held on a physical credit card in the driver's name. Some budget cars are available with no deposit \u2014 these are clearly flagged in the search results. The hold is released when the vehicle is returned undamaged."
+      "a": "Most vehicles require a deposit of €100–€350 held on a physical credit card in the driver's name. Some budget cars are available with no deposit — these are clearly flagged in the search results. The hold is released when the vehicle is returned undamaged."
     },
     "7": {
       "q": "Where do I park in Kotor Old Town?",
@@ -358,12 +358,12 @@
     "podgorica": {
       "name": "Podgorica",
       "tag": "Capital City",
-      "desc": "Montenegro's capital \u2014 gateway to the interior."
+      "desc": "Montenegro's capital — gateway to the interior."
     }
   },
   "aboutBody": {
     "h1": "A Family Business Inside the Fortress Walls",
-    "p1": "Our story begins where the Skurda River meets the bay, a few hundred metres from Kotor's Sea Gate. In 2007, two brothers who grew up climbing the 1,355 steps to San Giovanni fortress decided that visitors deserved the same freedom to roam. Fifteen years later, Kotor Car Hire places keys in the hands of thousands of travellers each season \u2014 from the arrivals hall at Tivat to the cobblestones outside St Tryphon Cathedral.",
+    "p1": "Our story begins where the Skurda River meets the bay, a few hundred metres from Kotor's Sea Gate. In 2007, two brothers who grew up climbing the 1,355 steps to San Giovanni fortress decided that visitors deserved the same freedom to roam. Fifteen years later, Kotor Car Hire places keys in the hands of thousands of travellers each season — from the arrivals hall at Tivat to the cobblestones outside St Tryphon Cathedral.",
     "h2": "Why This Bay Demands a Car",
     "p2": "Public buses trace the main highway and stop. Full stop. They will not detour to the unmarked viewpoint above Perast where the bay opens into two arms. They cannot pause at the Roman mosaics in Risan or navigate the single-track lane to Gornji Stoliv, the abandoned village clinging to the cliff face 400 metres above the water. Only a steering wheel and a sense of curiosity unlock Boka Kotorska properly.",
     "h3": "Fleet and Logistics",
@@ -371,33 +371,35 @@
     "promiseTitle": "What We Guarantee",
     "promise1": "Comprehensive insurance with a zero-excess option on every booking",
     "promise2": "A named driver waiting at Tivat arrivals, sign in hand, car parked outside",
-    "promise3": "Transparent pricing \u2014 no airport surcharges, no fuel-policy surprises",
+    "promise3": "Transparent pricing — no airport surcharges, no fuel-policy surprises",
     "promise4": "Green Card paperwork prepared for five neighbouring countries",
     "promise5": "Free cancellation up to seven days before collection",
     "promise6": "Around-the-clock roadside support, Kotor to Zabljak and everywhere between",
     "h4": "We Know These Roads Personally",
-    "p4": "Ask us which mornings the cruise ships dock and choke the Old Town car parks. We will tell you to arrive before 07:30 or skip to Dobrota instead. Ask about the Vrmac ridge trail and we will explain exactly where to leave the car at the trailhead near Prčanj. From the timing of the Kamenari-Lepetane ferry to the quietest hour at the Debeli Brijeg border crossing, our advice comes from driving these roads daily \u2014 not from a guidebook reprint.",
+    "p4": "Ask us which mornings the cruise ships dock and choke the Old Town car parks. We will tell you to arrive before 07:30 or skip to Dobrota instead. Ask about the Vrmac ridge trail and we will explain exactly where to leave the car at the trailhead near Prčanj. From the timing of the Kamenari-Lepetane ferry to the quietest hour at the Debeli Brijeg border crossing, our advice comes from driving these roads daily — not from a guidebook reprint.",
     "h5": "Reach Out Any Time",
-    "p5": "WhatsApp, Viber, old-fashioned phone calls \u2014 pick whatever suits you. We reply quickly, even during the frantic July cruise-ship season. Browse the fleet online, lock in a price, and we handle everything else. Or simply message us a question about parking near the Cathedral, the best road to Cetinje, or whether that mountain pass is open in December."
+    "p5": "WhatsApp, Viber, old-fashioned phone calls — pick whatever suits you. We reply quickly, even during the frantic July cruise-ship season. Browse the fleet online, lock in a price, and we handle everything else. Or simply message us a question about parking near the Cathedral, the best road to Cetinje, or whether that mountain pass is open in December."
   },
   "kotorBody": {
     "h1": "Twelve Centuries Behind the Walls",
-    "p1": "Fortifications first rose above Kotor in the 6th century, but the town's documented history stretches further \u2014 Roman settlement, Byzantine rule, nearly four hundred years under Venice. UNESCO inscribed the entire Natural and Culturo-Historical Region of Kotor in 1979, recognising not just the walled Old Town but the surrounding bay landscape as a single cultural entity. Walk through the Sea Gate (Vrata od Mora), built in 1555, and you step into a medieval street plan that has barely shifted since.",
-    "p2": "Parking options line the approach from Tivat Airport, 8 km and roughly fifteen minutes away. The largest lot sits below the walls near the River Gate; a second, less crowded option is the Dobrota strip heading north. On days when cruise liners are in port \u2014 sometimes three or four at once between May and October \u2014 arrive before 07:30 or expect a scramble for spaces.",
+    "p1": "Fortifications first rose above Kotor in the 6th century, but the town's documented history stretches further — Roman settlement, Byzantine rule, nearly four hundred years under Venice. UNESCO inscribed the entire Natural and Culturo-Historical Region of Kotor in 1979, recognising not just the walled Old Town but the surrounding bay landscape as a single cultural entity. Walk through the Sea Gate (Vrata od Mora), built in 1555, and you step into a medieval street plan that has barely shifted since.",
+    "p2": "Parking options line the approach from Tivat Airport, 8 km and roughly fifteen minutes away. The largest lot sits below the walls near the River Gate; a second, less crowded option is the Dobrota strip heading north. On days when cruise liners are in port — sometimes three or four at once between May and October — arrive before 07:30 or expect a scramble for spaces.",
     "landmarksTitle": "Inside the Walls and Above Them",
     "stJohnTitle": "The Fortress of San Giovanni",
-    "stJohnText": "Precisely 1,355 steps lead from the Old Town's northern edge to the fortress summit at 280 metres. Venetian engineers reinforced the 4.5 km curtain wall between the 15th and 18th centuries, stitching together earlier Byzantine stonework with their own bastions. Bring water, wear proper shoes, and budget forty-five minutes upward. The view from the top \u2014 the inner bay splitting into two channels around the Vrmac peninsula \u2014 is worth every step. Outside July and August, entry is free.",
+    "stJohnText": "Precisely 1,355 steps lead from the Old Town's northern edge to the fortress summit at 280 metres. Venetian engineers reinforced the 4.5 km curtain wall between the 15th and 18th centuries, stitching together earlier Byzantine stonework with their own bastions. Bring water, wear proper shoes, and budget forty-five minutes upward. The view from the top — the inner bay splitting into two channels around the Vrmac peninsula — is worth every step. Outside July and August, entry is free.",
     "cathedralTitle": "Cathedral of St Tryphon (1166)",
     "cathedralText": "A church has stood on this site since 809 AD, but the present Romanesque structure dates from 1166, making it one of two Roman Catholic cathedrals in Montenegro. The twin bell towers, rebuilt after the 1667 earthquake, define Kotor's skyline. Inside, a ciborium over the main altar shelters 14th-century frescoes, and the reliquary treasury holds gold and silver pieces spanning five centuries. St Tryphon, the city's patron, is celebrated each 3 February with processions through the squares.",
     "dayTripsTitle": "Beyond the Walls: Day Drives",
-    "perastTrip": "Fifteen minutes north along the bay road, Perast sits in silence compared to Kotor's bustle. Leave the car on the waterfront, board a skiff to Our Lady of the Rocks \u2014 the island locals have been enlarging with thrown stones since 1452 \u2014 and return for coffee at a harbourside palazzo. The drive itself is one of the finest short stretches of road in the country, curving along the waterline beneath karst cliffs.",
+    "perastTrip": "Fifteen minutes north along the bay road, Perast sits in silence compared to Kotor's bustle. Leave the car on the waterfront, board a skiff to Our Lady of the Rocks — the island locals have been enlarging with thrown stones since 1452 — and return for coffee at a harbourside palazzo. The drive itself is one of the finest short stretches of road in the country, curving along the waterline beneath karst cliffs.",
     "cetinjeTrip": "An hour of switchbacks through Lovcen National Park deposits you in Cetinje, Montenegro's old royal capital. The monastery shelters relics said to include the hand of John the Baptist. Continue upward to the Njegos Mausoleum, perched at 1,657 metres, where four countries are visible on a clear morning.",
-    "royalCourtText": "Also in Cetinje, the 1871 Royal Court \u2014 once the palace of King Nikola I \u2014 preserves paintings, weapons, and photographs from the brief era of Montenegrin monarchy. It stands beside the monastery on a tree-lined boulevard in the former capital."
+    "royalCourtText": "Also in Cetinje, the 1871 Royal Court — once the palace of King Nikola I — preserves paintings, weapons, and photographs from the brief era of Montenegrin monarchy. It stands beside the monastery on a tree-lined boulevard in the former capital.",
+    "perastLinkText": "Drive to Perast",
+    "perastLinkAfter": " — 15 minutes along the bay, with boat trips to Our Lady of the Rocks."
   },
   "budvaBody": {
     "h1": "Where 2,500 Years of History Meets 21 km of Sand",
     "p1": "Greeks from Epidaurus founded a settlement here around the 5th century BC. Romans came next, then Slavic tribes, Venetians, Austrians, and finally modern Montenegro. Each left a mark, but Budva today is defined by contrast: a walled citadel on a finger of rock jutting into the Adriatic, flanked on both sides by beach bars pumping music until dawn. It is not subtle, and it does not try to be.",
-    "p2": "Driving from Kotor takes roughly thirty minutes through a mountain tunnel that cuts beneath the Lovćen foothills. From Tivat Airport, the road south skirts the bay before climbing briefly and descending to the Budva riviera. A rental car transforms the coast: Mogren is five minutes away, Jaz ten, and Sveti Stefan fifteen \u2014 distances that feel considerable without wheels but trivial with them.",
+    "p2": "Driving from Kotor takes roughly thirty minutes through a mountain tunnel that cuts beneath the Lovćen foothills. From Tivat Airport, the road south skirts the bay before climbing briefly and descending to the Budva riviera. A rental car transforms the coast: Mogren is five minutes away, Jaz ten, and Sveti Stefan fifteen — distances that feel considerable without wheels but trivial with them.",
     "beachesTitle": "The Riviera Strip",
     "beachesIntro": "Budva's municipality claims 21 kilometres of coastline. Four beaches stand out:",
     "mogren": "A pair of pebble coves linked by a tunnel blasted through the cliffs. Walking distance from the Old Town, yet feels secluded once you pass through the rock",
@@ -405,23 +407,25 @@
     "svetiStefan": "Visible from the Adriatic Highway as a photogenic fortified islet. The mainland Queen's Beach is open to all; the island itself is a private resort",
     "becici": "A 2 km arc of fine sand that European travel writers once voted the continent's finest beach. Still popular, less frantic than Budva's main strip",
     "oldTownTitle": "Inside the Citadel",
-    "oldTownText": "Budva's Stari Grad occupies a compact peninsula fortified since antiquity. Cobbled lanes barely two metres wide thread between Venetian-era townhouses, 7th-century churches, and a scatter of restaurants that spill chairs onto every available paving stone. At the southern tip, the Citadela fortress \u2014 now a summer events venue \u2014 commands views along the coast in both directions. A small library inside holds editions in a dozen languages, left by visiting sailors over the centuries.",
+    "oldTownText": "Budva's Stari Grad occupies a compact peninsula fortified since antiquity. Cobbled lanes barely two metres wide thread between Venetian-era townhouses, 7th-century churches, and a scatter of restaurants that spill chairs onto every available paving stone. At the southern tip, the Citadela fortress — now a summer events venue — commands views along the coast in both directions. A small library inside holds editions in a dozen languages, left by visiting sailors over the centuries.",
     "dayTripsTitle": "Roads Leading Out",
     "svetiStefanTrip": "Six kilometres south on the highway, the road above Sveti Stefan offers a camera angle that has sold a million postcards. Below, the mainland beach is free and open to all. A car lets you arrive early, before the tour coaches from Budva claim every parking space.",
-    "kotorTrip": "North through the tunnel: Kotor's UNESCO-listed Old Town in thirty minutes. Most visitors to Budva make this trip at least once, and many decide they should have based themselves in Kotor instead \u2014 a good argument for having a car.",
+    "kotorTrip": "North through the tunnel: Kotor's UNESCO-listed Old Town in thirty minutes. Most visitors to Budva make this trip at least once, and many decide they should have based themselves in Kotor instead — a good argument for having a car.",
     "lovcenTrip": "Inland from the coast, the road corkscrews upward through Lovcen National Park to the Njegos Mausoleum at 1,657 metres. On a clear afternoon, the view from the summit terrace takes in four countries. Budget three hours for the round trip, more if the switchbacks slow you down.",
     "gettingAroundTitle": "Parking and Practicalities",
-    "gettingAroundText": "Budva's Old Town is pedestrian-only, but the car parks lining the approach road fill fast between June and September. Arrive before 09:00 in high summer or try the less obvious lots south of the main strip near Bečići. A car is not optional for beach-hopping \u2014 the riviera's best sand is scattered across fifteen kilometres, and local buses are infrequent."
+    "gettingAroundText": "Budva's Old Town is pedestrian-only, but the car parks lining the approach road fill fast between June and September. Arrive before 09:00 in high summer or try the less obvious lots south of the main strip near Bečići. A car is not optional for beach-hopping — the riviera's best sand is scattered across fifteen kilometres, and local buses are infrequent.",
+    "tivatLinkText": "Collect your car at Tivat Airport",
+    "tivatLinkAfter": " and reach Budva in 30 minutes."
   },
   "perastBody": {
     "h1": "A Republic of Sailors in Miniature",
     "p1": "Perast occupies a single slender strip of waterfront beneath Mount St Elias, so narrow that most buildings are only one room deep. Roughly 350 people live here year-round, yet this hamlet once supplied the Venetian Republic with its finest sea captains. Between 1420 and 1797, Perast's shipyards launched galleys, its navigators charted the Adriatic, and its merchant families built palazzo after palazzo along the quay. The Venetian lion still decorates lintels and fountain basins throughout the village.",
-    "p2": "Driving from Kotor takes fifteen minutes along the bay road \u2014 a route that hugs the waterline so closely you could trail a hand in the Adriatic at some points. Park at the northern edge of the village (spaces are scarce and the single main road is one-way in summer) and walk the entire waterfront in ten minutes. That brevity is deceptive; there is more per metre here than almost anywhere on the coast.",
+    "p2": "Driving from Kotor takes fifteen minutes along the bay road — a route that hugs the waterline so closely you could trail a hand in the Adriatic at some points. Park at the northern edge of the village (spaces are scarce and the single main road is one-way in summer) and walk the entire waterfront in ten minutes. That brevity is deceptive; there is more per metre here than almost anywhere on the coast.",
     "islandsTitle": "Two Islands, Two Stories",
     "stGeorgeTitle": "Sveti Djordje (St George)",
     "stGeorgeText": "The natural island closer to shore is cloaked in dark cypresses and closed to the public. A Benedictine abbey has occupied the site since the 12th century. Monks still maintain the grounds, visible as shadowed movement among the trees from the Perast harbourside. Photographers favour early morning, when the island's silhouette is sharpest against the eastern light.",
     "ladyOfRocksTitle": "Gospa od Škrpjela (Our Lady of the Rocks)",
-    "ladyOfRocksText": "On 22 July 1452 \u2014 the date is recorded precisely \u2014 two fishermen hauled up an icon of the Madonna from the seabed near a submerged rock. The townspeople began sinking stones around that rock, and the tradition has continued annually for over five centuries. Today the resulting island holds a small baroque church with 68 paintings by Tripo Kokolja. Skiffs depart the harbour every half-hour; the crossing takes five minutes and costs a few euros.",
+    "ladyOfRocksText": "On 22 July 1452 — the date is recorded precisely — two fishermen hauled up an icon of the Madonna from the seabed near a submerged rock. The townspeople began sinking stones around that rock, and the tradition has continued annually for over five centuries. Today the resulting island holds a small baroque church with 68 paintings by Tripo Kokolja. Skiffs depart the harbour every half-hour; the crossing takes five minutes and costs a few euros.",
     "historicTitle": "Stone and Memory",
     "historicText": "Count the palaces along the waterfront and you reach sixteen. Add seventeen Catholic churches and several guard towers, and you begin to grasp how wealthy this tiny settlement once was. The Museum of Perast occupies the Palazzo Bujović, a building so elegant it is often cited as the finest secular structure on the Montenegrin coast. Maritime instruments, ship models, battle flags, and town records fill its rooms.",
     "monasteryTitle": "Banja Monastery (a short detour north)",
@@ -429,7 +433,7 @@
   },
   "tivatBody": {
     "h1": "Naval Shipyard Turned Mediterranean Playground",
-    "p1": "Until the 1990s, Tivat was a Yugoslav navy town \u2014 a closed facility where submarines were serviced and warships provisioned. Visitors were neither expected nor particularly welcome. That history makes the transformation all the more remarkable. Canadian billionaire Peter Munk acquired the decommissioned Arsenal in 2006, and Porto Montenegro was born: 450 berths, a waterfront promenade, and a new identity for the entire town.",
+    "p1": "Until the 1990s, Tivat was a Yugoslav navy town — a closed facility where submarines were serviced and warships provisioned. Visitors were neither expected nor particularly welcome. That history makes the transformation all the more remarkable. Canadian billionaire Peter Munk acquired the decommissioned Arsenal in 2006, and Porto Montenegro was born: 450 berths, a waterfront promenade, and a new identity for the entire town.",
     "p2": "For travellers arriving at Tivat Airport (code TIV, 4 km from the town centre and 8 km from Kotor), the town functions as both gateway and destination. Collect a rental car at arrivals and you can be inside Kotor's walls in twenty minutes, or parked at a Tivat beach bar in five. The two towns share the bay but almost nothing else in character.",
     "beachesTitle": "Seventeen Beaches, Three Kilometres",
     "beachesText": "Tivat municipality counts 17 beaches along a surprisingly varied 3 km of coast. Two are particularly worth the drive:",
@@ -439,17 +443,17 @@
     "portoText": "The old Arsenal dry docks now shelter superyachts up to 250 metres long. The surrounding waterfront village has been purpose-built with boutiques, a pool club, waterfront restaurants, and a Naval Heritage Collection housed in the original submarine repair buildings. Summer evenings bring open-air events on the quayside. Whether you arrive by car or by 60-metre catamaran, the dress code is the same: relaxed Mediterranean.",
     "culturalTitle": "Beyond the Marina",
     "monasteryTitle": "Prevlaka Peninsula: St Michael Archangel",
-    "monasteryText": "On the tip of the Prevlaka peninsula, archaeological digs continue to reveal layers of a 10th-century monastic complex. The site is modest but atmospheric \u2014 stone walls, scattered column fragments, and views across the Tivat strait toward Herceg Novi.",
+    "monasteryText": "On the tip of the Prevlaka peninsula, archaeological digs continue to reveal layers of a 10th-century monastic complex. The site is modest but atmospheric — stone walls, scattered column fragments, and views across the Tivat strait toward Herceg Novi.",
     "churchTitle": "Sveti Antun Padovanski (1734)",
     "churchText": "This compact Baroque church on a hillside above Tivat contains religious paintings and silver reliquaries. The real draw is the terrace outside: an elevated panorama stretching from Porto Montenegro's masts to Kotor's fortress walls across the water.",
-    "museumText": "Kotor's Maritime Museum, a twenty-minute drive away, puts Tivat's naval past in context. Displays cover centuries of Boka seamanship under Venetian and Austro-Hungarian flags \u2014 the tradition that ultimately led to a submarine base where luxury yachts now park."
+    "museumText": "Kotor's Maritime Museum, a twenty-minute drive away, puts Tivat's naval past in context. Displays cover centuries of Boka seamanship under Venetian and Austro-Hungarian flags — the tradition that ultimately led to a submarine base where luxury yachts now park."
   },
   "tivatAirportBody": {
     "h1": "Tivat Airport (TIV): Eight Kilometres to the Fortress Walls",
-    "p1": "Pilots know Tivat for its approach: aircraft descend between Mount Lovćen and the Vrmac ridge, bank over the bay, and touch down on a runway that practically ends at the waterline. For passengers, the spectacle is the first hint that ordinary geography does not apply here. The terminal (IATA code TIV) sits 4 km from Tivat town centre and 8 km from Kotor's Sea Gate \u2014 one of the shortest airport-to-historic-centre distances in southern Europe.",
+    "p1": "Pilots know Tivat for its approach: aircraft descend between Mount Lovćen and the Vrmac ridge, bank over the bay, and touch down on a runway that practically ends at the waterline. For passengers, the spectacle is the first hint that ordinary geography does not apply here. The terminal (IATA code TIV) sits 4 km from Tivat town centre and 8 km from Kotor's Sea Gate — one of the shortest airport-to-historic-centre distances in southern Europe.",
     "p2": "Year-round flights connect to Belgrade, with seasonal charters multiplying the schedule between May and October. Budget carriers have expanded routes in recent years, adding cities like London, Vienna, and Moscow to the summer timetable. A modernised international departures terminal handles the summer surge, though the airport retains the compact feel of a regional hub.",
     "distancesTitle": "Drive Times from the Terminal",
-    "dist1": "Kotor Old Town: 8 km \u2014 roughly 15 minutes along the bay road",
+    "dist1": "Kotor Old Town: 8 km — roughly 15 minutes along the bay road",
     "dist2": "Perast waterfront: about 25 minutes, continuing north past Kotor",
     "dist3": "Budva riviera: around 20 minutes south through the mountain tunnel",
     "dist4": "Herceg Novi: approximately 40 minutes via the bay's northern shore",
@@ -461,11 +465,11 @@
   },
   "podgoricaBody": {
     "h1": "A Capital Built on Riverbanks and Reinvention",
-    "p1": "Where six rivers converge \u2014 the Morača, Ribnica, Zeta, Sitnica, Maréza, and Cijevna \u2014 Podgorica has grown into a city of roughly 170,000 people and three overlapping identities. Ottoman Podgorica survives in the Stara Varoš quarter: narrow lanes, a squat clock tower (Sahat-kula), and low stone houses. Yugoslav Podgorica sprawls in the concrete apartment blocks of Blok V and the wide boulevards renamed after independence. Modern Podgorica rises in the glass-and-steel towers near the Millennium Bridge, a cable-stayed span that has become the city's unofficial logo.",
-    "p2": "From Kotor, the drive takes about 90 minutes. Two routes exist: the dramatic Lovćen serpentine, climbing 25 hairpin bends before descending through Cetinje to the Zeta plain, or the faster motorway-standard road via Budva and Sozina tunnel. Both end at a city that few coastal tourists bother to visit \u2014 their loss.",
+    "p1": "Where six rivers converge — the Morača, Ribnica, Zeta, Sitnica, Maréza, and Cijevna — Podgorica has grown into a city of roughly 170,000 people and three overlapping identities. Ottoman Podgorica survives in the Stara Varoš quarter: narrow lanes, a squat clock tower (Sahat-kula), and low stone houses. Yugoslav Podgorica sprawls in the concrete apartment blocks of Blok V and the wide boulevards renamed after independence. Modern Podgorica rises in the glass-and-steel towers near the Millennium Bridge, a cable-stayed span that has become the city's unofficial logo.",
+    "p2": "From Kotor, the drive takes about 90 minutes. Two routes exist: the dramatic Lovćen serpentine, climbing 25 hairpin bends before descending through Cetinje to the Zeta plain, or the faster motorway-standard road via Budva and Sozina tunnel. Both end at a city that few coastal tourists bother to visit — their loss.",
     "p3": "Podgorica is nobody's picture-postcard destination, and it makes no apologies. Instead it offers the best restaurants in Montenegro, a lively cafe culture along the Morača riverbank, and an emerging gallery scene concentrated around the Centre for Contemporary Art. It is also the logical launching point for Lake Skadar, the Morača canyon, and the mountain north.",
     "seeTitle": "Worth Seeking Out",
-    "seeText": "The archaeological ruins of Duklja (Roman Doclea), two thousand years old, lie on the northern outskirts. In the city centre, the Cathedral of the Resurrection of Christ \u2014 consecrated in 2013 after two decades of construction \u2014 dominates the skyline with its massive dome. For something less monumental, the Petrović Palace on Kruševac hill houses a modest but well-curated art gallery and pleasant wooded grounds.",
+    "seeText": "The archaeological ruins of Duklja (Roman Doclea), two thousand years old, lie on the northern outskirts. In the city centre, the Cathedral of the Resurrection of Christ — consecrated in 2013 after two decades of construction — dominates the skyline with its massive dome. For something less monumental, the Petrović Palace on Kruševac hill houses a modest but well-curated art gallery and pleasant wooded grounds.",
     "dayTripsTitle": "Driving Out from the Capital",
     "skadarTitle": "Skadar Lake National Park",
     "skadarText": "Thirty minutes south of Podgorica, the largest lake in the Balkans straddles the Albanian border. Pelicans, cormorants, and herons crowd the wetlands. Hire a small boat at Virpazar village, paddle among the water lilies, and return for grilled carp at one of the lakeside restaurants. In spring, the lake level rises by several metres and entire meadows vanish underwater.",
@@ -476,7 +480,7 @@
   "podgoricaAirportBody": {
     "h1": "Podgorica Airport (TGD): The Inland Gateway",
     "p1": "The three-letter code TGD is a fossil. It dates from when Podgorica was still called Titograd, before Montenegro's capital reclaimed its older name in 1992. The airport, however, has moved firmly into the present: a terminal rebuilt in 2006, year-round connections to a dozen European capitals, and the widest winter flight network in Montenegro. If Tivat is the summer shortcut to Kotor (8 km away), Podgorica is the reliable alternative when seasonal routes shut down.",
-    "p2": "The original terminal building now houses a small collection on Montenegrin aviation history \u2014 worth a glance if your flight is delayed. The new terminal is functional and compact: eight departure gates, two arrival gates, and none of the sprawl of a major hub.",
+    "p2": "The original terminal building now houses a small collection on Montenegrin aviation history — worth a glance if your flight is delayed. The new terminal is functional and compact: eight departure gates, two arrival gates, and none of the sprawl of a major hub.",
     "distancesTitle": "Distances from the Airport",
     "distIntro": "Podgorica Airport sits 12 km south of the city centre, on the road toward Lake Skadar.",
     "dist1": "Podgorica city centre: 12 km, around 15 minutes by car (taxi roughly 10 euros)",
@@ -484,23 +488,23 @@
     "dist3": "Budva via the Sozina tunnel: approximately 60 minutes",
     "dist4": "Cetinje, the old royal capital: approximately 30 minutes",
     "flightsTitle": "Route Network",
-    "flightsText": "Belgrade is the anchor route, operating daily year-round. Regular services reach Paris, Rome, Frankfurt, Vienna, Budapest, Ljubljana, and several Eastern European cities. Summer charters add capacity, but unlike Tivat, Podgorica never goes quiet in winter \u2014 a meaningful advantage for off-season travellers.",
+    "flightsText": "Belgrade is the anchor route, operating daily year-round. Regular services reach Paris, Rome, Frankfurt, Vienna, Budapest, Ljubljana, and several Eastern European cities. Summer charters add capacity, but unlike Tivat, Podgorica never goes quiet in winter — a meaningful advantage for off-season travellers.",
     "facilitiesTitle": "Terminal Amenities",
     "facilitiesText": "Inside: a cafe, a duty-free shop, an ATM, and car rental counters. Outside: 25,000 square metres of parking. The airport is small enough that clearing arrivals and reaching the car park takes minutes, not the marathon trudge familiar from larger hubs.",
-    "awardText": "Podgorica Airport holds the ACI Europe Best Airport Award in the under-one-million-passengers category \u2014 recognition of efficient handling in a compact footprint.",
+    "awardText": "Podgorica Airport holds the ACI Europe Best Airport Award in the under-one-million-passengers category — recognition of efficient handling in a compact footprint.",
     "rentalTitle": "From Terminal to Bay Road",
     "rentalText": "A driver meets you at the arrivals gate, keys ready. No shuttle rides, no queues at a distant lot. Within minutes of stepping off the plane, you can be heading south on the mountain road toward Kotor. The 90-minute drive crosses the Lovćen massif via Cetinje, with views that justify every hairpin bend."
   },
   "dubrovnikAirportBody": {
     "h1": "Dubrovnik Airport (DBV): The Cross-Border Option",
     "p1": "Dubrovnik's flight network dwarfs both Montenegrin airports combined. Direct routes reach most major European cities year-round, with low-cost carriers adding dozens more in summer. The catch: Dubrovnik is in Croatia, and Kotor is in Montenegro. The reward: the two-hour drive between them follows the E65 along one of the most celebrated coastlines in the Mediterranean.",
-    "p2": "After collecting your car at DBV, the road heads south-east through the Croatian Konavle valley before reaching the border checkpoint at Debeli Brijeg. Once through, the highway descends into Herceg Novi, crosses the entrance to the Bay of Kotor, and traces the northern shoreline past Perast all the way to Kotor's walls. It is not a fast road \u2014 it is an experience in itself.",
+    "p2": "After collecting your car at DBV, the road heads south-east through the Croatian Konavle valley before reaching the border checkpoint at Debeli Brijeg. Once through, the highway descends into Herceg Novi, crosses the entrance to the Bay of Kotor, and traces the northern shoreline past Perast all the way to Kotor's walls. It is not a fast road — it is an experience in itself.",
     "p3": "A Green Card (international motor insurance certificate) must be in the glovebox before you cross. We arrange this at booking. Confirm it covers Montenegro when you reserve, and there is nothing else to worry about at the border except showing your passport.",
     "borderTitle": "The Debeli Brijeg Queue",
     "borderText": "In July and August, expect waits of one to two hours at the Croatia-Montenegro border on the coastal E65. Weekday mornings before 08:00 and late evenings after 20:00 are the lightest periods. If your flight arrives mid-afternoon in peak season, factor the delay into your plans. An alternative: the inland crossing at Konfin near Trebinje, which is quieter but adds driving time.",
     "facilitiesTitle": "About the Airport",
     "facilitiesText1": "The terminal sits in Čilipi, roughly 25 minutes south-east of Dubrovnik's Old Town. A single runway handles everything from budget turbo-props to wide-body charters. Parking fills quickly in high season; pre-booking a space saves both time and money.",
-    "facilitiesText2": "Inside: a bureau de change, bank, post office, duty-free store, several cafes, and a newsstand. Outside: taxi ranks, an Atlas bus connection to the city, and rows of rental car company desks. The airport is functional rather than luxurious \u2014 designed to process summer volumes efficiently.",
+    "facilitiesText2": "Inside: a bureau de change, bank, post office, duty-free store, several cafes, and a newsstand. Outside: taxi ranks, an Atlas bus connection to the city, and rows of rental car company desks. The airport is functional rather than luxurious — designed to process summer volumes efficiently.",
     "gettingTitle": "The Drive to Kotor",
     "gettingText1": "Allow two hours from the airport to Kotor, plus whatever the border adds. The E65 descends from the Croatian plateau to the coast at Herceg Novi, then follows the bay's northern arm eastward. At Kamenari, a short car ferry crosses the strait (saving a long loop around the inner bay via Tivat), or you can continue on the road through Perast and approach Kotor from the north.",
     "gettingText2": "Whichever route you take, the final approach to Kotor is unforgettable. Mountains rise vertically from the water, the bay narrows to a channel, and the fortress walls appear clinging to the cliff face ahead. There is no grander way to arrive."
@@ -510,10 +514,10 @@
     "p1": "Montenegro is roughly the size of Northern Ireland yet contains a coast, a deep fjord-like bay, a 2,500-year-old walled town, a 1,300-metre-deep canyon, and alpine peaks above 2,500 metres. Driving distances look short on a map. In practice, the roads twist, climb, tunnel, and ferry-cross their way between these extremes, and journey times rarely match what Google predicts. Accept that, and the driving itself becomes part of the holiday.",
     "p2": "Kotor sits at the geographical heart of the action. Perast is fifteen minutes north. Budva is thirty minutes south. Lovćen's summit is an hour of switchbacks above. Lake Skadar is ninety minutes inland. Only Durmitor, in the far north, requires a genuine road trip. Everything else radiates outward from the fortress walls like spokes from a hub.",
     "startTitle": "Picking Up Your Car",
-    "startText": "Tivat Airport, 8 km from Kotor, is the obvious collection point \u2014 fifteen minutes from landing to the Old Town. Podgorica Airport offers wider winter schedules and a scenic 90-minute drive through the mountains. Dubrovnik Airport in Croatia has the most international routes and connects to Kotor via a two-hour coastal road with one border crossing. All three have meet-and-greet handovers.",
+    "startText": "Tivat Airport, 8 km from Kotor, is the obvious collection point — fifteen minutes from landing to the Old Town. Podgorica Airport offers wider winter schedules and a scenic 90-minute drive through the mountains. Dubrovnik Airport in Croatia has the most international routes and connects to Kotor via a two-hour coastal road with one border crossing. All three have meet-and-greet handovers.",
     "timesTitle": "Realistic Drive Times from Kotor",
-    "timesText1": "Perast: 15 min. Tivat: 20 min. Budva: 30 min. Herceg Novi: 45 min. Cetinje: 60 min. Podgorica: 90 min. Dubrovnik: 2 h. Žabljak (Durmitor): 3.5\u20134 h.",
-    "timesText2": "The Kotor\u2013Lovćen serpentine alone contains 25 documented hairpin bends in less than 20 km. Navigation apps routinely underestimate mountain stretches by 20\u201330%. Plan accordingly and carry water.",
+    "timesText1": "Perast: 15 min. Tivat: 20 min. Budva: 30 min. Herceg Novi: 45 min. Cetinje: 60 min. Podgorica: 90 min. Dubrovnik: 2 h. Žabljak (Durmitor): 3.5–4 h.",
+    "timesText2": "The Kotor–Lovćen serpentine alone contains 25 documented hairpin bends in less than 20 km. Navigation apps routinely underestimate mountain stretches by 20–30%. Plan accordingly and carry water.",
     "rulesTitle": "What the Police Will Check",
     "rulesIntro": "Random roadside checks are common, especially on the bay road and near border crossings. Officers will ask for:",
     "rule1": "A valid driving licence (international driving permit accepted alongside it)",
@@ -523,52 +527,55 @@
     "keyRulesTitle": "Non-Negotiable Rules",
     "keyRule1": "Seat belts: mandatory for every occupant, front and rear",
     "keyRule2": "Mobile phones: hands-free only, and even then police may stop you",
-    "keyRule3": "Alcohol: zero-tolerance policy \u2014 any detectable blood alcohol means an on-the-spot fine or worse",
+    "keyRule3": "Alcohol: zero-tolerance policy — any detectable blood alcohol means an on-the-spot fine or worse",
     "keyRule4": "Speed cameras: fixed units on the bay road and mobile traps on the highway. Fines are issued to the rental company and charged back to your card",
     "conditionsTitle": "What the Roads Are Actually Like",
-    "conditionsText": "The bay road between Kotor and Perast is paved and maintained but barely two cars wide in places, with stone walls on one side and the water on the other. Mountain roads above 800 metres may lack guard rails entirely. The Sozina tunnel to Budva is modern and well-lit. The Lovćen road is narrow, steep, and has limited passing places \u2014 honk before blind bends. In winter, chains or winter tyres are legally required above the snow line.",
+    "conditionsText": "The bay road between Kotor and Perast is paved and maintained but barely two cars wide in places, with stone walls on one side and the water on the other. Mountain roads above 800 metres may lack guard rails entirely. The Sozina tunnel to Budva is modern and well-lit. The Lovćen road is narrow, steep, and has limited passing places — honk before blind bends. In winter, chains or winter tyres are legally required above the snow line.",
     "routesTitle": "Two Arterial Roads",
     "e65Title": "E65 / E80: The Bay Circuit",
-    "e65Text": "This route traces the entire Bay of Kotor from Herceg Novi around the northern arm through Perast and Kotor, then south via Tivat toward Budva. Alternatively, the Kamenari\u2013Lepetane car ferry shortcuts the loop, saving 45 minutes. The bay road is where most visitors spend their driving time, and for good reason \u2014 the views change with every headland.",
+    "e65Text": "This route traces the entire Bay of Kotor from Herceg Novi around the northern arm through Perast and Kotor, then south via Tivat toward Budva. Alternatively, the Kamenari–Lepetane car ferry shortcuts the loop, saving 45 minutes. The bay road is where most visitors spend their driving time, and for good reason — the views change with every headland.",
     "e762Title": "E762: Coast to Interior",
     "e762Text": "Cuts inland from the Adriatic through the Montenegrin heartland toward the Serbian and eastern Bosnian borders. This is the route to Nikšić, the Piva canyon, and eventually Durmitor. Less scenic near the coast but increasingly dramatic as it climbs.",
     "borderTitle": "Crossing Into Neighbouring Countries",
-    "borderText": "Cross-border driving is permitted with a Green Card. The Croatia crossing at Debeli Brijeg is the busiest \u2014 in July and August, waits of one to two hours are normal. Weekday mornings before 08:00 or evenings after 20:00 cut the queue significantly. Other crossings (Albania, Bosnia, Serbia, Kosovo) are generally faster.",
+    "borderText": "Cross-border driving is permitted with a Green Card. The Croatia crossing at Debeli Brijeg is the busiest — in July and August, waits of one to two hours are normal. Weekday mornings before 08:00 or evenings after 20:00 cut the queue significantly. Other crossings (Albania, Bosnia, Serbia, Kosovo) are generally faster.",
     "nationTitle": "Why Montenegro Rewards Drivers",
-    "nationText": "Independent only since 2006, Montenegro remains lightly visited compared to Croatia or Greece. The roads are quieter, the parking easier, and the landscapes more concentrated. A single tank of fuel can take you from Kotor's Venetian alleyways to a glacial mountain lake and back. Few countries this small pack this much into their borders."
+    "nationText": "Independent only since 2006, Montenegro remains lightly visited compared to Croatia or Greece. The roads are quieter, the parking easier, and the landscapes more concentrated. A single tank of fuel can take you from Kotor's Venetian alleyways to a glacial mountain lake and back. Few countries this small pack this much into their borders.",
+    "startLinkBefore": "Start at ",
+    "startLinkText": "Tivat Airport car hire",
+    "startLinkAfter": " — the closest airport to the Bay of Kotor."
   },
   "borderCrossingBody": {
     "h1": "Taking a Rental Car Across Balkan Borders",
-    "p1": "Montenegro shares land borders with five countries: Croatia, Bosnia and Herzegovina, Albania, Kosovo, and Serbia. Driving a rental car into any of them is permitted \u2014 provided you tell the rental company at booking so the paperwork is ready when you collect the keys.",
+    "p1": "Montenegro shares land borders with five countries: Croatia, Bosnia and Herzegovina, Albania, Kosovo, and Serbia. Driving a rental car into any of them is permitted — provided you tell the rental company at booking so the paperwork is ready when you collect the keys.",
     "greenCardTitle": "The Green Card Explained",
     "greenCardText": "A Green Card (Carte Internationale d'Assurance Automobile) is a standardised document proving your vehicle carries valid third-party insurance in the country you are entering. Border guards ask for it at every Balkan checkpoint. Without one, you will be turned around.",
     "greenCard1": "Typical cost: around 15 euros for a 15-day period",
-    "greenCard2": "Issued by: the rental company, at no hassle to you \u2014 just confirm the countries you plan to visit when booking",
+    "greenCard2": "Issued by: the rental company, at no hassle to you — just confirm the countries you plan to visit when booking",
     "greenCard3": "Standard coverage: Croatia, Bosnia, Albania, Serbia. Kosovo may need to be added separately",
     "greenCardWarn": "Before setting off, open the glovebox and verify the Green Card lists every country on your route. A card valid for Croatia alone will not get you into Bosnia. Five minutes of checking saves hours of frustration at the checkpoint.",
     "docsTitle": "Your Border Document Checklist",
     "doc1": "Passport or EU national ID card (must be original, not a photocopy)",
-    "doc2": "Driving licence \u2014 an international driving permit is recommended alongside non-Latin-script licences",
+    "doc2": "Driving licence — an international driving permit is recommended alongside non-Latin-script licences",
     "doc3": "Original rental contract with company stamp (printed, not a screenshot on your phone)",
     "doc4": "Green Card insurance certificate listing all destination countries",
     "doc5": "Vehicle registration certificate (kept in the car by the rental company)",
     "crossingsTitle": "Country-by-Country Crossing Details",
     "croatiaTitle": "Into Croatia: Debeli Brijeg",
-    "croatiaText": "The E65 coastal crossing between Herceg Novi and Dubrovnik is by far the most popular \u2014 and therefore the most congested. In July and August, two passport checks (Montenegrin exit, Croatian entry) combine with heavy tourist traffic to produce queues of one to two hours. The crossing itself is a simple road checkpoint with booths on both sides.",
+    "croatiaText": "The E65 coastal crossing between Herceg Novi and Dubrovnik is by far the most popular — and therefore the most congested. In July and August, two passport checks (Montenegrin exit, Croatian entry) combine with heavy tourist traffic to produce queues of one to two hours. The crossing itself is a simple road checkpoint with booths on both sides.",
     "croatiaTip": "Timing matters enormously. Cross before 08:00 or after 20:00 and the wait drops to minutes. Weekday mornings are dramatically quieter than Saturday or Sunday. If you must cross mid-afternoon in August, bring water and patience.",
-    "croatiaFerry": "Heading north from Kotor, the Kamenari\u2013Lepetane car ferry crosses the narrowest point of the bay in about five minutes, saving a 45-minute drive around the inner shore via Tivat. Ferries run continuously; the fare is a few euros.",
+    "croatiaFerry": "Heading north from Kotor, the Kamenari–Lepetane car ferry crosses the narrowest point of the bay in about five minutes, saving a 45-minute drive around the inner shore via Tivat. Ferries run continuously; the fare is a few euros.",
     "albaniaTitle": "Into Albania: Sukobin or Hani i Hotit",
-    "albaniaText": "The coastal crossing at Sukobin/Muriqan, south of Ulcinj, is the more straightforward route \u2014 well-signed, with generally short queues. The inland alternative at Hani i Hotit, near the southern shore of Lake Skadar, is scenic but quieter and less familiar to foreign tourists.",
+    "albaniaText": "The coastal crossing at Sukobin/Muriqan, south of Ulcinj, is the more straightforward route — well-signed, with generally short queues. The inland alternative at Hani i Hotit, near the southern shore of Lake Skadar, is scenic but quieter and less familiar to foreign tourists.",
     "albaniaNote": "Albanian road infrastructure is improving rapidly but remains unpredictable outside main highways. Speed limits drop on rural roads and surface quality can change without warning. Drive defensively, particularly at night.",
     "bosniaTitle": "Into Bosnia: Šćepan Polje or Vilusi",
     "bosniaText": "Heading north from the coast, the Šćepan Polje crossing near Foča accesses the Tara River gorge and Sutjeska National Park. From Nikšić, the Vilusi crossing provides a route toward Trebinje and eventually Mostar. Both are lightly used and rarely involve waiting.",
     "serbiaTitle": "Into Serbia: Dobrakovo",
     "serbiaText": "The Dobrakovo checkpoint on the E65, north of Bijelo Polje, connects to the Serbian motorway network. From there, Belgrade is roughly four hours of straightforward motorway driving. Tolls are charged at motorway entry and exit booths — take a ticket when you join and pay based on distance when you leave.",
     "kosovoTitle": "Into Kosovo: Kula",
-    "kosovoText": "The Kula crossing near Rožaje leads to Peja/Peć in western Kosovo. Confirm with your rental company that Kosovo is explicitly listed on your Green Card \u2014 several insurers exclude it by default, and border guards will check.",
+    "kosovoText": "The Kula crossing near Rožaje leads to Peja/Peć in western Kosovo. Confirm with your rental company that Kosovo is explicitly listed on your Green Card — several insurers exclude it by default, and border guards will check.",
     "tipsTitle": "Practical Queue Advice",
     "tip1": "Arrange documents in a single envelope on the dashboard before joining the queue. Fumbling at the window wastes time",
-    "tip2": "Switch off the engine while stationary \u2014 guards notice and it puts them at ease",
+    "tip2": "Switch off the engine while stationary — guards notice and it puts them at ease",
     "tip3": "Avoid the Debeli Brijeg crossing on Saturday and Sunday afternoons between June and September",
     "tip4": "Inland crossings (Bosnia, Serbia, Kosovo) are almost always faster than the coastal Croatian one",
     "tip5": "Carry euros in cash. Croatian motorway tolls accept cards, but Bosnian and Albanian fuel stations sometimes do not",
@@ -578,16 +585,18 @@
     "law1": "Croatia: daytime running lights mandatory at all times. Motorway tolls are collected by cash or card at barrier stations",
     "law2": "Albania: lower speed limits on secondary roads than in Montenegro. Livestock on the carriageway is not uncommon outside towns",
     "law3": "Bosnia: winter tyres compulsory from November through April. A first-aid kit and warning triangle must be in the vehicle",
-    "law4": "Serbia: absolute zero-tolerance alcohol limit. Motorways use toll booths \u2014 take a ticket on entry, pay on exit based on distance",
+    "law4": "Serbia: absolute zero-tolerance alcohol limit. Motorways use toll booths — take a ticket on entry, pay on exit based on distance",
     "law5": "Kosovo: right-hand traffic, same as Montenegro. An international driving permit is strongly recommended",
     "popularTitle": "Common Multi-Country Itineraries from Kotor",
     "route1": "Kotor to Dubrovnik: 2 hours on the coastal E65, one border, and arguably the finest short coastal drive in the Mediterranean",
-    "route2": "Kotor to Mostar: 3\u20134 hours via Trebinje. The Stari Most bridge and Ottoman quarter are the draw",
+    "route2": "Kotor to Mostar: 3–4 hours via Trebinje. The Stari Most bridge and Ottoman quarter are the draw",
     "route3": "Kotor to Shkodër: roughly 3 hours through Podgorica and along Lake Skadar. A different country, a different pace entirely",
-    "route4": "Kotor to Belgrade: 6\u20137 hours via Podgorica and the E65 north. Motorway most of the way on the Serbian side",
-    "ctaText": "Looking for a car that comes with cross-border paperwork already sorted? Search our fleet, tick the countries you plan to visit at booking, and the Green Card will be in the glovebox when you collect the keys."
+    "route4": "Kotor to Belgrade: 6–7 hours via Podgorica and the E65 north. Motorway most of the way on the Serbian side",
+    "ctaText": "Looking for a car that comes with cross-border paperwork already sorted? Search our fleet, tick the countries you plan to visit at booking, and the Green Card will be in the glovebox when you collect the keys.",
+    "dubrovnikLinkBefore": "Hiring from ",
+    "dubrovnikLinkText": "Dubrovnik Airport",
+    "dubrovnikLinkAfter": " is the most popular cross-border option."
   },
-
   "blogIndex": {
     "breadcrumbBlog": "Blog",
     "heroTitle": "Kotor Travel Guides",
@@ -612,7 +621,6 @@
     "card_photo_title": "9 Photography Spots Around the Bay",
     "card_photo_excerpt": "From the fortress summit to the Verige strait, these are the shots that make photographers return to Kotor year after year."
   },
-
   "blogWalls": {
     "title": "Climbing the Kotor Fortress Walls",
     "subtitle": "1,350 steps from the medieval gates to the San Giovanni fortress — what to expect at every stage of the ascent.",
@@ -656,7 +664,6 @@
     "glanceEntry": "Entry Fee",
     "glanceEntryVal": "€8 (free Nov–Mar)"
   },
-
   "blogBoat": {
     "title": "Car Rental Meets Boat Trip on the Bay",
     "subtitle": "Drive the bay road to Perast, take a water taxi to Our Lady of the Rocks, and discover corners of the Bay of Kotor that tour buses never reach.",
@@ -695,7 +702,6 @@
     "glanceDuration": "Full Day",
     "glanceDurationVal": "5–7 hours with Blue Cave"
   },
-
   "blogLovcen": {
     "title": "Kotor to Lovćen: 25 Hairpin Bends Above the Bay",
     "subtitle": "The serpentine road from sea level to the Njegoš Mausoleum at 1,657 metres — one of Europe's most dramatic mountain drives.",
@@ -736,7 +742,6 @@
     "glanceBestCar": "Recommended Car",
     "glanceBestCarVal": "Compact with torque (Octavia, Corolla)"
   },
-
   "blogCruise": {
     "title": "Shore Excursion from Kotor Port by Rental Car",
     "subtitle": "Your cruise ship docks at Kotor for 4–8 hours. Here's how to see Perast, the bay road, and the Old Town without joining a group tour.",
@@ -780,7 +785,6 @@
     "glanceTip": "Pro Tip",
     "glanceTipVal": "Book 3+ days before docking"
   },
-
   "blogCats": {
     "title": "The Cats of Kotor: A Self-Guided Walking Trail",
     "subtitle": "Kotor's famous feline residents have their own museum, dedicated shops, and favourite napping spots. Walk their territory through the Old Town's medieval lanes.",
@@ -811,7 +815,6 @@
     "combineP": "After the cat trail, burn off the pastry with a climb to the fortress above. Read our guide to",
     "combineLink": "hiking the Kotor city walls"
   },
-
   "blogDining": {
     "title": "Where to Eat and Drink in Kotor After Dark",
     "subtitle": "Old Town konobas, waterfront seafood, Dobrota wine bars, and the late-night spots that keep going after the cruise ships leave.",
@@ -843,7 +846,6 @@
     "tipParkLabel": "Parking:",
     "tipParkVal": "Free after 8pm in the Tabačina lot outside the Old Town. During the day use the lot past the Vrmac tunnel."
   },
-
   "blogWinter": {
     "title": "Visiting Kotor in the Off-Season: A Winter Guide",
     "subtitle": "Fewer crowds, lower prices, and the bay at its most atmospheric. Why November to March might be the best time to visit Kotor.",
@@ -877,7 +879,6 @@
     "alsoP": "If the weather cooperates and the road is open, a winter drive to the Lovćen summit is extraordinary. Read our guide to",
     "alsoLink": "the Kotor–Lovćen mountain road"
   },
-
   "blogRisan": {
     "title": "The Roman Mosaics of Risan: A Forgotten Bay Stop",
     "subtitle": "A 20-minute drive from Kotor to one of the most overlooked archaeological sites on the Adriatic — second-century floor mosaics in a sleepy bay town.",
@@ -907,7 +908,6 @@
     "glancePeriod": "Period",
     "glancePeriodVal": "2nd century AD (Roman)"
   },
-
   "blogPhoto": {
     "title": "9 Best Photography Locations Around the Bay of Kotor",
     "subtitle": "From the fortress summit to the Verige strait — the shots that make photographers return to this bay year after year.",
@@ -946,11 +946,116 @@
     "accessP": "All nine locations are accessible by car with parking within 200 metres. A full-day photo tour starting at sunrise and ending at sunset can cover all of them with time for coffee stops. If you are arriving by cruise ship, our guide to",
     "accessLink": "self-drive shore excursions from Kotor port"
   },
-
   "blogHome": {
     "sectionLabel": "Travel Guides",
     "sectionTitle": "From Our Blog",
     "sectionSubtitle": "Driving routes, hidden stops, and insider tips for exploring the Bay of Kotor by car.",
     "viewAll": "View all guides"
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "intro": "Have a question about renting a car in Kotor or the Bay of Kotor area? Get in touch and we'll help you find the perfect vehicle for your trip.",
+    "emailLabel": "Email",
+    "whatsappLabel": "WhatsApp",
+    "chatWithUs": "Chat with us",
+    "sendUsMessage": "Send us a message",
+    "yourName": "Your name",
+    "yourEmail": "Your email",
+    "howCanWeHelp": "How can we help?",
+    "sendMessage": "Send Message"
+  },
+  "privacyBody": {
+    "lastUpdated": "Last updated:",
+    "lastUpdatedDate": "April 2026",
+    "whoWeAreTitle": "Who We Are",
+    "whoWeAreText": "Kotor Car Hire operates as an affiliate partner connecting travellers with car rental providers in and around Kotor, Montenegro. Our website is located at kotorcarhire.com. When you use our site, we may collect certain information as described below.",
+    "whatWeCollectTitle": "What Information We Collect",
+    "infoYouProvideTitle": "Information you provide",
+    "infoYouProvideText": "When you use our booking search form, we collect the pickup location, dates, and times you enter in order to find available vehicles. This information is passed to our partner (LocalRent) to generate search results. We do not collect or store payment details — all payments are processed directly by the rental provider.",
+    "autoCollectedTitle": "Information collected automatically",
+    "autoCollected1": "Usage data: pages visited, time spent on site, referring website",
+    "autoCollected2": "Device information: browser type, operating system, screen resolution",
+    "autoCollected3": "IP address: used for approximate location and security purposes",
+    "howWeUseTitle": "How We Use Your Information",
+    "howWeUse1": "To connect you with car rental availability and pricing",
+    "howWeUse2": "To improve our website and user experience",
+    "howWeUse3": "To understand how visitors use our site (analytics)",
+    "howWeUse4": "To respond to enquiries via WhatsApp, Viber, or email",
+    "thirdPartyTitle": "Third-Party Services",
+    "thirdPartyIntro": "Our website uses the following third-party services:",
+    "thirdParty1": "LocalRent: car rental booking widget — processes your search queries and handles all booking and payment",
+    "thirdParty2": "Vercel: website hosting",
+    "thirdParty3": "Pexels: stock photography",
+    "thirdPartyNote": "Each of these services has their own privacy policy governing how they handle data.",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "We use minimal cookies necessary for the website to function. The LocalRent booking widget may set its own cookies for session management and preferences. See our",
+    "cookiesLink": "Cookie Policy",
+    "cookiesAfter": "for details.",
+    "yourRightsTitle": "Your Rights",
+    "yourRightsIntro": "You have the right to:",
+    "right1": "Request access to any personal data we hold about you",
+    "right2": "Request correction or deletion of your data",
+    "right3": "Withdraw consent for data processing",
+    "right4": "Lodge a complaint with a data protection authority",
+    "contactTitle": "Contact",
+    "contactText": "For any privacy-related questions, contact us via email at info@kotorcarhire.com."
+  },
+  "termsBody": {
+    "lastUpdated": "Last updated:",
+    "lastUpdatedDate": "April 2026",
+    "aboutTitle": "About This Website",
+    "aboutText": "Kotor Car Hire (kotorcarhire.com) is an affiliate website that connects travellers with car rental services in and around Kotor, Montenegro. We are not a car rental company — we partner with LocalRent to provide real-time availability and booking services.",
+    "bookingTitle": "Booking & Rental Terms",
+    "bookingText1": "All car rental bookings made through our website are processed and fulfilled by our partner, LocalRent. When you complete a booking, you enter into a rental agreement directly with the vehicle supplier, not with Kotor Car Hire.",
+    "bookingText2": "The rental terms, including cancellation policies, insurance coverage, age requirements, and payment conditions, are set by the vehicle supplier and displayed during the booking process. We recommend reading these terms carefully before confirming any booking.",
+    "roleTitle": "Our Role",
+    "roleProvide": "We provide:",
+    "provide1": "A search interface to browse available rental vehicles",
+    "provide2": "Destination and travel information about Kotor and the Bay of Kotor region",
+    "provide3": "Customer support to help with enquiries before booking",
+    "roleDoNot": "We do not:",
+    "doNot1": "Own, operate, or maintain any rental vehicles",
+    "doNot2": "Process payments or handle refunds",
+    "doNot3": "Set rental prices, insurance terms, or cancellation policies",
+    "pricingTitle": "Pricing",
+    "pricingText": "Prices displayed on our website are provided in real-time by our booking partner and are subject to change. The final price is confirmed at the time of booking. All prices include VAT and mandatory insurance unless otherwise stated.",
+    "contentTitle": "Website Content",
+    "contentText": "We make every effort to ensure that information on this website is accurate and up to date. However, travel information, driving regulations, and border crossing requirements can change. We recommend verifying critical details with official sources before your trip.",
+    "liabilityTitle": "Limitation of Liability",
+    "liabilityIntro": "Kotor Car Hire acts as an intermediary and is not liable for:",
+    "liability1": "The condition or availability of rental vehicles",
+    "liability2": "Actions or omissions by rental suppliers",
+    "liability3": "Losses arising from border crossing issues or documentation problems",
+    "liability4": "Changes to prices after booking confirmation",
+    "ipTitle": "Intellectual Property",
+    "ipText": "All content on this website, including text, design, and graphics, is owned by Kotor Car Hire unless otherwise credited. Stock photography is used under licence from Pexels.",
+    "contactTitle": "Contact",
+    "contactText": "Questions about these terms? Contact us at info@kotorcarhire.com."
+  },
+  "cookieBody": {
+    "lastUpdated": "Last updated:",
+    "lastUpdatedDate": "April 2026",
+    "whatAreCookiesTitle": "What Are Cookies?",
+    "whatAreCookiesText": "Cookies are small text files stored on your device when you visit a website. They help the site remember your preferences and understand how you use it.",
+    "cookiesWeUseTitle": "Cookies We Use",
+    "essentialTitle": "Essential Cookies",
+    "essentialText": "These are necessary for the website to function. They cannot be disabled.",
+    "essential1": "Session cookies: maintain your browsing session while you navigate the site",
+    "essential2": "Preference cookies: remember your language and location selections",
+    "thirdPartyTitle": "Third-Party Cookies",
+    "thirdPartyText": "Our car rental booking widget (provided by LocalRent) may set cookies to:",
+    "thirdParty1": "Remember your search preferences (dates, location)",
+    "thirdParty2": "Maintain your session during the booking process",
+    "thirdParty3": "Track affiliate referrals",
+    "thirdPartyNote": "These cookies are set by LocalRent and are governed by their privacy policy.",
+    "managingTitle": "Managing Cookies",
+    "managingText": "You can control cookies through your browser settings. Most browsers allow you to:",
+    "manage1": "View what cookies are stored",
+    "manage2": "Delete individual or all cookies",
+    "manage3": "Block cookies from specific sites",
+    "manage4": "Block all third-party cookies",
+    "managingNote": "Note that blocking essential cookies may affect the functionality of the booking widget.",
+    "contactTitle": "Contact",
+    "contactText": "Questions about our use of cookies? Contact us at info@kotorcarhire.com."
   }
 }

@@ -199,7 +199,7 @@
   "featureCards": {
     "airportPickup": {
       "title": "Prise en charge à Tivat",
-      "desc": "Nous vous accueillons aux arrivées de Tivat, à seulement 8 km des remparts de la vieille ville. La route de la baie jusqu'à Kotor se fait en 15 minutes \u2014 sans navette, sans attente."
+      "desc": "Nous vous accueillons aux arrivées de Tivat, à seulement 8 km des remparts de la vieille ville. La route de la baie jusqu'à Kotor se fait en 15 minutes — sans navette, sans attente."
     },
     "fullInsurance": {
       "title": "Assurance tous risques",
@@ -207,11 +207,11 @@
     },
     "support": {
       "title": "Assistance 24h/24",
-      "desc": "Bloqué derrière un bus de croisière sur la route de la baie ? Incertain pour le parking Tabacina ? Appelez-nous à tout moment \u2014 nous connaissons chaque mètre de ces routes."
+      "desc": "Bloqué derrière un bus de croisière sur la route de la baie ? Incertain pour le parking Tabacina ? Appelez-nous à tout moment — nous connaissons chaque mètre de ces routes."
     },
     "noHiddenFees": {
       "title": "Aucun frais caché",
-      "desc": "Un prix transparent couvrant assurance, TVA et kilométrage. Ce que vous voyez à la réservation est exactement ce que vous payez à la prise en charge \u2014 rien de plus au comptoir."
+      "desc": "Un prix transparent couvrant assurance, TVA et kilométrage. Ce que vous voyez à la réservation est exactement ce que vous payez à la prise en charge — rien de plus au comptoir."
     },
     "freeCancellation": {
       "title": "Annulation gratuite",
@@ -219,7 +219,7 @@
     },
     "crossBorder": {
       "title": "Transfrontalier",
-      "desc": "Dubrovnik est à 2 heures via le passage de Debeli Brijeg \u2014 carte verte prête à la prise en charge. Bosnie et Albanie également autorisées avec préavis."
+      "desc": "Dubrovnik est à 2 heures via le passage de Debeli Brijeg — carte verte prête à la prise en charge. Bosnie et Albanie également autorisées avec préavis."
     }
   },
   "testimonials": {
@@ -227,10 +227,10 @@
       "text": "La route de la baie entre Kotor et Perast est l'un des plus beaux trajets que nous ayons jamais faits. Nous nous sommes arrêtés à chaque belvédère et avons pris le bateau jusqu'à Notre-Dame du Rocher. Avoir la voiture nous a permis de tout faire à notre propre rythme. Prise en charge facile à Tivat et tout s'est déroulé sans accroc du début à la fin."
     },
     "1": {
-      "text": "Je suis venu à Kotor spécialement pour gravir la forteresse San Giovanni et monter jusqu'au Lovcen. La voiture était prête aux arrivées de Tivat avant même que j'aie trouvé la sortie. La route en lacets jusqu'au mausolée est comme rien de ce que j'ai conduit en Amérique du Nord \u2014 escarpée, étroite, spectaculaire. Je réserverai à nouveau sans hésiter."
+      "text": "Je suis venu à Kotor spécialement pour gravir la forteresse San Giovanni et monter jusqu'au Lovcen. La voiture était prête aux arrivées de Tivat avant même que j'aie trouvé la sortie. La route en lacets jusqu'au mausolée est comme rien de ce que j'ai conduit en Amérique du Nord — escarpée, étroite, spectaculaire. Je réserverai à nouveau sans hésiter."
     },
     "2": {
-      "text": "Notre croisière a accosté à Kotor et nous avons récupéré la voiture directement près du port. Trois jours d'excursions \u2014 Budva, Perast et le monastère de Cetinje. Les enfants ont adoré la sortie en bateau vers l'église-île de Perast. L'équipe a réglé les formalités rapidement et le siège enfant était déjà installé à notre arrivée."
+      "text": "Notre croisière a accosté à Kotor et nous avons récupéré la voiture directement près du port. Trois jours d'excursions — Budva, Perast et le monastère de Cetinje. Les enfants ont adoré la sortie en bateau vers l'église-île de Perast. L'équipe a réglé les formalités rapidement et le siège enfant était déjà installé à notre arrivée."
     }
   },
   "faqItems": {
@@ -240,15 +240,15 @@
     },
     "1": {
       "q": "Puis-je conduire en Croatie ou en Albanie ?",
-      "a": "La Croatie est à 2 heures via le poste frontière de Debeli Brijeg \u2014 nous préparons la carte verte à la réservation. L'Albanie nécessite des documents de carte verte séparés, merci de nous prévenir à l'avance. La Bosnie, la Serbie et le Kosovo sont également autorisés."
+      "a": "La Croatie est à 2 heures via le poste frontière de Debeli Brijeg — nous préparons la carte verte à la réservation. L'Albanie nécessite des documents de carte verte séparés, merci de nous prévenir à l'avance. La Bosnie, la Serbie et le Kosovo sont également autorisés."
     },
     "2": {
       "q": "Y a-t-il un âge minimum ?",
-      "a": "Les conducteurs doivent avoir au moins 21 ans et justifier de 2 ans d'expérience minimum. Un supplément jeune conducteur s'applique pour les moins de 25 ans \u2014 le montant exact varie selon le véhicule et est indiqué dans les résultats de recherche."
+      "a": "Les conducteurs doivent avoir au moins 21 ans et justifier de 2 ans d'expérience minimum. Un supplément jeune conducteur s'applique pour les moins de 25 ans — le montant exact varie selon le véhicule et est indiqué dans les résultats de recherche."
     },
     "3": {
       "q": "Qu'est-ce qui est inclus dans le prix ?",
-      "a": "La responsabilité civile et l'assurance CDW sont incluses dans le prix de base pour tous les véhicules, ainsi que la TVA et le kit de sécurité obligatoire. Le kilométrage illimité est disponible sur la plupart des voitures \u2014 vérifiez la fiche du véhicule avant de réserver."
+      "a": "La responsabilité civile et l'assurance CDW sont incluses dans le prix de base pour tous les véhicules, ainsi que la TVA et le kit de sécurité obligatoire. Le kilométrage illimité est disponible sur la plupart des voitures — vérifiez la fiche du véhicule avant de réserver."
     },
     "4": {
       "q": "Comment se passe la prise en charge à l'aéroport de Tivat ?",
@@ -256,7 +256,7 @@
     },
     "5": {
       "q": "Puis-je restituer le véhicule dans un autre lieu ?",
-      "a": "Les locations en aller simple sont disponibles dans 28 points de prise en charge et de restitution au Monténégro. Sélectionnez des lieux différents lors de la réservation \u2014 des frais de trajet unique peuvent s'appliquer selon la distance."
+      "a": "Les locations en aller simple sont disponibles dans 28 points de prise en charge et de restitution au Monténégro. Sélectionnez des lieux différents lors de la réservation — des frais de trajet unique peuvent s'appliquer selon la distance."
     },
     "6": {
       "q": "Quelle est la politique d'annulation ?",
@@ -264,7 +264,7 @@
     },
     "7": {
       "q": "Un dépôt de garantie est-il requis ?",
-      "a": "La plupart des véhicules nécessitent un dépôt de 100 à 350 € sur une carte de crédit physique au nom du conducteur. Quelques véhicules économiques sont disponibles sans dépôt \u2014 clairement indiqués dans les résultats de recherche. La somme est libérée au retour du véhicule sans dommages."
+      "a": "La plupart des véhicules nécessitent un dépôt de 100 à 350 € sur une carte de crédit physique au nom du conducteur. Quelques véhicules économiques sont disponibles sans dépôt — clairement indiqués dans les résultats de recherche. La somme est libérée au retour du véhicule sans dommages."
     },
     "8": {
       "q": "Que se passe-t-il si je dépasse la limite de kilométrage ?",
@@ -356,7 +356,9 @@
     "dayTripsTitle": "Excursions d'une journée depuis Kotor",
     "perastTrip": "Située dans la ville voisine de Perast, cette église se dresse sur une île artificielle dans la baie de Kotor. Les pêcheurs y déposent des rochers chaque année depuis 1452, agrandissant progressivement l'île. L'accès en ferry coûte environ 1 euro ; les bateaux privés coûtent environ 5 euros. Le trajet en voiture depuis Kotor prend moins de 30 minutes via la E65/E80 Nord.",
     "cetinjeTrip": "Construit en 1701, le monastère abrite la main de Jean-Baptiste. Il présente une décoration ornée et de l'art orthodoxe. Le trajet en voiture depuis Kotor prend environ une heure à travers des routes de montagne pittoresques.",
-    "royalCourtText": "Le palais royal du Monténégro datant de 1871, exposant des œuvres d'art, des objets et des photographies de l'histoire royale du pays. Situé à côté du monastère dans l'ancienne capitale royale."
+    "royalCourtText": "Le palais royal du Monténégro datant de 1871, exposant des œuvres d'art, des objets et des photographies de l'histoire royale du pays. Situé à côté du monastère dans l'ancienne capitale royale.",
+    "perastLinkText": "Roulez jusqu’à Perast",
+    "perastLinkAfter": " — 15 minutes le long de la baie, avec des excursions en bateau vers Notre-Dame du Rocher."
   },
   "budvaBody": {
     "h1": "Budva — Le cœur de la Riviera monténégrine",
@@ -375,7 +377,9 @@
     "kotorTrip": "Un trajet de 30 minutes vers le nord à travers un impressionnant tunnel de montagne vous amène à la baie de Kotor et à sa vieille ville classée au patrimoine mondial de l'UNESCO.",
     "lovcenTrip": "Dirigez-vous vers l'intérieur des terres pour découvrir les paysages de montagne et le mausolée de Njegos, perché à 1 657 mètres d'altitude avec une vue sur quatre pays par temps clair. La route sinueuse depuis la côte est une expérience en soi.",
     "gettingAroundTitle": "Se déplacer",
-    "gettingAroundText": "Bien que la vieille ville de Budva se découvre idéalement à pied, une voiture de location est indispensable pour atteindre les meilleures plages, les villages voisins et les attractions de l'intérieur des terres. Des parkings sont disponibles près des remparts de la vieille ville et dans plusieurs parkings publics le long de la route principale. En plein été, arriver tôt permet de s'assurer les meilleures places."
+    "gettingAroundText": "Bien que la vieille ville de Budva se découvre idéalement à pied, une voiture de location est indispensable pour atteindre les meilleures plages, les villages voisins et les attractions de l'intérieur des terres. Des parkings sont disponibles près des remparts de la vieille ville et dans plusieurs parkings publics le long de la route principale. En plein été, arriver tôt permet de s'assurer les meilleures places.",
+    "tivatLinkText": "Récupérez votre voiture à l'Aéroport de Tivat",
+    "tivatLinkAfter": " et rejoignez Budva en 30 minutes."
   },
   "perastBody": {
     "h1": "Perast — Joyau caché de la baie",
@@ -499,7 +503,10 @@
     "borderTitle": "Passages de frontière",
     "borderText": "Les voyages transfrontaliers sont simples avec les bons documents. Les postes de contrôle peuvent connaître de fortes congestions en haute saison, avec des files de voitures longues d'un kilomètre aux passages les plus fréquentés. Les meilleurs moments pour traverser sont les matinées en semaine ou tard le soir.",
     "nationTitle": "Une jeune nation",
-    "nationText": "Le Monténégro a acquis son indépendance en juin 2006, ce qui en fait l'une des plus jeunes nations du monde. Le développement du tourisme continue de croître, offrant une aventure plus exotique et légèrement plus sauvage par rapport aux pays voisins. Le paysage combine des montagnes verdoyantes traversées par des fjords remplis des eaux bleu profond de l'Adriatique, une variété de plages et les mystères des vieilles villes anciennes."
+    "nationText": "Le Monténégro a acquis son indépendance en juin 2006, ce qui en fait l'une des plus jeunes nations du monde. Le développement du tourisme continue de croître, offrant une aventure plus exotique et légèrement plus sauvage par rapport aux pays voisins. Le paysage combine des montagnes verdoyantes traversées par des fjords remplis des eaux bleu profond de l'Adriatique, une variété de plages et les mystères des vieilles villes anciennes.",
+    "startLinkBefore": "Commencez par la ",
+    "startLinkText": "location de voiture à l'Aéroport de Tivat",
+    "startLinkAfter": " — l'aéroport le plus proche de la baie de Kotor."
   },
   "borderCrossingBody": {
     "h1": "Puis-je emmener ma voiture de location au-delà des frontières ?",
@@ -542,16 +549,18 @@
     "law1": "Croatie : les phares doivent être allumés en permanence. Des péages s'appliquent sur les autoroutes (espèces ou carte)",
     "law2": "Albanie : les limitations de vitesse sont plus basses sur les routes rurales. La qualité des routes varie considérablement",
     "law3": "Bosnie : pneus hiver obligatoires de novembre à avril. Emportez une trousse de premiers secours et un triangle de signalisation",
-    "law4": "Serbie : tolérance zéro absolue pour l'alcool. Les autoroutes utilisent des péages \u2014 prenez un ticket à l'entrée et payez à la sortie selon la distance",
+    "law4": "Serbie : tolérance zéro absolue pour l'alcool. Les autoroutes utilisent des péages — prenez un ticket à l'entrée et payez à la sortie selon la distance",
     "law5": "Kosovo : conduisez à droite. Le permis de conduire international est recommandé",
     "popularTitle": "Itinéraires transfrontaliers populaires",
     "route1": "Tivat → Dubrovnik : 2 heures via la côtière E65. Paysages magnifiques, un seul passage de frontière",
     "route2": "Kotor → Mostar (Bosnie) : 3-4 heures via Trebinje. Visitez le célèbre pont",
     "route3": "Budva → Shkodër (Albanie) : 2h30 via le passage côtier d'Ulcinj",
     "route4": "Podgorica → Belgrade (Serbie) : 5-6 heures via la E65 nord",
-    "ctaText": "Besoin d'une voiture avec les documents transfrontaliers prêts ? Consultez notre flotte — sélectionnez simplement vos pays de destination lors de la réservation et nous nous occupons de la Carte Verte."
+    "ctaText": "Besoin d'une voiture avec les documents transfrontaliers prêts ? Consultez notre flotte — sélectionnez simplement vos pays de destination lors de la réservation et nous nous occupons de la Carte Verte.",
+    "dubrovnikLinkBefore": "La location depuis l'",
+    "dubrovnikLinkText": "Aéroport de Dubrovnik",
+    "dubrovnikLinkAfter": " est l'option transfrontalière la plus populaire."
   },
-
   "blogIndex": {
     "breadcrumbBlog": "Blog",
     "heroTitle": "Guides de Voyage à Kotor",
@@ -576,7 +585,6 @@
     "card_photo_title": "9 spots photo autour de la baie",
     "card_photo_excerpt": "Du sommet de la forteresse au détroit de Verige, voici les clichés qui font revenir les photographes à Kotor année après année."
   },
-
   "blogWalls": {
     "title": "L'ascension des remparts de la forteresse de Kotor",
     "subtitle": "1 350 marches des portes médiévales à la forteresse San Giovanni — ce qui vous attend à chaque étape de l'ascension.",
@@ -620,7 +628,6 @@
     "glanceEntry": "Droit d'entrée",
     "glanceEntryVal": "8 € (gratuit de nov. à mars)"
   },
-
   "blogBoat": {
     "title": "Location de voiture et balade en bateau sur la baie",
     "subtitle": "Longez la baie en voiture jusqu'à Perast, prenez un taxi nautique vers Notre-Dame du Rocher, et découvrez les recoins de la baie de Kotor que les bus touristiques n'atteignent jamais.",
@@ -659,7 +666,6 @@
     "glanceDuration": "Journée complète",
     "glanceDurationVal": "5 à 7 heures avec la Grotte Bleue"
   },
-
   "blogLovcen": {
     "title": "Kotor vers le Lovćen : 25 virages en épingle au-dessus de la baie",
     "subtitle": "La route serpentine du niveau de la mer au mausolée de Njegoš à 1 657 mètres — l'une des routes de montagne les plus spectaculaires d'Europe.",
@@ -700,7 +706,6 @@
     "glanceBestCar": "Voiture recommandée",
     "glanceBestCarVal": "Compacte avec du couple (Octavia, Corolla)"
   },
-
   "blogCruise": {
     "title": "Excursion à terre depuis le port de Kotor en voiture de location",
     "subtitle": "Votre navire de croisière accoste à Kotor pour 4 à 8 heures. Voici comment voir Perast, la route de la baie et la vieille ville sans rejoindre une excursion de groupe.",
@@ -744,7 +749,6 @@
     "glanceTip": "Conseil",
     "glanceTipVal": "Réservez au moins 3 jours avant l'escale"
   },
-
   "blogCats": {
     "title": "Les chats de Kotor : un parcours pédestre autoguidé",
     "subtitle": "Les célèbres résidents félins de Kotor possèdent leur propre musée, des boutiques dédiées et des coins sieste favoris. Parcourez leur territoire à travers les ruelles médiévales de la vieille ville.",
@@ -775,7 +779,6 @@
     "combineP": "Après le parcours félin, éliminez la pâtisserie en grimpant jusqu'à la forteresse. Consultez notre guide de",
     "combineLink": "la randonnée sur les remparts de Kotor"
   },
-
   "blogDining": {
     "title": "Où manger et boire à Kotor après la tombée de la nuit",
     "subtitle": "Konobas de la vieille ville, fruits de mer en bord de mer, bars à vin de Dobrota et les adresses nocturnes qui restent ouvertes après le départ des navires de croisière.",
@@ -807,7 +810,6 @@
     "tipParkLabel": "Stationnement :",
     "tipParkVal": "Gratuit après 20 h au parking Tabačina devant la vieille ville. En journée, utilisez le parking après le tunnel du Vrmac."
   },
-
   "blogWinter": {
     "title": "Visiter Kotor hors saison : guide hivernal",
     "subtitle": "Moins de foule, des prix plus bas et la baie dans toute sa splendeur atmosphérique. Pourquoi novembre à mars est peut-être la meilleure période pour visiter Kotor.",
@@ -841,7 +843,6 @@
     "alsoP": "Si la météo coopère et que la route est ouverte, une montée hivernale au sommet du Lovćen est extraordinaire. Consultez notre guide de",
     "alsoLink": "la route de montagne Kotor–Lovćen"
   },
-
   "blogRisan": {
     "title": "Les mosaïques romaines de Risan : une étape oubliée de la baie",
     "subtitle": "20 minutes de route depuis Kotor jusqu'à l'un des sites archéologiques les plus méconnus de l'Adriatique — des mosaïques de sol du IIe siècle dans un paisible village de la baie.",
@@ -871,7 +872,6 @@
     "glancePeriod": "Époque",
     "glancePeriodVal": "IIe siècle apr. J.-C. (romain)"
   },
-
   "blogPhoto": {
     "title": "Les 9 meilleurs spots photo autour de la baie de Kotor",
     "subtitle": "Du sommet de la forteresse au détroit de Verige — les clichés qui font revenir les photographes dans cette baie année après année.",
@@ -910,11 +910,116 @@
     "accessP": "Les neuf emplacements sont accessibles en voiture avec un parking à moins de 200 mètres. Un tour photo d'une journée complète du lever au coucher du soleil peut les couvrir tous avec le temps pour des pauses café. Si vous arrivez en navire de croisière, consultez notre guide des",
     "accessLink": "excursions à terre en voiture depuis le port de Kotor"
   },
-
   "blogHome": {
     "sectionLabel": "Guides de voyage",
     "sectionTitle": "Sur notre blog",
     "sectionSubtitle": "Itinéraires en voiture, étapes secrètes et conseils d'initiés pour explorer la baie de Kotor en voiture.",
     "viewAll": "Voir tous les guides"
+  },
+  "contactPage": {
+    "title": "Contactez-nous",
+    "intro": "Vous avez une question sur la location de voiture à Kotor ou dans la baie de Kotor ? Contactez-nous et nous vous aiderons à trouver le véhicule idéal pour votre voyage.",
+    "emailLabel": "Email",
+    "whatsappLabel": "WhatsApp",
+    "chatWithUs": "Écrivez-nous",
+    "sendUsMessage": "Envoyez-nous un message",
+    "yourName": "Votre nom",
+    "yourEmail": "Votre email",
+    "howCanWeHelp": "Comment pouvons-nous vous aider ?",
+    "sendMessage": "Envoyer le message"
+  },
+  "privacyBody": {
+    "lastUpdated": "Dernière mise à jour :",
+    "lastUpdatedDate": "Avril 2026",
+    "whoWeAreTitle": "Qui sommes-nous",
+    "whoWeAreText": "Kotor Car Hire est un partenaire affilié qui met en relation les voyageurs avec des loueurs de voitures à Kotor et ses environs, au Monténégro. Notre site est kotorcarhire.com.",
+    "whatWeCollectTitle": "Informations que nous collectons",
+    "infoYouProvideTitle": "Informations que vous fournissez",
+    "infoYouProvideText": "Lorsque vous utilisez notre formulaire de recherche, nous collectons le lieu, les dates et horaires pour trouver des véhicules disponibles. Ces informations sont transmises à notre partenaire (LocalRent). Nous ne collectons pas de données de paiement — tous les paiements sont traités directement par le fournisseur.",
+    "autoCollectedTitle": "Informations collectées automatiquement",
+    "autoCollected1": "Données d'utilisation : pages visitées, temps passé sur le site, site de provenance",
+    "autoCollected2": "Informations appareil : type de navigateur, système d'exploitation, résolution écran",
+    "autoCollected3": "Adresse IP : pour la localisation approximative et la sécurité",
+    "howWeUseTitle": "Comment nous utilisons vos informations",
+    "howWeUse1": "Pour vous proposer la disponibilité et les tarifs de location",
+    "howWeUse2": "Pour améliorer notre site et l'expérience utilisateur",
+    "howWeUse3": "Pour comprendre comment les visiteurs utilisent le site (analyses)",
+    "howWeUse4": "Pour répondre aux demandes via WhatsApp, Viber ou email",
+    "thirdPartyTitle": "Services tiers",
+    "thirdPartyIntro": "Notre site utilise les services tiers suivants :",
+    "thirdParty1": "LocalRent : widget de réservation — traite vos recherches et gère réservations et paiements",
+    "thirdParty2": "Vercel : hébergement du site",
+    "thirdParty3": "Pexels : photographie stock",
+    "thirdPartyNote": "Chacun de ces services possède sa propre politique de confidentialité.",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "Nous utilisons uniquement les cookies nécessaires au fonctionnement du site. Le widget LocalRent peut définir ses propres cookies. Consultez notre",
+    "cookiesLink": "Politique de cookies",
+    "cookiesAfter": "pour plus de détails.",
+    "yourRightsTitle": "Vos droits",
+    "yourRightsIntro": "Vous avez le droit de :",
+    "right1": "Demander l'accès à vos données personnelles",
+    "right2": "Demander la correction ou la suppression de vos données",
+    "right3": "Retirer votre consentement au traitement des données",
+    "right4": "Déposer une plainte auprès d'une autorité de protection des données",
+    "contactTitle": "Contact",
+    "contactText": "Pour toute question relative à la confidentialité, contactez-nous par email à info@kotorcarhire.com."
+  },
+  "termsBody": {
+    "lastUpdated": "Dernière mise à jour :",
+    "lastUpdatedDate": "Avril 2026",
+    "aboutTitle": "À propos de ce site",
+    "aboutText": "Kotor Car Hire (kotorcarhire.com) est un site affilié qui met en relation les voyageurs avec des services de location de voitures à Kotor, Monténégro. Nous ne sommes pas une société de location — nous collaborons avec LocalRent.",
+    "bookingTitle": "Conditions de réservation et de location",
+    "bookingText1": "Toutes les réservations sont traitées par notre partenaire LocalRent. Vous concluez un contrat directement avec le fournisseur du véhicule, pas avec Kotor Car Hire.",
+    "bookingText2": "Les conditions de location, y compris les politiques d'annulation, la couverture d'assurance, les exigences d'âge et les conditions de paiement, sont définies par le fournisseur. Nous vous recommandons de les lire attentivement.",
+    "roleTitle": "Notre rôle",
+    "roleProvide": "Nous fournissons :",
+    "provide1": "Une interface de recherche pour les véhicules disponibles",
+    "provide2": "Des informations sur les destinations et voyages à Kotor et dans la baie",
+    "provide3": "Un support client pour les questions avant réservation",
+    "roleDoNot": "Nous ne :",
+    "doNot1": "Possédons, exploitons ou entretenons des véhicules",
+    "doNot2": "Traitons les paiements ou les remboursements",
+    "doNot3": "Fixons les prix, conditions d'assurance ou politiques d'annulation",
+    "pricingTitle": "Tarifs",
+    "pricingText": "Les prix sont fournis en temps réel par notre partenaire et peuvent évoluer. Le prix final est confirmé lors de la réservation. Tous les prix incluent la TVA et l'assurance obligatoire.",
+    "contentTitle": "Contenu du site",
+    "contentText": "Nous nous efforçons de maintenir les informations à jour. Cependant, les informations de voyage et réglementations peuvent changer. Vérifiez les détails importants auprès de sources officielles.",
+    "liabilityTitle": "Limitation de responsabilité",
+    "liabilityIntro": "Kotor Car Hire, en tant qu'intermédiaire, n'est pas responsable de :",
+    "liability1": "L'état ou la disponibilité des véhicules",
+    "liability2": "Les actions ou omissions des fournisseurs",
+    "liability3": "Les pertes liées aux passages frontaliers ou aux problèmes documentaires",
+    "liability4": "Les modifications de prix après confirmation",
+    "ipTitle": "Propriété intellectuelle",
+    "ipText": "Tout le contenu du site appartient à Kotor Car Hire. Les photos stock sont utilisées sous licence de Pexels.",
+    "contactTitle": "Contact",
+    "contactText": "Questions sur ces conditions ? Contactez-nous à info@kotorcarhire.com."
+  },
+  "cookieBody": {
+    "lastUpdated": "Dernière mise à jour :",
+    "lastUpdatedDate": "Avril 2026",
+    "whatAreCookiesTitle": "Que sont les cookies ?",
+    "whatAreCookiesText": "Les cookies sont de petits fichiers texte stockés sur votre appareil lors de la visite d'un site web. Ils aident le site à mémoriser vos préférences.",
+    "cookiesWeUseTitle": "Cookies que nous utilisons",
+    "essentialTitle": "Cookies essentiels",
+    "essentialText": "Nécessaires au fonctionnement du site, ils ne peuvent pas être désactivés.",
+    "essential1": "Cookies de session : maintiennent votre session de navigation",
+    "essential2": "Cookies de préférences : mémorisent votre langue et vos sélections",
+    "thirdPartyTitle": "Cookies tiers",
+    "thirdPartyText": "Notre widget de réservation (fourni par LocalRent) peut définir des cookies pour :",
+    "thirdParty1": "Mémoriser vos préférences de recherche (dates, lieu)",
+    "thirdParty2": "Maintenir votre session pendant la réservation",
+    "thirdParty3": "Suivre les références d'affiliation",
+    "thirdPartyNote": "Ces cookies sont définis par LocalRent et régis par leur politique de confidentialité.",
+    "managingTitle": "Gérer les cookies",
+    "managingText": "Vous pouvez contrôler les cookies via les paramètres de votre navigateur. La plupart des navigateurs permettent de :",
+    "manage1": "Voir les cookies stockés",
+    "manage2": "Supprimer des cookies individuels ou tous",
+    "manage3": "Bloquer les cookies de sites spécifiques",
+    "manage4": "Bloquer tous les cookies tiers",
+    "managingNote": "Le blocage des cookies essentiels peut affecter le fonctionnement du widget de réservation.",
+    "contactTitle": "Contact",
+    "contactText": "Questions sur notre utilisation des cookies ? Contactez-nous à info@kotorcarhire.com."
   }
 }

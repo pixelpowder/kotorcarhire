@@ -11,53 +11,53 @@ export default function Privacy() {
       description={t("privacy.seoDesc")}
       image="/img/kotor-bay-aerial.webp"
     >
-      <p><strong>Last updated:</strong> April 2026</p>
+      <p><strong>{t('privacyBody.lastUpdated')}</strong> {t('privacyBody.lastUpdatedDate')}</p>
 
-      <h2>Who We Are</h2>
-      <p>Kotor Car Hire operates as an affiliate partner connecting travellers with car rental providers in and around Kotor, Montenegro. Our website is located at kotorcarhire.com. When you use our site, we may collect certain information as described below.</p>
+      <h2>{t('privacyBody.whoWeAreTitle')}</h2>
+      <p>{t('privacyBody.whoWeAreText')}</p>
 
-      <h2>What Information We Collect</h2>
-      <h3>Information you provide</h3>
-      <p>When you use our booking search form, we collect the pickup location, dates, and times you enter in order to find available vehicles. This information is passed to our partner (LocalRent) to generate search results. We do not collect or store payment details — all payments are processed directly by the rental provider.</p>
+      <h2>{t('privacyBody.whatWeCollectTitle')}</h2>
+      <h3>{t('privacyBody.infoYouProvideTitle')}</h3>
+      <p>{t('privacyBody.infoYouProvideText')}</p>
 
-      <h3>Information collected automatically</h3>
+      <h3>{t('privacyBody.autoCollectedTitle')}</h3>
       <ul>
-        <li><strong>Usage data:</strong> pages visited, time spent on site, referring website</li>
-        <li><strong>Device information:</strong> browser type, operating system, screen resolution</li>
-        <li><strong>IP address:</strong> used for approximate location and security purposes</li>
+        <li><strong>{t('privacyBody.autoCollected1')}</strong></li>
+        <li><strong>{t('privacyBody.autoCollected2')}</strong></li>
+        <li><strong>{t('privacyBody.autoCollected3')}</strong></li>
       </ul>
 
-      <h2>How We Use Your Information</h2>
+      <h2>{t('privacyBody.howWeUseTitle')}</h2>
       <ul>
-        <li>To connect you with car rental availability and pricing</li>
-        <li>To improve our website and user experience</li>
-        <li>To understand how visitors use our site (analytics)</li>
-        <li>To respond to enquiries via WhatsApp, Viber, or email</li>
+        <li>{t('privacyBody.howWeUse1')}</li>
+        <li>{t('privacyBody.howWeUse2')}</li>
+        <li>{t('privacyBody.howWeUse3')}</li>
+        <li>{t('privacyBody.howWeUse4')}</li>
       </ul>
 
-      <h2>Third-Party Services</h2>
-      <p>Our website uses the following third-party services:</p>
+      <h2>{t('privacyBody.thirdPartyTitle')}</h2>
+      <p>{t('privacyBody.thirdPartyIntro')}</p>
       <ul>
-        <li><strong>LocalRent:</strong> car rental booking widget — processes your search queries and handles all booking and payment</li>
-        <li><strong>Vercel:</strong> website hosting</li>
-        <li><strong>Pexels:</strong> stock photography</li>
+        <li><strong>{t('privacyBody.thirdParty1')}</strong></li>
+        <li><strong>{t('privacyBody.thirdParty2')}</strong></li>
+        <li><strong>{t('privacyBody.thirdParty3')}</strong></li>
       </ul>
-      <p>Each of these services has their own privacy policy governing how they handle data.</p>
+      <p>{t('privacyBody.thirdPartyNote')}</p>
 
-      <h2>Cookies</h2>
-      <p>We use minimal cookies necessary for the website to function. The LocalRent booking widget may set its own cookies for session management and preferences. See our <a href={localePath("/cookie-policy")}>Cookie Policy</a> for details.</p>
+      <h2>{t('privacyBody.cookiesTitle')}</h2>
+      <p>{t('privacyBody.cookiesText')} <a href={localePath("/cookie-policy")}>{t('privacyBody.cookiesLink')}</a> {t('privacyBody.cookiesAfter')}</p>
 
-      <h2>Your Rights</h2>
-      <p>You have the right to:</p>
+      <h2>{t('privacyBody.yourRightsTitle')}</h2>
+      <p>{t('privacyBody.yourRightsIntro')}</p>
       <ul>
-        <li>Request access to any personal data we hold about you</li>
-        <li>Request correction or deletion of your data</li>
-        <li>Withdraw consent for data processing</li>
-        <li>Lodge a complaint with a data protection authority</li>
+        <li>{t('privacyBody.right1')}</li>
+        <li>{t('privacyBody.right2')}</li>
+        <li>{t('privacyBody.right3')}</li>
+        <li>{t('privacyBody.right4')}</li>
       </ul>
 
-      <h2>Contact</h2>
-      <p>For any privacy-related questions, contact us via email at info@kotorcarhire.com.</p>
+      <h2>{t('privacyBody.contactTitle')}</h2>
+      <p>{t('privacyBody.contactText')}</p>
     </ContentPage>
   );
 }
