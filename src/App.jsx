@@ -472,42 +472,6 @@ function Features() {
   );
 }
 
-/* ─── TRUSTPILOT BANNER ────────────────────────────────── */
-function TrustpilotBanner() {
-  const ref = useRef(null);
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    if (window.Trustpilot && ref.current) {
-      window.Trustpilot.loadFromElement(ref.current, true);
-    }
-    // Check if the widget rendered visible content
-    const timer = setTimeout(() => {
-      const iframe = ref.current?.querySelector('iframe');
-      if (iframe && iframe.offsetHeight > 10) setVisible(true);
-    }, 3000);
-    return () => clearTimeout(timer);
-  }, []);
-
-  return (
-    <div className="trustpilot-banner" style={{ display: visible ? 'block' : 'none' }}>
-      <div className="container">
-        <div
-          ref={ref}
-          className="trustpilot-widget"
-          data-locale="en-US"
-          data-template-id="56278e9abfbbba0bdcd568bc"
-          data-businessunit-id="69cfbd3879267ca5424dbeb8"
-          data-style-height="52px"
-          data-style-width="100%"
-          data-token="048c09ab-d890-4af6-91a4-0c5532f846df"
-        >
-          <a href="https://www.trustpilot.com/review/kotorcarhire.com" target="_blank" rel="noopener">Trustpilot</a>
-        </div>
-      </div>
-    </div>
-  );
-}
 
 /* ─── REVIEWS ──────────────────────────────────────────── */
 function Reviews() {
