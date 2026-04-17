@@ -242,7 +242,6 @@ function Hero() {
             <span className="hero__badge"><CheckCircle size={14} /> {t('hero.badges.freeCancellation')}</span>
             <span className="hero__badge"><ShieldCheck size={14} /> {t('hero.badges.fullInsurance')}</span>
             <span className="hero__badge"><Clock size={14} /> {t('hero.badges.airportPickup')}</span>
-            <span className="hero__badge hero__badge--accent"><Star size={14} fill="currentColor" /> {t('hero.badges.trustpilot')}</span>
           </div>
 
           <div className="booking-card">
