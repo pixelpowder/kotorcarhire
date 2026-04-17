@@ -794,7 +794,7 @@ export default function App() {
           <Hero />
           <TrustStrip />
         </div>
-        <Reviews />
+        {/* <Reviews /> */}
         <Fleet />
         <CruiseVisitors />
         <Destinations />
