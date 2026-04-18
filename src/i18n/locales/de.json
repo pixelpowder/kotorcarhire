@@ -3,7 +3,8 @@
     "book": "Buchen",
     "destinations": "Reiseziele",
     "about": "Über uns",
-    "blog": "Blog"
+    "blog": "Blog",
+    "contact": "Kontakt"
   },
   "common": {
     "home": "Startseite",
@@ -18,7 +19,7 @@
     "badges": {
       "freeCancellation": "Kostenlose Stornierung",
       "fullInsurance": "Vollkasko inklusive",
-      "airportPickup": "Tivat Airport 8 km",
+      "airportPickup": "Flughafen Tivat 8 km",
       "trustpilot": "4.8/5 auf Trustpilot"
     },
     "search": "Suchen",
@@ -27,7 +28,8 @@
     "pickupDate": "Abholdatum",
     "pickupTime": "Uhrzeit",
     "dropoffDate": "Rückgabedatum",
-    "dropoffTime": "Uhrzeit"
+    "dropoffTime": "Uhrzeit",
+    "selectDates": "Daten wählen"
   },
   "trust": {
     "noHiddenFees": "Keine versteckten Kosten",
@@ -92,7 +94,9 @@
     "bookText": "Echtzeit-Verfügbarkeit und Preise in ganz Montenegro durchsuchen.",
     "helpTitle": "Brauchen Sie Hilfe?",
     "helpText": "Unser Team ist per WhatsApp, Viber oder Telefon erreichbar.",
-    "popularDest": "Beliebte Reiseziele"
+    "popularDest": "Beliebte Reiseziele",
+    "tivatAirport": "Flughafen Tivat",
+    "dubrovnikAirport": "Flughafen Dubrovnik"
   },
   "book": {
     "title": "Finden Sie Ihr Auto",
@@ -114,7 +118,10 @@
     "searchCars": "Autos suchen",
     "privacyPolicy": "Datenschutzrichtlinie",
     "terms": "Allgemeine Geschäftsbedingungen",
-    "cookiePolicy": "Cookie-Richtlinie"
+    "cookiePolicy": "Cookie-Richtlinie",
+    "testimonials": "Bewertungen",
+    "sitemap": "Sitemap",
+    "tivatAirport": "Flughafen Tivat"
   },
   "notFound": {
     "code": "404",
@@ -129,12 +136,63 @@
   "about": {
     "title": "Über uns",
     "subtitle": "Wir helfen Reisenden seit 2007, Montenegro zu entdecken.",
-    "seoDesc": "Über Kotor Car Hire. Seit 2007 helfen wir Reisenden, Montenegro mit zuverlässigen Mietwagen, Flughafenzustellung und lokaler Expertise zu entdecken."
+    "seoDesc": "Über Kotor Car Hire. Seit 2007 helfen wir Reisenden, Montenegro mit zuverlässigen Mietwagen, Flughafenzustellung und lokaler Expertise zu entdecken.",
+    "heading1": "Kotor Car Hire",
+    "p1": "Kotor Car Hire verbindet Reisende mit zuverlässigen und günstigen Mietwagen in der Bucht von Kotor. Wir sind ein unabhängiger Partner, der mit vertrauenswürdigen lokalen Autovermietungen zusammenarbeitet, um es Besuchern zu erleichtern, diese UNESCO-geschützte Ecke der Adria zu erkunden.",
+    "heading2": "Warum wir angefangen haben",
+    "p2": "Die Bucht von Kotor wird am besten in Ihrem eigenen Tempo erlebt. Die Serpentinenstraße entlang der Bucht, versteckte Berndörfer und mittelalterliche Städte sind schwer mit öffentlichen Verkehrsmitteln zu erreichen. Wir sahen die Gelegenheit, Reisenden die Freiheit zu geben, Kotor und seine Umgebung auf ihre eigene Art zu entdecken: keine Busfahrplan-Zwänge, keine verpassten Aussichtspunkte, keine Kompromisse.",
+    "heading3": "Was wir bieten",
+    "p3a": "Wir bieten Autovermietungsdienste in der gesamten",
+    "p3Link1": "Bucht von Kotor",
+    "p3b": "an, mit Abholung und Rückgabe am",
+    "p3Link2": "Flughafen Tivat",
+    "p3c": ",",
+    "p3Link3": "Kotor Altstadt",
+    "p3d": ", und an Standorten entlang der Küste und im Landesinneren.",
+    "promiseTitle": "Unser Versprechen",
+    "promise1": "Vollversicherung mit optionen ohne Selbstbeteiligung verfügbar",
+    "promise2": "Meet-and-Greet am Flughafen Tivat: Wir bringen das Auto zu Ihnen in die Ankunftshalle",
+    "promise3": "Keine versteckten Gebühren: Der angezeigte Preis ist der Preis, den Sie zahlen",
+    "promise4": "Grenzüberschreitende Fahrten nach Kroatien, Bosnien, Albanien, Serbien und dem Kosovo gestattet",
+    "promise5": "Kostenlose Stornierung bei den meisten Buchungen",
+    "promise6": "24/7 Pannenhilfe während Ihrer gesamten Reise",
+    "localTitle": "Lokale Kenntnisse",
+    "localText": "Basierend in Kotor kennen wir jede Straße um die Bucht: die besten Routen, die versteckten Schätze und die Abkürzungen, die Reiseführer nicht nennen. Ob Sie vom",
+    "localLink1": "Flughafen Tivat",
+    "localMid": "zur",
+    "localLink2": "Kotor",
+    "localMid2": "UNESCO-Altstadt fahren, die malerische Buchtstraße nach",
+    "localLink3": "Perast",
+    "localEnd": "nehmen oder die Serpentine zum Lovćen Nationalpark hinauffahren, wir können Ihnen helfen, die perfekte Autoreise zu planen.",
+    "contactTitle": "Kontaktieren Sie uns",
+    "contactText": "Haben Sie eine Frage zur Autovermietung in Kotor? Wir sind per Telefon, WhatsApp und Viber erreichbar. Durchsuchen Sie unsere Flotte online und buchen Sie in wenigen Minuten, oder kontaktieren Sie uns und wir helfen Ihnen, das perfekte Auto für Ihre Reise zu finden."
   },
   "kotor": {
     "title": "Mietwagen in Kotor",
     "subtitle": "Entdecken Sie Montenegros UNESCO-Juwel in Ihrem eigenen Tempo.",
-    "seoDesc": "Mietwagen in Kotor, Montenegro. Entdecken Sie die UNESCO-Altstadt, die Bucht von Kotor und das nahe Perast mit günstiger Autovermietung und kostenloser Flughafenzustellung."
+    "seoDesc": "Mietwagen in Kotor, Montenegro. Entdecken Sie die UNESCO-Altstadt, die Bucht von Kotor und das nahe Perast mit günstiger Autovermietung und kostenloser Flughafenzustellung.",
+    "heading1": "Kotor: UNESCO-Weltkulturerbe",
+    "p1": "Kotor ist eine der am besten erhaltenen mittelalterlichen Städte an der Adria und liegt am Kopf einer dramatischen fjordähnlichen Bucht. Die UNESCO-geschützte Altstadt ist ein Labyrinth aus engen Gassen, venezianischen Palästen, romanischen Kirchen und lebhaften Plätzen. Darüber thront die Festung San Giovanni mit 1.200 Stufen und bietet einen atemberaubenden Blick über die Bucht.",
+    "p2a": "Ein Auto in Kotor zu mieten",
+    "p2b": "gibt Ihnen die Freiheit, die gesamte Bucht und darüber hinaus zu erkunden. Der Flughafen Tivat ist nur 8 km entfernt, eine 15-Minuten-Fahrt. Parkplätze sind außerhalb der Altstadt-Mauern verfügbar, mit größeren Parkplätzen auf den Zufahrtsstraßen.",
+    "landmarksTitle": "Sehenswürdigkeiten",
+    "stJohnTitle": "Festung San Giovanni",
+    "stJohnText": "Die Befestigungsanlagen oberhalb von Kotor stammen aus dem 6. Jahrhundert und wurden von den Venezianern erweitert. Die 1.200 Stufen bis zur Spitze belohnen mit Panoramablicken auf die Bucht, die Dächer der Altstadt und die umliegenden Berge. Der Eintritt ist außerhalb der Hauptsaison frei.",
+    "cathedralTitle": "St. Tryphon Kathedrale",
+    "cathedralText": "Die Kathedrale von St. Tryphon wurde 809 erbaut und 1124 wiedererrichtet und ist eines der schönsten romanischen Gebäude an der Adriatischen Küste. Die beiden Glockentürme sind Kotors markanteste Sehenswürdigkeit, und im Inneren befindet sich eine Sammlung mittelalterlicher Gold- und Silberarbeiten.",
+    "dayTripsTitle": "Tagesausflüge von Kotor",
+    "ladyOfRocksTitle": "Unsere Liebe Frau der Felsen, Perast",
+    "ladyOfRocksText1": "Gelegen in der Nähe von",
+    "ladyOfRocksLink": "Perast",
+    "ladyOfRocksText2": ", sitzt diese Kirche auf einer künstlich angelegten Insel in der Bucht von Kotor. Seit 1452 werfen Einheimische Steine in die Bucht, um die Insel zu vergrößern. Fähren fahren vom Hafen Perast für wenige Euro ab. Die Fahrt von Kotor dauert 15 Minuten entlang der Buchtstraße.",
+    "cetinjeTitle": "Cetinje Kloster",
+    "cetinjeText": "Das 1701 erbaut Kloster beherbergt Reliquien, darunter die Hand Johannes des Täufers. Die Fahrt von Kotor dauert etwa eine Stunde durch die malerische Bergstraße über das Njegos Mausoleum und den Lovcen Nationalpark.",
+    "royalCourtTitle": "Königlicher Palast in Cetinje",
+    "royalCourtText": "Montenegros königlicher Palast von 1871, gelegen in der ehemaligen königlichen Hauptstadt. Zeigt Kunstwerke, Artefakte und Fotografien aus der königlichen Geschichte des Landes.",
+    "routeDifficulty": "Moderat: enge Gassen in der Altstadt, normale Straßen in der Nähe",
+    "routeVehicle": "Kompaktwagen (erleichtert das Parken in der Nähe der Altstadt)",
+    "routeParking": "Begrenzt in der Altstadt. Nutzen Sie Parkplätze auf den Zufahrtsstraßen (1-2 Euro/Stunde)",
+    "routeDistances": "Vom Flughafen Tivat: 15 Minuten · Von Budva: 30 Minuten"
   },
   "tivat-airport": {
     "title": "Mietwagen am Flughafen Tivat",
@@ -206,7 +264,7 @@
       "desc": "Option ohne Selbstbeteiligung verfügbar. Ob Sie durch die engen Gassen der Altstadt oder über die Serpentinen des Lovcen fahren — Sie sind rundum abgesichert."
     },
     "support": {
-      "title": "24/7 Support",
+      "title": "24/7 Unterstützung",
       "desc": "Hinter einem Kreuzfahrtbus auf der Buchtstraße festgesteckt? Unsicher wegen des Tabacina-Parkplatzes? Rufen Sie uns jederzeit an — wir kennen jeden Meter dieser Straßen."
     },
     "noHiddenFees": {
@@ -1021,5 +1079,31 @@
     "managingNote": "Beachten Sie, dass das Blockieren essenzieller Cookies die Funktion des Buchungs-Widgets beeinträchtigen kann.",
     "contactTitle": "Kontakt",
     "contactText": "Fragen zur Verwendung von Cookies? Kontaktieren Sie uns unter info@kotorcarhire.com."
+  },
+  "contentPage": {
+    "youMightAlsoLike": "Das könnte dir auch gefallen",
+    "readyCta": "Bereit, Kotor zu erkunden?",
+    "searchCars": "Autos suchen"
+  },
+  "relatedGuides": {
+    "secretChurches": "Verborgene Ecken",
+    "vrmacRidge": "Malerische Strecken",
+    "swimmingSpots": "Beste Badeplätze"
+  },
+  "navTop": {
+    "carRental": "Mietwagen",
+    "destinations": "Ziele",
+    "travelGuides": "Reiseführer",
+    "bokaBayRentals": "Mietwagen in der Bucht"
+  },
+  "cookieBanner": {
+    "title": "Cookie-Richtlinie",
+    "text": "Wir verwenden Cookies, um dein Erlebnis zu verbessern. Wenn du diese Website weiter nutzt, stimmst du unserer",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "seoDesc": "Kontaktieren Sie Kotor Car Rental. E-Mail, WhatsApp und Kontaktformular."
   }
 }

@@ -3,7 +3,8 @@
     "book": "Rezerviši",
     "destinations": "Destinacije",
     "about": "O Nama",
-    "blog": "Blog"
+    "blog": "Blog",
+    "contact": "Kontakt"
   },
   "common": {
     "home": "Početna",
@@ -27,7 +28,8 @@
     "pickupDate": "Datum preuzimanja",
     "pickupTime": "Vrijeme",
     "dropoffDate": "Datum vraćanja",
-    "dropoffTime": "Vrijeme"
+    "dropoffTime": "Vrijeme",
+    "selectDates": "Odaberite datume"
   },
   "trust": {
     "noHiddenFees": "Bez Skrivenih Troškova",
@@ -92,7 +94,9 @@
     "bookText": "Pretražite dostupnost i cijene u realnom vremenu širom Crne Gore.",
     "helpTitle": "Trebate Pomoć?",
     "helpText": "Naš tim je dostupan putem WhatsApp, Viber ili telefona.",
-    "popularDest": "Popularne Destinacije"
+    "popularDest": "Popularne Destinacije",
+    "tivatAirport": "Aerodrom Tivat",
+    "dubrovnikAirport": "Aerodrom Dubrovnik"
   },
   "book": {
     "title": "Pronađite Vaš Auto",
@@ -114,7 +118,10 @@
     "searchCars": "Pretraži Auta",
     "privacyPolicy": "Politika Privatnosti",
     "terms": "Uslovi Korišćenja",
-    "cookiePolicy": "Politika Kolačića"
+    "cookiePolicy": "Politika Kolačića",
+    "testimonials": "Iskustva putnika",
+    "sitemap": "Mapa sajta",
+    "tivatAirport": "Aerodrom Tivat"
   },
   "notFound": {
     "code": "404",
@@ -129,12 +136,63 @@
   "about": {
     "title": "O Nama",
     "subtitle": "Pomažemo putnicima da istraže Crnu Goru od 2007.",
-    "seoDesc": "O Crna Gora Car Hire. Od 2007. pomažemo putnicima da istraže Crnu Goru sa pouzdanim automobilima, isporukom na aerodrom i lokalnom ekspertizom."
+    "seoDesc": "O Crna Gora Car Hire. Od 2007. pomažemo putnicima da istraže Crnu Goru sa pouzdanim automobilima, isporukom na aerodrom i lokalnom ekspertizom.",
+    "heading1": "Kotor Car Hire",
+    "p1": "Kotor Car Hire povezuje putnika sa pouzdanim i pristupačnim automobilima za iznajmljivanje u Bokokotorskom zaljevu. Radimo kao nezavisna agencija u saradnji sa povjerenim lokalnim partnerima, čineći lakšim posjetiteljima da istraže ovaj UNESCO-zaštićeni dio Jadrana.",
+    "heading2": "Zašto smo pokrenuli posao",
+    "p2": "Bokokotorski zaljev se najbolje doživljava vlastitim tempom. Vijugavi put oko zaljeva, skrivena planinska sela i srednjovjekovni gradovi teško su dostupni javnim prijevozom. Vidjeli smo mogućnost da putnicima damo slobodu da sami otkriju Kotor i njegovu okolicu, bez rasporeda autobusa za grupe, bez propuštenih vidikovaca i bez kompromisa.",
+    "heading3": "Šta nudimo",
+    "p3a": "Pružamo usluge iznajmljivanja automobila na cijelom području",
+    "p3Link1": "Bokokotorskog zaljeva",
+    "p3b": ", sa preuzimanjem i vraćanjem vozila na",
+    "p3Link2": "Aerodromu Tivat",
+    "p3c": ",",
+    "p3Link3": "Starom gradu Kotor",
+    "p3d": ", i lokacijama duž obale i u unutrašnjosti.",
+    "promiseTitle": "Naša obaveza",
+    "promise1": "Potpuno osiguranje sa opcijom nultog samoudjela",
+    "promise2": "Susretanje na Aerodromu Tivat, donosimo vam automobil na izlazu iz terminala",
+    "promise3": "Bez skrivenih naknada, cijena koju vidite je cijena koju plaćate",
+    "promise4": "Putovanja prema Hrvatskoj, Bosni i Hercegovini, Albaniji, Srbiji i Kosovu su dozvoljena",
+    "promise5": "Besplatna otkazivanja za većinu rezervacija",
+    "promise6": "24/7 pomoć na cesti tijekom vašeg putovanja",
+    "localTitle": "Lokalno znanje",
+    "localText": "Sa sjedištem u Kotoru, poznajemo svaki put oko zaljeva, najbolje rute, skrivene biserke i prečice koje vodiči propuštaju. Bilo da vozite sa",
+    "localLink1": "Aerodroma Tivat",
+    "localMid": "do",
+    "localLink2": "Starog grada Kotor",
+    "localMid2": "koji je zaštićen od UNESCO-a, uzimate li maravilnu cestu oko zaljeva do",
+    "localLink3": "Perasta",
+    "localEnd": ", ili idete serpentinama prema Lovćenu, možemo vam pomoći da planujete savršeno putovanje.",
+    "contactTitle": "Kontaktirajte nas",
+    "contactText": "Imate pitanje oko iznajmljivanja automobila u Kotoru? Dostupni smo putem telefona, WhatsAppa i Vibera. Pretražite našu flotu online i rezervujte u minutama, ili nam napišite i pomoći ćemo vam pronaći savršen automobil za vašu avanturu."
   },
   "kotor": {
     "title": "Rent a Car Kotor",
     "subtitle": "Istražite UNESCO dragulj Crne Gore sopstvenim tempom.",
-    "seoDesc": "Iznajmite auto u Kotoru, Crna Gora. Istražite UNESCO stari grad, Bokokotorski zaliv i obližnji Perast uz povoljnu najam i besplatnu isporuku sa aerodroma."
+    "seoDesc": "Iznajmite auto u Kotoru, Crna Gora. Istražite UNESCO stari grad, Bokokotorski zaliv i obližnji Perast uz povoljnu najam i besplatnu isporuku sa aerodroma.",
+    "heading1": "Kotor, UNESCO svjetska baština",
+    "p1": "Kotor je jedan od najbolje sačuvanih srednjovjekovnih gradova na Jadranu, smješten na kraju dramatičnog zaljeva sličnog fjordu. Stari grad, koji je pod zaštitom UNESCO-a, je labirint uskih ulica, venecijanskih palata, romanesknih crkava i živahnih trgova. Iznad svega toga, tvrđava San Giovanni se penja 1.200 stepenica, pružajući razgled preko cijelog zaljeva.",
+    "p2a": "Iznajmljivanje automobila u Kotoru",
+    "p2b": "vam daje slobodu da istražite cijeli zaljev i dalje. Aerodrom Tivat je udaljen samo 8 km, a vožnja traje 15 minuta. Parking je dostupan izvan zidina Starog grada, sa većim garažama na pristupnim putevima.",
+    "landmarksTitle": "Znamenitosti",
+    "stJohnTitle": "Tvrđava Svetog Jovana",
+    "stJohnText": "Utvrđenja iznad Kotora datiraju iz 6. vijeka i bila su proširena od strane Venecijana. Uspinjanje od 1.200 stepenika do vrha nagraduje se panoramskim pogledima na zaliv, krovove Starog grada i okolne planine. Ulaznica je besplatna van sezone.",
+    "cathedralTitle": "Katedrala Svetog Tripuna",
+    "cathedralText": "Izgrađena 809. godine i rekonstruisana 1124. godine, Katedrala Svetog Tripuna je jedna od najfinije romaničkih građevina na Jadranskoj obali. Dva zvonara su najprepoznatljiviji simbol Kotora, a unutrašnjost sadrži kolekciju srednjovjekovnog zlatnog i srebrenog rada.",
+    "dayTripsTitle": "Dnevni izleti iz Kotora",
+    "ladyOfRocksTitle": "Gospa od Škrpjela, Perast",
+    "ladyOfRocksText1": "Smještena u blizini",
+    "ladyOfRocksLink": "Perasta",
+    "ladyOfRocksText2": ", ova crkva se nalazi na umjetnoj otočini u Bokokotorskom zaljevu. Od 1452. godine, mještani bacaju stijene u zaljev kako bi povećali otočinu. Ferije plove iz Perasta dva puta dnevno za nekoliko eura. Vožnja iz Kotora traje 15 minuta duž obalne ceste.",
+    "cetinjeTitle": "Cetinjski manastir",
+    "cetinjeText": "Izgrađen 1701. godine, manastir čuva moštine, uključujući ruku Ivana Krstitelja. Vožnja iz Kotora traje otprilike sat vremena kroz djelomično brdsku cestu preko Njegoševog mauzoleuma i Lovćena.",
+    "royalCourtTitle": "Kraljevski dvor u Cetinjskom",
+    "royalCourtText": "Crnogorska kraljevska palata iz 1871. godine, smještena u bivšoj kraljevskoj prijestolnici. Izlaže umjetnost, artefakte i fotografije iz crnogorske kraljevske istorije.",
+    "routeDifficulty": "Umjerena, uske ulice u Starom gradu, standardne ceste pri pristupu",
+    "routeVehicle": "Kompaktan automobil, lakši parking blizu zidina Starog grada",
+    "routeParking": "Ograničeno u Starom gradu. Koristite parkirališta na pristupnim cestama, 1-2 € po satu",
+    "routeDistances": "Od aerodroma Tivat: 15 minuta · Od Budve: 30 minuta"
   },
   "tivat-airport": {
     "title": "Rent a Car Aerodrom Tivat",
@@ -1021,5 +1079,31 @@
     "managingNote": "Blokiranje neophodnih kolačića može uticati na rad vidžeta za rezervacije.",
     "contactTitle": "Kontakt",
     "contactText": "Pitanja o kolačićima? Kontaktirajte nas na info@kotorcarhire.com."
+  },
+  "contentPage": {
+    "youMightAlsoLike": "Možda će vas zanimati i",
+    "readyCta": "Spremni za vožnju Kotorom?",
+    "searchCars": "Pretraži automobile"
+  },
+  "relatedGuides": {
+    "secretChurches": "Skriveni uglovi",
+    "vrmacRidge": "Scenski putevi",
+    "swimmingSpots": "Najbolja mjesta za kupanje"
+  },
+  "navTop": {
+    "carRental": "Rent-a-car",
+    "destinations": "Odredišta",
+    "travelGuides": "Vodiči za putovanja",
+    "bokaBayRentals": "Bokski zaljev rent-a-car"
+  },
+  "cookieBanner": {
+    "title": "Politika kolačića",
+    "text": "Koristimo kolačiće kako bismo poboljšali vašu iskustvo. Nastavkom korištenja ovog web-mjesta saglasni ste s našom",
+    "accept": "Prihvati",
+    "decline": "Odbij"
+  },
+  "contact": {
+    "title": "Kontaktirajte nas",
+    "seoDesc": "Povežite se sa Kotor Car Hire. Email, WhatsApp i kontakt forma."
   }
 }

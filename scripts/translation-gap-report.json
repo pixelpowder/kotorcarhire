@@ -1,0 +1,37 @@
+{
+  "enKeyCount": 905,
+  "missing": {
+    "de": [],
+    "fr": [],
+    "it": [],
+    "ru": [],
+    "me": []
+  },
+  "englishCopied": {
+    "de": [
+      "about.heading1",
+      "destCards.podgorica.name",
+      "privacyBody.lastUpdatedDate",
+      "termsBody.lastUpdatedDate",
+      "cookieBody.lastUpdatedDate"
+    ],
+    "fr": [
+      "nav.destinations",
+      "footer.destinations",
+      "destCards.podgorica.name",
+      "navTop.destinations"
+    ],
+    "it": [
+      "about.heading1",
+      "destCards.podgorica.name"
+    ],
+    "ru": [],
+    "me": [
+      "about.heading1",
+      "destCards.podgorica.name",
+      "privacyBody.lastUpdatedDate",
+      "termsBody.lastUpdatedDate",
+      "cookieBody.lastUpdatedDate"
+    ]
+  }
+}

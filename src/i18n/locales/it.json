@@ -3,7 +3,8 @@
     "book": "Prenota",
     "destinations": "Destinazioni",
     "about": "Chi Siamo",
-    "blog": "Blog"
+    "blog": "Blog",
+    "contact": "Contatti"
   },
   "common": {
     "home": "Home",
@@ -27,7 +28,8 @@
     "pickupDate": "Data di ritiro",
     "pickupTime": "Ora",
     "dropoffDate": "Data di riconsegna",
-    "dropoffTime": "Ora"
+    "dropoffTime": "Ora",
+    "selectDates": "Seleziona le date"
   },
   "trust": {
     "noHiddenFees": "Nessun Costo Nascosto",
@@ -92,7 +94,9 @@
     "bookText": "Cerca disponibilità e prezzi in tempo reale in tutto il Montenegro.",
     "helpTitle": "Hai Bisogno di Aiuto?",
     "helpText": "Il nostro team è disponibile via WhatsApp, Viber o telefono.",
-    "popularDest": "Destinazioni Popolari"
+    "popularDest": "Destinazioni Popolari",
+    "tivatAirport": "Aeroporto di Tivat",
+    "dubrovnikAirport": "Aeroporto di Dubrovnik"
   },
   "book": {
     "title": "Trova la Tua Auto",
@@ -114,7 +118,10 @@
     "searchCars": "Cerca Auto",
     "privacyPolicy": "Informativa sulla Privacy",
     "terms": "Termini e Condizioni",
-    "cookiePolicy": "Politica sui Cookie"
+    "cookiePolicy": "Politica sui Cookie",
+    "testimonials": "Testimonianze",
+    "sitemap": "Mappa del sito",
+    "tivatAirport": "Aeroporto di Tivat"
   },
   "notFound": {
     "code": "404",
@@ -129,12 +136,63 @@
   "about": {
     "title": "Chi Siamo",
     "subtitle": "Aiutiamo i viaggiatori a esplorare il Montenegro dal 2007.",
-    "seoDesc": "Chi è Kotor Car Hire. Dal 2007 aiutiamo i viaggiatori a esplorare il Montenegro con auto affidabili, consegna in aeroporto e competenza locale."
+    "seoDesc": "Chi è Kotor Car Hire. Dal 2007 aiutiamo i viaggiatori a esplorare il Montenegro con auto affidabili, consegna in aeroporto e competenza locale.",
+    "heading1": "Kotor Car Hire",
+    "p1": "Kotor Car Hire mette in contatto i viaggiatori con auto a noleggio affidabili e convenienti nella Baia di Kotor. Siamo un affiliato indipendente che collabora con partner locali di fiducia, rendendo più facile per i visitatori esplorare questo angolo UNESCO dell'Adriatico.",
+    "heading2": "Perché abbiamo iniziato",
+    "p2": "La Baia di Kotor si scopre meglio al proprio ritmo. La strada sinuosa della baia, i villaggi montani nascosti e le città medievali sono difficili da raggiungere con i trasporti pubblici. Abbiamo visto l'opportunità di dare ai viaggiatori la libertà di scoprire Kotor e i suoi dintorni in autonomia, senza orari di autobus, senza punti panoramici mancati, senza compromessi.",
+    "heading3": "Cosa offriamo",
+    "p3a": "Forniamo servizi di autonoleggio in tutta",
+    "p3Link1": "la Baia di Kotor",
+    "p3b": ", con ritiro e riconsegna presso",
+    "p3Link2": "l'Aeroporto di Tivat",
+    "p3c": ",",
+    "p3Link3": "la Città Vecchia di Kotor",
+    "p3d": ", e località lungo la costa e l'entroterra.",
+    "promiseTitle": "La nostra promessa",
+    "promise1": "Assicurazione completa con opzioni a scopertura zero disponibili",
+    "promise2": "Servizio meet-and-greet all'Aeroporto di Tivat, portiamo l'auto agli arrivi",
+    "promise3": "Nessuna commissione nascosta: il prezzo che vedi è il prezzo che paghi",
+    "promise4": "Viaggi transfrontalieri consentiti verso Croazia, Bosnia, Albania, Serbia e Kosovo",
+    "promise5": "Cancellazione gratuita sulla maggior parte delle prenotazioni",
+    "promise6": "Assistenza stradale 24/7 durante il vostro viaggio",
+    "localTitle": "Conoscenza locale",
+    "localText": "Con base a Kotor, conosciamo ogni strada attorno alla baia: le migliori rotte, i gemme nascoste, i scorciatoie che le guide turistiche non segnalano. Che tu guidi dall'",
+    "localLink1": "Aeroporto di Tivat",
+    "localMid": "alla",
+    "localLink2": "Città Vecchia UNESCO di Kotor",
+    "localMid2": ", percorrendo la pittoresca strada della baia verso",
+    "localLink3": "Perast",
+    "localEnd": ", o salendo le serpentine verso il Parco Nazionale di Lovćen, possiamo aiutarti a pianificare il viaggio perfetto.",
+    "contactTitle": "Contattaci",
+    "contactText": "Hai una domanda sul noleggio di un'auto a Kotor? Siamo disponibili via telefono, WhatsApp e Viber. Cerca la nostra flotta online e prenota in pochi minuti, oppure contattaci e ti aiuteremo a trovare l'auto perfetta per il tuo viaggio."
   },
   "kotor": {
     "title": "Noleggio Auto a Kotor",
     "subtitle": "Esplora il gioiello UNESCO del Montenegro al tuo ritmo.",
-    "seoDesc": "Noleggia un'auto a Kotor, Montenegro. Esplora il centro storico UNESCO, le Bocche di Kotor e la vicina Perast con noleggio conveniente e consegna gratuita in aeroporto."
+    "seoDesc": "Noleggia un'auto a Kotor, Montenegro. Esplora il centro storico UNESCO, le Bocche di Kotor e la vicina Perast con noleggio conveniente e consegna gratuita in aeroporto.",
+    "heading1": "Kotor: Patrimonio dell'UNESCO",
+    "p1": "Kotor è una delle città medievali meglio conservate dell'Adriatico, situata alla testa di una baia spettacolare simile a un fiordo. La Città Vecchia UNESCO è un labirinto di vie strette, palazzi veneziani, chiese romaniche e piazze vivaci. Sopra di tutto, la fortezza di San Giovanni si erge con 1.200 gradini offrendo viste panoramiche sulla baia.",
+    "p2a": "Noleggiare un'auto a Kotor",
+    "p2b": "ti dà la libertà di esplorare tutta la baia e oltre. L'Aeroporto di Tivat dista solo 8 km, a 15 minuti di auto. Il parcheggio è disponibile fuori dalle mura della Città Vecchia, con i parcheggi più grandi nelle strade di accesso.",
+    "landmarksTitle": "Monumenti",
+    "stJohnTitle": "Fortezza di San Giovanni",
+    "stJohnText": "Le fortificazioni sopra Kotor risalgono al VI secolo e furono ampliate dai Veneziani. La salita di 1.200 gradini fino alla cima è ricompensata da viste panoramiche della baia, dei tetti della Città Vecchia e delle montagne circostanti. L'ingresso è gratuito fuori dalla stagione di punta.",
+    "cathedralTitle": "Cattedrale di San Trifone",
+    "cathedralText": "Costruita nell'809 e ricostruita nel 1124, la Cattedrale di San Trifone è uno dei più splendidi edifici romanici della costa dell'Adriatico. I due campanili gemelli sono il monumento più riconoscibile di Kotor, e l'interno ospita una collezione di oreficeria e argentieria medievale.",
+    "dayTripsTitle": "Gite di un giorno da Kotor",
+    "ladyOfRocksTitle": "Madonna delle Rocce, Perast",
+    "ladyOfRocksText1": "Situata nella vicina",
+    "ladyOfRocksLink": "Perast",
+    "ladyOfRocksText2": ", questa chiesa si trova su un'isola artificiale nella Bay of Kotor. Dal 1452, gli abitanti gettano rocce nella baia per ingrandire l'isola. I traghetti partono dal porto di Perast per pochi euro. Il viaggio da Kotor dura 15 minuti lungo la strada panoramica della baia.",
+    "cetinjeTitle": "Monastero di Cetinje",
+    "cetinjeText": "Costruito nel 1701, il monastero custodisce reliquie tra cui la mano di Giovanni Battista. Il viaggio da Kotor dura circa un'ora attraverso la suggestiva strada di montagna passando per il Mausoleo di Njegos e il Parco Nazionale di Lovćen.",
+    "royalCourtTitle": "Corte Reale di Cetinje",
+    "royalCourtText": "Il palazzo reale del Montenegro dal 1871, situato nell'antica capitale reale. Espone arte, manufatti e fotografie dalla storia reale del paese.",
+    "routeDifficulty": "Moderato: strade strette nella Città Vecchia, strade normali in avvicinamento",
+    "routeVehicle": "Auto compatta (parcheggio più facile vicino alle mura della Città Vecchia)",
+    "routeParking": "Limitato nella Città Vecchia. Utilizza i parcheggi sulle strade di accesso (€1-2/ora)",
+    "routeDistances": "Dall'Aeroporto di Tivat: 15 minuti · Da Budva: 30 minuti"
   },
   "tivat-airport": {
     "title": "Noleggio Auto Aeroporto Tivat",
@@ -1021,5 +1079,31 @@
     "managingNote": "Il blocco dei cookie essenziali può influire sul funzionamento del widget di prenotazione.",
     "contactTitle": "Contatti",
     "contactText": "Domande sull'uso dei cookie? Contattateci a info@kotorcarhire.com."
+  },
+  "contentPage": {
+    "youMightAlsoLike": "Potrebbero piacerti anche",
+    "readyCta": "Pronto a guidare a Kotor?",
+    "searchCars": "Cerca Auto"
+  },
+  "relatedGuides": {
+    "secretChurches": "Angoli Nascosti",
+    "vrmacRidge": "Percorsi Panoramici",
+    "swimmingSpots": "Migliori Spot per il Nuoto"
+  },
+  "navTop": {
+    "carRental": "Noleggio Auto",
+    "destinations": "Destinazioni",
+    "travelGuides": "Guide di Viaggio",
+    "bokaBayRentals": "Noleggi Boka Bay"
+  },
+  "cookieBanner": {
+    "title": "Politica sui Cookie",
+    "text": "Utilizziamo i cookie per migliorare la tua esperienza. Continuando a utilizzare questo sito accetti i nostri",
+    "accept": "Accetta",
+    "decline": "Rifiuta"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "seoDesc": "Entra in contatto con Kotor Car Rental. Email, WhatsApp e modulo di contatto."
   }
 }
