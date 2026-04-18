@@ -13,7 +13,6 @@ export function t(lang, key) {
   let val = translations[lang || 'en'];
   for (const p of parts) val = val?.[p];
   if (val !== undefined) return val;
-  // Fallback to English
   let fallback = translations.en;
   for (const p of parts) fallback = fallback?.[p];
   return fallback || key;
@@ -22,16 +21,18 @@ export function t(lang, key) {
 const SITE_NAME = 'Kotor Car Hire';
 const BASE_URL = 'https://www.kotorcarhire.com';
 
-export function buildAlternates(slug) {
+export function buildAlternates(slug, lang = 'en') {
   const path = slug ? `/${slug}` : '';
+  const canonicalPath = !lang || lang === 'en' ? path : `/${lang}${path}`;
   return {
-    canonical: `${BASE_URL}${path}`,
+    canonical: `${BASE_URL}${canonicalPath || '/'}`,
     languages: {
       'en': path || '/',
       'de': `/de${path || '/'}`,
       'ru': `/ru${path || '/'}`,
       'it': `/it${path || '/'}`,
       'fr': `/fr${path || '/'}`,
+      'cnr': `/me${path || '/'}`,
       'x-default': path || '/',
     },
   };

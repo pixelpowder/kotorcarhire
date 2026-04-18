@@ -6,7 +6,7 @@ export async function generateMetadata({ params }) {
   return {
     title: t(lang, 'blogCats.title') + ' | Kotor Car Hire',
     description: t(lang, 'blogCats.description'),
-    alternates: buildAlternates('blog/kotor-old-town-cats'),
+    alternates: buildAlternates('blog/kotor-old-town-cats', lang),
   };
 }
 

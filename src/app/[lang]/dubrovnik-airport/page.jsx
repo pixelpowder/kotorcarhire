@@ -6,7 +6,7 @@ export async function generateMetadata({ params }) {
   return {
     title: t(lang, 'dubrovnik-airport.title') + ' | Kotor Car Hire',
     description: t(lang, 'dubrovnik-airport.seoDesc'),
-    alternates: buildAlternates('dubrovnik-airport'),
+    alternates: buildAlternates('dubrovnik-airport', lang),
   };
 }
 

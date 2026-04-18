@@ -6,7 +6,7 @@ export async function generateMetadata({ params }) {
   return {
     title: t(lang, 'tivat-airport.title') + ' | Kotor Car Hire',
     description: t(lang, 'tivat-airport.seoDesc'),
-    alternates: buildAlternates('tivat-airport'),
+    alternates: buildAlternates('tivat-airport', lang),
   };
 }
 

@@ -3,7 +3,8 @@
     "book": "Book",
     "blog": "Blog",
     "destinations": "Destinations",
-    "about": "About"
+    "about": "About",
+    "contact": "Contact"
   },
   "common": {
     "home": "Home",
@@ -93,7 +94,9 @@
     "bookText": "Search real-time availability and prices for Kotor and the bay.",
     "helpTitle": "Need Help?",
     "helpText": "Our team is available via WhatsApp, Viber, or phone.",
-    "popularDest": "Popular Destinations"
+    "popularDest": "Popular Destinations",
+    "tivatAirport": "Tivat Airport",
+    "dubrovnikAirport": "Dubrovnik Airport"
   },
   "book": {
     "title": "Find Your Car",
@@ -115,7 +118,10 @@
     "searchCars": "Search Cars",
     "privacyPolicy": "Privacy Policy",
     "terms": "Terms & Conditions",
-    "cookiePolicy": "Cookie Policy"
+    "cookiePolicy": "Cookie Policy",
+    "testimonials": "Testimonials",
+    "sitemap": "Sitemap",
+    "tivatAirport": "Tivat Airport"
   },
   "notFound": {
     "code": "404",
@@ -1057,5 +1063,31 @@
     "managingNote": "Note that blocking essential cookies may affect the functionality of the booking widget.",
     "contactTitle": "Contact",
     "contactText": "Questions about our use of cookies? Contact us at info@kotorcarhire.com."
+  },
+  "contentPage": {
+    "youMightAlsoLike": "You might also like",
+    "readyCta": "Ready to drive Kotor?",
+    "searchCars": "Search Cars"
+  },
+  "relatedGuides": {
+    "secretChurches": "Hidden Corners",
+    "vrmacRidge": "Scenic Drives",
+    "swimmingSpots": "Best Swimming Spots"
+  },
+  "navTop": {
+    "carRental": "Car Rental",
+    "destinations": "Destinations",
+    "travelGuides": "Travel Guides",
+    "bokaBayRentals": "Boka Bay Rentals"
+  },
+  "cookieBanner": {
+    "title": "Cookie Policy",
+    "text": "We use cookies to improve your experience. By continuing to use this site you agree to our",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "seoDesc": "Get in touch with Kotor Car Hire. Email, WhatsApp, and contact form."
   }
 }

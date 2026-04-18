@@ -5,7 +5,7 @@ import useTranslation from './i18n/useTranslation';
 
 export default function CookieBanner() {
   const [visible, setVisible] = useState(false);
-  const { localePath } = useTranslation();
+  const { t, localePath } = useTranslation();
 
   useEffect(() => {
     if (!localStorage.getItem('cookie-consent')) {
@@ -28,12 +28,12 @@ export default function CookieBanner() {
   return (
     <div className="cookie-banner">
       <p className="cookie-banner__text">
-        We use cookies to improve your experience. By continuing to use this site you agree to our{' '}
-        <a href={localePath('/cookie-policy')}>Cookie Policy</a>.
+        {t('cookieBanner.text')}{' '}
+        <a href={localePath('/cookie-policy')}>{t('cookieBanner.title')}</a>.
       </p>
       <div className="cookie-banner__actions">
-        <button className="cookie-banner__accept" onClick={accept}>Accept</button>
-        <button className="cookie-banner__decline" onClick={decline}>Decline</button>
+        <button className="cookie-banner__accept" onClick={accept}>{t('cookieBanner.accept')}</button>
+        <button className="cookie-banner__decline" onClick={decline}>{t('cookieBanner.decline')}</button>
       </div>
       <button className="cookie-banner__close" onClick={decline} aria-label="Close">
         <X size={16} />

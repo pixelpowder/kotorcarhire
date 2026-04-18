@@ -6,7 +6,7 @@ export async function generateMetadata({ params }) {
   return {
     title: t(lang, 'cookie-policy.title') + ' | Kotor Car Hire',
     description: t(lang, 'cookie-policy.seoDesc'),
-    alternates: buildAlternates('cookie-policy'),
+    alternates: buildAlternates('cookie-policy', lang),
   };
 }
 

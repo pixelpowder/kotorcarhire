@@ -42,12 +42,12 @@ export default function ContentPage({ title, subtitle, image, description, child
           <div className="sidebar-card">
             <h3 className="sidebar-card__title">{t('sidebar.popularDest')}</h3>
             <ul className="sidebar-links">
-              <li><a href={localePath('/tivat-airport')}>Tivat Airport</a></li>
+              <li><a href={localePath('/tivat-airport')}>{t('sidebar.tivatAirport')}</a></li>
               <li><a href={localePath('/kotor')}>Kotor</a></li>
               <li><a href={localePath('/budva')}>Budva</a></li>
               <li><a href={localePath('/perast')}>Perast</a></li>
               <li><a href={localePath('/podgorica')}>Podgorica</a></li>
-              <li><a href={localePath('/dubrovnik-airport')}>Dubrovnik Airport</a></li>
+              <li><a href={localePath('/dubrovnik-airport')}>{t('sidebar.dubrovnikAirport')}</a></li>
               <li><a href={localePath('/border-crossing-guide')}>{t('footer.borderGuide')}</a></li>
             </ul>
           </div>

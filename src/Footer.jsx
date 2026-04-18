@@ -62,7 +62,7 @@ export default function Footer() {
           <a href={localePath('/book')} className="footer__link"><ChevronRight size={12} /> {t('footer.carHireBooking')}</a>
           <a href={localePath('/about')} className="footer__link"><ChevronRight size={12} /> {t('footer.aboutUs')}</a>
           <a href={localePath('/#faq')} className="footer__link"><ChevronRight size={12} /> {t('footer.faqLink')}</a>
-          <a href={localePath('/#reviews')} className="footer__link"><ChevronRight size={12} /> Testimonials</a>
+          <a href={localePath('/#reviews')} className="footer__link"><ChevronRight size={12} />{t('footer.testimonials')}</a>
         </FooterColumn>
 
         <FooterColumn title={t('footer.guides')}>
@@ -94,7 +94,7 @@ export default function Footer() {
           <a href={localePath('/privacy')} className="footer__bottom-link">{t('footer.privacyPolicy')}</a>
           <a href={localePath('/terms')} className="footer__bottom-link">{t('footer.terms')}</a>
           <a href={localePath('/cookie-policy')} className="footer__bottom-link">{t('footer.cookiePolicy')}</a>
-          <a href="/sitemap.xml" className="footer__bottom-link">Sitemap</a>
+          <a href="/sitemap.xml" className="footer__bottom-link">{t('footer.sitemap')}</a>
         </div>
       </div>
     </footer>

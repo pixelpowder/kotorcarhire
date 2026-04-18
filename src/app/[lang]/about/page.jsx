@@ -6,7 +6,7 @@ export async function generateMetadata({ params }) {
   return {
     title: t(lang, 'about.title') + ' | Kotor Car Hire',
     description: t(lang, 'about.seoDesc'),
-    alternates: buildAlternates('about'),
+    alternates: buildAlternates('about', lang),
   };
 }
 
