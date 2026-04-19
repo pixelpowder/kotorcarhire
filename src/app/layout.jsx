@@ -10,11 +10,25 @@ import DynamicLanguageProvider from '@/src/i18n/DynamicLanguageProvider';
 import { SUPPORTED_LANGS, DEFAULT_LANG, LANG_HREFLANG } from '@/src/i18n/languages';
 import LocaleAwareSchema from '@/src/components/LocaleAwareSchema';
 
+const SITE_TITLE = 'Kotor Car Hire — UNESCO Bay & Old Town Rentals';
+const SITE_DESC = 'Explore Kotor\'s UNESCO walled city and the fjord-like bay by car. Collect at Tivat Airport, just 8 km away, or right outside the medieval gates. From €13/day with full insurance.';
+const SITE_URL = 'https://www.kotorcarhire.com';
+const SITE_NAME = 'Kotor Car Hire';
+
 export const metadata = {
-  title: 'Kotor Car Hire — UNESCO Bay & Old Town Rentals',
-  description:
-    'Explore Kotor\'s UNESCO walled city and the fjord-like bay by car. Collect at Tivat Airport, just 8 km away, or right outside the medieval gates. From €13/day with full insurance.',
-  metadataBase: new URL('https://www.kotorcarhire.com'),
+  title: SITE_TITLE,
+  description: SITE_DESC,
+  metadataBase: new URL(SITE_URL),
+  openGraph: {
+    title: SITE_TITLE,
+    description: SITE_DESC,
+    url: SITE_URL,
+    siteName: SITE_NAME,
+    type: 'website',
+    locale: 'en_US',
+    alternateLocale: ['de_DE', 'fr_FR', 'it_IT', 'ru_RU', 'sr_ME'],
+    images: [{ url: `${SITE_URL}/hero-bg.webp`, width: 1200, height: 630, alt: SITE_NAME }],
+  },
 };
 
 async function activeLocale() {

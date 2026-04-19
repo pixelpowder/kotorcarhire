@@ -21,6 +21,15 @@ export function t(lang, key) {
 const SITE_NAME = 'Kotor Car Hire';
 const BASE_URL = 'https://www.kotorcarhire.com';
 
+export const OG_LOCALE = {
+  en: 'en_US',
+  de: 'de_DE',
+  fr: 'fr_FR',
+  it: 'it_IT',
+  ru: 'ru_RU',
+  me: 'sr_ME',
+};
+
 export function buildAlternates(slug, lang = 'en') {
   const path = slug ? `/${slug}` : '';
   const canonicalPath = !lang || lang === 'en' ? path : `/${lang}${path}`;
@@ -43,10 +52,17 @@ export function buildMetadata(lang, titleKey, descKey, slug) {
   const title = t(resolvedLang, titleKey);
   const desc = t(resolvedLang, descKey);
   const displayTitle = title !== titleKey ? `${title} | ${SITE_NAME}` : SITE_NAME;
+  const resolvedDesc = desc !== descKey ? desc : undefined;
 
   return {
     title: displayTitle,
-    description: desc !== descKey ? desc : undefined,
-    alternates: buildAlternates(slug),
+    description: resolvedDesc,
+    alternates: buildAlternates(slug, resolvedLang),
+    openGraph: {
+      title: displayTitle,
+      description: resolvedDesc,
+      locale: OG_LOCALE[resolvedLang] || 'en_US',
+      type: 'website',
+    },
   };
 }
