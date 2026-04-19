@@ -10,7 +10,8 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function LangKotorWinterVisitingRoute() {
+export default async function LangKotorWinterVisitingRoute({ params }) {
+  const { lang } = await params;
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
