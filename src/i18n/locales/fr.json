@@ -1,10 +1,10 @@
 {
   "nav": {
     "book": "Réserver",
-    "destinations": "Destinations",
+    "destinations": "Villes",
     "about": "À Propos",
-    "blog": "Blog",
-    "contact": "Contact"
+    "blog": "Actualités",
+    "contact": "Nous contacter"
   },
   "common": {
     "home": "Accueil",
@@ -110,7 +110,7 @@
     "locations": "Nos Agences",
     "carHireBooking": "Réservation de Location",
     "ourFleet": "Notre Flotte",
-    "destinations": "Destinations",
+    "destinations": "Villes",
     "aboutUs": "À Propos",
     "faqLink": "FAQ",
     "montenegroGuide": "Guide de Voyage Monténégro",
@@ -1104,6 +1104,8 @@
   },
   "contact": {
     "title": "Nous contacter",
-    "seoDesc": "Contactez Kotor Car Hire. Email, WhatsApp et formulaire de contact."
+    "seoDesc": "Contactez Kotor Car Hire. Email, WhatsApp et formulaire de contact.",
+    "heading": "Nous contacter",
+    "intro": "Une question sur la location de voiture à Kotor ? Contactez-nous, nous vous aiderons à trouver le véhicule idéal pour votre séjour."
   }
 }

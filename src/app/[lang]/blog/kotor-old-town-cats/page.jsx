@@ -14,8 +14,8 @@ export default function LangKotorOldTownCatsRoute() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": t('en', 'blogCats.title'),
-    "description": t('en', 'blogCats.description'),
+    "headline": t(lang, 'blogCats.title'),
+    "description": t(lang, 'blogCats.description'),
     "image": "https://www.kotorcarhire.com/img/blog-kotor-cats.webp",
     "datePublished": "2026-04-08",
     "dateModified": "2026-04-08",

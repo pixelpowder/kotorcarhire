@@ -14,8 +14,8 @@ export default function LangKotorToLovcenDriveRoute() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": t('en', 'blogLovcen.title'),
-    "description": t('en', 'blogLovcen.description'),
+    "headline": t(lang, 'blogLovcen.title'),
+    "description": t(lang, 'blogLovcen.description'),
     "image": "https://www.kotorcarhire.com/img/blog-lovcen-road.webp",
     "datePublished": "2026-04-08",
     "dateModified": "2026-04-08",

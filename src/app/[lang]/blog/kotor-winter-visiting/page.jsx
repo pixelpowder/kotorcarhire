@@ -14,8 +14,8 @@ export default function LangKotorWinterVisitingRoute() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": t('en', 'blogWinter.title'),
-    "description": t('en', 'blogWinter.description'),
+    "headline": t(lang, 'blogWinter.title'),
+    "description": t(lang, 'blogWinter.description'),
     "image": "https://www.kotorcarhire.com/img/blog-kotor-winter.webp",
     "datePublished": "2026-04-08",
     "dateModified": "2026-04-08",

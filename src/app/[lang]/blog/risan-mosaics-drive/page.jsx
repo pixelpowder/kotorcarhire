@@ -14,8 +14,8 @@ export default function LangRisanMosaicsDriveRoute() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": t('en', 'blogRisan.title'),
-    "description": t('en', 'blogRisan.description'),
+    "headline": t(lang, 'blogRisan.title'),
+    "description": t(lang, 'blogRisan.description'),
     "image": "https://www.kotorcarhire.com/img/blog-risan-mosaics.webp",
     "datePublished": "2026-04-08",
     "dateModified": "2026-04-08",

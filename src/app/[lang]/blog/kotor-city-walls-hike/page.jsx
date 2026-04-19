@@ -14,8 +14,8 @@ export default function LangKotorCityWallsHikeRoute() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": t('en', 'blogWalls.title'),
-    "description": t('en', 'blogWalls.description'),
+    "headline": t(lang, 'blogWalls.title'),
+    "description": t(lang, 'blogWalls.description'),
     "image": "https://www.kotorcarhire.com/img/blog-kotor-walls.webp",
     "datePublished": "2026-04-08",
     "dateModified": "2026-04-08",

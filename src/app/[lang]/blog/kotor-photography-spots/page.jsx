@@ -14,8 +14,8 @@ export default function LangKotorPhotographySpotsRoute() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": t('en', 'blogPhoto.title'),
-    "description": t('en', 'blogPhoto.description'),
+    "headline": t(lang, 'blogPhoto.title'),
+    "description": t(lang, 'blogPhoto.description'),
     "image": "https://www.kotorcarhire.com/img/blog-kotor-photo.webp",
     "datePublished": "2026-04-08",
     "dateModified": "2026-04-08",

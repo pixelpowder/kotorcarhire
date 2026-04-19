@@ -14,8 +14,8 @@ export default function LangKotorNightlifeDiningRoute() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": t('en', 'blogDining.title'),
-    "description": t('en', 'blogDining.description'),
+    "headline": t(lang, 'blogDining.title'),
+    "description": t(lang, 'blogDining.description'),
     "image": "https://www.kotorcarhire.com/img/blog-kotor-dining.webp",
     "datePublished": "2026-04-08",
     "dateModified": "2026-04-08",

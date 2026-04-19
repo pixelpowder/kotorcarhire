@@ -3,7 +3,7 @@
     "book": "Rezerviši",
     "destinations": "Destinacije",
     "about": "O Nama",
-    "blog": "Blog",
+    "blog": "Vodič",
     "contact": "Kontakt"
   },
   "common": {
@@ -1104,6 +1104,8 @@
   },
   "contact": {
     "title": "Kontaktirajte nas",
-    "seoDesc": "Povežite se sa Kotor Car Hire. Email, WhatsApp i kontakt forma."
+    "seoDesc": "Povežite se sa Kotor Car Hire. Email, WhatsApp i kontakt forma.",
+    "heading": "Kontaktirajte nas",
+    "intro": "Imate pitanje o iznajmljivanju automobila u Kotoru? Javite nam se i pomoći ćemo vam pronaći savršeno vozilo za vaše putovanje."
   }
 }

@@ -14,8 +14,8 @@ export default function LangKotorCruiseShoreExcursionRoute() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": t('en', 'blogCruise.title'),
-    "description": t('en', 'blogCruise.description'),
+    "headline": t(lang, 'blogCruise.title'),
+    "description": t(lang, 'blogCruise.description'),
     "image": "https://www.kotorcarhire.com/img/blog-cruise-port.webp",
     "datePublished": "2026-04-08",
     "dateModified": "2026-04-08",

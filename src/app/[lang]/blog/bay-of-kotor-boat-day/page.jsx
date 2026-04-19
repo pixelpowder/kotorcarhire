@@ -14,8 +14,8 @@ export default function LangBayOfKotorBoatDayRoute() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": t('en', 'blogBoat.title'),
-    "description": t('en', 'blogBoat.description'),
+    "headline": t(lang, 'blogBoat.title'),
+    "description": t(lang, 'blogBoat.description'),
     "image": "https://www.kotorcarhire.com/img/blog-bay-boat.webp",
     "datePublished": "2026-04-08",
     "dateModified": "2026-04-08",
