@@ -48,13 +48,13 @@
   "howItWorks": {
     "label": "So funktioniert's",
     "title": "In 3 Schritten unterwegs",
-    "subtitle": "Einfache Buchung. Sofortige Bestätigung. Kein Anstehen am Flughafen.",
+    "subtitle": "Einfache Buchung. Sofortige Bestätigung. Keine Warteschlangen am Flughafen.",
     "step1Title": "Wählen Sie Ihren Abholort",
-    "step1Desc": "Wählen Sie aus Flughäfen, Kotor, Budva, Perast und weiteren Abholpunkten in ganz Montenegro und darüber hinaus.",
+    "step1Desc": "Abholung am Flughafen Tivat, in der Altstadt von Kotor, in Perast, Budva oder an einer der über 28 Stationen in ganz Montenegro.",
     "step2Title": "Wählen Sie Ihr Auto",
-    "step2Desc": "Entdecken Sie unsere Flotte von sparsamen Kleinwagen bis zu Premium-SUVs. Filtern Sie nach Größe, Getriebe oder Budget.",
+    "step2Desc": "Stöbern Sie in unserer Flotte, von günstigen Kleinwagen bis zu Premium-SUVs. Filtern Sie nach Größe, Getriebe oder Budget.",
     "step3Title": "Erkunden Sie die Bucht von Kotor",
-    "step3Desc": "Wir empfangen Sie am Ankunftsbereich. Ihr Auto steht bereit. Entdecken Sie Küste, Berge und historische Städte."
+    "step3Desc": "Wir empfangen Sie bei der Ankunft oder in Ihrem Hotel. Ihr Fahrzeug ist bereit. Erkunden Sie die Bucht, die Berge und die historischen Städte."
   },
   "fleet": {
     "label": "Unsere Flotte",
@@ -67,7 +67,7 @@
   "destinations": {
     "label": "Top-Reiseziele",
     "title": "Von Kotor aus entdecken",
-    "subtitle": "Von der Bay of Kotor bis zur albanischen Grenze, jedes Reiseziel eine andere Welt."
+    "subtitle": "Von der UNESCO-Altstadt nach Perast, Budva und in die Berge, alles ist bequem erreichbar."
   },
   "features": {
     "label": "Warum wir",
@@ -77,7 +77,7 @@
   "reviews": {
     "label": "Bewertungen",
     "title": "Von Reisenden geliebt",
-    "subtitle": "Echte Erfahrungen von echten Kunden in ganz Montenegro."
+    "subtitle": "Echte Erlebnisse echter Kunden, die Kotor und die Bucht erkundet haben."
   },
   "faq": {
     "label": "FAQ",
@@ -86,7 +86,7 @@
   },
   "cta": {
     "title": "Bereit, die Bucht von Kotor zu entdecken?",
-    "subtitle": "In wenigen Minuten buchen. Am Flughafen abholen. Die gesamte Adriatic-Küste in Ihrem eigenen Tempo erkunden.",
+    "subtitle": "Buchen Sie in wenigen Minuten. Übernahme am Flughafen Tivat oder in der Altstadt von Kotor. Befahren Sie die UNESCO-Bucht, Perast und die Adriaküste in Ihrem eigenen Tempo.",
     "browseFleet": "Flotte ansehen"
   },
   "sidebar": {
@@ -126,7 +126,7 @@
   "notFound": {
     "code": "404",
     "title": "Falsch abgebogen",
-    "text": "Es sieht so aus, als hätten Sie einen Umweg genommen. Diese Straße führt nirgendwohin, aber Montenegros beste Routen sind nur einen Klick entfernt.",
+    "text": "Sieht aus, als hätten Sie einen Umweg genommen. Diese Straße führt ins Nichts, aber die schönsten Routen der Bucht von Kotor sind nur einen Klick entfernt.",
     "backHome": "Zurück zur Startseite",
     "searchCars": "Autos suchen"
   },
@@ -387,20 +387,20 @@
     "h1": "Kotor Autovermietung",
     "p1": "Seit 2007 verbindet Kotor Car Hire Reisende mit zuverlässigen und erschwinglichen Mietwagen in ganz Montenegro. Was als einfache Idee begann, Besuchern die Erkundung dieser atemberaubenden Ecke der Adriatic zu erleichtern, hat sich zu einem der vertrauenswürdigsten Mietwagenservices des Landes entwickelt.",
     "h2": "Warum wir angefangen haben",
-    "p2": "Montenegro ist ein Land, das man am besten in eigenem Tempo erlebt. Die kurvigen Küstenstraßen, versteckten Bergdörfer und UNESCO-Welterbestätten sind mit öffentlichen Verkehrsmitteln nur schwer erreichbar. Wir sahen die Möglichkeit, Reisenden die Freiheit zu geben, Montenegro auf eigene Faust zu entdecken, keine Reisebusfahrpläne, keine verpassten Aussichtspunkte, keine Kompromisse.",
+    "p2": "Öffentliche Busse folgen der Hauptstraße und halten. Punkt. Sie machen keinen Umweg zum unbeschilderten Aussichtspunkt oberhalb von Perast, wo sich die Bucht in zwei Arme öffnet. Sie können nicht an den römischen Mosaiken in Risan halten oder die einspurige Straße nach Gornji Stoliv befahren, das verlassene Dorf, das sich 400 Meter über dem Wasser an die Felswand klammert. Erst ein eigenes Lenkrad und Neugier öffnen die Boka Kotorska richtig.",
     "h3": "Was wir anbieten",
-    "p3": "Wir bieten Mietwagenservices in ganz Montenegro an, mit Abholung und Rückgabe am Tivat Airport, Podgorica Airport sowie an Standorten entlang der Küste und im Landesinneren. Unsere Flotte reicht von kompakten Stadtwagen bis zu geräumigen SUVs, alle vollversichert und ohne versteckte Gebühren.",
+    "p3": "Abholpunkte ziehen sich durch die gesamte Bucht: Flughafen Tivat (8 km von den Mauern Kotors), direkt vor dem Parkplatz am Flusstor und in 28 Ortschaften von Herceg Novi bis Ulcinj. Kompakte Kleinwagen gleiten mühelos durch die Zufahrtsstraßen der Altstadt. SUVs bewältigen die 25 Serpentinen der Lovćen-Strecke ohne Mühe. Jedes Fahrzeug ist vollständig versichert, und die Grenzpapiere für Kroatien, Bosnien, Albanien, Serbien und Kosovo können bei der Buchung vorbereitet werden.",
     "promiseTitle": "Unser Versprechen",
-    "promise1": "Vollkaskoversicherung mit Option auf null Selbstbeteiligung",
-    "promise2": "Persönliche Begrüßung am Flughafen, wir bringen das Auto direkt zur Ankunftshalle",
-    "promise3": "Keine versteckten Gebühren, der angezeigte Preis ist der Endpreis",
-    "promise4": "Grenzüberschreitende Fahrten nach Kroatien, Bosnien, Albanien, Serbien und Kosovo erlaubt",
+    "promise1": "Vollkaskoversicherung mit Null-Selbstbeteiligung-Option bei jeder Buchung",
+    "promise2": "Ein namentlich genannter Fahrer wartet bei der Ankunft in Tivat, Schild in der Hand, Fahrzeug direkt davor",
+    "promise3": "Transparente Preise, keine Flughafenzuschläge, keine Überraschungen bei der Tankregelung",
+    "promise4": "Grüne-Karte-Unterlagen für fünf Nachbarländer vorbereitet",
     "promise5": "Kostenlose Stornierung bei den meisten Buchungen",
     "promise6": "24/7 Pannenhilfe während Ihrer gesamten Reise",
     "h4": "Lokales Wissen",
-    "p4": "Wir sind in Montenegro ansässig und kennen die Straßen, die besten Routen und die versteckten Schätze, die in keinem Reiseführer stehen. Ob Sie vom Tivat Airport zur mittelalterlichen Altstadt von Kotor fahren, die malerische Route durch die Bucht von Kotor nach Perast nehmen oder ins Landesinnere zum Durmitor-Nationalpark aufbrechen, wir helfen Ihnen, den perfekten Roadtrip zu planen.",
+    "p4": "Fragen Sie uns, an welchen Morgen die Kreuzfahrtschiffe anlegen und die Parkplätze der Altstadt überfüllen. Wir sagen Ihnen, dass Sie vor 07:30 kommen oder besser nach Dobrota ausweichen sollten. Fragen Sie nach dem Grat von Vrmac, und wir erklären Ihnen genau, wo Sie das Fahrzeug am Wanderbeginn in der Nähe von Prčanj abstellen. Von den Fahrzeiten der Kamenari-Lepetane-Fähre bis zur ruhigsten Stunde am Grenzübergang Debeli Brijeg, unser Rat entsteht beim täglichen Fahren dieser Straßen, nicht aus einem Reiseführer-Nachdruck.",
     "h5": "Kontaktieren Sie uns",
-    "p5": "Haben Sie Fragen zur Autovermietung in Montenegro? Wir sind per Telefon, WhatsApp und Viber erreichbar. Durchsuchen Sie unsere Flotte online und buchen Sie in wenigen Minuten, oder kontaktieren Sie uns und wir finden das perfekte Auto für Ihre Reise."
+    "p5": "WhatsApp, Viber, klassische Telefonate, wählen Sie, was Ihnen passt. Wir antworten schnell, auch in der hektischen Kreuzfahrtsaison im Juli. Stöbern Sie online in der Flotte, sichern Sie sich einen Preis, und wir kümmern uns um alles Weitere. Oder schreiben Sie uns einfach eine Frage zum Parken in der Nähe der Kathedrale, zur besten Straße nach Cetinje oder ob jener Bergpass im Dezember offen ist."
   },
   "kotorBody": {
     "h1": "Kotor, UNESCO-Weltkulturerbe",

@@ -48,13 +48,13 @@
   "howItWorks": {
     "label": "Kako Funkcioniše",
     "title": "Na Putu u 3 Koraka",
-    "subtitle": "Jednostavna rezervacija. Trenutna potvrda. Bez čekanja na aerodromu.",
+    "subtitle": "Jednostavna rezervacija. Trenutna potvrda. Bez redova na aerodromu.",
     "step1Title": "Izaberite Lokaciju",
-    "step1Desc": "Birajte između aerodroma, Kotora, Budve, Perasta i drugih tačaka za preuzimanje širom Crne Gore i šire.",
+    "step1Desc": "Preuzmite na aerodromu Tivat, u starom gradu Kotoru, u Perastu, Budvi ili na bilo kojoj od više od 28 lokacija širom Crne Gore.",
     "step2Title": "Izaberite Auto",
-    "step2Desc": "Pregledajte našu flotu od ekonomičnih gradskih automobila do premium SUV-ova. Filtrirajte po veličini, mjenjaču ili budžetu.",
+    "step2Desc": "Pregledajte našu flotu, od ekonomičnih gradskih automobila do premium SUV vozila. Filtrirajte prema veličini, mjenjaču ili budžetu.",
     "step3Title": "Vozite Crnom Gorom",
-    "step3Desc": "Dočekujemo vas na izlazu. Vaš auto je spreman. Istražite obalu, planine i istorijske gradove."
+    "step3Desc": "Dočekujemo Vas na dolascima ili u Vašem hotelu. Vaš automobil je spreman. Istražite zaliv, planine i istorijska mjesta."
   },
   "fleet": {
     "label": "Naša Flota",
@@ -67,7 +67,7 @@
   "destinations": {
     "label": "Top Destinacije",
     "title": "Istražite Crnu Goru",
-    "subtitle": "Od Bokokotorskog zaliva do albanske granice, svaka destinacija je drugi svijet."
+    "subtitle": "Od starog grada pod zaštitom UNESCO-a do Perasta, Budve i planina, sve je lako dostupno."
   },
   "features": {
     "label": "Zašto Mi",
@@ -77,7 +77,7 @@
   "reviews": {
     "label": "Recenzije",
     "title": "Omiljeni Među Putnicima",
-    "subtitle": "Stvarna iskustva stvarnih korisnika širom Crne Gore."
+    "subtitle": "Prava iskustva pravih klijenata koji istražuju Kotor i zaliv."
   },
   "faq": {
     "label": "FAQ",
@@ -86,7 +86,7 @@
   },
   "cta": {
     "title": "Spremni da Istražite Crnu Goru?",
-    "subtitle": "Rezervišite za nekoliko minuta. Preuzmite na aerodromu. Vozite cijelom jadranskom obalom sopstvenim tempom.",
+    "subtitle": "Rezervišite za nekoliko minuta. Preuzmite na aerodromu Tivat ili u starom gradu Kotoru. Vozite UNESCO zalivom, kroz Perast i duž jadranske obale svojim tempom.",
     "browseFleet": "Pregledaj Flotu"
   },
   "sidebar": {
@@ -126,7 +126,7 @@
   "notFound": {
     "code": "404",
     "title": "Pogrešno Skretanje",
-    "text": "Izgleda da ste skrenuli s puta. Ova cesta ne vodi nikuda, ali najbolje rute Crne Gore su na jedan klik.",
+    "text": "Izgleda da ste skrenuli sa puta. Ovaj put ne vodi nikuda, ali najbolje rute Bokokotorskog zaliva su samo jedan klik daleko.",
     "backHome": "Nazad na Početnu",
     "searchCars": "Pretraži Auta"
   },
@@ -385,22 +385,22 @@
   },
   "aboutBody": {
     "h1": "Rent a car Kotor",
-    "p1": "Od 2007. godine, Crna Gora Car Hire povezuje putnike sa pouzdanim i pristupačnim rent-a-car vozilima širom Crna Gora. Ono što je počelo kao jednostavna ideja, olakšati posjetiocima istraživanje ovog zadivljujućeg kutka Adriatic, izraslo je u jednu od najpouzdanijih usluga iznajmljivanja vozila u zemlji.",
+    "p1": "Kotor Car Hire je nezavisni afilijat koji posjetioce povezuje sa pouzdanim rent a car vozilima oko Bokokotorskog zaliva. Sarađujemo sa pouzdanim lokalnim iznajmljivačima kako bi putnici koji dolaze na aerodrom Tivat, krstaši koji izlaze u luci, kao i putnici koji prelaze iz Hrvatske, mogli preuzeti ključeve bez zadrške, od terminala za dolaske u Tivtu do kaldrme ispred katedrale Svetog Tripuna.",
     "h2": "Zašto smo počeli",
-    "p2": "Crna Gora je zemlja koja se najbolje doživljava sopstvenim tempom. Vijugavi obalni putevi, skrivena planinska sela i gradovi pod zaštitom UNESCO-a teško su dostupni javnim prevozom. Prepoznali smo priliku da putnicima pružimo slobodu da otkriju Crna Gora na svoj način, bez rasporeda turističkih autobusa, bez propuštenih vidikovaca, bez kompromisa.",
+    "p2": "Gradski autobusi prate glavnu magistralu i zaustavljaju se. To je sve. Neće skrenuti do neoznačenog vidikovca iznad Perasta, gdje se zaliv otvara u dva kraka. Ne mogu zastati kod rimskih mozaika u Risnu niti savladati jednotračni put do Gornjeg Stoliva, napuštenog sela koje se drži litice 400 metara iznad vode. Tek sopstveni volan i doza radoznalosti zaista otključavaju Bokokotorski zaliv.",
     "h3": "Šta nudimo",
-    "p3": "Pružamo usluge iznajmljivanja vozila širom Crna Gora, sa preuzimanjem i vraćanjem na aerodromu Tivat, aerodromu Podgorica, kao i na lokacijama duž obale i u unutrašnjosti. Naša flota obuhvata sve, od kompaktnih gradskih automobila do prostranih SUV vozila, sa potpunim osiguranjem i bez skrivenih troškova.",
+    "p3": "Mjesta preuzimanja pokrivaju cijeli zaliv: aerodrom Tivat (8 km od bedema Kotora), direktno ispred parkinga kod Riječnih vrata, kao i u 28 gradova od Herceg Novog do Ulcinja. Ekonomični hečbek modeli lako prolaze prilaznim ulicama starog grada. SUV vozila bez napora savladavaju 25 serpentina Lovćenske krivine. Svako vozilo ima puno osiguranje, a zelena karta za Hrvatsku, Bosnu, Albaniju, Srbiju i Kosovo može se pripremiti u trenutku rezervacije.",
     "promiseTitle": "Naše obećanje",
     "promise1": "Potpuno osiguranje sa opcijom nulte franšize",
-    "promise2": "Doček na aerodromu, donosimo automobil direktno do sale za dolaske",
-    "promise3": "Bez skrivenih troškova, cijena koju vidite je cijena koju plaćate",
-    "promise4": "Dozvoljena prekogranična putovanja u Hrvatsku, Bosnu, Albaniju, Srbiju i Kosovo",
+    "promise2": "Imenovani vozač Vas čeka na dolascima u Tivtu, sa natpisom u ruci, vozilo parkirano ispred",
+    "promise3": "Transparentne cijene, bez aerodromskih doplata, bez iznenađenja u pogledu goriva",
+    "promise4": "Zelena karta pripremljena za pet susjednih zemalja",
     "promise5": "Besplatno otkazivanje za većinu rezervacija",
     "promise6": "Pomoć na putu 24/7 tokom cijelog putovanja",
     "h4": "Lokalno znanje",
-    "p4": "Sa sjedištem u Crna Gora, poznajemo puteve, najbolje rute i skrivene dragulje koje turistički vodiči ne pominju. Bilo da vozite sa aerodroma Tivat do srednjovjekovnog starog grada Kotor, idete slikovitom rutom kroz Boku Kotorsku do Perast, ili se upućujete u unutrašnjost ka Nacionalnom parku Durmitor, možemo vam pomoći da isplanirate savršeno putovanje.",
+    "p4": "Pitajte nas kojih se jutara pristaju krstaški brodovi i kada zaguše parkinge u starom gradu. Savjetovaćemo Vam da stignete prije 07:30 ili da umjesto toga skrenete u Dobrotu. Pitajte za stazu duž grebena Vrmca i objasnićemo Vam gdje tačno ostaviti vozilo na polazištu kod Prčanja. Od vremena polaska trajekta Kamenari-Lepetane do najmirnijeg sata na graničnom prelazu Debeli Brijeg, naši savjeti nastaju iz svakodnevnog vožnje ovim putevima, a ne iz preštampanog vodiča.",
     "h5": "Kontaktirajte nas",
-    "p5": "Imate pitanje o iznajmljivanju automobila u Crna Gora? Dostupni smo putem telefona, WhatsApp i Viber. Pregledajte našu flotu online i rezervišite za nekoliko minuta, ili nam se javite i pomoći ćemo vam da pronađete savršen automobil za vaše putovanje."
+    "p5": "WhatsApp, Viber, klasičan telefonski poziv, izaberite što Vam odgovara. Odgovaramo brzo, čak i u užurbanoj sezoni krstaša u julu. Pregledajte flotu na sajtu, rezervišite cijenu, a za ostalo se brinemo mi. Ili nam jednostavno pošaljite pitanje o parkingu kod katedrale, najboljoj ruti do Cetinja ili je li taj planinski prevoj otvoren u decembru."
   },
   "kotorBody": {
     "h1": "Kotor -- Lokalitet pod Zastitom UNESCO-a",
