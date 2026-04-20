@@ -101,10 +101,10 @@
   "book": {
     "title": "Trouvez Votre Voiture",
     "seoTitle": "Réserver une Voiture",
-    "seoDesc": "Recherchez et réservez des voitures de location au Monténégro. Disponibilité en temps réel, confirmation instantanée, annulation gratuite."
+    "seoDesc": "Réservez une voiture de location à Kotor en quelques secondes. Remise à Tivat à 8 km, annulation gratuite sur la plupart des tarifs, et disponibilité en direct pour plus de 200 véhicules."
   },
   "footer": {
-    "brandDesc": "Location de voitures premium au Monténégro depuis 2007. Prise en charge à l'aéroport, assurance tous risques et aucun frais caché.",
+    "brandDesc": "Location de voiture courte durée à Kotor depuis l'aéroport de Tivat et les portes de la Vieille Ville. Assurance complète, expertise des routes côtières, et tarifs fixes toute la saison.",
     "quickLinks": "Liens Rapides",
     "guides": "Guides",
     "locations": "Nos Agences",
@@ -131,12 +131,12 @@
     "searchCars": "Rechercher"
   },
   "home": {
-    "seoDesc": "Louez une voiture au Monténégro à partir de 13 €/jour. Prise en charge à l'aéroport de Tivat, Podgorica, Kotor, Budva et plus de 28 points. Annulation gratuite, assurance complète, sans frais cachés. Réservez en ligne en quelques minutes."
+    "seoDesc": "Louez une voiture à Kotor à partir de €13 par jour. Aéroport de Tivat à 8 km, la ville fortifiée UNESCO à vos pieds, et 60 km de route de fjord avant Dubrovnik."
   },
   "about": {
     "title": "À Propos",
     "subtitle": "Nous aidons les voyageurs à explorer le Monténégro depuis 2007.",
-    "seoDesc": "À propos de Kotor Car Hire. Nous aidons les voyageurs à explorer le Monténégro depuis 2007 avec des voitures fiables, la livraison à l'aéroport et une expertise locale.",
+    "seoDesc": "Conciergerie de location à Kotor Old Town. Nous sélectionnons les voitures pour séjours courts, passagers de croisière, explorateurs de baie, et tous ceux qui fuient les autocars touristiques de juillet-août.",
     "heading1": "Location de voitures à Kotor",
     "p1": "Kotor Car Hire met en relation les voyageurs avec des voitures de location fiables et abordables dans la Baie de Kotor. Nous sommes un affilié indépendant travaillant avec des partenaires de location automobile locaux de confiance, ce qui facilite la vie des visiteurs pour explorer ce coin UNESCO de l'Adriatique.",
     "heading2": "Pourquoi nous avons commencé",
@@ -170,7 +170,7 @@
   "kotor": {
     "title": "Location de Voiture à Kotor",
     "subtitle": "Explorez le joyau UNESCO du Monténégro à votre rythme.",
-    "seoDesc": "Louez une voiture à Kotor, Monténégro. Explorez la vieille ville UNESCO, la baie de Kotor et Perast avec une location abordable et livraison gratuite à l'aéroport.",
+    "seoDesc": "4,5 km de murailles vénitiennes, Cathédrale Saint-Tryphon depuis 1166, et 1 355 marches jusqu'à San Giovanni. Garez-vous à la Porte de la Mer et parcourez douze siècles d'histoire.",
     "heading1": "Kotor. Patrimoine mondial de l'UNESCO",
     "p1": "Kotor est l'une des villes médiévales les mieux conservées de l'Adriatique, située à la tête d'une baie spectaculaire et ressemblant à un fjord. La Vieille Ville inscrite à l'UNESCO est un dédale de ruelles étroites, de palais vénitiens, d'églises romanes et de places animées. Au-dessus de tout cela, la forteresse de San Giovanni grimpe 1 200 marches pour offrir une vue panoramique sur toute la baie.",
     "p2a": "Louer une voiture à Kotor",
@@ -1104,7 +1104,7 @@
   },
   "contact": {
     "title": "Nous contacter",
-    "seoDesc": "Contactez Kotor Car Hire. Email, WhatsApp et formulaire de contact.",
+    "seoDesc": "Contactez Kotor Car Hire pour devis, embarquement croisière, ou livraison à Tivat. Email, WhatsApp, ou formulaire web avec réponse en deux heures en semaine.",
     "heading": "Nous contacter",
     "intro": "Une question sur la location de voiture à Kotor ? Contactez-nous, nous vous aiderons à trouver le véhicule idéal pour votre séjour."
   }

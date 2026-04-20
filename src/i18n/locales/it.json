@@ -101,10 +101,10 @@
   "book": {
     "title": "Trova la Tua Auto",
     "seoTitle": "Prenota un'Auto",
-    "seoDesc": "Cerca e prenota auto a noleggio in Montenegro. Disponibilità in tempo reale, conferma immediata, cancellazione gratuita."
+    "seoDesc": "Prenota un'auto a noleggio per Kotor in pochi secondi. Consegna all'Aeroporto di Tivat 8 km, cancellazione gratuita sulla maggior parte delle tariffe, e disponibilità di flotta in tempo reale con oltre 200 veicoli."
   },
   "footer": {
-    "brandDesc": "Noleggio auto premium in Montenegro dal 2007. Ritiro in aeroporto, assicurazione completa e nessun costo nascosto.",
+    "brandDesc": "Noleggio auto a breve termine a Kotor da Aeroporto di Tivat e dalle porte della Città Vecchia. Assicurazione completa, esperienza della strada della baia, e tariffe fisse che rimangono fisse tutto l'anno.",
     "quickLinks": "Link Rapidi",
     "guides": "Guide",
     "locations": "Sedi",
@@ -131,12 +131,12 @@
     "searchCars": "Cerca Auto"
   },
   "home": {
-    "seoDesc": "Noleggia un'auto in Montenegro da 13 €/giorno. Ritiro all'aeroporto di Tivat, Podgorica, Kotor, Budva e oltre 28 punti. Cancellazione gratuita, assicurazione completa, nessun costo nascosto. Prenota online in pochi minuti."
+    "seoDesc": "Noleggia un'auto a Kotor da €13 al giorno. Aeroporto di Tivat 8 km, la città UNESCO murata ai tuoi piedi, e 60 km di strada nel fiordo tra te e l'Aeroporto di Dubrovnik."
   },
   "about": {
     "title": "Chi Siamo",
     "subtitle": "Aiutiamo i viaggiatori a esplorare il Montenegro dal 2007.",
-    "seoDesc": "Chi è Kotor Car Hire. Dal 2007 aiutiamo i viaggiatori a esplorare il Montenegro con auto affidabili, consegna in aeroporto e competenza locale.",
+    "seoDesc": "Concierge di noleggio Città Vecchia Kotor. Selezioniamo auto per soggiorni brevi per passeggeri di crociere, gite di un giorno sulla strada della baia, e chiunque voglia evitare i pullman turistici dell'alta estate.",
     "heading1": "Kotor Car Hire",
     "p1": "Kotor Car Hire mette in contatto i viaggiatori con auto a noleggio affidabili e convenienti nella Baia di Kotor. Siamo un affiliato indipendente che collabora con partner locali di fiducia, rendendo più facile per i visitatori esplorare questo angolo UNESCO dell'Adriatico.",
     "heading2": "Perché abbiamo iniziato",
@@ -170,7 +170,7 @@
   "kotor": {
     "title": "Noleggio Auto a Kotor",
     "subtitle": "Esplora il gioiello UNESCO del Montenegro al tuo ritmo.",
-    "seoDesc": "Noleggia un'auto a Kotor, Montenegro. Esplora il centro storico UNESCO, le Bocche di Kotor e la vicina Perast con noleggio conveniente e consegna gratuita in aeroporto.",
+    "seoDesc": "4,5 km di muri veneziani, Cattedrale di San Triphon dal 1166 d.C., e 1.355 gradini per San Giovanni. Parcheggia fuori dalla Sea Gate e cammina attraverso dodici secoli di storia.",
     "heading1": "Kotor: Patrimonio dell'UNESCO",
     "p1": "Kotor è una delle città medievali meglio conservate dell'Adriatico, situata alla testa di una baia spettacolare simile a un fiordo. La Città Vecchia UNESCO è un labirinto di vie strette, palazzi veneziani, chiese romaniche e piazze vivaci. Sopra di tutto, la fortezza di San Giovanni si erge con 1.200 gradini offrendo viste panoramiche sulla baia.",
     "p2a": "Noleggiare un'auto a Kotor",
@@ -1104,7 +1104,7 @@
   },
   "contact": {
     "title": "Contattaci",
-    "seoDesc": "Entra in contatto con Kotor Car Rental. Email, WhatsApp e modulo di contatto.",
+    "seoDesc": "Contatta Kotor Car Hire per preventivi, ritiri da crociera, o consegna all'Aeroporto di Tivat. Email, WhatsApp, o modulo web con risposte entro due ore nei giorni feriali.",
     "heading": "Contattaci",
     "intro": "Hai una domanda sul noleggio auto a Kotor? Contattaci e ti aiuteremo a trovare il veicolo perfetto per il tuo viaggio."
   }

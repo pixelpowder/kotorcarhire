@@ -101,10 +101,10 @@
   "book": {
     "title": "Find Your Car",
     "seoTitle": "Book a Car in Kotor",
-    "seoDesc": "Choose from 200+ vehicles for Bay of Kotor pickup. Compare prices, book online, and collect your car at Tivat Airport or Kotor Old Town."
+    "seoDesc": "Reserve a rental car for Kotor in seconds. Tivat Airport 8 km handover, free cancellation on most rates, and live fleet availability across 200 plus vehicles."
   },
   "footer": {
-    "brandDesc": "Car hire in Kotor and the Bay of Kotor. Tivat Airport pickup, full insurance, and no hidden fees.",
+    "brandDesc": "Short term Kotor car hire from Tivat Airport and the Old Town gates. Full insurance, bay road expertise, and flat rates that stay flat all season.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "locations": "Locations",
@@ -131,12 +131,12 @@
     "searchCars": "Search Cars"
   },
   "home": {
-    "seoDesc": "Collect at Tivat Airport, 8 km from Kotor's 1166 AD cathedral. Drive the bay road to Perast, climb 1,355 steps to San Giovanni, and explore the UNESCO fjord. From €13/day, full insurance included."
+    "seoDesc": "Rent a car in Kotor from €13 per day. Tivat Airport 8 km, the UNESCO walled town at your feet, and 60 km of fjord road between you and Dubrovnik Airport."
   },
   "about": {
     "title": "About Us",
     "subtitle": "Helping travellers rent cars in the Bay of Kotor.",
-    "seoDesc": "An independent affiliate connecting Kotor visitors to reliable rental cars. We work with trusted local car hire partners across the Bay of Kotor and Tivat Airport.",
+    "seoDesc": "Kotor Old Town rental concierge. We curate short stay cars for cruise passengers, bay road day trippers, and anyone dodging the midsummer tourist coaches.",
     "heading1": "Kotor Car Hire",
     "p1": "Kotor Car Hire connects travellers with reliable, affordable rental cars in the Bay of Kotor. We are an independent affiliate working with trusted local car rental partners — making it easier for visitors to explore this UNESCO-listed corner of the Adriatic.",
     "heading2": "Why We Started",
@@ -170,7 +170,7 @@
   "kotor": {
     "title": "Car Hire in Kotor",
     "subtitle": "Park beneath 4.5 km of fortress walls and explore twelve centuries of history on foot.",
-    "seoDesc": "1,355 steps to San Giovanni, St Tryphon Cathedral since 1166, and 4.5 km of Venetian walls. Park outside the Sea Gate and let the Old Town unfold.",
+    "seoDesc": "4.5 km of Venetian walls, St Tryphon Cathedral from 1166 AD, and 1,355 steps to San Giovanni. Park outside the Sea Gate and walk twelve centuries of history.",
     "heading1": "Kotor — UNESCO World Heritage Site",
     "p1": "Kotor is one of the best-preserved medieval towns on the Adriatic, sitting at the head of a dramatic fjord-like bay. The UNESCO-listed Old Town is a maze of narrow streets, Venetian palaces, Romanesque churches, and lively squares. Above it all, the fortress of San Giovanni climbs 1,200 steps to offer sweeping views across the bay.",
     "p2a": "Renting a car in Kotor",
@@ -1088,7 +1088,7 @@
   },
   "contact": {
     "title": "Contact Us",
-    "seoDesc": "Get in touch with Kotor Car Hire. Email, WhatsApp, and contact form.",
+    "seoDesc": "Message Kotor Car Hire for quotes, cruise shore pickups, or Tivat Airport delivery. Email, WhatsApp, or web form with two hour weekday replies.",
     "heading": "Contact Us",
     "intro": "Have a question about renting a car in Kotor? Get in touch and we'll help you find the perfect vehicle for your trip."
   }
