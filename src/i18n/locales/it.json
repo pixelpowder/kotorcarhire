@@ -59,7 +59,7 @@
   "fleet": {
     "label": "La Nostra Flotta",
     "title": "Scegli la Tua Auto",
-    "subtitle": "Consulta disponibilità e prezzi in tempo reale — prenota direttamente."
+    "subtitle": "Consulta disponibilità e prezzi in tempo reale, prenota direttamente."
   },
   "brands": {
     "label": "Marchi affidabili nella nostra flotta"
@@ -67,7 +67,7 @@
   "destinations": {
     "label": "Destinazioni Principali",
     "title": "Esplora da Kotor",
-    "subtitle": "Dalle Bocche di Kotor al confine albanese — ogni destinazione è un mondo diverso."
+    "subtitle": "Dalle Bocche di Kotor al confine albanese, ogni destinazione è un mondo diverso."
   },
   "features": {
     "label": "Perché Sceglierci",
@@ -101,7 +101,7 @@
   "book": {
     "title": "Trova la Tua Auto",
     "seoTitle": "Prenota un'Auto",
-    "seoDesc": "Prenota un'auto a noleggio per Kotor in pochi secondi. Consegna all'Aeroporto di Tivat 8 km, cancellazione gratuita sulla maggior parte delle tariffe, e disponibilità di flotta in tempo reale con oltre 200 veicoli."
+    "seoDesc": "Prenota un'auto a noleggio per Kotor in pochi secondi. Consegna all'Aeroporto di Tivat 8 km, cancellazione gratuita sulla maggior parte delle tariffe, e"
   },
   "footer": {
     "brandDesc": "Noleggio auto a breve termine a Kotor da Aeroporto di Tivat e dalle porte della Città Vecchia. Assicurazione completa, esperienza della strada della baia, e tariffe fisse che rimangono fisse tutto l'anno.",
@@ -126,17 +126,17 @@
   "notFound": {
     "code": "404",
     "title": "Strada Sbagliata",
-    "text": "Sembra che tu abbia preso una deviazione. Questa strada non porta da nessuna parte — ma le migliori rotte del Montenegro sono a un solo clic.",
+    "text": "Sembra che tu abbia preso una deviazione. Questa strada non porta da nessuna parte, ma le migliori rotte del Montenegro sono a un solo clic.",
     "backHome": "Torna alla Home",
     "searchCars": "Cerca Auto"
   },
   "home": {
-    "seoDesc": "Noleggia un'auto a Kotor da €13 al giorno. Aeroporto di Tivat 8 km, la città UNESCO murata ai tuoi piedi, e 60 km di strada nel fiordo tra te e l'Aeroporto di Dubrovnik."
+    "seoDesc": "Noleggia un'auto a Kotor da €13 al giorno. Aeroporto di Tivat 8 km, la città UNESCO murata ai tuoi piedi, e 60 km di strada nel fiordo tra te e"
   },
   "about": {
     "title": "Chi Siamo",
     "subtitle": "Aiutiamo i viaggiatori a esplorare il Montenegro dal 2007.",
-    "seoDesc": "Concierge di noleggio Città Vecchia Kotor. Selezioniamo auto per soggiorni brevi per passeggeri di crociere, gite di un giorno sulla strada della baia, e chiunque voglia evitare i pullman turistici dell'alta estate.",
+    "seoDesc": "Concierge di noleggio Città Vecchia Kotor. Selezioniamo auto per soggiorni brevi per passeggeri di crociere, gite di un giorno sulla strada della baia, e",
     "heading1": "Kotor Car Hire",
     "p1": "Kotor Car Hire mette in contatto i viaggiatori con auto a noleggio affidabili e convenienti nella Baia di Kotor. Siamo un affiliato indipendente che collabora con partner locali di fiducia, rendendo più facile per i visitatori esplorare questo angolo UNESCO dell'Adriatico.",
     "heading2": "Perché abbiamo iniziato",
@@ -170,7 +170,7 @@
   "kotor": {
     "title": "Noleggio Auto a Kotor",
     "subtitle": "Esplora il gioiello UNESCO del Montenegro al tuo ritmo.",
-    "seoDesc": "4,5 km di muri veneziani, Cattedrale di San Triphon dal 1166 d.C., e 1.355 gradini per San Giovanni. Parcheggia fuori dalla Sea Gate e cammina attraverso dodici secoli di storia.",
+    "seoDesc": "4,5 km di muri veneziani, Cattedrale di San Triphon dal 1166 d.C., e 1.355 gradini per San Giovanni. Parcheggia fuori dalla Sea Gate e cammina attraverso",
     "heading1": "Kotor: Patrimonio dell'UNESCO",
     "p1": "Kotor è una delle città medievali meglio conservate dell'Adriatico, situata alla testa di una baia spettacolare simile a un fiordo. La Città Vecchia UNESCO è un labirinto di vie strette, palazzi veneziani, chiese romaniche e piazze vivaci. Sopra di tutto, la fortezza di San Giovanni si erge con 1.200 gradini offrendo viste panoramiche sulla baia.",
     "p2a": "Noleggiare un'auto a Kotor",
@@ -197,32 +197,32 @@
   "tivat-airport": {
     "title": "Noleggio Auto Aeroporto Tivat",
     "subtitle": "Ritira la tua auto a noleggio agli arrivi.",
-    "seoDesc": "Ritira la tua auto a noleggio all'aeroporto di Tivat (TIV). Ti aspettiamo agli arrivi con il veicolo pronto. Raggiungi Kotor, Budva o Porto Montenegro in pochi minuti."
+    "seoDesc": "Ritira la tua auto a noleggio all'aeroporto di Tivat (TIV). Ti aspettiamo agli arrivi con il veicolo pronto. Raggiungi Kotor, Budva o Porto Montenegro in"
   },
   "budva": {
     "title": "Noleggio Auto a Budva",
-    "subtitle": "La riviera del Montenegro — spiagge, vita notturna e fascino della città vecchia.",
-    "seoDesc": "Noleggia un'auto a Budva, Montenegro. Raggiungi la spiaggia di Mogren, Sveti Stefan e la migliore vita notturna della riviera. Assicurazione completa, nessun costo nascosto."
+    "subtitle": "La riviera del Montenegro, spiagge, vita notturna e fascino della città vecchia.",
+    "seoDesc": "Noleggia un'auto a Budva, Montenegro. Raggiungi la spiaggia di Mogren, Sveti Stefan e la migliore vita notturna della riviera. Assicurazione completa"
   },
   "perast": {
     "title": "Noleggio Auto a Perast",
     "subtitle": "Un gioiello barocco sulle Bocche di Kotor.",
-    "seoDesc": "Noleggia un'auto e visita Perast, un gioiello barocco sulle Bocche di Kotor. Ammira l'isola della Madonna dello Scalpello e splendidi palazzi sul lungomare al tuo ritmo."
+    "seoDesc": "Noleggia un'auto e visita Perast, un gioiello barocco sulle Bocche di Kotor. Ammira l'isola della Madonna dello Scalpello e splendidi palazzi sul"
   },
   "podgorica": {
     "title": "Noleggio Auto a Podgorica",
-    "subtitle": "La capitale del Montenegro — cultura, fiumi e fascino moderno.",
-    "seoDesc": "Noleggio auto a Podgorica, capitale del Montenegro. Esplora il Lago di Scutari, il Monastero di Ostrog e Durmitor con un'auto a noleggio. Ritiro in aeroporto disponibile."
+    "subtitle": "La capitale del Montenegro, cultura, fiumi e fascino moderno.",
+    "seoDesc": "Noleggio auto a Podgorica, capitale del Montenegro. Esplora il Lago di Scutari, il Monastero di Ostrog e Durmitor con un'auto a noleggio. Ritiro in"
   },
   "podgorica-airport": {
     "title": "Noleggio Auto Aeroporto Podgorica",
     "subtitle": "Il principale gateway internazionale del Montenegro.",
-    "seoDesc": "Ritira la tua auto a noleggio all'aeroporto di Podgorica (TGD). Consegniamo il veicolo agli arrivi. Raggiungi la costa, il Lago di Scutari o il Parco Nazionale Durmitor."
+    "seoDesc": "Ritira la tua auto a noleggio all'aeroporto di Podgorica (TGD). Consegniamo il veicolo agli arrivi. Raggiungi la costa, il Lago di Scutari o il Parco"
   },
   "dubrovnik-airport": {
     "title": "Noleggio Auto Aeroporto Dubrovnik",
     "subtitle": "Vola in Croazia, guida verso il Montenegro.",
-    "seoDesc": "Noleggia un'auto all'aeroporto di Dubrovnik e guida verso il Montenegro. Attraversa il confine in meno di un'ora. Assicurazione completa e carta verde incluse."
+    "seoDesc": "Noleggia un'auto all'aeroporto di Dubrovnik e guida verso il Montenegro. Attraversa il confine in meno di un'ora. Assicurazione completa e carta verde"
   },
   "tivat": {
     "title": "Noleggio Auto a Tivat",
@@ -232,12 +232,12 @@
   "montenegro": {
     "title": "Noleggio Auto e Guida Viaggio Montenegro",
     "subtitle": "Tutto ciò che devi sapere sulla guida in Montenegro.",
-    "seoDesc": "Guida completa alla guida in Montenegro. Regole stradali, limiti di velocità, prezzi del carburante e i migliori percorsi panoramici dalla costa alle montagne."
+    "seoDesc": "Guida completa alla guida in Montenegro. Regole stradali, limiti di velocità, prezzi del carburante e i migliori percorsi panoramici dalla costa alle"
   },
   "border-crossing": {
     "title": "Guida Attraversamento Frontiere Balcani",
     "subtitle": "Tutto sul passaggio delle frontiere con la tua auto a noleggio.",
-    "seoDesc": "Guida all'attraversamento delle frontiere dal Montenegro con auto a noleggio. Assicurazione carta verde, documenti necessari e consigli per Croazia, Bosnia, Albania e Serbia."
+    "seoDesc": "Guida all'attraversamento delle frontiere dal Montenegro con auto a noleggio. Assicurazione carta verde, documenti necessari e consigli per Croazia"
   },
   "privacy": {
     "title": "Informativa sulla Privacy",
@@ -257,7 +257,7 @@
   "featureCards": {
     "airportPickup": {
       "title": "Ritiro all'aeroporto di Tivat",
-      "desc": "Ti accogliamo agli arrivi di Tivat, a soli 8 km dalle mura della città vecchia. La strada della baia fino a Kotor si percorre in 15 minuti — nessuna navetta, nessuna attesa."
+      "desc": "Ti accogliamo agli arrivi di Tivat, a soli 8 km dalle mura della città vecchia. La strada della baia fino a Kotor si percorre in 15 minuti, nessuna navetta, nessuna attesa."
     },
     "fullInsurance": {
       "title": "Assicurazione completa",
@@ -265,11 +265,11 @@
     },
     "support": {
       "title": "Assistenza 24/7",
-      "desc": "Bloccato dietro un autobus da crociera sulla strada della baia? Dubbi sul parcheggio Tabacina? Chiamaci in qualsiasi momento — conosciamo ogni metro di queste strade."
+      "desc": "Bloccato dietro un autobus da crociera sulla strada della baia? Dubbi sul parcheggio Tabacina? Chiamaci in qualsiasi momento, conosciamo ogni metro di queste strade."
     },
     "noHiddenFees": {
       "title": "Nessun costo nascosto",
-      "desc": "Un prezzo trasparente che copre assicurazione, IVA e chilometraggio. Quello che vedi alla prenotazione è esattamente quello che paghi al ritiro — niente aggiunto allo sportello."
+      "desc": "Un prezzo trasparente che copre assicurazione, IVA e chilometraggio. Quello che vedi alla prenotazione è esattamente quello che paghi al ritiro, niente aggiunto allo sportello."
     },
     "freeCancellation": {
       "title": "Cancellazione gratuita",
@@ -277,7 +277,7 @@
     },
     "crossBorder": {
       "title": "Oltre confine",
-      "desc": "Dubrovnik è a 2 ore tramite il valico di Debeli Brijeg — carta verde pronta al ritiro. Bosnia e Albania consentite con preavviso."
+      "desc": "Dubrovnik è a 2 ore tramite il valico di Debeli Brijeg, carta verde pronta al ritiro. Bosnia e Albania consentite con preavviso."
     }
   },
   "testimonials": {
@@ -285,10 +285,10 @@
       "text": "La strada della baia tra Kotor e Perast è una delle più belle che abbiamo mai percorso. Ci siamo fermati ad ogni piazzola e abbiamo preso il battello per l'isolotto di Nostra Signora dello Scoglio. Avere l'auto ci ha permesso di fare tutto con i nostri tempi. Ritiro semplice a Tivat e tutto si è svolto senza intoppi dall'inizio alla fine."
     },
     "1": {
-      "text": "Sono venuto a Kotor appositamente per scalare la fortezza di San Giovanni e guidare fino al Lovcen. L'auto era pronta agli arrivi di Tivat prima ancora che trovassi l'uscita. La strada a tornanti fino al mausoleo è diversa da tutto ciò che ho guidato in Nord America — ripida, stretta, spettacolare. Prenoterei di nuovo senza esitazione."
+      "text": "Sono venuto a Kotor appositamente per scalare la fortezza di San Giovanni e guidare fino al Lovcen. L'auto era pronta agli arrivi di Tivat prima ancora che trovassi l'uscita. La strada a tornanti fino al mausoleo è diversa da tutto ciò che ho guidato in Nord America, ripida, stretta, spettacolare. Prenoterei di nuovo senza esitazione."
     },
     "2": {
-      "text": "La nostra crociera ha attraccato a Kotor e abbiamo ritirato l'auto direttamente vicino al porto. Tre giorni di escursioni — Budva, Perast e il monastero di Cetinje. I bambini hanno adorato la gita in barca all'isolotto di Perast. Il team ha sbrigato le pratiche in fretta e il seggiolino era già montato al nostro arrivo."
+      "text": "La nostra crociera ha attraccato a Kotor e abbiamo ritirato l'auto direttamente vicino al porto. Tre giorni di escursioni, Budva, Perast e il monastero di Cetinje. I bambini hanno adorato la gita in barca all'isolotto di Perast. Il team ha sbrigato le pratiche in fretta e il seggiolino era già montato al nostro arrivo."
     }
   },
   "faqItems": {
@@ -298,15 +298,15 @@
     },
     "1": {
       "q": "Posso guidare in Croazia o Albania?",
-      "a": "La Croazia è a 2 ore tramite il valico di Debeli Brijeg — prepariamo la carta verde alla prenotazione. L'Albania richiede documentazione separata per la carta verde, avvisaci in anticipo. Bosnia, Serbia e Kosovo sono anch'esse consentite."
+      "a": "La Croazia è a 2 ore tramite il valico di Debeli Brijeg, prepariamo la carta verde alla prenotazione. L'Albania richiede documentazione separata per la carta verde, avvisaci in anticipo. Bosnia, Serbia e Kosovo sono anch'esse consentite."
     },
     "2": {
       "q": "C'è un'età minima?",
-      "a": "I conducenti devono avere almeno 21 anni e un minimo di 2 anni di esperienza. Un supplemento giovane conducente si applica ai minori di 25 anni — l'importo esatto varia per veicolo ed è indicato nei risultati di ricerca."
+      "a": "I conducenti devono avere almeno 21 anni e un minimo di 2 anni di esperienza. Un supplemento giovane conducente si applica ai minori di 25 anni, l'importo esatto varia per veicolo ed è indicato nei risultati di ricerca."
     },
     "3": {
       "q": "Cosa è incluso nel prezzo?",
-      "a": "Responsabilità civile e assicurazione CDW sono incluse nel prezzo base per tutti i veicoli, insieme a IVA e kit di sicurezza obbligatorio. Il chilometraggio illimitato è disponibile sulla maggior parte delle auto — verifica la scheda del veicolo prima di prenotare."
+      "a": "Responsabilità civile e assicurazione CDW sono incluse nel prezzo base per tutti i veicoli, insieme a IVA e kit di sicurezza obbligatorio. Il chilometraggio illimitato è disponibile sulla maggior parte delle auto, verifica la scheda del veicolo prima di prenotare."
     },
     "4": {
       "q": "Come funziona il ritiro all'aeroporto di Tivat?",
@@ -314,7 +314,7 @@
     },
     "5": {
       "q": "Posso restituire il veicolo in un luogo diverso?",
-      "a": "I noleggi in una direzione sono disponibili in 28 punti di ritiro e riconsegna in Montenegro. Seleziona luoghi diversi in fase di prenotazione — potrebbe essere applicata una tariffa in una direzione in base alla distanza."
+      "a": "I noleggi in una direzione sono disponibili in 28 punti di ritiro e riconsegna in Montenegro. Seleziona luoghi diversi in fase di prenotazione, potrebbe essere applicata una tariffa in una direzione in base alla distanza."
     },
     "6": {
       "q": "Qual è la politica di cancellazione?",
@@ -322,7 +322,7 @@
     },
     "7": {
       "q": "È richiesto un deposito cauzionale?",
-      "a": "La maggior parte dei veicoli richiede un deposito di 100–350 € su una carta di credito fisica del conducente. Alcune auto economiche sono disponibili senza deposito — chiaramente segnalate nei risultati di ricerca. Il blocco viene rilasciato alla restituzione del veicolo senza danni."
+      "a": "La maggior parte dei veicoli richiede un deposito di 100-350 € su una carta di credito fisica del conducente. Alcune auto economiche sono disponibili senza deposito, chiaramente segnalate nei risultati di ricerca. Il blocco viene rilasciato alla restituzione del veicolo senza danni."
     },
     "8": {
       "q": "Cosa succede se supero il limite di chilometraggio?",
@@ -334,7 +334,7 @@
     },
     "10": {
       "q": "Quanto pago in anticipo?",
-      "a": "Un acconto del 15–20 % del costo totale del noleggio è richiesto per confermare la prenotazione. Il saldo viene saldato direttamente con l'agente di noleggio al momento del ritiro dell'auto."
+      "a": "Un acconto del 15-20 % del costo totale del noleggio è richiesto per confermare la prenotazione. Il saldo viene saldato direttamente con l'agente di noleggio al momento del ritiro dell'auto."
     },
     "11": {
       "q": "Posso noleggiare senza carta di credito?",
@@ -380,32 +380,32 @@
     "podgorica": {
       "name": "Podgorica",
       "tag": "Capitale",
-      "desc": "Capitale del Montenegro — porta verso l'interno."
+      "desc": "Capitale del Montenegro, porta verso l'interno."
     }
   },
   "aboutBody": {
     "h1": "Noleggio Auto Kotor",
-    "p1": "Dal 2007, Kotor Car Hire mette in contatto i viaggiatori con auto a noleggio affidabili e convenienti in tutto il Montenegro. Quella che è nata come una semplice idea — rendere più facile per i visitatori esplorare questo splendido angolo dell'Adriatic — è diventata uno dei servizi di autonoleggio più affidabili del Paese.",
+    "p1": "Dal 2007, Kotor Car Hire mette in contatto i viaggiatori con auto a noleggio affidabili e convenienti in tutto il Montenegro. Quella che è nata come una semplice idea, rendere più facile per i visitatori esplorare questo splendido angolo dell'Adriatic, è diventata uno dei servizi di autonoleggio più affidabili del Paese.",
     "h2": "Perché abbiamo iniziato",
-    "p2": "Il Montenegro è un Paese che si vive meglio al proprio ritmo. Le tortuose strade costiere, i villaggi di montagna nascosti e le città patrimonio UNESCO sono difficili da raggiungere con i mezzi pubblici. Abbiamo colto l'opportunità di offrire ai viaggiatori la libertà di scoprire il Montenegro alle proprie condizioni — niente orari di pullman turistici, niente panorami persi, nessun compromesso.",
+    "p2": "Il Montenegro è un Paese che si vive meglio al proprio ritmo. Le tortuose strade costiere, i villaggi di montagna nascosti e le città patrimonio UNESCO sono difficili da raggiungere con i mezzi pubblici. Abbiamo colto l'opportunità di offrire ai viaggiatori la libertà di scoprire il Montenegro alle proprie condizioni, niente orari di pullman turistici, niente panorami persi, nessun compromesso.",
     "h3": "Cosa offriamo",
     "p3": "Offriamo servizi di autonoleggio in tutto il Montenegro, con ritiro e riconsegna presso l'aeroporto di Tivat, l'aeroporto di Podgorica e in diverse località lungo la costa e nell'entroterra. La nostra flotta spazia dalle auto compatte per la città ai SUV spaziosi, tutti con assicurazione completa e senza costi nascosti.",
     "promiseTitle": "La nostra promessa",
     "promise1": "Assicurazione completa con opzione franchigia zero",
-    "promise2": "Accoglienza in aeroporto — portiamo l'auto direttamente all'area arrivi",
-    "promise3": "Nessun costo nascosto — il prezzo che vedi è il prezzo che paghi",
+    "promise2": "Accoglienza in aeroporto, portiamo l'auto direttamente all'area arrivi",
+    "promise3": "Nessun costo nascosto, il prezzo che vedi è il prezzo che paghi",
     "promise4": "Viaggi transfrontalieri consentiti verso Croazia, Bosnia, Albania, Serbia e Kosovo",
     "promise5": "Cancellazione gratuita sulla maggior parte delle prenotazioni",
     "promise6": "Assistenza stradale 24/7 per tutta la durata del viaggio",
     "h4": "Conoscenza locale",
     "p4": "Con sede in Montenegro, conosciamo le strade, i percorsi migliori e le perle nascoste che le guide non menzionano. Che stiate guidando dall'aeroporto di Tivat al centro storico medievale di Kotor, percorrendo la strada panoramica attraverso le Bocche di Kotor fino a Perast, o dirigendovi verso l'entroterra fino al Parco Nazionale del Durmitor, possiamo aiutarvi a pianificare il viaggio in auto perfetto.",
     "h5": "Contattaci",
-    "p5": "Hai domande sul noleggio auto in Montenegro? Siamo raggiungibili via telefono, WhatsApp e Viber. Sfoglia la nostra flotta online e prenota in pochi minuti — oppure contattaci e ti aiuteremo a trovare l'auto perfetta per il tuo viaggio."
+    "p5": "Hai domande sul noleggio auto in Montenegro? Siamo raggiungibili via telefono, WhatsApp e Viber. Sfoglia la nostra flotta online e prenota in pochi minuti, oppure contattaci e ti aiuteremo a trovare l'auto perfetta per il tuo viaggio."
   },
   "kotorBody": {
-    "h1": "Kotor — Patrimonio Mondiale dell'UNESCO",
+    "h1": "Kotor, Patrimonio Mondiale dell'UNESCO",
     "p1": "Kotor è una delle città costiere più affascinanti del Montenegro, che offre spiagge magnifiche, il fascino del centro storico e mura medievali che ospitano gallerie d'arte, caffè e ristoranti eccellenti. In quanto Patrimonio Mondiale dell'UNESCO, i monumenti della città sono concentrati nel centro storico splendidamente conservato.",
-    "p2": "Noleggiare un'auto a Kotor vi dà la libertà di esplorare le attrazioni locali e le città e aree naturali montenegrine vicine al vostro ritmo. La disponibilità di parcheggio varia stagionalmente, con il turismo estivo che crea scarsità nel centro — ma ci sono parcheggi più grandi sulle strade di accesso.",
+    "p2": "Noleggiare un'auto a Kotor vi dà la libertà di esplorare le attrazioni locali e le città e aree naturali montenegrine vicine al vostro ritmo. La disponibilità di parcheggio varia stagionalmente, con il turismo estivo che crea scarsità nel centro, ma ci sono parcheggi più grandi sulle strade di accesso.",
     "landmarksTitle": "Monumenti",
     "stJohnTitle": "Fortezza di San Giovanni",
     "stJohnText": "Un'imponente struttura che storicamente proteggeva la città dagli attacchi dei pirati. Caratteristiche degne di nota includono la Torre Contarini e la Chiesa della Madonna della Salute, che offre viste mozzafiato sul centro storico e sulla Baia di Kotor.",
@@ -416,12 +416,12 @@
     "cetinjeTrip": "Costruito nel 1701, il monastero custodisce la mano di Giovanni Battista. Presenta decorazioni ornamentali e arte ortodossa. Il tragitto in auto da Kotor dura circa un'ora attraverso panoramiche strade di montagna.",
     "royalCourtText": "Il palazzo reale del Montenegro del 1871, che espone opere d'arte, manufatti e fotografie della storia reale del paese. Situato accanto al monastero nell'antica capitale reale.",
     "perastLinkText": "Guida fino a Perast",
-    "perastLinkAfter": " — 15 minuti lungo la baia, con escursioni in barca alla Madonna dello Scalpello."
+    "perastLinkAfter": ", 15 minuti lungo la baia, con escursioni in barca alla Madonna dello Scalpello."
   },
   "budvaBody": {
-    "h1": "Budva — Il Cuore della Riviera Montenegrina",
+    "h1": "Budva, Il Cuore della Riviera Montenegrina",
     "p1": "Budva è la destinazione balneare più popolare del Montenegro, che attira visitatori da tutta Europa con la sua splendida costa, la vivace vita notturna e il centro storico medievale splendidamente conservato. Con un'auto a noleggio, l'intera Riviera di Budva e oltre è a portata di mano.",
-    "p2": "La città si trova a circa 20 minuti a sud dell'Aeroporto di Tivat, rendendola una delle destinazioni costiere più facili da raggiungere dopo l'atterraggio. Budva combina 2.500 anni di storia con un'atmosfera vacanziera completamente moderna — antiche mura cittadine di giorno, vivaci bar sulla spiaggia di notte.",
+    "p2": "La città si trova a circa 20 minuti a sud dell'Aeroporto di Tivat, rendendola una delle destinazioni costiere più facili da raggiungere dopo l'atterraggio. Budva combina 2.500 anni di storia con un'atmosfera vacanziera completamente moderna, antiche mura cittadine di giorno, vivaci bar sulla spiaggia di notte.",
     "beachesTitle": "Spiagge",
     "beachesIntro": "La Riviera di Budva si estende per 21 chilometri, offrendo alcune delle più belle spiagge della costa adriatica:",
     "mogren": "Due spiagge di ciottoli collegate, raggiungibili attraverso un tunnel scavato nelle scogliere, a pochi minuti dal centro storico",
@@ -437,11 +437,11 @@
     "gettingAroundTitle": "Come Spostarsi",
     "gettingAroundText": "Mentre il centro storico di Budva è meglio esplorarlo a piedi, un'auto a noleggio è essenziale per raggiungere le migliori spiagge, i villaggi vicini e le attrazioni dell'entroterra. Il parcheggio è disponibile vicino alle mura del centro storico e in diversi parcheggi pubblici lungo la strada principale. In piena estate, arrivare presto assicura i posti migliori.",
     "tivatLinkText": "Ritira la tua auto all'Aeroporto di Tivat",
-    "tivatLinkAfter": " e raggiungi Budva in 30 minuti."
+    "tivatLinkAfter": "e raggiungi Budva in 30 minuti."
   },
   "perastBody": {
-    "h1": "Perast — Gemma Nascosta sulla Baia",
-    "p1": "Il piccolo villaggio di Perast si trova a breve distanza in auto — meno di 20 minuti — da Kotor. I turisti che noleggiano un'auto per il loro tour del Montenegro vorranno certamente percorrere l'autostrada E65/E80 per trascorrere del tempo in questo incantevole villaggio di pescatori.",
+    "h1": "Perast, Gemma Nascosta sulla Baia",
+    "p1": "Il piccolo villaggio di Perast si trova a breve distanza in auto, meno di 20 minuti, da Kotor. I turisti che noleggiano un'auto per il loro tour del Montenegro vorranno certamente percorrere l'autostrada E65/E80 per trascorrere del tempo in questo incantevole villaggio di pescatori.",
     "p2": "Sebbene abbia solo circa 850 abitanti, la lunga e colorata storia di Perast supera certamente le sue piccole dimensioni. Dal 1420 al 1797, la città appartenne alla Repubblica di Venezia ed era nota per i suoi maestri costruttori navali e marinai. Perast possiede molti splendidi ricordi del passato e alcuni eccellenti esempi di architettura barocca.",
     "islandsTitle": "Le Isole",
     "stGeorgeTitle": "Isola di San Giorgio",
@@ -454,8 +454,8 @@
     "monasteryText": "Situato appena a nord di Perast sulla strada per Risan, il Monastero di Banja presenta molti antichi pezzi religiosi provenienti da dinastie russe, greche e di Boka. Per raggiungere il monastero, continuate verso nord sulla E65/E80 per pochi chilometri."
   },
   "tivatBody": {
-    "h1": "Tivat — Città del Porto Turistico",
-    "p1": "Tivat è una delle città più recenti lungo la costa montenegrina, costruita poco più di un secolo fa. La città ospita uno dei soli due aeroporti pubblici del Montenegro — l'Aeroporto di Tivat — rendendola una base incredibilmente comoda per i visitatori che arrivano in aereo.",
+    "h1": "Tivat, Città del Porto Turistico",
+    "p1": "Tivat è una delle città più recenti lungo la costa montenegrina, costruita poco più di un secolo fa. La città ospita uno dei soli due aeroporti pubblici del Montenegro, l'Aeroporto di Tivat, rendendola una base incredibilmente comoda per i visitatori che arrivano in aereo.",
     "p2": "Questa località balneare ha una popolazione di circa 13.000 abitanti. I visitatori possono godersi le passeggiate sul lungomare, cenare nei bistrot fronte mare ed esplorare i negozi nascosti in stretti vicoli. Durante l'alta stagione, la città bilancia la tranquillità con una vivace attività turistica.",
     "beachesTitle": "Spiagge",
     "beachesText": "Tivat vanta 17 spiagge distribuite su 3 chilometri di costa, riconosciute tra le più belle del Mediterraneo. Le spiagge principali includono:",
@@ -482,11 +482,11 @@
     "facilitiesTitle": "Servizi dell'Aeroporto",
     "facilitiesText": "L'aeroporto offre caffetterie, telefoni pubblici, negozi di souvenir e shopping duty-free. I servizi di autobus collegano a Herceg Novi e Budva, con servizio taxi disponibile anche all'esterno del terminal.",
     "whyTitle": "Perché Noleggiare all'Aeroporto di Tivat?",
-    "whyText": "L'Aeroporto di Tivat è l'aeroporto più vicino alle destinazioni costiere più popolari del Montenegro. Pochi minuti dopo l'atterraggio, potrete guidare lungo la Baia di Kotor verso la città medievale fortificata, o dirigervi a sud verso le spiagge di Budva. Ritirare l'auto a Tivat significa nessun trasferimento, nessuna attesa per gli autobus — direttamente dal terminal alla strada aperta.",
+    "whyText": "L'Aeroporto di Tivat è l'aeroporto più vicino alle destinazioni costiere più popolari del Montenegro. Pochi minuti dopo l'atterraggio, potrete guidare lungo la Baia di Kotor verso la città medievale fortificata, o dirigervi a sud verso le spiagge di Budva. Ritirare l'auto a Tivat significa nessun trasferimento, nessuna attesa per gli autobus, direttamente dal terminal alla strada aperta.",
     "meetText": "Vi accogliamo nella sala arrivi con il vostro nome su un cartello. La vostra auto è parcheggiata proprio fuori. Tempo totale dall'atterraggio alla guida: circa 10 minuti."
   },
   "podgoricaBody": {
-    "h1": "Podgorica — La Capitale",
+    "h1": "Podgorica, La Capitale",
     "p1": "La maggior parte dei turisti che volano in Montenegro inizierà il proprio viaggio all'Aeroporto di Podgorica (TGD), situato a 9 km dal centro città. Essendo sia la capitale che la città più grande del Montenegro, Podgorica ospita circa 170.000 residenti e si trova in posizione unica sulle rive di sei fiumi: la Moraca, la Ribnica, la Zeta, la Sitnica, la Mareza e la Cijevna.",
     "p2": "L'architettura della città riflette diverse influenze storiche. Il dominio ottomano ha lasciato il suo segno, mentre strutture medievali si affiancano a edifici funzionalisti dell'era comunista e moderne torri di vetro. Il Ponte del Millennio è diventato un simbolo dell'estetica moderna della città.",
     "p3": "Podgorica è la capitale culturale del paese. I turisti che si precipitano verso le città balneari o le montagne senza trascorrere del tempo qui perderanno certamente una parte importante del Montenegro.",
@@ -520,23 +520,23 @@
   "dubrovnikAirportBody": {
     "h1": "Noleggio Auto all'Aeroporto di Dubrovnik (DBV)",
     "p1": "Molti turisti che visitano il Montenegro scelgono di volare all'Aeroporto di Dubrovnik e noleggiare un'auto per guidare fino in Montenegro. L'aeroporto si trova a sole due ore di auto dalle località costiere di Budva, Perast e Kotor, ed è meglio collegato con molte compagnie aeree che non offrono ancora un servizio diretto per il Montenegro.",
-    "p2": "Poiché questa è una rotta così comune, attraversare il confine non è un compito difficile — a condizione che i visitatori abbiano tutti i documenti di noleggio e i documenti di viaggio in ordine.",
+    "p2": "Poiché questa è una rotta così comune, attraversare il confine non è un compito difficile, a condizione che i visitatori abbiano tutti i documenti di noleggio e i documenti di viaggio in ordine.",
     "p3": "Noleggiare un'auto per un viaggio in Montenegro è un'ottima idea. Permette ai visitatori di vedere questa parte del mondo alle proprie condizioni, con i propri tempi. Il traffico tra i paesi di questa regione è comune, quindi gli attraversamenti di frontiera sono generalmente semplici.",
     "borderTitle": "Consigli per l'Attraversamento del Confine",
     "borderText": "Durante la stagione turistica, il Montenegro si riempie di visitatori e lunghe attese per attraversare il confine non sono rare. Attraversare la mattina presto o la sera tardi è un modo per evitare la folla. Assicuratevi che la vostra compagnia di noleggio vi abbia fornito una Carta Verde per l'assicurazione transfrontaliera.",
     "facilitiesTitle": "Servizi dell'Aeroporto",
-    "facilitiesText1": "L'Aeroporto di Dubrovnik dispone di un moderno edificio terminale situato a meno di mezz'ora di auto dalla città di Dubrovnik sulla E65. L'aeroporto ha parcheggi limitati disponibili, con macchine che elaborano il pagamento in contanti e con carte di credito. Poiché il parcheggio è limitato — specialmente in alta stagione — i visitatori dovrebbero prenotare i loro posti in anticipo se possibile. È disponibile uno sconto per la prenotazione anticipata.",
+    "facilitiesText1": "L'Aeroporto di Dubrovnik dispone di un moderno edificio terminale situato a meno di mezz'ora di auto dalla città di Dubrovnik sulla E65. L'aeroporto ha parcheggi limitati disponibili, con macchine che elaborano il pagamento in contanti e con carte di credito. Poiché il parcheggio è limitato, specialmente in alta stagione, i visitatori dovrebbero prenotare i loro posti in anticipo se possibile. È disponibile uno sconto per la prenotazione anticipata.",
     "facilitiesText2": "All'interno dell'aeroporto si trovano un ufficio di cambio, una banca e un ufficio postale. Sono disponibili anche piccoli ristoranti, caffetterie, un negozio duty-free e un'edicola.",
     "gettingTitle": "Come Raggiungere il Montenegro",
     "gettingText1": "I trasporti pubblici sono disponibili all'aeroporto sotto forma di taxi situati all'esterno del terminal, oltre a servizi di autobus e navette. Per i viaggiatori diretti alla città di Dubrovnik, assicuratevi di prendere gli autobus che arrivano fino al centro città piuttosto che quelli che si fermano a Cavtat, per risparmiare un trasferimento.",
-    "gettingText2": "Il viaggio dall'Aeroporto di Dubrovnik alla costa montenegrina vi porta lungo una delle strade costiere più panoramiche d'Europa. Entro due ore passerete attraverso il confine e arriverete alla Baia di Kotor — uno degli approcci più spettacolari a qualsiasi destinazione nel Mediterraneo."
+    "gettingText2": "Il viaggio dall'Aeroporto di Dubrovnik alla costa montenegrina vi porta lungo una delle strade costiere più panoramiche d'Europa. Entro due ore passerete attraverso il confine e arriverete alla Baia di Kotor, uno degli approcci più spettacolari a qualsiasi destinazione nel Mediterraneo."
   },
   "montenegroBody": {
     "h1": "Esplorare il Montenegro in Auto",
     "p1": "Il Montenegro si distingue come una delle destinazioni europee più gratificanti per l'esplorazione in auto. Dalle spettacolari strade di montagna e i tranquilli villaggi dell'entroterra alle tortuose strade costiere lungo l'Adriatico, il paese offre paesaggi diversificati a distanze sorprendentemente brevi. Noleggiare un'auto fornisce accesso a luoghi ben oltre la portata dei trasporti pubblici.",
-    "p2": "Sebbene compatto nelle dimensioni, il Montenegro richiede tempi di percorrenza più lunghi di quanto le mappe suggeriscano. I tornanti di montagna, le strette strade costiere e i percorsi panoramici incoraggiano soste frequenti. I viaggiatori ottengono la libertà di vivere sia il viaggio che la destinazione — navigando baie simili a fiordi, città storiche e punti panoramici d'altura al proprio ritmo.",
+    "p2": "Sebbene compatto nelle dimensioni, il Montenegro richiede tempi di percorrenza più lunghi di quanto le mappe suggeriscano. I tornanti di montagna, le strette strade costiere e i percorsi panoramici incoraggiano soste frequenti. I viaggiatori ottengono la libertà di vivere sia il viaggio che la destinazione, navigando baie simili a fiordi, città storiche e punti panoramici d'altura al proprio ritmo.",
     "startTitle": "Come Iniziare",
-    "startText": "Molti visitatori ritirano l'auto a noleggio in uno degli aeroporti del Montenegro o all'Aeroporto di Dubrovnik in Croazia, a seconda della disponibilità dei voli. L'Aeroporto di Tivat è il più vicino alla costa — a soli 10 minuti da Kotor e 20 minuti da Budva. L'Aeroporto di Podgorica serve la capitale e l'interno. L'Aeroporto di Dubrovnik rimane popolare in quanto spesso dispone di più voli internazionali.",
+    "startText": "Molti visitatori ritirano l'auto a noleggio in uno degli aeroporti del Montenegro o all'Aeroporto di Dubrovnik in Croazia, a seconda della disponibilità dei voli. L'Aeroporto di Tivat è il più vicino alla costa, a soli 10 minuti da Kotor e 20 minuti da Budva. L'Aeroporto di Podgorica serve la capitale e l'interno. L'Aeroporto di Dubrovnik rimane popolare in quanto spesso dispone di più voli internazionali.",
     "timesTitle": "Tempi di Percorrenza",
     "timesText1": "I tempi di percorrenza effettivi superano regolarmente quanto indicato dalle mappe. I tornanti di montagna, le strade costiere frastagliate, gli ostacoli rurali (incluso il bestiame) e la neve montana invernale contribuiscono tutti a viaggi più lunghi. L'esperienza panoramica costiera e della campagna giustifica ampiamente il tempo di viaggio prolungato.",
     "timesText2": "Il viaggio tra le città costiere varia tipicamente da trenta minuti a un'ora. Il tragitto da Herceg-Novi a Podgorica attraverso la E65/E80 richiede circa due ore.",
@@ -549,10 +549,10 @@
     "keyRulesTitle": "Regole Principali",
     "keyRule1": "Le cinture di sicurezza sono obbligatorie per tutti i passeggeri",
     "keyRule2": "L'uso del telefono cellulare durante la guida è proibito",
-    "keyRule3": "Bere e guidare è illegale — tolleranza zero",
+    "keyRule3": "Bere e guidare è illegale, tolleranza zero",
     "keyRule4": "I limiti di velocità sono rigorosamente applicati",
     "conditionsTitle": "Condizioni Stradali",
-    "conditionsText": "Le strade cittadine mantengono condizioni discrete. Le strade di montagna possono essere più impegnative, con guardrail minimi in alcuni punti. Alcuni conducenti guidano in modo aggressivo, quindi si consiglia prudenza in tutto il paese — in particolare sui passi di montagna e nei tratti costieri stretti.",
+    "conditionsText": "Le strade cittadine mantengono condizioni discrete. Le strade di montagna possono essere più impegnative, con guardrail minimi in alcuni punti. Alcuni conducenti guidano in modo aggressivo, quindi si consiglia prudenza in tutto il paese, in particolare sui passi di montagna e nei tratti costieri stretti.",
     "routesTitle": "Percorsi Principali",
     "e65Title": "E65/E80",
     "e65Text": "Il principale percorso costiero collega Herceg-Novi a Podgorica, passando per Kotor, Perast, Tivat e Budva. Questo è il percorso di guida più popolare e offre viste mozzafiato sulla Baia di Kotor.",
@@ -562,9 +562,9 @@
     "borderText": "Il viaggio transfrontaliero è semplice con la documentazione corretta. I posti di blocco possono subire forte congestione durante l'alta stagione, con code di auto lunghe chilometri comuni agli attraversamenti più frequentati. Gli orari ottimali per l'attraversamento sono le mattine dei giorni feriali o le sere tarde.",
     "nationTitle": "Una Nazione Giovane",
     "nationText": "Il Montenegro ha raggiunto l'indipendenza nel giugno 2006, diventando una delle nazioni più giovani del mondo. Lo sviluppo turistico continua a crescere, offrendo un'avventura più esotica e leggermente più aspra rispetto ai paesi vicini. Il paesaggio combina montagne verdi attraversate da fiordi pieni di acque adriatiche blu profondo, una varietà di spiagge e i misteri degli antichi centri storici.",
-    "startLinkBefore": "Iniziate con il ",
+    "startLinkBefore": "Iniziate con il",
     "startLinkText": "noleggio auto all'Aeroporto di Tivat",
-    "startLinkAfter": " — l'aeroporto più vicino alle Bocche di Cattaro."
+    "startLinkAfter": ", l'aeroporto più vicino alle Bocche di Cattaro."
   },
   "borderCrossingBody": {
     "h1": "Posso Portare l'Auto a Noleggio Oltre Confine?",
@@ -572,7 +572,7 @@
     "greenCardTitle": "Cos'è una Carta Verde?",
     "greenCardText": "Una Carta Verde è un certificato internazionale di assicurazione auto che dimostra che il vostro veicolo è assicurato nel paese in cui state entrando. È richiesta ad ogni attraversamento di frontiera nei Balcani.",
     "greenCard1": "Costo: circa 15 Euro per 15 giorni",
-    "greenCard2": "Dove ottenerla: la vostra compagnia di noleggio la organizza — basta confermare al momento della prenotazione",
+    "greenCard2": "Dove ottenerla: la vostra compagnia di noleggio la organizza, basta confermare al momento della prenotazione",
     "greenCard3": "Paesi coperti: Croazia, Bosnia, Albania, Kosovo, Serbia",
     "greenCardWarn": "Senza una Carta Verde, le guardie di frontiera non vi lasceranno passare. Controllate sempre che la carta copra tutti i paesi sul vostro itinerario pianificato prima di partire.",
     "docsTitle": "Documenti Necessari alla Frontiera",
@@ -583,9 +583,9 @@
     "doc5": "Documento di immatricolazione del veicolo (fornito con l'auto)",
     "crossingsTitle": "Attraversamenti di Frontiera dal Montenegro",
     "croatiaTitle": "Montenegro → Croazia",
-    "croatiaText": "L'attraversamento più popolare per i turisti. Il principale posto di blocco si trova a Debeli Brijeg sulla strada costiera (E65) tra Herceg Novi e Dubrovnik. Questo attraversamento diventa estremamente trafficato in estate — aspettatevi code di 1-2 ore durante l'alta stagione (luglio-agosto).",
+    "croatiaText": "L'attraversamento più popolare per i turisti. Il principale posto di blocco si trova a Debeli Brijeg sulla strada costiera (E65) tra Herceg Novi e Dubrovnik. Questo attraversamento diventa estremamente trafficato in estate, aspettatevi code di 1-2 ore durante l'alta stagione (luglio-agosto).",
     "croatiaTip": "Orari migliori per attraversare: la mattina presto (prima delle 8) o la sera tardi (dopo le 20). Le mattine dei giorni feriali sono significativamente più tranquille rispetto ai fine settimana.",
-    "croatiaFerry": "C'è anche la scorciatoia del traghetto Kamenari-Lepetane attraverso la Baia di Kotor che evita di percorrere l'intera baia — fa risparmiare circa 45 minuti.",
+    "croatiaFerry": "C'è anche la scorciatoia del traghetto Kamenari-Lepetane attraverso la Baia di Kotor che evita di percorrere l'intera baia, fa risparmiare circa 45 minuti.",
     "albaniaTitle": "Montenegro → Albania",
     "albaniaText": "Due attraversamenti principali: Sukobin/Muriqan (costiero, vicino a Ulcinj) e Hani i Hotit (interno, vicino al Lago di Skadar). L'attraversamento costiero è più adatto ai viaggiatori e ha tipicamente tempi di attesa più brevi.",
     "albaniaNote": "Nota: le strade albanesi differiscono significativamente da quelle montenegrine. Guidate con cautela, specialmente sulle strade rurali.",
@@ -594,13 +594,13 @@
     "serbiaTitle": "Montenegro → Serbia",
     "serbiaText": "Attraversate a Dobrakovo (sulla E65 a nord di Bijelo Polje). Questo attraversamento si collega direttamente al sistema autostradale serbo verso Belgrado.",
     "kosovoTitle": "Montenegro → Kosovo",
-    "kosovoText": "L'attraversamento a Kula (vicino a Rožaje) si collega a Peja/Peć in Kosovo. Verificate con la vostra compagnia di noleggio che il Kosovo sia incluso nella vostra Carta Verde — alcune polizze lo escludono.",
+    "kosovoText": "L'attraversamento a Kula (vicino a Rožaje) si collega a Peja/Peć in Kosovo. Verificate con la vostra compagnia di noleggio che il Kosovo sia incluso nella vostra Carta Verde, alcune polizze lo escludono.",
     "tipsTitle": "Consigli per Attraversamenti di Frontiera Senza Problemi",
-    "tip1": "Tenete tutti i documenti pronti prima di raggiungere il posto di blocco — non cercateli al finestrino",
+    "tip1": "Tenete tutti i documenti pronti prima di raggiungere il posto di blocco, non cercateli al finestrino",
     "tip2": "Spegnete il motore mentre aspettate in coda (le guardie di frontiera lo apprezzano)",
-    "tip3": "I fine settimana estivi sono i peggiori — pianificate di attraversare nei giorni feriali se possibile",
+    "tip3": "I fine settimana estivi sono i peggiori, pianificate di attraversare nei giorni feriali se possibile",
     "tip4": "L'attraversamento costiero croato (Debeli Brijeg) è il più trafficato; gli attraversamenti interni sono più tranquilli",
-    "tip5": "Tenete del contante in Euro — utile per i pedaggi e piccoli acquisti dall'altra parte",
+    "tip5": "Tenete del contante in Euro, utile per i pedaggi e piccoli acquisti dall'altra parte",
     "tip6": "Roaming dati mobile: verificate che il vostro piano copra il paese in cui state entrando",
     "lawsTitle": "Regole Stradali che Cambiano ai Confini",
     "lawsIntro": "Ogni paese ha leggi sul traffico leggermente diverse. Differenze principali da notare:",
@@ -614,24 +614,24 @@
     "route2": "Kotor → Mostar (Bosnia): 3-4 ore via Trebinje. Visitate il famoso ponte",
     "route3": "Budva → Shkodër (Albania): 2,5 ore via l'attraversamento costiero di Ulcinj",
     "route4": "Podgorica → Belgrado (Serbia): 5-6 ore via la E65 nord",
-    "ctaText": "Avete bisogno di un'auto con documentazione transfrontaliera pronta? Cercate nella nostra flotta — selezionate semplicemente i paesi di destinazione alla prenotazione e organizzeremo la Carta Verde.",
+    "ctaText": "Avete bisogno di un'auto con documentazione transfrontaliera pronta? Cercate nella nostra flotta, selezionate semplicemente i paesi di destinazione alla prenotazione e organizzeremo la Carta Verde.",
     "dubrovnikLinkBefore": "Il noleggio dall'",
     "dubrovnikLinkText": "Aeroporto di Dubrovnik",
-    "dubrovnikLinkAfter": " è l'opzione transfrontaliera più popolare."
+    "dubrovnikLinkAfter": "è l'opzione transfrontaliera più popolare."
   },
   "blogIndex": {
     "breadcrumbBlog": "Blog",
     "heroTitle": "Guide di Viaggio per Kotor",
-    "heroSubtitle": "Itinerari in auto, consigli da chi ci vive e tappe nascoste nelle Bocche di Cattaro — scritte da gente del posto.",
+    "heroSubtitle": "Itinerari in auto, consigli da chi ci vive e tappe nascoste nelle Bocche di Cattaro, scritte da gente del posto.",
     "readGuide": "Leggi la guida",
     "card_walls_title": "La Scalata alle Mura della Fortezza di Kotor",
-    "card_walls_excerpt": "Guida passo passo ai 1.350 gradini sopra il centro storico — quando andare, cosa portare, e perché il panorama da San Giovanni vale ogni goccia di sudore.",
+    "card_walls_excerpt": "Guida passo passo ai 1.350 gradini sopra il centro storico, quando andare, cosa portare, e perché il panorama da San Giovanni vale ogni goccia di sudore.",
     "card_boat_title": "Noleggio Auto e Gita in Barca nella Baia",
     "card_boat_excerpt": "Guidate fino a Perast, prendete un taxi d'acqua per la Madonna dello Scalpello, e scoprite gli angoli più tranquilli della baia che nessun autobus turistico raggiunge.",
     "card_lovcen_title": "Da Kotor al Lovćen: 25 Tornanti",
     "card_lovcen_excerpt": "La strada a serpentina dal livello del mare al Mausoleo di Njegoš a 1.657 metri. Uno dei percorsi di montagna più spettacolari d'Europa.",
     "card_cruise_title": "Escursione a Terra con Auto a Noleggio",
-    "card_cruise_excerpt": "La vostra nave da crociera attracca a Kotor per 4–8 ore. Ecco come visitare Perast, la strada costiera e il centro storico senza unirsi a un tour di gruppo.",
+    "card_cruise_excerpt": "La vostra nave da crociera attracca a Kotor per 4-8 ore. Ecco come visitare Perast, la strada costiera e il centro storico senza unirsi a un tour di gruppo.",
     "card_cats_title": "I Gatti del Centro Storico di Kotor",
     "card_cats_excerpt": "I famosi residenti felini di Kotor hanno un museo tutto loro, negozi dedicati e angoli preferiti per il pisolino. Un percorso a piedi autoguidato nel loro territorio.",
     "card_dining_title": "Dove Mangiare e Bere a Kotor",
@@ -639,42 +639,42 @@
     "card_winter_title": "Kotor in Bassa Stagione",
     "card_winter_excerpt": "Meno folla, prezzi più bassi e la baia nella sua atmosfera più suggestiva. Perché da novembre a marzo potrebbe essere il periodo migliore per visitare.",
     "card_risan_title": "I Mosaici Romani di Risan",
-    "card_risan_excerpt": "Venti minuti d'auto da Kotor verso uno dei siti archeologici più trascurati dell'Adriatico — mosaici pavimentali del II secolo in una tranquilla cittadina sulla baia.",
+    "card_risan_excerpt": "Venti minuti d'auto da Kotor verso uno dei siti archeologici più trascurati dell'Adriatico, mosaici pavimentali del II secolo in una tranquilla cittadina sulla baia.",
     "card_photo_title": "9 Punti Fotografici nelle Bocche di Cattaro",
     "card_photo_excerpt": "Dalla cima della fortezza allo stretto delle Verige, gli scatti che fanno tornare i fotografi a Kotor anno dopo anno."
   },
   "blogWalls": {
     "title": "La Scalata alle Mura della Fortezza di Kotor",
-    "subtitle": "1.350 gradini dalle porte medievali alla fortezza di San Giovanni — cosa aspettarsi a ogni tappa della salita.",
+    "subtitle": "1.350 gradini dalle porte medievali alla fortezza di San Giovanni, cosa aspettarsi a ogni tappa della salita.",
     "description": "Guida completa all'escursione sulle mura di Kotor. Dettagli del percorso, orari migliori per la salita, cosa indossare e il panorama dalla cima della fortezza di San Giovanni.",
     "h2Why": "Perché Questa Escursione è Speciale",
-    "whyP1": "Le fortificazioni sopra Kotor furono costruite tra il IX e il XV secolo per proteggere la città dagli assedi ottomani e veneziani. Si arrampicano dalla porta nord del centro storico fino alle rovine della fortezza di San Giovanni a 280 metri sul livello del mare. Le mura sono continue — un unico nastro difensivo di pietra che segue i contorni della montagna e avvolge l'intero insediamento sottostante.",
+    "whyP1": "Le fortificazioni sopra Kotor furono costruite tra il IX e il XV secolo per proteggere la città dagli assedi ottomani e veneziani. Si arrampicano dalla porta nord del centro storico fino alle rovine della fortezza di San Giovanni a 280 metri sul livello del mare. Le mura sono continue, un unico nastro difensivo di pietra che segue i contorni della montagna e avvolge l'intero insediamento sottostante.",
     "whyP2": "Oggi l'escursione è l'attività più popolare di Kotor. In una mattina estiva il sentiero è già affollato alle 8. Ma il motivo per cui la gente continua a salire è semplice: il panorama dalla cima è uno dei più belli dell'intera costa adriatica. La baia a forma di fiordo si snoda sotto di voi, le navi da crociera si rimpiccioliscono fino a sembrare giocattoli, e i tetti in terracotta del centro storico formano una griglia medievale perfetta.",
     "h2Start": "Da Dove Si Parte",
-    "startP": "Ci sono due punti d'accesso. L'ingresso principale è all'interno del centro storico, attraverso un portale in pietra vicino alla Chiesa di Santa Maria — qui si paga il biglietto. Il secondo ingresso è un sentiero non segnalato dal canyon del fiume Škurda sul lato nord. I residenti usano il sentiero del canyon per evitare il biglietto, ma è più ripido, meno curato e completamente privo di illuminazione. Se è la vostra prima volta, usate l'ingresso principale.",
+    "startP": "Ci sono due punti d'accesso. L'ingresso principale è all'interno del centro storico, attraverso un portale in pietra vicino alla Chiesa di Santa Maria, qui si paga il biglietto. Il secondo ingresso è un sentiero non segnalato dal canyon del fiume Škurda sul lato nord. I residenti usano il sentiero del canyon per evitare il biglietto, ma è più ripido, meno curato e completamente privo di illuminazione. Se è la vostra prima volta, usate l'ingresso principale.",
     "altSteps": "Gradini in pietra sul sentiero delle mura della fortezza di Kotor",
     "h2Sections": "Tre Tappe della Salita",
     "h3Lower": "Tratto Inferiore: Dal Centro Storico alla Chiesa della Madonna della Salute",
-    "lowerP": "I primi 15 minuti sono i più ripidi. Gradini irregolari in pietra salgono a zigzag tra bassa vegetazione, con i tetti del centro storico che già si allontanano sotto di voi. La piccola Chiesa della Madonna della Salute appare a circa un terzo della salita — una cappella imbiancata su uno sperone con una terrazza che offre una sosta naturale. La maggior parte delle persone si ferma qui per le fotografie.",
+    "lowerP": "I primi 15 minuti sono i più ripidi. Gradini irregolari in pietra salgono a zigzag tra bassa vegetazione, con i tetti del centro storico che già si allontanano sotto di voi. La piccola Chiesa della Madonna della Salute appare a circa un terzo della salita, una cappella imbiancata su uno sperone con una terrazza che offre una sosta naturale. La maggior parte delle persone si ferma qui per le fotografie.",
     "h3Middle": "Tratto Centrale: Le Mura di Cinta",
-    "middleP": "Oltre la chiesa, il sentiero segue il lato interno delle mura di cinta. I gradini diventano più regolari e la pendenza si attenua leggermente. Questo tratto offre le migliori vedute laterali della baia — il tipo di scatti in cui le montagne precipitano direttamente nell'acqua blu scuro. Non ci sono venditori né punti d'acqua dopo il tratto inferiore, quindi portate tutto il necessario con voi.",
+    "middleP": "Oltre la chiesa, il sentiero segue il lato interno delle mura di cinta. I gradini diventano più regolari e la pendenza si attenua leggermente. Questo tratto offre le migliori vedute laterali della baia, il tipo di scatti in cui le montagne precipitano direttamente nell'acqua blu scuro. Non ci sono venditori né punti d'acqua dopo il tratto inferiore, quindi portate tutto il necessario con voi.",
     "h3Fortress": "Tratto Superiore: La Fortezza di San Giovanni",
-    "fortressP": "L'ultimo tratto vi conduce ai resti in rovina della fortezza. Non c'è un edificio intatto — solo mura, archi e una bandiera montenegrina piantata nel punto più alto. Il panorama qui è una vista di 270 gradi: Kotor sotto di voi, Perast dall'altra parte dell'acqua, il crinale del Vrmac a ovest e il mare aperto dell'Adriatico oltre lo stretto delle Verige.",
+    "fortressP": "L'ultimo tratto vi conduce ai resti in rovina della fortezza. Non c'è un edificio intatto, solo mura, archi e una bandiera montenegrina piantata nel punto più alto. Il panorama qui è una vista di 270 gradi: Kotor sotto di voi, Perast dall'altra parte dell'acqua, il crinale del Vrmac a ovest e il mare aperto dell'Adriatico oltre lo stretto delle Verige.",
     "h2When": "Quando Andare",
-    "whenP": "L'alba e le due ore prima del tramonto sono i momenti migliori. Il sentiero è esposto a sud e sud-ovest, il che significa sole diretto nel pomeriggio in estate — le temperature sulla pietra esposta superano regolarmente i 40°C tra mezzogiorno e le 15 in luglio e agosto. Se arrivate con una nave da crociera e non potete scegliere l'orario, partite subito dopo l'attracco. La luce del primo mattino produce anche le fotografie migliori, con la baia ancora liscia come uno specchio e la città in morbida penombra.",
+    "whenP": "L'alba e le due ore prima del tramonto sono i momenti migliori. Il sentiero è esposto a sud e sud-ovest, il che significa sole diretto nel pomeriggio in estate, le temperature sulla pietra esposta superano regolarmente i 40°C tra mezzogiorno e le 15 in luglio e agosto. Se arrivate con una nave da crociera e non potete scegliere l'orario, partite subito dopo l'attracco. La luce del primo mattino produce anche le fotografie migliori, con la baia ancora liscia come uno specchio e la città in morbida penombra.",
     "h2Tips": "Consigli Pratici",
     "tipWaterLabel": "Acqua:",
     "tipWaterVal": "Portate almeno 1,5 litri a persona. Non c'è modo di comprare acqua sopra il centro storico.",
     "tipShoesLabel": "Scarpe:",
     "tipShoesVal": "Scarpe da ginnastica con suola antiscivolo. Infradito e sandali sono pericolosi sui gradini di pietra levigata.",
     "tipTimeLabel": "Durata:",
-    "tipTimeVal": "45–75 minuti in salita, 30–45 minuti in discesa. Aggiungete tempo per le foto e le soste.",
+    "tipTimeVal": "45-75 minuti in salita, 30-45 minuti in discesa. Aggiungete tempo per le foto e le soste.",
     "tipSunLabel": "Protezione solare:",
     "tipSunVal": "Cappello, crema solare e occhiali da sole sono indispensabili da maggio a settembre. Il percorso è quasi completamente privo di ombra.",
     "tipCameraLabel": "Fotocamera:",
     "tipCameraVal": "Un grandangolo cattura al meglio il panorama della baia. Anche le fotocamere del telefono funzionano bene se usate la modalità panorama in cima.",
     "h2After": "Dopo la Discesa",
-    "afterP": "Rientrate nel centro storico dalla porta nord e concedetevi un meritato ristoro in una delle piazze. I caffè di Trg od Oružja servono birra Nikšićko ghiacciata e caffè montenegrino forte — entrambi meritati. Se restate a cena, consultate la nostra guida su",
+    "afterP": "Rientrate nel centro storico dalla porta nord e concedetevi un meritato ristoro in una delle piazze. I caffè di Trg od Oružja servono birra Nikšićko ghiacciata e caffè montenegrino forte, entrambi meritati. Se restate a cena, consultate la nostra guida su",
     "afterLink": "dove mangiare e bere a Kotor",
     "glanceTitle": "In Breve",
     "glanceElevation": "Dislivello",
@@ -682,35 +682,35 @@
     "glanceSteps": "Gradini",
     "glanceStepsVal": "~1.350",
     "glanceDuration": "Durata",
-    "glanceDurationVal": "1,5–2,5 ore andata e ritorno",
+    "glanceDurationVal": "1,5-2,5 ore andata e ritorno",
     "glanceEntry": "Biglietto d'Ingresso",
-    "glanceEntryVal": "€8 (gratis nov–mar)"
+    "glanceEntryVal": "€8 (gratis nov, mar)"
   },
   "blogBoat": {
     "title": "Noleggio Auto e Gita in Barca nella Baia",
     "subtitle": "Guidate lungo la strada costiera fino a Perast, prendete un taxi d'acqua per la Madonna dello Scalpello, e scoprite angoli delle Bocche di Cattaro che i pullman turistici non raggiungono mai.",
     "description": "Come combinare un'auto a noleggio con una gita in barca nelle Bocche di Cattaro. Guidate fino a Perast, visitate la Madonna dello Scalpello, ed esplorate il lato più tranquillo del fiordo più meridionale d'Europa.",
     "h2Combo": "Perché Auto e Barca Vanno a Braccetto Qui",
-    "comboP1": "Le Bocche di Cattaro hanno la forma di una farfalla — due ampie ali d'acqua collegate dallo stretto delle Verige. Gli autobus turistici seguono la strada principale e si fermano ai punti panoramici ovvi. Ma il vero carattere della baia si trova nei luoghi tra queste soste: i moli in pietra dove i pescatori riparano le reti all'alba, le konoba lungo la strada che servono quello che è uscito dall'acqua quella mattina, le piccole spiagge nascoste sotto i fichi senza alcun cartello che le indichi.",
-    "comboP2": "Un'auto a noleggio vi dà la strada. Una barca vi dà l'acqua. Insieme svelano l'intera baia in un solo giorno — qualcosa che nessuna escursione organizzata riesce a fare.",
+    "comboP1": "Le Bocche di Cattaro hanno la forma di una farfalla, due ampie ali d'acqua collegate dallo stretto delle Verige. Gli autobus turistici seguono la strada principale e si fermano ai punti panoramici ovvi. Ma il vero carattere della baia si trova nei luoghi tra queste soste: i moli in pietra dove i pescatori riparano le reti all'alba, le konoba lungo la strada che servono quello che è uscito dall'acqua quella mattina, le piccole spiagge nascoste sotto i fichi senza alcun cartello che le indichi.",
+    "comboP2": "Un'auto a noleggio vi dà la strada. Una barca vi dà l'acqua. Insieme svelano l'intera baia in un solo giorno, qualcosa che nessuna escursione organizzata riesce a fare.",
     "h2OurLady": "La Madonna dello Scalpello",
-    "ourLadyP": "L'isola si trova a 115 metri dal lungomare di Perast. È artificiale — costruita nei secoli dai marinai locali che lanciavano una pietra in acqua ogni volta che tornavano sani e salvi da un viaggio. La chiesa in cima risale al 1630 e ospita una collezione di tavolette votive in argento e una tela di Tripo Kokolja che copre l'intero soffitto. I taxi d'acqua fanno la spola dal molo di Perast ogni 15 minuti e il viaggio di andata e ritorno costa €5 a persona. Calcolate 30–40 minuti sull'isola.",
+    "ourLadyP": "L'isola si trova a 115 metri dal lungomare di Perast. È artificiale, costruita nei secoli dai marinai locali che lanciavano una pietra in acqua ogni volta che tornavano sani e salvi da un viaggio. La chiesa in cima risale al 1630 e ospita una collezione di tavolette votive in argento e una tela di Tripo Kokolja che copre l'intero soffitto. I taxi d'acqua fanno la spola dal molo di Perast ogni 15 minuti e il viaggio di andata e ritorno costa €5 a persona. Calcolate 30-40 minuti sull'isola.",
     "altOurLady": "L'isola della Madonna dello Scalpello vista dal lungomare di Perast",
     "h2Perast": "Esplorare Perast in Auto",
-    "perastP": "Perast dista 12 km a nord-ovest di Kotor lungo la strada costiera. Parcheggiate nel parcheggio gratuito all'ingresso nord del paese — il lungomare è pedonale in estate. Camminate verso sud lungo la passeggiata davanti a 16 antichi palazzi, la maggior parte dei quali sono edifici in pietra di epoca veneziana che ora si sgretolano elegantemente verso la baia. Il Palazzo Bujović ospita un piccolo museo marittimo. In fondo, il campanile di San Nicola offre la migliore vista panoramica su entrambe le isole.",
+    "perastP": "Perast dista 12 km a nord-ovest di Kotor lungo la strada costiera. Parcheggiate nel parcheggio gratuito all'ingresso nord del paese, il lungomare è pedonale in estate. Camminate verso sud lungo la passeggiata davanti a 16 antichi palazzi, la maggior parte dei quali sono edifici in pietra di epoca veneziana che ora si sgretolano elegantemente verso la baia. Il Palazzo Bujović ospita un piccolo museo marittimo. In fondo, il campanile di San Nicola offre la migliore vista panoramica su entrambe le isole.",
     "h2BlueCave": "Combinare con la Grotta Azzurra",
-    "blueCaveP": "Da Perast, tornate indietro attraverso Kotor e proseguite a sud lungo la baia fino alla penisola di Luštica. Alla spiaggia di Žanjice, operatori di motoscafi organizzano gite alla Grotta Azzurra — una grotta marina dove la luce solare rifratta tinge l'acqua di un blu elettrico. La visita alla grotta dura 30 minuti; il viaggio in barca fa parte dell'esperienza. Questa è un'estensione per l'intera giornata che funziona meglio se partite da Kotor presto.",
+    "blueCaveP": "Da Perast, tornate indietro attraverso Kotor e proseguite a sud lungo la baia fino alla penisola di Luštica. Alla spiaggia di Žanjice, operatori di motoscafi organizzano gite alla Grotta Azzurra, una grotta marina dove la luce solare rifratta tinge l'acqua di un blu elettrico. La visita alla grotta dura 30 minuti; il viaggio in barca fa parte dell'esperienza. Questa è un'estensione per l'intera giornata che funziona meglio se partite da Kotor presto.",
     "h2Itinerary": "Itinerario Giornaliero Consigliato",
-    "itinMorningLabel": "08:30 –",
+    "itinMorningLabel": "08:30,",
     "itinMorningVal": "Partenza da Kotor verso Perast (20 min). Parcheggiate, passeggiate sul lungomare, prendete il taxi d'acqua per la Madonna dello Scalpello.",
-    "itinMiddayLabel": "11:00 –",
+    "itinMiddayLabel": "11:00,",
     "itinMiddayVal": "Caffè sulla passeggiata di Perast. Visitate il museo marittimo se aperto.",
-    "itinAfternoonLabel": "12:30 –",
-    "itinAfternoonVal": "Pranzo in una konoba sul lungomare di Perast — calamari alla griglia, risotto nero e vino bianco locale della valle di Crmnica.",
-    "itinEveningLabel": "14:30 –",
+    "itinAfternoonLabel": "12:30,",
+    "itinAfternoonVal": "Pranzo in una konoba sul lungomare di Perast, calamari alla griglia, risotto nero e vino bianco locale della valle di Crmnica.",
+    "itinEveningLabel": "14:30,",
     "itinEveningVal": "Ritorno lungo la strada costiera, con sosta ai punti panoramici sopra Dobrota. Restituite l'auto o proseguite verso Risan o lo stretto delle Verige.",
     "h2Parking": "Parcheggio Lungo la Baia",
-    "parkingP": "Il parcheggio è gratuito all'estremità nord di Perast, sul lungomare di Risan e in diverse piazzole non segnalate lungo la strada costiera tra Kotor e Perast. In luglio e agosto il parcheggio di Perast si riempie entro le 10 — arrivate presto o parcheggiate a Dobrota e guidate gli ultimi 5 km dopo che il traffico mattutino si è diradato.",
+    "parkingP": "Il parcheggio è gratuito all'estremità nord di Perast, sul lungomare di Risan e in diverse piazzole non segnalate lungo la strada costiera tra Kotor e Perast. In luglio e agosto il parcheggio di Perast si riempie entro le 10, arrivate presto o parcheggiate a Dobrota e guidate gli ultimi 5 km dopo che il traffico mattutino si è diradato.",
     "h2Combine": "Da Leggere Anche",
     "combineP": "Se avete in programma di fotografare la baia, la nostra guida ai migliori",
     "combineLink": "punti fotografici intorno a Kotor",
@@ -720,28 +720,28 @@
     "glanceBoatCost": "Taxi d'Acqua",
     "glanceBoatCostVal": "€5 andata e ritorno a persona",
     "glanceBestTime": "Periodo Migliore",
-    "glanceBestTimeVal": "Mag–giu o set–ott",
+    "glanceBestTimeVal": "Mag, giu o set, ott",
     "glanceDuration": "Giornata Intera",
-    "glanceDurationVal": "5–7 ore con la Grotta Azzurra"
+    "glanceDurationVal": "5-7 ore con la Grotta Azzurra"
   },
   "blogLovcen": {
     "title": "Da Kotor al Lovćen: 25 Tornanti Sopra la Baia",
-    "subtitle": "La strada a serpentina dal livello del mare al Mausoleo di Njegoš a 1.657 metri — uno dei percorsi di montagna più spettacolari d'Europa.",
+    "subtitle": "La strada a serpentina dal livello del mare al Mausoleo di Njegoš a 1.657 metri, uno dei percorsi di montagna più spettacolari d'Europa.",
     "description": "Guida completa alla strada di montagna da Kotor al Lovćen. 25 tornanti, il Mausoleo di Njegoš e la discesa verso Cetinje. Quale auto scegliere e quando andare.",
     "h2Road": "La Strada",
-    "roadP1": "La vecchia strada da Kotor alla vetta del Lovćen fu costruita dagli Austro-Ungarici nel XIX secolo come via di rifornimento militare. Sale dalla baia al livello del mare fino all'ingresso del Parco Nazionale del Lovćen a circa 1.000 metri in soli 16 km — la maggior parte di quella distanza occupata da 25 tornanti consecutivi scavati nella montagna sopra la città.",
+    "roadP1": "La vecchia strada da Kotor alla vetta del Lovćen fu costruita dagli Austro-Ungarici nel XIX secolo come via di rifornimento militare. Sale dalla baia al livello del mare fino all'ingresso del Parco Nazionale del Lovćen a circa 1.000 metri in soli 16 km, la maggior parte di quella distanza occupata da 25 tornanti consecutivi scavati nella montagna sopra la città.",
     "roadP2": "Ogni tornante è numerato su un piccolo cippo in pietra. Al tornante 10 siete all'altezza delle navi da crociera. Al tornante 17 il centro storico è una macchia rossa. Al tornante 25 siete sopra la linea delle nuvole nelle giornate coperte e l'intera baia di Kotor si stende sotto di voi come una mappa in rilievo.",
     "h2Hairpins": "Guidare sui Tornanti",
-    "hairpinsP": "La strada è stretta — una corsia e mezza per la maggior parte del tragitto — e priva di guardrail in molte delle curve esterne. Il traffico in senso contrario include autobus turistici che occupano l'intera larghezza. Accostatevi nelle piazzole di scambio a lato della montagna e lasciateli passare. Guidate in seconda marcia in salita e usate il freno motore in discesa. Se non avete dimestichezza con il cambio manuale, prenotate un'automatica — i continui cambi di marcia sono estenuanti.",
+    "hairpinsP": "La strada è stretta, una corsia e mezza per la maggior parte del tragitto, e priva di guardrail in molte delle curve esterne. Il traffico in senso contrario include autobus turistici che occupano l'intera larghezza. Accostatevi nelle piazzole di scambio a lato della montagna e lasciateli passare. Guidate in seconda marcia in salita e usate il freno motore in discesa. Se non avete dimestichezza con il cambio manuale, prenotate un'automatica, i continui cambi di marcia sono estenuanti.",
     "altHairpins": "Vista aerea della strada a tornanti del Lovćen sopra la baia di Kotor",
     "h2Mausoleum": "Il Mausoleo di Njegoš",
-    "mausoleumP": "Sulla vetta del Jezerski Vrh, 461 gradini conducono dal parcheggio al mausoleo progettato dallo scultore croato Ivan Meštrović e completato nel 1974. All'interno, una statua in granito di Petar II Petrović-Njegoš — il poeta-filosofo-principe del Montenegro — siede sotto un soffitto a mosaico dorato. La piattaforma panoramica dietro il mausoleo offre la vista più elevata del Montenegro costiero: si vedono l'Adriatico, la baia, le montagne del Durmitor e, nelle giornate limpide, la costa italiana.",
+    "mausoleumP": "Sulla vetta del Jezerski Vrh, 461 gradini conducono dal parcheggio al mausoleo progettato dallo scultore croato Ivan Meštrović e completato nel 1974. All'interno, una statua in granito di Petar II Petrović-Njegoš, il poeta-filosofo-principe del Montenegro, siede sotto un soffitto a mosaico dorato. La piattaforma panoramica dietro il mausoleo offre la vista più elevata del Montenegro costiero: si vedono l'Adriatico, la baia, le montagne del Durmitor e, nelle giornate limpide, la costa italiana.",
     "h2Njegos": "Chi Era Njegoš?",
-    "njegosP": "Petar II Petrović-Njegoš governò il Montenegro dal 1830 al 1851 ed è considerato il fondatore dell'identità nazionale montenegrina moderna. Il suo poema epico 'Il Serto della Montagna' è l'opera letteraria più importante del paese. Scelse di essere sepolto sul Monte Lovćen per poter vegliare sulla terra che aveva governato. I montenegrini trattano il mausoleo come un luogo di pellegrinaggio nazionale — i 461 gradini si salgono in rispettoso silenzio.",
+    "njegosP": "Petar II Petrović-Njegoš governò il Montenegro dal 1830 al 1851 ed è considerato il fondatore dell'identità nazionale montenegrina moderna. Il suo poema epico 'Il Serto della Montagna' è l'opera letteraria più importante del paese. Scelse di essere sepolto sul Monte Lovćen per poter vegliare sulla terra che aveva governato. I montenegrini trattano il mausoleo come un luogo di pellegrinaggio nazionale, i 461 gradini si salgono in rispettoso silenzio.",
     "h2Cetinje": "La Discesa verso Cetinje",
-    "cetinjeP": "Invece di tornare a Kotor per la stessa strada, proseguite oltre la montagna e scendete verso Cetinje — la capitale reale e spirituale del Montenegro. La strada dal Lovćen a Cetinje è più larga e meno impegnativa dei tornanti sul versante della baia. Cetinje stessa merita un'ora: il monastero custodisce reliquie tra cui quella che si ritiene essere la mano destra di Giovanni Battista, e l'ex palazzo reale è oggi un museo della storia montenegrina.",
+    "cetinjeP": "Invece di tornare a Kotor per la stessa strada, proseguite oltre la montagna e scendete verso Cetinje, la capitale reale e spirituale del Montenegro. La strada dal Lovćen a Cetinje è più larga e meno impegnativa dei tornanti sul versante della baia. Cetinje stessa merita un'ora: il monastero custodisce reliquie tra cui quella che si ritiene essere la mano destra di Giovanni Battista, e l'ex palazzo reale è oggi un museo della storia montenegrina.",
     "h2CarChoice": "Quale Auto Scegliere",
-    "carChoiceP": "Qualsiasi auto affronta la strada con il bello tempo — il manto è asfaltato per tutto il percorso. Ma una compatta con buona coppia rende i tornanti meno stressanti. La Skoda Octavia o la Toyota Corolla della nostra flotta sono ideali. Evitate qualsiasi veicolo più largo di un SUV standard — le piazzole di scambio sono strette. In inverno (da novembre a marzo) i tratti più alti possono avere ghiaccio o neve; controllate le condizioni prima di partire e portate le catene se consigliato.",
+    "carChoiceP": "Qualsiasi auto affronta la strada con il bello tempo, il manto è asfaltato per tutto il percorso. Ma una compatta con buona coppia rende i tornanti meno stressanti. La Skoda Octavia o la Toyota Corolla della nostra flotta sono ideali. Evitate qualsiasi veicolo più largo di un SUV standard, le piazzole di scambio sono strette. In inverno (da novembre a marzo) i tratti più alti possono avere ghiaccio o neve; controllate le condizioni prima di partire e portate le catene se consigliato.",
     "h2Stops": "Soste Consigliate",
     "stopViewLabel": "Punto panoramico al tornante 17:",
     "stopViewVal": "La più famosa fotografia di Kotor dall'alto. Accostatevi al punto panoramico segnalato e camminate 20 metri fino al bordo.",
@@ -752,7 +752,7 @@
     "stopCetinjeLabel": "Cetinje:",
     "stopCetinjeVal": "L'antica capitale. Visitate il Monastero di Cetinje e il Museo di Re Nicola. Prendete un caffè nella piazza principale.",
     "h2Return": "Percorso di Ritorno Alternativo",
-    "returnP": "Da Cetinje, prendete la strada P1 verso nord attraverso Rijeka Crnojevića e lungo la sponda del Lago di Scutari. Si aggiungono 90 minuti ma si attraversa un paesaggio completamente diverso — verdi valli fluviali e zone umide lacustri al posto della roccia di montagna. Se avete tempo, combinate questa tappa con una visita ai",
+    "returnP": "Da Cetinje, prendete la strada P1 verso nord attraverso Rijeka Crnojevića e lungo la sponda del Lago di Scutari. Si aggiungono 90 minuti ma si attraversa un paesaggio completamente diverso, verdi valli fluviali e zone umide lacustri al posto della roccia di montagna. Se avete tempo, combinate questa tappa con una visita ai",
     "returnLink": "mosaici romani di Risan",
     "glanceTitle": "In Breve",
     "glanceDistance": "Distanza",
@@ -760,40 +760,40 @@
     "glanceElevation": "Altitudine",
     "glanceElevationVal": "Da 0 a 1.657 m",
     "glanceDrive": "Tempo di Guida",
-    "glanceDriveVal": "40–55 min (solo salita)",
+    "glanceDriveVal": "40-55 min (solo salita)",
     "glanceBestCar": "Auto Consigliata",
     "glanceBestCarVal": "Compatta con coppia (Octavia, Corolla)"
   },
   "blogCruise": {
     "title": "Escursione a Terra dal Porto di Kotor con Auto a Noleggio",
-    "subtitle": "La vostra nave da crociera attracca a Kotor per 4–8 ore. Ecco come visitare Perast, la strada costiera e il centro storico senza unirsi a un tour di gruppo.",
+    "subtitle": "La vostra nave da crociera attracca a Kotor per 4-8 ore. Ecco come visitare Perast, la strada costiera e il centro storico senza unirsi a un tour di gruppo.",
     "description": "Organizzate un'escursione a terra in autonomia dal porto crociere di Kotor. Ritiro al porto, itinerari consigliati di 4 e 6 ore, e come tornare prima dell'imbarco.",
     "h2WhyRent": "Perché Noleggiare Invece di Unirsi a un Tour",
-    "whyRentP1": "Il terminal crociere di Kotor si trova direttamente fuori dalle mura del centro storico. Nei giorni più affollati — e tra maggio e ottobre ce ne sono molti — quattro o cinque navi attraccano contemporaneamente e oltre 10.000 passeggeri invadono una città costruita per 3.000 persone. Le escursioni organizzate in autobus si fermano alle stesse tappe, mangiano negli stessi ristoranti e fotografano gli stessi tre punti panoramici.",
+    "whyRentP1": "Il terminal crociere di Kotor si trova direttamente fuori dalle mura del centro storico. Nei giorni più affollati, e tra maggio e ottobre ce ne sono molti, quattro o cinque navi attraccano contemporaneamente e oltre 10.000 passeggeri invadono una città costruita per 3.000 persone. Le escursioni organizzate in autobus si fermano alle stesse tappe, mangiano negli stessi ristoranti e fotografano gli stessi tre punti panoramici.",
     "whyRentP2": "Un'auto a noleggio vi permette di lasciarvi la folla alle spalle in cinque minuti dal momento in cui scendete dalla passerella. Decidete voi il programma, scegliete dove fermarvi e tornate al porto con tempo da vendere invece di guardare con ansia la guida turistica che conta le teste.",
     "h2Timing": "Organizzare i Tempi dell'Escursione",
-    "timingP": "Controllate attentamente gli orari della vostra nave. La maggior parte degli scali a Kotor vi concede 4–8 ore a terra con un orario di imbarco 30 minuti prima della partenza. Prevedete un margine di 45 minuti — la strada costiera di Kotor non ha ingorghi, ma il parcheggio estivo vicino al centro storico può costarvi 15 minuti. Portiamo l'auto nella zona del porto e la ritiriamo quando tornate, quindi non si perde tempo per raggiungere un ufficio di noleggio.",
+    "timingP": "Controllate attentamente gli orari della vostra nave. La maggior parte degli scali a Kotor vi concede 4-8 ore a terra con un orario di imbarco 30 minuti prima della partenza. Prevedete un margine di 45 minuti, la strada costiera di Kotor non ha ingorghi, ma il parcheggio estivo vicino al centro storico può costarvi 15 minuti. Portiamo l'auto nella zona del porto e la ritiriamo quando tornate, quindi non si perde tempo per raggiungere un ufficio di noleggio.",
     "h2Route4": "L'Itinerario di 4 Ore: I Punti Salienti della Baia",
-    "route4P": "Se la vostra nave concede 4 ore a terra, concentratevi sulla strada costiera tra Kotor e Perast — un tratto di 12 km che contiene la maggior concentrazione di panorami del Montenegro.",
-    "r4Stop1Label": "Tappa 1 — Perast (45 min):",
+    "route4P": "Se la vostra nave concede 4 ore a terra, concentratevi sulla strada costiera tra Kotor e Perast, un tratto di 12 km che contiene la maggior concentrazione di panorami del Montenegro.",
+    "r4Stop1Label": "Tappa 1, Perast (45 min):",
     "r4Stop1Val": "Parcheggiate nel parcheggio nord, passeggiate tra i palazzi sul lungomare, prendete il taxi d'acqua per la Madonna dello Scalpello (€5 andata e ritorno, 15 min per tratta).",
-    "r4Stop2Label": "Tappa 2 — Punti panoramici sulla baia (20 min):",
+    "r4Stop2Label": "Tappa 2, Punti panoramici sulla baia (20 min):",
     "r4Stop2Val": "Sulla via del ritorno, fermatevi al punto panoramico segnalato sopra Dobrota. È la classica angolazione da cartolina di Kotor vista dall'alto.",
-    "r4Stop3Label": "Tappa 3 — Centro storico di Kotor (90 min):",
+    "r4Stop3Label": "Tappa 3, Centro storico di Kotor (90 min):",
     "r4Stop3Val": "Restituite l'auto vicino al porto, poi entrate a piedi nel centro storico. Piazza delle Armi (Trg od Oružja), la Cattedrale di San Trifone, e un caffè veloce prima dell'imbarco.",
     "altPerast": "Vista di Perast e della baia dalla strada costiera",
     "h2Route6": "L'Itinerario di 6 Ore: Baia + Montagna",
-    "route6P": "Con 6 ore potete aggiungere la strada a serpentina del Lovćen — anche se solo il tratto inferiore se non volete avere fretta. Un'alternativa più intelligente è attraversare il tunnel del Vrmac fino a Tivat e tornare lungo la baia esterna.",
-    "r6Stop1Label": "Tappa 1 — Perast + Madonna dello Scalpello (60 min):",
-    "r6Stop1Val": "Come nell'itinerario di 4 ore — l'isola è imprescindibile.",
-    "r6Stop2Label": "Tappa 2 — Mosaici di Risan (30 min):",
+    "route6P": "Con 6 ore potete aggiungere la strada a serpentina del Lovćen, anche se solo il tratto inferiore se non volete avere fretta. Un'alternativa più intelligente è attraversare il tunnel del Vrmac fino a Tivat e tornare lungo la baia esterna.",
+    "r6Stop1Label": "Tappa 1, Perast + Madonna dello Scalpello (60 min):",
+    "r6Stop1Val": "Come nell'itinerario di 4 ore, l'isola è imprescindibile.",
+    "r6Stop2Label": "Tappa 2, Mosaici di Risan (30 min):",
     "r6Stop2Val": "Proseguite oltre Perast fino a Risan. La villa romana con il mosaico di Hypnos è una deviazione di 5 minuti dalla strada costiera.",
-    "r6Stop3Label": "Tappa 3 — Tivat via tunnel del Vrmac (20 min):",
+    "r6Stop3Label": "Tappa 3, Tivat via tunnel del Vrmac (20 min):",
     "r6Stop3Val": "Attraversate il tunnel fino a Porto Montenegro per una breve passeggiata sul lungomare tra i superyacht.",
-    "r6Stop4Label": "Tappa 4 — Ritorno sulla strada costiera (30 min):",
+    "r6Stop4Label": "Tappa 4, Ritorno sulla strada costiera (30 min):",
     "r6Stop4Val": "Tornate a Kotor lungo la sponda orientale della baia. Vedute diverse, meno traffico.",
     "h2Pickup": "Ritiro al Porto",
-    "pickupP": "Portiamo l'auto direttamente nella zona del terminal crociere e la ritiriamo quando tornate. Nessun trasferimento, nessuna corsa in taxi, nessun minuto sprecato. Prenotate in anticipo e confermate l'orario di attracco della vostra nave — monitoriamo il programma del porto e ci adattiamo se il vostro arrivo subisce ritardi.",
+    "pickupP": "Portiamo l'auto direttamente nella zona del terminal crociere e la ritiriamo quando tornate. Nessun trasferimento, nessuna corsa in taxi, nessun minuto sprecato. Prenotate in anticipo e confermate l'orario di attracco della vostra nave, monitoriamo il programma del porto e ci adattiamo se il vostro arrivo subisce ritardi.",
     "h2Back": "Tornare alla Nave",
     "backP": "La regola d'oro: tornate all'auto 90 minuti prima dell'imbarco. Questo vi dà il tempo di restituire il veicolo, raggiungere il terminal a piedi e passare i controlli di sicurezza senza stress. Se volete combinare l'escursione con una gita in barca nella baia, leggete la nostra guida su",
     "backLink": "come combinare auto e barca nella baia",
@@ -801,7 +801,7 @@
     "glancePickup": "Ritiro",
     "glancePickupVal": "Consegna al porto crociere",
     "glanceWindow": "Tempo a Terra",
-    "glanceWindowVal": "In genere 4–8 ore",
+    "glanceWindowVal": "In genere 4-8 ore",
     "glanceReturn": "Margine per il Ritorno",
     "glanceReturnVal": "90 min prima dell'imbarco",
     "glanceTip": "Consiglio",
@@ -812,10 +812,10 @@
     "subtitle": "I famosi residenti felini di Kotor hanno un museo tutto loro, negozi dedicati e angoli preferiti per il pisolino. Seguite il loro percorso tra le vie medievali del centro storico.",
     "description": "Seguite i gatti di Kotor in un percorso a piedi autoguidato nel centro storico. Visitate il Museo dei Gatti, trovate i migliori punti di avvistamento felino e scoprite la storia dietro la famosa popolazione di gatti di Kotor.",
     "h2History": "Come Kotor È Diventata la Città dei Gatti",
-    "historyP1": "Il rapporto di Kotor con i gatti risale a secoli fa. Quando le navi arrivavano da Venezia, dall'Egitto e dal Levante, i gatti venivano con loro — clandestini che si guadagnavano il passaggio tenendo le scorte di grano libere dai topi. Le strette vie in pietra del centro storico si rivelarono un territorio perfetto per i gatti: calde in inverno, ombreggiate in estate, con muri da scalare e avanzi di pesce dal porto.",
-    "historyP2": "Oggi la popolazione felina è gestita da una rete di volontari locali che organizzano programmi di sterilizzazione, cure veterinarie e stazioni di alimentazione posizionate discretamente in tutta la città. I gatti non sono randagi nel senso trascurato del termine — sono una colonia gestita che è diventata inseparabile dall'identità di Kotor.",
+    "historyP1": "Il rapporto di Kotor con i gatti risale a secoli fa. Quando le navi arrivavano da Venezia, dall'Egitto e dal Levante, i gatti venivano con loro, clandestini che si guadagnavano il passaggio tenendo le scorte di grano libere dai topi. Le strette vie in pietra del centro storico si rivelarono un territorio perfetto per i gatti: calde in inverno, ombreggiate in estate, con muri da scalare e avanzi di pesce dal porto.",
+    "historyP2": "Oggi la popolazione felina è gestita da una rete di volontari locali che organizzano programmi di sterilizzazione, cure veterinarie e stazioni di alimentazione posizionate discretamente in tutta la città. I gatti non sono randagi nel senso trascurato del termine, sono una colonia gestita che è diventata inseparabile dall'identità di Kotor.",
     "h2Museum": "Il Museo dei Gatti",
-    "museumP": "Nascosto in un vicolo laterale vicino a Trg od Salata, il Museo dei Gatti (Muzej Mačaka) è una collezione in un'unica sala di arte a tema felino, cartoline, manifesti e fotografie che coprono diversi secoli. L'ingresso costa pochi euro e il ricavato finanzia il programma locale di assistenza ai gatti. Il museo in sé è piccolo — 10 minuti bastano — ma il cortile esterno è uno dei posti migliori del centro storico per incontrare i residenti di persona.",
+    "museumP": "Nascosto in un vicolo laterale vicino a Trg od Salata, il Museo dei Gatti (Muzej Mačaka) è una collezione in un'unica sala di arte a tema felino, cartoline, manifesti e fotografie che coprono diversi secoli. L'ingresso costa pochi euro e il ricavato finanzia il programma locale di assistenza ai gatti. Il museo in sé è piccolo, 10 minuti bastano, ma il cortile esterno è uno dei posti migliori del centro storico per incontrare i residenti di persona.",
     "altAlley": "Gatto seduto su un muro di pietra in un vicolo del centro storico di Kotor",
     "h2Spots": "I Migliori Punti di Avvistamento",
     "h3Flour": "La Piazza della Farina (Trg od Brašna)",
@@ -827,10 +827,10 @@
     "h3Bastion": "Zona del Bastione Vicino al Fiume",
     "bastionP": "L'angolo nord-occidentale più tranquillo del centro storico, dove le mura incontrano il canale del fiume Škurda, è dove vivono i gatti più indipendenti. Meno passaggio, più ombra e il suono dell'acqua corrente.",
     "h2Shop": "Shopping a Tema Felino",
-    "shopP": "Diversi negozi nel centro storico vendono articoli a tema felino — ceramiche dipinte a mano, stampe ad acquerello e borse ricamate. Cercate gli atelier lungo il vicolo tra la Cattedrale di San Trifone e la Porta Nord. Una parte dei ricavi di alcuni negozi va direttamente al fondo per il benessere dei gatti.",
+    "shopP": "Diversi negozi nel centro storico vendono articoli a tema felino, ceramiche dipinte a mano, stampe ad acquerello e borse ricamate. Cercate gli atelier lungo il vicolo tra la Cattedrale di San Trifone e la Porta Nord. Una parte dei ricavi di alcuni negozi va direttamente al fondo per il benessere dei gatti.",
     "h2Etiquette": "Galateo Felino",
     "etiq1": "Non prendete in braccio né rincorrete i gatti. Vi si avvicineranno loro se ne avranno voglia.",
-    "etiq2": "Non date loro cibo umano — le stazioni di alimentazione forniscono nutrimento adeguato.",
+    "etiq2": "Non date loro cibo umano, le stazioni di alimentazione forniscono nutrimento adeguato.",
     "etiq3": "Fotografate con rispetto. Niente flash, e non disturbate i gatti che dormono per un'inquadratura migliore.",
     "etiq4": "Se notate un gatto che sembra ferito o malato, segnalatelo a qualsiasi negoziante lungo la via principale. Sanno chi contattare.",
     "h2Combine": "Da Combinare Con",
@@ -842,21 +842,21 @@
     "subtitle": "Konoba del centro storico, pesce sul lungomare, enoteche a Dobrota e i locali notturni che restano aperti dopo che le navi da crociera sono partite.",
     "description": "Guida di un locale alla ristorazione e alla vita notturna di Kotor. Dove mangiare pesce, quali konoba servono la migliore cucina montenegrina, e dove bere lungo la baia dopo il tramonto.",
     "h2Scene": "La Scena Gastronomica di Kotor",
-    "sceneP1": "L'offerta gastronomica di Kotor si divide chiaramente in due mondi. Dentro le mura del centro storico, konoba secolari servono classici montenegrini e dalmati — pesce alla griglia, risotto nero, agnello cotto sotto la campana (ispod sača) e insalate condite con olio d'oliva delle colline sopra Dobrota. Fuori dalle mura, il lungomare tra Kotor e Dobrota si è evoluto in un tratto più moderno di ristoranti di pesce e cocktail bar.",
-    "sceneP2": "L'approccio migliore è mangiare dentro le mura e bere fuori. I ristoranti del centro storico chiudono presto — la maggior parte delle cucine smette di servire alle 22:30. I bar sul lungomare restano aperti più a lungo, e in estate le terrazze vanno avanti ben oltre mezzanotte.",
+    "sceneP1": "L'offerta gastronomica di Kotor si divide chiaramente in due mondi. Dentro le mura del centro storico, konoba secolari servono classici montenegrini e dalmati, pesce alla griglia, risotto nero, agnello cotto sotto la campana (ispod sača) e insalate condite con olio d'oliva delle colline sopra Dobrota. Fuori dalle mura, il lungomare tra Kotor e Dobrota si è evoluto in un tratto più moderno di ristoranti di pesce e cocktail bar.",
+    "sceneP2": "L'approccio migliore è mangiare dentro le mura e bere fuori. I ristoranti del centro storico chiudono presto, la maggior parte delle cucine smette di servire alle 22:30. I bar sul lungomare restano aperti più a lungo, e in estate le terrazze vanno avanti ben oltre mezzanotte.",
     "h2OldTown": "Dentro il Centro Storico",
-    "oldTownP": "Le opzioni gastronomiche del centro storico si concentrano intorno a tre piazze: Trg od Oružja (la piazza principale), Trg od Salata e le piazzette più piccole dietro la Cattedrale di San Trifone. Evitate i ristoranti con menù illustrati e procacciatori fuori dalla porta — servono il turismo crocieristico e i prezzi sono di conseguenza. Cercate invece i posti dove il menù è scritto a mano su una lavagna e i tavoli sono nascosti in un vicolo tranquillo. Queste sono le konoba dove mangiano davvero i locali.",
+    "oldTownP": "Le opzioni gastronomiche del centro storico si concentrano intorno a tre piazze: Trg od Oružja (la piazza principale), Trg od Salata e le piazzette più piccole dietro la Cattedrale di San Trifone. Evitate i ristoranti con menù illustrati e procacciatori fuori dalla porta, servono il turismo crocieristico e i prezzi sono di conseguenza. Cercate invece i posti dove il menù è scritto a mano su una lavagna e i tavoli sono nascosti in un vicolo tranquillo. Queste sono le konoba dove mangiano davvero i locali.",
     "h2Seafood": "Pesce da Ordinare",
-    "seafoodP": "La baia offre ottimo pesce di piccola taglia — sardine, acciughe e sgombri — grigliati semplicemente con limone e serviti interi. I calamari sono eccezionali qui, sia alla griglia, ripieni o in insalata con capperi e olio d'oliva. Il risotto nero di seppie (crni rižoto) è un classico della costa montenegrina e compare in quasi tutti i menù. Per un pasto speciale, chiedete il pescato del giorno — di solito orata o branzino al prezzo al chilogrammo.",
+    "seafoodP": "La baia offre ottimo pesce di piccola taglia, sardine, acciughe e sgombri, grigliati semplicemente con limone e serviti interi. I calamari sono eccezionali qui, sia alla griglia, ripieni o in insalata con capperi e olio d'oliva. Il risotto nero di seppie (crni rižoto) è un classico della costa montenegrina e compare in quasi tutti i menù. Per un pasto speciale, chiedete il pescato del giorno, di solito orata o branzino al prezzo al chilogrammo.",
     "altSeafood": "Pesce e frutti di mare alla griglia su un tavolo sul lungomare di Kotor",
     "h2Dobrota": "Il Lungomare di Dobrota",
     "dobrotaP": "A 10 minuti d'auto (o 25 minuti a piedi) a nord del centro storico, il lungomare di Dobrota è diventato il tratto gastronomico più interessante di Kotor. Case in pietra convertite in enoteche e piccoli ristoranti si affacciano sulla passeggiata. L'atmosfera è più tranquilla del centro storico e la vista sulla baia verso le montagne è senza ostacoli. È qui che i residenti di Kotor vanno quando vogliono mangiare bene senza turisti.",
     "h2Bars": "Bar e Vino",
-    "barsP": "Il vino montenegrino è sottovalutato. Cercate bottiglie di Plantaže — la cantina statale produce un solido rosso Vranac e un fresco bianco Krstač. Produttori più piccoli della valle di Crmnica intorno al Lago di Scutari sono più difficili da trovare ma vale la pena chiedere. Diverse enoteche nel centro storico servono al calice e offrono taglieri di degustazione abbinati a njeguški pršut (prosciutto affumicato) e formaggio locale.",
+    "barsP": "Il vino montenegrino è sottovalutato. Cercate bottiglie di Plantaže, la cantina statale produce un solido rosso Vranac e un fresco bianco Krstač. Produttori più piccoli della valle di Crmnica intorno al Lago di Scutari sono più difficili da trovare ma vale la pena chiedere. Diverse enoteche nel centro storico servono al calice e offrono taglieri di degustazione abbinati a njeguški pršut (prosciutto affumicato) e formaggio locale.",
     "h2Late": "Tarda Notte",
-    "lateP": "La vita notturna di Kotor si concentra in due zone. Dentro le mura, una manciata di bar nei vicoli vicino alla Porta Nord restano aperti fino alle 2 con musica dal vivo nei weekend. Fuori dalle mura, il tratto tra la porta principale del porto e l'Hotel Riviera ha cocktail bar e un paio di locali che vanno avanti fino alle 3 passate in estate. L'atmosfera è rilassata per qualsiasi standard — qui non è Budva.",
+    "lateP": "La vita notturna di Kotor si concentra in due zone. Dentro le mura, una manciata di bar nei vicoli vicino alla Porta Nord restano aperti fino alle 2 con musica dal vivo nei weekend. Fuori dalle mura, il tratto tra la porta principale del porto e l'Hotel Riviera ha cocktail bar e un paio di locali che vanno avanti fino alle 3 passate in estate. L'atmosfera è rilassata per qualsiasi standard, qui non è Budva.",
     "h2Drive": "Tornare in Auto",
-    "driveP": "Se alloggiate fuori Kotor — a Dobrota, Prčanj o dall'altra parte della baia — un'auto a noleggio è indispensabile per le cene serali. Non c'è trasporto pubblico dopo il tramonto e i taxi sono limitati. Parcheggiate nel parcheggio fuori dalle mura del centro storico (gratuito dopo le 20 nella maggior parte delle stagioni) e proseguite a piedi. Se visitate in inverno, la nostra guida tratta",
+    "driveP": "Se alloggiate fuori Kotor, a Dobrota, Prčanj o dall'altra parte della baia, un'auto a noleggio è indispensabile per le cene serali. Non c'è trasporto pubblico dopo il tramonto e i taxi sono limitati. Parcheggiate nel parcheggio fuori dalle mura del centro storico (gratuito dopo le 20 nella maggior parte delle stagioni) e proseguite a piedi. Se visitate in inverno, la nostra guida tratta",
     "driveLink": "la ristorazione fuori stagione e cosa cambia",
     "h2Tips": "Consigli a Tavola",
     "tipBookLabel": "Prenotazioni:",
@@ -873,50 +873,50 @@
     "subtitle": "Meno folla, prezzi più bassi e la baia nella sua atmosfera più suggestiva. Perché da novembre a marzo potrebbe essere il periodo migliore per visitare Kotor.",
     "description": "Guida completa a Kotor in inverno. Cosa aspettarsi dal meteo, quali attrazioni restano aperte, condizioni di guida invernali e perché la bassa stagione ha la sua magia.",
     "h2Why": "Perché Visitare Kotor in Inverno",
-    "whyP1": "Tra novembre e marzo le navi da crociera smettono di arrivare. Il centro storico si svuota. Le vie strette che in estate sembrano un'ora di punta diventano abbastanza silenziose da sentire i propri passi rimbombare sulla pietra. La baia, non più punteggiata di barche turistiche, assume un grigio ardesia intenso che riflette le montagne soprastanti. Questa versione di Kotor — quella che appartiene alle 13.000 persone che ci vivono davvero — ha una qualità che l'estate non riesce a replicare.",
-    "whyP2": "I prezzi calano notevolmente. Gli hotel che chiedono €180 a notte in luglio vendono la stessa camera a €60 in gennaio. Le auto a noleggio seguono lo stesso schema. I ristoranti che tre mesi prima erano al completo ora accolgono chi arriva senza prenotazione con genuino entusiasmo. I visitatori invernali ottengono più Kotor con meno soldi, e il compromesso — giornate più corte e pioggia occasionale — è uno che la maggior parte dei viaggiatori trova perfettamente accettabile.",
+    "whyP1": "Tra novembre e marzo le navi da crociera smettono di arrivare. Il centro storico si svuota. Le vie strette che in estate sembrano un'ora di punta diventano abbastanza silenziose da sentire i propri passi rimbombare sulla pietra. La baia, non più punteggiata di barche turistiche, assume un grigio ardesia intenso che riflette le montagne soprastanti. Questa versione di Kotor, quella che appartiene alle 13.000 persone che ci vivono davvero, ha una qualità che l'estate non riesce a replicare.",
+    "whyP2": "I prezzi calano notevolmente. Gli hotel che chiedono €180 a notte in luglio vendono la stessa camera a €60 in gennaio. Le auto a noleggio seguono lo stesso schema. I ristoranti che tre mesi prima erano al completo ora accolgono chi arriva senza prenotazione con genuino entusiasmo. I visitatori invernali ottengono più Kotor con meno soldi, e il compromesso, giornate più corte e pioggia occasionale, è uno che la maggior parte dei viaggiatori trova perfettamente accettabile.",
     "h2Weather": "Il Meteo",
-    "weatherP": "Il clima invernale di Kotor è mite per gli standard dell'Europa centrale. Le temperature diurne oscillano tra gli 8°C e i 14°C da novembre a febbraio. La pioggia è la caratteristica principale — Kotor è uno dei luoghi più piovosi d'Europa, e la maggior parte di quella pioggia cade tra ottobre e marzo. Quando piove qui, piove forte. Ma le tempeste passano in fretta, ed è comune avere una mattinata bagnata seguita da un pomeriggio con cielo azzurro e luce invernale che rimbalza sulla baia.",
+    "weatherP": "Il clima invernale di Kotor è mite per gli standard dell'Europa centrale. Le temperature diurne oscillano tra gli 8°C e i 14°C da novembre a febbraio. La pioggia è la caratteristica principale, Kotor è uno dei luoghi più piovosi d'Europa, e la maggior parte di quella pioggia cade tra ottobre e marzo. Quando piove qui, piove forte. Ma le tempeste passano in fretta, ed è comune avere una mattinata bagnata seguita da un pomeriggio con cielo azzurro e luce invernale che rimbalza sulla baia.",
     "h2Driving": "Condizioni di Guida Invernali",
-    "drivingP": "La strada costiera tra Kotor, Perast e Tivat è al livello del mare e non presenta mai ghiaccio o neve. La strada per il Lovćen, però, è tutta un'altra storia — i tornanti più alti possono essere innevati da dicembre a marzo e la strada di montagna potrebbe chiudersi del tutto durante forti nevicate. Il tunnel del Vrmac per Tivat non è influenzato dal meteo. Se prevedete di guidare verso Cetinje o l'entroterra montenegrino in inverno, portate le catene da neve e verificate le condizioni stradali con l'agenzia di noleggio prima di partire.",
+    "drivingP": "La strada costiera tra Kotor, Perast e Tivat è al livello del mare e non presenta mai ghiaccio o neve. La strada per il Lovćen, però, è tutta un'altra storia, i tornanti più alti possono essere innevati da dicembre a marzo e la strada di montagna potrebbe chiudersi del tutto durante forti nevicate. Il tunnel del Vrmac per Tivat non è influenzato dal meteo. Se prevedete di guidare verso Cetinje o l'entroterra montenegrino in inverno, portate le catene da neve e verificate le condizioni stradali con l'agenzia di noleggio prima di partire.",
     "altBayWinter": "La baia di Kotor in una mattina invernale nebbiosa con le montagne sullo sfondo",
     "h2Things": "Cosa Fare",
     "h3Walls": "Salire alle Mura della Fortezza",
-    "wallsP": "Il sentiero della fortezza è aperto tutto l'anno e gratuito da novembre a marzo. Senza il caldo estivo e le code, la salita è un'esperienza completamente diversa — più fresca, più silenziosa, e spesso accompagnata da nuvole basse che si aprono drammaticamente per rivelare la baia sottostante.",
+    "wallsP": "Il sentiero della fortezza è aperto tutto l'anno e gratuito da novembre a marzo. Senza il caldo estivo e le code, la salita è un'esperienza completamente diversa, più fresca, più silenziosa, e spesso accompagnata da nuvole basse che si aprono drammaticamente per rivelare la baia sottostante.",
     "h3Markets": "Mercatini di Natale e Capodanno",
     "marketsP": "Il mercatino invernale di Kotor si svolge da metà dicembre a inizio gennaio nelle piazze principali del centro storico. Le bancarelle locali vendono caldarroste, fritule (palline di pasta fritta) e vin brulé. In alcuni anni compare una piccola pista di pattinaggio. L'atmosfera è festosa senza essere opprimente.",
     "h3Carnival": "Il Carnevale di Kotor (Febbraio)",
-    "carnivalP": "Il Carnevale Invernale di Kotor è uno dei più antichi del Mediterraneo, con una storia di oltre 500 anni. Si tiene a febbraio e riempie il centro storico di cortei in maschera, musica dal vivo, carri allegorici satirici e un'atmosfera generale di caos organizzato. Se vi capita di visitare durante la settimana del carnevale, prenotate l'alloggio in anticipo — è l'unico evento invernale che riempie la città.",
+    "carnivalP": "Il Carnevale Invernale di Kotor è uno dei più antichi del Mediterraneo, con una storia di oltre 500 anni. Si tiene a febbraio e riempie il centro storico di cortei in maschera, musica dal vivo, carri allegorici satirici e un'atmosfera generale di caos organizzato. Se vi capita di visitare durante la settimana del carnevale, prenotate l'alloggio in anticipo, è l'unico evento invernale che riempie la città.",
     "h3DayTrips": "Gite Invernali",
     "dayTripsP": "La strada costiera verso Perast e Risan è bella nella luce invernale. Cetinje, l'antica capitale reale del Montenegro, si raggiunge in 45 minuti attraverso il Lovćen (tempo permettendo) o con un percorso più lungo via Budva. Il Monastero di Ostrog, incastonato in una parete rocciosa a due ore a nord, è particolarmente suggestivo in inverno quando la neve spolvera le montagne circostanti.",
     "h2Prices": "Prezzi in Bassa Stagione",
-    "pricesP": "Le tariffe di noleggio auto calano del 30–50% tra novembre e marzo. Un'auto compatta che costa €35/giorno in luglio potrebbe essere €18/giorno in gennaio. Gli hotel seguono uno schema simile. I ristoranti spesso propongono menù ridotti ma la qualità resta alta — anzi, alcuni locali sostengono che il cibo sia migliore in inverno perché gli chef hanno tempo di cucinare come si deve invece di affrettarsi tra i coperti.",
+    "pricesP": "Le tariffe di noleggio auto calano del 30-50% tra novembre e marzo. Un'auto compatta che costa €35/giorno in luglio potrebbe essere €18/giorno in gennaio. Gli hotel seguono uno schema simile. I ristoranti spesso propongono menù ridotti ma la qualità resta alta, anzi, alcuni locali sostengono che il cibo sia migliore in inverno perché gli chef hanno tempo di cucinare come si deve invece di affrettarsi tra i coperti.",
     "h2Packing": "Cosa Mettere in Valigia",
-    "pack1": "Una giacca impermeabile — non un ombrello. Il vento di Kotor rende gli ombrelli inutili durante le tempeste.",
+    "pack1": "Una giacca impermeabile, non un ombrello. Il vento di Kotor rende gli ombrelli inutili durante le tempeste.",
     "pack2": "Vestiti a strati. Le mattine sono fredde, i pomeriggi possono essere sorprendentemente caldi quando il sole fa capolino.",
     "pack3": "Scarpe impermeabili comode. Le strade in pietra del centro storico diventano scivolose quando sono bagnate.",
-    "pack4": "Un berretto caldo per la salita alla fortezza — il vento in cima taglia tutto.",
+    "pack4": "Un berretto caldo per la salita alla fortezza, il vento in cima taglia tutto.",
     "pack5": "Un buon appetito. L'inverno è la stagione del comfort food montenegrino sostanzioso: agnello, stufati e carni alla griglia.",
     "h2Also": "Da Leggere Anche",
     "alsoP": "Se il tempo collabora e la strada è aperta, una guida invernale alla vetta del Lovćen è straordinaria. Leggete la nostra guida sulla",
-    "alsoLink": "strada di montagna Kotor–Lovćen"
+    "alsoLink": "strada di montagna Kotor, Lovćen"
   },
   "blogRisan": {
     "title": "I Mosaici Romani di Risan: Una Tappa Dimenticata sulla Baia",
-    "subtitle": "Venti minuti d'auto da Kotor verso uno dei siti archeologici più trascurati dell'Adriatico — mosaici pavimentali del II secolo in una tranquilla cittadina sulla baia.",
+    "subtitle": "Venti minuti d'auto da Kotor verso uno dei siti archeologici più trascurati dell'Adriatico, mosaici pavimentali del II secolo in una tranquilla cittadina sulla baia.",
     "description": "Visitate i mosaici romani di Risan, un sito archeologico nascosto nelle Bocche di Cattaro. Come arrivarci, cosa vedere e perché il mosaico di Hypnos merita la deviazione.",
     "h2Forgotten": "La Città Dimenticata della Baia",
-    "forgottenP1": "Chiunque visiti le Bocche di Cattaro vede Kotor e Perast. Quasi nessuno si ferma a Risan. È un errore. Risan è l'insediamento più antico della baia — più antico di Kotor, più antico di qualsiasi città sulla costa montenegrina — e custodisce uno dei più bei pavimenti a mosaico romani dell'Adriatico orientale.",
+    "forgottenP1": "Chiunque visiti le Bocche di Cattaro vede Kotor e Perast. Quasi nessuno si ferma a Risan. È un errore. Risan è l'insediamento più antico della baia, più antico di Kotor, più antico di qualsiasi città sulla costa montenegrina, e custodisce uno dei più bei pavimenti a mosaico romani dell'Adriatico orientale.",
     "forgottenP2": "La città si trova nel punto più interno del braccio nord della baia, dove le montagne si avvicinano all'acqua e la strada curva attraverso un tranquillo insediamento di case in pietra, alberi di fico e un lungomare che non è cambiato molto nei decenni. Non c'è un porto turistico, nessun hotel di lusso, nessuna folla. Risan appartiene alle persone che ci vivono e ai pochi viaggiatori che sanno di doversi fermare.",
     "h2Mosaics": "I Mosaici",
-    "mosaicsP": "Scavati all'inizio del XX secolo, i mosaici sono il pavimento di una villa romana del II secolo d.C. Il pezzo forte è una raffigurazione di Hypnos — il dio greco del sonno — disteso con un ramo di papavero. È l'unica rappresentazione conosciuta di Hypnos in forma musiva al mondo. I colori restano vividi: rossi terrosi, blu profondi, bianchi gessosi. Le altre stanze della villa contengono motivi geometrici e disegni floreali. L'intero sito è coperto da un tetto protettivo e si visita in 20–30 minuti.",
+    "mosaicsP": "Scavati all'inizio del XX secolo, i mosaici sono il pavimento di una villa romana del II secolo d.C. Il pezzo forte è una raffigurazione di Hypnos, il dio greco del sonno, disteso con un ramo di papavero. È l'unica rappresentazione conosciuta di Hypnos in forma musiva al mondo. I colori restano vividi: rossi terrosi, blu profondi, bianchi gessosi. Le altre stanze della villa contengono motivi geometrici e disegni floreali. L'intero sito è coperto da un tetto protettivo e si visita in 20-30 minuti.",
     "altHypnos": "Il mosaico di Hypnos nella villa romana di Risan",
     "h2Drive": "Come Arrivarci",
-    "driveP": "Da Kotor, seguite la strada costiera verso nord-ovest attraverso Perast e proseguite per altri 5 km. Risan è segnalata. La villa romana è indicata con un piccolo cartello marrone del patrimonio sulla strada principale — facile da perdere se non state attenti. Parcheggiate sul lungomare (gratis) e camminate 100 metri verso l'interno. Il tragitto totale da Kotor richiede 20 minuti senza soste, 35 minuti se fate una pausa ai punti panoramici di Perast lungo il percorso.",
+    "driveP": "Da Kotor, seguite la strada costiera verso nord-ovest attraverso Perast e proseguite per altri 5 km. Risan è segnalata. La villa romana è indicata con un piccolo cartello marrone del patrimonio sulla strada principale, facile da perdere se non state attenti. Parcheggiate sul lungomare (gratis) e camminate 100 metri verso l'interno. Il tragitto totale da Kotor richiede 20 minuti senza soste, 35 minuti se fate una pausa ai punti panoramici di Perast lungo il percorso.",
     "h2Town": "Esplorare Risan",
-    "townP": "Oltre ai mosaici, Risan premia una passeggiata lenta. La passeggiata sul lungomare è fiancheggiata da platani e ha panchine rivolte verso la parete di montagna dall'altra parte della baia. La Chiesa dei Santi Pietro e Paolo risale al 1601. Una manciata di negozi vendono miele locale, olio d'oliva e fichi secchi. Il ritmo di vita qui è notevolmente più lento che in qualsiasi altro punto della baia — ed è esattamente questo il punto.",
+    "townP": "Oltre ai mosaici, Risan premia una passeggiata lenta. La passeggiata sul lungomare è fiancheggiata da platani e ha panchine rivolte verso la parete di montagna dall'altra parte della baia. La Chiesa dei Santi Pietro e Paolo risale al 1601. Una manciata di negozi vendono miele locale, olio d'oliva e fichi secchi. Il ritmo di vita qui è notevolmente più lento che in qualsiasi altro punto della baia, ed è esattamente questo il punto.",
     "h2Lunch": "Dove Mangiare",
-    "lunchP": "Risan ha due o tre ristoranti sul lungomare che servono pesce alla griglia e insalate montenegrine a prezzi considerevolmente inferiori a Kotor o Perast. Le porzioni sono più abbondanti, il pesce è ugualmente fresco, e probabilmente sarete gli unici turisti nel locale. Non è una destinazione gastronomica — è un pranzo onesto in una città tranquilla, che a volte è esattamente ciò di cui una giornata di guida ha bisogno.",
+    "lunchP": "Risan ha due o tre ristoranti sul lungomare che servono pesce alla griglia e insalate montenegrine a prezzi considerevolmente inferiori a Kotor o Perast. Le porzioni sono più abbondanti, il pesce è ugualmente fresco, e probabilmente sarete gli unici turisti nel locale. Non è una destinazione gastronomica, è un pranzo onesto in una città tranquilla, che a volte è esattamente ciò di cui una giornata di guida ha bisogno.",
     "h2Continue": "Proseguire il Viaggio",
     "continueP": "Da Risan potete proseguire lungo la sponda nord della baia fino a Herceg Novi (40 min) o tornare indietro verso Perast e Kotor. Il tratto da Risan a Perast è una delle sezioni più panoramiche dell'intera strada costiera, con l'acqua alla vostra sinistra e borghi in pietra aggrappati alla collina alla vostra destra. Per saperne di più sulla cittadina di Perast, consultate la nostra guida su",
     "continueLink": "Perast",
@@ -932,32 +932,32 @@
   },
   "blogPhoto": {
     "title": "I 9 Migliori Punti Fotografici nelle Bocche di Cattaro",
-    "subtitle": "Dalla cima della fortezza allo stretto delle Verige — gli scatti che fanno tornare i fotografi in questa baia anno dopo anno.",
+    "subtitle": "Dalla cima della fortezza allo stretto delle Verige, gli scatti che fanno tornare i fotografi in questa baia anno dopo anno.",
     "description": "Guida fotografica alle Bocche di Cattaro. 9 location con dettagli sull'accesso, condizioni di luce ottimali e quale lunghezza focale usare in ogni punto.",
     "h2Intro": "Fotografare la Baia",
-    "introP": "Le Bocche di Cattaro sono uno dei luoghi più fotogenici d'Europa. La combinazione di montagne verticali, acqua piatta come uno specchio, architettura medievale e luce mediterranea crea condizioni che funzionano a ogni ora del giorno. Queste nove location sono quelle che producono costantemente le immagini più forti — ciascuna raggiungibile in auto e nessuna che richieda più di una breve passeggiata dalla strada.",
+    "introP": "Le Bocche di Cattaro sono uno dei luoghi più fotogenici d'Europa. La combinazione di montagne verticali, acqua piatta come uno specchio, architettura medievale e luce mediterranea crea condizioni che funzionano a ogni ora del giorno. Queste nove location sono quelle che producono costantemente le immagini più forti, ciascuna raggiungibile in auto e nessuna che richieda più di una breve passeggiata dalla strada.",
     "h2Spot1": "1. Cima della Fortezza di San Giovanni",
-    "spot1P": "Il classico scatto dall'alto del centro storico di Kotor con la baia che curva via sullo sfondo. Il migliore all'alba, quando la città è immersa nella luce calda e l'acqua è ancora immobile. La salita di 1.350 gradini richiede 45–75 minuti. Usate un grandangolo per catturare l'intera vista — qualsiasi focale più ampia di 24mm funziona bene. La vista è orientata grossomodo a sud-est, quindi la luce del mattino è ideale.",
-    "h2Spot2": "2. Tornante 17 — Strada del Lovćen",
+    "spot1P": "Il classico scatto dall'alto del centro storico di Kotor con la baia che curva via sullo sfondo. Il migliore all'alba, quando la città è immersa nella luce calda e l'acqua è ancora immobile. La salita di 1.350 gradini richiede 45-75 minuti. Usate un grandangolo per catturare l'intera vista, qualsiasi focale più ampia di 24mm funziona bene. La vista è orientata grossomodo a sud-est, quindi la luce del mattino è ideale.",
+    "h2Spot2": "2. Tornante 17, Strada del Lovćen",
     "spot2P": "La famosa prospettiva aerea di Kotor dalla strada a serpentina verso il Lovćen. Al tornante 17, una piazzola offre l'angolazione sopraelevata che è apparsa in ogni rivista di viaggio che tratta il Montenegro. Il centro storico appare come un triangolo dai tetti rossi che si protende nell'acqua azzurra. Il migliore al mattino presto, quando le ombre sono lunghe e la baia è calma.",
     "altAerial": "Vista aerea del centro storico di Kotor e della baia dalla strada del Lovćen",
     "h2Spot3": "3. Lungomare di Perast",
-    "spot3P": "Perast offre due composizioni: la classica vista della Madonna dello Scalpello e dell'Isola di San Giorgio dalla passeggiata, e lo scatto inverso dal taxi d'acqua che guarda indietro verso il campanile di Perast contro la parete di montagna. La luce del tardo pomeriggio è la migliore — le montagne occidentali proiettano tonalità calde sulle facciate in pietra.",
+    "spot3P": "Perast offre due composizioni: la classica vista della Madonna dello Scalpello e dell'Isola di San Giorgio dalla passeggiata, e lo scatto inverso dal taxi d'acqua che guarda indietro verso il campanile di Perast contro la parete di montagna. La luce del tardo pomeriggio è la migliore, le montagne occidentali proiettano tonalità calde sulle facciate in pietra.",
     "h2Spot4": "4. Isola della Madonna dello Scalpello",
     "spot4P": "Dall'isola stessa, fotografate Perast attraverso l'acqua con la baia che si estende alle spalle. L'angolo basso dal livello dell'acqua crea un senso di intimità che gli scatti sopraelevati non riescono a eguagliare. Un teleobiettivo comprime efficacemente la città contro le montagne.",
     "h2Spot5": "5. Lungomare di Dobrota al Crepuscolo",
     "spot5P": "La passeggiata in pietra a nord di Kotor è rivolta a ovest attraverso la baia. Al tramonto le montagne sopra Perast diventano arancioni e l'acqua cattura l'ultima luce. Lunghe esposizioni con cavalletto producono riflessi setosi. Si trova a 5 minuti d'auto dal centro storico o a 20 minuti a piedi lungo il lungomare.",
     "h2Spot6": "6. Punto Panoramico dello Stretto delle Verige",
-    "spot6P": "Il punto più stretto della baia, dove i due bracci d'acqua si incontrano attraverso un varco largo appena 300 metri. Un punto panoramico lungo la strada sul lato di Lepetane guarda attraverso lo stretto con i traghetti che attraversano in primo piano e montagne su tre lati. La luce di mezzogiorno funziona bene qui — il sole a picco illumina il colore dell'acqua.",
+    "spot6P": "Il punto più stretto della baia, dove i due bracci d'acqua si incontrano attraverso un varco largo appena 300 metri. Un punto panoramico lungo la strada sul lato di Lepetane guarda attraverso lo stretto con i traghetti che attraversano in primo piano e montagne su tre lati. La luce di mezzogiorno funziona bene qui, il sole a picco illumina il colore dell'acqua.",
     "h2Spot7": "7. Centro Storico di Kotor di Notte",
-    "spot7P": "Dopo il tramonto, le mura in pietra e le piazze del centro storico sono illuminate da lampade gialle calde. La Cattedrale di San Trifone e la torre dell'orologio in Trg od Oružja sono i soggetti più forti. Un cavalletto e un tempo di posa lento (1–2 secondi) catturano il bagliore ambientale. Il meglio nelle sere infrasettimanali quando le piazze sono più vuote.",
+    "spot7P": "Dopo il tramonto, le mura in pietra e le piazze del centro storico sono illuminate da lampade gialle calde. La Cattedrale di San Trifone e la torre dell'orologio in Trg od Oružja sono i soggetti più forti. Un cavalletto e un tempo di posa lento (1-2 secondi) catturano il bagliore ambientale. Il meglio nelle sere infrasettimanali quando le piazze sono più vuote.",
     "h2Spot8": "8. Baia di Risan dall'Alto",
-    "spot8P": "Il tratto di strada tra Perast e Risan passa attraverso una serie di curve sopraelevate con piazzole che guardano giù sulla baia interna. La geometria qui è insolita — l'acqua forma un cerchio quasi perfetto circondato da montagne. Meno fotografato delle vedute di Kotor, il che rende le immagini più originali.",
+    "spot8P": "Il tratto di strada tra Perast e Risan passa attraverso una serie di curve sopraelevate con piazzole che guardano giù sulla baia interna. La geometria qui è insolita, l'acqua forma un cerchio quasi perfetto circondato da montagne. Meno fotografato delle vedute di Kotor, il che rende le immagini più originali.",
     "h2Spot9": "9. Chiesa della Natività della Madonna a Prčanj",
-    "spot9P": "La cattedrale incompiuta di Prčanj — un massiccio guscio neoclassico mai completato — si affaccia direttamente sul lungomare tra Kotor e Tivat. La sua dimensione imponente rispetto al minuscolo paese alle spalle crea un contrasto sorprendente. La luce laterale del tardo pomeriggio esalta la texture della pietra dell'edificio.",
+    "spot9P": "La cattedrale incompiuta di Prčanj, un massiccio guscio neoclassico mai completato, si affaccia direttamente sul lungomare tra Kotor e Tivat. La sua dimensione imponente rispetto al minuscolo paese alle spalle crea un contrasto sorprendente. La luce laterale del tardo pomeriggio esalta la texture della pietra dell'edificio.",
     "h2Gear": "Note sull'Attrezzatura",
     "gearWideLabel": "Grandangolo:",
-    "gearWideVal": "Essenziale per la fortezza e i punti panoramici stradali. 16–24mm su formato pieno.",
+    "gearWideVal": "Essenziale per la fortezza e i punti panoramici stradali. 16-24mm su formato pieno.",
     "gearTripodLabel": "Cavalletto:",
     "gearTripodVal": "Necessario per scatti all'alba, al tramonto e notturni. Un cavalletto da viaggio è sufficiente.",
     "gearDroneLabel": "Drone:",
@@ -993,7 +993,7 @@
     "whoWeAreText": "Kotor Car Hire opera come partner affiliato, mettendo in contatto i viaggiatori con i fornitori di autonoleggio a Kotor e dintorni, Montenegro. Il nostro sito web si trova su kotorcarhire.com.",
     "whatWeCollectTitle": "Quali informazioni raccogliamo",
     "infoYouProvideTitle": "Informazioni fornite da voi",
-    "infoYouProvideText": "Quando utilizzate il nostro modulo di ricerca, raccogliamo il luogo di ritiro, le date e gli orari per trovare veicoli disponibili. Queste informazioni vengono trasmesse al nostro partner (LocalRent). Non raccogliamo dati di pagamento — tutti i pagamenti sono elaborati direttamente dal fornitore.",
+    "infoYouProvideText": "Quando utilizzate il nostro modulo di ricerca, raccogliamo il luogo di ritiro, le date e gli orari per trovare veicoli disponibili. Queste informazioni vengono trasmesse al nostro partner (LocalRent). Non raccogliamo dati di pagamento, tutti i pagamenti sono elaborati direttamente dal fornitore.",
     "autoCollectedTitle": "Informazioni raccolte automaticamente",
     "autoCollected1": "Dati di utilizzo: pagine visitate, tempo sul sito, sito di provenienza",
     "autoCollected2": "Informazioni dispositivo: tipo di browser, sistema operativo, risoluzione schermo",
@@ -1005,7 +1005,7 @@
     "howWeUse4": "Per rispondere alle richieste via WhatsApp, Viber o email",
     "thirdPartyTitle": "Servizi di terze parti",
     "thirdPartyIntro": "Il nostro sito utilizza i seguenti servizi di terze parti:",
-    "thirdParty1": "LocalRent: widget di prenotazione — elabora le ricerche e gestisce prenotazioni e pagamenti",
+    "thirdParty1": "LocalRent: widget di prenotazione, elabora le ricerche e gestisce prenotazioni e pagamenti",
     "thirdParty2": "Vercel: hosting del sito web",
     "thirdParty3": "Pexels: fotografia stock",
     "thirdPartyNote": "Ciascuno di questi servizi ha una propria informativa sulla privacy.",
@@ -1026,7 +1026,7 @@
     "lastUpdated": "Ultimo aggiornamento:",
     "lastUpdatedDate": "Aprile 2026",
     "aboutTitle": "Informazioni sul sito",
-    "aboutText": "Kotor Car Hire (kotorcarhire.com) è un sito affiliato che mette in contatto i viaggiatori con servizi di noleggio auto a Kotor, Montenegro. Non siamo una società di noleggio — collaboriamo con LocalRent.",
+    "aboutText": "Kotor Car Hire (kotorcarhire.com) è un sito affiliato che mette in contatto i viaggiatori con servizi di noleggio auto a Kotor, Montenegro. Non siamo una società di noleggio, collaboriamo con LocalRent.",
     "bookingTitle": "Condizioni di prenotazione e noleggio",
     "bookingText1": "Tutte le prenotazioni vengono elaborate dal nostro partner LocalRent. Completando una prenotazione, stipulate un contratto direttamente con il fornitore del veicolo, non con Kotor Car Hire.",
     "bookingText2": "Le condizioni di noleggio, incluse le politiche di cancellazione, la copertura assicurativa, i requisiti di età e le condizioni di pagamento, sono stabilite dal fornitore. Vi consigliamo di leggerle attentamente.",
@@ -1104,7 +1104,7 @@
   },
   "contact": {
     "title": "Contattaci",
-    "seoDesc": "Contatta Kotor Car Hire per preventivi, ritiri da crociera, o consegna all'Aeroporto di Tivat. Email, WhatsApp, o modulo web con risposte entro due ore nei giorni feriali.",
+    "seoDesc": "Contatta Kotor Car Hire per preventivi, ritiri da crociera, o consegna all'Aeroporto di Tivat. Email, WhatsApp, o modulo web con risposte entro due ore",
     "heading": "Contattaci",
     "intro": "Hai una domanda sul noleggio auto a Kotor? Contattaci e ti aiuteremo a trovare il veicolo perfetto per il tuo viaggio."
   }

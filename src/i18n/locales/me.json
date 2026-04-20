@@ -59,7 +59,7 @@
   "fleet": {
     "label": "Naša Flota",
     "title": "Izaberite Vaše Vozilo",
-    "subtitle": "Pregledajte dostupnost i cijene u realnom vremenu — rezervišite direktno."
+    "subtitle": "Pregledajte dostupnost i cijene u realnom vremenu, rezervišite direktno."
   },
   "brands": {
     "label": "Provjereni brendovi u našoj floti"
@@ -67,7 +67,7 @@
   "destinations": {
     "label": "Top Destinacije",
     "title": "Istražite Crnu Goru",
-    "subtitle": "Od Bokokotorskog zaliva do albanske granice — svaka destinacija je drugi svijet."
+    "subtitle": "Od Bokokotorskog zaliva do albanske granice, svaka destinacija je drugi svijet."
   },
   "features": {
     "label": "Zašto Mi",
@@ -101,7 +101,7 @@
   "book": {
     "title": "Pronađite Vaš Auto",
     "seoTitle": "Rezervišite Auto",
-    "seoDesc": "Rezervujte automobil za Kotor u nekoliko sekundi. Preuzimanje na aerodrom Tivat 8 km udaljen, besplatna otkazivanja za većinu cena, i živa dostupnost flote od 200 plus vozila."
+    "seoDesc": "Rezervujte automobil za Kotor u nekoliko sekundi. Preuzimanje na aerodrom Tivat 8 km udaljen, besplatna otkazivanja za većinu cena, i živa dostupnost"
   },
   "footer": {
     "brandDesc": "Kratkoročne iznajmljivanje automobila u Kotoru od aerodroma Tivat i kapija Starog Grada. Potpuno osiguranje, iskustvo na bajevskoj cesti, i fiksne cene koje ostaju iste tokom celog sezone.",
@@ -126,17 +126,17 @@
   "notFound": {
     "code": "404",
     "title": "Pogrešno Skretanje",
-    "text": "Izgleda da ste skrenuli s puta. Ova cesta ne vodi nikuda — ali najbolje rute Crne Gore su na jedan klik.",
+    "text": "Izgleda da ste skrenuli s puta. Ova cesta ne vodi nikuda, ali najbolje rute Crne Gore su na jedan klik.",
     "backHome": "Nazad na Početnu",
     "searchCars": "Pretraži Auta"
   },
   "home": {
-    "seoDesc": "Iznajmite automobil u Kotoru od €13 po danu. Aerodrom Tivat 8 km udaljen, UNESCO zaštićeni stari grad na vašim nogama, i 60 km fjorske ceste između vas i aerodroma Dubrovnika."
+    "seoDesc": "Iznajmite automobil u Kotoru od €13 po danu. Aerodrom Tivat 8 km udaljen, UNESCO zaštićeni stari grad na vašim nogama, i 60 km fjorske ceste između vas i"
   },
   "about": {
     "title": "O Nama",
     "subtitle": "Pomažemo putnicima da istraže Crnu Goru od 2007.",
-    "seoDesc": "Usluga iznajmljivanja automobila u Starom Gradu Kotor. Biramo automobile za kratke boravke krstarenja, jednodnevne izlete po zaljevu, i sve one koji žele da izbegnu turističke autobuse u vrhuncu sezone.",
+    "seoDesc": "Usluga iznajmljivanja automobila u Starom Gradu Kotor. Biramo automobile za kratke boravke krstarenja, jednodnevne izlete po zaljevu, i sve one koji žele",
     "heading1": "Kotor Car Hire",
     "p1": "Kotor Car Hire povezuje putnika sa pouzdanim i pristupačnim automobilima za iznajmljivanje u Bokokotorskom zaljevu. Radimo kao nezavisna agencija u saradnji sa povjerenim lokalnim partnerima, čineći lakšim posjetiteljima da istraže ovaj UNESCO-zaštićeni dio Jadrana.",
     "heading2": "Zašto smo pokrenuli posao",
@@ -170,7 +170,7 @@
   "kotor": {
     "title": "Rent a Car Kotor",
     "subtitle": "Istražite UNESCO dragulj Crne Gore sopstvenim tempom.",
-    "seoDesc": "4,5 km venecijanskih zidina, Katedrala Sv Tripuna iz 1166. godine, i 1.355 stepenica do San Giovannija. Parkiraјте se pored Morske kapije i šetajte kroz dvanaest vekova istorije.",
+    "seoDesc": "4,5 km venecijanskih zidina, Katedrala Sv Tripuna iz 1166. godine, i 1.355 stepenica do San Giovannija. Parkiraјте se pored Morske kapije i šetajte kroz",
     "heading1": "Kotor, UNESCO svjetska baština",
     "p1": "Kotor je jedan od najbolje sačuvanih srednjovjekovnih gradova na Jadranu, smješten na kraju dramatičnog zaljeva sličnog fjordu. Stari grad, koji je pod zaštitom UNESCO-a, je labirint uskih ulica, venecijanskih palata, romanesknih crkava i živahnih trgova. Iznad svega toga, tvrđava San Giovanni se penja 1.200 stepenica, pružajući razgled preko cijelog zaljeva.",
     "p2a": "Iznajmljivanje automobila u Kotoru",
@@ -201,23 +201,23 @@
   },
   "budva": {
     "title": "Rent a Car Budva",
-    "subtitle": "Rivijera Crne Gore — plaže, noćni život i šarm starog grada.",
-    "seoDesc": "Iznajmite auto u Budvi, Crna Gora. Odvezite se na plažu Mogren, Sveti Stefan i do najboljeg noćnog života rivijere. Puno osiguranje, bez skrivenih troškova."
+    "subtitle": "Rivijera Crne Gore, plaže, noćni život i šarm starog grada.",
+    "seoDesc": "Iznajmite auto u Budvi, Crna Gora. Odvezite se na plažu Mogren, Sveti Stefan i do najboljeg noćnog života rivijere. Puno osiguranje, bez skrivenih"
   },
   "perast": {
     "title": "Rent a Car Perast",
     "subtitle": "Barokni dragulj na Bokokotorskom zalivu.",
-    "seoDesc": "Iznajmite auto i posjetite Perast, barokni dragulj na Bokokotorskom zalivu. Pogledajte ostrvo Gospa od Škrpjela i veličanstvene palate uz obalu sopstvenim tempom."
+    "seoDesc": "Iznajmite auto i posjetite Perast, barokni dragulj na Bokokotorskom zalivu. Pogledajte ostrvo Gospa od Škrpjela i veličanstvene palate uz obalu sopstvenim"
   },
   "podgorica": {
     "title": "Rent a Car Podgorica",
-    "subtitle": "Glavni grad Crne Gore — kultura, rijeke i moderni šarm.",
-    "seoDesc": "Rent a car u Podgorici, glavnom gradu Crne Gore. Istražite Skadarsko jezero, manastir Ostrog i Durmitor iznajmljenim autom. Preuzimanje na aerodromu dostupno."
+    "subtitle": "Glavni grad Crne Gore, kultura, rijeke i moderni šarm.",
+    "seoDesc": "Rent a car u Podgorici, glavnom gradu Crne Gore. Istražite Skadarsko jezero, manastir Ostrog i Durmitor iznajmljenim autom. Preuzimanje na aerodromu"
   },
   "podgorica-airport": {
     "title": "Rent a Car Aerodrom Podgorica",
     "subtitle": "Glavna međunarodna kapija Crne Gore.",
-    "seoDesc": "Preuzmite rent a car na aerodromu Podgorica (TGD). Isporučujemo vozilo do zone dolaska. Stignite do obale, Skadarskog jezera ili Nacionalnog parka Durmitor."
+    "seoDesc": "Preuzmite rent a car na aerodromu Podgorica (TGD). Isporučujemo vozilo do zone dolaska. Stignite do obale, Skadarskog jezera ili Nacionalnog parka"
   },
   "dubrovnik-airport": {
     "title": "Rent a Car Aerodrom Dubrovnik",
@@ -257,7 +257,7 @@
   "featureCards": {
     "airportPickup": {
       "title": "Preuzimanje na aerodromu Tivat",
-      "desc": "Dočekujemo vas na dolasku u Tivatu, svega 8 km od zidina Starog grada. Putem uz zaliv do Kotora stižete za 15 minuta — bez prevoza, bez čekanja."
+      "desc": "Dočekujemo vas na dolasku u Tivatu, svega 8 km od zidina Starog grada. Putem uz zaliv do Kotora stižete za 15 minuta, bez prevoza, bez čekanja."
     },
     "fullInsurance": {
       "title": "Potpuno osiguranje",
@@ -265,11 +265,11 @@
     },
     "support": {
       "title": "Podrška 24/7",
-      "desc": "Zaglavili ste iza kruzerskog autobusa na putu uz zaliv? Niste sigurni oko parkinga Tabacina? Pozovite nas u bilo kom trenutku — poznajemo svaki metar ovih puteva."
+      "desc": "Zaglavili ste iza kruzerskog autobusa na putu uz zaliv? Niste sigurni oko parkinga Tabacina? Pozovite nas u bilo kom trenutku, poznajemo svaki metar ovih puteva."
     },
     "noHiddenFees": {
       "title": "Bez skrivenih troškova",
-      "desc": "Jedna transparentna cijena pokriva osiguranje, PDV i kilometražu. Ono što vidite pri rezervaciji tačno je ono što plaćate pri preuzimanju — ništa se ne dodaje na šalteru."
+      "desc": "Jedna transparentna cijena pokriva osiguranje, PDV i kilometražu. Ono što vidite pri rezervaciji tačno je ono što plaćate pri preuzimanju, ništa se ne dodaje na šalteru."
     },
     "freeCancellation": {
       "title": "Besplatno otkazivanje",
@@ -277,7 +277,7 @@
     },
     "crossBorder": {
       "title": "Prelazak granice",
-      "desc": "Dubrovnik je 2 sata vožnje preko graničnog prelaza Debeli Brijeg — Zelena karta spremna pri preuzimanju. Bosna i Albanija također dozvoljene uz prethodnu najavu."
+      "desc": "Dubrovnik je 2 sata vožnje preko graničnog prelaza Debeli Brijeg, Zelena karta spremna pri preuzimanju. Bosna i Albanija također dozvoljene uz prethodnu najavu."
     }
   },
   "testimonials": {
@@ -285,10 +285,10 @@
       "text": "Put uz zaliv između Kotora i Perasta jedno je od najljepših vožnji koje smo ikada doživjeli. Zaustavljali smo se na svakom proširenju i uzeli čamac do Gospe od Škrpjela. Imati auto značilo je da smo sve radili po svom rasporedu. Lako preuzimanje u Tivatu i cijeli proces prošao je glatko od početka do kraja."
     },
     "1": {
-      "text": "Došao sam u Kotor posebno da se popnem na tvrđavu San Giovanni i odvezem do Lovćena. Auto je bio spreman na dolasku u Tivatu prije nego sam uopće našao izlaz. Serpentinska cesta do mauzoleja ne liči ni na šta što sam vozio u Sjevernoj Americi — strma, uska, spektakularna. Rezervisao bih ponovo bez oklijevanja."
+      "text": "Došao sam u Kotor posebno da se popnem na tvrđavu San Giovanni i odvezem do Lovćena. Auto je bio spreman na dolasku u Tivatu prije nego sam uopće našao izlaz. Serpentinska cesta do mauzoleja ne liči ni na šta što sam vozio u Sjevernoj Americi, strma, uska, spektakularna. Rezervisao bih ponovo bez oklijevanja."
     },
     "2": {
-      "text": "Naš kruzer pristao je u Kotoru i preuzeli smo auto odmah pored luke. Tri dana izleta — Budva, Perast i manastir Cetinje. Djeca su obožavala plovidbu do crkvice na otočiću u Perastu. Tim je brzo sredio dokumentaciju, a dječije sjedište bilo je već postavljeno kada smo stigli."
+      "text": "Naš kruzer pristao je u Kotoru i preuzeli smo auto odmah pored luke. Tri dana izleta, Budva, Perast i manastir Cetinje. Djeca su obožavala plovidbu do crkvice na otočiću u Perastu. Tim je brzo sredio dokumentaciju, a dječije sjedište bilo je već postavljeno kada smo stigli."
     }
   },
   "faqItems": {
@@ -298,15 +298,15 @@
     },
     "1": {
       "q": "Mogu li voziti do Hrvatske ili Albanije?",
-      "a": "Hrvatska je 2 sata vožnje preko graničnog prelaza Debeli Brijeg — Zelenu kartu pripremamo pri rezervaciji. Albanija zahtijeva zasebnu dokumentaciju za Zelenu kartu, pa nas obavijestite unaprijed. Bosna, Srbija i Kosovo su takođe dozvoljeni."
+      "a": "Hrvatska je 2 sata vožnje preko graničnog prelaza Debeli Brijeg, Zelenu kartu pripremamo pri rezervaciji. Albanija zahtijeva zasebnu dokumentaciju za Zelenu kartu, pa nas obavijestite unaprijed. Bosna, Srbija i Kosovo su takođe dozvoljeni."
     },
     "2": {
       "q": "Postoji li minimalna starosna granica?",
-      "a": "Vozači moraju imati najmanje 21 godinu i minimum 2 godine iskustva. Za vozače mlađe od 25 godina primjenjuje se doplata za mlade vozače — tačan iznos zavisi od vozila i prikazan je u rezultatima pretrage."
+      "a": "Vozači moraju imati najmanje 21 godinu i minimum 2 godine iskustva. Za vozače mlađe od 25 godina primjenjuje se doplata za mlade vozače, tačan iznos zavisi od vozila i prikazan je u rezultatima pretrage."
     },
     "3": {
       "q": "Šta je uključeno u cijenu?",
-      "a": "Osiguranje od odgovornosti prema trećim licima i CDW zaštita uključeni su u osnovnu cijenu svih vozila, zajedno sa PDV-om i obaveznim sigurnosnim kompletom. Neograničena kilometraža dostupna je na većini automobila — provjerite karticu vozila prije rezervacije."
+      "a": "Osiguranje od odgovornosti prema trećim licima i CDW zaštita uključeni su u osnovnu cijenu svih vozila, zajedno sa PDV-om i obaveznim sigurnosnim kompletom. Neograničena kilometraža dostupna je na većini automobila, provjerite karticu vozila prije rezervacije."
     },
     "4": {
       "q": "Kako funkcioniše preuzimanje na aerodromu Tivat?",
@@ -314,7 +314,7 @@
     },
     "5": {
       "q": "Mogu li vratiti vozilo na drugoj lokaciji?",
-      "a": "Jednosmjerno iznajmljivanje dostupno je u 28 mjesta za preuzimanje i vraćanje u Crnoj Gori. Izaberite različite lokacije u fazi rezervacije — naknada za jednosmjerni povratak može se primijeniti ovisno o udaljenosti."
+      "a": "Jednosmjerno iznajmljivanje dostupno je u 28 mjesta za preuzimanje i vraćanje u Crnoj Gori. Izaberite različite lokacije u fazi rezervacije, naknada za jednosmjerni povratak može se primijeniti ovisno o udaljenosti."
     },
     "6": {
       "q": "Koja je politika otkazivanja?",
@@ -322,7 +322,7 @@
     },
     "7": {
       "q": "Da li je potreban depozit?",
-      "a": "Većina vozila zahtijeva depozit od 100 do 350 € na fizičkoj kreditnoj kartici vozača. Neki ekonomični automobili dostupni su bez depozita — jasno su označeni u rezultatima pretrage. Blokada se oslobađa kada se vozilo vrati bez oštećenja."
+      "a": "Većina vozila zahtijeva depozit od 100 do 350 € na fizičkoj kreditnoj kartici vozača. Neki ekonomični automobili dostupni su bez depozita, jasno su označeni u rezultatima pretrage. Blokada se oslobađa kada se vozilo vrati bez oštećenja."
     },
     "8": {
       "q": "Šta se dešava ako prekoračim limit kilometraže?",
@@ -334,7 +334,7 @@
     },
     "10": {
       "q": "Koliko plaćam unaprijed?",
-      "a": "Avans od 15–20 % ukupne cijene najma potreban je za potvrdu rezervacije. Preostali iznos plaća se direktno agentu za iznajmljivanje pri preuzimanju automobila."
+      "a": "Avans od 15-20 % ukupne cijene najma potreban je za potvrdu rezervacije. Preostali iznos plaća se direktno agentu za iznajmljivanje pri preuzimanju automobila."
     },
     "11": {
       "q": "Mogu li iznajmiti bez kreditne kartice?",
@@ -380,32 +380,32 @@
     "podgorica": {
       "name": "Podgorica",
       "tag": "Glavni grad",
-      "desc": "Prijestonica Crna Gora — vrata ka unutrašnjosti."
+      "desc": "Prijestonica Crna Gora, vrata ka unutrašnjosti."
     }
   },
   "aboutBody": {
     "h1": "Rent a car Kotor",
-    "p1": "Od 2007. godine, Crna Gora Car Hire povezuje putnike sa pouzdanim i pristupačnim rent-a-car vozilima širom Crna Gora. Ono što je počelo kao jednostavna ideja — olakšati posjetiocima istraživanje ovog zadivljujućeg kutka Adriatic — izraslo je u jednu od najpouzdanijih usluga iznajmljivanja vozila u zemlji.",
+    "p1": "Od 2007. godine, Crna Gora Car Hire povezuje putnike sa pouzdanim i pristupačnim rent-a-car vozilima širom Crna Gora. Ono što je počelo kao jednostavna ideja, olakšati posjetiocima istraživanje ovog zadivljujućeg kutka Adriatic, izraslo je u jednu od najpouzdanijih usluga iznajmljivanja vozila u zemlji.",
     "h2": "Zašto smo počeli",
-    "p2": "Crna Gora je zemlja koja se najbolje doživljava sopstvenim tempom. Vijugavi obalni putevi, skrivena planinska sela i gradovi pod zaštitom UNESCO-a teško su dostupni javnim prevozom. Prepoznali smo priliku da putnicima pružimo slobodu da otkriju Crna Gora na svoj način — bez rasporeda turističkih autobusa, bez propuštenih vidikovaca, bez kompromisa.",
+    "p2": "Crna Gora je zemlja koja se najbolje doživljava sopstvenim tempom. Vijugavi obalni putevi, skrivena planinska sela i gradovi pod zaštitom UNESCO-a teško su dostupni javnim prevozom. Prepoznali smo priliku da putnicima pružimo slobodu da otkriju Crna Gora na svoj način, bez rasporeda turističkih autobusa, bez propuštenih vidikovaca, bez kompromisa.",
     "h3": "Šta nudimo",
     "p3": "Pružamo usluge iznajmljivanja vozila širom Crna Gora, sa preuzimanjem i vraćanjem na aerodromu Tivat, aerodromu Podgorica, kao i na lokacijama duž obale i u unutrašnjosti. Naša flota obuhvata sve, od kompaktnih gradskih automobila do prostranih SUV vozila, sa potpunim osiguranjem i bez skrivenih troškova.",
     "promiseTitle": "Naše obećanje",
     "promise1": "Potpuno osiguranje sa opcijom nulte franšize",
-    "promise2": "Doček na aerodromu — donosimo automobil direktno do sale za dolaske",
-    "promise3": "Bez skrivenih troškova — cijena koju vidite je cijena koju plaćate",
+    "promise2": "Doček na aerodromu, donosimo automobil direktno do sale za dolaske",
+    "promise3": "Bez skrivenih troškova, cijena koju vidite je cijena koju plaćate",
     "promise4": "Dozvoljena prekogranična putovanja u Hrvatsku, Bosnu, Albaniju, Srbiju i Kosovo",
     "promise5": "Besplatno otkazivanje za većinu rezervacija",
     "promise6": "Pomoć na putu 24/7 tokom cijelog putovanja",
     "h4": "Lokalno znanje",
     "p4": "Sa sjedištem u Crna Gora, poznajemo puteve, najbolje rute i skrivene dragulje koje turistički vodiči ne pominju. Bilo da vozite sa aerodroma Tivat do srednjovjekovnog starog grada Kotor, idete slikovitom rutom kroz Boku Kotorsku do Perast, ili se upućujete u unutrašnjost ka Nacionalnom parku Durmitor, možemo vam pomoći da isplanirate savršeno putovanje.",
     "h5": "Kontaktirajte nas",
-    "p5": "Imate pitanje o iznajmljivanju automobila u Crna Gora? Dostupni smo putem telefona, WhatsApp i Viber. Pregledajte našu flotu online i rezervišite za nekoliko minuta — ili nam se javite i pomoći ćemo vam da pronađete savršen automobil za vaše putovanje."
+    "p5": "Imate pitanje o iznajmljivanju automobila u Crna Gora? Dostupni smo putem telefona, WhatsApp i Viber. Pregledajte našu flotu online i rezervišite za nekoliko minuta, ili nam se javite i pomoći ćemo vam da pronađete savršen automobil za vaše putovanje."
   },
   "kotorBody": {
     "h1": "Kotor -- Lokalitet pod Zastitom UNESCO-a",
     "p1": "Kotor je jedan od najljepših primorskih gradova Crne Gore, koji nudi prekrasne plaže, šarm istorijskog Starog grada i srednjovjekovne zidine unutar kojih se nalaze umjetničke galerije, kafići i odlični restorani. Kao lokalitet pod zaštitom UNESCO-a, znamenitosti grada su koncentrisane u predivno očuvanom Starom gradu.",
-    "p2": "Iznajmljivanje automobila u Kotoru daje vam slobodu da istražujete lokalne atrakcije i obližnje crnogorske gradove i prirodna područja sopstvenim tempom. Dostupnost parkinga varira sezonski, jer ljetnji turizam stvara nestašicu u centru — ali postoje veća parkirališta na prilaznim putevima.",
+    "p2": "Iznajmljivanje automobila u Kotoru daje vam slobodu da istražujete lokalne atrakcije i obližnje crnogorske gradove i prirodna područja sopstvenim tempom. Dostupnost parkinga varira sezonski, jer ljetnji turizam stvara nestašicu u centru, ali postoje veća parkirališta na prilaznim putevima.",
     "landmarksTitle": "Znamenitosti",
     "stJohnTitle": "Tvrđava Sv. Ivana",
     "stJohnText": "Impozantna građevina koja je istorijski štitila grad od gusarskih napada. Značajne karakteristike uključuju Kulu Contarini i Crkvu Gospe od Zdravlja, koja pruža zapanjujuće poglede na Stari grad i Bokokotorski zaliv.",
@@ -416,12 +416,12 @@
     "cetinjeTrip": "Sagrađen 1701. godine, manastir čuva ruku Jovana Krstitelja. Odlikuje se bogatom dekoracijom i pravoslavnom umjetnošću. Vožnja iz Kotora traje približno jedan sat kroz slikovite planinske puteve.",
     "royalCourtText": "Crnogorska kraljevska palata iz 1871. godine, u kojoj su izloženi umjetnički predmeti, artefakti i fotografije iz kraljevske istorije zemlje. Nalazi se pored manastira u nekadašnjoj kraljevskoj prijestonici.",
     "perastLinkText": "Vožnja do Perasta",
-    "perastLinkAfter": " — 15 minuta duž zaliva, sa izletima brodom do Gospe od Škrpjela."
+    "perastLinkAfter": ", 15 minuta duž zaliva, sa izletima brodom do Gospe od Škrpjela."
   },
   "budvaBody": {
     "h1": "Budva -- Srce Crnogorske Rivijere",
     "p1": "Budva je najpopularnija plažna destinacija u Crnoj Gori, koja privlači posjetioce iz čitave Evrope svojom zapanjujućom obalom, živahnim noćnim životom i predivno očuvanim srednjovjekovnim Starim gradom. Sa iznajmljenim automobilom, čitava Budvanska rivijera i šire su vam nadohvat ruke.",
-    "p2": "Grad se nalazi otprilike 20 minuta južno od aerodroma Tivat, što ga čini jednom od najlakše dostupnih primorskih destinacija nakon slijetanja. Budva kombinuje 2.500 godina istorije sa potpuno modernom atmosferom za odmor — drevne gradske zidine danju, živahni plažni barovi noću.",
+    "p2": "Grad se nalazi otprilike 20 minuta južno od aerodroma Tivat, što ga čini jednom od najlakše dostupnih primorskih destinacija nakon slijetanja. Budva kombinuje 2.500 godina istorije sa potpuno modernom atmosferom za odmor, drevne gradske zidine danju, živahni plažni barovi noću.",
     "beachesTitle": "Plaže",
     "beachesIntro": "Budvanska rivijera se proteže na 21 kilometar, nudeći neke od najljepših plaža na jadranskoj obali:",
     "mogren": "Dvije povezane šljunčane plaže do kojih se stiže kroz tunel usječen u stijene, svega nekoliko minuta od Starog grada",
@@ -437,11 +437,11 @@
     "gettingAroundTitle": "Kretanje",
     "gettingAroundText": "Dok je Budvanski Stari Grad najbolje istraživati pješice, iznajmljeni automobil je neophodan za dolazak do najljepših plaža, obližnjih sela i atrakcija u unutrašnjosti. Parking je dostupan u blizini zidina Starog grada i na nekoliko javnih parkirališta duž glavnog puta. U vrhu ljeta, rani dolazak osigurava najbolja mjesta.",
     "tivatLinkText": "Preuzmite auto na Aerodromu Tivat",
-    "tivatLinkAfter": " i stigните do Budve za 30 minuta."
+    "tivatLinkAfter": "i stigните do Budve za 30 minuta."
   },
   "perastBody": {
     "h1": "Perast -- Skriveni Dragulj na Zalivu",
-    "p1": "Malo selo Perast se nalazi na kratkoj vožnji — manje od 20 minuta — od Kotora. Turisti koji iznajme automobil za obilazak Crne Gore sigurno će poželjeti da se provezaju autoputem E65/E80 kako bi proveli vrijeme u ovom ljupkom ribarskom selu.",
+    "p1": "Malo selo Perast se nalazi na kratkoj vožnji, manje od 20 minuta, od Kotora. Turisti koji iznajme automobil za obilazak Crne Gore sigurno će poželjeti da se provezaju autoputem E65/E80 kako bi proveli vrijeme u ovom ljupkom ribarskom selu.",
     "p2": "Iako je dom za samo oko 850 ljudi, duga i šarena istorija Perasta svakako nadmašuje njegovu malu veličinu. Od 1420. do 1797. godine, grad je pripadao Republici Veneciji i bio je poznat po svojim majstorima brodogradnje i mornarima. Perast ima mnogo prekrasnih podsjetnika na prošlost i neke odlične primjere barokne arhitekture.",
     "islandsTitle": "Ostrva",
     "stGeorgeTitle": "Ostrvo Sv. Đorđa",
@@ -455,7 +455,7 @@
   },
   "tivatBody": {
     "h1": "Tivat -- Grad Marine",
-    "p1": "Tivat je jedan od novijih gradova duž crnogorske obale, izgrađen prije nešto više od jednog vijeka. Grad ima jedan od samo dva javna aerodroma u Crnoj Gori — aerodrom Tivat — što ga čini izuzetno pogodnom bazom za posjetioce koji dolaze avionom.",
+    "p1": "Tivat je jedan od novijih gradova duž crnogorske obale, izgrađen prije nešto više od jednog vijeka. Grad ima jedan od samo dva javna aerodroma u Crnoj Gori, aerodrom Tivat, što ga čini izuzetno pogodnom bazom za posjetioce koji dolaze avionom.",
     "p2": "Ovo primorsko odmaralište ima populaciju od oko 13.000 stanovnika. Posjetioci mogu uživati u šetnjama uz more, jesti u restoranima na obali i istraživati prodavnice skrivene u uskim uličicama. Tokom vrhunca sezone, grad balansira između mira i živahne turističke aktivnosti.",
     "beachesTitle": "Plaže",
     "beachesText": "Tivat se može pohvaliti sa 17 plaža koje se prostiru na 3 kilometra obale, priznatih među najljepšima na Mediteranu. Među najboljim plažama su:",
@@ -482,7 +482,7 @@
     "facilitiesTitle": "Sadržaji Aerodroma",
     "facilitiesText": "Aerodrom nudi kafiće, javne telefone, suvenirnice i bescarinsku kupovinu. Autobuske linije povezuju Herceg Novi i Budvu, a taksi usluge su takođe dostupne ispred terminala.",
     "whyTitle": "Zašto Iznajmiti na Aerodromu Tivat?",
-    "whyText": "Aerodrom Tivat je najbliži aerodrom najpopularnijim primorskim destinacijama u Crnoj Gori. U roku od nekoliko minuta nakon slijetanja, možete voziti duž Bokokotorskog zaliva prema srednjovjekovnom utvrđenom gradu, ili se uputiti na jug prema plažama Budve. Preuzimanje automobila na Tivtu znači bez transfera, bez čekanja na autobuse — direktno od terminala do otvorenog puta.",
+    "whyText": "Aerodrom Tivat je najbliži aerodrom najpopularnijim primorskim destinacijama u Crnoj Gori. U roku od nekoliko minuta nakon slijetanja, možete voziti duž Bokokotorskog zaliva prema srednjovjekovnom utvrđenom gradu, ili se uputiti na jug prema plažama Budve. Preuzimanje automobila na Tivtu znači bez transfera, bez čekanja na autobuse, direktno od terminala do otvorenog puta.",
     "meetText": "Dočekujemo vas u hali za dolaske sa vašim imenom na tabli. Vaš automobil je parkiran odmah ispred. Ukupno vrijeme od slijetanja do vožnje: oko 10 minuta."
   },
   "podgoricaBody": {
@@ -520,23 +520,23 @@
   "dubrovnikAirportBody": {
     "h1": "Iznajmljivanje Automobila na Aerodromu Dubrovnik (DBV)",
     "p1": "Mnogi turisti koji posjećuju Crnu Goru biraju da dolete na aerodrom Dubrovnik i iznajme automobil za vožnju do Crne Gore. Aerodrom se nalazi na kratkoj dvosatnoj vožnji od primorskih odmarališta Budve, Perasta i Kotora, te je bolje povezan sa mnogim avio-kompanijama koje još nemaju direktne letove za Crnu Goru.",
-    "p2": "Budući da je ovo toliko uobičajena ruta, prelazak granice nije težak zadatak — pod uslovom da posjetioci imaju sve ugovore o iznajmljivanju i putne dokumente u redu.",
+    "p2": "Budući da je ovo toliko uobičajena ruta, prelazak granice nije težak zadatak, pod uslovom da posjetioci imaju sve ugovore o iznajmljivanju i putne dokumente u redu.",
     "p3": "Iznajmljivanje automobila za putovanje u Crnu Goru je odlična ideja. Omogućava posjetiocima da vide ovaj dio svijeta pod sopstvenim uslovima, u sopstvenom tempu. Saobraćaj između zemalja u ovom regionu je uobičajen, pa su granični prelazi generalno jednostavni.",
     "borderTitle": "Savjeti za Prelazak Granice",
     "borderText": "Tokom turističke sezone, Crna Gora biva preplavljena posjetiocima i dugo čekanje na prelazak granice nije neuobičajeno. Prelazak rano ujutru ili kasno noću je jedan od načina da izbjegnete gužve. Obavezno provjerite da vam je kompanija za iznajmljivanje obezbijedila Zelenu kartu za prekogranično osiguranje.",
     "facilitiesTitle": "Sadržaji Aerodroma",
-    "facilitiesText1": "Aerodrom Dubrovnik ima modernu terminalnu zgradu smještenu na manje od pola sata vožnje od grada Dubrovnika na E65. Aerodrom ima ograničen parking, sa automatima koji primaju plaćanje gotovinom i kreditnim karticama. Budući da je parking ograničen — posebno u sezoni — posjetioci bi trebali unaprijed rezervisati svoja mjesta ako je moguće. Postoji popust za unaprijed rezervisanje.",
+    "facilitiesText1": "Aerodrom Dubrovnik ima modernu terminalnu zgradu smještenu na manje od pola sata vožnje od grada Dubrovnika na E65. Aerodrom ima ograničen parking, sa automatima koji primaju plaćanje gotovinom i kreditnim karticama. Budući da je parking ograničen, posebno u sezoni, posjetioci bi trebali unaprijed rezervisati svoja mjesta ako je moguće. Postoji popust za unaprijed rezervisanje.",
     "facilitiesText2": "Unutar aerodroma nalazi se mjenjačnica, banka i pošta. Takođe su dostupni mali restorani, kafići, bescarinska prodavnica i kiosk sa novinama.",
     "gettingTitle": "Kako Stići do Crne Gore",
     "gettingText1": "Javni prevoz je dostupan na aerodromu u vidu taksija ispred terminala, te autobuskih linija i shuttle prevoza. Za putnika koji se upućuju prema gradu Dubrovniku, obavezno uzmite autobuse koji idu do samog centra grada, umjesto onih koji staju u Cavtatu, kako biste izbjegli presjedanje.",
-    "gettingText2": "Vožnja od aerodroma Dubrovnik do crnogorske obale vodi vas duž jednog od najslikovitijih obalnih puteva u Evropi. U roku od dva sata proći ćete granicu i stići do Bokokotorskog zaliva — jednog od najdramatičnijih prilaza bilo kojoj destinaciji na Mediteranu."
+    "gettingText2": "Vožnja od aerodroma Dubrovnik do crnogorske obale vodi vas duž jednog od najslikovitijih obalnih puteva u Evropi. U roku od dva sata proći ćete granicu i stići do Bokokotorskog zaliva, jednog od najdramatičnijih prilaza bilo kojoj destinaciji na Mediteranu."
   },
   "montenegroBody": {
     "h1": "Istraživanje Crne Gore Automobilom",
     "p1": "Crna Gora je jedna od najnagrađivanijih destinacija u Evropi za samostalno istraživanje automobilom. Od dramatičnih planinskih puteva i mirnih sela u unutrašnjosti do vijugavih obalnih vožnji duž Jadrana, zemlja nudi raznolike pejzaže na iznenađujuće kratkim udaljenostima. Iznajmljivanje automobila pruža pristup lokacijama daleko van dometa javnog prevoza.",
-    "p2": "Iako kompaktna po veličini, Crna Gora zahtijeva duža vremena vožnje nego što mape sugerišu. Planinske serpentine, uske obalne ceste i slikovite rute ohrabruju česte zaustavljanja. Putnici dobijaju slobodu da dožive i putovanje i odredište — krstarenje zaljevima nalik fjordovima, istorijskim gradovima i planinskim vidikovcima sopstvenim tempom.",
+    "p2": "Iako kompaktna po veličini, Crna Gora zahtijeva duža vremena vožnje nego što mape sugerišu. Planinske serpentine, uske obalne ceste i slikovite rute ohrabruju česte zaustavljanja. Putnici dobijaju slobodu da dožive i putovanje i odredište, krstarenje zaljevima nalik fjordovima, istorijskim gradovima i planinskim vidikovcima sopstvenim tempom.",
     "startTitle": "Početak Putovanja",
-    "startText": "Mnogi posjetioci preuzimaju svoj iznajmljeni automobil na jednom od crnogorskih aerodroma ili na aerodromu Dubrovnik u Hrvatskoj, u zavisnosti od dostupnosti letova. Aerodrom Tivat je najbliži obali — samo 10 minuta od Kotora i 20 minuta od Budve. Aerodrom Podgorica opslužuje glavni grad i unutrašnjost. Aerodrom Dubrovnik ostaje popularan jer često ima više dostupnih međunarodnih letova.",
+    "startText": "Mnogi posjetioci preuzimaju svoj iznajmljeni automobil na jednom od crnogorskih aerodroma ili na aerodromu Dubrovnik u Hrvatskoj, u zavisnosti od dostupnosti letova. Aerodrom Tivat je najbliži obali, samo 10 minuta od Kotora i 20 minuta od Budve. Aerodrom Podgorica opslužuje glavni grad i unutrašnjost. Aerodrom Dubrovnik ostaje popularan jer često ima više dostupnih međunarodnih letova.",
     "timesTitle": "Vremena Vožnje",
     "timesText1": "Stvarna vremena vožnje redovno premašuju ono što mape pokazuju. Planinske serpentine, nazubljene obalne ceste, ruralne prepreke (uključujući stoku) i zimski snijeg na planinama doprinose dužim putovanjima. Slikovito obalno i pejzažno iskustvo više nego opravdava produženo vrijeme putovanja.",
     "timesText2": "Putovanje između primorskih gradova obično traje od trideset minuta do jednog sata. Vožnja od Herceg-Novog do Podgorice putem E65/E80 traje približno dva sata.",
@@ -549,10 +549,10 @@
     "keyRulesTitle": "Ključna Pravila",
     "keyRule1": "Pojasevi su obavezni za sve putnike",
     "keyRule2": "Korišćenje mobilnog telefona tokom vožnje je zabranjeno",
-    "keyRule3": "Bilo kakva vožnja pod uticajem alkohola je ilegalna — nulta tolerancija",
+    "keyRule3": "Bilo kakva vožnja pod uticajem alkohola je ilegalna, nulta tolerancija",
     "keyRule4": "Ograničenja brzine se strogo sprovode",
     "conditionsTitle": "Stanje Puteva",
-    "conditionsText": "Gradski putevi su u zadovoljavajućem stanju. Planinski putevi mogu biti zahtjevniji, sa minimalnim zaštitnim ogradama na nekim mjestima. Neki vozači voze agresivno, pa se preporučuje oprez širom zemlje — posebno na planinskim prevlakama i uskim obalnim dionicama.",
+    "conditionsText": "Gradski putevi su u zadovoljavajućem stanju. Planinski putevi mogu biti zahtjevniji, sa minimalnim zaštitnim ogradama na nekim mjestima. Neki vozači voze agresivno, pa se preporučuje oprez širom zemlje, posebno na planinskim prevlakama i uskim obalnim dionicama.",
     "routesTitle": "Glavne Rute",
     "e65Title": "E65/E80",
     "e65Text": "Glavna obalna ruta povezuje Herceg-Novi sa Podgoricom, prolazeći kroz Kotor, Perast, Tivat i Budvu. Ovo je najpopularnija ruta za vožnju i nudi zapanjujuće poglede na Bokokotorski zaliv.",
@@ -562,9 +562,9 @@
     "borderText": "Prekogranično putovanje je jednostavno sa ispravnom dokumentacijom. Kontrolni punktovi mogu doživjeti veliku gužvu tokom sezone, sa kilometarskim kolonama automobila uobičajenim na popularnim prelazima. Optimalna vremena za prelazak su radnim danima ujutru ili kasno uveče.",
     "nationTitle": "Mlada Nacija",
     "nationText": "Crna Gora je stekla nezavisnost u junu 2006. godine, čineći je jednom od najmlađih nacija na svijetu. Razvoj turizma nastavlja da raste, nudeći egzotičniju i nešto grublju avanturu u poređenju sa susjednim zemljama. Pejzaž kombinuje zelene planine kroz koje se probijaju fjordovi puni duboke plave jadranske vode, raznolikost plaža i misterije drevnih starih gradova.",
-    "startLinkBefore": "Počnite sa ",
+    "startLinkBefore": "Počnite sa",
     "startLinkText": "iznajmljivanjem auta na Aerodromu Tivat",
-    "startLinkAfter": " — najbližem aerodromu Boki Kotorskoj."
+    "startLinkAfter": ", najbližem aerodromu Boki Kotorskoj."
   },
   "borderCrossingBody": {
     "h1": "Mogu Li Odvesti Iznajmljeni Auto Preko Granice?",
@@ -572,20 +572,20 @@
     "greenCardTitle": "Šta je Zelena Karta?",
     "greenCardText": "Zelena karta je međunarodni sertifikat o osiguranju motornog vozila koji dokazuje da je vaše vozilo osigurano u zemlji u koju ulazite. Obavezna je na svakom graničnom prelazu na Balkanu.",
     "greenCard1": "Cijena: približno 15 Eura za 15 dana",
-    "greenCard2": "Gdje je nabaviti: vaša kompanija za iznajmljivanje to uređuje — samo potvrdite pri rezervaciji",
+    "greenCard2": "Gdje je nabaviti: vaša kompanija za iznajmljivanje to uređuje, samo potvrdite pri rezervaciji",
     "greenCard3": "Zemlje koje pokriva: Hrvatska, Bosna, Albanija, Kosovo, Srbija",
     "greenCardWarn": "Bez Zelene karte, granični službenici vas neće propustiti. Uvijek provjerite da karta pokriva sve zemlje na vašoj planiranoj ruti prije nego što krenete.",
     "docsTitle": "Dokumenti Koji Su Vam Potrebni na Granici",
     "doc1": "Važeći pasoš ili EU lična karta",
     "doc2": "Vozačka dozvola (međunarodna dozvola se prihvata)",
     "doc3": "Ugovor o iznajmljivanju (original, ne fotokopija)",
-    "doc4": "Sertifikat o osiguranju — Zelena karta",
+    "doc4": "Sertifikat o osiguranju, Zelena karta",
     "doc5": "Saobraćajna dozvola vozila (obezbijeđena uz automobil)",
     "crossingsTitle": "Granični Prelazi iz Crne Gore",
     "croatiaTitle": "Crna Gora → Hrvatska",
-    "croatiaText": "Najpopularniji prelaz za turiste. Glavni kontrolni punkt je na Debelom Brijegu na obalnom putu (E65) između Herceg Novog i Dubrovnika. Ovaj prelaz postaje izuzetno prometan ljeti — očekujte redove od 1-2 sata tokom sezone (jul-avgust).",
+    "croatiaText": "Najpopularniji prelaz za turiste. Glavni kontrolni punkt je na Debelom Brijegu na obalnom putu (E65) između Herceg Novog i Dubrovnika. Ovaj prelaz postaje izuzetno prometan ljeti, očekujte redove od 1-2 sata tokom sezone (jul-avgust).",
     "croatiaTip": "Najbolja vremena za prelazak: rano ujutru (prije 8h) ili kasno uveče (poslije 20h). Radnim danima ujutru je znatno mirnije nego vikendom.",
-    "croatiaFerry": "Postoji i trajektna prečica Kamenari-Lepetane preko Bokokotorskog zaliva koja izbjegava vožnju oko čitavog zaliva — štedi oko 45 minuta.",
+    "croatiaFerry": "Postoji i trajektna prečica Kamenari-Lepetane preko Bokokotorskog zaliva koja izbjegava vožnju oko čitavog zaliva, štedi oko 45 minuta.",
     "albaniaTitle": "Crna Gora → Albanija",
     "albaniaText": "Dva glavna prelaza: Sukobin/Muriqan (obalni, blizu Ulcinja) i Hani i Hotit (kopneni, blizu Skadarskog jezera). Obalni prelaz je pogodniji za putnike i obično ima kraća vremena čekanja.",
     "albaniaNote": "Napomena: Albanski putevi se značajno razlikuju od crnogorskih. Vozite oprezno, posebno na ruralnim putevima.",
@@ -594,13 +594,13 @@
     "serbiaTitle": "Crna Gora → Srbija",
     "serbiaText": "Prelazite kod Dobrakova (na E65 sjeverno od Bijelog Polja). Ovaj prelaz se direktno povezuje sa srpskim autoputnim sistemom prema Beogradu.",
     "kosovoTitle": "Crna Gora → Kosovo",
-    "kosovoText": "Prelaz kod Kule (blizu Rožaja) povezuje se sa Pejom/Peći na Kosovu. Provjerite sa kompanijom za iznajmljivanje da li je Kosovo uključeno u vašu Zelenu kartu — neke polise ga isključuju.",
+    "kosovoText": "Prelaz kod Kule (blizu Rožaja) povezuje se sa Pejom/Peći na Kosovu. Provjerite sa kompanijom za iznajmljivanje da li je Kosovo uključeno u vašu Zelenu kartu, neke polise ga isključuju.",
     "tipsTitle": "Savjeti za Nesmetane Granične Prelaze",
-    "tip1": "Pripremite sve dokumente prije nego što stignete do kontrolnog punkta — ne tražite ih na prozoru",
+    "tip1": "Pripremite sve dokumente prije nego što stignete do kontrolnog punkta, ne tražite ih na prozoru",
     "tip2": "Ugasite motor dok čekate u redu (granični službenici to cijene)",
-    "tip3": "Ljetnji vikendi su najgori — planirajte da prelazite radnim danima ako je moguće",
+    "tip3": "Ljetnji vikendi su najgori, planirajte da prelazite radnim danima ako je moguće",
     "tip4": "Hrvatski obalni prelaz (Debeli Brijeg) je najprometiniji; kopneni prelazi su mirniji",
-    "tip5": "Imajte pri ruci nešto gotovine u Eurima — korisno za putarine i manje kupovine s druge strane",
+    "tip5": "Imajte pri ruci nešto gotovine u Eurima, korisno za putarine i manje kupovine s druge strane",
     "tip6": "Mobilni podaci u romingu: provjerite da vaš plan pokriva zemlju u koju ulazite",
     "lawsTitle": "Pravila Vožnje Koja Se Mijenjaju na Granicama",
     "lawsIntro": "Svaka zemlja ima nešto drugačije saobraćajne zakone. Ključne razlike na koje treba obratiti pažnju:",
@@ -614,24 +614,24 @@
     "route2": "Kotor → Mostar (Bosna): 3-4 sata preko Trebinja. Posjetite čuveni most",
     "route3": "Budva → Skadar (Albanija): 2,5 sata preko obalnog prelaza kod Ulcinja",
     "route4": "Podgorica → Beograd (Srbija): 5-6 sati putem E65 na sjever",
-    "ctaText": "Trebate automobil sa prekograničnom dokumentacijom? Pretražite našu flotu — samo odaberite odredišne zemlje pri rezervaciji i mi ćemo urediti Zelenu kartu.",
-    "dubrovnikLinkBefore": "Iznajmljivanje na ",
+    "ctaText": "Trebate automobil sa prekograničnom dokumentacijom? Pretražite našu flotu, samo odaberite odredišne zemlje pri rezervaciji i mi ćemo urediti Zelenu kartu.",
+    "dubrovnikLinkBefore": "Iznajmljivanje na",
     "dubrovnikLinkText": "Aerodromu Dubrovnik",
-    "dubrovnikLinkAfter": " je najpopularnija prekogranična opcija."
+    "dubrovnikLinkAfter": "je najpopularnija prekogranična opcija."
   },
   "blogIndex": {
     "breadcrumbBlog": "Blog",
     "heroTitle": "Vodič za Putovanja po Kotoru",
-    "heroSubtitle": "Rute za vožnju, lokalni savjeti i skrivena zaustavljanja oko Bokokotorskog zaliva — pisali ljudi koji ovdje žive.",
+    "heroSubtitle": "Rute za vožnju, lokalni savjeti i skrivena zaustavljanja oko Bokokotorskog zaliva, pisali ljudi koji ovdje žive.",
     "readGuide": "Pročitaj vodič",
     "card_walls_title": "Uspon na Kotorsku Tvrđavu",
-    "card_walls_excerpt": "Vodič korak po korak za 1.350 stepenika iznad Starog grada — kada ići, šta ponijeti i zašto je pogled sa San Đovanija vrijedan svakog zrnca znoja.",
+    "card_walls_excerpt": "Vodič korak po korak za 1.350 stepenika iznad Starog grada, kada ići, šta ponijeti i zašto je pogled sa San Đovanija vrijedan svakog zrnca znoja.",
     "card_boat_title": "Iznajmljeni Auto i Vožnja Brodom po Zalivu",
     "card_boat_excerpt": "Odvezite se do Perasta, uskočite na taksi-čamac do Gospe od Škrpjela i istražite mirnije kutke zaliva do kojih nijedan turistički autobus ne stiže.",
     "card_lovcen_title": "Kotor do Lovćena: 25 Oštrih Krivina",
     "card_lovcen_excerpt": "Serpentinski put od morske razine do Njegoševog mauzoleja na 1.657 metara. Jedna od najdramatičnijih planinskih vožnji u Evropi.",
     "card_cruise_title": "Izlet sa Kruzera Iznajmljenim Automobilom",
-    "card_cruise_excerpt": "Vaš kruzer pristaje u Kotoru na 4–8 sati. Evo kako vidjeti Perast, put uz zaliv i Stari grad bez pridruživanja grupnoj turi.",
+    "card_cruise_excerpt": "Vaš kruzer pristaje u Kotoru na 4-8 sati. Evo kako vidjeti Perast, put uz zaliv i Stari grad bez pridruživanja grupnoj turi.",
     "card_cats_title": "Mačke Kotorskog Starog Grada",
     "card_cats_excerpt": "Poznati kotorski mačji stanovnici imaju sopstveni muzej, posvećene prodavnice i omiljena mjesta za drijemanje. Samostalni obilazak kroz njihovu teritoriju.",
     "card_dining_title": "Gdje Jesti i Piti u Kotoru",
@@ -639,42 +639,42 @@
     "card_winter_title": "Kotor van Sezone",
     "card_winter_excerpt": "Manje gužve, niže cijene i zaliv u najatmosferskijem izdanju. Zašto bi novembar do mart mogao biti najbolje vrijeme za posjet.",
     "card_risan_title": "Rimski Mozaici Risna",
-    "card_risan_excerpt": "Dvadeset minuta vožnje od Kotora do jednog od najzanemarenijih arheoloških lokaliteta na Jadranu — mozaici na podu iz drugog vijeka u mirnom gradiću na zalivu.",
+    "card_risan_excerpt": "Dvadeset minuta vožnje od Kotora do jednog od najzanemarenijih arheoloških lokaliteta na Jadranu, mozaici na podu iz drugog vijeka u mirnom gradiću na zalivu.",
     "card_photo_title": "9 Fotografskih Lokacija oko Zaliva",
-    "card_photo_excerpt": "Od vrha tvrđave do Veriga — kadrovi zbog kojih se fotografi vraćaju u Kotor iz godine u godinu."
+    "card_photo_excerpt": "Od vrha tvrđave do Veriga, kadrovi zbog kojih se fotografi vraćaju u Kotor iz godine u godinu."
   },
   "blogWalls": {
     "title": "Uspon na Kotorsku Tvrđavu",
-    "subtitle": "1.350 stepenika od srednjovjekovnih kapija do tvrđave San Đovani — šta očekivati u svakoj fazi uspona.",
+    "subtitle": "1.350 stepenika od srednjovjekovnih kapija do tvrđave San Đovani, šta očekivati u svakoj fazi uspona.",
     "description": "Kompletan vodič za pješačenje po kotorskim gradskim zidinama. Detalji rute, najbolja vremena za uspon, šta obući i pogled sa vrha tvrđave San Đovani.",
     "h2Why": "Zašto je Ovaj Uspon Važan",
-    "whyP1": "Utvrđenja iznad Kotora su građena između 9. i 15. vijeka radi zaštite grada od osmanskih i venecijanskih opsada. Penju se od sjeverne kapije Starog grada do ruševina tvrđave San Đovani na 280 metara nadmorske visine. Zidine su neprekidne — jedna odbrambena vrpca od kamena koja prati obrise planine i obavija čitavo naselje ispod.",
+    "whyP1": "Utvrđenja iznad Kotora su građena između 9. i 15. vijeka radi zaštite grada od osmanskih i venecijanskih opsada. Penju se od sjeverne kapije Starog grada do ruševina tvrđave San Đovani na 280 metara nadmorske visine. Zidine su neprekidne, jedna odbrambena vrpca od kamena koja prati obrise planine i obavija čitavo naselje ispod.",
     "whyP2": "Danas je ovaj uspon najpopularnija aktivnost u Kotoru. Ljetnjeg jutra staza je zauzeta već u 8h. Ali razlog zašto ljudi i dalje idu gore je jednostavan: panorama sa vrha je jedna od najljepših na čitavoj jadranskoj obali. Zaliv nalik fjordu vijuga ispod vas, kruzeri se smanjuju na veličinu igračke, a krovovi od cigle Starog grada formiraju savršenu srednjovjekovnu mrežu.",
     "h2Start": "Gdje Počinje",
-    "startP": "Postoje dva ulaza. Glavni ulaz je unutar Starog grada kroz kameni prolaz blizu Crkve Sv. Marije — ovdje se plaća ulaznica. Drugi ulaz je neobilježena staza iz kanjona rijeke Škurde na sjevernoj strani. Mještani koriste kanjonsku stazu da izbjegnu ulaznu cijenu, ali je strmija, lošije održavana i potpuno neosvijetljena. Ako ste prvi put, koristite glavni ulaz.",
+    "startP": "Postoje dva ulaza. Glavni ulaz je unutar Starog grada kroz kameni prolaz blizu Crkve Sv. Marije, ovdje se plaća ulaznica. Drugi ulaz je neobilježena staza iz kanjona rijeke Škurde na sjevernoj strani. Mještani koriste kanjonsku stazu da izbjegnu ulaznu cijenu, ali je strmija, lošije održavana i potpuno neosvijetljena. Ako ste prvi put, koristite glavni ulaz.",
     "altSteps": "Kameni stepenici na stazi ka kotorskoj tvrđavi",
     "h2Sections": "Tri Faze Uspona",
     "h3Lower": "Donji Dio: Stari Grad do Crkve Gospe od Zdravlja",
-    "lowerP": "Prvih 15 minuta su najstrmiji. Neravni kameni stepenici cik-cak idu kroz nisko rastinje dok se krovovi Starog grada već udaljuju ispod. Mala Crkva Gospe od Zdravlja pojavljuje se na otprilike trećini puta — bjelokamena kapela na izbočini sa terasom koja čini prirodno odmorište. Većina ljudi se ovdje zaustavi za fotografisanje.",
+    "lowerP": "Prvih 15 minuta su najstrmiji. Neravni kameni stepenici cik-cak idu kroz nisko rastinje dok se krovovi Starog grada već udaljuju ispod. Mala Crkva Gospe od Zdravlja pojavljuje se na otprilike trećini puta, bjelokamena kapela na izbočini sa terasom koja čini prirodno odmorište. Većina ljudi se ovdje zaustavi za fotografisanje.",
     "h3Middle": "Srednji Dio: Bedemi",
-    "middleP": "Iznad crkve staza prati unutrašnju stranu bedema. Stepenici postaju pravilniji i nagib se blago smanjuje. Ovaj dio nudi najbolje bočne poglede na zaliv — one kadrove gdje planine zaranjaju pravo u tamnoplavu vodu. Nema prodavaca ni vode poslije donjeg dijela, pa ponesitе sve što vam treba.",
+    "middleP": "Iznad crkve staza prati unutrašnju stranu bedema. Stepenici postaju pravilniji i nagib se blago smanjuje. Ovaj dio nudi najbolje bočne poglede na zaliv, one kadrove gdje planine zaranjaju pravo u tamnoplavu vodu. Nema prodavaca ni vode poslije donjeg dijela, pa ponesitе sve što vam treba.",
     "h3Fortress": "Gornji Dio: Tvrđava San Đovani",
-    "fortressP": "Završni dio vas dovodi do urušenih ostataka same tvrđave. Nema netaknutih zgrada — samo zidovi, lukovi i crnogorska zastava zabodena na najvišoj tački. Panorama je ovdje puni zaokret od 270 stepeni: Kotor ispod, Perast preko vode, Vrmački greben na zapadu i otvoreni Jadran iza Veriških tjesnaca.",
+    "fortressP": "Završni dio vas dovodi do urušenih ostataka same tvrđave. Nema netaknutih zgrada, samo zidovi, lukovi i crnogorska zastava zabodena na najvišoj tački. Panorama je ovdje puni zaokret od 270 stepeni: Kotor ispod, Perast preko vode, Vrmački greben na zapadu i otvoreni Jadran iza Veriških tjesnaca.",
     "h2When": "Kada Ići",
-    "whenP": "Izlazak sunca i dva sata prije zalaska su najbolji termini. Staza gleda na jug i jugozapad, što znači direktno popodnevno sunce ljeti — temperature na izloženom kamenu redovno prelaze 40°C između podneva i 15h u julu i avgustu. Ako dolazite kruzerom i nemate izbora oko vremena, krenite odmah nakon pristajanja. Jutarnje svjetlo takođe daje najbolje fotografije, dok je zaliv još miran i grad u blagoj sjenci.",
+    "whenP": "Izlazak sunca i dva sata prije zalaska su najbolji termini. Staza gleda na jug i jugozapad, što znači direktno popodnevno sunce ljeti, temperature na izloženom kamenu redovno prelaze 40°C između podneva i 15h u julu i avgustu. Ako dolazite kruzerom i nemate izbora oko vremena, krenite odmah nakon pristajanja. Jutarnje svjetlo takođe daje najbolje fotografije, dok je zaliv još miran i grad u blagoj sjenci.",
     "h2Tips": "Praktični Savjeti",
     "tipWaterLabel": "Voda:",
     "tipWaterVal": "Ponesitе najmanje 1,5 litru po osobi. Nema mjesta za kupovinu vode iznad Starog grada.",
     "tipShoesLabel": "Obuća:",
     "tipShoesVal": "Patike sa gripom. Japanke i sandale su opasne na uglačanim kamenim stepenicima.",
     "tipTimeLabel": "Trajanje:",
-    "tipTimeVal": "45–75 minuta gore, 30–45 minuta dole. Dodajte vrijeme za fotografije i odmor.",
+    "tipTimeVal": "45-75 minuta gore, 30-45 minuta dole. Dodajte vrijeme za fotografije i odmor.",
     "tipSunLabel": "Zaštita od sunca:",
     "tipSunVal": "Šešir, krema za sunčanje i naočare su neophodni od maja do septembra. Na stazi gotovo da nema hlada.",
     "tipCameraLabel": "Fotoaparat:",
     "tipCameraVal": "Širokougaoni objektiv najbolje hvata panoramu zaliva. Kamere na telefonima se dobro snalaze u panoramskom modu na vrhu.",
     "h2After": "Poslije Spuštanja",
-    "afterP": "Vratitе se u Stari grad kroz sjevernu kapiju i nagradite se na jednom od trgova. Kafići na Trgu od Oružja poslužuju hladno Nikšićko pivo i jaku crnogorsku kafu — oboje zasluženo. Ako ostajete na večeru, pogledajte naš vodič za",
+    "afterP": "Vratitе se u Stari grad kroz sjevernu kapiju i nagradite se na jednom od trgova. Kafići na Trgu od Oružja poslužuju hladno Nikšićko pivo i jaku crnogorsku kafu, oboje zasluženo. Ako ostajete na večeru, pogledajte naš vodič za",
     "afterLink": "jelo i piće u Kotoru",
     "glanceTitle": "Ukratko",
     "glanceElevation": "Visinski Uspon",
@@ -682,35 +682,35 @@
     "glanceSteps": "Stepenika",
     "glanceStepsVal": "~1.350",
     "glanceDuration": "Trajanje",
-    "glanceDurationVal": "1,5–2,5 sata povratno",
+    "glanceDurationVal": "1,5-2,5 sata povratno",
     "glanceEntry": "Ulaznica",
-    "glanceEntryVal": "€8 (besplatno nov–mart)"
+    "glanceEntryVal": "€8 (besplatno nov, mart)"
   },
   "blogBoat": {
     "title": "Iznajmljeni Auto i Vožnja Brodom po Zalivu",
     "subtitle": "Odvezite se putem uz zaliv do Perasta, uzmite taksi-čamac do Gospe od Škrpjela i otkrijte kutke Bokokotorskog zaliva do kojih turistički autobusi nikad ne stižu.",
     "description": "Kako kombinovati iznajmljeni automobil sa vožnjom brodom po Bokokotorskom zalivu. Vožnja do Perasta, posjet Gospi od Škrpjela i istraživanje mirnije strane najjužnijeg evropskog fjorda.",
     "h2Combo": "Zašto Auto i Brod Idu Zajedno",
-    "comboP1": "Bokokotorski zaliv ima oblik leptira — dva široka krila vode spojena uskim Veriškim tjesnacem. Turistički autobusi prate glavni put i staju na očiglednim vidikovcima. Ali pravi karakter zaliva leži u mjestima između tih stanica: kameni gatovi gdje ribari krpe mreže u zoru, putne konobe koje poslužuju šta god je toga jutra izašlo iz vode, sitne plaže sakrivene pod smokvama bez ijednog natpisa koji pokazuje na njih.",
-    "comboP2": "Iznajmljeni automobil vam daje put. Brod vam daje vodu. Zajedno otključavaju čitav zaliv u jednom danu — nešto što nijedan organizovani izlet ne uspijeva.",
+    "comboP1": "Bokokotorski zaliv ima oblik leptira, dva široka krila vode spojena uskim Veriškim tjesnacem. Turistički autobusi prate glavni put i staju na očiglednim vidikovcima. Ali pravi karakter zaliva leži u mjestima između tih stanica: kameni gatovi gdje ribari krpe mreže u zoru, putne konobe koje poslužuju šta god je toga jutra izašlo iz vode, sitne plaže sakrivene pod smokvama bez ijednog natpisa koji pokazuje na njih.",
+    "comboP2": "Iznajmljeni automobil vam daje put. Brod vam daje vodu. Zajedno otključavaju čitav zaliv u jednom danu, nešto što nijedan organizovani izlet ne uspijeva.",
     "h2OurLady": "Gospa od Škrpjela",
-    "ourLadyP": "Ostrvce se nalazi 115 metara od peraške obale. Vještačko je — izgrađeno vijekovima tako što su lokalni mornari bacali kamen u vodu svaki put kada bi se bezbjedno vratili sa putovanja. Crkva na vrhu datira iz 1630. godine i sadrži kolekciju srebrnih votivnih ploča i platno Tripa Kokolje koje prekriva čitav plafon. Taksi-čamci prevožavaju putnike sa peraškog keja svakih 15 minuta, a povratna karta košta €5 po osobi. Planirajtе 30–40 minuta na ostrvu.",
+    "ourLadyP": "Ostrvce se nalazi 115 metara od peraške obale. Vještačko je, izgrađeno vijekovima tako što su lokalni mornari bacali kamen u vodu svaki put kada bi se bezbjedno vratili sa putovanja. Crkva na vrhu datira iz 1630. godine i sadrži kolekciju srebrnih votivnih ploča i platno Tripa Kokolje koje prekriva čitav plafon. Taksi-čamci prevožavaju putnike sa peraškog keja svakih 15 minuta, a povratna karta košta €5 po osobi. Planirajtе 30-40 minuta na ostrvu.",
     "altOurLady": "Ostrvce Gospa od Škrpjela viđeno sa peraške obale",
     "h2Perast": "Istraživanje Perasta Automobilom",
-    "perastP": "Perast je 12 km sjeverozapadno od Kotora duž puta uz zaliv. Parkirajte na besplatnom parkingu na sjevernom ulazu u grad — obalski put je pješačka zona ljeti. Prošetajte prema jugu uz šetalište pored 16 nekadašnjih palata, uglavnom venecijanskih kamenih zdanja koja sad elegantno propadaju uz zaliv. Palata Bujović sadrži mali pomorski muzej. Na krajnjem kraju, zvonik Sv. Nikole nudi najbolji uzvišeni pogled na oba ostrva.",
+    "perastP": "Perast je 12 km sjeverozapadno od Kotora duž puta uz zaliv. Parkirajte na besplatnom parkingu na sjevernom ulazu u grad, obalski put je pješačka zona ljeti. Prošetajte prema jugu uz šetalište pored 16 nekadašnjih palata, uglavnom venecijanskih kamenih zdanja koja sad elegantno propadaju uz zaliv. Palata Bujović sadrži mali pomorski muzej. Na krajnjem kraju, zvonik Sv. Nikole nudi najbolji uzvišeni pogled na oba ostrva.",
     "h2BlueCave": "Kombinacija sa Plavom Špiljom",
-    "blueCaveP": "Iz Perasta se vratite kroz Kotor i nastavite prema jugu oko zaliva do poluostrva Luštica. Na plaži Žanjice, operateri glisera voze izlete do Plave špilje — morske pećine u kojoj prelomljena sunčeva svjetlost pretvara vodu u električno plavu. Posjet špilji traje 30 minuta; vožnja brodom je dio doživljaja. Ovo je cjelodnevno proširenje koje najbolje funkcioniše ako krenete iz Kotora rano.",
+    "blueCaveP": "Iz Perasta se vratite kroz Kotor i nastavite prema jugu oko zaliva do poluostrva Luštica. Na plaži Žanjice, operateri glisera voze izlete do Plave špilje, morske pećine u kojoj prelomljena sunčeva svjetlost pretvara vodu u električno plavu. Posjet špilji traje 30 minuta; vožnja brodom je dio doživljaja. Ovo je cjelodnevno proširenje koje najbolje funkcioniše ako krenete iz Kotora rano.",
     "h2Itinerary": "Predloženi Dnevni Plan",
-    "itinMorningLabel": "08:30 –",
+    "itinMorningLabel": "08:30,",
     "itinMorningVal": "Vožnja od Kotora do Perasta (20 min). Parkiranje, šetnja obalom, taksi-čamac do Gospe od Škrpjela.",
-    "itinMiddayLabel": "11:00 –",
+    "itinMiddayLabel": "11:00,",
     "itinMiddayVal": "Kafa na peraškom šetalištu. Razgledanje pomorskog muzeja ako je otvoren.",
-    "itinAfternoonLabel": "12:30 –",
-    "itinAfternoonVal": "Ručak u konobi na obali u Perastu — grilovani lignje, crni rižoto i lokalno bijelo vino iz Crmničke doline.",
-    "itinEveningLabel": "14:30 –",
+    "itinAfternoonLabel": "12:30,",
+    "itinAfternoonVal": "Ručak u konobi na obali u Perastu, grilovani lignje, crni rižoto i lokalno bijelo vino iz Crmničke doline.",
+    "itinEveningLabel": "14:30,",
     "itinEveningVal": "Povratak putem uz zaliv, sa zaustavljanjima na vidikovcima iznad Dobrote. Vraćanje automobila ili nastavak do Risna ili Veriških tjesnaca.",
     "h2Parking": "Parkiranje Duž Zaliva",
-    "parkingP": "Besplatan parking je dostupan na sjevernom kraju Perasta, na risanskoj obali i na nekoliko neobilježenih proširenja duž puta uz zaliv između Kotora i Perasta. U julu i avgustu peraški parking se napuni do 10h — stignite rano ili parkirajte u Dobroti i odvezite se posljednjih 5 km nakon što jutarnja gužva prođe.",
+    "parkingP": "Besplatan parking je dostupan na sjevernom kraju Perasta, na risanskoj obali i na nekoliko neobilježenih proširenja duž puta uz zaliv između Kotora i Perasta. U julu i avgustu peraški parking se napuni do 10h, stignite rano ili parkirajte u Dobroti i odvezite se posljednjih 5 km nakon što jutarnja gužva prođe.",
     "h2Combine": "Takođe Vrijedi Pročitati",
     "combineP": "Ako planirate fotografisati zaliv, naš vodič za najbolje",
     "combineLink": "fotografske lokacije oko Kotora",
@@ -720,28 +720,28 @@
     "glanceBoatCost": "Taksi-Čamac",
     "glanceBoatCostVal": "€5 povratna po osobi",
     "glanceBestTime": "Najbolje Vrijeme",
-    "glanceBestTimeVal": "Maj–jun ili sep–okt",
+    "glanceBestTimeVal": "Maj, jun ili sep, okt",
     "glanceDuration": "Cio Dan",
-    "glanceDurationVal": "5–7 sati sa Plavom Špiljom"
+    "glanceDurationVal": "5-7 sati sa Plavom Špiljom"
   },
   "blogLovcen": {
     "title": "Kotor do Lovćena: 25 Oštrih Krivina Iznad Zaliva",
-    "subtitle": "Serpentinski put od morske razine do Njegoševog mauzoleja na 1.657 metara — jedna od najdramatičnijih planinskih vožnji u Evropi.",
+    "subtitle": "Serpentinski put od morske razine do Njegoševog mauzoleja na 1.657 metara, jedna od najdramatičnijih planinskih vožnji u Evropi.",
     "description": "Kompletan vozački vodič za planinski put od Kotora do Lovćena. 25 oštrih krivina, Njegošev mauzolej i spust do Cetinja. Koji automobil uzeti i kada ići.",
     "h2Road": "Sam Put",
-    "roadP1": "Stari put od Kotora do vrha Lovćena sagradili su Austrougari u 19. vijeku kao vojnu snabdjevačku rutu. Penje se od zaliva na morskoj razini do ulaza u Nacionalni park Lovćen na oko 1.000 metara na svega 16 km — većinu te udaljenosti troše 25 uzastopnih oštrih krivina usječenih u padinu planine iznad grada.",
+    "roadP1": "Stari put od Kotora do vrha Lovćena sagradili su Austrougari u 19. vijeku kao vojnu snabdjevačku rutu. Penje se od zaliva na morskoj razini do ulaza u Nacionalni park Lovćen na oko 1.000 metara na svega 16 km, većinu te udaljenosti troše 25 uzastopnih oštrih krivina usječenih u padinu planine iznad grada.",
     "roadP2": "Svaka krivina je numerisana na malom kamenom označivaču. Na krivini 10 nalazite se u ravni sa kruzerima. Na krivini 17 Stari grad je crvena tačkica. Na krivini 25 iznad ste linije oblaka u oblačnim danima i čitav Bokokotorski zaliv se prostire ispod vas poput reljefne karte.",
     "h2Hairpins": "Vožnja Kroz Krivine",
-    "hairpinsP": "Put je uzak — jedna i po traka većim dijelom — i nema zaštitne ograde na mnogim spoljnim krivinama. Saobraćaj iz suprotnog smjera uključuje turističke autobuse koji zauzimaju punu širinu. Sklonite se u mimoilaznice na strani planine i propustite ih. Vozite u drugoj brzini u usponu i koristite kočenje motorom u spustu. Ako niste sigurni sa ručnim mjenjačem, rezervišite automatik — stalna promjena brzina inače zamara.",
+    "hairpinsP": "Put je uzak, jedna i po traka većim dijelom, i nema zaštitne ograde na mnogim spoljnim krivinama. Saobraćaj iz suprotnog smjera uključuje turističke autobuse koji zauzimaju punu širinu. Sklonite se u mimoilaznice na strani planine i propustite ih. Vozite u drugoj brzini u usponu i koristite kočenje motorom u spustu. Ako niste sigurni sa ručnim mjenjačem, rezervišite automatik, stalna promjena brzina inače zamara.",
     "altHairpins": "Pogled iz vazduha na lovćenski serpentinski put iznad kotorskog zaliva",
     "h2Mausoleum": "Njegošev Mauzolej",
-    "mausoleumP": "Na vrhu Jezerskog Vrha, 461 stepenica vodi od parkinga do mauzoleja koji je projektovao hrvatski vajar Ivan Meštrović, a završen je 1974. godine. Unutra, granitna statua Petra II Petrovića-Njegoša — crnogorskog pjesnika-filozofa-vladara — sjedi pod plafonom od zlatnog mozaika. Vidikovac iza mauzoleja nudi najuzvišeniju panoramu u primorskoj Crnoj Gori: vidi se Jadran, zaliv, planine Durmitora, a po vedrom danu i italijanska obala.",
+    "mausoleumP": "Na vrhu Jezerskog Vrha, 461 stepenica vodi od parkinga do mauzoleja koji je projektovao hrvatski vajar Ivan Meštrović, a završen je 1974. godine. Unutra, granitna statua Petra II Petrovića-Njegoša, crnogorskog pjesnika-filozofa-vladara, sjedi pod plafonom od zlatnog mozaika. Vidikovac iza mauzoleja nudi najuzvišeniju panoramu u primorskoj Crnoj Gori: vidi se Jadran, zaliv, planine Durmitora, a po vedrom danu i italijanska obala.",
     "h2Njegos": "Ko je Bio Njegoš?",
-    "njegosP": "Petar II Petrović-Njegoš vladao je Crnom Gorom od 1830. do 1851. i smatra se osnivačem modernog crnogorskog nacionalnog identiteta. Njegov ep 'Gorski vijenac' je najvažnije književno djelo u zemlji. Izabrao je da bude sahranjen na Lovćenu kako bi mogao nadgledati zemlju kojom je vladao. Crnogorci tretiraju mauzolej kao mjesto nacionalnog hodočašća — 461 stepenica se penje u poštovalačkoj tišini.",
+    "njegosP": "Petar II Petrović-Njegoš vladao je Crnom Gorom od 1830. do 1851. i smatra se osnivačem modernog crnogorskog nacionalnog identiteta. Njegov ep 'Gorski vijenac' je najvažnije književno djelo u zemlji. Izabrao je da bude sahranjen na Lovćenu kako bi mogao nadgledati zemlju kojom je vladao. Crnogorci tretiraju mauzolej kao mjesto nacionalnog hodočašća, 461 stepenica se penje u poštovalačkoj tišini.",
     "h2Cetinje": "Spust do Cetinja",
-    "cetinjeP": "Umjesto da se vraćate u Kotor istim putem, nastavite preko planine i spustite se do Cetinja — crnogorske kraljevske i duhovne prijestonice. Put od Lovćena do Cetinja je širi i manje zahtjevan od krivina na strani zaliva. Sam Cetinje vrijedi jednog sata: manastir čuva relikvije uključujući ono za šta se tvrdi da je desna ruka Jovana Krstitelja, a nekadašnja kraljevska palata je danas muzej crnogorske istorije.",
+    "cetinjeP": "Umjesto da se vraćate u Kotor istim putem, nastavite preko planine i spustite se do Cetinja, crnogorske kraljevske i duhovne prijestonice. Put od Lovćena do Cetinja je širi i manje zahtjevan od krivina na strani zaliva. Sam Cetinje vrijedi jednog sata: manastir čuva relikvije uključujući ono za šta se tvrdi da je desna ruka Jovana Krstitelja, a nekadašnja kraljevska palata je danas muzej crnogorske istorije.",
     "h2CarChoice": "Koji Automobil Uzeti",
-    "carChoiceP": "Bilo koji automobil se nosi sa putem po suvom — površina je asfalt cijelom dužinom. Ali kompaktno vozilo sa pristojnim obrtnim momentom čini krivine manje stresnim. Škoda Octavia ili Toyota Corolla iz naše flote su idealne. Izbjegavajte bilo šta šire od standardnog SUV-a — mimoilaznice su tijesne. Zimi (novembar do mart) gornji dijelovi mogu imati led ili snijeg; provjerite uslove prije polaska i ponesitе lance ako se savjetuje.",
+    "carChoiceP": "Bilo koji automobil se nosi sa putem po suvom, površina je asfalt cijelom dužinom. Ali kompaktno vozilo sa pristojnim obrtnim momentom čini krivine manje stresnim. Škoda Octavia ili Toyota Corolla iz naše flote su idealne. Izbjegavajte bilo šta šire od standardnog SUV-a, mimoilaznice su tijesne. Zimi (novembar do mart) gornji dijelovi mogu imati led ili snijeg; provjerite uslove prije polaska i ponesitе lance ako se savjetuje.",
     "h2Stops": "Preporučena Zaustavljanja",
     "stopViewLabel": "Vidikovac na krivini 17:",
     "stopViewVal": "Najpoznatija fotografija Kotora odozgo. Skrenite na označeni vidikovac i prošetajte 20 metara do ivice.",
@@ -752,7 +752,7 @@
     "stopCetinjeLabel": "Cetinje:",
     "stopCetinjeVal": "Stara prijestonica. Posjetite Cetinjski manastir i Muzej kralja Nikole. Popijte kafu na glavnom trgu.",
     "h2Return": "Alternativna Povratna Ruta",
-    "returnP": "Iz Cetinja uzmite put P1 na sjever kroz Rijeku Crnojevića i duž obale Skadarskog jezera. Ovo dodaje 90 minuta ali prolazi kroz potpuno drugačiji pejzaž — zelene riječne doline i jezerska močvarna područja umjesto planinskih stijena. Ako imate vremena, kombinujte ovo sa zaustavljanjem kod",
+    "returnP": "Iz Cetinja uzmite put P1 na sjever kroz Rijeku Crnojevića i duž obale Skadarskog jezera. Ovo dodaje 90 minuta ali prolazi kroz potpuno drugačiji pejzaž, zelene riječne doline i jezerska močvarna područja umjesto planinskih stijena. Ako imate vremena, kombinujte ovo sa zaustavljanjem kod",
     "returnLink": "rimskih mozaika u Risnu",
     "glanceTitle": "Ukratko",
     "glanceDistance": "Udaljenost",
@@ -760,40 +760,40 @@
     "glanceElevation": "Nadmorska Visina",
     "glanceElevationVal": "0 do 1.657 m",
     "glanceDrive": "Vrijeme Vožnje",
-    "glanceDriveVal": "40–55 min (samo uspon)",
+    "glanceDriveVal": "40-55 min (samo uspon)",
     "glanceBestCar": "Preporučeni Automobil",
     "glanceBestCarVal": "Kompaktan sa obrtnim momentom (Octavia, Corolla)"
   },
   "blogCruise": {
     "title": "Izlet sa Kruzera iz Kotorske Luke Iznajmljenim Automobilom",
-    "subtitle": "Vaš kruzer pristaje u Kotoru na 4–8 sati. Evo kako vidjeti Perast, put uz zaliv i Stari grad bez pridruživanja grupnoj turi.",
+    "subtitle": "Vaš kruzer pristaje u Kotoru na 4-8 sati. Evo kako vidjeti Perast, put uz zaliv i Stari grad bez pridruživanja grupnoj turi.",
     "description": "Planirajte samostalnu vožnju sa kruzera iz kotorske luke. Preuzimanje u luci, predložene 4-satne i 6-satne rute, i kako se vratiti prije ukrcaja.",
     "h2WhyRent": "Zašto Iznajmiti Umjesto Grupne Ture",
-    "whyRentP1": "Kotorski kruzerski terminal se nalazi direktno ispred zidina Starog grada. U prometnim danima — a mnogo ih je između maja i oktobra — četiri ili pet brodova pristane istovremeno i 10.000+ putnika preplavi grad izgrađen za 3.000. Organizovani autobuski izleti staju na istim stanicama, jedu u istim restoranima i fotografišu iste tri vidikovca.",
+    "whyRentP1": "Kotorski kruzerski terminal se nalazi direktno ispred zidina Starog grada. U prometnim danima, a mnogo ih je između maja i oktobra, četiri ili pet brodova pristane istovremeno i 10.000+ putnika preplavi grad izgrađen za 3.000. Organizovani autobuski izleti staju na istim stanicama, jedu u istim restoranima i fotografišu iste tri vidikovca.",
     "whyRentP2": "Iznajmljeni automobil vam omogućava da ostavite gužvu iza sebe u roku od pet minuta od silaska sa broda. Vi postavljate raspored, birate gdje stati i vraćate se u luku sa vremenom na pretek umjesto da nervozno gledate vodiča kako broji glave.",
     "h2Timing": "Planiranje Vremena za Izlet",
-    "timingP": "Pažljivo provjerite raspored broda. Većina kotorskih pristajanja daje 4–8 sati na kopnu sa vremenom ukrcaja 30 minuta prije odlaska. Uračunajte 45-minutni rezervu — kotorski put uz zaliv nema saobraćajnih gužvi, ali ljetnje parkiranje blizu Starog grada može oduzeti 15 minuta. Mi dostavimo automobil u područje luke i preuzmemo ga kada se vratite, tako da nema izgubljenog vremena za odlazak do poslovnice za iznajmljivanje.",
+    "timingP": "Pažljivo provjerite raspored broda. Većina kotorskih pristajanja daje 4-8 sati na kopnu sa vremenom ukrcaja 30 minuta prije odlaska. Uračunajte 45-minutni rezervu, kotorski put uz zaliv nema saobraćajnih gužvi, ali ljetnje parkiranje blizu Starog grada može oduzeti 15 minuta. Mi dostavimo automobil u područje luke i preuzmemo ga kada se vratite, tako da nema izgubljenog vremena za odlazak do poslovnice za iznajmljivanje.",
     "h2Route4": "Ruta od 4 Sata: Najljepše na Zalivu",
-    "route4P": "Ako vaš brod dopušta 4 sata na kopnu, fokusirajte se na put uz zaliv između Kotora i Perasta — dionica od 12 km koja sadrži najviše pejzaža po kilometru od bilo kog puta u Crnoj Gori.",
-    "r4Stop1Label": "Stanica 1 — Perast (45 min):",
+    "route4P": "Ako vaš brod dopušta 4 sata na kopnu, fokusirajte se na put uz zaliv između Kotora i Perasta, dionica od 12 km koja sadrži najviše pejzaža po kilometru od bilo kog puta u Crnoj Gori.",
+    "r4Stop1Label": "Stanica 1, Perast (45 min):",
     "r4Stop1Val": "Parkirajte na sjevernom parkingu, prošetajte uz obalne palate, uzmite taksi-čamac do Gospe od Škrpjela (€5 povratno, 15 min u jednom pravcu).",
-    "r4Stop2Label": "Stanica 2 — Vidikovci na zalivu (20 min):",
+    "r4Stop2Label": "Stanica 2, Vidikovci na zalivu (20 min):",
     "r4Stop2Val": "Na povratku, skrenite na označeni vidikovac iznad Dobrote. Ovo je klasičan razglednički ugao Kotora odozgo.",
-    "r4Stop3Label": "Stanica 3 — Kotorski Stari Grad (90 min):",
+    "r4Stop3Label": "Stanica 3, Kotorski Stari Grad (90 min):",
     "r4Stop3Val": "Vratite automobil blizu luke, zatim uđite u Stari grad. Trg od Oružja, Katedrala Sv. Tripuna i brza kafa prije ukrcaja.",
     "altPerast": "Pogled na Perast i zaliv sa obalnog puta",
     "h2Route6": "Ruta od 6 Sati: Zaliv + Planine",
-    "route6P": "Sa 6 sati možete dodati lovćenski serpentinski put — ali samo donji dio, osim ako ne želite da žurite. Pametnija alternativa je vožnja kroz Vrmački tunel do Tivta i povratak duž spoljnje strane zaliva.",
-    "r6Stop1Label": "Stanica 1 — Perast + Gospa od Škrpjela (60 min):",
-    "r6Stop1Val": "Isto kao 4-satna ruta — ostrvo je neizostavljivo.",
-    "r6Stop2Label": "Stanica 2 — Risanski mozaici (30 min):",
+    "route6P": "Sa 6 sati možete dodati lovćenski serpentinski put, ali samo donji dio, osim ako ne želite da žurite. Pametnija alternativa je vožnja kroz Vrmački tunel do Tivta i povratak duž spoljnje strane zaliva.",
+    "r6Stop1Label": "Stanica 1, Perast + Gospa od Škrpjela (60 min):",
+    "r6Stop1Val": "Isto kao 4-satna ruta, ostrvo je neizostavljivo.",
+    "r6Stop2Label": "Stanica 2, Risanski mozaici (30 min):",
     "r6Stop2Val": "Nastavite iza Perasta do Risna. Rimska vila sa mozaikom Hipnosa je 5-minutno skretanje sa puta uz zaliv.",
-    "r6Stop3Label": "Stanica 3 — Tivat preko Vrmačkog tunela (20 min):",
+    "r6Stop3Label": "Stanica 3, Tivat preko Vrmačkog tunela (20 min):",
     "r6Stop3Val": "Provezite se kroz tunel do Porto Crne Gore za brzu šetnju obalom među superjаhtama.",
-    "r6Stop4Label": "Stanica 4 — Povratak obalnim putem (30 min):",
+    "r6Stop4Label": "Stanica 4, Povratak obalnim putem (30 min):",
     "r6Stop4Val": "Napravite krug nazad u Kotor duž istočne obale zaliva. Drugačiji pogledi, manje saobraćaja.",
     "h2Pickup": "Preuzimanje u Luci",
-    "pickupP": "Donosimo automobil do vas u području kruzerskog terminala i preuzimamo ga kada se vratite. Bez transfera, bez troškova taksija, bez izgubljenih minuta. Rezervišite unaprijed i potvrdite vrijeme pristajanja vašeg broda — mi pratimo lučki raspored i prilagodimo se ako vaš dolazak kasni.",
+    "pickupP": "Donosimo automobil do vas u području kruzerskog terminala i preuzimamo ga kada se vratite. Bez transfera, bez troškova taksija, bez izgubljenih minuta. Rezervišite unaprijed i potvrdite vrijeme pristajanja vašeg broda, mi pratimo lučki raspored i prilagodimo se ako vaš dolazak kasni.",
     "h2Back": "Povratak na Brod",
     "backP": "Zlatno pravilo: budite nazad kod automobila 90 minuta prije ukrcaja. Ovo vam daje vremena za vraćanje vozila, šetnju do terminala i prolazak kontrole bez stresa. Ako želite da kombinujete izlet sa vožnjom brodom po zalivu, pročitajte naš vodič o",
     "backLink": "kombinovanju automobila i broda po zalivu",
@@ -801,7 +801,7 @@
     "glancePickup": "Preuzimanje",
     "glancePickupVal": "Dostava do kruzerske luke",
     "glanceWindow": "Vrijeme na Kopnu",
-    "glanceWindowVal": "Obično 4–8 sati",
+    "glanceWindowVal": "Obično 4-8 sati",
     "glanceReturn": "Rezerva za Povratak",
     "glanceReturnVal": "90 min prije ukrcaja",
     "glanceTip": "Savjet",
@@ -812,10 +812,10 @@
     "subtitle": "Poznati kotorski mačji stanovnici imaju sopstveni muzej, posvećene prodavnice i omiljena mjesta za drijemanje. Prošetajte njihovom teritorijom kroz srednjovjekovne ulice Starog grada.",
     "description": "Pratite kotorske mačke na samostalnom pješačkom obilasku kroz Stari grad. Posjetite Muzej mačaka, pronađite najbolje lokacije za uočavanje mačaka i saznajte istoriju iza poznate kotorske mačje populacije.",
     "h2History": "Kako je Kotor Postao Mačji Grad",
-    "historyP1": "Kotorski odnos sa mačkama seže vijekovima unazad. Kada su brodovi stizali iz Venecije, Egipta i Levanta, mačke su dolazile sa njima — slijepi putnici koji su zarađivali prevoz čuvajući zalihe žita od pacova. Uske kamene ulice Starog grada ispostavile su se kao savršena mačja teritorija: tople zimi, zasjenjene ljeti, sa zidovima za penjanje i ostacima ribe iz luke.",
-    "historyP2": "Danas mačju populaciju održava mreža lokalnih volontera koji organizuju programe sterilizacije, veterinarsku njegu i stanice za hranjenje diskretno postavljene širom grada. Mačke nisu lutalice u zanemarenom smislu — one su upravljana kolonija koja je postala neodvojiva od kotorskog identiteta.",
+    "historyP1": "Kotorski odnos sa mačkama seže vijekovima unazad. Kada su brodovi stizali iz Venecije, Egipta i Levanta, mačke su dolazile sa njima, slijepi putnici koji su zarađivali prevoz čuvajući zalihe žita od pacova. Uske kamene ulice Starog grada ispostavile su se kao savršena mačja teritorija: tople zimi, zasjenjene ljeti, sa zidovima za penjanje i ostacima ribe iz luke.",
+    "historyP2": "Danas mačju populaciju održava mreža lokalnih volontera koji organizuju programe sterilizacije, veterinarsku njegu i stanice za hranjenje diskretno postavljene širom grada. Mačke nisu lutalice u zanemarenom smislu, one su upravljana kolonija koja je postala neodvojiva od kotorskog identiteta.",
     "h2Museum": "Muzej Mačaka",
-    "museumP": "Sakriven u bočnoj ulici blizu Trga od Salate, Muzej mačaka (Muzej Mačaka) je jednosobna kolekcija umjetnosti, razglednica, postera i fotografija na temu mačaka koja obuhvata nekoliko vijekova. Ulaz je nekoliko eura, a prihod finansira lokalni program za zaštitu mačaka. Sam muzej je mali — 10 minuta je dovoljno — ali dvorište ispred je jedno od najboljih mjesta u Starom gradu za upoznavanje stanovnika uživo.",
+    "museumP": "Sakriven u bočnoj ulici blizu Trga od Salate, Muzej mačaka (Muzej Mačaka) je jednosobna kolekcija umjetnosti, razglednica, postera i fotografija na temu mačaka koja obuhvata nekoliko vijekova. Ulaz je nekoliko eura, a prihod finansira lokalni program za zaštitu mačaka. Sam muzej je mali, 10 minuta je dovoljno, ali dvorište ispred je jedno od najboljih mjesta u Starom gradu za upoznavanje stanovnika uživo.",
     "altAlley": "Mačka sjedi na kamenom zidu u ulici kotorskog Starog grada",
     "h2Spots": "Najbolje Lokacije za Uočavanje Mačaka",
     "h3Flour": "Trg od Brašna",
@@ -827,10 +827,10 @@
     "h3Bastion": "Bastion kod Rijeke",
     "bastionP": "Mirniji sjeverozapadni ugao Starog grada, gdje se zidine susreću sa kanalom rijeke Škurde, dom je nezavisnijih mačaka. Manje prolaznika, više hlada i zvuk tekuće vode.",
     "h2Shop": "Kupovina na Temu Mačaka",
-    "shopP": "Nekoliko prodavnica u Starom gradu prodaje robu na temu mačaka — od ručno oslikane keramike i akvarela do vezenih torbica. Tražite studije duž ulice između Katedrale Sv. Tripuna i Sjeverne kapije. Dio prihoda nekih prodavnica ide direktno u fond za zaštitu mačaka.",
+    "shopP": "Nekoliko prodavnica u Starom gradu prodaje robu na temu mačaka, od ručno oslikane keramike i akvarela do vezenih torbica. Tražite studije duž ulice između Katedrale Sv. Tripuna i Sjeverne kapije. Dio prihoda nekih prodavnica ide direktno u fond za zaštitu mačaka.",
     "h2Etiquette": "Mačji Bonton",
     "etiq1": "Ne dizajtе i ne jurite mačke. One će vam prići ako im se hoće.",
-    "etiq2": "Ne hraniте ih ljudskom hranom — stanice za hranjenje obezbjeđuju odgovarajuću ishranu.",
+    "etiq2": "Ne hraniте ih ljudskom hranom, stanice za hranjenje obezbjeđuju odgovarajuću ishranu.",
     "etiq3": "Fotografišite s poštovanjem. Bez blica, i ne uznemiravajte mačke koje spavaju radi boljeg kadra.",
     "etiq4": "Ako primijetite mačku koja djeluje povrijeđeno ili bolesno, javite bilo kom vlasniku prodavnice duž glavne ulice. Oni znaju koga kontaktirati.",
     "h2Combine": "Kombinujte Sa",
@@ -842,21 +842,21 @@
     "subtitle": "Starogradske konobe, morski plodovi na obali, vinarski barovi u Dobroti i kasnonoćna mjesta koja nastavljaju sa radom i nakon odlaska kruzera.",
     "description": "Lokalni vodič za kotorsku gastronomiju i noćni život. Gdje jesti morske plodove, koje konobe poslužuju najbolju crnogorsku kuhinju i gdje piti duž zaliva poslije mraka.",
     "h2Scene": "Kotorska Gastronomska Scena",
-    "sceneP1": "Kotorska gastronomska scena se uredno dijeli na dva svijeta. Unutar zidina Starog grada, vjekovima stare konobe poslužuju crnogorske i dalmatinske klasike — grilovanu ribu, crni rižoto, jagnjetinu ispod sača i salate začinjene maslinovim uljem sa brda iznad Dobrote. Van zidina, obala između Kotora i Dobrote je prerasla u moderniju traku restorana sa morskim plodovima i koktejl barova.",
-    "sceneP2": "Najbolji pristup je jesti unutar zidina a piti van njih. Starogradski restorani zatvaraju rano — većina kuhinja prestaje sa posluživanjem do 22:30. Barovi na obali rade duže, a ljeti terase rade do daleko iza ponoći.",
+    "sceneP1": "Kotorska gastronomska scena se uredno dijeli na dva svijeta. Unutar zidina Starog grada, vjekovima stare konobe poslužuju crnogorske i dalmatinske klasike, grilovanu ribu, crni rižoto, jagnjetinu ispod sača i salate začinjene maslinovim uljem sa brda iznad Dobrote. Van zidina, obala između Kotora i Dobrote je prerasla u moderniju traku restorana sa morskim plodovima i koktejl barova.",
+    "sceneP2": "Najbolji pristup je jesti unutar zidina a piti van njih. Starogradski restorani zatvaraju rano, većina kuhinja prestaje sa posluživanjem do 22:30. Barovi na obali rade duže, a ljeti terase rade do daleko iza ponoći.",
     "h2OldTown": "Unutar Starog Grada",
-    "oldTownP": "Starogradska ponuda hrane se grupiše oko tri trga: Trg od Oružja (glavni trg), Trg od Salate i manji trgovi iza Katedrale Sv. Tripuna. Izbjegavajte restorane sa slikovnim menijima i pozivačima ispred — oni se prilagodjavaju kruzerskim putnicima i cijene u skladu s tim. Umjesto toga, tražite mjesta gdje je meni napisan rukom na tabli i stolovi su skriveni u mirnoj ulici. To su konobe u kojima mještani zapravo jedu.",
+    "oldTownP": "Starogradska ponuda hrane se grupiše oko tri trga: Trg od Oružja (glavni trg), Trg od Salate i manji trgovi iza Katedrale Sv. Tripuna. Izbjegavajte restorane sa slikovnim menijima i pozivačima ispred, oni se prilagodjavaju kruzerskim putnicima i cijene u skladu s tim. Umjesto toga, tražite mjesta gdje je meni napisan rukom na tabli i stolovi su skriveni u mirnoj ulici. To su konobe u kojima mještani zapravo jedu.",
     "h2Seafood": "Morski Plodovi Koje Vrijedi Naručiti",
-    "seafoodP": "Zaliv daje odlične sitne ribe — sardine, inćune i skuše — grilovane jednostavno sa limunom i poslužene cijele. Lignje su ovdje izvanredne, bilo grilovane, punjene ili poslužene kao salata sa kaparima i maslinovim uljem. Crni rižoto od sipe je crnogorski obalni klasik i pojavljuje se na gotovo svakom meniju. Za poseban obrok, pitajte za ulov dana — obično orada ili brancin po cijeni za kilogram.",
+    "seafoodP": "Zaliv daje odlične sitne ribe, sardine, inćune i skuše, grilovane jednostavno sa limunom i poslužene cijele. Lignje su ovdje izvanredne, bilo grilovane, punjene ili poslužene kao salata sa kaparima i maslinovim uljem. Crni rižoto od sipe je crnogorski obalni klasik i pojavljuje se na gotovo svakom meniju. Za poseban obrok, pitajte za ulov dana, obično orada ili brancin po cijeni za kilogram.",
     "altSeafood": "Grilovana riba i morski plodovi na stolu uz obalu u Kotoru",
     "h2Dobrota": "Obala Dobrote",
     "dobrotaP": "Na 10 minuta vožnje (ili 25 minuta pješice) sjeverno od Starog grada, obala Dobrote je postala najzanimljivija gastronomska dionica Kotora. Kamene kuće pretvorene u vinarske barove i male restorane nižu se duž šetnice. Atmosfera je tiša od Starog grada, a pogledi preko zaliva ka planinama su neprekinuti. Ovdje kotorski stanovnici idu kada žele dobro jesti bez turista.",
     "h2Bars": "Barovi i Vino",
-    "barsP": "Crnogorsko vino je potcijenjeno. Tražite boce iz Plantaža — državna vinarija proizvodi solidan Vranac crveni i svjež Krstač bijeli. Manji proizvođači iz Crmničke doline oko Skadarskog jezera su teže za naći ali vrijedi pitati za njih. Nekoliko vinarskih barova u Starom gradu toči po čaši i nudi daske za degustaciju u paru sa njeguški pršutom i domaćim sirom.",
+    "barsP": "Crnogorsko vino je potcijenjeno. Tražite boce iz Plantaža, državna vinarija proizvodi solidan Vranac crveni i svjež Krstač bijeli. Manji proizvođači iz Crmničke doline oko Skadarskog jezera su teže za naći ali vrijedi pitati za njih. Nekoliko vinarskih barova u Starom gradu toči po čaši i nudi daske za degustaciju u paru sa njeguški pršutom i domaćim sirom.",
     "h2Late": "Kasna Noć",
-    "lateP": "Kotorski kasnonoćni život je koncentrisan na dva mjesta. Unutar zidina, šaka barova u ulicama blizu Sjeverne kapije radi do 2h sa živom muzikom vikendom. Van zidina, dionica između glavne lučke kapije i Hotela Rivijera ima koktejl barove i klub-dva koji rade do iza 3h ljeti. Atmosfera je opuštena po svim standardima — ovo nije Budva.",
+    "lateP": "Kotorski kasnonoćni život je koncentrisan na dva mjesta. Unutar zidina, šaka barova u ulicama blizu Sjeverne kapije radi do 2h sa živom muzikom vikendom. Van zidina, dionica između glavne lučke kapije i Hotela Rivijera ima koktejl barove i klub-dva koji rade do iza 3h ljeti. Atmosfera je opuštena po svim standardima, ovo nije Budva.",
     "h2Drive": "Vožnja Nazad",
-    "driveP": "Ako boravite van Kotora — u Dobroti, Prčanju ili preko zaliva — iznajmljeni automobil je neophodan za kasne večere. Nema javnog prevoza poslije mraka, a taksija je malo. Parkirajte na parkingu van zidina Starog grada (besplatno poslije 20h u većini sezona) i uđite pješice. Ako posjećujete zimi, naš vodič pokriva",
+    "driveP": "Ako boravite van Kotora, u Dobroti, Prčanju ili preko zaliva, iznajmljeni automobil je neophodan za kasne večere. Nema javnog prevoza poslije mraka, a taksija je malo. Parkirajte na parkingu van zidina Starog grada (besplatno poslije 20h u većini sezona) i uđite pješice. Ako posjećujete zimi, naš vodič pokriva",
     "driveLink": "gastronomiju van sezone i šta se mijenja",
     "h2Tips": "Savjeti za Večeru",
     "tipBookLabel": "Rezervacije:",
@@ -873,50 +873,50 @@
     "subtitle": "Manje gužve, niže cijene i zaliv u najatmosferskijem izdanju. Zašto bi novembar do mart mogao biti najbolje vrijeme za posjet Kotoru.",
     "description": "Kompletan vodič za posjet Kotoru zimi. Šta očekivati od vremena, koje atrakcije ostaju otvorene, zimski uslovi za vožnju i zašto van-sezonski period ima svoju posebnu čaroliju.",
     "h2Why": "Zašto Posjetiti Kotor Zimi",
-    "whyP1": "Između novembra i marta kruzeri prestaju dolaziti. Stari grad se isprazni. Uske ulice koje ljeti djeluju kao špic stiskavice postaju dovoljno mirne da čujete vlastite korake kako odjekuju od kamena. Zaliv, više ne posut turističkim čamcima, poprima duboku čeličnosivu boju koja preslikava planine iznad. Ova verzija Kotora — ona koja pripada 13.000 ljudi koji zapravo žive ovdje — ima kvalitet koji ljeto ne može ponoviti.",
-    "whyP2": "Cijene značajno padaju. Hoteli koji naplaćuju €180 po noći u julu prodaju istu sobu za €60 u januaru. Iznajmljivanje automobila prati isti obrazac. Restorani koji su bili puni tri mjeseca ranije sada rado dočekuju goste bez rezervacije sa iskrenim entuzijazmom. Zimski posjetioci dobijaju više Kotora za manje novca, a kompromis — kraći dani i povremena kiša — je onaj koji većina putnika smatra potpuno prihvatljivim.",
+    "whyP1": "Između novembra i marta kruzeri prestaju dolaziti. Stari grad se isprazni. Uske ulice koje ljeti djeluju kao špic stiskavice postaju dovoljno mirne da čujete vlastite korake kako odjekuju od kamena. Zaliv, više ne posut turističkim čamcima, poprima duboku čeličnosivu boju koja preslikava planine iznad. Ova verzija Kotora, ona koja pripada 13.000 ljudi koji zapravo žive ovdje, ima kvalitet koji ljeto ne može ponoviti.",
+    "whyP2": "Cijene značajno padaju. Hoteli koji naplaćuju €180 po noći u julu prodaju istu sobu za €60 u januaru. Iznajmljivanje automobila prati isti obrazac. Restorani koji su bili puni tri mjeseca ranije sada rado dočekuju goste bez rezervacije sa iskrenim entuzijazmom. Zimski posjetioci dobijaju više Kotora za manje novca, a kompromis, kraći dani i povremena kiša, je onaj koji većina putnika smatra potpuno prihvatljivim.",
     "h2Weather": "Kakvo je Vrijeme",
-    "weatherP": "Kotorska zimska klima je blaga po standardima centralne Evrope. Dnevne temperature se kreću između 8°C i 14°C od novembra do februara. Kiša je glavna odlika — Kotor je jedno od najvlažnijih mjesta u Evropi, a većina te kiše pada između oktobra i marta. Kada ovdje pada kiša, pada jako. Ali oluje brzo prođu, i uobičajeno je da pokislo jutro prati popodne sa plavim nebom i zimskim suncem koje se odbija od zaliva.",
+    "weatherP": "Kotorska zimska klima je blaga po standardima centralne Evrope. Dnevne temperature se kreću između 8°C i 14°C od novembra do februara. Kiša je glavna odlika, Kotor je jedno od najvlažnijih mjesta u Evropi, a većina te kiše pada između oktobra i marta. Kada ovdje pada kiša, pada jako. Ali oluje brzo prođu, i uobičajeno je da pokislo jutro prati popodne sa plavim nebom i zimskim suncem koje se odbija od zaliva.",
     "h2Driving": "Zimski Uslovi za Vožnju",
-    "drivingP": "Put uz zaliv između Kotora, Perasta i Tivta je na morskoj razini i nikada nema leda ni snijega. Put do Lovćena je, međutim, sasvim druga priča — gornje krivine mogu biti pokrivene snijegom od decembra do marta i planinski put može biti potpuno zatvoren tokom obilnih snježnih padavina. Vrmački tunel do Tivta nije pogođen vremenskim prilikama. Ako planirate voziti do Cetinja ili unutrašnjosti Crne Gore zimi, ponesitе lance za snijeg i provjerite stanje puteva kod agenta za iznajmljivanje prije polaska.",
+    "drivingP": "Put uz zaliv između Kotora, Perasta i Tivta je na morskoj razini i nikada nema leda ni snijega. Put do Lovćena je, međutim, sasvim druga priča, gornje krivine mogu biti pokrivene snijegom od decembra do marta i planinski put može biti potpuno zatvoren tokom obilnih snježnih padavina. Vrmački tunel do Tivta nije pogođen vremenskim prilikama. Ako planirate voziti do Cetinja ili unutrašnjosti Crne Gore zimi, ponesitе lance za snijeg i provjerite stanje puteva kod agenta za iznajmljivanje prije polaska.",
     "altBayWinter": "Bokokotorski zaliv maglovitog zimskog jutra sa planinama u pozadini",
     "h2Things": "Šta Raditi",
     "h3Walls": "Uspon na Tvrđavske Zidine",
-    "wallsP": "Staza ka tvrđavi je otvorena tokom čitave godine i besplatna od novembra do marta. Bez ljetnje vrućine i redova, uspon je potpuno drugačiji doživljaj — svježiji, tiši, i često praćen niskim oblacima koji se dramatično razilaze da otkriju zaliv ispod.",
+    "wallsP": "Staza ka tvrđavi je otvorena tokom čitave godine i besplatna od novembra do marta. Bez ljetnje vrućine i redova, uspon je potpuno drugačiji doživljaj, svježiji, tiši, i često praćen niskim oblacima koji se dramatično razilaze da otkriju zaliv ispod.",
     "h3Markets": "Božićni i Novogodišnji Marketi",
     "marketsP": "Kotorski zimski market se održava od sredine decembra do početka januara na glavnim starogradskim trgovima. Lokalne tezge sa hranom prodaju pečene kestene, fritule (pržena tijesta u obliku loptica) i kuvano vino. Malо klizalište se pojavi nekih godina. Atmosfera je praznična ali ne prenatrpana.",
     "h3Carnival": "Kotorski Karneval (februar)",
-    "carnivalP": "Kotorski zimski karneval je jedan od najstarijih na Mediteranu, star preko 500 godina. Održava se u februaru i ispunjava Stari grad maskiranim procesijama, živom muzikom, satiričnim alegorijskim kolima i opštom atmosferom organizovanog haosa. Ako se desi da posjećujete tokom karnevalske nedjelje, rezervišite smještaj rano — to je jedini zimski događaj koji ispuni grad.",
+    "carnivalP": "Kotorski zimski karneval je jedan od najstarijih na Mediteranu, star preko 500 godina. Održava se u februaru i ispunjava Stari grad maskiranim procesijama, živom muzikom, satiričnim alegorijskim kolima i opštom atmosferom organizovanog haosa. Ako se desi da posjećujete tokom karnevalske nedjelje, rezervišite smještaj rano, to je jedini zimski događaj koji ispuni grad.",
     "h3DayTrips": "Zimski Jednodnevni Izleti",
     "dayTripsP": "Put uz zaliv do Perasta i Risna je lijep pod zimskim svjetlom. Cetinje, crnogorska stara kraljevska prijestonica, je na 45 minuta vožnje preko Lovćena (ako vrijeme dopušta) ili dužom rutom preko Budve. Manastir Ostrog, usječen u liticu dva sata na sjever, posebno je atmosferičan zimi kada snijeg pospe okolne planine.",
     "h2Prices": "Cijene van Sezone",
-    "pricesP": "Cijene iznajmljivanja automobila padaju za 30–50% između novembra i marta. Kompaktni automobil koji košta €35/dan u julu može biti €18/dan u januaru. Hoteli prate sličan obrazac. Restorani često nude redukovane menije ali kvalitet ostaje visok — zapravo, neki mještani tvrde da je hrana bolja zimi jer kuhari imaju vremena da kuvaju kako treba umjesto da žure kroz promete.",
+    "pricesP": "Cijene iznajmljivanja automobila padaju za 30-50% između novembra i marta. Kompaktni automobil koji košta €35/dan u julu može biti €18/dan u januaru. Hoteli prate sličan obrazac. Restorani često nude redukovane menije ali kvalitet ostaje visok, zapravo, neki mještani tvrde da je hrana bolja zimi jer kuhari imaju vremena da kuvaju kako treba umjesto da žure kroz promete.",
     "h2Packing": "Šta Spakovati",
-    "pack1": "Vodootpornu jaknu — ne kišobran. Kotorski vjetar čini kišobrane beskorisnim tokom oluja.",
+    "pack1": "Vodootpornu jaknu, ne kišobran. Kotorski vjetar čini kišobrane beskorisnim tokom oluja.",
     "pack2": "Slojeve. Jutra su hladna, popodneva mogu biti iznenađujuće topla kada sunce probije.",
     "pack3": "Udobne vodootporne cipele. Kamene ulice Starog grada postaju klizave kada su mokre.",
-    "pack4": "Toplu kapu za uspon na tvrđavu — vjetar na vrhu prodire kroz sve.",
+    "pack4": "Toplu kapu za uspon na tvrđavu, vjetar na vrhu prodire kroz sve.",
     "pack5": "Solidan apetit. Zima je sezona za tešku crnogorsku tradicionalnu hranu: jagnjetinu, čorbe i roštilj.",
     "h2Also": "Takođe Pročitajte",
     "alsoP": "Ako vrijeme dopusti i put je otvoren, zimska vožnja do vrha Lovćena je izvanredna. Pročitajte naš vodič za",
-    "alsoLink": "planinski put Kotor–Lovćen"
+    "alsoLink": "planinski put Kotor, Lovćen"
   },
   "blogRisan": {
     "title": "Rimski Mozaici Risna: Zaboravljena Stanica na Zalivu",
-    "subtitle": "Dvadeset minuta vožnje od Kotora do jednog od najzanemarenijih arheoloških lokaliteta na Jadranu — mozaici na podu iz drugog vijeka u mirnom gradiću na zalivu.",
+    "subtitle": "Dvadeset minuta vožnje od Kotora do jednog od najzanemarenijih arheoloških lokaliteta na Jadranu, mozaici na podu iz drugog vijeka u mirnom gradiću na zalivu.",
     "description": "Posjetite rimske mozaike Risna, skriveni arheološki lokalitet na Bokokotorskom zalivu. Kako stići, šta vidjeti i zašto je mozaik Hipnosa vrijedan skretanja.",
     "h2Forgotten": "Zaboravljeni Grad na Zalivu",
-    "forgottenP1": "Svi koji posjete Bokokotorski zaliv vide Kotor i Perast. Gotovo niko ne stane u Risnu. Ovo je greška. Risan je najstarije naselje na zalivu — starije od Kotora, starije od bilo kog grada na crnogorskoj obali — i sadrži jedan od najljepših rimskih mozaičkih podova na istočnom Jadranu.",
+    "forgottenP1": "Svi koji posjete Bokokotorski zaliv vide Kotor i Perast. Gotovo niko ne stane u Risnu. Ovo je greška. Risan je najstarije naselje na zalivu, starije od Kotora, starije od bilo kog grada na crnogorskoj obali, i sadrži jedan od najljepših rimskih mozaičkih podova na istočnom Jadranu.",
     "forgottenP2": "Grad se nalazi na najdubljem dijelu sjevernog kraka zaliva, gdje se planine tijesno primaknu vodi i put vijuga kroz mirno naselje kamenih kuća, smokava i obale koja se nije mnogo promijenila decenijama. Nema marine, nema luksuznog hotela, nema gužvi. Risan pripada ljudima koji tu žive i onim rijetkim putnicima koji znaju da stanu.",
     "h2Mosaics": "Mozaici",
-    "mosaicsP": "Otkopani početkom 20. vijeka, mozaici su pod rimske vile iz 2. vijeka nove ere. Centralni motiv je prikaz Hipnosa — grčkog boga sna — kako leži sa granom maka. To je jedini poznati prikaz Hipnosa u mozaičkom obliku na svijetu. Boje su i dalje žive: zemljane crvene, duboke plave, kredne bijele. Ostale sobe vile sadrže geometrijske uzorke i cvjetne dizajne. Čitav lokalitet je pokriven zaštitnim krovom i može se obići za 20–30 minuta.",
+    "mosaicsP": "Otkopani početkom 20. vijeka, mozaici su pod rimske vile iz 2. vijeka nove ere. Centralni motiv je prikaz Hipnosa, grčkog boga sna, kako leži sa granom maka. To je jedini poznati prikaz Hipnosa u mozaičkom obliku na svijetu. Boje su i dalje žive: zemljane crvene, duboke plave, kredne bijele. Ostale sobe vile sadrže geometrijske uzorke i cvjetne dizajne. Čitav lokalitet je pokriven zaštitnim krovom i može se obići za 20-30 minuta.",
     "altHypnos": "Mozaik Hipnosa u rimskoj vili u Risnu",
     "h2Drive": "Kako Stići",
-    "driveP": "Iz Kotora pratite put uz zaliv prema sjeverozapadu kroz Perast i nastavite još 5 km. Risan je označen. Rimska vila je obilježena malim smeđim znakom kulturne baštine na glavnom putu — lako ga je propustiti ako ne gledate pažljivo. Parkirajte na obali (besplatno) i prošetajte 100 metara u unutrašnjost. Ukupna vožnja od Kotora traje 20 minuta bez zaustavljanja, 35 minuta ako se zaustavite na peraškim vidikovcima usput.",
+    "driveP": "Iz Kotora pratite put uz zaliv prema sjeverozapadu kroz Perast i nastavite još 5 km. Risan je označen. Rimska vila je obilježena malim smeđim znakom kulturne baštine na glavnom putu, lako ga je propustiti ako ne gledate pažljivo. Parkirajte na obali (besplatno) i prošetajte 100 metara u unutrašnjost. Ukupna vožnja od Kotora traje 20 minuta bez zaustavljanja, 35 minuta ako se zaustavite na peraškim vidikovcima usput.",
     "h2Town": "Istraživanje Risna",
-    "townP": "Izvan mozaika, Risan nagrađuje laganu šetnju. Obalna šetnica je oivičena platanama i ima klupe okrenute preko zaliva ka planskom zidu naspram. Crkva Sv. Petra i Pavla datira iz 1601. godine. Šaka prodavnica prodaje lokalni med, maslinovo ulje i suve smokve. Tempo života je ovdje primjetno sporiji nego bilo gdje drugo na zalivu — a upravo je to poenta.",
+    "townP": "Izvan mozaika, Risan nagrađuje laganu šetnju. Obalna šetnica je oivičena platanama i ima klupe okrenute preko zaliva ka planskom zidu naspram. Crkva Sv. Petra i Pavla datira iz 1601. godine. Šaka prodavnica prodaje lokalni med, maslinovo ulje i suve smokve. Tempo života je ovdje primjetno sporiji nego bilo gdje drugo na zalivu, a upravo je to poenta.",
     "h2Lunch": "Gdje Jesti",
-    "lunchP": "Risan ima dva-tri restorana na obali koji poslužuju grilovanu ribu i crnogorske salate po cijenama znatno nižim od Kotora ili Perasta. Porcije su veće, riba je jednako svježa i vjerovatno ćete biti jedini turista u lokalu. Ovo nije kulinarsko odredište — ovo je pošten ručak u mirnom gradu, a to je ponekad upravo ono što dan vožnje zahtijeva.",
+    "lunchP": "Risan ima dva-tri restorana na obali koji poslužuju grilovanu ribu i crnogorske salate po cijenama znatno nižim od Kotora ili Perasta. Porcije su veće, riba je jednako svježa i vjerovatno ćete biti jedini turista u lokalu. Ovo nije kulinarsko odredište, ovo je pošten ručak u mirnom gradu, a to je ponekad upravo ono što dan vožnje zahtijeva.",
     "h2Continue": "Nastavak Putovanja",
     "continueP": "Iz Risna možete nastaviti duž sjeverne obale zaliva do Herceg Novog (40 min) ili napraviti krug nazad do Perasta i Kotora. Dionica od Risna do Perasta je jedna od najslikovitijih na čitavom putu uz zaliv, sa vodom lijevo i kamenim selima koja se drže padine desno. Za više o zaljevskom gradu Perastu, pogledajte naš vodič za destinaciju",
     "continueLink": "Perast",
@@ -932,32 +932,32 @@
   },
   "blogPhoto": {
     "title": "9 Najboljih Fotografskih Lokacija oko Bokokotorskog Zaliva",
-    "subtitle": "Od vrha tvrđave do Veriških tjesnaca — kadrovi zbog kojih se fotografi vraćaju na ovaj zaliv iz godine u godinu.",
+    "subtitle": "Od vrha tvrđave do Veriških tjesnaca, kadrovi zbog kojih se fotografi vraćaju na ovaj zaliv iz godine u godinu.",
     "description": "Vodič za fotografe po Bokokotorskom zalivu. 9 lokacija sa detaljima pristupa, najboljim uslovima osvjetljenja i preporučenom žižnom daljinom za svaku tačku.",
     "h2Intro": "Fotografisanje Zaliva",
-    "introP": "Bokokotorski zaliv je jedno od najfotogeničnijih mjesta u Evropi. Kombinacija vertikalnih planina, ogledalo-mirne vode, srednjovjekovne arhitekture i mediteranskog svjetla stvara uslove koji funkcionišu u svakom satu dana. Ovih devet lokacija su one koje dosljedno daju najsnažnije fotografije — svaka dostupna automobilom i nijedna ne zahtijeva više od kratke šetnje od puta.",
+    "introP": "Bokokotorski zaliv je jedno od najfotogeničnijih mjesta u Evropi. Kombinacija vertikalnih planina, ogledalo-mirne vode, srednjovjekovne arhitekture i mediteranskog svjetla stvara uslove koji funkcionišu u svakom satu dana. Ovih devet lokacija su one koje dosljedno daju najsnažnije fotografije, svaka dostupna automobilom i nijedna ne zahtijeva više od kratke šetnje od puta.",
     "h2Spot1": "1. Vrh Tvrđave San Đovani",
-    "spot1P": "Klasičan kadar odozgo na kotorski Stari grad sa zalivom koji vijuga iza njega. Najbolji u zoru kada je grad u toplom svjetlu a voda još mirna. Uspon od 1.350 stepenika traje 45–75 minuta. Koristite širokougaoni objektiv za hvatanje punog zaokreta — sve šire od 24mm dobro radi. Pogled gleda otprilike na jugoistok, pa je jutarnje svjetlo idealno.",
-    "h2Spot2": "2. Krivina 17 — Put na Lovćen",
+    "spot1P": "Klasičan kadar odozgo na kotorski Stari grad sa zalivom koji vijuga iza njega. Najbolji u zoru kada je grad u toplom svjetlu a voda još mirna. Uspon od 1.350 stepenika traje 45-75 minuta. Koristite širokougaoni objektiv za hvatanje punog zaokreta, sve šire od 24mm dobro radi. Pogled gleda otprilike na jugoistok, pa je jutarnje svjetlo idealno.",
+    "h2Spot2": "2. Krivina 17, Put na Lovćen",
     "spot2P": "Poznata aero-perspektiva Kotora sa serpentinskog puta prema Lovćenu. Na krivini 17 proširenje pruža uzvišeni ugao koji se pojavio u svakom putopisnom časopisu koji pokriva Crnu Goru. Stari grad izgleda kao trougao crvenih krovova koji strši u plavu vodu. Najbolji rano ujutru kad su sjene duge i zaliv miran.",
     "altAerial": "Pogled iz vazduha na kotorski Stari grad i zaliv sa lovćenskog puta",
     "h2Spot3": "3. Peraška Obala",
-    "spot3P": "Perast nudi dvije kompozicije: klasičan pogled na ostrva Gospa od Škrpjela i Sv. Đorđa sa šetnice, i obrnuti kadar iz taksi-čamca koji gleda nazad na peraški zvonik na pozadini planinskog zida. Kasno popodnevno svjetlo je najbolje — zapadne planine bacaju tople tonove preko kamenih fasada.",
+    "spot3P": "Perast nudi dvije kompozicije: klasičan pogled na ostrva Gospa od Škrpjela i Sv. Đorđa sa šetnice, i obrnuti kadar iz taksi-čamca koji gleda nazad na peraški zvonik na pozadini planinskog zida. Kasno popodnevno svjetlo je najbolje, zapadne planine bacaju tople tonove preko kamenih fasada.",
     "h2Spot4": "4. Ostrvce Gospa od Škrpjela",
     "spot4P": "Sa samog ostrva, fotografišite Perast preko vode sa zalivom koji se proteže iza njega. Niski ugao sa površine vode stvara osjećaj intimnosti koji uzvišeni kadrovi ne mogu postići. Teleobjektiv efikasno kompresuje grad na pozadini planina.",
     "h2Spot5": "5. Obala Dobrote u Sumrak",
     "spot5P": "Kamena šetnica sjeverno od Kotora gleda na zapad preko zaliva. Na zalasku sunca planine iznad Perasta postaju narandžaste, a voda hvata posljednje svjetlo. Duge ekspozicije sa stativom daju svilenkaste refleksije. Ovo je 5 minuta vožnje od Starog grada ili 20 minuta šetnje uz obalu.",
     "h2Spot6": "6. Vidikovac na Veriškom Tjesnacu",
-    "spot6P": "Najuži dio zaliva, gdje se dva kraka vode susreću kroz procjep jedva 300 metara širok. Vidikovac pored puta na lepeтanskoj strani gleda preko tjesnaca sa trajektima koji prelaze u prvom planu i planinama sa tri strane. Podnevno svjetlo ovdje dobro funkcioniše — sunce odozgo osvijetli boju vode.",
+    "spot6P": "Najuži dio zaliva, gdje se dva kraka vode susreću kroz procjep jedva 300 metara širok. Vidikovac pored puta na lepeтanskoj strani gleda preko tjesnaca sa trajektima koji prelaze u prvom planu i planinama sa tri strane. Podnevno svjetlo ovdje dobro funkcioniše, sunce odozgo osvijetli boju vode.",
     "h2Spot7": "7. Kotorski Stari Grad Noću",
-    "spot7P": "Poslije mraka, kameni zidovi i trgovi Starog grada su osvijetljeni toplim žutim lampama. Katedrala Sv. Tripuna i sat-kula na Trgu od Oružja su najsnažniji subjekti. Stativ i spora brzina zatvarača (1–2 sekunde) hvataju ambijentalni sjaj. Najbolje radnim večerima kad su trgovi prazniji.",
+    "spot7P": "Poslije mraka, kameni zidovi i trgovi Starog grada su osvijetljeni toplim žutim lampama. Katedrala Sv. Tripuna i sat-kula na Trgu od Oružja su najsnažniji subjekti. Stativ i spora brzina zatvarača (1-2 sekunde) hvataju ambijentalni sjaj. Najbolje radnim večerima kad su trgovi prazniji.",
     "h2Spot8": "8. Risanski Zaliv Odozgo",
-    "spot8P": "Dionica puta između Perasta i Risna prolazi kroz niz uzvišenih krivina sa proširenjima koja gledaju dolje na unutrašnji zaliv. Geometrija je ovdje neobična — voda formira gotovo savršen krug opasan planinama. Manje fotografisan od kotorskih pogleda, što čini fotografije originalnijim.",
+    "spot8P": "Dionica puta između Perasta i Risna prolazi kroz niz uzvišenih krivina sa proširenjima koja gledaju dolje na unutrašnji zaliv. Geometrija je ovdje neobična, voda formira gotovo savršen krug opasan planinama. Manje fotografisan od kotorskih pogleda, što čini fotografije originalnijim.",
     "h2Spot9": "9. Prčanjska Crkva Rođenja Bogorodice",
-    "spot9P": "Nedovršena katedrala u Prčanju — masivna neoklasična ljuska koja nikad nije završena — stoji direktno na obali između Kotora i Tivta. Njena puka veličina nasuprot malom gradu iza nje stvara upečatljiv kontrast. Kasno popodnevno bočno svjetlo naglašava teksturu kamena na zgradi.",
+    "spot9P": "Nedovršena katedrala u Prčanju, masivna neoklasična ljuska koja nikad nije završena, stoji direktno na obali između Kotora i Tivta. Njena puka veličina nasuprot malom gradu iza nje stvara upečatljiv kontrast. Kasno popodnevno bočno svjetlo naglašava teksturu kamena na zgradi.",
     "h2Gear": "Napomene o Opremi",
     "gearWideLabel": "Širokougaoni:",
-    "gearWideVal": "Neophodan za vidikovce sa tvrđave i puta. 16–24mm na punom kadru.",
+    "gearWideVal": "Neophodan za vidikovce sa tvrđave i puta. 16-24mm na punom kadru.",
     "gearTripodLabel": "Stativ:",
     "gearTripodVal": "Obavezan za izlazak sunca, zalazak i noćne kadrove. Putni stativ je dovoljan.",
     "gearDroneLabel": "Dron:",
@@ -993,7 +993,7 @@
     "whoWeAreText": "Kotor Car Hire djeluje kao afilijatni partner koji povezuje putnike sa pružaocima usluga iznajmljivanja automobila u Kotoru i okolini, Crna Gora. Naš sajt je kotorcarhire.com.",
     "whatWeCollectTitle": "Koje informacije prikupljamo",
     "infoYouProvideTitle": "Informacije koje vi pružate",
-    "infoYouProvideText": "Kada koristite našu formu za pretragu, prikupljamo lokaciju, datume i vremena za pronalaženje dostupnih vozila. Ove informacije se prosljeđuju našem partneru (LocalRent). Ne prikupljamo podatke o plaćanju — sva plaćanja obrađuje direktno pružalac usluge.",
+    "infoYouProvideText": "Kada koristite našu formu za pretragu, prikupljamo lokaciju, datume i vremena za pronalaženje dostupnih vozila. Ove informacije se prosljeđuju našem partneru (LocalRent). Ne prikupljamo podatke o plaćanju, sva plaćanja obrađuje direktno pružalac usluge.",
     "autoCollectedTitle": "Automatski prikupljene informacije",
     "autoCollected1": "Podaci o korišćenju: posjećene stranice, vrijeme na sajtu, referentni sajt",
     "autoCollected2": "Informacije o uređaju: tip pretraživača, operativni sistem, rezolucija ekrana",
@@ -1005,7 +1005,7 @@
     "howWeUse4": "Za odgovaranje na upite putem WhatsApp-a, Vibera ili emaila",
     "thirdPartyTitle": "Usluge trećih strana",
     "thirdPartyIntro": "Naš sajt koristi sljedeće usluge trećih strana:",
-    "thirdParty1": "LocalRent: vidžet za rezervacije — obrađuje pretrage i upravlja rezervacijama i plaćanjima",
+    "thirdParty1": "LocalRent: vidžet za rezervacije, obrađuje pretrage i upravlja rezervacijama i plaćanjima",
     "thirdParty2": "Vercel: hosting sajta",
     "thirdParty3": "Pexels: stock fotografije",
     "thirdPartyNote": "Svaka od ovih usluga ima vlastitu politiku privatnosti.",
@@ -1026,7 +1026,7 @@
     "lastUpdated": "Poslednje ažuriranje:",
     "lastUpdatedDate": "April 2026",
     "aboutTitle": "O ovom sajtu",
-    "aboutText": "Kotor Car Hire (kotorcarhire.com) je afilijatni sajt koji povezuje putnike sa uslugama iznajmljivanja automobila u Kotoru, Crna Gora. Nismo kompanija za iznajmljivanje — sarađujemo sa LocalRent-om.",
+    "aboutText": "Kotor Car Hire (kotorcarhire.com) je afilijatni sajt koji povezuje putnike sa uslugama iznajmljivanja automobila u Kotoru, Crna Gora. Nismo kompanija za iznajmljivanje, sarađujemo sa LocalRent-om.",
     "bookingTitle": "Uslovi rezervacije i iznajmljivanja",
     "bookingText1": "Sve rezervacije obrađuje naš partner LocalRent. Zaključujete ugovor direktno sa dobavljačem vozila, ne sa Kotor Car Hire.",
     "bookingText2": "Uslovi iznajmljivanja, uključujući politiku otkazivanja, osiguranje, starosne uslove i uslove plaćanja, određuje dobavljač. Preporučujemo da ih pažljivo pročitate.",
@@ -1104,7 +1104,7 @@
   },
   "contact": {
     "title": "Kontaktirajte nas",
-    "seoDesc": "Kontaktirajte Kotor Car Hire za cene, preuzmanja sa krstarenja, ili dostavu na aerodrom Tivat. Email, WhatsApp, ili veb forma sa odgovorem u roku od dva časa radnim danima.",
+    "seoDesc": "Kontaktirajte Kotor Car Hire za cene, preuzmanja sa krstarenja, ili dostavu na aerodrom Tivat. Email, WhatsApp, ili veb forma sa odgovorem u roku od dva",
     "heading": "Kontaktirajte nas",
     "intro": "Imate pitanje o iznajmljivanju automobila u Kotoru? Javite nam se i pomoći ćemo vam pronaći savršeno vozilo za vaše putovanje."
   }
