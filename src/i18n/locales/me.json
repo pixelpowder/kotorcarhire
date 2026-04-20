@@ -48,18 +48,18 @@
   "howItWorks": {
     "label": "Kako Funkcioniše",
     "title": "Na Putu u 3 Koraka",
-    "subtitle": "Jednostavna rezervacija. Trenutna potvrda. Bez redova na aerodromu.",
+    "subtitle": "Rezervacija u tri koraka. Bez redova. Ključevi se predaju na trgu ispred ulaza u Stari grad.",
     "step1Title": "Izaberite Lokaciju",
-    "step1Desc": "Preuzmite na aerodromu Tivat, u starom gradu Kotoru, u Perastu, Budvi ili na bilo kojoj od više od 28 lokacija širom Crne Gore.",
+    "step1Desc": "Preuzmite na aerodromu Tivat, u kotorskom Starom gradu, Perastu, Budvi ili na više od 28 lokacija širom Crne Gore.",
     "step2Title": "Izaberite Auto",
-    "step2Desc": "Pregledajte našu flotu, od ekonomičnih gradskih automobila do premium SUV vozila. Filtrirajte prema veličini, mjenjaču ili budžetu.",
+    "step2Desc": "Pregledajte flotu, od gradskih ekonomičnih vozila do premium SUV-ova. Filtrirajte po veličini, mjenjaču ili dnevnoj cijeni.",
     "step3Title": "Vozite Crnom Gorom",
-    "step3Desc": "Dočekujemo Vas na dolascima ili u Vašem hotelu. Vaš automobil je spreman. Istražite zaliv, planine i istorijska mjesta."
+    "step3Desc": "Dočekujemo vas na aerodromu ili u hotelu sa spremnim ključevima. Obilazite zaliv, Perast i Lovćen u svom tempu."
   },
   "fleet": {
     "label": "Naša Flota",
     "title": "Izaberite Vaše Vozilo",
-    "subtitle": "Pregledajte dostupnost i cijene u realnom vremenu, rezervišite direktno."
+    "subtitle": "Dostupnost u realnom vremenu i cijene po danu, rezervišite direktno sa polazištem u kotorskom Starom gradu."
   },
   "brands": {
     "label": "Provjereni brendovi u našoj floti"
@@ -86,7 +86,7 @@
   },
   "cta": {
     "title": "Spremni da Istražite Crnu Goru?",
-    "subtitle": "Rezervišite za nekoliko minuta. Preuzmite na aerodromu Tivat ili u starom gradu Kotoru. Vozite UNESCO zalivom, kroz Perast i duž jadranske obale svojim tempom.",
+    "subtitle": "Rezervišite za par minuta. Preuzmite na aerodromu Tivat ili ispred ulaza u Stari grad. Vozite UNESCO zalivom, do Perasta i duž jadranske obale.",
     "browseFleet": "Pregledaj Flotu"
   },
   "sidebar": {

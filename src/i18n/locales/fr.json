@@ -48,18 +48,18 @@
   "howItWorks": {
     "label": "Comment Ça Marche",
     "title": "Sur la Route en 3 Étapes",
-    "subtitle": "Réservation simple. Confirmation immédiate. Aucune file d'attente à l'aéroport.",
+    "subtitle": "Réservation en trois étapes. Sans queue. Remise des clés sur la place devant l'entrée de la vieille ville.",
     "step1Title": "Choisissez Votre Lieu",
     "step1Desc": "Prise en charge à l'aéroport de Tivat, dans la vieille ville de Kotor, à Perast, Budva, ou à l'un des plus de 28 points du Monténégro.",
     "step2Title": "Choisissez Votre Voiture",
-    "step2Desc": "Parcourez notre flotte, des citadines économiques aux SUV premium. Filtrez par taille, transmission ou budget.",
+    "step2Desc": "Comparez notre flotte, de la citadine économique au SUV premium. Tri par taille, boîte de vitesses ou budget quotidien.",
     "step3Title": "Conduisez au Monténégro",
-    "step3Desc": "Nous vous accueillons aux arrivées ou à votre hôtel. Votre voiture est prête. Explorez la baie, les montagnes et les villes historiques."
+    "step3Desc": "Nous vous retrouvons aux arrivées ou à votre hôtel, clés en main. Baie de Kotor, Perast et route de Lovćen vous attendent."
   },
   "fleet": {
     "label": "Notre Flotte",
     "title": "Choisissez Votre Véhicule",
-    "subtitle": "Consultez la disponibilité et les tarifs en temps réel, réservez directement."
+    "subtitle": "Disponibilité en direct et tarifs au jour le jour, réservation sans intermédiaire au départ de la vieille ville."
   },
   "brands": {
     "label": "Marques de confiance dans notre flotte"
@@ -355,7 +355,7 @@
     "podgorica-airport": {
       "name": "Aéroport de Podgorica",
       "tag": "Hub de la capitale",
-      "desc": "Le principal aéroport international du Montenegro."
+      "desc": "Plus de liaisons à l'année, une heure de route par la vallée de Sutorina."
     },
     "perast": {
       "name": "Perast",
@@ -370,7 +370,7 @@
     "dubrovnik-airport": {
       "name": "Aéroport de Dubrovnik",
       "tag": "Transfrontalier",
-      "desc": "Atterrissez à Dubrovnik, rejoignez Kotor en 2 heures."
+      "desc": "Atterrissage à Dubrovnik, 1h15 par la route côtière jusqu'à la porte nord de la baie."
     },
     "tivat": {
       "name": "Tivat",
@@ -395,7 +395,7 @@
     "promise2": "Un chauffeur nommé vous attend aux arrivées de Tivat, panneau en main, voiture garée à la sortie",
     "promise3": "Aucun frais caché, le prix affiché est le prix final",
     "promise4": "Carte Verte préparée pour cinq pays voisins",
-    "promise5": "Annulation gratuite jusqu'à sept jours avant la prise en charge",
+    "promise5": "Annulation gratuite jusqu'à sept jours avant la date de ramassage, sur toute la flotte de Kotor",
     "promise6": "Assistance routière 24h/24 et 7j/7, de Kotor à Zabljak et partout entre les deux",
     "h4": "Connaissance locale",
     "p4": "Demandez nous quels matins les paquebots accostent et saturent les parkings de la vieille ville. Nous vous dirons d'arriver avant 07:30 ou de filer plutôt vers Dobrota. Demandez nous le sentier de la crête du Vrmac et nous vous expliquerons précisément où laisser la voiture au départ près de Prčanj. De l'horaire du ferry Kamenari-Lepetane à l'heure la plus calme au passage frontalier de Debeli Brijeg, nos conseils viennent de la conduite quotidienne de ces routes, pas d'une réimpression de guide touristique.",

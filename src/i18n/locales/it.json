@@ -48,18 +48,18 @@
   "howItWorks": {
     "label": "Come Funziona",
     "title": "In Strada in 3 Passi",
-    "subtitle": "Prenotazione semplice. Conferma immediata. Nessuna coda in aeroporto.",
+    "subtitle": "Prenotazione in tre passaggi. Niente code. Consegna delle chiavi sulla piazza davanti all'ingresso della città vecchia.",
     "step1Title": "Scegli il Luogo",
     "step1Desc": "Ritiro all'aeroporto di Tivat, nella città vecchia di Kotor, a Perast, Budva o in uno degli oltre 28 punti in Montenegro.",
     "step2Title": "Scegli la Tua Auto",
-    "step2Desc": "Scorra la nostra flotta, dalle utilitarie economiche ai SUV premium. Filtri per dimensioni, cambio o budget.",
+    "step2Desc": "Sfogli la nostra flotta, dalle utilitarie economiche ai SUV premium. Ordini per taglia, cambio o budget giornaliero.",
     "step3Title": "Guida in Montenegro",
     "step3Desc": "La accogliamo agli arrivi o in hotel. La Sua auto è pronta. Esplori la baia, le montagne e le città storiche."
   },
   "fleet": {
     "label": "La Nostra Flotta",
     "title": "Scegli la Tua Auto",
-    "subtitle": "Consulti disponibilità e prezzi in tempo reale, prenoti direttamente."
+    "subtitle": "Disponibilità e tariffe in tempo reale, prenotazione diretta dalla città vecchia di Cattaro."
   },
   "brands": {
     "label": "Marchi affidabili nella nostra flotta"
@@ -355,7 +355,7 @@
     "podgorica-airport": {
       "name": "Aeroporto di Podgorica",
       "tag": "Hub della capitale",
-      "desc": "Il principale aeroporto internazionale del Montenegro."
+      "desc": "Più voli tutto l'anno, a un'ora d'auto da Cattaro per la valle di Sutorina."
     },
     "perast": {
       "name": "Perast",
@@ -391,11 +391,11 @@
     "h3": "Cosa offriamo",
     "p3": "I punti di ritiro coprono tutta la baia: aeroporto di Tivat (8 km dalle mura di Kotor), proprio davanti al parcheggio della Porta del Fiume, e in 28 città da Herceg Novi a Ulcinj. Le utilitarie compatte passano con facilità sulle strade di accesso alla città vecchia. I SUV affrontano senza fatica le 25 curve a gomito della serpentina del Lovćen. Ogni veicolo è completamente assicurato, e la Carta Verde per Croazia, Bosnia, Albania, Serbia e Kosovo può essere preparata al momento della prenotazione.",
     "promiseTitle": "La nostra promessa",
-    "promise1": "Assicurazione completa con opzione franchigia zero su ogni prenotazione",
+    "promise1": "Assicurazione completa con opzione franchigia zero su ogni prenotazione nella flotta di Cattaro",
     "promise2": "Un autista nominato L'attende agli arrivi di Tivat, cartello in mano, auto parcheggiata all'uscita",
     "promise3": "Prezzi trasparenti, nessun sovrapprezzo aeroportuale, nessuna sorpresa sul carburante",
-    "promise4": "Carta Verde preparata per cinque paesi confinanti",
-    "promise5": "Cancellazione gratuita fino a sette giorni prima del ritiro",
+    "promise4": "Documenti Carta Verde preparati in anticipo per viaggi in cinque Paesi confinanti",
+    "promise5": "Cancellazione gratuita fino a sette giorni prima della data di ritiro, su tutti i veicoli di Cattaro",
     "promise6": "Assistenza stradale 24 ore su 24, da Kotor a Zabljak e ovunque in mezzo",
     "h4": "Conoscenza locale",
     "p4": "Ci chieda in quali mattine attraccano le navi da crociera e saturano i parcheggi della città vecchia. Le diremo di arrivare prima delle 07:30 o di dirigersi piuttosto a Dobrota. Ci chieda del sentiero sul crinale del Vrmac e Le spiegheremo esattamente dove lasciare l'auto all'imbocco vicino a Prčanj. Dagli orari del traghetto Kamenari-Lepetane all'ora più tranquilla al valico di confine di Debeli Brijeg, i nostri consigli nascono dal guidare quotidianamente queste strade, non dalla ristampa di una guida.",
