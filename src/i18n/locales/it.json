@@ -101,7 +101,7 @@
   "book": {
     "title": "Trova la Tua Auto",
     "seoTitle": "Prenota un'Auto",
-    "seoDesc": "Prenota un'auto a noleggio per Kotor in pochi secondi. Consegna all'Aeroporto di Tivat 8 km, cancellazione gratuita sulla maggior parte delle tariffe, e"
+    "seoDesc": "Prenota un'auto a noleggio per Kotor in pochi secondi. Consegna all'Aeroporto di Tivat 8 km, cancellazione gratuita sulla maggior parte delle tariffe."
   },
   "footer": {
     "brandDesc": "Noleggio auto a breve termine a Kotor da Aeroporto di Tivat e dalle porte della Città Vecchia. Assicurazione completa, esperienza della strada della baia, e tariffe fisse che rimangono fisse tutto l'anno.",
@@ -131,12 +131,12 @@
     "searchCars": "Cerca Auto"
   },
   "home": {
-    "seoDesc": "Noleggia un'auto a Kotor da €13 al giorno. Aeroporto di Tivat 8 km, la città UNESCO murata ai tuoi piedi, e 60 km di strada nel fiordo tra te e"
+    "seoDesc": "Noleggia un'auto a Kotor da €13 al giorno. Aeroporto di Tivat 8 km, la città UNESCO murata ai tuoi piedi, e 60 km di strada nel fiordo tra te."
   },
   "about": {
     "title": "Chi Siamo",
     "subtitle": "Aiutiamo i viaggiatori a esplorare il Montenegro dal 2007.",
-    "seoDesc": "Concierge di noleggio Città Vecchia Kotor. Selezioniamo auto per soggiorni brevi per passeggeri di crociere, gite di un giorno sulla strada della baia, e",
+    "seoDesc": "Concierge di noleggio Città Vecchia Kotor. Selezioniamo auto per soggiorni brevi per passeggeri di crociere, gite di un giorno sulla strada della baia.",
     "heading1": "Kotor Car Hire",
     "p1": "Kotor Car Hire mette in contatto i viaggiatori con auto a noleggio affidabili e convenienti nella Baia di Kotor. Siamo un affiliato indipendente che collabora con partner locali di fiducia, rendendo più facile per i visitatori esplorare questo angolo UNESCO dell'Adriatico.",
     "heading2": "Perché abbiamo iniziato",
@@ -170,7 +170,7 @@
   "kotor": {
     "title": "Noleggio Auto a Kotor",
     "subtitle": "Esplora il gioiello UNESCO del Montenegro al tuo ritmo.",
-    "seoDesc": "4,5 km di muri veneziani, Cattedrale di San Triphon dal 1166 d.C., e 1.355 gradini per San Giovanni. Parcheggia fuori dalla Sea Gate e cammina attraverso",
+    "seoDesc": "4,5 km di muri veneziani, Cattedrale di San Triphon dal 1166 d.C., e 1.355 gradini per San Giovanni.",
     "heading1": "Kotor: Patrimonio dell'UNESCO",
     "p1": "Kotor è una delle città medievali meglio conservate dell'Adriatico, situata alla testa di una baia spettacolare simile a un fiordo. La Città Vecchia UNESCO è un labirinto di vie strette, palazzi veneziani, chiese romaniche e piazze vivaci. Sopra di tutto, la fortezza di San Giovanni si erge con 1.200 gradini offrendo viste panoramiche sulla baia.",
     "p2a": "Noleggiare un'auto a Kotor",
@@ -197,32 +197,32 @@
   "tivat-airport": {
     "title": "Noleggio Auto Aeroporto Tivat",
     "subtitle": "Ritira la tua auto a noleggio agli arrivi.",
-    "seoDesc": "Ritira la tua auto a noleggio all'aeroporto di Tivat (TIV). Ti aspettiamo agli arrivi con il veicolo pronto. Raggiungi Kotor, Budva o Porto Montenegro in"
+    "seoDesc": "Ritira la tua auto a noleggio all'aeroporto di Tivat (TIV). Ti aspettiamo agli arrivi con il veicolo pronto."
   },
   "budva": {
     "title": "Noleggio Auto a Budva",
     "subtitle": "La riviera del Montenegro, spiagge, vita notturna e fascino della città vecchia.",
-    "seoDesc": "Noleggia un'auto a Budva, Montenegro. Raggiungi la spiaggia di Mogren, Sveti Stefan e la migliore vita notturna della riviera. Assicurazione completa"
+    "seoDesc": "Noleggia un'auto a Budva, Montenegro. Raggiungi la spiaggia di Mogren, Sveti Stefan e la migliore vita notturna della riviera."
   },
   "perast": {
     "title": "Noleggio Auto a Perast",
     "subtitle": "Un gioiello barocco sulle Bocche di Kotor.",
-    "seoDesc": "Noleggia un'auto e visita Perast, un gioiello barocco sulle Bocche di Kotor. Ammira l'isola della Madonna dello Scalpello e splendidi palazzi sul"
+    "seoDesc": "Noleggia un'auto e visita Perast, un gioiello barocco sulle Bocche di Kotor."
   },
   "podgorica": {
     "title": "Noleggio Auto a Podgorica",
     "subtitle": "La capitale del Montenegro, cultura, fiumi e fascino moderno.",
-    "seoDesc": "Noleggio auto a Podgorica, capitale del Montenegro. Esplora il Lago di Scutari, il Monastero di Ostrog e Durmitor con un'auto a noleggio. Ritiro in"
+    "seoDesc": "Noleggio auto a Podgorica, capitale del Montenegro. Esplora il Lago di Scutari, il Monastero di Ostrog e Durmitor con un'auto a noleggio."
   },
   "podgorica-airport": {
     "title": "Noleggio Auto Aeroporto Podgorica",
     "subtitle": "Il principale gateway internazionale del Montenegro.",
-    "seoDesc": "Ritira la tua auto a noleggio all'aeroporto di Podgorica (TGD). Consegniamo il veicolo agli arrivi. Raggiungi la costa, il Lago di Scutari o il Parco"
+    "seoDesc": "Ritira la tua auto a noleggio all'aeroporto di Podgorica (TGD). Consegniamo il veicolo agli arrivi."
   },
   "dubrovnik-airport": {
     "title": "Noleggio Auto Aeroporto Dubrovnik",
     "subtitle": "Vola in Croazia, guida verso il Montenegro.",
-    "seoDesc": "Noleggia un'auto all'aeroporto di Dubrovnik e guida verso il Montenegro. Attraversa il confine in meno di un'ora. Assicurazione completa e carta verde"
+    "seoDesc": "Noleggia un'auto all'aeroporto di Dubrovnik e guida verso il Montenegro. Attraversa il confine in meno di un'ora."
   },
   "tivat": {
     "title": "Noleggio Auto a Tivat",
@@ -232,12 +232,12 @@
   "montenegro": {
     "title": "Noleggio Auto e Guida Viaggio Montenegro",
     "subtitle": "Tutto ciò che devi sapere sulla guida in Montenegro.",
-    "seoDesc": "Guida completa alla guida in Montenegro. Regole stradali, limiti di velocità, prezzi del carburante e i migliori percorsi panoramici dalla costa alle"
+    "seoDesc": "Guida completa alla guida in Montenegro. Regole stradali, limiti di velocità, prezzi del carburante e i migliori percorsi panoramici dalla costa."
   },
   "border-crossing": {
     "title": "Guida Attraversamento Frontiere Balcani",
     "subtitle": "Tutto sul passaggio delle frontiere con la tua auto a noleggio.",
-    "seoDesc": "Guida all'attraversamento delle frontiere dal Montenegro con auto a noleggio. Assicurazione carta verde, documenti necessari e consigli per Croazia"
+    "seoDesc": "Guida all'attraversamento delle frontiere dal Montenegro con auto a noleggio."
   },
   "privacy": {
     "title": "Informativa sulla Privacy",
@@ -1104,7 +1104,7 @@
   },
   "contact": {
     "title": "Contattaci",
-    "seoDesc": "Contatta Kotor Car Hire per preventivi, ritiri da crociera, o consegna all'Aeroporto di Tivat. Email, WhatsApp, o modulo web con risposte entro due ore",
+    "seoDesc": "Contatta Kotor Car Hire per preventivi, ritiri da crociera, o consegna all'Aeroporto di Tivat.",
     "heading": "Contattaci",
     "intro": "Hai una domanda sul noleggio auto a Kotor? Contattaci e ti aiuteremo a trovare il veicolo perfetto per il tuo viaggio."
   }
