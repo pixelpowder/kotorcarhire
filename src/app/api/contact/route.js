@@ -1,9 +1,13 @@
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request) {
   try {
+    if (!process.env.RESEND_API_KEY) {
+      console.error('RESEND_API_KEY env var not set');
+      return Response.json({ error: 'Server misconfigured' }, { status: 500 });
+    }
+    const resend = new Resend(process.env.RESEND_API_KEY);
+
     const { name, email, message, website } = await request.json();
 
     // Honeypot — bots fill hidden "website" field, humans don't see it
