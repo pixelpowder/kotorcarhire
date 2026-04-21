@@ -2,10 +2,13 @@ import { t, buildAlternates } from '../../metadata';
 import KotorToLovcenDrive from '@/src/components/pages/blog/KotorToLovcenDrive';
 
 export async function generateMetadata() {
+  const title = t('en', 'blogLovcen.title') + ' | Kotor Car Hire';
+  const description = t('en', 'blogLovcen.description');
   return {
-    title: t('en', 'blogLovcen.title') + ' | Kotor Car Hire',
-    description: t('en', 'blogLovcen.description'),
+    title: title,
+    description: description,
     alternates: buildAlternates('blog/kotor-to-lovcen-drive'),
+    openGraph: { title, description, type: 'website' },
   };
 }
 

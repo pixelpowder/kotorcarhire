@@ -2,10 +2,13 @@ import { t, buildAlternates } from '../metadata';
 import Terms from '@/src/components/pages/Terms';
 
 export async function generateMetadata() {
+  const title = t('en', 'terms.title') + ' | Kotor Car Hire';
+  const description = t('en', 'terms.seoDesc');
   return {
-    title: t('en', 'terms.title') + ' | Kotor Car Hire',
-    description: t('en', 'terms.seoDesc'),
+    title: title,
+    description: description,
     alternates: buildAlternates('terms'),
+    openGraph: { title, description, type: 'website' },
   };
 }
 

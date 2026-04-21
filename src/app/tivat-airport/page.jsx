@@ -2,10 +2,13 @@ import { t, buildAlternates } from '../metadata';
 import TivatAirport from '@/src/components/pages/TivatAirport';
 
 export async function generateMetadata() {
+  const title = t('en', 'tivat-airport.title') + ' | Kotor Car Hire';
+  const description = t('en', 'tivat-airport.seoDesc');
   return {
-    title: t('en', 'tivat-airport.title') + ' | Kotor Car Hire',
-    description: t('en', 'tivat-airport.seoDesc'),
+    title: title,
+    description: description,
     alternates: buildAlternates('tivat-airport'),
+    openGraph: { title, description, type: 'website' },
   };
 }
 

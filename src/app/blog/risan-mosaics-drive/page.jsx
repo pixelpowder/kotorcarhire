@@ -2,10 +2,13 @@ import { t, buildAlternates } from '../../metadata';
 import RisanMosaicsDrive from '@/src/components/pages/blog/RisanMosaicsDrive';
 
 export async function generateMetadata() {
+  const title = t('en', 'blogRisan.title') + ' | Kotor Car Hire';
+  const description = t('en', 'blogRisan.description');
   return {
-    title: t('en', 'blogRisan.title') + ' | Kotor Car Hire',
-    description: t('en', 'blogRisan.description'),
+    title: title,
+    description: description,
     alternates: buildAlternates('blog/risan-mosaics-drive'),
+    openGraph: { title, description, type: 'website' },
   };
 }
 

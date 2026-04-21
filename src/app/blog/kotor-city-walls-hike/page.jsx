@@ -2,10 +2,13 @@ import { t, buildAlternates } from '../../metadata';
 import KotorCityWallsHike from '@/src/components/pages/blog/KotorCityWallsHike';
 
 export async function generateMetadata() {
+  const title = t('en', 'blogWalls.title') + ' | Kotor Car Hire';
+  const description = t('en', 'blogWalls.description');
   return {
-    title: t('en', 'blogWalls.title') + ' | Kotor Car Hire',
-    description: t('en', 'blogWalls.description'),
+    title: title,
+    description: description,
     alternates: buildAlternates('blog/kotor-city-walls-hike'),
+    openGraph: { title, description, type: 'website' },
   };
 }
 

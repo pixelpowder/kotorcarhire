@@ -2,10 +2,13 @@ import { t, buildAlternates } from '../../metadata';
 import KotorCruiseShoreExcursion from '@/src/components/pages/blog/KotorCruiseShoreExcursion';
 
 export async function generateMetadata() {
+  const title = t('en', 'blogCruise.title') + ' | Kotor Car Hire';
+  const description = t('en', 'blogCruise.description');
   return {
-    title: t('en', 'blogCruise.title') + ' | Kotor Car Hire',
-    description: t('en', 'blogCruise.description'),
+    title: title,
+    description: description,
     alternates: buildAlternates('blog/kotor-cruise-shore-excursion'),
+    openGraph: { title, description, type: 'website' },
   };
 }
 

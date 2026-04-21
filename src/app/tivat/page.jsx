@@ -2,10 +2,13 @@ import { t, buildAlternates } from '../metadata';
 import Tivat from '@/src/components/pages/Tivat';
 
 export async function generateMetadata() {
+  const title = t('en', 'tivat.title') + ' | Kotor Car Hire';
+  const description = t('en', 'tivat.seoDesc');
   return {
-    title: t('en', 'tivat.title') + ' | Kotor Car Hire',
-    description: t('en', 'tivat.seoDesc'),
+    title: title,
+    description: description,
     alternates: buildAlternates('tivat'),
+    openGraph: { title, description, type: 'website' },
   };
 }
 
