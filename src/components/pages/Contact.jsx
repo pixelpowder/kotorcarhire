@@ -89,6 +89,16 @@ export default function Contact() {
                   {t('contactPage.sendMessage')}
                 </button>
               </form>
+              {status === 'success' && (
+                <div style={{ marginTop: '16px', padding: '14px 18px', background: '#e8f6ef', border: '1px solid #a8d8bd', borderRadius: '10px', color: '#0f7a3c', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <CheckCircle2 size={18} /> Message sent! We'll reply within a few hours.
+                </div>
+              )}
+              {status === 'error' && (
+                <div style={{ marginTop: '16px', padding: '14px 18px', background: '#fde8e8', border: '1px solid #f5a6a6', borderRadius: '10px', color: '#9b1c1c', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <AlertCircle size={18} /> {errorMsg}
+                </div>
+              )}
             </div>
 
             <div style={{ marginTop: '32px', textAlign: 'center', color: 'var(--gray-500)', fontSize: '14px' }}>
