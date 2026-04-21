@@ -4,7 +4,7 @@ const siteConfig = {
   domain: "kotorcarhire.com",
   phone: "",
   email: "info@kotorcarhire.com",
-  address: "Kotor, Montenegro",
+  address: "Tabacina BB, Kotor, 85330",
 
   hero: {
     headline: "Explore the Bay of Kotor by Car",
