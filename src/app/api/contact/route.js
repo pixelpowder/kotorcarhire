@@ -1,5 +1,8 @@
 import { Resend } from 'resend';
 
+export const dynamic = 'force-dynamic';
+export const runtime = 'nodejs';
+
 export async function POST(request) {
   try {
     if (!process.env.RESEND_API_KEY) {
