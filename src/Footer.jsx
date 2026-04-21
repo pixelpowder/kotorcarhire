@@ -5,6 +5,11 @@ import config from './siteConfig';
 import useTranslation from './i18n/useTranslation';
 import './App.css';
 
+// 5 representatives of the Kotor cruise-day / bay fleet.
+const FOOTER_FLEET_SLUGS = [
+  'vw-polo', 'fiat-500', 'toyota-yaris', 'peugeot-208', 'kia-stonic',
+];
+
 function FooterAccordion({ title, children }) {
   const [open, setOpen] = useState(false);
   return (
@@ -60,13 +65,26 @@ export default function Footer() {
 
         <FooterColumn title={t('footer.quickLinks')}>
           <a href={localePath('/book')} className="footer__link"><ChevronRight size={12} /> {t('footer.carHireBooking')}</a>
+          <a href={localePath('/cars')} className="footer__link"><ChevronRight size={12} /> {t('footer.ourFleet', 'Our Fleet')}</a>
           <a href={localePath('/about')} className="footer__link"><ChevronRight size={12} /> {t('footer.aboutUs')}</a>
           <a href={localePath('/#faq')} className="footer__link"><ChevronRight size={12} /> {t('footer.faqLink')}</a>
           <a href={localePath('/#reviews')} className="footer__link"><ChevronRight size={12} />{t('footer.testimonials')}</a>
         </FooterColumn>
 
+        <FooterColumn title={t('footer.ourFleet', 'Our Fleet')}>
+          {FOOTER_FLEET_SLUGS.map(slug => {
+            const car = config.cars.find(c => c.slug === slug);
+            if (!car) return null;
+            return (
+              <a key={slug} href={localePath(`/cars/${slug}`)} className="footer__link">
+                <Car size={12} /> {car.name}
+              </a>
+            );
+          })}
+        </FooterColumn>
+
         <FooterColumn title={t('footer.guides')}>
-          <a href={localePath('/blog')} className="footer__link"><ChevronRight size={12} /> {t('nav.blog') || 'Blog'}</a>
+          <a href={localePath('/blog')} className="footer__link"><ChevronRight size={12} /> {t('nav.blog', 'Blog')}</a>
           <a href={localePath('/montenegro')} className="footer__link"><ChevronRight size={12} /> {t('footer.montenegroGuide')}</a>
           <a href={localePath('/border-crossing-guide')} className="footer__link"><ChevronRight size={12} /> {t('footer.borderGuide')}</a>
           <a href={localePath('/#destinations')} className="footer__link"><ChevronRight size={12} /> {t('footer.destinations')}</a>

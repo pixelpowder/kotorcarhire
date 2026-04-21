@@ -1,10 +1,36 @@
 {
   "nav": {
     "book": "Rezerviši",
+    "fleet": "Flota",
     "destinations": "Destinacije",
     "about": "O Nama",
     "blog": "Vodič",
     "contact": "Kontakt"
+  },
+  "cars": {
+    "readGuide": "Pročitaj vodič"
+  },
+  "fleetShowcase": {
+    "label": "Upoznaj svoj auto",
+    "title": "Vodiči za svako vozilo kotоrske flote",
+    "subtitle": "Specifikacije, potrošnja, prtljažnik i šta koje vozilo stvarno radi oko Bokokotorskog zaliva, Perasta i Lovćena.",
+    "viewAll": "Pogledaj sve vodiče",
+    "tabs": {
+      "all": "Sve",
+      "economy": "Ekonomska",
+      "midsize": "Srednja",
+      "premium": "Premium",
+      "suv": "SUV",
+      "van": "Kombi"
+    }
+  },
+  "fleetIndex": {
+    "title": "Naša flota za Bokokotorski zaliv",
+    "subtitle": "Sedam kompaktnih vozila usklađenih sa kruzerskim iskrcajima, parkingom pred zidinama Starog grada i serpentinama Lovćena.",
+    "seoDesc": "Iznajmljivanje auta u Kotoru po mjeri zaliva — mali benzinci i kompaktni krosoveri za kruzerska iskrcavanja, parking pred gradskim vratima i 25 serpentina puta za Lovćen.",
+    "intro1": "Sedam vozila na ovoj stranici odabrano je za specifičan kotorski dan. Stari grad unutar bedema je pješačka zona — nijedan auto ne prolazi kroz Morska vrata, Riječna vrata ni most Gurdić — pa iznajmljeni auto radi svoj posao u prstenu oko njega. Tabacinski parking ispod bastiona, besplatni preliv iznad Dobrote, stepenaste uvale između Prčanja i Stoliva, jednotračna obala kroz Perast: sve je trasirano za vozila kraća od 4 metra, a svako vozilo ispod se uklapa bez trostrukog okretanja. Putnici sa kruzera koji iznajmljuju za jedan dan dobijaju isti dobitak: što prolazi u zalivu, prolazi i na preuzimanju u kruzerskom terminalu.",
+    "intro2": "Druga polovina kotorskog zadatka je serpentina Lovćena — stari austrijski put se penje 900 metara kroz 25 serpentina, i vozila sa užim radijusom okretanja (208, Polo, Yaris, Fiat 500) prolaze svaki zavoj bez grebanja guma o ivičnjak, što lovi veće iznajmljene SUV-ove. Posmatrajte Lovćen i Njeguše kao popodnevni izlet, a ne glavni program: Kotor → Perast → Risan je 25 km jednotračnog priobalnog puta, a Cetinje preko makadama Krštaca je ručna petlja. Aerodrom Tivat (TIV) je udaljen 8 km kroz tunel Vrmac, većina auta stiže sa 90% goriva, a parking na mjestu primopredaje pred aerodromom je jednostavniji od svega što slijedi.",
+    "intro3": "Dva praktična pravila za biranje. Prvo: birajte po parkingu, ne po snazi. Golf će Lovćen odraditi brže nego 208, ali će vas koštati na Tabacini u julsko poslijepodne kada su sva prizemna mjesta zauzeta; 208 ne košta ništa u oba slučaja. Drugo: ispod 300 km ukupne vožnje tretirajte gorivo kao nebitnu stavku. Jednodnevna kruzerska iznajmljivanja rijetko prelaze 120 km, sedmice sa bazom u zalivu prave prosjek od 60 km dnevno, a Yaris Hybrid — najštedljiviji auto sa liste — štedi oko €25 tokom sedmodnevnog boravka u poređenju sa najžednijim. U Kotoru više znači auto koji ostaje svjež na kraju svake vožnje nego onaj koji svaku vožnju završi prvi."
   },
   "common": {
     "home": "Početna",

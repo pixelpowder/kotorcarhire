@@ -1,10 +1,36 @@
 {
   "nav": {
     "book": "Buchen",
+    "fleet": "Flotte",
     "destinations": "Reiseziele",
     "about": "Über uns",
     "blog": "Ratgeber",
     "contact": "Kontakt"
+  },
+  "cars": {
+    "readGuide": "Ratgeber lesen"
+  },
+  "fleetShowcase": {
+    "label": "Fahrzeug-Guide",
+    "title": "Ratgeber zu jedem Auto der Kotor-Flotte",
+    "subtitle": "Technische Daten, Verbrauch, Kofferraum und wofür sich jedes Auto in der Bucht von Kotor, Perast und am Lovćen wirklich eignet.",
+    "viewAll": "Alle Fahrzeug-Ratgeber ansehen",
+    "tabs": {
+      "all": "Alle",
+      "economy": "Kleinwagen",
+      "midsize": "Mittelklasse",
+      "premium": "Premium",
+      "suv": "SUV",
+      "van": "Van"
+    }
+  },
+  "fleetIndex": {
+    "title": "Unsere Flotte für die Bucht von Kotor",
+    "subtitle": "Sieben kompakte Mietwagen, abgestimmt auf Kreuzfahrt-Landgänge, Altstadt-Parkplätze und die Lovćen-Serpentinen.",
+    "seoDesc": "Mietwagen in Kotor, passend zur Bucht — Kleinwagen und kompakte Crossover für Kreuzfahrt-Ausflüge, Parkbuchten an den Altstadttoren und die 25 Lovćen-Haarnadelkurven.",
+    "intro1": "Die sieben Fahrzeuge auf dieser Seite wurden für einen bestimmten Kotor-Tag ausgewählt. Die Altstadt innerhalb der Mauern ist Fußgängerzone — kein Auto passiert das Seetor, das Flusstor oder die Gurdić-Brücke — also leistet der Mietwagen seine Arbeit im Ring darum herum. Die Tabacina-Plätze unter der Bastion, der kostenlose Überlauf oberhalb von Dobrota, die terrassierten Buchten zwischen Prčanj und Stoliv, die einspurige Uferstraße durch Perast: alle wurden für Fahrzeuge unter 4 Metern Länge angelegt, und jedes Auto unten passt hinein ohne Rangieren. Kreuzfahrtpassagiere mit Tagesmiete profitieren genauso: Was an die Bucht passt, passt auch an die Kreuzfahrt-Übergabestelle.",
+    "intro2": "Die andere Hälfte des Kotor-Auftrags ist die Lovćen-Serpentine — die alte österreichische Straße steigt 900 Meter in 25 Haarnadeln, und die wendigeren Autos hier (208, Polo, Yaris, Fiat 500) nehmen jede Kurve ohne das Bordstein-Schrammen, das größere Miet-SUVs erwischt. Denken Sie an Lovćen und Njeguši als Nachmittagsausflug, nicht als Hauptprogramm: Kotor → Perast → Risan sind 25 km einspurige Uferstraße, und Cetinje über den Krštac-Schotterabzweig ist eine Mittagsschleife. Tivat Airport (TIV) liegt 8 km durch den Vrmac-Tunnel, die meisten Autos kommen mit 90 % Tankfüllung an, und das Parken am Flughafen-Übergabepunkt ist unkomplizierter als alles, was danach kommt.",
+    "intro3": "Zwei praktische Regeln für die Wahl. Erstens: Nach Parkplatz auswählen, nicht nach Leistung. Ein Golf fährt Lovćen schneller als ein 208, kostet Sie aber an einem Juli-Nachmittag an der Tabacina, wenn jede ebenerdige Bucht belegt ist; ein 208 kostet Sie in keinem Fall. Zweitens: Behandeln Sie Kraftstoff als Nebensache unter 300 km Gesamtfahrt. Kreuzfahrt-Tagesmieten überschreiten selten 120 km, Bucht-basierte Wochen kommen auf durchschnittlich 60 km pro Tag, und der Yaris Hybrid — das sparsamste Auto dieser Liste — spart etwa €25 über einen siebentägigen Aufenthalt gegenüber dem durstigsten. Das Auto, das am Ende jeder Fahrt entspannt ist, zählt in Kotor mehr als das, das jede Fahrt zuerst beendet."
   },
   "common": {
     "home": "Startseite",

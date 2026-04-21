@@ -1,10 +1,36 @@
 {
   "nav": {
     "book": "Prenota",
+    "fleet": "Flotta",
     "destinations": "Destinazioni",
     "about": "Chi Siamo",
     "blog": "Guida",
     "contact": "Contatti"
+  },
+  "cars": {
+    "readGuide": "Leggi la guida"
+  },
+  "fleetShowcase": {
+    "label": "Conosci l'auto",
+    "title": "Guide per ogni auto della flotta di Kotor",
+    "subtitle": "Scheda tecnica, consumi, bagagliaio e a cosa serve ogni auto nella Baia di Kotor, Perast e sul Lovćen.",
+    "viewAll": "Vedi tutte le guide",
+    "tabs": {
+      "all": "Tutte",
+      "economy": "Utilitarie",
+      "midsize": "Media",
+      "premium": "Premium",
+      "suv": "SUV",
+      "van": "Van"
+    }
+  },
+  "fleetIndex": {
+    "title": "La nostra flotta per la Baia di Kotor",
+    "subtitle": "Sette auto compatte tarate per le escursioni da crociera, i parcheggi sotto la città vecchia e i tornanti del Lovćen.",
+    "seoDesc": "Auto a noleggio a Kotor dimensionate per la baia — utilitarie benzina e piccoli crossover per escursioni da crociera, parcheggi alle porte della città murata e i 25 tornanti del Lovćen.",
+    "intro1": "Le sette auto di questa pagina sono state scelte per un tipo preciso di giornata a Kotor. La città vecchia dentro le mura è pedonale — nessuna auto varca la Porta del Mare, la Porta del Fiume o il ponte Gurdić — quindi la macchina lavora nell'anello esterno. I parcheggi Tabacina sotto il bastione, lo stallo libero sopra Dobrota, le piazzole scalinate tra Prčanj e Stoliv, la corsia unica sul lungomare di Perast: tutti progettati per ingombri sotto i 4 metri, e ogni auto qui sotto entra senza manovre a tre punti. I passeggeri da crociera con noleggio giornaliero hanno lo stesso vantaggio: ciò che entra nella baia entra anche alla consegna del terminal crociere.",
+    "intro2": "L'altra metà del compito di Kotor è il serpentino del Lovćen — la vecchia strada austriaca sale 900 metri in 25 tornanti, e le auto dal raggio di sterzo più stretto (208, Polo, Yaris, Fiat 500) prendono ogni curva senza il grattare dei pneumatici sul cordolo che tradisce i SUV a noleggio più grandi. Pensa al Lovćen e a Njeguši come a una gita pomeridiana, non al programma principale: Kotor → Perast → Risan sono 25 km di strada costiera a una corsia, e Cetinje passando dallo sterrato del Krštac è un anello da pranzo. L'aeroporto di Tivat (TIV) dista 8 km attraverso il tunnel di Vrmac, la maggior parte delle auto arrivano col 90% di serbatoio, e il parcheggio alla consegna aeroporto è il più semplice del viaggio.",
+    "intro3": "Due regole pratiche per scegliere. Prima: scegli in base al parcheggio, non alla potenza. Una Golf farà il Lovćen più veloce di una 208 ma ti penalizzerà alla Tabacina un pomeriggio di luglio quando ogni posto al piano terra è occupato; una 208 non ti costa nulla in nessuno dei due casi. Seconda: sotto i 300 km totali di guida, considera il carburante una voce trascurabile. I noleggi da crociera raramente superano i 120 km, le settimane basate in baia fanno in media 60 km al giorno, e la Yaris Hybrid — la più economica della lista — ti fa risparmiare circa €25 su sette notti rispetto alla più sete. A Kotor conta di più l'auto che arriva serena a fine giornata di quella che finisce prima ogni tratto."
   },
   "common": {
     "home": "Home",
