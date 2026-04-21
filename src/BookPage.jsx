@@ -10,6 +10,7 @@ import './BookPage.css';
 export default function BookPage() {
   const { t, lang, localePath } = useTranslation();
   const [iframeHeight, setIframeHeight] = useState(700);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
   const iframeRef = useRef(null);
   const params = useSearchParams();
 
@@ -36,11 +37,19 @@ export default function BookPage() {
 
   useEffect(() => {
     function onMessage(e) {
-      if (e.data && e.data.type === 'iframeHeight') setIframeHeight(e.data.height);
+      if (!e.data) return;
+      if (e.data.type === 'iframeHeight') setIframeHeight(e.data.height);
+      if (e.data.type === 'lightboxOpen') setLightboxOpen(true);
+      if (e.data.type === 'lightboxClose') setLightboxOpen(false);
     }
     window.addEventListener('message', onMessage);
     return () => window.removeEventListener('message', onMessage);
   }, []);
+
+  useEffect(() => {
+    document.body.style.overflow = lightboxOpen ? 'hidden' : '';
+    return () => { document.body.style.overflow = ''; };
+  }, [lightboxOpen]);
 
   return (
     <div className="book-page">
@@ -54,7 +63,17 @@ export default function BookPage() {
           title="Car rental booking"
           frameBorder="0"
           scrolling="no"
-          style={{ height: iframeHeight }}
+          style={lightboxOpen ? {
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            width: '100vw',
+            height: '100vh',
+            zIndex: 9999,
+            border: 'none',
+          } : { height: iframeHeight }}
         />
       </div>
       <Footer />

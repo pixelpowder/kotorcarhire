@@ -15,16 +15,36 @@
     @media (prefers-color-scheme: dark) {
       html, body { background-color: #fff !important; color: #333 !important; }
     }
-    /* Hide widget sections immediately — before JS loads */
+    /* Hide widget promotional sections — use exact classes only, avoid wildcards that break car detail modals */
     .featuring-cool-cars,
-    .highlight-container,
-    [class*="featuring"],
-    [class*="top-pick"],
-    [class*="top_pick"],
-    [class*="banner"],
-    [class*="promo"],
-    [class*="winter"],
-    [class*="notification"] { display: none !important; height: 0 !important; overflow: hidden !important; visibility: hidden !important; }
+    .highlight-container { display: none !important; height: 0 !important; overflow: hidden !important; visibility: hidden !important; }
+
+    /* Fix for car detail lightbox — slides collapse to 0 height in iframe without explicit height */
+    .booking__lightbox { min-height: 600px !important; }
+    .booking__lightbox__gallery,
+    .booking__lightbox__gallery .swiper-wrapper { height: 100% !important; min-height: 500px !important; }
+    .booking__lightbox__gallery .swiper-slide {
+      height: auto !important;
+      min-height: 500px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+    .booking__lightbox__gallery .swiper-zoom-container {
+      width: 100% !important;
+      height: 100% !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+    .booking__lightbox__gallery img {
+      max-height: 80vh !important;
+      max-width: 100% !important;
+      width: auto !important;
+      height: auto !important;
+      object-fit: contain !important;
+      display: block !important;
+    }
   </style>
   <script>
     // Intercept widget style injections and recolour green → navy/blue
@@ -86,7 +106,7 @@
       script.async = true;
       script.setAttribute('data-mrc-wl',   'true');
       script.setAttribute('data-affiliate','14905');
-      script.setAttribute('data-marker',   'kotorcarhire');
+      script.setAttribute('data-marker',   'kotorcarrental');
       script.setAttribute('data-country',  '133');
       script.setAttribute('data-city',     cityId);
       script.setAttribute('data-routing',  'on');
@@ -177,6 +197,27 @@
     }
     const ro = new ResizeObserver(sendHeight);
     ro.observe(document.body);
+
+    // When lightbox opens, tell parent to make iframe fullscreen-fixed so modal is in viewport
+    new MutationObserver((mutations) => {
+      for (const m of mutations) {
+        for (const node of m.addedNodes) {
+          if (node.nodeType !== 1) continue;
+          const lightbox = node.classList?.contains('booking__lightbox')
+            ? node
+            : node.querySelector?.('.booking__lightbox');
+          if (lightbox) {
+            window.parent.postMessage({ type: 'lightboxOpen' }, '*');
+          }
+        }
+        for (const node of m.removedNodes) {
+          if (node.nodeType !== 1) continue;
+          if (node.classList?.contains('booking__lightbox')) {
+            window.parent.postMessage({ type: 'lightboxClose' }, '*');
+          }
+        }
+      }
+    }).observe(document.body, { childList: true, subtree: true });
     window.addEventListener('load', sendHeight);
 
     // Inject brand overrides after widget CSS loads
