@@ -30,7 +30,7 @@ export default function Budva() {
       <p>{t('budvaBody.lovcenTrip')}</p>
 
       <h2>{t('budvaBody.gettingAroundTitle')}</h2>
-      <p>{t('budvaBody.gettingAroundText')} <a href={localePath('/tivat-airport')}>{t('budvaBody.tivatLinkText')}</a>{t('budvaBody.tivatLinkAfter')}</p>
+      <p>{t('budvaBody.gettingAroundText')} <a href={localePath('/tivat-airport')}>{t('budvaBody.tivatLinkText')}</a> {t('budvaBody.tivatLinkAfter')}</p>
     </ContentPage>
   );
 }

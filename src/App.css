@@ -2808,7 +2808,7 @@ select.booking-field__input {
   opacity: 0;
   transition: opacity 0.3s ease;
   pointer-events: none;
-  padding: 6% 8%;
+  padding: max(20px, 8%) max(60px, 14%);
   box-sizing: border-box;
 }
 .car-gallery__img--active {
@@ -2836,8 +2836,8 @@ select.booking-field__input {
   background: rgb(0, 98, 227);
   color: #fff;
 }
-.car-gallery__arrow--prev { left: 14px; }
-.car-gallery__arrow--next { right: 14px; }
+.car-gallery__arrow--prev { left: 8px; }
+.car-gallery__arrow--next { right: 8px; }
 .car-gallery__counter {
   position: absolute;
   bottom: 14px;

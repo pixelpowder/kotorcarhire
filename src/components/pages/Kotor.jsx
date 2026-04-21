@@ -20,7 +20,7 @@ export default function Kotor() {
       <img src="/img/pexels-22034286.jpg" alt="Kotor fortress walls climbing the mountain above the Old Town" loading="lazy" />
 
       <h2>{t('kotorBody.dayTripsTitle')}</h2>
-      <p>{t('kotorBody.perastTrip')} <a href={localePath('/perast')}>{t('kotorBody.perastLinkText')}</a>{t('kotorBody.perastLinkAfter')}</p>
+      <p>{t('kotorBody.perastTrip')} <a href={localePath('/perast')}>{t('kotorBody.perastLinkText')}</a> {t('kotorBody.perastLinkAfter')}</p>
       <p>{t('kotorBody.cetinjeTrip')}</p>
       <p>{t('kotorBody.royalCourtText')}</p>
     </ContentPage>
