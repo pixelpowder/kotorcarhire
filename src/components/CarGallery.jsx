@@ -33,15 +33,17 @@ export default function CarGallery({ images, alt }) {
       aria-label={`Photo gallery of ${alt}`}
     >
       <div className="car-gallery__stage">
-        {images.map((src, i) => (
-          <img
+        <div className="car-gallery__frame">
+          {images.map((src, i) => (
+            <img
             key={src}
             src={src}
             alt={`${alt} — photo ${i + 1}`}
             loading={i === 0 ? 'eager' : 'lazy'}
             className={`car-gallery__img${i === active ? ' car-gallery__img--active' : ''}`}
           />
-        ))}
+          ))}
+        </div>
 
         {images.length > 1 && (
           <>
