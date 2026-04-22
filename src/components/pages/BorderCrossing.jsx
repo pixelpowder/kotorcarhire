@@ -21,6 +21,7 @@ export default function BorderCrossing() {
       <p>{t('borderCrossingBody.croatiaFerry')} {t('borderCrossingBody.dubrovnikLinkBefore')} <a href={localePath('/dubrovnik-airport')}>{t('borderCrossingBody.dubrovnikLinkText')}</a> {t('borderCrossingBody.dubrovnikLinkAfter')}</p>
       <h3>{t('borderCrossingBody.albaniaTitle')}</h3>
       <p>{t('borderCrossingBody.albaniaText')}</p>
+      <p>{t('borderCrossingBody.albaniaTirana')}</p>
       <p>{t('borderCrossingBody.albaniaNote')}</p>
       <h3>{t('borderCrossingBody.bosniaTitle')}</h3>
       <p>{t('borderCrossingBody.bosniaText')}</p>
@@ -35,7 +36,7 @@ export default function BorderCrossing() {
       <p>{t('borderCrossingBody.lawsIntro')}</p>
       <ul><li>{t('borderCrossingBody.law1')}</li><li>{t('borderCrossingBody.law2')}</li><li>{t('borderCrossingBody.law3')}</li><li>{t('borderCrossingBody.law4')}</li><li>{t('borderCrossingBody.law5')}</li></ul>
       <h2>{t('borderCrossingBody.popularTitle')}</h2>
-      <ul><li>{t('borderCrossingBody.route1')}</li><li>{t('borderCrossingBody.route2')}</li><li>{t('borderCrossingBody.route3')}</li><li>{t('borderCrossingBody.route4')}</li></ul>
+      <ul><li>{t('borderCrossingBody.route1')}</li><li>{t('borderCrossingBody.route2')}</li><li>{t('borderCrossingBody.route3')}</li><li>{t('borderCrossingBody.route4')}</li><li>{t('borderCrossingBody.route5')}</li></ul>
       <p>{t('borderCrossingBody.ctaText')}</p>
     </ContentPage>
   );
