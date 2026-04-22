@@ -52,20 +52,41 @@ export default async function LangCarDetailRoute({ params }) {
     carMetas[slug]?.en?.desc ||
     car.suitability;
 
-  // Vehicle schema — no price (pricing is dynamic, handled by the booking widget)
+  // Car schema with per-day rental Offer — satisfies GSC "Product snippets
+  // missing offers" without faking reviews. Rental, not a sale.
+  const SITE = `https://www.${config.domain}`;
   const vehicleSchema = {
     '@context': 'https://schema.org',
-    '@type': 'Vehicle',
+    '@type': 'Car',
     'name': car.name,
     'description': localizedDesc,
-    'image': `${SITE}${car.image}`,
+    'image': car.image && (car.image.startsWith('http') ? car.image : `${SITE}${car.image}`),
     'brand': { '@type': 'Brand', 'name': car.name.split(' ')[0] },
-    'vehicleSeatingCapacity': car.seats,
     'vehicleTransmission': car.transmission,
     'fuelType': car.fuel,
+    'numberOfDoors': car.doors,
+    'seatingCapacity': car.seats,
     'inLanguage': lang === 'me' ? 'cnr' : lang,
     ...(car.details?.consumption && { 'fuelConsumption': car.details.consumption }),
     ...(car.details?.topSpeed && { 'speed': car.details.topSpeed }),
+    'offers': {
+      '@type': 'Offer',
+      'priceCurrency': 'EUR',
+      'availability': 'https://schema.org/InStock',
+      'url': `${SITE}/${lang}/cars/${slug}`,
+      'priceValidUntil': `${new Date().getFullYear() + 1}-12-31`,
+      'priceSpecification': {
+        '@type': 'UnitPriceSpecification',
+        'price': String(car.price),
+        'priceCurrency': 'EUR',
+        'unitCode': 'DAY',
+        'referenceQuantity': {
+          '@type': 'QuantitativeValue',
+          'value': 1,
+          'unitCode': 'DAY',
+        },
+      },
+    },
   };
 
   return (
