@@ -102,30 +102,40 @@ export default function LocaleAwareSchema({ lang = 'en' }) {
     "mainEntity": faqItems,
   };
 
-  // Product/Offer list for fleet cars — fixes "Product snippets missing offers" GSC issue
+  // Car rental fleet — "Car" subtype with per-day rental offer.
+  // Fixes the "Product snippets missing offers" GSC issue without faking reviews
+  // (rental, not a sale — price is daily rate).
   const siteUrl = BASE_AUTO_RENTAL.url;
   const vehicleList = (config.cars || []).map((car, i) => ({
     "@type": "ListItem",
     "position": i + 1,
     "item": {
-      "@type": "Product",
+      "@type": "Car",
       "name": car.name,
       "image": car.image && (car.image.startsWith('http') ? car.image : `${siteUrl}${car.image}`),
       "description": `${car.category} rental — ${car.transmission}, ${car.fuel}, ${car.seats} seats`,
       "brand": { "@type": "Brand", "name": car.name.split(' ')[0] },
+      "vehicleTransmission": car.transmission,
+      "fuelType": car.fuel,
+      "numberOfDoors": car.doors,
+      "seatingCapacity": car.seats,
       "offers": {
         "@type": "Offer",
-        "price": String(car.price),
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
         "url": `${siteUrl}/book`,
         "priceValidUntil": `${new Date().getFullYear() + 1}-12-31`,
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "47",
-        "bestRating": "5"
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": String(car.price),
+          "priceCurrency": "EUR",
+          "unitCode": "DAY",
+          "referenceQuantity": {
+            "@type": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "DAY"
+          }
+        }
       }
     }
   }));
