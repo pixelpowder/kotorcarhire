@@ -130,7 +130,7 @@
   color: var(--navy);
 }
 
-.content-body__inner img {
+.content-body__inner > img {
   width: 100%;
   border-radius: 12px;
   margin: 20px 0 24px;
