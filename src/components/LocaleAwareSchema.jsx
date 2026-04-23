@@ -67,7 +67,7 @@ function pick(obj, path) {
   return path.split('.').reduce((o, k) => (o && o[k] !== undefined ? o[k] : undefined), obj);
 }
 
-export default function LocaleAwareSchema({ lang = 'en' }) {
+export default function LocaleAwareSchema({ lang = 'en', isHomepage = true }) {
   const locale = translations[lang] ? lang : 'en';
   const t = translations[locale];
 
@@ -153,7 +153,7 @@ export default function LocaleAwareSchema({ lang = 'en' }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(autoRental) }}
       />
-      {faqItems.length > 0 && (
+      {isHomepage && faqItems.length > 0 && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPage) }}
