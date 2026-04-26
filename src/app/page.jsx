@@ -5,7 +5,7 @@ const SITE_URL = 'https://www.kotorcarhire.com';
 const SITE_NAME = 'Kotor Car Hire';
 
 export async function generateMetadata() {
-  const title = 'Car Hire in Montenegro — Tivat & Podgorica Airport Pickup | Kotor Car Hire';
+  const title = 'Car Hire in Montenegro, Tivat & Podgorica Airport Pickup | Kotor Car Hire';
   const description = t('en', 'home.seoDesc');
   return {
     title,

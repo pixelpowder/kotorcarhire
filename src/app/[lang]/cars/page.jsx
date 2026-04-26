@@ -9,7 +9,7 @@ export async function generateMetadata({ params }) {
   const descTranslated = t(lang, descKey);
   const description = descTranslated !== descKey
     ? descTranslated
-    : 'Kotor rental cars sized for the Bay — economy hatches and compact crossovers for cruise shore trips, Old Town gate parking and the 25 Lovćen hairpins.';
+    : 'Kotor rental cars sized for the Bay, economy hatches and compact crossovers for cruise shore trips, Old Town gate parking and the 25 Lovćen hairpins.';
   const titleTranslated = t(lang, 'fleetIndex.title');
   const baseTitle = titleTranslated !== 'fleetIndex.title' ? titleTranslated : 'Our Fleet for the Bay of Kotor';
   const title = `${baseTitle} | Kotor Car Hire`;

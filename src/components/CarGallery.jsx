@@ -38,7 +38,7 @@ export default function CarGallery({ images, alt }) {
             <img
             key={src}
             src={src}
-            alt={`${alt} — photo ${i + 1}`}
+            alt={`${alt}, photo ${i + 1}`}
             loading={i === 0 ? 'eager' : 'lazy'}
             className={`car-gallery__img${i === active ? ' car-gallery__img--active' : ''}`}
           />

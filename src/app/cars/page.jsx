@@ -12,7 +12,7 @@ export async function generateMetadata() {
   const descT = t('en', descKey);
   const description = descT !== descKey
     ? descT
-    : 'Kotor rental cars sized for the Bay — economy hatches and compact crossovers for cruise shore trips, Old Town gate parking and the 25 Lovćen hairpins.';
+    : 'Kotor rental cars sized for the Bay, economy hatches and compact crossovers for cruise shore trips, Old Town gate parking and the 25 Lovćen hairpins.';
   return {
     title,
     description,
