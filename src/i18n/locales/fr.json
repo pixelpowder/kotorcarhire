@@ -5,10 +5,161 @@
     "destinations": "Villes",
     "about": "À Propos",
     "blog": "Actualités",
-    "contact": "Nous contacter"
+    "contact": "Nous contacter",
+    "bayOfKotor": "Baie de Kotor"
   },
   "cars": {
-    "readGuide": "Lire le guide"
+    "readGuide": "Lire le guide",
+    "whoForTitle": "À qui s'adresse cette voiture ?",
+    "regionalTitle": "Meilleur usage régional",
+    "featuresTitle": "À l'intérieur",
+    "relatedTitle": "Où cette voiture vous emmène",
+    "overviewTitle": "En un coup d'œil",
+    "articleTitle": "Autour de la baie de Kotor",
+    "checkAvailability": "Voir disponibilité & tarifs en direct",
+    "nextBtn": "Suivant dans la flotte",
+    "schemaDescription": "Location {category}, {transmission}, {fuel}, {seats} places",
+    "sections": {
+      "behindWheel": "Au volant",
+      "onRoads": "Sur les routes de Kotor",
+      "spaceLoad": "Espace et chargement",
+      "bestFor": "Les meilleurs trajets pour cette voiture",
+      "practical": "Notes pratiques",
+      "verdict": "Le verdict"
+    },
+    "vw-polo": {
+      "name": "VW Polo",
+      "category": "Économique",
+      "tagline": "Compacte qui se glisse dans les places sud de Kotor sans frotter les rétroviseurs",
+      "lede": "Deux bagages cabine, cinq places, un rayon de braquage taillé pour les ruelles médiévales menant à la Porte de la Mer.",
+      "suitability": "Deux voyageurs avec bagages cabine récupérant à Tivat et logeant dans la vieille ville de Kotor, la Polo est la citadine essence la plus facile à garer de la flotte.",
+      "regional": "Se gare dans les emplacements de Tabacina pour moins de 1,50 €/h, traverse la voie unique du front de mer de Perast et tient les 100 km/h sur la montée de Sozina sans broncher. Un essence quatre cylindres est le bon choix pour ceux qui veulent se faufiler en fin de journée.",
+      "bestFor": [
+        "Couples",
+        "Locations à la journée croisière",
+        "Premiers visiteurs de la baie"
+      ],
+      "features": [
+        "Climatisation",
+        "Audio Bluetooth",
+        "Recharge USB",
+        "Verrouillage centralisé"
+      ]
+    },
+    "fiat-500": {
+      "name": "Fiat 500",
+      "category": "Citadine",
+      "tagline": "Citadine carte postale taillée pour les portes des bastions et les renfoncements côtiers",
+      "lede": "Se gare là où rien d'autre ne passe, idéale pour des séjours de quatre nuits à Kotor, Perast ou sur le front de mer de Dobrota.",
+      "suitability": "Un ou deux voyageurs dont la baie de Kotor est faite de courts trajets entre arrêts photo, Kotor à Perast, Dobrota à Prčanj, et retour avant le coucher du soleil.",
+      "regional": "Tient dans les renfoncements côtiers entre Kotor et Perast là où une Golf échoue, toit ouvrant ouvert au belvédère du virage 17 au-dessus de Dobrota, coffre juste assez grand pour un trépied et une glacière. Sous-motorisée pour la serpentine de Lovćen en été, restez côtier et la 500 fait son charme.",
+      "bestFor": [
+        "Passagers de croisière",
+        "Voyageurs solo",
+        "Photographes"
+      ],
+      "features": [
+        "Format compact",
+        "Stationnement facile",
+        "Toit ouvrant",
+        "Bluetooth"
+      ]
+    },
+    "peugeot-208": {
+      "name": "Peugeot 208",
+      "category": "Économique",
+      "tagline": "Direction française précise pour les lacets de Lovćen, vive dans les 25 épingles",
+      "lede": "Petit volant, planche de bord haute, train plus ferme qu'une Clio, la petite citadine la plus récompensée par la route de montagne de Kotor.",
+      "suitability": "Couples dont le voyage à Kotor s'appuie sur l'ancienne route autrichienne, la 208 est la citadine la plus incisive de la flotte dans les 25 lacets au-dessus de la baie.",
+      "regional": "Vive dans les lacets de Lovćen entre Kotor et Njeguši, agréable sur les courts tronçons d'autoroute vers Budva, et le petit volant semble fait pour les virages serrés monténégrins. Coffre plus juste qu'une Polo, voyagez léger si vous embarquez toute la famille.",
+      "bestFor": [
+        "Conducteurs qui aiment conduire",
+        "Couples",
+        "Excursionnistes de Lovćen"
+      ],
+      "features": [
+        "i-Cockpit",
+        "Apple CarPlay",
+        "Recharge USB",
+        "Capteurs de stationnement arrière"
+      ]
+    },
+    "citroen-c3": {
+      "name": "Citroen C3",
+      "category": "Économique",
+      "tagline": "La citadine au confort le plus moelleux de la baie, avale l'asphalte rapiécé après Risan",
+      "lede": "Suspension à grande course, sièges en mousse profonde, la C3 étouffe les ruptures de chaussée que les autres B combattent.",
+      "suitability": "Pour qui privilégie les konobas tranquilles du front de mer plutôt que les plannings serrés, la C3 est la petite voiture la plus confortable que la baie met en location.",
+      "regional": "L'amortissement permet d'aborder l'asphalte rapiécé jusqu'à Risan et aux mosaïques d'Hypnos sans faire claquer les plombages, et les sièges hauts et rembourrés conviennent aux passagers de croisière dont la journée à terre se termine sur les bancs de Tabacina. Sous-motorisée dans la montée de Lovćen, si vous êtes pris par l'horaire de croisière, choisissez plus puissant.",
+      "bestFor": [
+        "Voyageurs plus âgés",
+        "Locataires axés confort",
+        "Explorateurs lents des routes secondaires"
+      ],
+      "features": [
+        "Sièges Advanced Comfort",
+        "Audio Bluetooth",
+        "Recharge USB",
+        "Avertisseur de franchissement de ligne"
+      ]
+    },
+    "toyota-yaris": {
+      "name": "Toyota Yaris",
+      "category": "Économique",
+      "tagline": "La voiture la moins chère à faire le plein sur la baie, l'hybride sirote l'essence à 1,50 €/L",
+      "lede": "3,8 L/100 km en conditions réelles. La Yaris Hybride avance au pas dans le trafic de Kotor en mode électrique, puis glisse sur la route de la baie sans réveiller le moteur.",
+      "suitability": "Voyageurs qui passent deux semaines sur un seul plein, l'hybride se rentabilise sur la boucle quotidienne Kotor, Perast, Risan.",
+      "regional": "Avance en pur électrique dans le trafic scolaire matinal au contournement de Škaljari, puis remonte la route de la baie vers Perast sans bouger l'aiguille du carburant. Pas la voiture pour les sorties à Žabljak, la petite batterie se vide sur les longues montées, mais pour une semaine sur la baie elle est discrètement remarquable.",
+      "bestFor": [
+        "Visiteurs longue durée soucieux du carburant",
+        "Trajets surtout urbains",
+        "Excursions matinales en croisière"
+      ],
+      "features": [
+        "Motorisation hybride",
+        "Caméra de recul",
+        "Apple CarPlay",
+        "Régulateur adaptatif"
+      ]
+    },
+    "kia-stonic": {
+      "name": "Kia Stonic",
+      "category": "Crossover compact",
+      "tagline": "Garde au sol surélevée sans prime SUV de location, le compromis pour les pistes vers Njeguši",
+      "lede": "Coffre de 352 litres, hauteur de hanches relevée, 1,0 essence modeste, le crossover pour les antennes non goudronnées hors de la route de Lovćen.",
+      "suitability": "Locataires dont les journées à Kotor incluent le raccourci de Krstac hors de l'ancienne route autrichienne, ou l'approche gravillonnée du lac Kapetanovo, plus haut qu'une citadine sans factures de carburant de SUV.",
+      "regional": "La garde au sol supplémentaire avale le dernier kilomètre non goudronné sous Njeguši, le détour parsemé de nids-de-poule vers Stoliv haut, et les bas-côtés cassés au nord de Risan. Traction avant uniquement, choisissez-le pour les routes non goudronnées par temps sec, pas pour une montée à Žabljak en janvier.",
+      "bestFor": [
+        "Couples partant vers l'intérieur des terres",
+        "Voyageurs hors saison",
+        "Locataires de crossover économiques"
+      ],
+      "features": [
+        "Garde au sol surélevée",
+        "Apple CarPlay",
+        "Caméra de recul",
+        "Assistance au maintien de voie"
+      ]
+    },
+    "vw-golf": {
+      "name": "VW Golf",
+      "category": "Berline compacte",
+      "tagline": "La référence diesel-DSG, à l'aise sur la route de la baie, l'autoroute ou la montée du Lovćen",
+      "lede": "L'encombrement maniable d'une Polo avec le raffinement d'une Passat, le choix rationnel pour les trajets mêlant côte et montagne.",
+      "suitability": "Couples dont la base Kotor sert d'ancrage à des excursions vers Dubrovnik, Mostar ou Žabljak, la Golf gère les passages de frontière sans imposer l'encombrement d'un SUV.",
+      "regional": "Traverse le tunnel de Vrmac et l'accès au ferry Kamenari, Lepetane avec la sérénité d'une voiture plus grande, sort 4,3 L/100 km sur la liaison Debeli Brijeg vers Dubrovnik, et la DSG lit les lacets de Lovćen sans que vous ne touchiez au levier. Train plus ferme qu'une C3 sur les routes secondaires défoncées, un compromis acceptable pour le calme autoroutier.",
+      "bestFor": [
+        "Couples mêlant ville et campagne",
+        "Excursionnistes transfrontaliers",
+        "Transferts aéroport, baie"
+      ],
+      "features": [
+        "Boîte DSG",
+        "Régulateur adaptatif",
+        "Cockpit numérique",
+        "Apple CarPlay"
+      ]
+    }
   },
   "fleetShowcase": {
     "label": "Connaître sa voiture",
@@ -38,7 +189,9 @@
     "callUs": "Appelez-nous",
     "bookNow": "Réserver",
     "perDay": "par jour",
-    "emailUs": "Nous contacter"
+    "emailUs": "Nous contacter",
+    "whatsappAria": "Discuter sur WhatsApp",
+    "scrollTopAria": "Remonter en haut"
   },
   "hero": {
     "headline": "Location de Voiture à Kotor",
@@ -127,7 +280,8 @@
   "book": {
     "title": "Trouvez Votre Voiture",
     "seoTitle": "Réserver une Voiture",
-    "seoDesc": "Réservez une voiture de location à Kotor en quelques secondes."
+    "seoDesc": "Réservez une voiture de location à Kotor en quelques secondes.",
+    "iframeTitle": "Réservation de location de voiture"
   },
   "footer": {
     "brandDesc": "Location de voiture courte durée à Kotor depuis l'aéroport de Tivat et les portes de la Vieille Ville. Assurance complète, expertise des routes côtières, et tarifs fixes toute la saison.",
@@ -154,7 +308,8 @@
     "title": "Mauvais Virage",
     "text": "On dirait que vous avez fait un détour. Cette route ne mène nulle part, mais les plus beaux itinéraires de la baie de Kotor sont à un clic de distance.",
     "backHome": "Retour à l'Accueil",
-    "searchCars": "Rechercher"
+    "searchCars": "Rechercher",
+    "metaTitle": "Page introuvable"
   },
   "home": {
     "seoDesc": "Louez une voiture à Kotor à partir de €13 par jour. Aéroport de Tivat à 8 km, la ville fortifiée UNESCO à vos pieds, et 60 km de route de fjord."
@@ -339,32 +494,16 @@
       "a": "Votre agent vous attend dans le hall des arrivées de l'aéroport de Tivat avec une pancarte à votre nom. La voiture est garée juste à l'extérieur. Du terminal aux remparts de la vieille ville de Kotor, comptez environ 15 minutes par la route de la baie. Nous pouvons également organiser la prise en charge au parking Tabacina, à l'entrée de la vieille ville."
     },
     "5": {
-      "q": "Puis-je restituer le véhicule dans un autre lieu ?",
-      "a": "Les locations en aller simple sont disponibles dans 28 points de prise en charge et de restitution au Monténégro. Sélectionnez des lieux différents lors de la réservation, des frais de trajet unique peuvent s'appliquer selon la distance."
+      "q": "Quelle est la politique d'annulation ?",
+      "a": "Annulation gratuite jusqu'à 7 jours avant la date de début de location. Les voitures de luxe et cabriolets nécessitent un préavis de 30 jours. Des frais de traitement de 6 % s'appliquent à toutes les annulations, quelle que soit la période."
     },
     "6": {
-      "q": "Quelle est la politique d'annulation ?",
-      "a": "L'annulation gratuite est possible jusqu'à 7 jours avant la date de début de location. Les voitures de luxe et les cabriolets nécessitent 30 jours de préavis. Des frais de traitement du paiement de 6 % sont appliqués à toutes les annulations, quel que soit le moment."
+      "q": "Une caution est-elle requise ?",
+      "a": "La plupart des véhicules nécessitent une caution de 100 € à 350 € sur une carte de crédit physique au nom du conducteur. Certaines voitures économiques sont disponibles sans caution, ces options sont clairement indiquées dans les résultats. La caution est libérée lorsque le véhicule est rendu sans dommage."
     },
     "7": {
-      "q": "Un dépôt de garantie est-il requis ?",
-      "a": "La plupart des véhicules nécessitent un dépôt de 100 à 350 € sur une carte de crédit physique au nom du conducteur. Quelques véhicules économiques sont disponibles sans dépôt, clairement indiqués dans les résultats de recherche. La somme est libérée au retour du véhicule sans dommages."
-    },
-    "8": {
-      "q": "Que se passe-t-il si je dépasse la limite de kilométrage ?",
-      "a": "Les véhicules avec restriction de kilométrage appliquent un tarif par kilomètre supplémentaire. Le tarif exact figure dans les détails du véhicule avant confirmation de réservation."
-    },
-    "9": {
-      "q": "Y a-t-il des frais cachés ?",
-      "a": "Non. Le prix affiché comprend toutes les taxes et tous les frais. Pas de surcharges aéroport, pas de surprises sur la politique carburant, rien n'est ajouté au comptoir."
-    },
-    "10": {
-      "q": "Combien dois-je payer à l'avance ?",
-      "a": "Un acompte de 15 à 20 % du coût total de la location est requis pour confirmer votre réservation. Le solde est réglé directement auprès de l'agent de location lors de la prise en charge du véhicule."
-    },
-    "11": {
-      "q": "Puis-je louer sans carte de crédit ?",
-      "a": "Un petit nombre de véhicules de la flotte est disponible sans carte de crédit. Ces options sont clairement indiquées dans les résultats de recherche lorsque vous filtrez par lieu de prise en charge."
+      "q": "Où se garer dans la vieille ville de Kotor ?",
+      "a": "La vieille ville est piétonne. Utilisez le parking à étages Tabacina (5 minutes à pied de la Porte de la Mer, complet vers 10 h en été) ou le parking de la Porte du Fleuve le long du ruisseau Skurda (moins cher, gratuit hors saison). Un parking de débordement temporaire fonctionne sur la route d'accès en juillet et août avec une navette vers les remparts."
     }
   },
   "destCards": {
@@ -477,7 +616,10 @@
     "historicTitle": "Sites historiques",
     "historicText": "La ville compte de nombreux palais, cathédrales et plusieurs tours de guet qui protégeaient autrefois la cité. Pour ceux qui souhaitent découvrir l'histoire de Perast en détail, le musée de Perast contient de nombreux objets, archives, peintures, sculptures et documents municipaux. Le musée est installé dans l'ancien Palata Buiovich, que beaucoup considèrent comme le plus beau bâtiment de la côte monténégrine.",
     "monasteryTitle": "Monastère de Banja",
-    "monasteryText": "Situé juste au nord de Perast sur la route de Risan, le monastère de Banja abrite de nombreuses pièces religieuses anciennes provenant des dynasties russes, grecques et de Boka. Pour atteindre le monastère, continuez vers le nord sur la E65/E80 sur quelques kilomètres seulement."
+    "monasteryText": "Situé juste au nord de Perast sur la route de Risan, le monastère de Banja abrite de nombreuses pièces religieuses anciennes provenant des dynasties russes, grecques et de Boka. Pour atteindre le monastère, continuez vers le nord sur la E65/E80 sur quelques kilomètres seulement.",
+    "routeLinkBefore": "Planifiez votre itinéraire avec notre",
+    "routeLinkText": "guide de conduite et itinéraires au Monténégro",
+    "routeLinkAfter": "."
   },
   "tivatBody": {
     "h1": "Tivat, Ville de la marina",
@@ -509,7 +651,9 @@
     "facilitiesText": "L'aéroport propose des cafés, des téléphones publics, des boutiques de souvenirs et un magasin hors taxes. Des services de bus desservent Herceg Novi et Budva, et un service de taxi est également disponible devant le terminal.",
     "whyTitle": "Pourquoi louer à l'aéroport de Tivat ?",
     "whyText": "L'aéroport de Tivat est l'aéroport le plus proche des destinations côtières les plus populaires du Monténégro. Quelques minutes seulement après l'atterrissage, vous pouvez rouler le long de la baie de Kotor en direction de la ville fortifiée médiévale, ou vous diriger vers le sud en direction des plages de Budva. Récupérer votre voiture à Tivat signifie pas de transferts, pas d'attente de bus, juste un trajet direct du terminal à la route.",
-    "meetText": "Nous vous accueillons dans le hall des arrivées avec votre nom sur un panneau. Votre voiture est garée juste devant. Temps total entre l'atterrissage et la prise de la route : environ 10 minutes."
+    "meetText": "Nous vous accueillons dans le hall des arrivées avec votre nom sur un panneau. Votre voiture est garée juste devant. Temps total entre l'atterrissage et la prise de la route : environ 10 minutes.",
+    "budvaLinkText": "les plages et la vieille ville de Budva",
+    "budvaLinkAfter": "sont à 30 minutes au sud par le tunnel."
   },
   "podgoricaBody": {
     "h1": "Podgorica, La capitale",
@@ -555,7 +699,10 @@
     "facilitiesText2": "À l'intérieur de l'aéroport, on trouve un bureau de change, une banque et un bureau de poste. De petits restaurants, des cafés, une boutique hors taxes et un kiosque à journaux sont également disponibles.",
     "gettingTitle": "Se rendre au Monténégro",
     "gettingText1": "Les transports en commun sont disponibles à l'aéroport sous la forme de taxis situés devant le terminal, ainsi que des services de bus et de navettes. Pour les voyageurs se rendant dans la ville de Dubrovnik, assurez-vous de prendre les bus qui vont jusqu'au centre-ville plutôt que ceux qui s'arrêtent à Cavtat, pour vous éviter une correspondance.",
-    "gettingText2": "Le trajet de l'aéroport de Dubrovnik à la côte monténégrine vous emmène le long de l'une des plus belles routes côtières d'Europe. En moins de deux heures, vous passerez la frontière et arriverez à la baie de Kotor, l'une des approches les plus spectaculaires de toute destination en Méditerranée."
+    "gettingText2": "Le trajet de l'aéroport de Dubrovnik à la côte monténégrine vous emmène le long de l'une des plus belles routes côtières d'Europe. En moins de deux heures, vous passerez la frontière et arriverez à la baie de Kotor, l'une des approches les plus spectaculaires de toute destination en Méditerranée.",
+    "borderGuideBefore": "Consultez notre",
+    "borderGuideText": "guide des passages frontaliers en voiture de location",
+    "borderGuideAfter": "pour les documents et les temps d'attente."
   },
   "montenegroBody": {
     "h1": "Explorer le Monténégro en voiture",
@@ -1034,8 +1181,8 @@
     "thirdPartyTitle": "Services tiers",
     "thirdPartyIntro": "Notre site utilise les services tiers suivants :",
     "thirdParty1": "LocalRent : widget de réservation, traite vos recherches et gère réservations et paiements",
-    "thirdParty2": "Vercel : hébergement du site",
-    "thirdParty3": "Pexels : photographie stock",
+    "thirdParty2": "Hébergeur web : hébergement du site",
+    "thirdParty3": "Banques d'images : photographie stock",
     "thirdPartyNote": "Chacun de ces services possède sa propre politique de confidentialité.",
     "cookiesTitle": "Cookies",
     "cookiesText": "Nous utilisons uniquement les cookies nécessaires au fonctionnement du site. Le widget LocalRent peut définir ses propres cookies. Consultez notre",
@@ -1078,7 +1225,7 @@
     "liability3": "Les pertes liées aux passages frontaliers ou aux problèmes documentaires",
     "liability4": "Les modifications de prix après confirmation",
     "ipTitle": "Propriété intellectuelle",
-    "ipText": "Tout le contenu du site appartient à Kotor Car Hire. Les photos stock sont utilisées sous licence de Pexels.",
+    "ipText": "Tout le contenu du site appartient à Kotor Car Hire. Les photos stock sont utilisées sous licence de banques d'images tierces.",
     "contactTitle": "Contact",
     "contactText": "Questions sur ces conditions ? Contactez-nous à info@kotorcarhire.com."
   },
@@ -1135,5 +1282,102 @@
     "seoDesc": "Contactez Kotor Car Hire pour devis, embarquement croisière, ou livraison à Tivat.",
     "heading": "Nous contacter",
     "intro": "Une question sur la location de voiture à Kotor ? Contactez-nous, nous vous aiderons à trouver le véhicule idéal pour votre séjour."
+  },
+  "cruise": {
+    "label": "Port de croisière",
+    "title": "Vous arrivez en bateau de croisière ?",
+    "subtitle": "Plus de 2 000 paquebots accostent à Kotor chaque année. Voici l'essentiel à savoir.",
+    "items": {
+      "0": {
+        "title": "Du quai à la porte en 5 min",
+        "desc": "Le terminal des croisières se trouve au pied des murailles de Kotor. Descendez du bateau, traversez le quai et entrez dans la vieille ville par la Porte de la Mer. Aucun transfert nécessaire."
+      },
+      "1": {
+        "title": "Vieille ville sans voiture",
+        "desc": "Toute la ville fortifiée est piétonne. Vous la traversez en 20 minutes. Pavés, églises, Musée maritime et chats à chaque coin de rue."
+      },
+      "2": {
+        "title": "1 355 marches à grimper",
+        "desc": "L'ascension vers la forteresse San Giovanni commence à l'intérieur des murs. Comptez 45 minutes à la montée et 30 à la descente. Partez tôt pour éviter la chaleur et la foule."
+      },
+      "3": {
+        "title": "Excursions en bateau dans la baie",
+        "desc": "Les bateaux-taxis vers Perast et Notre-Dame du Rocher partent du port. Environ 5 EUR aller-retour, toutes les 15 minutes en saison."
+      }
+    }
+  },
+  "locations": {
+    "label": "Points de prise en charge",
+    "title": "Où récupérer le véhicule ?",
+    "subtitle": "Plusieurs points de retrait à travers le Monténégro pour un maximum de commodité."
+  },
+  "imageAlts": {
+    "kotorBayAerial": "Vue aérienne de la baie de Kotor depuis le sommet des murailles",
+    "mostarBridge": "Pont de Mostar",
+    "adriaticCoastAerial": "Vue aérienne de la côte Adriatique",
+    "budvaOldTownPeninsula": "Péninsule de la vieille ville de Budva vue d'en haut",
+    "svetiStefanIslet": "Îlot de Sveti Stefan depuis la route côtière",
+    "dubrovnikAerial": "Vue aérienne de Dubrovnik",
+    "dubrovnikHarbour": "Port historique de Dubrovnik",
+    "kotorOldTownFromFortress": "Vieille ville de Kotor vue depuis les marches de la forteresse",
+    "kotorFortressWalls": "Murailles de la forteresse de Kotor escaladant la montagne au-dessus de la vieille ville",
+    "bayOfKotorAerial": "Vue aérienne de la baie de Kotor",
+    "montenegroCoastalRoad": "Route côtière du Monténégro",
+    "perastWaterfront": "Front de mer de Perast avec les deux îlots de la baie en arrière-plan",
+    "bayOfKotorNearPerast": "Paysage de la baie de Kotor près de Perast",
+    "portoMontenegroMarina": "Marina de Porto Montenegro avec des super-yachts à quai",
+    "tivatWaterfront": "Promenade en bord de mer de Tivat au crépuscule",
+    "tivatAirportRunway": "Piste de l'aéroport de Tivat"
+  },
+  "carInline": {
+    "vw-polo": {
+      "alt": "Village de pierre au-dessus de la baie de Kotor",
+      "caption": "La route côtière entre Kotor et Perast, voies d'approche étroites, branches d'olivier suspendues, places de parking au centimètre près."
+    },
+    "fiat-500": {
+      "alt": "Route côtière au-dessus de la baie de Kotor",
+      "caption": "Le belvédère du virage 17 au-dessus de Dobrota, les courts trajets entre arrêts photo sont exactement là où la 500 se sent chez elle."
+    },
+    "peugeot-208": {
+      "alt": "Route sinueuse au-dessus de la baie de Kotor",
+      "caption": "Lacets au-dessus de la baie sur l'ancienne route autrichienne, la 208 se sent le mieux dans les virages les plus serrés de la montée vers Lovćen."
+    },
+    "citroen-c3": {
+      "alt": "Route côtière près de Risan",
+      "caption": "La route côtière qui passe par Morinj et Risan, où la C3 absorbe l'asphalte rapiécé qui secoue les autres petites voitures."
+    },
+    "toyota-yaris": {
+      "alt": "La baie de Kotor vue d'en haut",
+      "caption": "Un séjour de deux semaines en bord de baie coûtera moins de 80 € de carburant en Yaris Hybrid, discrètement remarquable."
+    },
+    "kia-stonic": {
+      "alt": "Route en gravier au-dessus de la baie",
+      "caption": "Les portions non goudronnées au-dessus du village de Njeguši, la garde au sol du Stonic les avale sans le coût d'un vrai SUV."
+    },
+    "vw-golf": {
+      "alt": "Route monténégrine pittoresque bordée d'arbres",
+      "caption": "Les sections plus tranquilles à l'intérieur des terres au-delà de Cetinje, DSG et diesel, la Golf retire les hésitations sur les rapports."
+    }
+  },
+  "carRelated": {
+    "kotor": "Kotor",
+    "perast": "Perast",
+    "tivatAirport": "Aéroport de Tivat",
+    "kotorPhoto": "Spots photo de Kotor",
+    "lovcenDrive": "Route de Kotor à Lovćen",
+    "lovcen": "Kotor à Lovćen",
+    "risanMosaics": "Route des mosaïques de Risan",
+    "bayBoat": "Journée bateau dans la baie",
+    "cruiseShore": "Excursion à terre en croisière",
+    "dubrovnikAirport": "Aéroport de Dubrovnik",
+    "budva": "Budva"
+  },
+  "carSpecs": {
+    "seats": "Places",
+    "transmission": "Boîte de vitesses",
+    "fuel": "Carburant",
+    "luggage": "Bagages",
+    "bootSize": "Coffre",
+    "mpg": "Consommation"
   }
 }

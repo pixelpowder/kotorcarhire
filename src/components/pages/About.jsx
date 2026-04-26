@@ -11,7 +11,7 @@ export default function About() {
       description={t("about.seoDesc")}
       image="/img/kotor-bay-aerial.webp"
     >
-      <img src="/img/kotor-bay-aerial.webp" alt="Bay of Kotor aerial view from above the fortress walls" loading="lazy" />
+      <img src="/img/kotor-bay-aerial.webp" alt={t('imageAlts.kotorBayAerial')} loading="lazy" />
       <h2>{t('aboutBody.h1')}</h2>
       <p>{t('aboutBody.p1')}</p>
 

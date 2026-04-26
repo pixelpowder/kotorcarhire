@@ -5,7 +5,7 @@ export default function Montenegro() {
   const { t, localePath } = useTranslation();
   return (
     <ContentPage title={t("montenegro.title")} subtitle={t("montenegro.subtitle")} description={t("montenegro.seoDesc")} image="/img/montenegro-coast-road.webp">
-      <img src="/img/kotor-bay-aerial.webp" alt="Bay of Kotor aerial" loading="lazy" />
+      <img src="/img/kotor-bay-aerial.webp" alt={t('imageAlts.bayOfKotorAerial')} loading="lazy" />
       <h2>{t('montenegroBody.h1')}</h2>
       <p>{t('montenegroBody.p1')}</p>
       <p>{t('montenegroBody.p2')}</p>
@@ -19,7 +19,7 @@ export default function Montenegro() {
       <ul><li>{t('montenegroBody.rule1')}</li><li>{t('montenegroBody.rule2')}</li><li>{t('montenegroBody.rule3')}</li><li>{t('montenegroBody.rule4')}</li></ul>
       <h3>{t('montenegroBody.keyRulesTitle')}</h3>
       <ul><li>{t('montenegroBody.keyRule1')}</li><li>{t('montenegroBody.keyRule2')}</li><li>{t('montenegroBody.keyRule3')}</li><li>{t('montenegroBody.keyRule4')}</li></ul>
-      <img src="/img/montenegro-coast-road.webp" alt="Montenegro coastal road" loading="lazy" />
+      <img src="/img/montenegro-coast-road.webp" alt={t('imageAlts.montenegroCoastalRoad')} loading="lazy" />
       <h2>{t('montenegroBody.conditionsTitle')}</h2>
       <p>{t('montenegroBody.conditionsText')}</p>
       <h2>{t('montenegroBody.routesTitle')}</h2>

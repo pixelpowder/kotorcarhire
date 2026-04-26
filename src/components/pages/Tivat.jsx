@@ -5,7 +5,7 @@ export default function Tivat() {
   const { t } = useTranslation();
   return (
     <ContentPage title={t("tivat.title")} subtitle={t("tivat.subtitle")} description={t("tivat.seoDesc")} image="/img/kotor-marina.webp">
-      <img src="/img/pexels-6216520.jpg" alt="Porto Montenegro marina with superyachts at berth" loading="lazy" />
+      <img src="/img/pexels-6216520.jpg" alt={t('imageAlts.portoMontenegroMarina')} loading="lazy" />
       <h2>{t('tivatBody.h1')}</h2>
       <p>{t('tivatBody.p1')}</p>
       <p>{t('tivatBody.p2')}</p>
@@ -20,7 +20,7 @@ export default function Tivat() {
       <h2>{t('tivatBody.portoTitle')}</h2>
       <p>{t('tivatBody.portoText')}</p>
 
-      <img src="/img/pexels-28407768.jpg" alt="Tivat waterfront promenade at dusk" loading="lazy" />
+      <img src="/img/pexels-28407768.jpg" alt={t('imageAlts.tivatWaterfront')} loading="lazy" />
 
       <h2>{t('tivatBody.culturalTitle')}</h2>
       <h3>{t('tivatBody.monasteryTitle')}</h3>

@@ -5,10 +5,161 @@
     "blog": "Blog",
     "destinations": "Destinations",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "bayOfKotor": "Bay of Kotor"
   },
   "cars": {
-    "readGuide": "Read guide"
+    "readGuide": "Read guide",
+    "whoForTitle": "Who is this car for?",
+    "regionalTitle": "Best regional use",
+    "featuresTitle": "Inside the car",
+    "relatedTitle": "Where this car takes you",
+    "overviewTitle": "At a glance",
+    "articleTitle": "Around the Bay of Kotor",
+    "checkAvailability": "Check availability & live pricing",
+    "nextBtn": "Next in fleet",
+    "schemaDescription": "{category} rental, {transmission}, {fuel}, {seats} seats",
+    "sections": {
+      "behindWheel": "Behind the wheel",
+      "onRoads": "On Kotor roads",
+      "spaceLoad": "Space and load",
+      "bestFor": "Best journeys for this car",
+      "practical": "Practical notes",
+      "verdict": "The verdict"
+    },
+    "vw-polo": {
+      "name": "VW Polo",
+      "category": "Economy",
+      "tagline": "Small-footprint hatch that slots into Kotor's south-gate bays without mirror-scrape",
+      "lede": "Two carry-ons, five seats, a turning circle built for the medieval lanes that feed the Sea Gate.",
+      "suitability": "Two travellers with cabin bags picking up at Tivat and basing in Kotor Old Town, the Polo is the most parkable petrol hatch on the fleet.",
+      "regional": "Slots into the Tabacina bays under €1.50/h, threads the single waterfront lane at Perast, and holds 100 km/h on the Sozina approach without flagging. Four-cylinder petrol is the right choice for drivers who want to tuck in somewhere tight at the end of each day.",
+      "bestFor": [
+        "Couples",
+        "Cruise day-hires",
+        "Bay-road first-timers"
+      ],
+      "features": [
+        "Air Conditioning",
+        "Bluetooth Audio",
+        "USB Charging",
+        "Central Locking"
+      ]
+    },
+    "fiat-500": {
+      "name": "Fiat 500",
+      "category": "City",
+      "tagline": "Postcard citycar sized for the bastion gates and bay-road laybys",
+      "lede": "Parks where nothing else fits, ideal for four-night stays inside Kotor, Perast or the Dobrota waterfront.",
+      "suitability": "One or two travellers whose Bay of Kotor is short hops between photo stops, Kotor to Perast, Dobrota to Prčanj, and back before sunset.",
+      "regional": "Fits the waterfront pull-ins between Kotor and Perast where a Golf cannot, sunroof open on the bend-17 viewpoint above Dobrota, boot just big enough for a tripod and a coolbag. Underpowered for the Lovćen serpentine in summer, stay coastal and the 500 charms.",
+      "bestFor": [
+        "Cruise passengers",
+        "Solo travellers",
+        "Photographers"
+      ],
+      "features": [
+        "Compact Size",
+        "Easy Parking",
+        "Sunroof",
+        "Bluetooth"
+      ]
+    },
+    "peugeot-208": {
+      "name": "Peugeot 208",
+      "category": "Economy",
+      "tagline": "Sharp French steering for the Lovćen switchbacks, eager through the 25 hairpins",
+      "lede": "Small wheel, tall dash, firmer ride than a Clio, the small hatch most rewarded by Kotor's mountain road.",
+      "suitability": "Couples whose Kotor trip leans on the old Austrian road, the 208 is the sharpest small hatch in the fleet through the 25 hairpins above the bay.",
+      "regional": "Eager through the Lovćen switchbacks between Kotor and Njeguši, keen on the short motorway hops to Budva, and the small steering wheel feels purpose-built for tight Montenegrin corners. Boot is tighter than a Polo, pack light if you're loading the whole family.",
+      "bestFor": [
+        "Drivers who actually enjoy driving",
+        "Couples",
+        "Lovćen day-trippers"
+      ],
+      "features": [
+        "i-Cockpit",
+        "Apple CarPlay",
+        "USB Charging",
+        "Rear Parking Sensors"
+      ]
+    },
+    "citroen-c3": {
+      "name": "Citroen C3",
+      "category": "Economy",
+      "tagline": "Softest-riding small hatch on the bay, absorbs the patched tarmac past Risan",
+      "lede": "Long-travel suspension, deep-foam seats, the C3 smothers surface breaks other B-segment cars fight.",
+      "suitability": "Anyone whose Kotor week favours slow waterfront konobas over tight deadlines, the C3 is the most comfortable small car the Bay rents out.",
+      "regional": "The ride lets you tackle the patched tarmac out to Risan and the Hypnos mosaics without your fillings rattling, and the high, cushioned seats suit cruise passengers whose shore day ends on the Tabacina benches. Underpowered on the Lovćen climb, if you're on a tight cruise clock, pick harder.",
+      "bestFor": [
+        "Older travellers",
+        "Comfort-first renters",
+        "Slow-drive back-road explorers"
+      ],
+      "features": [
+        "Advanced Comfort Seats",
+        "Bluetooth Audio",
+        "USB Charging",
+        "Lane Departure Warning"
+      ]
+    },
+    "toyota-yaris": {
+      "name": "Toyota Yaris",
+      "category": "Economy",
+      "tagline": "Cheapest car to fuel on the bay, the hybrid sips petrol at €1.50/L",
+      "lede": "3.8 L/100 km real-world. The Yaris Hybrid crawls through Kotor traffic in electric mode, then glides the bay road without waking the engine.",
+      "suitability": "Travellers running two weeks on a single tank of thinking, the Hybrid pays for itself on the daily Kotor, Perast, Risan loop.",
+      "regional": "Pure-electric crawl through the morning school traffic at the Škaljari bypass, then glides up the bay road to Perast without touching the fuel needle. Not the car for Žabljak runs, the small battery drains on the long climbs, but for a week on the bay it's quietly remarkable.",
+      "bestFor": [
+        "Fuel-conscious long-stay visitors",
+        "Urban-weighted trips",
+        "Cruise morning shore hires"
+      ],
+      "features": [
+        "Hybrid Drivetrain",
+        "Reversing Camera",
+        "Apple CarPlay",
+        "Adaptive Cruise"
+      ]
+    },
+    "kia-stonic": {
+      "name": "Kia Stonic",
+      "category": "Compact Crossover",
+      "tagline": "Raised ride height without the rental SUV premium, the Njeguši back-road compromise",
+      "lede": "352-litre boot, higher hip point, modest 1.0-litre petrol, the crossover for unsealed spurs off the Lovćen road.",
+      "suitability": "Renters whose Kotor days include the Krstac shortcut off the old Austrian road, or the gravel approach to Kapetanovo Lake, higher than a hatch without SUV-tier fuel bills.",
+      "regional": "The extra ride height clears the unsealed final kilometre below Njeguši village, the pothole-pocked detour to upper Stoliv, and the broken waterfront verges north of Risan. Front-wheel drive only, pick this for unsealed roads in dry conditions, not for a January run up to Žabljak.",
+      "bestFor": [
+        "Couples heading inland",
+        "Shoulder-season travellers",
+        "Budget crossover renters"
+      ],
+      "features": [
+        "Raised Ride Height",
+        "Apple CarPlay",
+        "Reversing Camera",
+        "Lane Keep Assist"
+      ]
+    },
+    "vw-golf": {
+      "name": "VW Golf",
+      "category": "Mid-Size",
+      "tagline": "The DSG-diesel benchmark, unfussed on bay road, motorway or Lovćen climb",
+      "lede": "Polo's parkable footprint meets Passat-grade refinement, the rational default for trips that mix coast and mountain.",
+      "suitability": "Couples whose Kotor base anchors day-trips to Dubrovnik, Mostar or Žabljak, the Golf handles the cross-border push without demanding an SUV's footprint.",
+      "regional": "Threads the Vrmac tunnel and the Kamenari, Lepetane ferry approach with the composure of something bigger, returns 4.3 L/100 km on the Debeli Brijeg run to Dubrovnik, and the DSG reads the Lovćen hairpins without you touching the gear lever. Firmer ride than a C3 on broken back roads, a fair trade for motorway calm.",
+      "bestFor": [
+        "Couples mixing city and country",
+        "Cross-border day-trippers",
+        "Airport-to-bay transfers"
+      ],
+      "features": [
+        "DSG Automatic",
+        "Adaptive Cruise",
+        "Digital Cockpit",
+        "Apple CarPlay"
+      ]
+    }
   },
   "fleetShowcase": {
     "label": "Know your car",
@@ -38,7 +189,9 @@
     "callUs": "Call Us",
     "bookNow": "Book Now",
     "perDay": "per day",
-    "emailUs": "Email Us"
+    "emailUs": "Email Us",
+    "whatsappAria": "Chat on WhatsApp",
+    "scrollTopAria": "Scroll to top"
   },
   "hero": {
     "headline": "Kotor Car Hire",
@@ -127,7 +280,8 @@
   "book": {
     "title": "Find Your Car",
     "seoTitle": "Book a Car in Kotor",
-    "seoDesc": "Reserve a rental car for Kotor in seconds. Tivat Airport 8 km handover, free cancellation on most rates, and live fleet availability across 200."
+    "seoDesc": "Reserve a rental car for Kotor in seconds. Tivat Airport 8 km handover, free cancellation on most rates, and live fleet availability across 200.",
+    "iframeTitle": "Car rental booking"
   },
   "footer": {
     "brandDesc": "Short term Kotor car hire from Tivat Airport and the Old Town gates. Full insurance, bay road expertise, and flat rates that stay flat all season.",
@@ -154,7 +308,8 @@
     "title": "Wrong Turn",
     "text": "Looks like you've taken a detour. This road doesn't lead anywhere, but the Bay of Kotor's best routes are just a click away.",
     "backHome": "Back to Home",
-    "searchCars": "Search Cars"
+    "searchCars": "Search Cars",
+    "metaTitle": "Page Not Found"
   },
   "home": {
     "seoDesc": "Rent a car in Kotor from €13 per day. Tivat Airport 8 km, the UNESCO walled town at your feet, and 60 km of fjord road between you and Dubrovnik Airport."
@@ -461,7 +616,10 @@
     "historicTitle": "Stone and Memory",
     "historicText": "Count the palaces along the waterfront and you reach sixteen. Add seventeen Catholic churches and several guard towers, and you begin to grasp how wealthy this tiny settlement once was. The Museum of Perast occupies the Palazzo Bujović, a building so elegant it is often cited as the finest secular structure on the Montenegrin coast. Maritime instruments, ship models, battle flags, and town records fill its rooms.",
     "monasteryTitle": "Banja Monastery (a short detour north)",
-    "monasteryText": "Continuing along the bay road past Perast toward Risan, a minor turn leads to the Banja Monastery. Religious artefacts from Russian, Greek, and Boka dynasties are stored here in modest surroundings. Few visitors make the detour, which is precisely the appeal."
+    "monasteryText": "Continuing along the bay road past Perast toward Risan, a minor turn leads to the Banja Monastery. Religious artefacts from Russian, Greek, and Boka dynasties are stored here in modest surroundings. Few visitors make the detour, which is precisely the appeal.",
+    "routeLinkBefore": "Plan your route with our",
+    "routeLinkText": "Montenegro driving and routes guide",
+    "routeLinkAfter": "."
   },
   "tivatBody": {
     "h1": "Naval Shipyard Turned Mediterranean Playground",
@@ -493,7 +651,9 @@
     "facilitiesText": "Expect a cafe, a small duty-free section, souvenir stands, and an ATM. Bus connections exist to Herceg Novi and Budva, but they are infrequent and slow. Taxis queue outside arrivals. Far simpler: have a rental car waiting in the car park, keys handed to you at the gate.",
     "whyTitle": "Why Collect Your Car Here?",
     "whyText": "Tivat is the only airport where Kotor is a fifteen-minute drive. From the moment you leave the terminal, four distinct trips branch outward. North along the bay road to Perast and its man-made island. South through the tunnel to Budva's beaches. Upward on the serpentine to Lovćen National Park's 25 hairpin bends. Or straight ahead, through the outer suburbs of Dobrota, to the car parks beneath Kotor's fortress walls. No shuttle transfers, no waiting for a bus that may or may not appear.",
-    "meetText": "Our driver waits in the arrivals hall, your name on a board. The car is parked directly outside. From wheels down on the runway to wheels rolling toward Kotor: about fifteen minutes."
+    "meetText": "Our driver waits in the arrivals hall, your name on a board. The car is parked directly outside. From wheels down on the runway to wheels rolling toward Kotor: about fifteen minutes.",
+    "budvaLinkText": "Budva's beaches and Old Town",
+    "budvaLinkAfter": "are 30 minutes south via the tunnel."
   },
   "podgoricaBody": {
     "h1": "A Capital Built on Riverbanks and Reinvention",
@@ -539,7 +699,10 @@
     "facilitiesText2": "Inside: a bureau de change, bank, post office, duty-free store, several cafes, and a newsstand. Outside: taxi ranks, an Atlas bus connection to the city, and rows of rental car company desks. The airport is functional rather than luxurious, designed to process summer volumes efficiently.",
     "gettingTitle": "The Drive to Kotor",
     "gettingText1": "Allow two hours from the airport to Kotor, plus whatever the border adds. The E65 descends from the Croatian plateau to the coast at Herceg Novi, then follows the bay's northern arm eastward. At Kamenari, a short car ferry crosses the strait (saving a long loop around the inner bay via Tivat), or you can continue on the road through Perast and approach Kotor from the north.",
-    "gettingText2": "Whichever route you take, the final approach to Kotor is unforgettable. Mountains rise vertically from the water, the bay narrows to a channel, and the fortress walls appear clinging to the cliff face ahead. There is no grander way to arrive."
+    "gettingText2": "Whichever route you take, the final approach to Kotor is unforgettable. Mountains rise vertically from the water, the bay narrows to a channel, and the fortress walls appear clinging to the cliff face ahead. There is no grander way to arrive.",
+    "borderGuideBefore": "See our",
+    "borderGuideText": "rental car border crossing guide",
+    "borderGuideAfter": "for documentation and wait times."
   },
   "montenegroBody": {
     "h1": "Driving Montenegro from a Kotor Base",
@@ -1018,8 +1181,8 @@
     "thirdPartyTitle": "Third-Party Services",
     "thirdPartyIntro": "Our website uses the following third-party services:",
     "thirdParty1": "LocalRent: car rental booking widget, processes your search queries and handles all booking and payment",
-    "thirdParty2": "Vercel: website hosting",
-    "thirdParty3": "Pexels: stock photography",
+    "thirdParty2": "Hosting provider: website hosting",
+    "thirdParty3": "Stock photo libraries: stock photography",
     "thirdPartyNote": "Each of these services has their own privacy policy governing how they handle data.",
     "cookiesTitle": "Cookies",
     "cookiesText": "We use minimal cookies necessary for the website to function. The LocalRent booking widget may set its own cookies for session management and preferences. See our",
@@ -1062,7 +1225,7 @@
     "liability3": "Losses arising from border crossing issues or documentation problems",
     "liability4": "Changes to prices after booking confirmation",
     "ipTitle": "Intellectual Property",
-    "ipText": "All content on this website, including text, design, and graphics, is owned by Kotor Car Hire unless otherwise credited. Stock photography is used under licence from Pexels.",
+    "ipText": "All content on this website, including text, design, and graphics, is owned by Kotor Car Hire unless otherwise credited. Stock photography is used under licence from third-party stock photo providers.",
     "contactTitle": "Contact",
     "contactText": "Questions about these terms? Contact us at info@kotorcarhire.com."
   },
@@ -1119,5 +1282,102 @@
     "seoDesc": "Message Kotor Car Hire for quotes, cruise shore pickups, or Tivat Airport delivery. Email, WhatsApp, or web form with two hour weekday replies.",
     "heading": "Contact Us",
     "intro": "Have a question about renting a car in Kotor? Get in touch and we'll help you find the perfect vehicle for your trip."
+  },
+  "cruise": {
+    "label": "Cruise Port",
+    "title": "Arriving by Cruise Ship?",
+    "subtitle": "Over 2,000 cruise ships dock in Kotor each year. Here is what you need to know.",
+    "items": {
+      "0": {
+        "title": "Dock to Gate in 5 Min",
+        "desc": "The cruise terminal sits at the foot of Kotor's walls. Walk off the ship, cross the quay, and enter the Old Town through the Sea Gate. No transfer needed."
+      },
+      "1": {
+        "title": "Car-Free Old Town",
+        "desc": "The entire walled city is pedestrian. Walk end to end in 20 minutes. Cobblestones, churches, Maritime Museum, and cats on every corner."
+      },
+      "2": {
+        "title": "1,355 Steps Up",
+        "desc": "The San Giovanni fortress hike starts inside the walls. Allow 45 minutes up and 30 down. Start early to beat the midday heat and the crowds."
+      },
+      "3": {
+        "title": "Bay Boat Trips",
+        "desc": "Water taxis to Perast and Our Lady of the Rocks leave from the harbour. About 5 EUR return, every 15 minutes in season."
+      }
+    }
+  },
+  "locations": {
+    "label": "Pickup Points",
+    "title": "Where Can You Collect?",
+    "subtitle": "Multiple locations across Montenegro for maximum convenience."
+  },
+  "imageAlts": {
+    "kotorBayAerial": "Bay of Kotor aerial view from above the fortress walls",
+    "mostarBridge": "Mostar Bridge",
+    "adriaticCoastAerial": "Adriatic coast aerial",
+    "budvaOldTownPeninsula": "Budva Old Town peninsula from above",
+    "svetiStefanIslet": "Sveti Stefan islet from the coastal highway",
+    "dubrovnikAerial": "Dubrovnik aerial view",
+    "dubrovnikHarbour": "Dubrovnik historic harbour",
+    "kotorOldTownFromFortress": "Kotor Old Town viewed from the fortress steps",
+    "kotorFortressWalls": "Kotor fortress walls climbing the mountain above the Old Town",
+    "bayOfKotorAerial": "Bay of Kotor aerial",
+    "montenegroCoastalRoad": "Montenegro coastal road",
+    "perastWaterfront": "Perast waterfront with the two islands in the bay beyond",
+    "bayOfKotorNearPerast": "Bay of Kotor landscape near Perast",
+    "portoMontenegroMarina": "Porto Montenegro marina with superyachts at berth",
+    "tivatWaterfront": "Tivat waterfront promenade at dusk",
+    "tivatAirportRunway": "Tivat Airport runway"
+  },
+  "carInline": {
+    "vw-polo": {
+      "alt": "Stone village above the Bay of Kotor",
+      "caption": "The waterfront between Kotor and Perast, narrow approach lanes, overhanging olive branches, parking measured in centimetres."
+    },
+    "fiat-500": {
+      "alt": "Coastal road above the Bay of Kotor",
+      "caption": "The bend-17 viewpoint above Dobrota, short hops between photo stops is exactly where the 500 belongs."
+    },
+    "peugeot-208": {
+      "alt": "Road curving above Kotor bay",
+      "caption": "Hairpins above the bay on the old Austrian road, the 208 feels most at home on the tightest corners of the Lovćen climb."
+    },
+    "citroen-c3": {
+      "alt": "Coast road past Risan",
+      "caption": "The coast road past Morinj and Risan, where the C3 softens the patched tarmac that rattles other small cars."
+    },
+    "toyota-yaris": {
+      "alt": "The Bay of Kotor from above",
+      "caption": "A two-week bay-base stay will cost less than €80 in fuel in the Yaris Hybrid, quietly remarkable."
+    },
+    "kia-stonic": {
+      "alt": "Gravel road above the bay",
+      "caption": "The unsealed stretches above Njeguši village, the Stonic’s ride height clears them without paying full SUV money."
+    },
+    "vw-golf": {
+      "alt": "Scenic tree-lined Montenegrin road",
+      "caption": "The quieter inland stretches past Cetinje, DSG plus diesel, the Golf takes the guesswork out of gear changes."
+    }
+  },
+  "carRelated": {
+    "kotor": "Kotor",
+    "perast": "Perast",
+    "tivatAirport": "Tivat Airport",
+    "kotorPhoto": "Kotor photography spots",
+    "lovcenDrive": "Kotor to Lovćen drive",
+    "lovcen": "Kotor to Lovćen",
+    "risanMosaics": "Risan mosaics drive",
+    "bayBoat": "Bay boat day",
+    "cruiseShore": "Cruise shore excursion",
+    "dubrovnikAirport": "Dubrovnik Airport",
+    "budva": "Budva"
+  },
+  "carSpecs": {
+    "seats": "Seats",
+    "transmission": "Gearbox",
+    "fuel": "Fuel",
+    "luggage": "Luggage",
+    "bootSize": "Boot",
+    "mpg": "Economy"
   }
 }

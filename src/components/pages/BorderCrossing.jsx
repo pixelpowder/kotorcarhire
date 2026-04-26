@@ -5,7 +5,7 @@ export default function BorderCrossing() {
   const { t, localePath } = useTranslation();
   return (
     <ContentPage title={t("border-crossing.title")} subtitle={t("border-crossing.subtitle")} description={t("border-crossing.seoDesc")} image="/img/montenegro-coast-road.webp">
-      <img src="/img/pexels-30944550.jpg" alt="Mostar Bridge" loading="lazy" />
+      <img src="/img/pexels-30944550.jpg" alt={t('imageAlts.mostarBridge')} loading="lazy" />
       <h2>{t('borderCrossingBody.h1')}</h2>
       <p>{t('borderCrossingBody.p1')}</p>
       <h2>{t('borderCrossingBody.greenCardTitle')}</h2>
@@ -29,7 +29,7 @@ export default function BorderCrossing() {
       <p>{t('borderCrossingBody.serbiaText')}</p>
       <h3>{t('borderCrossingBody.kosovoTitle')}</h3>
       <p>{t('borderCrossingBody.kosovoText')}</p>
-      <img src="/img/pexels-7499434.jpg" alt="Adriatic coast aerial" loading="lazy" />
+      <img src="/img/pexels-7499434.jpg" alt={t('imageAlts.adriaticCoastAerial')} loading="lazy" />
       <h2>{t('borderCrossingBody.tipsTitle')}</h2>
       <ul><li>{t('borderCrossingBody.tip1')}</li><li>{t('borderCrossingBody.tip2')}</li><li>{t('borderCrossingBody.tip3')}</li><li>{t('borderCrossingBody.tip4')}</li><li>{t('borderCrossingBody.tip5')}</li><li>{t('borderCrossingBody.tip6')}</li></ul>
       <h2>{t('borderCrossingBody.lawsTitle')}</h2>

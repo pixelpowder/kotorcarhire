@@ -5,10 +5,161 @@
     "destinations": "Reiseziele",
     "about": "Über uns",
     "blog": "Ratgeber",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "bayOfKotor": "Bucht von Kotor"
   },
   "cars": {
-    "readGuide": "Ratgeber lesen"
+    "readGuide": "Ratgeber lesen",
+    "whoForTitle": "Für wen ist dieses Auto?",
+    "regionalTitle": "Beste regionale Eignung",
+    "featuresTitle": "Im Innenraum",
+    "relatedTitle": "Wohin Sie dieses Auto bringt",
+    "overviewTitle": "Auf einen Blick",
+    "articleTitle": "Rund um die Bucht von Kotor",
+    "checkAvailability": "Verfügbarkeit & aktuelle Preise prüfen",
+    "nextBtn": "Nächstes Modell",
+    "schemaDescription": "{category}-Vermietung, {transmission}, {fuel}, {seats} Sitze",
+    "sections": {
+      "behindWheel": "Am Steuer",
+      "onRoads": "Auf Straßen rund um Kotor",
+      "spaceLoad": "Platz und Beladung",
+      "bestFor": "Beste Touren für dieses Auto",
+      "practical": "Praktische Hinweise",
+      "verdict": "Das Fazit"
+    },
+    "vw-polo": {
+      "name": "VW Polo",
+      "category": "Economy",
+      "tagline": "Kompakter Schrägheck-Wagen, der ohne Spiegelschrammen in die Süd-Tor-Stellplätze von Kotor passt",
+      "lede": "Zwei Handgepäckstücke, fünf Sitze, ein Wendekreis wie geschaffen für die mittelalterlichen Gassen am Seetor.",
+      "suitability": "Zwei Reisende mit Handgepäck, die in Tivat abholen und in der Altstadt von Kotor wohnen, der Polo ist der parkfreundlichste Benzin-Hatch der Flotte.",
+      "regional": "Passt in die Tabacina-Buchten für unter 1,50 €/h, fädelt sich durch die einspurige Uferstraße in Perast und hält die 100 km/h auf der Sozina-Auffahrt mühelos. Vierzylinder-Benziner ist die richtige Wahl für Fahrer, die am Tagesende eng einparken wollen.",
+      "bestFor": [
+        "Paare",
+        "Tagesausflüge vom Kreuzfahrtschiff",
+        "Buchten-Neulinge"
+      ],
+      "features": [
+        "Klimaanlage",
+        "Bluetooth-Audio",
+        "USB-Aufladung",
+        "Zentralverriegelung"
+      ]
+    },
+    "fiat-500": {
+      "name": "Fiat 500",
+      "category": "Stadtauto",
+      "tagline": "Postkarten-Citycar, perfekt für die Bastionstore und Buchtstraßen-Buchten",
+      "lede": "Parkt, wo nichts anderes passt, ideal für vier Nächte in Kotor, Perast oder am Ufer in Dobrota.",
+      "suitability": "Ein oder zwei Reisende, deren Bucht von Kotor aus kurzen Etappen zwischen Fotostopps besteht, Kotor nach Perast, Dobrota nach Prčanj und zurück vor Sonnenuntergang.",
+      "regional": "Passt in die Uferbuchten zwischen Kotor und Perast, wo ein Golf scheitert, Schiebedach offen am Aussichtspunkt Kurve 17 über Dobrota, Kofferraum gerade groß genug für Stativ und Kühltasche. Im Sommer auf der Lovćen-Serpentine zu schwach, bleibt küstennah und der 500 zaubert.",
+      "bestFor": [
+        "Kreuzfahrtgäste",
+        "Einzelreisende",
+        "Fotografen"
+      ],
+      "features": [
+        "Kompakte Größe",
+        "Einfaches Parken",
+        "Schiebedach",
+        "Bluetooth"
+      ]
+    },
+    "peugeot-208": {
+      "name": "Peugeot 208",
+      "category": "Economy",
+      "tagline": "Präzise französische Lenkung für die Lovćen-Kehren, agil durch die 25 Spitzkehren",
+      "lede": "Kleines Lenkrad, hohes Cockpit, straffer als ein Clio, der kleine Hatch, der am meisten von Kotors Bergstraße profitiert.",
+      "suitability": "Paare, deren Kotor-Reise sich auf die alte österreichische Straße stützt, der 208 ist der präziseste Kleinwagen der Flotte durch die 25 Spitzkehren über der Bucht.",
+      "regional": "Agil in den Lovćen-Kehren zwischen Kotor und Njeguši, gut auf den kurzen Autobahnetappen nach Budva, und das kleine Lenkrad wirkt wie für enge montenegrinische Kurven gemacht. Kofferraum kleiner als beim Polo, leicht packen, wenn die ganze Familie mitfährt.",
+      "bestFor": [
+        "Fahrer, die wirklich gern fahren",
+        "Paare",
+        "Lovćen-Tagesausflügler"
+      ],
+      "features": [
+        "i-Cockpit",
+        "Apple CarPlay",
+        "USB-Aufladung",
+        "Heck-Parksensoren"
+      ]
+    },
+    "citroen-c3": {
+      "name": "Citroen C3",
+      "category": "Economy",
+      "tagline": "Der weichst federnde Kleinwagen an der Bucht, schluckt den geflickten Asphalt nach Risan",
+      "lede": "Langhubige Federung, tief gepolsterte Sitze, der C3 dämpft Fahrbahnstöße, an denen andere Kleinwagen scheitern.",
+      "suitability": "Wer in Kotor lieber gemütliche Uferkonobas als enge Termine genießt, der C3 ist der bequemste Kleinwagen, den die Bucht vermietet.",
+      "regional": "Das Fahrwerk lässt Sie den geflickten Asphalt nach Risan und zu den Hypnos-Mosaiken angehen, ohne dass die Plomben klappern, und die hohen, weichen Sitze passen zu Kreuzfahrtgästen, deren Landtag auf den Tabacina-Bänken endet. Auf dem Lovćen-Anstieg zu schwach, bei knappem Kreuzfahrtfahrplan eher anders wählen.",
+      "bestFor": [
+        "Ältere Reisende",
+        "Komfort-Mieter",
+        "Langsame Hinterland-Erkunder"
+      ],
+      "features": [
+        "Advanced Comfort-Sitze",
+        "Bluetooth-Audio",
+        "USB-Aufladung",
+        "Spurhalteassistent"
+      ]
+    },
+    "toyota-yaris": {
+      "name": "Toyota Yaris",
+      "category": "Economy",
+      "tagline": "Sparsamster Wagen an der Bucht, der Hybrid genehmigt sich Benzin nur bei 1,50 €/L",
+      "lede": "3,8 L/100 km im Alltag. Der Yaris Hybrid schleicht im E-Modus durch Kotor und gleitet dann ohne Motor zu starten die Buchtstraße.",
+      "suitability": "Reisende, die zwei Wochen mit einer einzigen Tankfüllung Nachdenkens auskommen, der Hybrid amortisiert sich auf der täglichen Schleife Kotor, Perast, Risan.",
+      "regional": "Reines E-Schleichen durch den morgendlichen Schulverkehr an der Škaljari-Umgehung, dann gleitet er ohne Tankzeiger-Bewegung die Buchtstraße hinauf nach Perast. Nicht das Auto für Žabljak-Fahrten, die kleine Batterie leert sich an den langen Anstiegen, aber für eine Woche an der Bucht ist er still beeindruckend.",
+      "bestFor": [
+        "Sparsame Langzeit-Besucher",
+        "Stadtbetonte Trips",
+        "Kreuzfahrt-Morgenausflüge"
+      ],
+      "features": [
+        "Hybridantrieb",
+        "Rückfahrkamera",
+        "Apple CarPlay",
+        "Adaptiver Tempomat"
+      ]
+    },
+    "kia-stonic": {
+      "name": "Kia Stonic",
+      "category": "Kompakt-Crossover",
+      "tagline": "Höhere Bodenfreiheit ohne Miet-SUV-Aufpreis, der Kompromiss für die Hinterland-Straßen nach Njeguši",
+      "lede": "352-Liter-Kofferraum, höherer Sitzpunkt, gemütlicher 1,0-Liter-Benziner, das Crossover für unbefestigte Abzweigungen abseits der Lovćen-Straße.",
+      "suitability": "Mieter, deren Kotor-Tage die Krstac-Abkürzung neben der alten österreichischen Straße oder die Schotterzufahrt zum Kapetanovo-See umfassen, höher als ein Hatch ohne SUV-Spritrechnung.",
+      "regional": "Die zusätzliche Bodenfreiheit meistert den unbefestigten Schlusskilometer unter Njeguši, den schlaglochreichen Abstecher nach Oberstoliv und die brüchigen Uferbankette nördlich von Risan. Nur Frontantrieb, wählen Sie dieses Auto für unbefestigte Straßen bei Trockenheit, nicht für eine Januarfahrt nach Žabljak.",
+      "bestFor": [
+        "Paare, die ins Hinterland wollen",
+        "Reisende in der Nebensaison",
+        "Budget-Crossover-Mieter"
+      ],
+      "features": [
+        "Erhöhte Bodenfreiheit",
+        "Apple CarPlay",
+        "Rückfahrkamera",
+        "Spurhalteassistent"
+      ]
+    },
+    "vw-golf": {
+      "name": "VW Golf",
+      "category": "Mittelklasse",
+      "tagline": "Der DSG-Diesel-Maßstab, unbeeindruckt auf Buchtstraße, Autobahn oder Lovćen-Anstieg",
+      "lede": "Polo-Parkmaß trifft Passat-Niveau, die rationale Standardwahl für Touren, die Küste und Berg verbinden.",
+      "suitability": "Paare, deren Kotor-Basis Tagesausflüge nach Dubrovnik, Mostar oder Žabljak verankert, der Golf bewältigt den Grenzübergang ohne SUV-Maße.",
+      "regional": "Fädelt durch den Vrmac-Tunnel und die Fährzufahrt Kamenari, Lepetane mit der Ruhe eines größeren Wagens, schluckt 4,3 L/100 km auf dem Debeli-Brijeg-Lauf nach Dubrovnik, und das DSG liest die Lovćen-Spitzkehren, ohne dass Sie den Schalthebel anfassen. Strafferes Fahrwerk als ein C3 auf rauen Hinterland-Straßen, ein fairer Tausch für Autobahnruhe.",
+      "bestFor": [
+        "Paare, die Stadt und Land mischen",
+        "Grenzüberschreitende Tagesausflügler",
+        "Flughafen, Bucht-Transfers"
+      ],
+      "features": [
+        "DSG-Automatik",
+        "Adaptiver Tempomat",
+        "Digital-Cockpit",
+        "Apple CarPlay"
+      ]
+    }
   },
   "fleetShowcase": {
     "label": "Fahrzeug-Guide",
@@ -38,7 +189,9 @@
     "callUs": "Rufen Sie uns an",
     "bookNow": "Jetzt buchen",
     "perDay": "pro Tag",
-    "emailUs": "E-Mail senden"
+    "emailUs": "E-Mail senden",
+    "whatsappAria": "Auf WhatsApp chatten",
+    "scrollTopAria": "Nach oben scrollen"
   },
   "hero": {
     "headline": "Mietwagen in Kotor",
@@ -127,7 +280,8 @@
   "book": {
     "title": "Finden Sie Ihr Auto",
     "seoTitle": "Auto buchen",
-    "seoDesc": "Reservieren Sie einen Mietwagen für Kotor in wenigen Sekunden."
+    "seoDesc": "Reservieren Sie einen Mietwagen für Kotor in wenigen Sekunden.",
+    "iframeTitle": "Mietwagen-Buchung"
   },
   "footer": {
     "brandDesc": "Kurzzeit-Autovermietung in Kotor vom Flughafen Tivat und den Toren der Altstadt. Vollversicherung, Expertise auf der Buchtstraße und Flatrate-Preise, die das ganze Jahr über stabil bleiben.",
@@ -154,7 +308,8 @@
     "title": "Falsch abgebogen",
     "text": "Sieht aus, als hätten Sie einen Umweg genommen. Diese Straße führt ins Nichts, aber die schönsten Routen der Bucht von Kotor sind nur einen Klick entfernt.",
     "backHome": "Zurück zur Startseite",
-    "searchCars": "Autos suchen"
+    "searchCars": "Autos suchen",
+    "metaTitle": "Seite nicht gefunden"
   },
   "home": {
     "seoDesc": "Autovermietung in Kotor ab €13 pro Tag. Flughafen Tivat 8 km entfernt, die UNESCO-Altstadt vor Ihrer Haustür und 60 km Fjordstraße zwischen Ihnen und."
@@ -177,7 +332,7 @@
     "p3d": ", und an Standorten entlang der Küste und im Landesinneren.",
     "promiseTitle": "Unser Versprechen",
     "promise1": "Vollversicherung mit optionen ohne Selbstbeteiligung verfügbar",
-    "promise2": "Meet-and-Greet am Flughafen Tivat: Wir bringen das Auto zu Ihnen in die Ankunftshalle",
+    "promise2": "Empfang am Flughafen Tivat: Wir bringen das Auto direkt in die Ankunftshalle",
     "promise3": "Keine versteckten Gebühren: Der angezeigte Preis ist der Preis, den Sie zahlen",
     "promise4": "Grenzüberschreitende Fahrten nach Kroatien, Bosnien, Albanien, Serbien und dem Kosovo gestattet",
     "promise5": "Kostenlose Stornierung bei den meisten Buchungen",
@@ -339,32 +494,16 @@
       "a": "Ihr Agent wartet im Ankunftsbereich des Flughafens Tivat mit einem Schild mit Ihrem Namen. Das Auto steht direkt davor. Vom Terminal bis zu den Altstadtmauern Kotors dauert es entlang der Buchtstraße etwa 15 Minuten. Alternativ ist auch eine Abholung am Tabacina-Parkplatz am Altstadteingang möglich."
     },
     "5": {
-      "q": "Ist eine Rückgabe an einem anderen Ort möglich?",
-      "a": "Einwegmieten sind an 28 Abhol- und Rückgabepunkten in Montenegro verfügbar. Wählen Sie bei der Buchung verschiedene Orte aus, je nach Entfernung kann eine Einweggebühr anfallen."
-    },
-    "6": {
-      "q": "Kann ich meine Buchung stornieren?",
+      "q": "Was ist die Stornierungsbedingung?",
       "a": "Kostenlose Stornierung bis 7 Tage vor Mietbeginn. Für Luxusfahrzeuge und Cabriolets sind 30 Tage Vorlauf erforderlich. Bei allen Stornierungen fällt unabhängig vom Zeitpunkt eine Bearbeitungsgebühr von 6 % an."
     },
-    "7": {
+    "6": {
       "q": "Ist eine Mietkaution erforderlich?",
       "a": "Die meisten Fahrzeuge erfordern eine Kaution von 100-350 € auf einer physischen Kreditkarte des Hauptfahrers. Einige Kleinwagen sind ohne Kaution erhältlich, diese sind in den Suchergebnissen klar gekennzeichnet. Die Rückgabe der Kaution erfolgt bei unbeschädigter Fahrzeugrückgabe."
     },
-    "8": {
-      "q": "Was passiert bei Überschreitung der Kilometerlaufleistung?",
-      "a": "Fahrzeuge mit Kilometerbeschränkung berechnen einen Preis pro Kilometer über dem vereinbarten Limit. Der genaue Tarif ist in den Fahrzeugdetails vor der Buchungsbestätigung angegeben."
-    },
-    "9": {
-      "q": "Gibt es versteckte Kosten?",
-      "a": "Nein. Der angezeigte Preis enthält alle Steuern und Gebühren. Keine Flughafenzuschläge, keine Überraschungen bei der Tankpolitik, nichts kommt am Schalter dazu."
-    },
-    "10": {
-      "q": "Wie hoch ist die Anzahlung?",
-      "a": "Zur Bestätigung der Buchung werden 15-20 % des Gesamtmietpreises fällig. Den Restbetrag begleichen Sie direkt beim Mietanbieter bei der Fahrzeugabholung."
-    },
-    "11": {
-      "q": "Können Fahrzeuge ohne Kreditkarte gemietet werden?",
-      "a": "Eine kleine Anzahl von Fahrzeugen in der Flotte ist ohne Kreditkarte verfügbar. Diese Optionen sind in den Suchergebnissen bei der Filterung nach Abholort klar markiert."
+    "7": {
+      "q": "Wo parkt man in der Altstadt von Kotor?",
+      "a": "Die Altstadt ist autofrei. Nutzen Sie das Parkhaus Tabacina (5 Minuten zu Fuß zum Seetor, ist im Sommer bis 10 Uhr voll) oder den Parkplatz am Flusstor entlang des Skurda-Bachs (günstiger, außerhalb der Saison kostenlos). Im Juli und August betreibt ein Überlaufparkplatz an der Zufahrtsstraße einen Shuttle zu den Stadtmauern."
     }
   },
   "destCards": {
@@ -477,7 +616,10 @@
     "historicTitle": "Historische Sehenswürdigkeiten",
     "historicText": "Die Stadt verfügt über zahlreiche Paläste, Kathedralen und mehrere Wachtürme, die einst die Stadt schützten. Für diejenigen, die sich eingehend mit der Geschichte von Perast beschäftigen möchten, beherbergt das Museum von Perast zahlreiche Artefakte, Archive, Gemälde, Skulpturen und Stadtchroniken. Das Museum befindet sich im alten Palata Buiovich, den viele als das schönste Gebäude an der montenegrinischen Küste betrachten.",
     "monasteryTitle": "Kloster Banja",
-    "monasteryText": "Das Kloster Banja liegt nördlich von Perast an der Straße nach Risan und beherbergt viele alte religiöse Stücke aus russischen, griechischen und Boka-Dynastien. Um das Kloster zu erreichen, fahren Sie einfach wenige Kilometer weiter nördlich auf der E65/E80."
+    "monasteryText": "Das Kloster Banja liegt nördlich von Perast an der Straße nach Risan und beherbergt viele alte religiöse Stücke aus russischen, griechischen und Boka-Dynastien. Um das Kloster zu erreichen, fahren Sie einfach wenige Kilometer weiter nördlich auf der E65/E80.",
+    "routeLinkBefore": "Planen Sie Ihre Route mit unserem",
+    "routeLinkText": "Leitfaden zum Autofahren und zu Routen in Montenegro",
+    "routeLinkAfter": "."
   },
   "tivatBody": {
     "h1": "Tivat, Hafenstadt",
@@ -509,7 +651,9 @@
     "facilitiesText": "Der Flughafen bietet Cafés, öffentliche Telefone, Souvenirgeschäfte und Duty-Free-Shopping. Busverbindungen bestehen nach Herceg Novi und Budva, und vor dem Terminal stehen auch Taxis zur Verfügung.",
     "whyTitle": "Warum am Flughafen Tivat mieten?",
     "whyText": "Der Flughafen Tivat ist der nächstgelegene Flughafen zu Montenegros beliebtesten Küstenzielen. Innerhalb von Minuten nach der Landung können Sie entlang der Bay of Kotor zur mittelalterlichen ummauerten Stadt fahren oder Richtung Süden zu den Stränden von Budva aufbrechen. Wenn Sie Ihr Auto in Tivat abholen, bedeutet das keine Transfers, kein Warten auf Busse, einfach direkt vom Terminal auf die offene Straße.",
-    "meetText": "Wir empfangen Sie in der Ankunftshalle mit Ihrem Namen auf einem Schild. Ihr Auto steht direkt draußen bereit. Gesamtzeit von der Landung bis zur Abfahrt: etwa 10 Minuten."
+    "meetText": "Wir empfangen Sie in der Ankunftshalle mit Ihrem Namen auf einem Schild. Ihr Auto steht direkt draußen bereit. Gesamtzeit von der Landung bis zur Abfahrt: etwa 10 Minuten.",
+    "budvaLinkText": "Budvas Strände und Altstadt",
+    "budvaLinkAfter": "sind 30 Minuten südlich durch den Tunnel."
   },
   "podgoricaBody": {
     "h1": "Podgorica, Die Hauptstadt",
@@ -555,7 +699,10 @@
     "facilitiesText2": "Im Flughafen befinden sich eine Wechselstube, eine Bank und eine Post. Kleine Restaurants, Cafés, ein Duty-Free-Shop und ein Zeitungskiosk sind ebenfalls vorhanden.",
     "gettingTitle": "Anreise nach Montenegro",
     "gettingText1": "Am Flughafen stehen öffentliche Verkehrsmittel in Form von Taxis vor dem Terminal sowie Busverbindungen und Shuttles zur Verfügung. Reisende, die in die Stadt Dubrovnik möchten, sollten darauf achten, die Busse zu nehmen, die bis ins Stadtzentrum fahren.",
-    "gettingText2": "Die Fahrt vom Flughafen Dubrovnik an die Küste Montenegros führt Sie über eine der landschaftlich schönsten Küstenstraßen Europas. Innerhalb von zwei Stunden passieren Sie die Grenze und erreichen die Bay of Kotor, eine der dramatischsten Annäherungen an ein Reiseziel im gesamten Mittelmeerraum."
+    "gettingText2": "Die Fahrt vom Flughafen Dubrovnik an die Küste Montenegros führt Sie über eine der landschaftlich schönsten Küstenstraßen Europas. Innerhalb von zwei Stunden passieren Sie die Grenze und erreichen die Bay of Kotor, eine der dramatischsten Annäherungen an ein Reiseziel im gesamten Mittelmeerraum.",
+    "borderGuideBefore": "Siehe unseren",
+    "borderGuideText": "Leitfaden für Mietwagen-Grenzübergänge",
+    "borderGuideAfter": "für Unterlagen und Wartezeiten."
   },
   "montenegroBody": {
     "h1": "Montenegro mit dem Auto entdecken",
@@ -1034,8 +1181,8 @@
     "thirdPartyTitle": "Dienste von Drittanbietern",
     "thirdPartyIntro": "Unsere Website nutzt die folgenden Drittanbieter-Dienste:",
     "thirdParty1": "LocalRent: Buchungs-Widget für Mietwagen, verarbeitet Ihre Suchanfragen und wickelt Buchung und Zahlung ab",
-    "thirdParty2": "Vercel: Website-Hosting",
-    "thirdParty3": "Pexels: Stockfotografie",
+    "thirdParty2": "Hosting-Anbieter: Website-Hosting",
+    "thirdParty3": "Stockfoto-Bibliotheken: Stockfotografie",
     "thirdPartyNote": "Jeder dieser Dienste hat eigene Datenschutzrichtlinien.",
     "cookiesTitle": "Cookies",
     "cookiesText": "Wir verwenden nur die für die Website notwendigen Cookies. Das LocalRent-Buchungs-Widget kann eigene Cookies setzen. Siehe unsere",
@@ -1078,7 +1225,7 @@
     "liability3": "Verluste durch Grenzübergangsprobleme oder Dokumentationsfehler",
     "liability4": "Preisänderungen nach der Buchungsbestätigung",
     "ipTitle": "Geistiges Eigentum",
-    "ipText": "Alle Inhalte dieser Website, einschließlich Text, Design und Grafiken, sind Eigentum von Kotor Car Hire. Stockfotos werden unter Lizenz von Pexels verwendet.",
+    "ipText": "Alle Inhalte dieser Website, einschließlich Text, Design und Grafiken, sind Eigentum von Kotor Car Hire. Stockfotos werden unter Lizenz von Drittanbietern für Stockfotografie verwendet.",
     "contactTitle": "Kontakt",
     "contactText": "Fragen zu diesen Bedingungen? Kontaktieren Sie uns unter info@kotorcarhire.com."
   },
@@ -1135,5 +1282,102 @@
     "seoDesc": "Kontaktieren Sie Kotor Car Hire für Angebote, Abholungen an der Kreuzfahrt oder Lieferung am Flughafen Tivat.",
     "heading": "Kontaktieren Sie uns",
     "intro": "Haben Sie eine Frage zur Automiete in Kotor? Kontaktieren Sie uns, und wir helfen Ihnen, das passende Fahrzeug für Ihre Reise zu finden."
+  },
+  "cruise": {
+    "label": "Kreuzfahrthafen",
+    "title": "Kommen Sie mit dem Kreuzfahrtschiff?",
+    "subtitle": "Jedes Jahr legen über 2.000 Kreuzfahrtschiffe in Kotor an. Hier finden Sie das Wichtigste.",
+    "items": {
+      "0": {
+        "title": "Vom Schiff zum Tor in 5 Minuten",
+        "desc": "Das Kreuzfahrtterminal liegt direkt am Fuß der Kotor-Mauern. Vom Schiff über die Kaimauer und durch das Seetor in die Altstadt. Kein Transfer nötig."
+      },
+      "1": {
+        "title": "Autofreie Altstadt",
+        "desc": "Die gesamte ummauerte Stadt ist Fußgängerzone. Von einem Ende zum anderen in 20 Minuten. Kopfsteinpflaster, Kirchen, Schifffahrtsmuseum und Katzen an jeder Ecke."
+      },
+      "2": {
+        "title": "1.355 Stufen aufwärts",
+        "desc": "Der Aufstieg zur Festung San Giovanni beginnt innerhalb der Mauern. Rechnen Sie mit 45 Minuten hoch und 30 hinunter. Früh starten, bevor Mittagshitze und Menschenmengen kommen."
+      },
+      "3": {
+        "title": "Bootsausflüge in der Bucht",
+        "desc": "Wassertaxis nach Perast und zur Felseninsel fahren vom Hafen. Etwa 5 EUR hin und zurück, alle 15 Minuten in der Saison."
+      }
+    }
+  },
+  "locations": {
+    "label": "Abholstellen",
+    "title": "Wo können Sie das Auto abholen?",
+    "subtitle": "Mehrere Standorte in ganz Montenegro für maximale Bequemlichkeit."
+  },
+  "imageAlts": {
+    "kotorBayAerial": "Luftbild der Bucht von Kotor von oberhalb der Festungsmauern",
+    "mostarBridge": "Brücke von Mostar",
+    "adriaticCoastAerial": "Luftaufnahme der Adriaküste",
+    "budvaOldTownPeninsula": "Halbinsel der Altstadt von Budva von oben",
+    "svetiStefanIslet": "Insel Sveti Stefan von der Küstenstraße aus",
+    "dubrovnikAerial": "Luftaufnahme von Dubrovnik",
+    "dubrovnikHarbour": "Historischer Hafen von Dubrovnik",
+    "kotorOldTownFromFortress": "Altstadt von Kotor von den Festungsstufen aus gesehen",
+    "kotorFortressWalls": "Festungsmauern von Kotor, die den Berg über der Altstadt hinaufsteigen",
+    "bayOfKotorAerial": "Luftaufnahme der Bucht von Kotor",
+    "montenegroCoastalRoad": "Küstenstraße in Montenegro",
+    "perastWaterfront": "Uferpromenade von Perast mit den beiden Inseln in der Bucht dahinter",
+    "bayOfKotorNearPerast": "Landschaft der Bucht von Kotor bei Perast",
+    "portoMontenegroMarina": "Marina Porto Montenegro mit Superyachten am Liegeplatz",
+    "tivatWaterfront": "Uferpromenade von Tivat in der Abenddämmerung",
+    "tivatAirportRunway": "Landebahn des Flughafens Tivat"
+  },
+  "carInline": {
+    "vw-polo": {
+      "alt": "Steindorf oberhalb der Bucht von Kotor",
+      "caption": "Die Uferstraße zwischen Kotor und Perast, schmale Zufahrten, überhängende Olivenzweige, Parkplätze in Zentimetern gemessen."
+    },
+    "fiat-500": {
+      "alt": "Küstenstraße über der Bucht von Kotor",
+      "caption": "Der Aussichtspunkt an Kurve 17 über Dobrota, kurze Etappen zwischen Fotostopps sind genau das, wofür der 500 gemacht ist."
+    },
+    "peugeot-208": {
+      "alt": "Straße in Kurven über der Bucht von Kotor",
+      "caption": "Spitzkehren über der Bucht auf der alten österreichischen Straße, der 208 fühlt sich in den engsten Kurven der Lovćen-Auffahrt am wohlsten."
+    },
+    "citroen-c3": {
+      "alt": "Küstenstraße bei Risan",
+      "caption": "Die Küstenstraße über Morinj und Risan, wo der C3 den geflickten Asphalt federt, an dem andere Kleinwagen scheppern."
+    },
+    "toyota-yaris": {
+      "alt": "Die Bucht von Kotor von oben",
+      "caption": "Ein zweiwöchiger Aufenthalt am Buchtufer kostet im Yaris Hybrid weniger als 80 € Sprit, leise beeindruckend."
+    },
+    "kia-stonic": {
+      "alt": "Schotterstraße über der Bucht",
+      "caption": "Die unbefestigten Abschnitte oberhalb des Dorfes Njeguši, die Bodenfreiheit des Stonic schafft sie ohne SUV-Aufpreis."
+    },
+    "vw-golf": {
+      "alt": "Malerische, von Bäumen gesäumte montenegrinische Straße",
+      "caption": "Die ruhigeren Etappen im Hinterland hinter Cetinje, DSG plus Diesel, der Golf nimmt das Rätselraten beim Schalten ab."
+    }
+  },
+  "carRelated": {
+    "kotor": "Kotor",
+    "perast": "Perast",
+    "tivatAirport": "Flughafen Tivat",
+    "kotorPhoto": "Foto-Spots in Kotor",
+    "lovcenDrive": "Fahrt von Kotor nach Lovćen",
+    "lovcen": "Kotor bis Lovćen",
+    "risanMosaics": "Mosaikfahrt nach Risan",
+    "bayBoat": "Bootstag in der Bucht",
+    "cruiseShore": "Kreuzfahrt-Landausflug",
+    "dubrovnikAirport": "Flughafen Dubrovnik",
+    "budva": "Budva"
+  },
+  "carSpecs": {
+    "seats": "Sitze",
+    "transmission": "Getriebe",
+    "fuel": "Kraftstoff",
+    "luggage": "Gepäck",
+    "bootSize": "Kofferraum",
+    "mpg": "Verbrauch"
   }
 }

@@ -55,7 +55,7 @@ const LOCATIONS = [
   'Dobre Vode', 'Djenovici', 'Krasici', 'Radovici', 'Buljarica',
 ];
 
-// LocalRent city IDs — used to configure the booking widget per location
+// LocalRent city IDs, used to configure the booking widget per location
 const CITY_ID_MAP = {
   'Tivat':             17,
   'Podgorica':         15,
@@ -248,7 +248,7 @@ function Hero() {
             <div className="booking-card__fields">
               <LocationField value={pickup} onChange={setPickup} />
               <div className="booking-field booking-field--dates">
-                <label>{t('hero.pickupDate')} — {t('hero.dropoffDate')}</label>
+                <label>{t('hero.pickupDate')}, {t('hero.dropoffDate')}</label>
                 <DatePicker
                   selectsRange
                   startDate={startDate}
@@ -320,20 +320,21 @@ function TrustStrip() {
 /* ─── STAT COUNTERS ────────────────────────────────────── */
 /* ─── CRUISE VISITORS (KOTOR UNIQUE) ──────────────────── */
 function CruiseVisitors() {
+  const { t } = useTranslation();
   return (
     <section className="section section--gray" id="cruise">
       <div className="container">
         <div className="section-header">
-          <span className="section-label">Cruise Port</span>
-          <h2 className="section-title">Arriving by Cruise Ship?</h2>
-          <p className="section-subtitle">Over 2,000 cruise ships dock in Kotor each year. Here is what you need to know.</p>
+          <span className="section-label">{t('cruise.label')}</span>
+          <h2 className="section-title">{t('cruise.title')}</h2>
+          <p className="section-subtitle">{t('cruise.subtitle')}</p>
         </div>
         <div className="cruise-grid">
           {[
-            { icon: <MapPin size={24} />, title: 'Dock to Gate in 5 Min', desc: 'The cruise terminal sits at the foot of Kotor\'s walls. Walk off the ship, cross the quay, and enter the Old Town through the Sea Gate. No transfer needed.' },
-            { icon: <Car size={24} />, title: 'Car-Free Old Town', desc: 'The entire walled city is pedestrian. Walk end to end in 20 minutes. Cobblestones, churches, Maritime Museum, and cats on every corner.' },
-            { icon: <Star size={24} fill="currentColor" />, title: '1,355 Steps Up', desc: 'The San Giovanni fortress hike starts inside the walls. Allow 45 minutes up and 30 down. Start early to beat the midday heat and the crowds.' },
-            { icon: <Globe size={24} />, title: 'Bay Boat Trips', desc: 'Water taxis to Perast and Our Lady of the Rocks leave from the harbour. About 5 EUR return, every 15 minutes in season.' },
+            { icon: <MapPin size={24} />, title: t('cruise.items.0.title'), desc: t('cruise.items.0.desc') },
+            { icon: <Car size={24} />, title: t('cruise.items.1.title'), desc: t('cruise.items.1.desc') },
+            { icon: <Star size={24} fill="currentColor" />, title: t('cruise.items.2.title'), desc: t('cruise.items.2.desc') },
+            { icon: <Globe size={24} />, title: t('cruise.items.3.title'), desc: t('cruise.items.3.desc') },
           ].map((item) => (
             <div key={item.title} className="cruise-card reveal-item">
               <div className="cruise-card__icon">{item.icon}</div>
@@ -387,7 +388,7 @@ const FLEET_TABS = [
   { key: 'midsize', fallback: 'Mid-Size' },
 ];
 
-// Homepage curates 6 of 7 — the Kotor cruise/bay set.
+// Homepage curates 6 of 7, the Kotor cruise/bay set.
 const HOMEPAGE_FLEET_SLUGS = [
   'vw-polo', 'fiat-500', 'peugeot-208',
   'toyota-yaris', 'kia-stonic', 'vw-golf',
@@ -597,13 +598,14 @@ function Reviews() {
 
 /* ─── LOCATIONS ────────────────────────────────────────── */
 function Locations() {
+  const { t } = useTranslation();
   return (
     <section className="section" id="locations">
       <div className="container">
         <div className="section-header">
-          <span className="section-label">Pickup Points</span>
-          <h2 className="section-title">Where Can You Collect?</h2>
-          <p className="section-subtitle">Multiple locations across Montenegro for maximum convenience.</p>
+          <span className="section-label">{t('locations.label')}</span>
+          <h2 className="section-title">{t('locations.title')}</h2>
+          <p className="section-subtitle">{t('locations.subtitle')}</p>
         </div>
 
         <div className="locations-grid">
@@ -809,13 +811,14 @@ function StickyMobileCTA() {
 
 /* ─── SCROLL TO TOP ────────────────────────────────────── */
 function WhatsAppFab() {
+  const { t } = useTranslation();
   return (
     <a
       href={`https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Montenegro.`}
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-fab"
-      aria-label="Chat on WhatsApp"
+      aria-label={t('common.whatsappAria')}
     >
       <MessageCircle size={22} />
     </a>
@@ -823,6 +826,7 @@ function WhatsAppFab() {
 }
 
 function ScrollToTop() {
+  const { t } = useTranslation();
   const [show, setShow] = useState(false);
 
   useEffect(() => {
@@ -837,7 +841,7 @@ function ScrollToTop() {
     <button
       className="scroll-top"
       onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-      aria-label="Scroll to top"
+      aria-label={t('common.scrollTopAria')}
     >
       <ChevronRight size={20} style={{ transform: 'rotate(-90deg)' }} />
     </button>

@@ -22,7 +22,7 @@ export async function generateMetadata() {
       description,
       url: `${SITE}/cars`,
       type: 'website',
-      images: [{ url: `${SITE}/img/fleet/vw-polo.jpg`, width: 1200, height: 800, alt: 'Kotor Car Hire fleet' }],
+      images: [{ url: `${SITE}/img/fleet/vw-polo.jpg`, width: 1200, height: 800, alt: t('en', 'fleetIndex.title') }],
     },
   };
 }

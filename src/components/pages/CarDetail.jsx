@@ -24,16 +24,16 @@ import {
   Droplet, Package,
 } from 'lucide-react';
 
-// Per-car inline Kotor-road photo — chosen to fit each car's character.
+// Per-car inline Kotor-road photo, chosen to fit each car's character.
 const INLINE_PHOTOS = {
-  'vw-polo':      { src: '/img/fleet-inline/village-trees.jpg',  alt: 'Stone village above the Bay of Kotor',   caption: 'The waterfront between Kotor and Perast — narrow approach lanes, overhanging olive branches, parking measured in centimetres.' },
-  'fiat-500':     { src: '/img/fleet-inline/seashore-hills.jpg', alt: 'Coastal road above the Bay of Kotor',    caption: 'The bend-17 viewpoint above Dobrota — short hops between photo stops is exactly where the 500 belongs.' },
-  'peugeot-208':  { src: '/img/fleet-inline/road-mountains.jpg', alt: 'Road curving above Kotor bay',           caption: 'Hairpins above the bay on the old Austrian road — the 208 feels most at home on the tightest corners of the Lovćen climb.' },
-  'citroen-c3':   { src: '/img/fleet-inline/seaside-road.jpg',   alt: 'Coast road past Risan',                  caption: 'The coast road past Morinj and Risan, where the C3 softens the patched tarmac that rattles other small cars.' },
-  'toyota-yaris': { src: '/img/fleet-inline/kotor-bay.jpg',       alt: 'The Bay of Kotor from above',            caption: 'A two-week bay-base stay will cost less than €80 in fuel in the Yaris Hybrid — quietly remarkable.' },
-  'kia-stonic':   { src: '/img/fleet-inline/rocky-road.jpg',     alt: 'Gravel road above the bay',              caption: 'The unsealed stretches above Njeguši village — the Stonic\u2019s ride height clears them without paying full SUV money.' },
-  'vw-golf':      { src: '/img/fleet-inline/forest-road.jpg',    alt: 'Scenic tree-lined Montenegrin road',     caption: 'The quieter inland stretches past Cetinje — DSG plus diesel, the Golf takes the guesswork out of gear changes.' },
-  _default:       { src: '/img/fleet-inline/sunset-montenegro.jpg', alt: 'Montenegro landscape at sunset',      caption: 'The roads around Kotor thread coast, bay and mountain in a single afternoon.' },
+  'vw-polo':      { src: '/img/fleet-inline/village-trees.jpg' },
+  'fiat-500':     { src: '/img/fleet-inline/seashore-hills.jpg' },
+  'peugeot-208':  { src: '/img/fleet-inline/road-mountains.jpg' },
+  'citroen-c3':   { src: '/img/fleet-inline/seaside-road.jpg' },
+  'toyota-yaris': { src: '/img/fleet-inline/kotor-bay.jpg' },
+  'kia-stonic':   { src: '/img/fleet-inline/rocky-road.jpg' },
+  'vw-golf':      { src: '/img/fleet-inline/forest-road.jpg' },
+  _default:       { src: '/img/fleet-inline/sunset-montenegro.jpg' },
 };
 
 // Related image-link cards at the end of each car detail page, pointed
@@ -41,39 +41,39 @@ const INLINE_PHOTOS = {
 // dubrovnik-airport, and the existing blog posts).
 const RELATED = {
   'vw-polo': [
-    { href: '/kotor',                              img: '/img/kotor-old-town.webp',         title: 'Kotor' },
-    { href: '/perast',                             img: '/img/perast-village.webp',         title: 'Perast' },
-    { href: '/tivat-airport',                      img: '/img/tivat-airport.webp',          title: 'Tivat Airport' },
+    { href: '/kotor',                              img: '/img/kotor-old-town.webp',         titleKey: 'kotor' },
+    { href: '/perast',                             img: '/img/perast-village.webp',         titleKey: 'perast' },
+    { href: '/tivat-airport',                      img: '/img/tivat-airport.webp',          titleKey: 'tivatAirport' },
   ],
   'fiat-500': [
-    { href: '/kotor',                              img: '/img/kotor-old-town.webp',         title: 'Kotor' },
-    { href: '/perast',                             img: '/img/perast-village.webp',         title: 'Perast' },
-    { href: '/blog/kotor-photography-spots',       img: '/img/blog-kotor-photo.webp',       title: 'Kotor photography spots' },
+    { href: '/kotor',                              img: '/img/kotor-old-town.webp',         titleKey: 'kotor' },
+    { href: '/perast',                             img: '/img/perast-village.webp',         titleKey: 'perast' },
+    { href: '/blog/kotor-photography-spots',       img: '/img/blog-kotor-photo.webp',       titleKey: 'kotorPhoto' },
   ],
   'peugeot-208': [
-    { href: '/blog/kotor-to-lovcen-drive',         img: '/img/blog-lovcen-road.webp',       title: 'Kotor to Lovćen drive' },
-    { href: '/kotor',                              img: '/img/kotor-old-town.webp',         title: 'Kotor' },
-    { href: '/perast',                             img: '/img/perast-village.webp',         title: 'Perast' },
+    { href: '/blog/kotor-to-lovcen-drive',         img: '/img/blog-lovcen-road.webp',       titleKey: 'lovcenDrive' },
+    { href: '/kotor',                              img: '/img/kotor-old-town.webp',         titleKey: 'kotor' },
+    { href: '/perast',                             img: '/img/perast-village.webp',         titleKey: 'perast' },
   ],
   'citroen-c3': [
-    { href: '/blog/risan-mosaics-drive',           img: '/img/blog-risan-mosaics.webp',     title: 'Risan mosaics drive' },
-    { href: '/perast',                             img: '/img/perast-village.webp',         title: 'Perast' },
-    { href: '/kotor',                              img: '/img/kotor-old-town.webp',         title: 'Kotor' },
+    { href: '/blog/risan-mosaics-drive',           img: '/img/blog-risan-mosaics.webp',     titleKey: 'risanMosaics' },
+    { href: '/perast',                             img: '/img/perast-village.webp',         titleKey: 'perast' },
+    { href: '/kotor',                              img: '/img/kotor-old-town.webp',         titleKey: 'kotor' },
   ],
   'toyota-yaris': [
-    { href: '/blog/bay-of-kotor-boat-day',         img: '/img/blog-bay-boat.webp',          title: 'Bay boat day' },
-    { href: '/blog/kotor-cruise-shore-excursion',  img: '/img/blog-cruise-port.webp',       title: 'Cruise shore excursion' },
-    { href: '/kotor',                              img: '/img/kotor-old-town.webp',         title: 'Kotor' },
+    { href: '/blog/bay-of-kotor-boat-day',         img: '/img/blog-bay-boat.webp',          titleKey: 'bayBoat' },
+    { href: '/blog/kotor-cruise-shore-excursion',  img: '/img/blog-cruise-port.webp',       titleKey: 'cruiseShore' },
+    { href: '/kotor',                              img: '/img/kotor-old-town.webp',         titleKey: 'kotor' },
   ],
   'kia-stonic': [
-    { href: '/blog/kotor-to-lovcen-drive',         img: '/img/blog-lovcen-hairpins.webp',   title: 'Kotor to Lovćen' },
-    { href: '/blog/risan-mosaics-drive',           img: '/img/blog-risan-mosaics.webp',     title: 'Risan mosaics drive' },
-    { href: '/perast',                             img: '/img/perast-village.webp',         title: 'Perast' },
+    { href: '/blog/kotor-to-lovcen-drive',         img: '/img/blog-lovcen-hairpins.webp',   titleKey: 'lovcen' },
+    { href: '/blog/risan-mosaics-drive',           img: '/img/blog-risan-mosaics.webp',     titleKey: 'risanMosaics' },
+    { href: '/perast',                             img: '/img/perast-village.webp',         titleKey: 'perast' },
   ],
   'vw-golf': [
-    { href: '/blog/kotor-to-lovcen-drive',         img: '/img/blog-lovcen-road.webp',       title: 'Kotor to Lovćen drive' },
-    { href: '/dubrovnik-airport',                  img: '/img/dubrovnik-nearby.webp',       title: 'Dubrovnik Airport' },
-    { href: '/budva',                              img: '/img/budva-from-kotor.webp',       title: 'Budva' },
+    { href: '/blog/kotor-to-lovcen-drive',         img: '/img/blog-lovcen-road.webp',       titleKey: 'lovcenDrive' },
+    { href: '/dubrovnik-airport',                  img: '/img/dubrovnik-nearby.webp',       titleKey: 'dubrovnikAirport' },
+    { href: '/budva',                              img: '/img/budva-from-kotor.webp',       titleKey: 'budva' },
   ],
 };
 
@@ -221,10 +221,12 @@ export default function CarDetail({ slug }) {
                 </section>
                 {i === 2 && (() => {
                   const inline = INLINE_PHOTOS[slug] || INLINE_PHOTOS._default;
-                  return (
+                    const inlineAlt = tf(`carInline.${slug}.alt`, '');
+                    const inlineCaption = tf(`carInline.${slug}.caption`, '');
+                    return (
                     <figure key={`inline-${i}`} className="car-detail-article__figure">
-                      <img src={inline.src} alt={inline.alt} loading="lazy" />
-                      <figcaption>{inline.caption}</figcaption>
+                      <img src={inline.src} alt={inlineAlt} loading="lazy" />
+                      <figcaption>{inlineCaption}</figcaption>
                     </figure>
                   );
                 })()}
@@ -250,7 +252,7 @@ export default function CarDetail({ slug }) {
               <a key={card.href} href={localePath(card.href)} className="car-detail-related__card">
                 <div className="car-detail-related__img" style={{ backgroundImage: `url(${card.img})` }} />
                 <div className="car-detail-related__body">
-                  <span className="car-detail-related__title">{card.title}</span>
+                  <span className="car-detail-related__title">{tf(`carRelated.${card.titleKey}`, card.titleKey)}</span>
                   <ArrowRight size={14} />
                 </div>
               </a>

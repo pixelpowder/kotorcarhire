@@ -5,10 +5,161 @@
     "destinations": "Destinazioni",
     "about": "Chi Siamo",
     "blog": "Guida",
-    "contact": "Contatti"
+    "contact": "Contatti",
+    "bayOfKotor": "Bocche di Cattaro"
   },
   "cars": {
-    "readGuide": "Leggi la guida"
+    "readGuide": "Leggi la guida",
+    "whoForTitle": "A chi si rivolge questa auto?",
+    "regionalTitle": "Miglior uso regionale",
+    "featuresTitle": "All'interno dell'auto",
+    "relatedTitle": "Dove ti porta questa auto",
+    "overviewTitle": "In sintesi",
+    "articleTitle": "Intorno alle Bocche di Cattaro",
+    "checkAvailability": "Verifica disponibilità e prezzi in tempo reale",
+    "nextBtn": "Successiva nella flotta",
+    "schemaDescription": "Noleggio {category}, {transmission}, {fuel}, {seats} posti",
+    "sections": {
+      "behindWheel": "Al volante",
+      "onRoads": "Sulle strade di Kotor",
+      "spaceLoad": "Spazio e carico",
+      "bestFor": "I migliori viaggi per questa auto",
+      "practical": "Note pratiche",
+      "verdict": "Il verdetto"
+    },
+    "vw-polo": {
+      "name": "VW Polo",
+      "category": "Economy",
+      "tagline": "Compatta che si infila negli stalli a sud di Kotor senza graffiare gli specchietti",
+      "lede": "Due bagagli a mano, cinque posti, un raggio di sterzata pensato per i vicoli medievali della Porta del Mare.",
+      "suitability": "Due viaggiatori con bagaglio a mano che ritirano a Tivat e alloggiano nella Città Vecchia di Kotor, la Polo è la berlina a benzina più parcheggiabile della flotta.",
+      "regional": "Entra negli stalli di Tabacina sotto 1,50 €/h, attraversa la corsia singola del lungomare di Perast e tiene i 100 km/h sulla salita di Sozina senza sforzo. Il quattro cilindri benzina è la scelta giusta per chi vuole infilarsi in spazi stretti a fine giornata.",
+      "bestFor": [
+        "Coppie",
+        "Noleggi di un giorno per crocieristi",
+        "Primi visitatori della baia"
+      ],
+      "features": [
+        "Aria condizionata",
+        "Audio Bluetooth",
+        "Ricarica USB",
+        "Chiusura centralizzata"
+      ]
+    },
+    "fiat-500": {
+      "name": "Fiat 500",
+      "category": "Citycar",
+      "tagline": "Citycar da cartolina per le porte dei bastioni e le piazzole sulla strada della baia",
+      "lede": "Parcheggia dove nient'altro entra, ideale per soggiorni di quattro notti a Kotor, Perast o sul lungomare di Dobrota.",
+      "suitability": "Uno o due viaggiatori la cui Bocche di Cattaro è fatta di brevi tratti tra soste fotografiche, Kotor a Perast, Dobrota a Prčanj, e ritorno prima del tramonto.",
+      "regional": "Entra nelle piazzole sul lungomare tra Kotor e Perast dove una Golf non passa, tettuccio apribile aperto al punto panoramico della curva 17 sopra Dobrota, bagagliaio appena sufficiente per un treppiede e una borsa termica. Poco potente per i tornanti del Lovćen d'estate, resta sulla costa e la 500 conquista.",
+      "bestFor": [
+        "Passeggeri da crociera",
+        "Viaggiatori solitari",
+        "Fotografi"
+      ],
+      "features": [
+        "Dimensioni compatte",
+        "Parcheggio facile",
+        "Tettuccio apribile",
+        "Bluetooth"
+      ]
+    },
+    "peugeot-208": {
+      "name": "Peugeot 208",
+      "category": "Economy",
+      "tagline": "Sterzo francese preciso per i tornanti del Lovćen, agile nelle 25 curve a gomito",
+      "lede": "Volante piccolo, plancia alta, assetto più rigido di una Clio, la piccola utilitaria più premiata dalla strada di montagna di Kotor.",
+      "suitability": "Coppie il cui viaggio a Kotor si appoggia alla vecchia strada austriaca, la 208 è la più incisiva utilitaria della flotta nelle 25 curve a gomito sopra la baia.",
+      "regional": "Agile nei tornanti del Lovćen tra Kotor e Njeguši, valida nei brevi tratti autostradali verso Budva, e il piccolo volante sembra costruito apposta per le curve strette del Montenegro. Bagagliaio più stretto di una Polo, viaggia leggero se carichi tutta la famiglia.",
+      "bestFor": [
+        "Guidatori a cui piace guidare",
+        "Coppie",
+        "Gitanti del Lovćen"
+      ],
+      "features": [
+        "i-Cockpit",
+        "Apple CarPlay",
+        "Ricarica USB",
+        "Sensori di parcheggio posteriori"
+      ]
+    },
+    "citroen-c3": {
+      "name": "Citroen C3",
+      "category": "Economy",
+      "tagline": "L'utilitaria con la sospensione più morbida della baia, assorbe l'asfalto rattoppato oltre Risan",
+      "lede": "Sospensioni a lunga escursione, sedili in schiuma profonda, la C3 attutisce le rotture di superficie che mettono in difficoltà le altre del segmento B.",
+      "suitability": "Chiunque preferisca le konobe tranquille del lungomare alle scadenze strette, la C3 è la piccola auto più confortevole che la Baia noleggia.",
+      "regional": "L'assetto permette di affrontare l'asfalto rattoppato fino a Risan e ai mosaici di Ipnos senza far tintinnare le otturazioni, e i sedili alti e imbottiti si adattano ai passeggeri da crociera che concludono la giornata sulle panchine di Tabacina. Poco potente sulla salita del Lovćen, con un orario di crociera serrato, scegli più tirato.",
+      "bestFor": [
+        "Viaggiatori più anziani",
+        "Noleggiatori focalizzati sul comfort",
+        "Esploratori lenti delle strade secondarie"
+      ],
+      "features": [
+        "Sedili Advanced Comfort",
+        "Audio Bluetooth",
+        "Ricarica USB",
+        "Avviso di superamento corsia"
+      ]
+    },
+    "toyota-yaris": {
+      "name": "Toyota Yaris",
+      "category": "Economy",
+      "tagline": "L'auto più economica da rifornire sulla baia, l'ibrida beve benzina a 1,50 €/L",
+      "lede": "3,8 L/100 km nel mondo reale. La Yaris Hybrid attraversa il traffico di Kotor in modalità elettrica, poi scivola sulla strada della baia senza svegliare il motore.",
+      "suitability": "Viaggiatori che fanno due settimane con un solo serbatoio di pensieri, l'ibrida si ripaga sul giro quotidiano Kotor, Perast, Risan.",
+      "regional": "In modalità solo elettrica attraverso il traffico scolastico mattutino alla circonvallazione di Škaljari, poi scivola sulla strada della baia verso Perast senza muovere l'ago del carburante. Non è l'auto per le gite a Žabljak, la piccola batteria si scarica sulle salite lunghe, ma per una settimana in baia è silenziosamente notevole.",
+      "bestFor": [
+        "Visitatori di lungo soggiorno attenti ai consumi",
+        "Viaggi prevalentemente urbani",
+        "Noleggi mattutini per crocieristi"
+      ],
+      "features": [
+        "Motorizzazione ibrida",
+        "Telecamera posteriore",
+        "Apple CarPlay",
+        "Cruise control adattivo"
+      ]
+    },
+    "kia-stonic": {
+      "name": "Kia Stonic",
+      "category": "Crossover compatto",
+      "tagline": "Altezza da terra rialzata senza il sovrapprezzo del SUV a noleggio, il compromesso per la strada secondaria di Njeguši",
+      "lede": "Bagagliaio da 352 litri, posizione di seduta più alta, modesto 1,0 benzina, il crossover per le diramazioni non asfaltate fuori dalla strada del Lovćen.",
+      "suitability": "Noleggiatori le cui giornate a Kotor includono la scorciatoia di Krstac dalla vecchia strada austriaca, o l'avvicinamento sterrato al lago Kapetanovo, più alto di un'utilitaria senza i consumi di un SUV.",
+      "regional": "L'altezza da terra extra supera l'ultimo chilometro sterrato sotto il villaggio di Njeguši, la deviazione piena di buche verso Stoliv superiore, e i bordi rotti del lungomare a nord di Risan. Solo trazione anteriore, scegli questo per strade sterrate in condizioni asciutte, non per una salita a Žabljak in gennaio.",
+      "bestFor": [
+        "Coppie dirette nell'entroterra",
+        "Viaggiatori di mezza stagione",
+        "Noleggiatori di crossover economici"
+      ],
+      "features": [
+        "Altezza da terra rialzata",
+        "Apple CarPlay",
+        "Telecamera posteriore",
+        "Mantenimento corsia"
+      ]
+    },
+    "vw-golf": {
+      "name": "VW Golf",
+      "category": "Mid-Size",
+      "tagline": "Il punto di riferimento DSG diesel, imperturbabile sulla strada della baia, in autostrada o sulla salita del Lovćen",
+      "lede": "L'ingombro manovrabile di una Polo unito alla raffinatezza di una Passat, la scelta razionale per viaggi che mescolano costa e montagna.",
+      "suitability": "Coppie la cui base a Kotor ancora gite a Dubrovnik, Mostar o Žabljak, la Golf gestisce i passaggi transfrontalieri senza imporre l'ingombro di un SUV.",
+      "regional": "Attraversa il tunnel del Vrmac e l'imbarcadero di Kamenari, Lepetane con la calma di un'auto più grande, restituisce 4,3 L/100 km sul tratto Debeli Brijeg fino a Dubrovnik, e il DSG legge i tornanti del Lovćen senza che tu tocchi la leva del cambio. Assetto più rigido di una C3 sulle strade secondarie sconnesse, un compromesso giusto per la tranquillità autostradale.",
+      "bestFor": [
+        "Coppie che alternano città e campagna",
+        "Gitanti transfrontalieri",
+        "Transfer aeroporto, baia"
+      ],
+      "features": [
+        "Cambio DSG",
+        "Cruise control adattivo",
+        "Cruscotto digitale",
+        "Apple CarPlay"
+      ]
+    }
   },
   "fleetShowcase": {
     "label": "Conosci l'auto",
@@ -38,7 +189,9 @@
     "callUs": "Chiamaci",
     "bookNow": "Prenota Ora",
     "perDay": "al giorno",
-    "emailUs": "Invia email"
+    "emailUs": "Invia email",
+    "whatsappAria": "Chatta su WhatsApp",
+    "scrollTopAria": "Torna su"
   },
   "hero": {
     "headline": "Noleggio Auto Kotor",
@@ -127,7 +280,8 @@
   "book": {
     "title": "Trova la Tua Auto",
     "seoTitle": "Prenota un'Auto",
-    "seoDesc": "Prenota un'auto a noleggio per Kotor in pochi secondi. Consegna all'Aeroporto di Tivat 8 km, cancellazione gratuita sulla maggior parte delle tariffe."
+    "seoDesc": "Prenota un'auto a noleggio per Kotor in pochi secondi. Consegna all'Aeroporto di Tivat 8 km, cancellazione gratuita sulla maggior parte delle tariffe.",
+    "iframeTitle": "Prenotazione noleggio auto"
   },
   "footer": {
     "brandDesc": "Noleggio auto a breve termine a Kotor da Aeroporto di Tivat e dalle porte della Città Vecchia. Assicurazione completa, esperienza della strada della baia, e tariffe fisse che rimangono fisse tutto l'anno.",
@@ -154,7 +308,8 @@
     "title": "Strada Sbagliata",
     "text": "Sembra che abbia preso una deviazione. Questa strada non porta da nessuna parte, ma i migliori itinerari delle Bocche di Kotor sono a un clic di distanza.",
     "backHome": "Torna alla Home",
-    "searchCars": "Cerca Auto"
+    "searchCars": "Cerca Auto",
+    "metaTitle": "Pagina non trovata"
   },
   "home": {
     "seoDesc": "Noleggia un'auto a Kotor da €13 al giorno. Aeroporto di Tivat 8 km, la città UNESCO murata ai tuoi piedi, e 60 km di strada nel fiordo tra te."
@@ -177,7 +332,7 @@
     "p3d": ", e località lungo la costa e l'entroterra.",
     "promiseTitle": "La nostra promessa",
     "promise1": "Assicurazione completa con opzioni a scopertura zero disponibili",
-    "promise2": "Servizio meet-and-greet all'Aeroporto di Tivat, portiamo l'auto agli arrivi",
+    "promise2": "Servizio di accoglienza all'Aeroporto di Tivat, portiamo l'auto agli arrivi",
     "promise3": "Nessuna commissione nascosta: il prezzo che vedi è il prezzo che paghi",
     "promise4": "Viaggi transfrontalieri consentiti verso Croazia, Bosnia, Albania, Serbia e Kosovo",
     "promise5": "Cancellazione gratuita sulla maggior parte delle prenotazioni",
@@ -339,32 +494,16 @@
       "a": "Il tuo agente ti aspetta nella sala arrivi dell'aeroporto di Tivat con un cartello con il tuo nome. L'auto è parcheggiata proprio fuori. Dal terminal alle mura della città vecchia di Kotor ci vogliono circa 15 minuti lungo la strada della baia. In alternativa, possiamo organizzare il ritiro al parcheggio Tabacina, all'ingresso della città vecchia."
     },
     "5": {
-      "q": "Posso restituire il veicolo in un luogo diverso?",
-      "a": "I noleggi in una direzione sono disponibili in 28 punti di ritiro e riconsegna in Montenegro. Seleziona luoghi diversi in fase di prenotazione, potrebbe essere applicata una tariffa in una direzione in base alla distanza."
+      "q": "Qual è la politica di cancellazione?",
+      "a": "Cancellazione gratuita fino a 7 giorni prima della data di inizio noleggio. Auto di lusso e cabriolet richiedono 30 giorni di preavviso. Una commissione di elaborazione del 6 % viene applicata a tutte le cancellazioni indipendentemente dalla tempistica."
     },
     "6": {
-      "q": "Qual è la politica di cancellazione?",
-      "a": "La cancellazione gratuita è disponibile fino a 7 giorni prima della data di inizio noleggio. Auto di lusso e cabriolet richiedono 30 giorni di preavviso. Una commissione per l'elaborazione del pagamento del 6 % viene applicata a tutte le cancellazioni indipendentemente dal momento."
+      "q": "È richiesto un deposito?",
+      "a": "La maggior parte dei veicoli richiede un deposito di 100-350 € su una carta di credito fisica intestata al conducente. Alcune auto economiche sono disponibili senza deposito e sono chiaramente segnalate nei risultati di ricerca. Il blocco viene rilasciato alla riconsegna del veicolo senza danni."
     },
     "7": {
-      "q": "È richiesto un deposito cauzionale?",
-      "a": "La maggior parte dei veicoli richiede un deposito di 100-350 € su una carta di credito fisica del conducente. Alcune auto economiche sono disponibili senza deposito, chiaramente segnalate nei risultati di ricerca. Il blocco viene rilasciato alla restituzione del veicolo senza danni."
-    },
-    "8": {
-      "q": "Cosa succede se supero il limite di chilometraggio?",
-      "a": "I veicoli con restrizioni di chilometraggio applicano una tariffa per chilometro oltre il limite concordato. La tariffa esatta è riportata nei dettagli del veicolo prima di confermare la prenotazione."
-    },
-    "9": {
-      "q": "Ci sono costi nascosti?",
-      "a": "No. Il prezzo indicato include tutte le tasse e le tariffe. Nessun sovrapprezzo aeroportuale, nessuna sorpresa sulla politica carburante, niente viene aggiunto allo sportello."
-    },
-    "10": {
-      "q": "Quanto pago in anticipo?",
-      "a": "Un acconto del 15-20 % del costo totale del noleggio è richiesto per confermare la prenotazione. Il saldo viene saldato direttamente con l'agente di noleggio al momento del ritiro dell'auto."
-    },
-    "11": {
-      "q": "Posso noleggiare senza carta di credito?",
-      "a": "Un piccolo numero di veicoli della flotta è disponibile senza carta di credito. Queste opzioni sono chiaramente indicate nei risultati di ricerca quando si filtra per luogo di ritiro."
+      "q": "Dove si parcheggia nella Città Vecchia di Kotor?",
+      "a": "La Città Vecchia è pedonale. Utilizza il parcheggio multipiano Tabacina (5 minuti a piedi dalla Porta del Mare, si riempie entro le 10 in estate) oppure il parcheggio della Porta del Fiume lungo il torrente Skurda (più economico, gratuito fuori stagione). A luglio e agosto un parcheggio di overflow temporaneo opera sulla via di accesso con navetta verso le mura."
     }
   },
   "destCards": {
@@ -477,7 +616,10 @@
     "historicTitle": "Siti Storici",
     "historicText": "La città vanta numerosi palazzi, cattedrali e diverse torri di guardia che un tempo proteggevano la città. Per chi è interessato a conoscere in dettaglio la storia di Perast, il Museo di Perast contiene molti manufatti, archivi, dipinti, sculture e documenti cittadini. Il museo si trova nell'antico Palata Buiovich, che molti considerano l'edificio più bello della costa montenegrina.",
     "monasteryTitle": "Monastero di Banja",
-    "monasteryText": "Situato appena a nord di Perast sulla strada per Risan, il Monastero di Banja presenta molti antichi pezzi religiosi provenienti da dinastie russe, greche e di Boka. Per raggiungere il monastero, continuate verso nord sulla E65/E80 per pochi chilometri."
+    "monasteryText": "Situato appena a nord di Perast sulla strada per Risan, il Monastero di Banja presenta molti antichi pezzi religiosi provenienti da dinastie russe, greche e di Boka. Per raggiungere il monastero, continuate verso nord sulla E65/E80 per pochi chilometri.",
+    "routeLinkBefore": "Pianifica il tuo itinerario con la nostra",
+    "routeLinkText": "guida alla guida e agli itinerari in Montenegro",
+    "routeLinkAfter": "."
   },
   "tivatBody": {
     "h1": "Tivat, Città del Porto Turistico",
@@ -509,7 +651,9 @@
     "facilitiesText": "L'aeroporto offre caffetterie, telefoni pubblici, negozi di souvenir e shopping duty-free. I servizi di autobus collegano a Herceg Novi e Budva, con servizio taxi disponibile anche all'esterno del terminal.",
     "whyTitle": "Perché Noleggiare all'Aeroporto di Tivat?",
     "whyText": "L'Aeroporto di Tivat è l'aeroporto più vicino alle destinazioni costiere più popolari del Montenegro. Pochi minuti dopo l'atterraggio, potrete guidare lungo la Baia di Kotor verso la città medievale fortificata, o dirigervi a sud verso le spiagge di Budva. Ritirare l'auto a Tivat significa nessun trasferimento, nessuna attesa per gli autobus, direttamente dal terminal alla strada aperta.",
-    "meetText": "Vi accogliamo nella sala arrivi con il vostro nome su un cartello. La vostra auto è parcheggiata proprio fuori. Tempo totale dall'atterraggio alla guida: circa 10 minuti."
+    "meetText": "Vi accogliamo nella sala arrivi con il vostro nome su un cartello. La vostra auto è parcheggiata proprio fuori. Tempo totale dall'atterraggio alla guida: circa 10 minuti.",
+    "budvaLinkText": "le spiagge e la Città Vecchia di Budva",
+    "budvaLinkAfter": "sono a 30 minuti a sud attraverso il tunnel."
   },
   "podgoricaBody": {
     "h1": "Podgorica, La Capitale",
@@ -555,7 +699,10 @@
     "facilitiesText2": "All'interno dell'aeroporto si trovano un ufficio di cambio, una banca e un ufficio postale. Sono disponibili anche piccoli ristoranti, caffetterie, un negozio duty-free e un'edicola.",
     "gettingTitle": "Come Raggiungere il Montenegro",
     "gettingText1": "I trasporti pubblici sono disponibili all'aeroporto sotto forma di taxi situati all'esterno del terminal, oltre a servizi di autobus e navette. Per i viaggiatori diretti alla città di Dubrovnik, assicuratevi di prendere gli autobus che arrivano fino al centro città piuttosto che quelli che si fermano a Cavtat, per risparmiare un trasferimento.",
-    "gettingText2": "Il viaggio dall'Aeroporto di Dubrovnik alla costa montenegrina vi porta lungo una delle strade costiere più panoramiche d'Europa. Entro due ore passerete attraverso il confine e arriverete alla Baia di Kotor, uno degli approcci più spettacolari a qualsiasi destinazione nel Mediterraneo."
+    "gettingText2": "Il viaggio dall'Aeroporto di Dubrovnik alla costa montenegrina vi porta lungo una delle strade costiere più panoramiche d'Europa. Entro due ore passerete attraverso il confine e arriverete alla Baia di Kotor, uno degli approcci più spettacolari a qualsiasi destinazione nel Mediterraneo.",
+    "borderGuideBefore": "Consulta la nostra",
+    "borderGuideText": "guida ai passaggi di frontiera con l'auto a noleggio",
+    "borderGuideAfter": "per documentazione e tempi di attesa."
   },
   "montenegroBody": {
     "h1": "Esplorare il Montenegro in Auto",
@@ -1034,8 +1181,8 @@
     "thirdPartyTitle": "Servizi di terze parti",
     "thirdPartyIntro": "Il nostro sito utilizza i seguenti servizi di terze parti:",
     "thirdParty1": "LocalRent: widget di prenotazione, elabora le ricerche e gestisce prenotazioni e pagamenti",
-    "thirdParty2": "Vercel: hosting del sito web",
-    "thirdParty3": "Pexels: fotografia stock",
+    "thirdParty2": "Provider di hosting: hosting del sito web",
+    "thirdParty3": "Banche di immagini: fotografia stock",
     "thirdPartyNote": "Ciascuno di questi servizi ha una propria informativa sulla privacy.",
     "cookiesTitle": "Cookie",
     "cookiesText": "Utilizziamo solo i cookie necessari al funzionamento del sito. Il widget LocalRent può impostare propri cookie. Consultate la nostra",
@@ -1078,7 +1225,7 @@
     "liability3": "Perdite derivanti da problemi ai valichi di frontiera o documentali",
     "liability4": "Variazioni di prezzo dopo la conferma della prenotazione",
     "ipTitle": "Proprietà intellettuale",
-    "ipText": "Tutti i contenuti del sito sono di proprietà di Kotor Car Hire. Le foto stock sono utilizzate su licenza di Pexels.",
+    "ipText": "Tutti i contenuti del sito sono di proprietà di Kotor Car Hire. Le foto stock sono utilizzate su licenza di banche di immagini di terzi.",
     "contactTitle": "Contatti",
     "contactText": "Domande su queste condizioni? Contattateci a info@kotorcarhire.com."
   },
@@ -1135,5 +1282,102 @@
     "seoDesc": "Contatta Kotor Car Hire per preventivi, ritiri da crociera, o consegna all'Aeroporto di Tivat.",
     "heading": "Contattaci",
     "intro": "Hai una domanda sul noleggio auto a Kotor? Contattaci e ti aiuteremo a trovare il veicolo perfetto per il tuo viaggio."
+  },
+  "cruise": {
+    "label": "Porto crociere",
+    "title": "Arrivi in nave da crociera?",
+    "subtitle": "Ogni anno oltre 2.000 navi da crociera attraccano a Kotor. Ecco cosa devi sapere.",
+    "items": {
+      "0": {
+        "title": "Dalla banchina alla porta in 5 minuti",
+        "desc": "Il terminal crociere si trova ai piedi delle mura di Kotor. Scendi dalla nave, attraversa la banchina ed entra nella Città Vecchia dalla Porta del Mare. Nessun transfer necessario."
+      },
+      "1": {
+        "title": "Città Vecchia senza auto",
+        "desc": "L'intera città murata è pedonale. La attraversi in 20 minuti. Acciottolato, chiese, Museo Marittimo e gatti a ogni angolo."
+      },
+      "2": {
+        "title": "1.355 gradini in salita",
+        "desc": "La salita alla fortezza San Giovanni inizia all'interno delle mura. Calcola 45 minuti in salita e 30 in discesa. Parti presto per evitare il caldo di mezzogiorno e le folle."
+      },
+      "3": {
+        "title": "Gite in barca nella Baia",
+        "desc": "I taxi-acqua per Perast e la Madonna dello Scarpello partono dal porto. Circa 5 EUR andata e ritorno, ogni 15 minuti in stagione."
+      }
+    }
+  },
+  "locations": {
+    "label": "Punti di ritiro",
+    "title": "Dove puoi ritirare l'auto?",
+    "subtitle": "Più sedi in tutto il Montenegro per la massima comodità."
+  },
+  "imageAlts": {
+    "kotorBayAerial": "Vista aerea delle Bocche di Cattaro dall'alto delle mura della fortezza",
+    "mostarBridge": "Ponte di Mostar",
+    "adriaticCoastAerial": "Veduta aerea della costa adriatica",
+    "budvaOldTownPeninsula": "Penisola della Città Vecchia di Budva vista dall'alto",
+    "svetiStefanIslet": "Isolotto di Sveti Stefan dalla strada costiera",
+    "dubrovnikAerial": "Vista aerea di Dubrovnik",
+    "dubrovnikHarbour": "Porto storico di Dubrovnik",
+    "kotorOldTownFromFortress": "Città Vecchia di Kotor vista dai gradini della fortezza",
+    "kotorFortressWalls": "Mura della fortezza di Kotor che salgono sulla montagna sopra la Città Vecchia",
+    "bayOfKotorAerial": "Vista aerea delle Bocche di Cattaro",
+    "montenegroCoastalRoad": "Strada costiera del Montenegro",
+    "perastWaterfront": "Lungomare di Perast con le due isole nella baia sullo sfondo",
+    "bayOfKotorNearPerast": "Paesaggio delle Bocche di Cattaro vicino a Perast",
+    "portoMontenegroMarina": "Marina Porto Montenegro con super yacht ormeggiati",
+    "tivatWaterfront": "Lungomare di Tivat al crepuscolo",
+    "tivatAirportRunway": "Pista dell'aeroporto di Tivat"
+  },
+  "carInline": {
+    "vw-polo": {
+      "alt": "Villaggio in pietra sopra le Bocche di Cattaro",
+      "caption": "Il lungomare tra Kotor e Perast, corsie d'accesso strette, rami d'ulivo che pendono, parcheggi misurati al centimetro."
+    },
+    "fiat-500": {
+      "alt": "Strada costiera sopra le Bocche di Cattaro",
+      "caption": "Il punto panoramico della curva 17 sopra Dobrota, brevi tratti tra una sosta fotografica e l'altra: è esattamente dove la 500 dà il meglio."
+    },
+    "peugeot-208": {
+      "alt": "Strada che si snoda sopra la baia di Kotor",
+      "caption": "Tornanti sopra la baia sulla vecchia strada austriaca, la 208 si trova più a suo agio nelle curve più strette della salita al Lovćen."
+    },
+    "citroen-c3": {
+      "alt": "Strada costiera oltre Risan",
+      "caption": "La strada costiera oltre Morinj e Risan, dove la C3 ammortizza l'asfalto rattoppato che fa sobbalzare le altre piccole utilitarie."
+    },
+    "toyota-yaris": {
+      "alt": "Le Bocche di Cattaro dall'alto",
+      "caption": "Un soggiorno di due settimane in baia costerà meno di 80 € di carburante con la Yaris Hybrid, silenziosamente notevole."
+    },
+    "kia-stonic": {
+      "alt": "Strada sterrata sopra la baia",
+      "caption": "I tratti non asfaltati sopra il villaggio di Njeguši, l'altezza da terra della Stonic li affronta senza i costi di un vero SUV."
+    },
+    "vw-golf": {
+      "alt": "Scenografica strada del Montenegro fiancheggiata da alberi",
+      "caption": "I tratti interni più tranquilli oltre Cetinje, DSG e diesel: la Golf elimina le incertezze sui cambi di marcia."
+    }
+  },
+  "carRelated": {
+    "kotor": "Kotor",
+    "perast": "Perast",
+    "tivatAirport": "Aeroporto di Tivat",
+    "kotorPhoto": "Punti fotografici di Kotor",
+    "lovcenDrive": "Da Kotor a Lovćen in auto",
+    "lovcen": "Da Kotor a Lovćen",
+    "risanMosaics": "Itinerario mosaici di Risan",
+    "bayBoat": "Giornata in barca nella baia",
+    "cruiseShore": "Escursione a terra in crociera",
+    "dubrovnikAirport": "Aeroporto di Dubrovnik",
+    "budva": "Budva"
+  },
+  "carSpecs": {
+    "seats": "Posti",
+    "transmission": "Cambio",
+    "fuel": "Carburante",
+    "luggage": "Bagagli",
+    "bootSize": "Bagagliaio",
+    "mpg": "Consumi"
   }
 }

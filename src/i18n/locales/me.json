@@ -5,10 +5,161 @@
     "destinations": "Destinacije",
     "about": "O Nama",
     "blog": "Vodič",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "bayOfKotor": "Boka Kotorska"
   },
   "cars": {
-    "readGuide": "Pročitaj vodič"
+    "readGuide": "Pročitaj vodič",
+    "whoForTitle": "Kome je namijenjen ovaj automobil?",
+    "regionalTitle": "Najbolja regionalna upotreba",
+    "featuresTitle": "Unutrašnjost vozila",
+    "relatedTitle": "Gdje vas vodi ovaj automobil",
+    "overviewTitle": "Ukratko",
+    "articleTitle": "Po Boki Kotorskoj",
+    "checkAvailability": "Provjeri dostupnost i cijene uživo",
+    "nextBtn": "Sljedeći u floti",
+    "schemaDescription": "Iznajmljivanje {category}, {transmission}, {fuel}, {seats} sjedišta",
+    "sections": {
+      "behindWheel": "Za volanom",
+      "onRoads": "Na putevima oko Kotora",
+      "spaceLoad": "Prostor i prtljag",
+      "bestFor": "Najbolja putovanja za ovaj automobil",
+      "practical": "Praktične napomene",
+      "verdict": "Zaključak"
+    },
+    "vw-polo": {
+      "name": "VW Polo",
+      "category": "Ekonomični",
+      "tagline": "Kompaktan hečbek koji ulazi u parking-mjesta južne kapije Kotora bez ogrebotina retrovizora",
+      "lede": "Dva ručna prtljaga, pet sjedišta, krug okretanja prilagođen srednjovjekovnim uličicama prema Morskim vratima.",
+      "suitability": "Dva putnika s ručnim prtljagom koji preuzimaju u Tivtu i borave u Starom gradu Kotora, Polo je najpogodniji benzinski hečbek za parkiranje u floti.",
+      "regional": "Smješta se u tabacinske bokse za manje od 1,50 €/h, provlači se jednosmjernom obalnom trakom u Perastu i drži 100 km/h na usponu Sozine bez napora. Četvorocilindrični benzinac je pravi izbor za vozače koji žele da se uvuku u uske prostore na kraju dana.",
+      "bestFor": [
+        "Parovi",
+        "Dnevni najmovi za putnike sa kruzera",
+        "Prvi posjetioci Boke"
+      ],
+      "features": [
+        "Klima-uređaj",
+        "Bluetooth audio",
+        "USB punjenje",
+        "Centralno zaključavanje"
+      ]
+    },
+    "fiat-500": {
+      "name": "Fiat 500",
+      "category": "Gradski",
+      "tagline": "Razglednični gradski automobil mjeren za kapije bastiona i odmorišta na primorskom putu",
+      "lede": "Parkira se gdje ništa drugo ne stane, idealan za boravke od četiri noći u Kotoru, Perastu ili na dobrotskoj obali.",
+      "suitability": "Jedan ili dva putnika čija je Boka skup kratkih relacija između foto-stopova, Kotor do Perasta, Dobrota do Prčnja, i povratak prije zalaska.",
+      "regional": "Staje u obalna odmorišta između Kotora i Perasta gdje Golf ne može, otvoren krov na vidikovcu krivine 17 iznad Dobrote, prtljažnik tek dovoljan za stativ i hladnu torbu. Slabija na ljetnim serpentinama Lovćena, ostani uz obalu i 500 šarmira.",
+      "bestFor": [
+        "Putnici sa kruzera",
+        "Samostalni putnici",
+        "Fotografi"
+      ],
+      "features": [
+        "Kompaktne dimenzije",
+        "Lako parkiranje",
+        "Krovni prozor",
+        "Bluetooth"
+      ]
+    },
+    "peugeot-208": {
+      "name": "Peugeot 208",
+      "category": "Ekonomični",
+      "tagline": "Oštro francusko upravljanje za serpentine Lovćena, agilan kroz 25 oštrih krivina",
+      "lede": "Malen volan, visoka instrument-tabla, čvršći vozni komfor od Clija, mali hečbek koji najviše dobija od planinskog puta Kotora.",
+      "suitability": "Parovi čije se putovanje u Kotor oslanja na stari austrijski put, 208 je najoštriji mali hečbek u floti kroz 25 oštrih krivina iznad Boke.",
+      "regional": "Agilan u serpentinama Lovćena između Kotora i Njeguša, dobar na kratkim auto-putskim dionicama do Budve, a malen volan djeluje kao stvoren za uske crnogorske krivine. Prtljažnik je tjesniji nego kod Pola, nosite manje ako vodite cijelu porodicu.",
+      "bestFor": [
+        "Vozači koji zaista uživaju u vožnji",
+        "Parovi",
+        "Posjetioci Lovćena"
+      ],
+      "features": [
+        "i-Cockpit",
+        "Apple CarPlay",
+        "USB punjenje",
+        "Stražnji parking senzori"
+      ]
+    },
+    "citroen-c3": {
+      "name": "Citroen C3",
+      "category": "Ekonomični",
+      "tagline": "Najmekše vožen mali hečbek u Boki, upija zakrpljeni asfalt iza Risna",
+      "lede": "Ogibljenje s dugim hodom, duboko podstavljena sjedišta, C3 prigušuje neravnine s kojima se drugi automobili B-segmenta bore.",
+      "suitability": "Bilo ko ko u Kotorskoj nedjelji više voli mirne primorske konobe od kratkih rokova, C3 je najudobniji mali automobil koji Boka iznajmljuje.",
+      "regional": "Vožnja omogućuje da savladate zakrpljeni asfalt do Risna i Hipnosovih mozaika bez zveckanja plombi, a visoka, mekana sjedišta odgovaraju kruzerskim putnicima čiji se izlazak završava na klupama Tabacine. Slab na usponu Lovćena, ako imate kratak kruzerski raspored, izaberite jače.",
+      "bestFor": [
+        "Stariji putnici",
+        "Najmoprimci kojima je komfor na prvom mjestu",
+        "Polagani istraživači sporednih puteva"
+      ],
+      "features": [
+        "Advanced Comfort sjedišta",
+        "Bluetooth audio",
+        "USB punjenje",
+        "Upozorenje o napuštanju trake"
+      ]
+    },
+    "toyota-yaris": {
+      "name": "Toyota Yaris",
+      "category": "Ekonomični",
+      "tagline": "Najjeftiniji auto za sipanje goriva u Boki, hibrid pije benzin po 1,50 €/L",
+      "lede": "3,8 l/100 km u stvarnom režimu. Yaris Hybrid se kreće kroz kotorski saobraćaj u elektro-režimu, pa kliže primorskim putem bez buđenja motora.",
+      "suitability": "Putnici koji dvije nedjelje voze sa jednim rezervoarom razmišljanja, hibrid se isplati na dnevnoj ruti Kotor, Perast, Risan.",
+      "regional": "Čisto elektro-kretanje kroz jutarnji školski saobraćaj kod škaljarske obilaznice, pa kliže primorskim putem ka Perastu ne pomjerajući kazaljku za gorivo. Nije auto za put do Žabljaka, mala baterija se prazni na dugim usponima, ali za nedjelju u Boki tiho impresivno.",
+      "bestFor": [
+        "Posjetioci koji vode računa o potrošnji",
+        "Pretežno gradske vožnje",
+        "Jutarnji najmovi sa kruzera"
+      ],
+      "features": [
+        "Hibridni pogon",
+        "Kamera za vožnju unazad",
+        "Apple CarPlay",
+        "Adaptivni tempomat"
+      ]
+    },
+    "kia-stonic": {
+      "name": "Kia Stonic",
+      "category": "Kompaktni krosover",
+      "tagline": "Veći klirens bez doplate za SUV najam, kompromis za sporedni put ka Njegušima",
+      "lede": "Prtljažnik od 352 litre, viša pozicija sjedenja, skromni 1,0 benzin, krosover za neasfaltirane krakove pored lovćenskog puta.",
+      "suitability": "Najmoprimci čiji kotorski dani uključuju prečicu Krstac mimo starog austrijskog puta, ili šljunkoviti prilaz Kapetanovom jezeru, viši od hečbeka bez troškova goriva SUV-a.",
+      "regional": "Veći klirens savladava neasfaltirani posljednji kilometar ispod sela Njeguši, zaobilaznicu punu rupa do Gornjeg Stoliva i razbijene obalne ivice sjeverno od Risna. Samo prednji pogon, izaberite ga za neasfaltirane puteve po suhom vremenu, ne za januarsku vožnju do Žabljaka.",
+      "bestFor": [
+        "Parovi koji idu u unutrašnjost",
+        "Putnici van sezone",
+        "Najmoprimci budžetskih krosovera"
+      ],
+      "features": [
+        "Povišeni klirens",
+        "Apple CarPlay",
+        "Kamera za vožnju unazad",
+        "Asistent za držanje trake"
+      ]
+    },
+    "vw-golf": {
+      "name": "VW Golf",
+      "category": "Srednja klasa",
+      "tagline": "Etalon DSG dizela, uvjeren na primorskom putu, auto-putu ili usponu Lovćena",
+      "lede": "Polov gabarit za parkiranje sreće Passatovu kultiviranost, racionalan izbor za putovanja koja miješaju obalu i planinu.",
+      "suitability": "Parovi čija je baza u Kotoru polazište za dnevne izlete u Dubrovnik, Mostar ili Žabljak, Golf savladava prelaze granica bez SUV gabarita.",
+      "regional": "Provlači se kroz tunel Vrmac i prilaz trajektu Kamenari, Lepetane sa smirenošću većeg vozila, troši 4,3 l/100 km na ruti do Dubrovnika preko Debelog Brijega, a DSG čita serpentine Lovćena bez da pomjerite ručicu. Čvršći vozni ugođaj nego C3 na sporednim, razrovanim putevima, fer kompromis za autoputski mir.",
+      "bestFor": [
+        "Parovi koji miješaju grad i prirodu",
+        "Prekogranični jednodnevni putnici",
+        "Transferi aerodrom, Boka"
+      ],
+      "features": [
+        "DSG automatik",
+        "Adaptivni tempomat",
+        "Digitalna instrument-tabla",
+        "Apple CarPlay"
+      ]
+    }
   },
   "fleetShowcase": {
     "label": "Upoznaj svoj auto",
@@ -38,7 +189,9 @@
     "callUs": "Pozovite Nas",
     "bookNow": "Rezerviši Sad",
     "perDay": "po danu",
-    "emailUs": "Pošaljite email"
+    "emailUs": "Pošaljite email",
+    "whatsappAria": "Razgovarajte na WhatsApp-u",
+    "scrollTopAria": "Idi na vrh"
   },
   "hero": {
     "headline": "Rent a Car Kotor",
@@ -127,7 +280,8 @@
   "book": {
     "title": "Pronađite Vaš Auto",
     "seoTitle": "Rezervišite Auto",
-    "seoDesc": "Rezervujte automobil za Kotor u nekoliko sekundi. Preuzimanje na aerodrom Tivat 8 km udaljen, besplatna otkazivanja za većinu cena, i živa."
+    "seoDesc": "Rezervujte automobil za Kotor u nekoliko sekundi. Preuzimanje na aerodrom Tivat 8 km udaljen, besplatna otkazivanja za većinu cena, i živa.",
+    "iframeTitle": "Rezervacija najma vozila"
   },
   "footer": {
     "brandDesc": "Kratkoročne iznajmljivanje automobila u Kotoru od aerodroma Tivat i kapija Starog Grada. Potpuno osiguranje, iskustvo na bajevskoj cesti, i fiksne cene koje ostaju iste tokom celog sezone.",
@@ -154,7 +308,8 @@
     "title": "Pogrešno Skretanje",
     "text": "Izgleda da ste skrenuli sa puta. Ovaj put ne vodi nikuda, ali najbolje rute Bokokotorskog zaliva su samo jedan klik daleko.",
     "backHome": "Nazad na Početnu",
-    "searchCars": "Pretraži Auta"
+    "searchCars": "Pretraži Auta",
+    "metaTitle": "Stranica nije pronađena"
   },
   "home": {
     "seoDesc": "Iznajmite automobil u Kotoru od €13 po danu. Aerodrom Tivat 8 km udaljen, UNESCO zaštićeni stari grad na vašim nogama, i 60 km fjorske ceste između vas."
@@ -339,32 +494,16 @@
       "a": "Vaš agent čeka vas u holu dolazaka aerodroma Tivat s tablom na kojoj piše vaše ime. Auto je parkiran odmah ispred. Od terminala do zidina Starog grada Kotora traje oko 15 minuta putem uz zaliv. Alternativno, možemo organizovati preuzimanje na parkingu Tabacina, na ulazu u Stari grad."
     },
     "5": {
-      "q": "Mogu li vratiti vozilo na drugoj lokaciji?",
-      "a": "Jednosmjerno iznajmljivanje dostupno je u 28 mjesta za preuzimanje i vraćanje u Crnoj Gori. Izaberite različite lokacije u fazi rezervacije, naknada za jednosmjerni povratak može se primijeniti ovisno o udaljenosti."
+      "q": "Koja je politika otkazivanja?",
+      "a": "Besplatno otkazivanje moguće je do 7 dana prije početka iznajmljivanja. Luksuzni automobili i kabrioleti zahtijevaju najavu 30 dana unaprijed. Naknada za obradu od 6 % primjenjuje se na sva otkazivanja bez obzira na vrijeme."
     },
     "6": {
-      "q": "Koja je politika otkazivanja?",
-      "a": "Besplatno otkazivanje moguće je do 7 dana prije datuma početka najma. Luksuzni automobili i kabrioleti zahtijevaju 30 dana najave. Naknada za obradu plaćanja od 6 % primjenjuje se na sva otkazivanja bez obzira na vrijeme."
+      "q": "Da li je potreban depozit?",
+      "a": "Većina vozila zahtijeva depozit od 100-350 € na fizičkoj kreditnoj kartici glavnog vozača. Neki ekonomični automobili dostupni su bez depozita i jasno su označeni u rezultatima pretrage. Iznos se oslobađa kada se vozilo vrati neoštećeno."
     },
     "7": {
-      "q": "Da li je potreban depozit?",
-      "a": "Većina vozila zahtijeva depozit od 100 do 350 € na fizičkoj kreditnoj kartici vozača. Neki ekonomični automobili dostupni su bez depozita, jasno su označeni u rezultatima pretrage. Blokada se oslobađa kada se vozilo vrati bez oštećenja."
-    },
-    "8": {
-      "q": "Šta se dešava ako prekoračim limit kilometraže?",
-      "a": "Vozila s ograničenjem kilometraže naplaćuju po kilometru iznad dogovorene granice. Tačna tarifa navedena je u detaljima vozila prije potvrde rezervacije."
-    },
-    "9": {
-      "q": "Ima li skrivenih naknada?",
-      "a": "Ne. Prikazana cijena uključuje sve poreze i naknade. Nema aerodromskih doplata, nema iznenađenja vezanih za politiku goriva, ništa se ne dodaje na šalteru."
-    },
-    "10": {
-      "q": "Koliko plaćam unaprijed?",
-      "a": "Avans od 15-20 % ukupne cijene najma potreban je za potvrdu rezervacije. Preostali iznos plaća se direktno agentu za iznajmljivanje pri preuzimanju automobila."
-    },
-    "11": {
-      "q": "Mogu li iznajmiti bez kreditne kartice?",
-      "a": "Mali broj vozila u floti dostupan je bez kreditne kartice. Te opcije su jasno označene u rezultatima pretrage kada filtrirate prema lokaciji preuzimanja."
+      "q": "Gdje se parkira u Starom gradu Kotoru?",
+      "a": "Stari grad je pješačka zona. Koristite garažu Tabacina (5 minuta pješice do Morskih vrata, popuni se do 10 sati ljeti) ili parking kod Riječnih vrata uz potok Škurda (jeftiniji, besplatan van sezone). U julu i avgustu radi privremeni parking sa shuttle prevozom do bedema."
     }
   },
   "destCards": {
@@ -477,7 +616,10 @@
     "historicTitle": "Istorijski Lokaliteti",
     "historicText": "Grad se može pohvaliti brojnim palatama, katedralama i nekoliko stražarskih kula koje su nekada štitile grad. Za one koji žele detaljno naučiti o istoriji Perasta, Muzej Perasta sadrži mnoge artefakte, arhive, slike, skulpture i gradske zapise. Muzej se nalazi u staroj Palati Bujović, koju mnogi smatraju najljepšom zgradom na crnogorskoj obali.",
     "monasteryTitle": "Manastir Banja",
-    "monasteryText": "Smješten sjeverno od Perasta na putu prema Risnu, manastir Banja sadrži mnoge drevne vjerske predmete iz ruskih, grčkih i bokeljskih dinastija. Da biste stigli do manastira, nastavite na sjever putem E65/E80 samo nekoliko kilometara."
+    "monasteryText": "Smješten sjeverno od Perasta na putu prema Risnu, manastir Banja sadrži mnoge drevne vjerske predmete iz ruskih, grčkih i bokeljskih dinastija. Da biste stigli do manastira, nastavite na sjever putem E65/E80 samo nekoliko kilometara.",
+    "routeLinkBefore": "Isplanirajte rutu uz naš",
+    "routeLinkText": "vodič za vožnju i rute u Crnoj Gori",
+    "routeLinkAfter": "."
   },
   "tivatBody": {
     "h1": "Tivat -- Grad Marine",
@@ -509,7 +651,9 @@
     "facilitiesText": "Aerodrom nudi kafiće, javne telefone, suvenirnice i bescarinsku kupovinu. Autobuske linije povezuju Herceg Novi i Budvu, a taksi usluge su takođe dostupne ispred terminala.",
     "whyTitle": "Zašto Iznajmiti na Aerodromu Tivat?",
     "whyText": "Aerodrom Tivat je najbliži aerodrom najpopularnijim primorskim destinacijama u Crnoj Gori. U roku od nekoliko minuta nakon slijetanja, možete voziti duž Bokokotorskog zaliva prema srednjovjekovnom utvrđenom gradu, ili se uputiti na jug prema plažama Budve. Preuzimanje automobila na Tivtu znači bez transfera, bez čekanja na autobuse, direktno od terminala do otvorenog puta.",
-    "meetText": "Dočekujemo vas u hali za dolaske sa vašim imenom na tabli. Vaš automobil je parkiran odmah ispred. Ukupno vrijeme od slijetanja do vožnje: oko 10 minuta."
+    "meetText": "Dočekujemo vas u hali za dolaske sa vašim imenom na tabli. Vaš automobil je parkiran odmah ispred. Ukupno vrijeme od slijetanja do vožnje: oko 10 minuta.",
+    "budvaLinkText": "plaže i Stari grad Budve",
+    "budvaLinkAfter": "udaljeni su 30 minuta južno preko tunela."
   },
   "podgoricaBody": {
     "h1": "Podgorica -- Glavni Grad",
@@ -555,7 +699,10 @@
     "facilitiesText2": "Unutar aerodroma nalazi se mjenjačnica, banka i pošta. Takođe su dostupni mali restorani, kafići, bescarinska prodavnica i kiosk sa novinama.",
     "gettingTitle": "Kako Stići do Crne Gore",
     "gettingText1": "Javni prevoz je dostupan na aerodromu u vidu taksija ispred terminala, te autobuskih linija i shuttle prevoza. Za putnika koji se upućuju prema gradu Dubrovniku, obavezno uzmite autobuse koji idu do samog centra grada, umjesto onih koji staju u Cavtatu, kako biste izbjegli presjedanje.",
-    "gettingText2": "Vožnja od aerodroma Dubrovnik do crnogorske obale vodi vas duž jednog od najslikovitijih obalnih puteva u Evropi. U roku od dva sata proći ćete granicu i stići do Bokokotorskog zaliva, jednog od najdramatičnijih prilaza bilo kojoj destinaciji na Mediteranu."
+    "gettingText2": "Vožnja od aerodroma Dubrovnik do crnogorske obale vodi vas duž jednog od najslikovitijih obalnih puteva u Evropi. U roku od dva sata proći ćete granicu i stići do Bokokotorskog zaliva, jednog od najdramatičnijih prilaza bilo kojoj destinaciji na Mediteranu.",
+    "borderGuideBefore": "Pogledajte naš",
+    "borderGuideText": "vodič za granične prelaze sa rent-a-car vozilom",
+    "borderGuideAfter": "za dokumente i vrijeme čekanja."
   },
   "montenegroBody": {
     "h1": "Istraživanje Crne Gore Automobilom",
@@ -1034,8 +1181,8 @@
     "thirdPartyTitle": "Usluge trećih strana",
     "thirdPartyIntro": "Naš sajt koristi sljedeće usluge trećih strana:",
     "thirdParty1": "LocalRent: vidžet za rezervacije, obrađuje pretrage i upravlja rezervacijama i plaćanjima",
-    "thirdParty2": "Vercel: hosting sajta",
-    "thirdParty3": "Pexels: stock fotografije",
+    "thirdParty2": "Provajder hostinga: hosting sajta",
+    "thirdParty3": "Stock biblioteke: stock fotografije",
     "thirdPartyNote": "Svaka od ovih usluga ima vlastitu politiku privatnosti.",
     "cookiesTitle": "Kolačići",
     "cookiesText": "Koristimo samo minimalne kolačiće neophodne za rad sajta. LocalRent vidžet može postaviti sopstvene kolačiće. Pogledajte našu",
@@ -1078,7 +1225,7 @@
     "liability3": "Gubitke zbog graničnih problema ili dokumentacije",
     "liability4": "Promjene cijena nakon potvrde rezervacije",
     "ipTitle": "Intelektualna svojina",
-    "ipText": "Sav sadržaj sajta je vlasništvo Kotor Car Hire. Stock fotografije se koriste pod licencom Pexels-a.",
+    "ipText": "Sav sadržaj sajta je vlasništvo Kotor Car Hire. Stock fotografije se koriste pod licencom trećih strana za stock fotografije.",
     "contactTitle": "Kontakt",
     "contactText": "Pitanja o ovim uslovima? Kontaktirajte nas na info@kotorcarhire.com."
   },
@@ -1135,5 +1282,102 @@
     "seoDesc": "Kontaktirajte Kotor Car Hire za cene, preuzmanja sa krstarenja, ili dostavu na aerodrom Tivat.",
     "heading": "Kontaktirajte nas",
     "intro": "Imate pitanje o iznajmljivanju automobila u Kotoru? Javite nam se i pomoći ćemo vam pronaći savršeno vozilo za vaše putovanje."
+  },
+  "cruise": {
+    "label": "Krstareća luka",
+    "title": "Dolazite kruzerom?",
+    "subtitle": "Više od 2.000 kruzera pristaje u Kotoru svake godine. Evo šta treba da znate.",
+    "items": {
+      "0": {
+        "title": "Od pristaništa do kapije za 5 min",
+        "desc": "Kruzerski terminal nalazi se podno zidina Kotora. Siđite sa broda, pređite kej i uđite u Stari grad kroz Morska vrata. Nije potreban transfer."
+      },
+      "1": {
+        "title": "Stari grad bez automobila",
+        "desc": "Cijeli ograđeni grad je pješačka zona. Prelazite ga s kraja na kraj za 20 minuta. Kaldrma, crkve, Pomorski muzej i mačke na svakom uglu."
+      },
+      "2": {
+        "title": "1.355 stepenika ka tvrđavi",
+        "desc": "Uspon na tvrđavu San Giovanni počinje unutar zidina. Računajte 45 minuta gore i 30 dolje. Krenite rano da izbjegnete podnevnu vrućinu i gužve."
+      },
+      "3": {
+        "title": "Vožnje brodom po Boki",
+        "desc": "Vodeni taksiji za Perast i Gospu od Škrpjela polaze iz luke. Oko 5 EUR povratno, svakih 15 minuta u sezoni."
+      }
+    }
+  },
+  "locations": {
+    "label": "Mjesta preuzimanja",
+    "title": "Gdje možete preuzeti vozilo?",
+    "subtitle": "Više lokacija širom Crne Gore za maksimalnu praktičnost."
+  },
+  "imageAlts": {
+    "kotorBayAerial": "Vazdušni snimak Boke Kotorske s vrha bedema tvrđave",
+    "mostarBridge": "Most u Mostaru",
+    "adriaticCoastAerial": "Vazdušni snimak jadranske obale",
+    "budvaOldTownPeninsula": "Poluostrvo Starog grada Budve iz vazduha",
+    "svetiStefanIslet": "Otočić Sveti Stefan sa primorskog puta",
+    "dubrovnikAerial": "Vazdušni snimak Dubrovnika",
+    "dubrovnikHarbour": "Istorijska luka Dubrovnika",
+    "kotorOldTownFromFortress": "Stari grad Kotor sa stepenica tvrđave",
+    "kotorFortressWalls": "Bedem tvrđave Kotora koji se penje uz planinu iznad Starog grada",
+    "bayOfKotorAerial": "Vazdušni snimak Boke Kotorske",
+    "montenegroCoastalRoad": "Primorski put u Crnoj Gori",
+    "perastWaterfront": "Šetalište u Perastu sa dva otočića u Boki u pozadini",
+    "bayOfKotorNearPerast": "Pejzaž Boke Kotorske blizu Perasta",
+    "portoMontenegroMarina": "Marina Porto Montenegro sa superjahtama na vezu",
+    "tivatWaterfront": "Šetalište u Tivtu u sumrak",
+    "tivatAirportRunway": "Pista Aerodroma Tivat"
+  },
+  "carInline": {
+    "vw-polo": {
+      "alt": "Kameno selo iznad Boke Kotorske",
+      "caption": "Obala između Kotora i Perasta, uske pristupne trake, prevjes maslinovih grana, parking se mjeri u centimetrima."
+    },
+    "fiat-500": {
+      "alt": "Primorski put iznad Boke Kotorske",
+      "caption": "Vidikovac na krivini 17 iznad Dobrote, kratke etape između foto-pauza tačno su tamo gdje 500-ica pripada."
+    },
+    "peugeot-208": {
+      "alt": "Put koji vijuga iznad Boke",
+      "caption": "Serpentine iznad zaliva na staroj austrijskoj ruti, 208 se najbolje osjeća u najoštrijim krivinama uspona na Lovćen."
+    },
+    "citroen-c3": {
+      "alt": "Primorski put pored Risna",
+      "caption": "Primorski put pored Morinja i Risna, gdje C3 ublažava zakrpljeni asfalt koji druge male automobile trese."
+    },
+    "toyota-yaris": {
+      "alt": "Boka Kotorska iz vazduha",
+      "caption": "Dvonedjeljni boravak uz Boku koštaće manje od 80 € goriva u Yaris Hybridu, tiho impresivno."
+    },
+    "kia-stonic": {
+      "alt": "Šljunkoviti put iznad zaliva",
+      "caption": "Neasfaltirani dionici iznad Njeguša, klirens Stonica savladava ih bez plaćanja punog SUV-a."
+    },
+    "vw-golf": {
+      "alt": "Slikoviti crnogorski put obrubljen drvećem",
+      "caption": "Mirniji unutrašnji dionici pored Cetinja, DSG plus dizel, Golf oduzima nedoumice oko mijenjanja stepena."
+    }
+  },
+  "carRelated": {
+    "kotor": "Kotor",
+    "perast": "Perast",
+    "tivatAirport": "Aerodrom Tivat",
+    "kotorPhoto": "Foto lokacije u Kotoru",
+    "lovcenDrive": "Vožnja Kotor, Lovćen",
+    "lovcen": "Kotor do Lovćena",
+    "risanMosaics": "Ruta risanskih mozaika",
+    "bayBoat": "Dan brodom po Boki",
+    "cruiseShore": "Krstareći izlet",
+    "dubrovnikAirport": "Aerodrom Dubrovnik",
+    "budva": "Budva"
+  },
+  "carSpecs": {
+    "seats": "Sjedišta",
+    "transmission": "Mjenjač",
+    "fuel": "Gorivo",
+    "luggage": "Prtljag",
+    "bootSize": "Prtljažnik",
+    "mpg": "Potrošnja"
   }
 }
