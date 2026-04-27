@@ -36,12 +36,14 @@ export function buildAlternates(slug, lang = 'en') {
   return {
     canonical: `${BASE_URL}${canonicalPath || '/'}`,
     languages: {
+      // hreflang URLs must match the canonical (no trailing slash for non-
+      // root paths) so Google doesn't follow a 308 on every alternate.
       'en': path || '/',
-      'de': `/de${path || '/'}`,
-      'ru': `/ru${path || '/'}`,
-      'it': `/it${path || '/'}`,
-      'fr': `/fr${path || '/'}`,
-      'cnr': `/me${path || '/'}`,
+      'de': `/de${path}`,
+      'ru': `/ru${path}`,
+      'it': `/it${path}`,
+      'fr': `/fr${path}`,
+      'cnr': `/me${path}`,
       'x-default': path || '/',
     },
   };
