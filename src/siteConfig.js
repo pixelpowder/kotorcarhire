@@ -8,7 +8,7 @@ const siteConfig = {
 
   hero: {
     headline: "Explore the Bay of Kotor by Car",
-    subheadline: "Pick up at Tivat Airport (8 km away) or Kotor Old Town. Drive the UNESCO bay, Perast, Budva, and beyond.",
+    subheadline: "Pick up at Tivat Airport (8 km away) or Kotor Old Town. Drive the bay, Perast, Budva, and beyond.",
     image: "/img/hero-kotor.webp",
   },
 
@@ -288,7 +288,7 @@ const siteConfig = {
     {
       name: "Kotor",
       slug: "kotor",
-      tag: "UNESCO Old Town",
+      tag: "Old Town",
       desc: "Medieval walled city and cruise port on the bay.",
       image: "/img/kotor-old-town.webp",
     },

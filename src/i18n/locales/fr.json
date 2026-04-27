@@ -246,7 +246,7 @@
   "destinations": {
     "label": "Destinations Phares",
     "title": "Explorez le Monténégro",
-    "subtitle": "De la vieille ville classée UNESCO à Perast, Budva et aux montagnes, tout est facilement accessible."
+    "subtitle": "De la vieille ville classée à Perast, Budva et aux montagnes, tout est facilement accessible."
   },
   "features": {
     "label": "Pourquoi Nous Choisir",
@@ -265,7 +265,7 @@
   },
   "cta": {
     "title": "Prêt à Explorer le Monténégro ?",
-    "subtitle": "Réservez en quelques minutes. Prise en charge à l'aéroport de Tivat ou dans la vieille ville de Kotor. Parcourez la baie classée UNESCO, Perast et la côte adriatique à votre rythme.",
+    "subtitle": "Réservez en quelques minutes. Prise en charge à l'aéroport de Tivat ou dans la vieille ville de Kotor. Parcourez la baie classée, Perast et la côte adriatique à votre rythme.",
     "browseFleet": "Parcourir la Flotte"
   },
   "sidebar": {
@@ -312,14 +312,14 @@
     "metaTitle": "Page introuvable"
   },
   "home": {
-    "seoDesc": "Louez une voiture à Kotor à partir de €13 par jour. Aéroport de Tivat à 8 km, la ville fortifiée UNESCO à vos pieds, et 60 km de route de fjord."
+    "seoDesc": "Louez une voiture à Kotor à partir de €13 par jour. Aéroport de Tivat à 8 km, la ville fortifiée à vos pieds, et 60 km de route de fjord."
   },
   "about": {
     "title": "À Propos",
     "subtitle": "Nous aidons les voyageurs à explorer le Monténégro depuis 2007.",
     "seoDesc": "Conciergerie de location à Kotor Old Town. Nous sélectionnons les voitures pour séjours courts, passagers de croisière, explorateurs de baie, et tous.",
     "heading1": "Location de voitures à Kotor",
-    "p1": "Kotor Car Hire met en relation les voyageurs avec des voitures de location fiables et abordables dans la Baie de Kotor. Nous sommes un affilié indépendant travaillant avec des partenaires de location automobile locaux de confiance, ce qui facilite la vie des visiteurs pour explorer ce coin UNESCO de l'Adriatique.",
+    "p1": "Kotor Car Hire met en relation les voyageurs avec des voitures de location fiables et abordables dans la Baie de Kotor. Nous sommes un affilié indépendant travaillant avec des partenaires de location automobile locaux de confiance, ce qui facilite la vie des visiteurs pour explorer ce coin de l'Adriatique.",
     "heading2": "Pourquoi nous avons commencé",
     "p2": "La Baie de Kotor se découvre au mieux à votre rythme. La route sinueuse de la baie, les villages de montagne cachés et les villes médiévales sont difficiles d'accès en transports en commun. Nous avons vu une opportunité de donner aux voyageurs la liberté de découvrir Kotor et ses alentours à leurs conditions. Pas d'horaires de bus de tour, pas de points de vue manqués, pas de compromis.",
     "heading3": "Ce que nous proposons",
@@ -341,7 +341,7 @@
     "localText": "Basés à Kotor, nous connaissons chaque route autour de la baie. les meilleures routes, les pépites cachées et les raccourcis que les guides touristiques oublient. Que vous conduisiez depuis",
     "localLink1": "l'Aéroport de Tivat",
     "localMid": "jusqu'à",
-    "localLink2": "la Vieille Ville UNESCO de Kotor",
+    "localLink2": "la Vieille Ville de Kotor",
     "localMid2": ", en empruntant la route panoramique de la baie vers",
     "localLink3": "Perast",
     "localEnd": ", ou en montant les serpentines vers le Parc National de Lovćen, nous pouvons vous aider à planifier le voyage en voiture parfait.",
@@ -350,10 +350,10 @@
   },
   "kotor": {
     "title": "Location de Voiture à Kotor",
-    "subtitle": "Explorez le joyau UNESCO du Monténégro à votre rythme.",
+    "subtitle": "Explorez le joyau du Monténégro à votre rythme.",
     "seoDesc": "4,5 km de murailles vénitiennes, Cathédrale Saint-Tryphon depuis 1166, et 1 355 marches jusqu'à San Giovanni.",
     "heading1": "Kotor. Patrimoine mondial de l'UNESCO",
-    "p1": "Kotor est l'une des villes médiévales les mieux conservées de l'Adriatique, située à la tête d'une baie spectaculaire et ressemblant à un fjord. La Vieille Ville inscrite à l'UNESCO est un dédale de ruelles étroites, de palais vénitiens, d'églises romanes et de places animées. Au-dessus de tout cela, la forteresse de San Giovanni grimpe 1 200 marches pour offrir une vue panoramique sur toute la baie.",
+    "p1": "Kotor est l'une des villes médiévales les mieux conservées de l'Adriatique, située à la tête d'une baie spectaculaire et ressemblant à un fjord. La Vieille Ville inscrite à l'est un dédale de ruelles étroites, de palais vénitiens, d'églises romanes et de places animées. Au-dessus de tout cela, la forteresse de San Giovanni grimpe 1 200 marches pour offrir une vue panoramique sur toute la baie.",
     "p2a": "Louer une voiture à Kotor",
     "p2b": "vous donne la liberté d'explorer toute la baie et au-delà. L'Aéroport de Tivat n'est qu'à 8 km. un trajet de 15 minutes. Le stationnement est disponible en dehors des murs de la Vieille Ville, avec des parkings plus grands sur les routes d'approche.",
     "landmarksTitle": "Monuments",
@@ -514,7 +514,7 @@
     },
     "kotor": {
       "name": "Kotor",
-      "tag": "Vieille ville UNESCO",
+      "tag": "Vieille ville",
       "desc": "Cité médiévale fortifiée et port de croisière."
     },
     "podgorica-airport": {
@@ -568,8 +568,8 @@
     "p5": "WhatsApp, Viber, bons vieux appels téléphoniques, choisissez ce qui vous convient. Nous répondons vite, même pendant la frénétique saison des paquebots en juillet. Parcourez la flotte en ligne, bloquez un tarif, et nous nous occupons du reste. Ou envoyez nous simplement une question sur le stationnement près de la cathédrale, la meilleure route vers Cetinje ou si tel col de montagne est ouvert en décembre."
   },
   "kotorBody": {
-    "h1": "Kotor, Site du patrimoine mondial de l'UNESCO",
-    "p1": "Kotor est l'une des villes côtières les plus magnifiques du Monténégro, offrant de superbes plages, le charme historique de sa vieille ville et des remparts médiévaux abritant des galeries d'art, des cafés et d'excellents restaurants. En tant que site du patrimoine mondial de l'UNESCO, les monuments de la ville sont concentrés dans la vieille ville admirablement préservée.",
+    "h1": "Kotor, site historique",
+    "p1": "Kotor est l'une des villes côtières les plus magnifiques du Monténégro, offrant de superbes plages, le charme historique de sa vieille ville et des remparts médiévaux abritant des galeries d'art, des cafés et d'excellents restaurants. En tant que site historique, les monuments de la ville sont concentrés dans la vieille ville admirablement préservée.",
     "p2": "Louer une voiture à Kotor vous donne la liberté d'explorer les attractions locales ainsi que les villes et espaces naturels voisins du Monténégro à votre propre rythme. La disponibilité du stationnement varie selon la saison, le tourisme estival créant une pénurie dans le centre, mais il existe des parkings plus grands sur les routes d'accès.",
     "landmarksTitle": "Monuments",
     "stJohnTitle": "Forteresse Saint-Jean",
@@ -597,7 +597,7 @@
     "oldTownText": "La vieille ville de Budva (Stari Grad) est une citadelle fortifiée compacte située sur une petite presqu'île. À l'intérieur des remparts, vous découvrirez des ruelles pavées étroites, une architecture de l'époque vénitienne, de petites églises remontant au VIIe siècle, ainsi qu'un mélange animé de restaurants, galeries et boutiques. La forteresse Citadela à la pointe sud offre des vues panoramiques sur la côte et les îles voisines.",
     "dayTripsTitle": "Excursions d'une journée depuis Budva",
     "svetiStefanTrip": "À seulement 6 km au sud, ce pittoresque village insulaire fortifié est aujourd'hui un hôtel de luxe, mais les vues depuis la route en surplomb sont spectaculaires et gratuites. La plage côté continent est ouverte à tous.",
-    "kotorTrip": "Un trajet de 30 minutes vers le nord à travers un impressionnant tunnel de montagne vous amène à la baie de Kotor et à sa vieille ville classée au patrimoine mondial de l'UNESCO.",
+    "kotorTrip": "Un trajet de 30 minutes vers le nord à travers un impressionnant tunnel de montagne vous amène à la baie de Kotor et à sa vieille ville classée au patrimoine historique.",
     "lovcenTrip": "Dirigez-vous vers l'intérieur des terres pour découvrir les paysages de montagne et le mausolée de Njegos, perché à 1 657 mètres d'altitude avec une vue sur quatre pays par temps clair. La route sinueuse depuis la côte est une expérience en soi.",
     "gettingAroundTitle": "Se déplacer",
     "gettingAroundText": "Bien que la vieille ville de Budva se découvre idéalement à pied, une voiture de location est indispensable pour atteindre les meilleures plages, les villages voisins et les attractions de l'intérieur des terres. Des parkings sont disponibles près des remparts de la vieille ville et dans plusieurs parkings publics le long de la route principale. En plein été, arriver tôt permet de s'assurer les meilleures places.",

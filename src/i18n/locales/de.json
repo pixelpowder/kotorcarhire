@@ -227,7 +227,7 @@
   "howItWorks": {
     "label": "So funktioniert's",
     "title": "In 3 Schritten unterwegs",
-    "subtitle": "In drei Schritten gebucht. Ohne Anstehen. Schlüsselübergabe auf dem Platz vor dem UNESCO-Eingang.",
+    "subtitle": "In drei Schritten gebucht. Ohne Anstehen. Schlüsselübergabe auf dem Platz vor dem-Eingang.",
     "step1Title": "Wählen Sie Ihren Abholort",
     "step1Desc": "Abholung am Flughafen Tivat, in der Altstadt von Kotor, in Perast, Budva oder an einer der über 28 Stationen in ganz Montenegro.",
     "step2Title": "Wählen Sie Ihr Auto",
@@ -246,7 +246,7 @@
   "destinations": {
     "label": "Top-Reiseziele",
     "title": "Von Kotor aus entdecken",
-    "subtitle": "Von der UNESCO-Altstadt nach Perast, Budva und in die Berge, alles ist bequem erreichbar."
+    "subtitle": "Von der Altstadt nach Perast, Budva und in die Berge, alles ist bequem erreichbar."
   },
   "features": {
     "label": "Warum wir",
@@ -265,7 +265,7 @@
   },
   "cta": {
     "title": "Bereit, die Bucht von Kotor zu entdecken?",
-    "subtitle": "Buchen Sie in wenigen Minuten. Übernahme am Flughafen Tivat oder in der Altstadt von Kotor. Befahren Sie die UNESCO-Bucht, Perast und die Adriaküste in Ihrem eigenen Tempo.",
+    "subtitle": "Buchen Sie in wenigen Minuten. Übernahme am Flughafen Tivat oder in der Altstadt von Kotor. Befahren Sie die Bucht von Kotor, Perast und die Adriaküste in Ihrem eigenen Tempo.",
     "browseFleet": "Flotte ansehen"
   },
   "sidebar": {
@@ -312,14 +312,14 @@
     "metaTitle": "Seite nicht gefunden"
   },
   "home": {
-    "seoDesc": "Autovermietung in Kotor ab €13 pro Tag. Flughafen Tivat 8 km entfernt, die UNESCO-Altstadt vor Ihrer Haustür und 60 km Fjordstraße zwischen Ihnen und."
+    "seoDesc": "Autovermietung in Kotor ab €13 pro Tag. Flughafen Tivat 8 km entfernt, die Altstadt vor Ihrer Haustür und 60 km Fjordstraße zwischen Ihnen und."
   },
   "about": {
     "title": "Über uns",
     "subtitle": "Wir helfen Reisenden seit 2007, Montenegro zu entdecken.",
     "seoDesc": "Mietwagen-Concierge für Kotor Altstadt. Wir kuratieren Kurzzeit-Mietfahrzeuge für Kreuzfahrtpassagiere, Tagesausflügler in der Bucht und alle, die.",
     "heading1": "Kotor Car Hire",
-    "p1": "Kotor Car Hire verbindet Reisende mit zuverlässigen und günstigen Mietwagen in der Bucht von Kotor. Wir sind ein unabhängiger Partner, der mit vertrauenswürdigen lokalen Autovermietungen zusammenarbeitet, um es Besuchern zu erleichtern, diese UNESCO-geschützte Ecke der Adria zu erkunden.",
+    "p1": "Kotor Car Hire verbindet Reisende mit zuverlässigen und günstigen Mietwagen in der Bucht von Kotor. Wir sind ein unabhängiger Partner, der mit vertrauenswürdigen lokalen Autovermietungen zusammenarbeitet, um es Besuchern zu erleichtern, diese historische Ecke der Adria zu erkunden.",
     "heading2": "Warum wir angefangen haben",
     "p2": "Die Bucht von Kotor wird am besten in Ihrem eigenen Tempo erlebt. Die Serpentinenstraße entlang der Bucht, versteckte Berndörfer und mittelalterliche Städte sind schwer mit öffentlichen Verkehrsmitteln zu erreichen. Wir sahen die Gelegenheit, Reisenden die Freiheit zu geben, Kotor und seine Umgebung auf ihre eigene Art zu entdecken: keine Busfahrplan-Zwänge, keine verpassten Aussichtspunkte, keine Kompromisse.",
     "heading3": "Was wir bieten",
@@ -342,7 +342,7 @@
     "localLink1": "Flughafen Tivat",
     "localMid": "zur",
     "localLink2": "Kotor",
-    "localMid2": "UNESCO-Altstadt fahren, die malerische Buchtstraße nach",
+    "localMid2": "Altstadt fahren, die malerische Buchtstraße nach",
     "localLink3": "Perast",
     "localEnd": "nehmen oder die Serpentine zum Lovćen Nationalpark hinauffahren, wir können Ihnen helfen, die perfekte Autoreise zu planen.",
     "contactTitle": "Kontaktieren Sie uns",
@@ -350,10 +350,10 @@
   },
   "kotor": {
     "title": "Mietwagen in Kotor",
-    "subtitle": "Entdecken Sie Montenegros UNESCO-Juwel in Ihrem eigenen Tempo.",
+    "subtitle": "Entdecken Sie Montenegros-Juwel in Ihrem eigenen Tempo.",
     "seoDesc": "4,5 km venezianische Mauern, die Kathedrale des Heiligen Tryphon aus dem Jahr 1166 und 1.355 Stufen zur San Giovanni.",
-    "heading1": "Kotor: UNESCO-Weltkulturerbe",
-    "p1": "Kotor ist eine der am besten erhaltenen mittelalterlichen Städte an der Adria und liegt am Kopf einer dramatischen fjordähnlichen Bucht. Die UNESCO-geschützte Altstadt ist ein Labyrinth aus engen Gassen, venezianischen Palästen, romanischen Kirchen und lebhaften Plätzen. Darüber thront die Festung San Giovanni mit 1.200 Stufen und bietet einen atemberaubenden Blick über die Bucht.",
+    "heading1": "Kotor: Welterbe",
+    "p1": "Kotor ist eine der am besten erhaltenen mittelalterlichen Städte an der Adria und liegt am Kopf einer dramatischen fjordähnlichen Bucht. Die historische Altstadt ist ein Labyrinth aus engen Gassen, venezianischen Palästen, romanischen Kirchen und lebhaften Plätzen. Darüber thront die Festung San Giovanni mit 1.200 Stufen und bietet einen atemberaubenden Blick über die Bucht.",
     "p2a": "Ein Auto in Kotor zu mieten",
     "p2b": "gibt Ihnen die Freiheit, die gesamte Bucht und darüber hinaus zu erkunden. Der Flughafen Tivat ist nur 8 km entfernt, eine 15-Minuten-Fahrt. Parkplätze sind außerhalb der Altstadt-Mauern verfügbar, mit größeren Parkplätzen auf den Zufahrtsstraßen.",
     "landmarksTitle": "Sehenswürdigkeiten",
@@ -514,7 +514,7 @@
     },
     "kotor": {
       "name": "Kotor",
-      "tag": "UNESCO-Altstadt",
+      "tag": "Altstadt",
       "desc": "Mittelalterliche ummauerte Stadt und Kreuzfahrthafen."
     },
     "podgorica-airport": {
@@ -568,8 +568,8 @@
     "p5": "WhatsApp, Viber, klassische Telefonate, wählen Sie, was Ihnen passt. Wir antworten schnell, auch in der hektischen Kreuzfahrtsaison im Juli. Stöbern Sie online in der Flotte, sichern Sie sich einen Preis, und wir kümmern uns um alles Weitere. Oder schreiben Sie uns einfach eine Frage zum Parken in der Nähe der Kathedrale, zur besten Straße nach Cetinje oder ob jener Bergpass im Dezember offen ist."
   },
   "kotorBody": {
-    "h1": "Kotor, UNESCO-Weltkulturerbe",
-    "p1": "Kotor ist eine der schönsten Küstenstädte Montenegros und bietet herrliche Strände, den historischen Charme der Altstadt sowie mittelalterliche Mauern, hinter denen sich Kunstgalerien, Cafés und ausgezeichnete Restaurants verbergen. Als UNESCO-Weltkulturerbe konzentrieren sich die Sehenswürdigkeiten der Stadt in der wunderschön erhaltenen Altstadt.",
+    "h1": "Kotor, Welterbe",
+    "p1": "Kotor ist eine der schönsten Küstenstädte Montenegros und bietet herrliche Strände, den historischen Charme der Altstadt sowie mittelalterliche Mauern, hinter denen sich Kunstgalerien, Cafés und ausgezeichnete Restaurants verbergen. Als Welterbe konzentrieren sich die Sehenswürdigkeiten der Stadt in der wunderschön erhaltenen Altstadt.",
     "p2": "Mit einem Mietwagen in Kotor haben Sie die Freiheit, lokale Sehenswürdigkeiten sowie nahegelegene montenegrinische Städte und Naturgebiete in Ihrem eigenen Tempo zu erkunden.",
     "landmarksTitle": "Sehenswürdigkeiten",
     "stJohnTitle": "Festung St. John",
@@ -597,7 +597,7 @@
     "oldTownText": "Budvas Altstadt (Stari Grad) ist eine kompakte, ummauerte Zitadelle auf einer kleinen Halbinsel. Innerhalb der Mauern finden Sie enge Kopfsteinpflasterstraßen, venezianische Architektur, kleine Kirchen aus dem 7. Jahrhundert und eine lebhafte Mischung aus Restaurants, Galerien und Boutiquen. Die Festung Citadela an der Südspitze bietet einen Panoramablick auf die Küste und die nahe gelegenen Inseln.",
     "dayTripsTitle": "Tagesausflüge ab Budva",
     "svetiStefanTrip": "Nur 6 km südlich gelegen, ist dieses fotogene befestigte Inseldorf heute ein Luxushotel, aber die Aussicht von der Straße oberhalb ist spektakulär und kostenlos. Der Strand auf der Festlandseite ist für alle zugänglich.",
-    "kotorTrip": "Eine 30-minütige Fahrt nach Norden durch einen beeindruckenden Bergtunnel bringt Sie zur Bucht von Kotor und ihrer UNESCO-gelisteten Altstadt.",
+    "kotorTrip": "Eine 30-minütige Fahrt nach Norden durch einen beeindruckenden Bergtunnel bringt Sie zur Bucht von Kotor und ihrer historische Altstadt.",
     "lovcenTrip": "Fahren Sie ins Landesinnere für Berglandschaften und das Njegoš-Mausoleum, das auf 1.657 Metern Höhe thront und an klaren Tagen Ausblicke auf vier Länder bietet. Die kurvenreiche Straße von der Küste ist ein Erlebnis für sich.",
     "gettingAroundTitle": "Fortbewegung",
     "gettingAroundText": "Während Budvas Altstadt am besten zu Fuß erkundet wird, ist ein Mietwagen unverzichtbar, um die besten Strände, nahegelegene Dörfer und Attraktionen im Landesinneren zu erreichen. Parkplätze sind in der Nähe der Altstadtmauern und auf mehreren öffentlichen Parkplätzen entlang der Hauptstraße vorhanden. Im Hochsommer sichert frühes Ankommen die besten Plätze.",

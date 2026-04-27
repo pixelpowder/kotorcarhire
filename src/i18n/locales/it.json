@@ -246,7 +246,7 @@
   "destinations": {
     "label": "Destinazioni Principali",
     "title": "Esplora da Kotor",
-    "subtitle": "Dalla città vecchia UNESCO a Perast, Budva e le montagne, tutto è a portata di mano."
+    "subtitle": "Dalla città vecchia a Perast, Budva e le montagne, tutto è a portata di mano."
   },
   "features": {
     "label": "Perché Sceglierci",
@@ -265,7 +265,7 @@
   },
   "cta": {
     "title": "Pronto a Esplorare il Montenegro?",
-    "subtitle": "Prenoti in pochi minuti. Ritiri all'aeroporto di Tivat o nella città vecchia di Kotor. Percorra la baia UNESCO, Perast e la costa adriatica al Suo ritmo.",
+    "subtitle": "Prenoti in pochi minuti. Ritiri all'aeroporto di Tivat o nella città vecchia di Kotor. Percorra la baia, Perast e la costa adriatica al Suo ritmo.",
     "browseFleet": "Sfoglia la Flotta"
   },
   "sidebar": {
@@ -312,14 +312,14 @@
     "metaTitle": "Pagina non trovata"
   },
   "home": {
-    "seoDesc": "Noleggia un'auto a Kotor da €13 al giorno. Aeroporto di Tivat 8 km, la città UNESCO murata ai tuoi piedi, e 60 km di strada nel fiordo tra te."
+    "seoDesc": "Noleggia un'auto a Kotor da €13 al giorno. Aeroporto di Tivat 8 km, la città murata ai tuoi piedi, e 60 km di strada nel fiordo tra te."
   },
   "about": {
     "title": "Chi Siamo",
     "subtitle": "Aiutiamo i viaggiatori a esplorare il Montenegro dal 2007.",
     "seoDesc": "Concierge di noleggio Città Vecchia Kotor. Selezioniamo auto per soggiorni brevi per passeggeri di crociere, gite di un giorno sulla strada della baia.",
     "heading1": "Kotor Car Hire",
-    "p1": "Kotor Car Hire mette in contatto i viaggiatori con auto a noleggio affidabili e convenienti nella Baia di Kotor. Siamo un affiliato indipendente che collabora con partner locali di fiducia, rendendo più facile per i visitatori esplorare questo angolo UNESCO dell'Adriatico.",
+    "p1": "Kotor Car Hire mette in contatto i viaggiatori con auto a noleggio affidabili e convenienti nella Baia di Kotor. Siamo un affiliato indipendente che collabora con partner locali di fiducia, rendendo più facile per i visitatori esplorare questo angolo dell'Adriatico.",
     "heading2": "Perché abbiamo iniziato",
     "p2": "La Baia di Kotor si scopre meglio al proprio ritmo. La strada sinuosa della baia, i villaggi montani nascosti e le città medievali sono difficili da raggiungere con i trasporti pubblici. Abbiamo visto l'opportunità di dare ai viaggiatori la libertà di scoprire Kotor e i suoi dintorni in autonomia, senza orari di autobus, senza punti panoramici mancati, senza compromessi.",
     "heading3": "Cosa offriamo",
@@ -341,7 +341,7 @@
     "localText": "Con base a Kotor, conosciamo ogni strada attorno alla baia: le migliori rotte, i gemme nascoste, i scorciatoie che le guide turistiche non segnalano. Che tu guidi dall'",
     "localLink1": "Aeroporto di Tivat",
     "localMid": "alla",
-    "localLink2": "Città Vecchia UNESCO di Kotor",
+    "localLink2": "Città Vecchia di Kotor",
     "localMid2": ", percorrendo la pittoresca strada della baia verso",
     "localLink3": "Perast",
     "localEnd": ", o salendo le serpentine verso il Parco Nazionale di Lovćen, possiamo aiutarti a pianificare il viaggio perfetto.",
@@ -350,10 +350,10 @@
   },
   "kotor": {
     "title": "Noleggio Auto a Kotor",
-    "subtitle": "Esplora il gioiello UNESCO del Montenegro al tuo ritmo.",
+    "subtitle": "Esplora il gioiello del Montenegro al tuo ritmo.",
     "seoDesc": "4,5 km di muri veneziani, Cattedrale di San Triphon dal 1166 d.C., e 1.355 gradini per San Giovanni.",
     "heading1": "Kotor: Patrimonio dell'UNESCO",
-    "p1": "Kotor è una delle città medievali meglio conservate dell'Adriatico, situata alla testa di una baia spettacolare simile a un fiordo. La Città Vecchia UNESCO è un labirinto di vie strette, palazzi veneziani, chiese romaniche e piazze vivaci. Sopra di tutto, la fortezza di San Giovanni si erge con 1.200 gradini offrendo viste panoramiche sulla baia.",
+    "p1": "Kotor è una delle città medievali meglio conservate dell'Adriatico, situata alla testa di una baia spettacolare simile a un fiordo. La Città Vecchia è un labirinto di vie strette, palazzi veneziani, chiese romaniche e piazze vivaci. Sopra di tutto, la fortezza di San Giovanni si erge con 1.200 gradini offrendo viste panoramiche sulla baia.",
     "p2a": "Noleggiare un'auto a Kotor",
     "p2b": "ti dà la libertà di esplorare tutta la baia e oltre. L'Aeroporto di Tivat dista solo 8 km, a 15 minuti di auto. Il parcheggio è disponibile fuori dalle mura della Città Vecchia, con i parcheggi più grandi nelle strade di accesso.",
     "landmarksTitle": "Monumenti",
@@ -514,7 +514,7 @@
     },
     "kotor": {
       "name": "Kotor",
-      "tag": "Città vecchia UNESCO",
+      "tag": "Città vecchia",
       "desc": "Città medievale murata e porto crocieristico."
     },
     "podgorica-airport": {
@@ -597,7 +597,7 @@
     "oldTownText": "Il centro storico di Budva (Stari Grad) è una compatta cittadella fortificata su una piccola penisola. All'interno delle mura troverete strette stradine acciottolate, architettura dell'epoca veneziana, piccole chiese risalenti al VII secolo e un vivace mix di ristoranti, gallerie e boutique. La fortezza Citadela sulla punta meridionale offre viste panoramiche sulla costa e sulle isole vicine.",
     "dayTripsTitle": "Gite Giornaliere da Budva",
     "svetiStefanTrip": "A soli 6 km a sud, questo fotogenico villaggio-isola fortificato è oggi un hotel di lusso, ma le viste dalla strada sovrastante sono spettacolari e gratuite. La spiaggia sul lato della terraferma è aperta a tutti.",
-    "kotorTrip": "Un viaggio di 30 minuti in auto verso nord attraverso un suggestivo tunnel montano vi porta alla Baia di Kotor e al suo centro storico inserito nella lista UNESCO.",
+    "kotorTrip": "Un viaggio di 30 minuti in auto verso nord attraverso un suggestivo tunnel montano vi porta alla Baia di Kotor e al suo centro storico inserito nella lista.",
     "lovcenTrip": "Dirigetevi verso l'interno per ammirare i paesaggi montani e il Mausoleo di Njegos, arroccato a 1.657 metri con viste su quattro paesi nelle giornate limpide. La strada tortuosa dalla costa è un'esperienza in sé.",
     "gettingAroundTitle": "Come Spostarsi",
     "gettingAroundText": "Mentre il centro storico di Budva è meglio esplorarlo a piedi, un'auto a noleggio è essenziale per raggiungere le migliori spiagge, i villaggi vicini e le attrazioni dell'entroterra. Il parcheggio è disponibile vicino alle mura del centro storico e in diversi parcheggi pubblici lungo la strada principale. In piena estate, arrivare presto assicura i posti migliori.",

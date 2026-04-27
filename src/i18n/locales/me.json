@@ -246,7 +246,7 @@
   "destinations": {
     "label": "Top Destinacije",
     "title": "Istražite Crnu Goru",
-    "subtitle": "Od starog grada pod zaštitom UNESCO-a do Perasta, Budve i planina, sve je lako dostupno."
+    "subtitle": "Od starog grada pod zaštitom-a do Perasta, Budve i planina, sve je lako dostupno."
   },
   "features": {
     "label": "Zašto Mi",
@@ -265,7 +265,7 @@
   },
   "cta": {
     "title": "Spremni da Istražite Crnu Goru?",
-    "subtitle": "Rezervišite za par minuta. Preuzmite na aerodromu Tivat ili ispred ulaza u Stari grad. Vozite UNESCO zalivom, do Perasta i duž jadranske obale.",
+    "subtitle": "Rezervišite za par minuta. Preuzmite na aerodromu Tivat ili ispred ulaza u Stari grad. Vozite zalivom, do Perasta i duž jadranske obale.",
     "browseFleet": "Pregledaj Flotu"
   },
   "sidebar": {
@@ -312,14 +312,14 @@
     "metaTitle": "Stranica nije pronađena"
   },
   "home": {
-    "seoDesc": "Iznajmite automobil u Kotoru od €13 po danu. Aerodrom Tivat 8 km udaljen, UNESCO zaštićeni stari grad na vašim nogama, i 60 km fjorske ceste između vas."
+    "seoDesc": "Iznajmite automobil u Kotoru od €13 po danu. Aerodrom Tivat 8 km udaljen, zaštićeni stari grad na vašim nogama, i 60 km fjorske ceste između vas."
   },
   "about": {
     "title": "O Nama",
     "subtitle": "Pomažemo putnicima da istraže Crnu Goru od 2007.",
     "seoDesc": "Usluga iznajmljivanja automobila u Starom Gradu Kotor. Biramo automobile za kratke boravke krstarenja, jednodnevne izlete po zaljevu, i sve one koji.",
     "heading1": "Kotor Car Hire",
-    "p1": "Kotor Car Hire povezuje putnika sa pouzdanim i pristupačnim automobilima za iznajmljivanje u Bokokotorskom zaljevu. Radimo kao nezavisna agencija u saradnji sa povjerenim lokalnim partnerima, čineći lakšim posjetiteljima da istraže ovaj UNESCO-zaštićeni dio Jadrana.",
+    "p1": "Kotor Car Hire povezuje putnika sa pouzdanim i pristupačnim automobilima za iznajmljivanje u Bokokotorskom zaljevu. Radimo kao nezavisna agencija u saradnji sa povjerenim lokalnim partnerima, čineći lakšim posjetiteljima da istraže ovaj-zaštićeni dio Jadrana.",
     "heading2": "Zašto smo pokrenuli posao",
     "p2": "Bokokotorski zaljev se najbolje doživljava vlastitim tempom. Vijugavi put oko zaljeva, skrivena planinska sela i srednjovjekovni gradovi teško su dostupni javnim prijevozom. Vidjeli smo mogućnost da putnicima damo slobodu da sami otkriju Kotor i njegovu okolicu, bez rasporeda autobusa za grupe, bez propuštenih vidikovaca i bez kompromisa.",
     "heading3": "Šta nudimo",
@@ -342,7 +342,7 @@
     "localLink1": "Aerodroma Tivat",
     "localMid": "do",
     "localLink2": "Starog grada Kotor",
-    "localMid2": "koji je zaštićen od UNESCO-a, uzimate li maravilnu cestu oko zaljeva do",
+    "localMid2": "koji je zaštićen od-a, uzimate li maravilnu cestu oko zaljeva do",
     "localLink3": "Perasta",
     "localEnd": ", ili idete serpentinama prema Lovćenu, možemo vam pomoći da planujete savršeno putovanje.",
     "contactTitle": "Kontaktirajte nas",
@@ -350,10 +350,10 @@
   },
   "kotor": {
     "title": "Rent a Car Kotor",
-    "subtitle": "Istražite UNESCO dragulj Crne Gore sopstvenim tempom.",
+    "subtitle": "Istražite dragulj Crne Gore sopstvenim tempom.",
     "seoDesc": "4,5 km venecijanskih zidina, Katedrala Sv Tripuna iz 1166. godine, i 1.355 stepenica do San Giovannija.",
-    "heading1": "Kotor, UNESCO svjetska baština",
-    "p1": "Kotor je jedan od najbolje sačuvanih srednjovjekovnih gradova na Jadranu, smješten na kraju dramatičnog zaljeva sličnog fjordu. Stari grad, koji je pod zaštitom UNESCO-a, je labirint uskih ulica, venecijanskih palata, romanesknih crkava i živahnih trgova. Iznad svega toga, tvrđava San Giovanni se penja 1.200 stepenica, pružajući razgled preko cijelog zaljeva.",
+    "heading1": "Kotor, svjetska baština",
+    "p1": "Kotor je jedan od najbolje sačuvanih srednjovjekovnih gradova na Jadranu, smješten na kraju dramatičnog zaljeva sličnog fjordu. Stari grad, koji je pod zaštitom-a, je labirint uskih ulica, venecijanskih palata, romanesknih crkava i živahnih trgova. Iznad svega toga, tvrđava San Giovanni se penja 1.200 stepenica, pružajući razgled preko cijelog zaljeva.",
     "p2a": "Iznajmljivanje automobila u Kotoru",
     "p2b": "vam daje slobodu da istražite cijeli zaljev i dalje. Aerodrom Tivat je udaljen samo 8 km, a vožnja traje 15 minuta. Parking je dostupan izvan zidina Starog grada, sa većim garažama na pristupnim putevima.",
     "landmarksTitle": "Znamenitosti",
@@ -514,7 +514,7 @@
     },
     "kotor": {
       "name": "Kotor",
-      "tag": "UNESCO Stari Grad",
+      "tag": "Stari Grad",
       "desc": "Srednjovjekovni utvrđeni grad i kruzerska luka."
     },
     "podgorica-airport": {
@@ -568,8 +568,8 @@
     "p5": "WhatsApp, Viber, klasičan telefonski poziv, izaberite što Vam odgovara. Odgovaramo brzo, čak i u užurbanoj sezoni krstaša u julu. Pregledajte flotu na sajtu, rezervišite cijenu, a za ostalo se brinemo mi. Ili nam jednostavno pošaljite pitanje o parkingu kod katedrale, najboljoj ruti do Cetinja ili je li taj planinski prevoj otvoren u decembru."
   },
   "kotorBody": {
-    "h1": "Kotor -- Lokalitet pod Zastitom UNESCO-a",
-    "p1": "Kotor je jedan od najljepših primorskih gradova Crne Gore, koji nudi prekrasne plaže, šarm istorijskog Starog grada i srednjovjekovne zidine unutar kojih se nalaze umjetničke galerije, kafići i odlični restorani. Kao lokalitet pod zaštitom UNESCO-a, znamenitosti grada su koncentrisane u predivno očuvanom Starom gradu.",
+    "h1": "Kotor -- Lokalitet pod Zastitom-a",
+    "p1": "Kotor je jedan od najljepših primorskih gradova Crne Gore, koji nudi prekrasne plaže, šarm istorijskog Starog grada i srednjovjekovne zidine unutar kojih se nalaze umjetničke galerije, kafići i odlični restorani. Kao lokalitet pod zaštitom-a, znamenitosti grada su koncentrisane u predivno očuvanom Starom gradu.",
     "p2": "Iznajmljivanje automobila u Kotoru daje vam slobodu da istražujete lokalne atrakcije i obližnje crnogorske gradove i prirodna područja sopstvenim tempom. Dostupnost parkinga varira sezonski, jer ljetnji turizam stvara nestašicu u centru, ali postoje veća parkirališta na prilaznim putevima.",
     "landmarksTitle": "Znamenitosti",
     "stJohnTitle": "Tvrđava Sv. Ivana",
@@ -597,7 +597,7 @@
     "oldTownText": "Budvanski Stari Grad je kompaktna utvrđena citadela na malom poluostrvu. Unutar zidina naći ćete uske popločane ulice, venecijansku arhitekturu, male crkve koje datiraju iz 7. vijeka, te živahnu mješavinu restorana, galerija i butika. Tvrđava Citadela na južnom vrhu nudi panoramske poglede na obalu i obližnja ostrva.",
     "dayTripsTitle": "Jednodnevni Izleti iz Budve",
     "svetiStefanTrip": "Samo 6 km južno, ovo fotogenično utvrđeno ostrvsko selo sada je luksuzni hotel, ali pogledi sa puta iznad su spektakularni i besplatni. Plaža na kopnenoj strani je otvorena za sve.",
-    "kotorTrip": "Vožnja od 30 minuta na sjever kroz dramatičan planinski tunel dovodi vas do Bokokotorskog zaliva i njegovog Starog grada pod zaštitom UNESCO-a.",
+    "kotorTrip": "Vožnja od 30 minuta na sjever kroz dramatičan planinski tunel dovodi vas do Bokokotorskog zaliva i njegovog Starog grada pod zaštitom-a.",
     "lovcenTrip": "Uputite se u unutrašnjost ka planinskim pejzažima i Njegoševom mauzoleju, smještenom na 1.657 metara nadmorske visine, sa pogledom na četiri zemlje po vedrom danu. Vijugavi put od obale je doživljaj sam po sebi.",
     "gettingAroundTitle": "Kretanje",
     "gettingAroundText": "Dok je Budvanski Stari Grad najbolje istraživati pješice, iznajmljeni automobil je neophodan za dolazak do najljepših plaža, obližnjih sela i atrakcija u unutrašnjosti. Parking je dostupan u blizini zidina Starog grada i na nekoliko javnih parkirališta duž glavnog puta. U vrhu ljeta, rani dolazak osigurava najbolja mjesta.",

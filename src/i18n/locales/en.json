@@ -246,7 +246,7 @@
   "destinations": {
     "label": "Top Destinations",
     "title": "Explore from Kotor",
-    "subtitle": "From the UNESCO Old Town to Perast, Budva, and the mountains, everything is within easy reach."
+    "subtitle": "From the Old Town to Perast, Budva, and the mountains, everything is within easy reach."
   },
   "features": {
     "label": "Why Choose Us",
@@ -265,7 +265,7 @@
   },
   "cta": {
     "title": "Ready to Explore the Bay of Kotor?",
-    "subtitle": "Book in minutes. Pick up at Tivat Airport or Kotor Old Town. Drive the UNESCO bay, Perast, and the Adriatic coast at your own pace.",
+    "subtitle": "Book in minutes. Pick up at Tivat Airport or Kotor Old Town. Drive the bay, Perast, and the Adriatic coast at your own pace.",
     "browseFleet": "Browse Fleet"
   },
   "sidebar": {
@@ -312,14 +312,14 @@
     "metaTitle": "Page Not Found"
   },
   "home": {
-    "seoDesc": "Rent a car in Kotor from €13 per day. Tivat Airport 8 km, the UNESCO walled town at your feet, and 60 km of fjord road between you and Dubrovnik Airport."
+    "seoDesc": "Rent a car in Kotor from €13 per day. Tivat Airport 8 km, the walled town at your feet, and 60 km of fjord road between you and Dubrovnik Airport."
   },
   "about": {
     "title": "About Us",
     "subtitle": "Helping travellers rent cars in the Bay of Kotor.",
     "seoDesc": "Kotor Old Town rental concierge. We curate short stay cars for cruise passengers, bay road day trippers, and anyone dodging the midsummer tourist coaches.",
     "heading1": "Kotor Car Hire",
-    "p1": "Kotor Car Hire connects travellers with reliable, affordable rental cars in the Bay of Kotor. We are an independent affiliate working with trusted local car rental partners, making it easier for visitors to explore this UNESCO-listed corner of the Adriatic.",
+    "p1": "Kotor Car Hire connects travellers with reliable, affordable rental cars in the Bay of Kotor. We are an independent affiliate working with trusted local car rental partners, making it easier for visitors to explore this historic corner of the Adriatic.",
     "heading2": "Why We Started",
     "p2": "The Bay of Kotor is best experienced at your own pace. The winding bay road, hidden mountain villages, and medieval towns are difficult to reach by public transport. We saw an opportunity to give travellers the freedom to discover Kotor and its surroundings on their own terms, no tour bus schedules, no missed viewpoints, no compromises.",
     "heading3": "What We Offer",
@@ -342,7 +342,7 @@
     "localLink1": "Tivat Airport",
     "localMid": "to",
     "localLink2": "Kotor's",
-    "localMid2": "UNESCO Old Town, taking the scenic bay road to",
+    "localMid2": "Old Town, taking the scenic bay road to",
     "localLink3": "Perast",
     "localEnd": ", or heading up the serpentine to Lovcen National Park, we can help you plan the perfect road trip.",
     "contactTitle": "Get in Touch",
@@ -352,8 +352,8 @@
     "title": "Car Hire in Kotor",
     "subtitle": "Park beneath 4.5 km of fortress walls and explore twelve centuries of history on foot.",
     "seoDesc": "4.5 km of Venetian walls, St Tryphon Cathedral from 1166 AD, and 1,355 steps to San Giovanni.",
-    "heading1": "Kotor, UNESCO World Heritage Site",
-    "p1": "Kotor is one of the best-preserved medieval towns on the Adriatic, sitting at the head of a dramatic fjord-like bay. The UNESCO-listed Old Town is a maze of narrow streets, Venetian palaces, Romanesque churches, and lively squares. Above it all, the fortress of San Giovanni climbs 1,200 steps to offer sweeping views across the bay.",
+    "heading1": "Kotor, historic walled town",
+    "p1": "Kotor is one of the best-preserved medieval towns on the Adriatic, sitting at the head of a dramatic fjord-like bay. The historic Old Town is a maze of narrow streets, Venetian palaces, Romanesque churches, and lively squares. Above it all, the fortress of San Giovanni climbs 1,200 steps to offer sweeping views across the bay.",
     "p2a": "Renting a car in Kotor",
     "p2b": "gives you the freedom to explore the entire bay and beyond. Tivat Airport is just 8 km away, a 15-minute drive. Parking is available outside the Old Town walls, with larger lots on the approach roads.",
     "landmarksTitle": "Landmarks",
@@ -514,7 +514,7 @@
     },
     "kotor": {
       "name": "Kotor",
-      "tag": "UNESCO Old Town",
+      "tag": "Old Town",
       "desc": "Medieval walled city and cruise port on the bay."
     },
     "podgorica-airport": {
@@ -569,7 +569,7 @@
   },
   "kotorBody": {
     "h1": "Twelve Centuries Behind the Walls",
-    "p1": "Fortifications first rose above Kotor in the 6th century, but the town's documented history stretches further, Roman settlement, Byzantine rule, nearly four hundred years under Venice. UNESCO inscribed the entire Natural and Culturo-Historical Region of Kotor in 1979, recognising not just the walled Old Town but the surrounding bay landscape as a single cultural entity. Walk through the Sea Gate (Vrata od Mora), built in 1555, and you step into a medieval street plan that has barely shifted since.",
+    "p1": "Fortifications first rose above Kotor in the 6th century, but the town's documented history stretches further, Roman settlement, Byzantine rule, nearly four hundred years under Venice. inscribed the entire Natural and Culturo-Historical Region of Kotor in 1979, recognising not just the walled Old Town but the surrounding bay landscape as a single cultural entity. Walk through the Sea Gate (Vrata od Mora), built in 1555, and you step into a medieval street plan that has barely shifted since.",
     "p2": "Parking options line the approach from Tivat Airport, 8 km and roughly fifteen minutes away. The largest lot sits below the walls near the River Gate; a second, less crowded option is the Dobrota strip heading north. On days when cruise liners are in port, sometimes three or four at once between May and October, arrive before 07:30 or expect a scramble for spaces.",
     "landmarksTitle": "Inside the Walls and Above Them",
     "stJohnTitle": "The Fortress of San Giovanni",
@@ -597,7 +597,7 @@
     "oldTownText": "Budva's Stari Grad occupies a compact peninsula fortified since antiquity. Cobbled lanes barely two metres wide thread between Venetian-era townhouses, 7th-century churches, and a scatter of restaurants that spill chairs onto every available paving stone. At the southern tip, the Citadela fortress, now a summer events venue, commands views along the coast in both directions. A small library inside holds editions in a dozen languages, left by visiting sailors over the centuries.",
     "dayTripsTitle": "Roads Leading Out",
     "svetiStefanTrip": "Six kilometres south on the highway, the road above Sveti Stefan offers a camera angle that has sold a million postcards. Below, the mainland beach is free and open to all. A car lets you arrive early, before the tour coaches from Budva claim every parking space.",
-    "kotorTrip": "North through the tunnel: Kotor's UNESCO-listed Old Town in thirty minutes. Most visitors to Budva make this trip at least once, and many decide they should have based themselves in Kotor instead, a good argument for having a car.",
+    "kotorTrip": "North through the tunnel: Kotor's historic Old Town in thirty minutes. Most visitors to Budva make this trip at least once, and many decide they should have based themselves in Kotor instead, a good argument for having a car.",
     "lovcenTrip": "Inland from the coast, the road corkscrews upward through Lovcen National Park to the Njegos Mausoleum at 1,657 metres. On a clear afternoon, the view from the summit terrace takes in four countries. Budget three hours for the round trip, more if the switchbacks slow you down.",
     "gettingAroundTitle": "Parking and Practicalities",
     "gettingAroundText": "Budva's Old Town is pedestrian-only, but the car parks lining the approach road fill fast between June and September. Arrive before 09:00 in high summer or try the less obvious lots south of the main strip near Bečići. A car is not optional for beach-hopping, the riviera's best sand is scattered across fifteen kilometres, and local buses are infrequent.",
@@ -667,7 +667,7 @@
     "skadarText": "Thirty minutes south of Podgorica, the largest lake in the Balkans straddles the Albanian border. Pelicans, cormorants, and herons crowd the wetlands. Hire a small boat at Virpazar village, paddle among the water lilies, and return for grilled carp at one of the lakeside restaurants. In spring, the lake level rises by several metres and entire meadows vanish underwater.",
     "danilovgradTitle": "Danilovgrad and the Zeta Valley",
     "danilovgradText": "Half an hour west along the Zeta river, Danilovgrad is a small town known for riverside swimming spots, kayak rentals, and the 13th-century Zdrebaonik Monastery tucked into the hillside above. Combine it with a stop at one of the valley's family-run wineries.",
-    "zabljak": "The mountain town of Žabljak, at 1,456 metres in the Durmitor massif, is 170 km and roughly 2.5 hours north. In winter: skiing. In summer: the Tara River canyon (1,300 metres deep, second only to the Grand Canyon), Black Lake, and hiking trails across a UNESCO-protected alpine plateau."
+    "zabljak": "The mountain town of Žabljak, at 1,456 metres in the Durmitor massif, is 170 km and roughly 2.5 hours north. In winter: skiing. In summer: the Tara River canyon (1,300 metres deep, second only to the Grand Canyon), Black Lake, and hiking trails across a historic alpine plateau."
   },
   "podgoricaAirportBody": {
     "h1": "Podgorica Airport (TGD): The Inland Gateway",
