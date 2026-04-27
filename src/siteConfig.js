@@ -255,6 +255,7 @@ const siteConfig = {
   ],
 
   faq: [
+    { q: "Can I drop off at a different location?", a: "One-way rentals are available across 28 pickup and dropoff points in Montenegro. Select different locations at the booking stage and a one-way fee may apply depending on the distance." },
     { q: "What documents do I need?", a: "Bring your driving licence, passport, and a physical credit card in the main driver's name. If your licence doesn't display Latin-script details, an International Driving Permit is also required." },
     { q: "Can I drive to Croatia or Albania?", a: "Croatia is 2 hours away via the Debeli Brijeg border crossing, we prepare the Green Card at booking. Albania requires separate Green Card paperwork, so let us know in advance. Bosnia, Serbia, and Kosovo are also permitted." },
     { q: "Is there a minimum age?", a: "Drivers must be at least 21 with a minimum of 2 years' experience. A young driver supplement applies for those under 25, the exact amount varies by vehicle and is shown in the search results." },
