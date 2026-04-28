@@ -1403,7 +1403,7 @@ select.booking-field__input {
 
 .fleet-widget-wrap {
   position: relative;
-  max-height: 2065px;
+  max-height: 2020px;
   overflow: clip;
   background: #fff;
   /* Widen iframe to compensate for widget's internal padding */

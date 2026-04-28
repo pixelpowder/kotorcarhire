@@ -474,7 +474,7 @@ function Fleet() {
   // Defer iframe load until section is visible + page is idle
   useEffect(() => {
     function onMessage(e) {
-      if (e.data && e.data.type === 'iframeHeight') setIframeHeight(Math.min(e.data.height, 2200));
+      if (e.data && e.data.type === 'iframeHeight') setIframeHeight(Math.min(e.data.height, 2190));
     }
     window.addEventListener('message', onMessage);
 
