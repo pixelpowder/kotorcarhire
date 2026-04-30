@@ -479,7 +479,7 @@
     },
     "1": {
       "q": "Can I drive to Croatia or Albania?",
-      "a": "Croatia is 2 hours away via the Debeli Brijeg border crossing, we prepare the Green Card at booking. Albania requires separate Green Card paperwork, so let us know in advance. Bosnia, Serbia, and Kosovo are also permitted."
+      "a": "Cross-border fees fall into three tiers. Tier 1 covers neighbouring countries excluding Albania and Kosovo, the standard add-on for the most-used Kotor route, Dubrovnik via Debeli Brijeg, plus Bosnia and Serbia. Tier 2 covers neighbouring countries including Albania and Kosovo, the right tier for a Skadar-then-Albania day trip down through Sukobin or a push to Peja via Rožaje. Tier 3 covers neighbouring and distant countries when your itinerary stretches further. Tick every country at booking, the Green Card lives in the glovebox at handover."
     },
     "2": {
       "q": "Is there a minimum age?",
@@ -504,6 +504,10 @@
     "7": {
       "q": "Where do I park in Kotor Old Town?",
       "a": "The Old Town is car-free. Use the Tabacina multi-storey (5-minute walk to the Sea Gate, fills by 10 am in summer) or the River Gate lot along the Skurda stream (cheaper, free off-season). A temporary overflow lot operates on the approach road in July and August with a shuttle to the walls."
+    },
+    "8": {
+      "q": "What extras can I add at booking?",
+      "a": "Useful extras for a Kotor trip include three sizes of child seat (handy when a cruise family books a one-day pickup at Tivat with toddlers in tow), a wireless hotspot or local SIM card so passengers stepping off the ship can route around expensive maritime roaming, and a roof rack sized for the kayaks Bay of Boka tour outfits hand to renters. Winter visitors can add a ski rack or snowboard rack for the Kotor-to-Kolašin weekend run in January, plus a Winter Pack for the climb over the passes. An electric scooter with charger is also available, the practical answer to errands between the Old Town walls (no cars allowed inside) and an apartment over in Dobrota. Personal Accident Insurance and Theft Protection round out the protection options on top of the included CDW."
     }
   },
   "destCards": {
@@ -554,7 +558,7 @@
     "h2": "Why This Bay Demands a Car",
     "p2": "Public buses trace the main highway and stop. Full stop. They will not detour to the unmarked viewpoint above Perast where the bay opens into two arms. They cannot pause at the Roman mosaics in Risan or navigate the single-track lane to Gornji Stoliv, the abandoned village clinging to the cliff face 400 metres above the water. Only a steering wheel and a sense of curiosity unlock Boka Kotorska properly.",
     "h3": "Fleet and Logistics",
-    "p3": "Collection points span the bay: Tivat Airport (8 km from Kotor's walls), directly outside the River Gate car park, and across 28 towns from Herceg Novi to Ulcinj. Economy hatchbacks slip through Old Town approach roads with ease. SUVs handle the Lovcen serpentine's 25 hairpin bends without complaint. Every vehicle carries full insurance, and cross-border documentation for Croatia, Bosnia, Albania, Serbia, and Kosovo can be arranged at booking.",
+    "p3": "Collection points span the bay: Tivat Airport (8 km from Kotor's walls), directly outside the River Gate car park, and across 28 towns from Herceg Novi to Ulcinj. Economy hatchbacks slip through Old Town approach roads with ease. SUVs handle the Lovcen serpentine's 25 hairpin bends without complaint. Add-ons sit in the same booking flow: a roof rack for the kayaks the Bay of Boka tour outfits rent out, an electric scooter with charger for errands between the walled Old Town (no cars permitted inside) and Dobrota, three sizes of child seat for cruise families, and a wireless hotspot for passengers without a local SIM. Every vehicle carries full insurance, and cross-border documentation runs in three tiers covering Croatia, Bosnia, Serbia, Albania, and Kosovo depending on how far the itinerary stretches.",
     "promiseTitle": "What We Guarantee",
     "promise1": "Comprehensive insurance with a zero-excess option on every booking",
     "promise2": "A named driver waiting at Tivat arrivals, sign in hand, car parked outside",
@@ -563,7 +567,7 @@
     "promise5": "Free cancellation up to seven days before collection",
     "promise6": "Local rental providers across Montenegro, Kotor to Žabljak and everywhere between",
     "h4": "We Know These Roads Personally",
-    "p4": "Ask us which mornings the cruise ships dock and choke the Old Town car parks. We will tell you to arrive before 07:30 or skip to Dobrota instead. Ask about the Vrmac ridge trail and we will explain exactly where to leave the car at the trailhead near Prčanj. From the timing of the Kamenari-Lepetane ferry to the quietest hour at the Debeli Brijeg border crossing, our advice comes from driving these roads daily, not from a guidebook reprint.",
+    "p4": "Ask us which mornings the cruise ships dock and choke the Old Town car parks. We will tell you to arrive before 07:30 or skip to Dobrota instead. Ask about the Vrmac ridge trail and we will explain exactly where to leave the car at the trailhead near Prčanj. From the timing of the Kamenari-Lepetane ferry to the quietest hour at the Debeli Brijeg border crossing, our advice comes from driving these roads daily, not from a guidebook reprint. In January, when guests pair Kotor with a Kolašin weekend, we know which cars take a ski or snowboard rack cleanly and which need the Winter Pack for the climb over the passes.",
     "h5": "Reach Out Any Time",
     "p5": "WhatsApp, Viber, old-fashioned phone calls, pick whatever suits you. We reply quickly, even during the frantic July cruise-ship season. Browse the fleet online, lock in a price, and we handle everything else. Or simply message us a question about parking near the Cathedral, the best road to Cetinje, or whether that mountain pass is open in December."
   },
