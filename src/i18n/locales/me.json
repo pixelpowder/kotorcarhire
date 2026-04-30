@@ -479,7 +479,7 @@
     },
     "1": {
       "q": "Mogu li voziti do Hrvatske ili Albanije?",
-      "a": "Hrvatska je 2 sata vožnje preko graničnog prelaza Debeli Brijeg, Zelenu kartu pripremamo pri rezervaciji. Albanija zahtijeva zasebnu dokumentaciju za Zelenu kartu, pa nas obavijestite unaprijed. Bosna, Srbija i Kosovo su takođe dozvoljeni."
+      "a": "Naknade za prelazak granice idu u tri nivoa. Nivo 1 pokriva susjedne zemlje bez Albanije i Kosova, standardni dodatak za najtraženiju rutu iz Kotora, Dubrovnik preko Debeli Brijega, plus Bosnu i Srbiju. Nivo 2 pokriva susjedne zemlje uključujući Albaniju i Kosovo, pravi nivo za jednodnevni izlet do Skadarskog jezera s nastavkom u Albaniju kroz Sukobin ili odlazak do Peje preko Rožaja. Nivo 3 pokriva susjedne i udaljenije zemlje kada se ruta proteže dalje. Označite svaku zemlju pri rezervaciji, Zelena karta čeka u pretincu pri preuzimanju vozila."
     },
     "2": {
       "q": "Postoji li minimalna starosna granica?",
@@ -504,6 +504,10 @@
     "7": {
       "q": "Gdje se parkira u Starom gradu Kotoru?",
       "a": "Stari grad je pješačka zona. Koristite garažu Tabacina (5 minuta pješice do Morskih vrata, popuni se do 10 sati ljeti) ili parking kod Riječnih vrata uz potok Škurda (jeftiniji, besplatan van sezone). U julu i avgustu radi privremeni parking sa shuttle prevozom do bedema."
+    },
+    "8": {
+      "q": "Koje dodatke mogu dodati pri rezervaciji?",
+      "a": "Korisni dodaci za boravak u Kotoru uključuju tri veličine dječjeg sjedišta (zgodno kada krstareća porodica rezerviše jednodnevno preuzimanje u Tivtu sa malom djecom), prenosivi Wi-Fi hotspot ili lokalnu SIM karticu kako bi putnici koji silaze sa broda zaobišli skupi pomorski roming, te krovni nosač dimenzionisan za kajake koje operatori tura po Bay of Boka iznajmljuju gostima. Zimski gosti mogu dodati nosač za skije ili snowboard za januarski vikend Kotor-Kolašin, plus Winter Pack za uspon preko prevoja. Dostupan je i električni trotinet sa punjačem, praktično rješenje za obaveze između bedema Starog grada (unutra automobili nisu dozvoljeni) i stana u Dobroti. Lično osiguranje (PAI) i zaštita od krađe zaokružuju paket zaštite uz već uključen CDW."
     }
   },
   "destCards": {
@@ -554,7 +558,7 @@
     "h2": "Zašto smo počeli",
     "p2": "Gradski autobusi prate glavnu magistralu i zaustavljaju se. To je sve. Neće skrenuti do neoznačenog vidikovca iznad Perasta, gdje se zaliv otvara u dva kraka. Ne mogu zastati kod rimskih mozaika u Risnu niti savladati jednotračni put do Gornjeg Stoliva, napuštenog sela koje se drži litice 400 metara iznad vode. Tek sopstveni volan i doza radoznalosti zaista otključavaju Bokokotorski zaliv.",
     "h3": "Šta nudimo",
-    "p3": "Mjesta preuzimanja pokrivaju cijeli zaliv: aerodrom Tivat (8 km od bedema Kotora), direktno ispred parkinga kod Riječnih vrata, kao i u 28 gradova od Herceg Novog do Ulcinja. Ekonomični hečbek modeli lako prolaze prilaznim ulicama starog grada. SUV vozila bez napora savladavaju 25 serpentina Lovćenske krivine. Svako vozilo ima puno osiguranje, a zelena karta za Hrvatsku, Bosnu, Albaniju, Srbiju i Kosovo može se pripremiti u trenutku rezervacije.",
+    "p3": "Mjesta preuzimanja pokrivaju cijeli zaliv: aerodrom Tivat (8 km od bedema Kotora), direktno ispred parkinga kod Riječnih vrata, kao i u 28 gradova od Herceg Novog do Ulcinja. Ekonomični hečbek modeli lako prolaze prilaznim ulicama starog grada. SUV vozila bez napora savladavaju 25 serpentina Lovćenske krivine. Dodaci se naručuju u istom toku rezervacije: krovni nosač za kajake koje izdaju operatori tura po Bay of Boka, električni trotinet sa punjačem za obaveze između zidina Starog grada (unutra automobili nisu dozvoljeni) i Dobrote, tri veličine dječjeg sjedišta za krstareće porodice i prenosivi Wi-Fi hotspot za putnike bez lokalne SIM kartice. Svako vozilo ima puno osiguranje, a granična dokumentacija ide u tri nivoa koji pokrivaju Hrvatsku, Bosnu, Srbiju, Albaniju i Kosovo, u zavisnosti od toga koliko se ruta proteže.",
     "promiseTitle": "Naše obećanje",
     "promise1": "Potpuno osiguranje sa opcijom nulte franšize",
     "promise2": "Imenovani vozač Vas čeka na dolascima u Tivtu, sa natpisom u ruci, vozilo parkirano ispred",
@@ -563,7 +567,7 @@
     "promise5": "Besplatno otkazivanje za većinu rezervacija",
     "promise6": "Pomoć na putu 24/7 tokom cijelog putovanja",
     "h4": "Lokalno znanje",
-    "p4": "Pitajte nas kojih se jutara pristaju krstaški brodovi i kada zaguše parkinge u starom gradu. Savjetovaćemo Vam da stignete prije 07:30 ili da umjesto toga skrenete u Dobrotu. Pitajte za stazu duž grebena Vrmca i objasnićemo Vam gdje tačno ostaviti vozilo na polazištu kod Prčanja. Od vremena polaska trajekta Kamenari-Lepetane do najmirnijeg sata na graničnom prelazu Debeli Brijeg, naši savjeti nastaju iz svakodnevnog vožnje ovim putevima, a ne iz preštampanog vodiča.",
+    "p4": "Pitajte nas kojih se jutara pristaju krstaški brodovi i kada zaguše parkinge u starom gradu. Savjetovaćemo Vam da stignete prije 07:30 ili da umjesto toga skrenete u Dobrotu. Pitajte za stazu duž grebena Vrmca i objasnićemo Vam gdje tačno ostaviti vozilo na polazištu kod Prčanja. Od vremena polaska trajekta Kamenari-Lepetane do najmirnijeg sata na graničnom prelazu Debeli Brijeg, naši savjeti nastaju iz svakodnevnog vožnje ovim putevima, a ne iz preštampanog vodiča. U januaru, kada gosti spajaju Kotor s vikendom u Kolašinu, znamo koja vozila uredno primaju nosač za skije ili snowboard, a kojima treba Winter Pack za uspon preko prevoja.",
     "h5": "Kontaktirajte nas",
     "p5": "WhatsApp, Viber, klasičan telefonski poziv, izaberite što Vam odgovara. Odgovaramo brzo, čak i u užurbanoj sezoni krstaša u julu. Pregledajte flotu na sajtu, rezervišite cijenu, a za ostalo se brinemo mi. Ili nam jednostavno pošaljite pitanje o parkingu kod katedrale, najboljoj ruti do Cetinja ili je li taj planinski prevoj otvoren u decembru."
   },

@@ -479,7 +479,7 @@
     },
     "1": {
       "q": "Sind Fahrten nach Kroatien oder Albanien erlaubt?",
-      "a": "Kroatien ist über den Grenzübergang Debeli Brijeg 2 Stunden entfernt, wir bereiten die Grüne Karte bei der Buchung vor. Albanien erfordert separate Grüne-Karte-Unterlagen, bitte rechtzeitig Bescheid geben. Bosnien, Serbien und Kosovo sind ebenfalls erlaubt."
+      "a": "Die Grenzgebühren sind in drei Stufen gegliedert. Stufe 1 deckt Nachbarländer ohne Albanien und Kosovo ab, der Standardzuschlag für die meistgefahrene Kotor-Route nach Dubrovnik über Debeli Brijeg sowie für Bosnien und Serbien. Stufe 2 deckt Nachbarländer einschließlich Albanien und Kosovo ab, die richtige Stufe für einen Tagesausflug zum Skadar-See mit anschließender Fahrt durch Sukobin nach Albanien oder einen Vorstoß über Rožaje nach Peja. Stufe 3 deckt Nachbar- und entferntere Länder ab, wenn Ihre Reiseroute weiter führt. Wählen Sie bei der Buchung jedes Land aus, die Grüne Karte liegt bei der Übergabe im Handschuhfach."
     },
     "2": {
       "q": "Gibt es ein Mindestalter?",
@@ -504,6 +504,10 @@
     "7": {
       "q": "Wo parkt man in der Altstadt von Kotor?",
       "a": "Die Altstadt ist autofrei. Nutzen Sie das Parkhaus Tabacina (5 Minuten zu Fuß zum Seetor, ist im Sommer bis 10 Uhr voll) oder den Parkplatz am Flusstor entlang des Skurda-Bachs (günstiger, außerhalb der Saison kostenlos). Im Juli und August betreibt ein Überlaufparkplatz an der Zufahrtsstraße einen Shuttle zu den Stadtmauern."
+    },
+    "8": {
+      "q": "Welche Extras kann ich bei der Buchung hinzufügen?",
+      "a": "Praktische Extras für eine Kotor-Reise sind drei Größen Kindersitze (nützlich, wenn eine Kreuzfahrtfamilie eine Eintagesabholung in Tivat mit Kleinkindern bucht), ein mobiler WLAN-Hotspot oder eine lokale SIM-Karte, damit Passagiere beim Verlassen des Schiffes teures Maritim-Roaming umgehen, sowie ein Dachträger in der passenden Größe für die Kajaks, die die Bay of Boka Tour-Anbieter an Mietkunden ausgeben. Wintergäste können einen Skiträger oder Snowboardträger für das Wochenende von Kotor nach Kolašin im Januar hinzubuchen, dazu ein Winter Pack für die Fahrt über die Pässe. Auch ein Elektroroller mit Ladegerät steht zur Verfügung, die praktische Lösung für Besorgungen zwischen den Mauern der Altstadt (im Inneren keine Autos erlaubt) und einer Wohnung drüben in Dobrota. Personenversicherung (PAI) und Diebstahlschutz runden den Versicherungsschutz zusätzlich zur enthaltenen CDW ab."
     }
   },
   "destCards": {
@@ -554,7 +558,7 @@
     "h2": "Warum wir angefangen haben",
     "p2": "Öffentliche Busse folgen der Hauptstraße und halten. Punkt. Sie machen keinen Umweg zum unbeschilderten Aussichtspunkt oberhalb von Perast, wo sich die Bucht in zwei Arme öffnet. Sie können nicht an den römischen Mosaiken in Risan halten oder die einspurige Straße nach Gornji Stoliv befahren, das verlassene Dorf, das sich 400 Meter über dem Wasser an die Felswand klammert. Erst ein eigenes Lenkrad und Neugier öffnen die Boka Kotorska richtig.",
     "h3": "Was wir anbieten",
-    "p3": "Abholpunkte ziehen sich durch die gesamte Bucht: Flughafen Tivat (8 km von den Mauern Kotors), direkt vor dem Parkplatz am Flusstor und in 28 Ortschaften von Herceg Novi bis Ulcinj. Kompakte Kleinwagen gleiten mühelos durch die Zufahrtsstraßen der Altstadt. SUVs bewältigen die 25 Serpentinen der Lovćen-Strecke ohne Mühe. Jedes Fahrzeug ist vollständig versichert, und die Grenzpapiere für Kroatien, Bosnien, Albanien, Serbien und Kosovo können bei der Buchung vorbereitet werden.",
+    "p3": "Abholpunkte ziehen sich durch die gesamte Bucht: Flughafen Tivat (8 km von den Mauern Kotors), direkt vor dem Parkplatz am Flusstor und in 28 Ortschaften von Herceg Novi bis Ulcinj. Kompakte Kleinwagen gleiten mühelos durch die Zufahrtsstraßen der Altstadt. SUVs bewältigen die 25 Serpentinen der Lovćen-Strecke ohne Mühe. Extras laufen im selben Buchungsablauf: ein Dachträger für die Kajaks der Bay of Boka Tour-Anbieter, ein Elektroroller mit Ladegerät für Besorgungen zwischen der ummauerten Altstadt (im Inneren keine Fahrzeuge erlaubt) und Dobrota, drei Größen Kindersitze für Kreuzfahrtfamilien sowie ein mobiler WLAN-Hotspot für Passagiere ohne lokale SIM-Karte. Jedes Fahrzeug ist vollständig versichert, und die Grenzpapiere laufen in drei Stufen, die Kroatien, Bosnien, Serbien, Albanien und Kosovo abdecken, je nachdem, wie weit die Reiseroute reicht.",
     "promiseTitle": "Unser Versprechen",
     "promise1": "Vollkaskoversicherung mit Null-Selbstbeteiligung-Option bei jeder Buchung",
     "promise2": "Ein namentlich genannter Fahrer wartet bei der Ankunft in Tivat, Schild in der Hand, Fahrzeug direkt davor",
@@ -563,7 +567,7 @@
     "promise5": "Kostenlose Stornierung bei den meisten Buchungen",
     "promise6": "24/7 Pannenhilfe während Ihrer gesamten Reise",
     "h4": "Lokales Wissen",
-    "p4": "Fragen Sie uns, an welchen Morgen die Kreuzfahrtschiffe anlegen und die Parkplätze der Altstadt überfüllen. Wir sagen Ihnen, dass Sie vor 07:30 kommen oder besser nach Dobrota ausweichen sollten. Fragen Sie nach dem Grat von Vrmac, und wir erklären Ihnen genau, wo Sie das Fahrzeug am Wanderbeginn in der Nähe von Prčanj abstellen. Von den Fahrzeiten der Kamenari-Lepetane-Fähre bis zur ruhigsten Stunde am Grenzübergang Debeli Brijeg, unser Rat entsteht beim täglichen Fahren dieser Straßen, nicht aus einem Reiseführer-Nachdruck.",
+    "p4": "Fragen Sie uns, an welchen Morgen die Kreuzfahrtschiffe anlegen und die Parkplätze der Altstadt überfüllen. Wir sagen Ihnen, dass Sie vor 07:30 kommen oder besser nach Dobrota ausweichen sollten. Fragen Sie nach dem Grat von Vrmac, und wir erklären Ihnen genau, wo Sie das Fahrzeug am Wanderbeginn in der Nähe von Prčanj abstellen. Von den Fahrzeiten der Kamenari-Lepetane-Fähre bis zur ruhigsten Stunde am Grenzübergang Debeli Brijeg, unser Rat entsteht beim täglichen Fahren dieser Straßen, nicht aus einem Reiseführer-Nachdruck. Im Januar, wenn Gäste Kotor mit einem Wochenende in Kolašin verbinden, wissen wir, welche Fahrzeuge sich sauber mit einem Ski- oder Snowboardträger ausstatten lassen und welche das Winter Pack für die Fahrt über die Pässe brauchen.",
     "h5": "Kontaktieren Sie uns",
     "p5": "WhatsApp, Viber, klassische Telefonate, wählen Sie, was Ihnen passt. Wir antworten schnell, auch in der hektischen Kreuzfahrtsaison im Juli. Stöbern Sie online in der Flotte, sichern Sie sich einen Preis, und wir kümmern uns um alles Weitere. Oder schreiben Sie uns einfach eine Frage zum Parken in der Nähe der Kathedrale, zur besten Straße nach Cetinje oder ob jener Bergpass im Dezember offen ist."
   },

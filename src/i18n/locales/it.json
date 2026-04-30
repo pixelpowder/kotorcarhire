@@ -479,7 +479,7 @@
     },
     "1": {
       "q": "Posso guidare in Croazia o Albania?",
-      "a": "La Croazia è a 2 ore tramite il valico di Debeli Brijeg, prepariamo la carta verde alla prenotazione. L'Albania richiede documentazione separata per la carta verde, avvisaci in anticipo. Bosnia, Serbia e Kosovo sono anch'esse consentite."
+      "a": "Le tariffe transfrontaliere si articolano su tre livelli. Il livello 1 copre i paesi confinanti esclusi Albania e Kosovo, il supplemento standard per la rotta più battuta da Kotor, Dubrovnik via Debeli Brijeg, oltre a Bosnia e Serbia. Il livello 2 copre i paesi confinanti compresi Albania e Kosovo, il livello giusto per una giornata al lago di Skadar prolungata in Albania attraverso Sukobin o per una puntata fino a Peja via Rožaje. Il livello 3 copre paesi confinanti e più lontani quando l'itinerario si estende oltre. Selezionate ciascun paese al momento della prenotazione, la Carta Verde è nel cassetto del cruscotto al ritiro."
     },
     "2": {
       "q": "C'è un'età minima?",
@@ -504,6 +504,10 @@
     "7": {
       "q": "Dove si parcheggia nella Città Vecchia di Kotor?",
       "a": "La Città Vecchia è pedonale. Utilizza il parcheggio multipiano Tabacina (5 minuti a piedi dalla Porta del Mare, si riempie entro le 10 in estate) oppure il parcheggio della Porta del Fiume lungo il torrente Skurda (più economico, gratuito fuori stagione). A luglio e agosto un parcheggio di overflow temporaneo opera sulla via di accesso con navetta verso le mura."
+    },
+    "8": {
+      "q": "Quali extra posso aggiungere alla prenotazione?",
+      "a": "Tra gli extra utili per un viaggio a Kotor ci sono tre misure di seggiolino per bambini (comodi quando una famiglia in crociera prenota un ritiro giornaliero a Tivat con bimbi piccoli al seguito), un hotspot Wi-Fi portatile o una SIM locale così che i passeggeri scesi dalla nave evitino il roaming marittimo costoso, e un portapacchi dimensionato per i kayak che gli operatori dei tour della Bay of Boka consegnano ai clienti. Chi viaggia in inverno può aggiungere un portasci o portasnowboard per il weekend Kotor-Kolašin di gennaio, oltre al Winter Pack per la salita sui passi. È disponibile anche un monopattino elettrico con caricabatterie, la soluzione pratica per le commissioni tra le mura della Città Vecchia (dove non entrano auto) e un appartamento dall'altra parte a Dobrota. Assicurazione Personale (PAI) e Protezione Furto completano le coperture oltre alla CDW inclusa."
     }
   },
   "destCards": {
@@ -554,7 +558,7 @@
     "h2": "Perché abbiamo iniziato",
     "p2": "Gli autobus pubblici seguono la strada principale e si fermano. Punto. Non deviano verso il belvedere non segnalato sopra Perast, dove la baia si apre in due bracci. Non possono fermarsi ai mosaici romani di Risan né affrontare la carreggiata singola fino a Gornji Stoliv, il villaggio abbandonato aggrappato alla parete rocciosa 400 metri sopra l'acqua. Solo un volante e un pizzico di curiosità aprono davvero le Bocche di Kotor.",
     "h3": "Cosa offriamo",
-    "p3": "I punti di ritiro coprono tutta la baia: aeroporto di Tivat (8 km dalle mura di Kotor), proprio davanti al parcheggio della Porta del Fiume, e in 28 città da Herceg Novi a Ulcinj. Le utilitarie compatte passano con facilità sulle strade di accesso alla città vecchia. I SUV affrontano senza fatica le 25 curve a gomito della serpentina del Lovćen. Ogni veicolo è completamente assicurato, e la Carta Verde per Croazia, Bosnia, Albania, Serbia e Kosovo può essere preparata al momento della prenotazione.",
+    "p3": "I punti di ritiro coprono tutta la baia: aeroporto di Tivat (8 km dalle mura di Kotor), proprio davanti al parcheggio della Porta del Fiume, e in 28 città da Herceg Novi a Ulcinj. Le utilitarie compatte passano con facilità sulle strade di accesso alla città vecchia. I SUV affrontano senza fatica le 25 curve a gomito della serpentina del Lovćen. Gli accessori si aggiungono nello stesso flusso di prenotazione: un portapacchi per i kayak che gli operatori dei tour della Bay of Boka noleggiano, un monopattino elettrico con caricabatterie per le commissioni tra la Città Vecchia murata (dove non si entra in auto) e Dobrota, tre misure di seggiolino per le famiglie in crociera, e un hotspot Wi-Fi portatile per i passeggeri senza SIM locale. Ogni veicolo è completamente assicurato, e la documentazione transfrontaliera è organizzata su tre livelli che coprono Croazia, Bosnia, Serbia, Albania e Kosovo a seconda di quanto si estende l'itinerario.",
     "promiseTitle": "La nostra promessa",
     "promise1": "Assicurazione completa con opzione franchigia zero su ogni prenotazione nella flotta di Cattaro",
     "promise2": "Un autista nominato L'attende agli arrivi di Tivat, cartello in mano, auto parcheggiata all'uscita",
@@ -563,7 +567,7 @@
     "promise5": "Cancellazione gratuita fino a sette giorni prima della data di ritiro, su tutti i veicoli di Cattaro",
     "promise6": "Assistenza stradale 24 ore su 24, da Kotor a Zabljak e ovunque in mezzo",
     "h4": "Conoscenza locale",
-    "p4": "Ci chieda in quali mattine attraccano le navi da crociera e saturano i parcheggi della città vecchia. Le diremo di arrivare prima delle 07:30 o di dirigersi piuttosto a Dobrota. Ci chieda del sentiero sul crinale del Vrmac e Le spiegheremo esattamente dove lasciare l'auto all'imbocco vicino a Prčanj. Dagli orari del traghetto Kamenari-Lepetane all'ora più tranquilla al valico di confine di Debeli Brijeg, i nostri consigli nascono dal guidare quotidianamente queste strade, non dalla ristampa di una guida.",
+    "p4": "Ci chieda in quali mattine attraccano le navi da crociera e saturano i parcheggi della città vecchia. Le diremo di arrivare prima delle 07:30 o di dirigersi piuttosto a Dobrota. Ci chieda del sentiero sul crinale del Vrmac e Le spiegheremo esattamente dove lasciare l'auto all'imbocco vicino a Prčanj. Dagli orari del traghetto Kamenari-Lepetane all'ora più tranquilla al valico di confine di Debeli Brijeg, i nostri consigli nascono dal guidare quotidianamente queste strade, non dalla ristampa di una guida. A gennaio, quando gli ospiti abbinano Kotor a un weekend a Kolašin, sappiamo quali auto accolgono pulite un portasci o portasnowboard e quali hanno bisogno del Winter Pack per affrontare i passi.",
     "h5": "Contattaci",
     "p5": "WhatsApp, Viber, le classiche telefonate, scelga Lei. Rispondiamo rapidamente, anche nella frenetica stagione delle crociere di luglio. Scorra la flotta online, blocchi un prezzo, e pensiamo noi a tutto il resto. Oppure ci scriva semplicemente una domanda sul parcheggio vicino alla Cattedrale, sulla strada migliore per Cetinje o se quel passo di montagna è aperto a dicembre."
   },
