@@ -191,28 +191,35 @@
   </script>
   <script>
     // Auto-resize — use body height to avoid counting invisible overflow.
-    // When the filter modal is open, report viewport height instead so the
-    // iframe doesn't extend below the modal showing dimmed page content.
-    function isFilterModalOpen() {
-      const el = document.querySelector('.settings__popup-outer');
-      // offsetParent is null when display:none on the element or any ancestor.
-      // LocalRent pre-renders this hidden — only treat as "open" when visible.
-      return !!el && el.offsetParent !== null;
-    }
+    // ResizeObserver alone doesn't reliably catch the LocalRent widget's
+    // initial render in some browsers/timing — so we also MutationObserver the
+    // body subtree and poll until the height stabilises. This guarantees the
+    // parent gets a correct iframeHeight without manual intervention.
+    let _lastH = 0;
     function sendHeight() {
-      let h;
-      if (isFilterModalOpen()) {
-        // Use the PARENT window's viewport height so iframe shrinks to fit
-        // the user's actual visible viewport (not the iframe's own height).
-        try { h = window.parent.innerHeight; }
-        catch (e) { h = window.innerHeight; }
-      } else {
-        h = document.body.offsetHeight || document.documentElement.scrollHeight;
+      const h = document.body.offsetHeight || document.documentElement.scrollHeight;
+      if (h !== _lastH) {
+        _lastH = h;
+        window.parent.postMessage({ type: 'iframeHeight', height: h }, '*');
       }
-      window.parent.postMessage({ type: 'iframeHeight', height: h }, '*');
     }
-    const ro = new ResizeObserver(sendHeight);
-    ro.observe(document.body);
+    new ResizeObserver(sendHeight).observe(document.body);
+    new MutationObserver(sendHeight).observe(document.body, {
+      childList: true, subtree: true, attributes: true,
+      attributeFilter: ['style', 'class']
+    });
+    // Polling fallback — covers the case where LocalRent's Vue render doesn't
+    // mutate body in a way the observers see (eg. canvas-style updates).
+    let _polls = 0;
+    const _pollIv = setInterval(() => {
+      sendHeight();
+      _polls++;
+      // After 30s slow the poll way down — the widget should be stable by then.
+      if (_polls === 60) {
+        clearInterval(_pollIv);
+        setInterval(sendHeight, 2000);
+      }
+    }, 500);
 
     // Filter modal wheel-scroll fix: when wheel occurs over the filter
     // modal, directly scroll its inner element. Works around LocalRent's
