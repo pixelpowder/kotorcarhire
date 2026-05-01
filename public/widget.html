@@ -193,10 +193,15 @@
     // Auto-resize — use body height to avoid counting invisible overflow.
     // When the filter modal is open, report viewport height instead so the
     // iframe doesn't extend below the modal showing dimmed page content.
+    function isFilterModalOpen() {
+      const el = document.querySelector('.settings__popup-outer');
+      // offsetParent is null when display:none on the element or any ancestor.
+      // LocalRent pre-renders this hidden — only treat as "open" when visible.
+      return !!el && el.offsetParent !== null;
+    }
     function sendHeight() {
-      const modalOpen = !!document.querySelector('.settings__popup-outer');
       let h;
-      if (modalOpen) {
+      if (isFilterModalOpen()) {
         // Use the PARENT window's viewport height so iframe shrinks to fit
         // the user's actual visible viewport (not the iframe's own height).
         try { h = window.parent.innerHeight; }
@@ -278,20 +283,21 @@
 
     let lastFilterOpen = false;
     new MutationObserver(() => {
-      const open = !!document.querySelector('.settings__popup-outer');
+      const open = isFilterModalOpen();
       if (open === lastFilterOpen) return;
       lastFilterOpen = open;
       if (open) {
         startFilterFit();
-        window.parent.postMessage({ type: 'lightboxOpen' }, '*');
       } else {
         stopFilterFit();
-        window.parent.postMessage({ type: 'lightboxClose' }, '*');
       }
       // Force iframe height update — body resize won't trigger ResizeObserver
       // since body has overflow:hidden when modal-locked.
+      // Note: do NOT postMessage lightboxOpen here — that's reserved for the
+      // booking__lightbox (car photo gallery) which needs fullscreen iframe.
+      // The filter modal is handled via sendHeight=viewport + sticky action bar.
       sendHeight();
-    }).observe(document.body, { childList: true, subtree: true });
+    }).observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['style', 'class'] });
 
     // When lightbox opens, tell parent to make iframe fullscreen-fixed so modal is in viewport
     new MutationObserver((mutations) => {
