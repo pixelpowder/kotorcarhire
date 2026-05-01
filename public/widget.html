@@ -190,13 +190,108 @@
     })();
   </script>
   <script>
-    // Auto-resize — use body height to avoid counting invisible overflow
+    // Auto-resize — use body height to avoid counting invisible overflow.
+    // When the filter modal is open, report viewport height instead so the
+    // iframe doesn't extend below the modal showing dimmed page content.
     function sendHeight() {
-      const h = document.body.offsetHeight || document.documentElement.scrollHeight;
+      const modalOpen = !!document.querySelector('.settings__popup-outer');
+      let h;
+      if (modalOpen) {
+        // Use the PARENT window's viewport height so iframe shrinks to fit
+        // the user's actual visible viewport (not the iframe's own height).
+        try { h = window.parent.innerHeight; }
+        catch (e) { h = window.innerHeight; }
+      } else {
+        h = document.body.offsetHeight || document.documentElement.scrollHeight;
+      }
       window.parent.postMessage({ type: 'iframeHeight', height: h }, '*');
     }
     const ro = new ResizeObserver(sendHeight);
     ro.observe(document.body);
+
+    // Filter modal wheel-scroll fix: when wheel occurs over the filter
+    // modal, directly scroll its inner element. Works around LocalRent's
+    // modal scroll behaviour breaking inside an iframe.
+    window.addEventListener('wheel', (e) => {
+      const inner = document.querySelector('.settings__popup-inner.search-filters__inner, .settings__popup-outer');
+      if (!inner) return;
+      if (!inner.contains(e.target) && e.target !== inner) return;
+      let scrollable = e.target;
+      while (scrollable && scrollable !== document.body) {
+        const s = getComputedStyle(scrollable);
+        if ((s.overflowY === 'auto' || s.overflowY === 'scroll') && scrollable.scrollHeight > scrollable.clientHeight) {
+          break;
+        }
+        scrollable = scrollable.parentElement;
+      }
+      if (scrollable && scrollable !== document.body) {
+        scrollable.scrollTop += e.deltaY;
+        e.preventDefault();
+      }
+    }, { passive: false });
+
+    // Filter modal white-space fix: when modal opens, force the modal panel
+    // height to match its actual content (so empty space below content is
+    // collapsed). Uses ResizeObserver on the .filters grid to track content
+    // size and update the panel ancestor heights.
+    function fitFilterModalToContent() {
+      const filters = document.querySelector('.settings__popup-inner.search-filters__inner .filters');
+      const inner = document.querySelector('.settings__popup-inner.search-filters__inner');
+      const outer = document.querySelector('.settings__popup-outer');
+      if (!filters || !inner || !outer) return;
+      const contentH = filters.scrollHeight;
+      const viewportH = window.innerHeight;
+      const target = Math.min(contentH + 20, viewportH);
+      inner.style.maxHeight = target + 'px';
+      inner.style.height = 'auto';
+      outer.style.maxHeight = target + 'px';
+      outer.style.height = 'auto';
+    }
+    let filterRO = null;
+    function startFilterFit() {
+      const filters = document.querySelector('.settings__popup-inner.search-filters__inner .filters');
+      if (!filters || filterRO) return;
+      filterRO = new ResizeObserver(fitFilterModalToContent);
+      filterRO.observe(filters);
+      fitFilterModalToContent();
+    }
+    function stopFilterFit() {
+      if (filterRO) { filterRO.disconnect(); filterRO = null; }
+    }
+    // Intercept "Back to top" click and scroll the PARENT page (not just
+    // the iframe content) so user actually returns to top of the visible page.
+    window.addEventListener('click', (e) => {
+      const t = e.target;
+      if (!t) return;
+      const txt = (t.textContent || '').trim().toLowerCase();
+      const isBackToTop = txt === 'back to top'
+        || (t.closest && t.closest('[class*="back-to-top"], [class*="scroll-top"], [class*="back_to_top"]'));
+      if (!isBackToTop) return;
+      e.preventDefault();
+      e.stopPropagation();
+      try {
+        window.parent.scrollTo({ top: 0, behavior: 'smooth' });
+      } catch (err) {
+        try { window.parent.scrollTo(0, 0); } catch (e2) {}
+      }
+    }, true);
+
+    let lastFilterOpen = false;
+    new MutationObserver(() => {
+      const open = !!document.querySelector('.settings__popup-outer');
+      if (open === lastFilterOpen) return;
+      lastFilterOpen = open;
+      if (open) {
+        startFilterFit();
+        window.parent.postMessage({ type: 'lightboxOpen' }, '*');
+      } else {
+        stopFilterFit();
+        window.parent.postMessage({ type: 'lightboxClose' }, '*');
+      }
+      // Force iframe height update — body resize won't trigger ResizeObserver
+      // since body has overflow:hidden when modal-locked.
+      sendHeight();
+    }).observe(document.body, { childList: true, subtree: true });
 
     // When lightbox opens, tell parent to make iframe fullscreen-fixed so modal is in viewport
     new MutationObserver((mutations) => {
@@ -284,6 +379,101 @@
       [class*="badge-list"], [class*="badges-row"],
       .featuring-cool-cars, [class*="featuring"],
       [class*="top-pick"], [class*="top_pick"] { display: none !important; }
+
+      /* LocalRent filter modal — class hierarchy:
+         body.mrc-lock-scroll (overflow lock when modal open)
+         .mrcwhitelabel > .search-cigarette__pinned > .search-cigarette__filters
+         > .search-filters__wrap > .settings__popup-outer
+         > .settings__popup-inner.search-filters__inner > .filters
+         Collapse panels to content height and enable internal mousewheel scroll. */
+      .settings__popup-outer {
+        display: block !important;
+        min-height: 0 !important;
+        height: auto !important;
+        /* Account for the 54px top offset so modal fits in viewport */
+        max-height: calc(100dvh - 54px) !important;
+        overflow-y: auto !important;
+        -webkit-overflow-scrolling: touch !important;
+      }
+      /* Pin the action bar (Reset / View cars buttons) to the bottom of the
+         modal panel so it stays visible while user scrolls filter content,
+         matching LocalRent's native-site UX. */
+      .settings__popup-inner > *:last-child,
+      [class*="search-filters__footer"],
+      [class*="search-filters__actions"],
+      [class*="filters__footer"] {
+        position: sticky !important;
+        bottom: 0 !important;
+        background: #fff !important;
+        z-index: 10 !important;
+        border-top: 1px solid #e7e8ea !important;
+        padding: 12px 16px !important;
+      }
+      .settings__popup-inner.search-filters__inner {
+        min-height: 0 !important;
+        height: auto !important;
+        max-height: none !important;
+        flex: none !important;
+        overflow: visible !important;
+      }
+      /* Mobile-specific: kill any 100vh / fixed-height that LocalRent applies
+         in mobile breakpoints causing the panel to be full-viewport with
+         empty space below content. */
+      @media (max-width: 768px) {
+        body.mrc-lock-scroll,
+        body.mrc-lock-scroll #localrent-widget,
+        body.mrc-lock-scroll #localrent-widget > *,
+        body.mrc-lock-scroll [id^="mrc_wl_"],
+        body.mrc-lock-scroll [id^="mrc_wl_"] > *,
+        .mrcwhitelabel,
+        .search-cigarette,
+        .search-cigarette__pinned,
+        .search-cigarette__filters,
+        .search-filters,
+        .search-filters__wrap,
+        .search-filters__inner,
+        .search-filters__show,
+        .settings__popup-outer,
+        .settings__popup-inner,
+        .settings__setting-selected,
+        .filters {
+          height: auto !important;
+          min-height: 0 !important;
+          max-height: none !important;
+        }
+        .settings__popup-outer {
+          max-height: 100dvh !important;
+          overflow-y: auto !important;
+        }
+        /* Catch any wrapper with explicit 100vh inline style */
+        [style*="height: 100vh"],
+        [style*="min-height: 100vh"],
+        [style*="height:100vh"],
+        [style*="min-height:100vh"] {
+          height: auto !important;
+          min-height: 0 !important;
+        }
+      }
+      /* Mobile: when modal is open (.mrc-lock-scroll on body),
+         pin the action bar (.search_buttons) to viewport bottom so it
+         doesn't sit below filter content with white space between. */
+      body.mrc-lock-scroll .search_buttons {
+        position: fixed !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        z-index: 100 !important;
+        background: #fff !important;
+        box-shadow: 0 -4px 12px rgba(0,0,0,0.08) !important;
+      }
+      /* Ensure all children of search_buttons (Reset link + View cars button)
+         are visible on mobile — LocalRent hides the reset link at narrow widths. */
+      .search_buttons > *,
+      [class*="search_buttons__reset"],
+      [class*="search-buttons__reset"] {
+        display: inline-flex !important;
+        visibility: visible !important;
+      }
     `;
     // Location name update after widget loads
     const p = new URLSearchParams(window.location.search);
