@@ -5,10 +5,10 @@ import useTranslation from '../../../i18n/useTranslation';
 import '../../../ContentPage.css';
 
 const cardStyle = {
-  background: '#fff',
+  background: 'var(--white)',
   borderRadius: '12px',
   overflow: 'hidden',
-  border: '1px solid var(--gray-200, #e9ecef)',
+  border: '1px solid var(--gray-200)',
   boxShadow: 'var(--shadow-sm)',
   transition: 'box-shadow 0.2s, transform 0.2s',
   display: 'flex',
