@@ -4,7 +4,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: var(--navy);
+  background: var(--surface-inverse);
   color: rgba(255,255,255,0.85);
   padding: 14px 24px;
   display: flex;
@@ -65,7 +65,7 @@
 
 /* ─── TRUSTPILOT BANNER ───────────────────────────────── */
 .trustpilot-banner {
-  background: var(--navy);
+  background: var(--surface-inverse);
   padding: 20px 0;
   border-top: 1px solid rgba(255,255,255,0.08);
   border-bottom: 1px solid rgba(255,255,255,0.08);
@@ -123,7 +123,7 @@
 }
 
 .booking-calendar .react-datepicker__header {
-  background: var(--navy);
+  background: var(--surface-inverse);
   border-bottom: none;
   border-radius: 12px 12px 0 0;
   padding-top: 12px;
@@ -183,6 +183,29 @@
 
 .booking-calendar .react-datepicker__day--disabled {
   color: var(--gray-400) !important;
+}
+
+/* Dark mode datepicker overrides */
+html[data-theme="dark"] .booking-calendar,
+html[data-theme="dark"] .booking-calendar .react-datepicker,
+html[data-theme="dark"] .booking-calendar .react-datepicker__month-container,
+html[data-theme="dark"] .booking-calendar .react-datepicker__month {
+  background: var(--white);
+  color: var(--gray-800);
+  border-color: var(--gray-200);
+}
+html[data-theme="dark"] .booking-calendar .react-datepicker__day {
+  color: var(--gray-800);
+}
+html[data-theme="dark"] .booking-calendar .react-datepicker__day--outside-month {
+  color: var(--gray-500);
+  opacity: 0.6;
+}
+html[data-theme="dark"] .booking-calendar .react-datepicker__day--disabled {
+  color: rgba(255,255,255,0.22) !important;
+}
+html[data-theme="dark"] .booking-calendar .react-datepicker__day:hover {
+  background: rgba(27,58,92,0.5);
 }
 
 @media (max-width: 768px) {
@@ -326,7 +349,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--white);
+  color: var(--on-inverse);
   transition: opacity 0.2s;
 }
 
@@ -337,7 +360,7 @@
 .nav__logo-text {
   font-size: 16px;
   font-weight: 700;
-  color: var(--white);
+  color: var(--on-inverse);
   line-height: 1.2;
   white-space: nowrap;
 }
@@ -372,13 +395,13 @@
 }
 
 .nav__link:hover {
-  color: var(--white);
+  color: var(--on-inverse);
   background: rgba(255,255,255,0.1);
 }
 
 .nav__cta {
   background: var(--blue);
-  color: var(--white);
+  color: var(--on-inverse);
   font-size: 14px;
   font-weight: 600;
   padding: 9px 20px;
@@ -406,11 +429,30 @@
   display: none;
   background: none;
   border: none;
-  color: var(--white);
+  color: var(--on-inverse);
   cursor: pointer;
   padding: 4px;
   line-height: 0;
   order: 2;
+}
+
+.nav__theme {
+  order: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 8px;
+  color: var(--on-inverse);
+  cursor: pointer;
+  transition: background 0.18s ease, border-color 0.18s ease;
+}
+.nav__theme:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.5);
 }
 
 .nav__lang {
@@ -449,7 +491,7 @@
 .mobile-drawer__close {
   background: none;
   border: none;
-  color: var(--white);
+  color: var(--on-inverse);
   cursor: pointer;
   padding: 4px;
   line-height: 0;
@@ -477,13 +519,23 @@
 
 .mobile-drawer__link:hover {
   background: rgba(255,255,255,0.07);
-  color: var(--white);
+  color: var(--on-inverse);
+}
+
+button.mobile-drawer__theme {
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  font-family: inherit;
+  cursor: pointer;
+  text-align: left;
 }
 
 .mobile-drawer__cta {
   margin: 16px 20px 32px;
   background: var(--blue);
-  color: var(--white);
+  color: var(--on-inverse);
   font-size: 15px;
   font-weight: 700;
   padding: 14px;
@@ -553,7 +605,7 @@
 }
 
 .nav__lang-option.active {
-  color: var(--white);
+  color: var(--on-inverse);
   font-weight: 700;
 }
 
@@ -632,7 +684,7 @@
   background: rgba(255,255,255,0.15);
   backdrop-filter: blur(6px);
   border: 1px solid rgba(255,255,255,0.25);
-  color: var(--white);
+  color: var(--on-inverse);
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.06em;
@@ -645,7 +697,7 @@
 .hero__headline {
   font-size: clamp(28px, 4.2vw, 56px);
   font-weight: 900;
-  color: var(--white);
+  color: var(--on-inverse);
   line-height: 1.05;
   letter-spacing: -0.025em;
   max-width: 100%;
@@ -809,7 +861,7 @@
   gap: 6px;
   background: transparent;
   border: 1px solid rgba(255,255,255,0.35);
-  color: var(--white);
+  color: var(--on-inverse);
   font-size: 14px;
   font-weight: 600;
   padding: 7px 14px;
@@ -924,7 +976,7 @@ select.booking-field__input {
 
 .booking-card__search {
   background: rgb(0, 98, 227);
-  color: var(--white);
+  color: var(--on-inverse);
   border: none;
   border-radius: 8px;
   padding: 0 28px;
@@ -1000,7 +1052,7 @@ select.booking-field__input {
   display: block;
   font-size: 16px;
   font-weight: 700;
-  color: var(--white);
+  color: var(--on-inverse);
   line-height: 1.3;
 }
 
@@ -1107,7 +1159,7 @@ select.booking-field__input {
 /* ─── BRAND LOGOS ──────────────────────────────────────── */
 .brands-section {
   padding: 60px 0;
-  background: #fff;
+  background: var(--white);
   overflow: hidden;
 }
 
@@ -1212,9 +1264,9 @@ select.booking-field__input {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: #fff;
+  background: var(--white);
   color: var(--navy);
-  border: 1px solid var(--gray-200, #e5e7eb);
+  border: 1px solid var(--gray-200);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -1254,7 +1306,7 @@ select.booking-field__input {
 .step-card,
 .feature-card,
 .faq-item {
-  background: #fff !important;
+  background: var(--white) !important;
   border: 1px solid var(--gray-200, #e5e7eb) !important;
   box-shadow: 0 2px 8px rgba(10, 25, 41,0.06) !important;
 }
@@ -1338,7 +1390,7 @@ select.booking-field__input {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--white);
+  color: var(--on-inverse);
   background: var(--blue);
   border-radius: 4px;
   padding: 2px 8px;
@@ -1350,7 +1402,7 @@ select.booking-field__input {
 .dest-card__name {
   font-size: 17px;
   font-weight: 700;
-  color: var(--white);
+  color: var(--on-inverse);
   margin-bottom: 3px;
 }
 
@@ -1391,7 +1443,7 @@ select.booking-field__input {
 .fleet-filter-btn--active {
   background: var(--blue);
   border-color: var(--blue);
-  color: var(--white);
+  color: var(--on-inverse);
 }
 
 /* ─── FLEET GRID ───────────────────────────────────────── */
@@ -1405,7 +1457,7 @@ select.booking-field__input {
   position: relative;
   max-height: 2020px;
   overflow: clip;
-  background: #fff;
+  background: var(--white);
   /* Widen iframe to compensate for widget's internal padding */
   margin-left: -72px;
   margin-right: -72px;
@@ -1479,12 +1531,12 @@ select.booking-field__input {
   padding: 4px 10px;
   border-radius: var(--radius-pill);
   background: var(--blue);
-  color: var(--white);
+  color: var(--on-inverse);
 }
 
 .car-card__badge--popular {
   background: #f59e0b;
-  color: var(--white);
+  color: var(--on-inverse);
 }
 
 .car-card__body {
@@ -1569,7 +1621,7 @@ select.booking-field__input {
 
 .car-card__book {
   background: var(--blue);
-  color: var(--white);
+  color: var(--on-inverse);
   border: none;
   border-radius: var(--radius-sm);
   padding: 9px 18px;
@@ -1681,7 +1733,7 @@ select.booking-field__input {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--white);
+  color: var(--on-inverse);
   font-size: 14px;
   font-weight: 700;
   flex-shrink: 0;
@@ -1828,7 +1880,7 @@ select.booking-field__input {
 
 /* ─── CTA BANNER ───────────────────────────────────────── */
 .cta-banner {
-  background: var(--navy);
+  background: var(--surface-inverse);
   padding: 80px 24px;
   text-align: center;
 }
@@ -1899,7 +1951,7 @@ select.booking-field__input {
 .cta-banner__title {
   font-size: clamp(28px, 4vw, 40px);
   font-weight: 800;
-  color: var(--white);
+  color: var(--on-inverse);
   letter-spacing: -0.02em;
   line-height: 1.15;
   margin-bottom: 14px;
@@ -1922,7 +1974,7 @@ select.booking-field__input {
 
 .cta-btn--primary {
   background: var(--blue);
-  color: var(--white);
+  color: var(--on-inverse);
   border: none;
   border-radius: var(--radius-pill);
   padding: 14px 28px;
@@ -1945,7 +1997,7 @@ select.booking-field__input {
   background: rgba(255,255,255,0.1);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  color: var(--white);
+  color: var(--on-inverse);
   border: 1.5px solid rgba(255,255,255,0.3);
   border-radius: var(--radius-pill);
   padding: 13px 24px;
@@ -1967,7 +2019,7 @@ select.booking-field__input {
 
 /* ─── FOOTER ───────────────────────────────────────────── */
 .footer {
-  background: var(--navy);
+  background: var(--surface-inverse);
   border-top: 1px solid rgba(255,255,255,0.06);
   padding: 60px 0 32px;
   color: rgba(255,255,255,0.65);
@@ -2004,7 +2056,7 @@ select.booking-field__input {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--white);
+  color: var(--on-inverse);
   transition: opacity 0.2s;
 }
 
@@ -2015,7 +2067,7 @@ select.booking-field__input {
 .footer__brand-name {
   font-size: 15px;
   font-weight: 700;
-  color: var(--white);
+  color: var(--on-inverse);
 }
 
 .footer__brand-desc {
@@ -2049,7 +2101,7 @@ select.booking-field__input {
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--white);
+  color: var(--on-inverse);
   margin-bottom: 16px;
 }
 
@@ -2074,7 +2126,7 @@ select.booking-field__input {
 }
 
 .footer__link:hover {
-  color: var(--white);
+  color: var(--on-inverse);
 }
 
 .footer__bottom {
@@ -2211,7 +2263,7 @@ select.booking-field__input {
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    background: var(--navy);
+    background: var(--surface-inverse);
     color: #fff;
     text-decoration: none;
   }
@@ -2614,8 +2666,8 @@ select.booking-field__input {
 .fleet-showcase__chip {
   display: flex;
   flex-direction: column;
-  background: #fff;
-  border: 1px solid var(--gray-200, #e9ecef);
+  background: var(--white);
+  border: 1px solid var(--gray-200);
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
@@ -2680,8 +2732,8 @@ select.booking-field__input {
 .fleet-index-card {
   display: flex;
   flex-direction: column;
-  background: #fff;
-  border: 1px solid var(--gray-200, #e9ecef);
+  background: var(--white);
+  border: 1px solid var(--gray-200);
   border-radius: 14px;
   overflow: hidden;
   text-decoration: none;
@@ -2979,8 +3031,8 @@ select.booking-field__input {
 }
 .car-detail-related__card {
   display: block;
-  background: #fff;
-  border: 1px solid var(--gray-200, #e9ecef);
+  background: var(--white);
+  border: 1px solid var(--gray-200);
   border-radius: 12px;
   overflow: hidden;
   text-decoration: none;
@@ -3041,9 +3093,9 @@ select.booking-field__input {
   align-items: center;
   gap: 6px;
   padding: 16px 10px;
-  border: 1px solid var(--gray-200, #e9ecef);
+  border: 1px solid var(--gray-200);
   border-radius: 12px;
-  background: #fff;
+  background: var(--white);
   text-align: center;
 }
 .car-detail-spec__icon { color: rgb(0, 98, 227); }
