@@ -26,6 +26,7 @@ export default function BookPage({ searchParams = {} }) {
   if (get('city_id'))         widgetParams.set('city_id',   get('city_id'));
   if (get('car_id'))          widgetParams.set('car_id',    get('car_id'));
   if (get('class'))           widgetParams.set('class',     get('class'));
+  if (get('brand_id'))        widgetParams.set('brand_id',  get('brand_id'));
   widgetParams.set('lang', WIDGET_LOCALE[lang] || 'en');
   widgetParams.set('v', '14');
 

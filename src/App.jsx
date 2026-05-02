@@ -481,23 +481,23 @@ function FleetShowcase() {
 
 /* ─── FLEET ─────────────────────────────────────────────── */
 // 12 curated LocalRent listings to feature on the homepage Fleet grid.
-// Each card links to /book?class=<lrClass>, where lrClass is one of
-// LocalRent's class slugs (compact|family|suv|premium|cabriolet|minivan).
-// widget.html reads ?class=… and applies the matching class filter on
-// the booking listing so the user lands on cars of that type.
+// Each card links to /book?brand_id=<ID>, where brandId is the LocalRent
+// brand_id filter value (devtools-confirmed against filtersDict.brand_id).
+// widget.html reads ?brand_id=… and applies the matching brand filter on
+// the booking listing so the user lands on cars of that make only.
 const HOMEPAGE_BOOKING_CARS = [
-  { id: 5756,   name: 'VW Polo',              category: 'Economy',   lrClass: 'compact', siteSlug: 'vw-polo' },
-  { id: 64299,  name: 'Fiat 500',             category: 'Economy',   lrClass: 'compact', siteSlug: 'fiat-500' },
-  { id: 26451,  name: 'Peugeot 208',          category: 'Economy',   lrClass: 'compact', siteSlug: 'peugeot-208' },
-  { id: 68317,  name: 'Citroen C3',           category: 'Economy',   lrClass: 'compact', siteSlug: 'citroen-c3' },
-  { id: 41909,  name: 'Toyota Yaris',         category: 'Economy',   lrClass: 'compact', siteSlug: 'toyota-yaris' },
-  { id: 9195,   name: 'VW Golf',              category: 'Compact',   lrClass: 'compact', siteSlug: 'vw-golf' },
-  { id: 131035, name: 'Kia Stonic',           category: 'Crossover', lrClass: 'suv',     siteSlug: 'kia-stonic' },
-  { id: 74121,  name: 'Peugeot 2008',         category: 'SUV',       lrClass: 'suv',     image: '/img/fleet/peugeot-2008.jpg' },
-  { id: 52579,  name: 'Renault Kadjar',       category: 'SUV',       lrClass: 'suv',     image: '/img/fleet/renault-kadjar.jpg' },
-  { id: 84393,  name: 'Dacia Sandero Stepway',category: 'Crossover', lrClass: 'suv',     image: '/img/fleet/dacia-sandero-stepway.jpg' },
-  { id: 60069,  name: 'Renault Megane',       category: 'Compact',   lrClass: 'compact', image: '/img/fleet/renault-megane.jpg' },
-  { id: 8860,   name: 'Citroen C4 Picasso',   category: 'MPV',       lrClass: 'family',  image: '/img/fleet/citroen-c4-picasso.jpg' },
+  { id: 5756,   name: 'VW Polo',              category: 'Economy',   brandId: '343', siteSlug: 'vw-polo' },
+  { id: 64299,  name: 'Fiat 500',             category: 'Economy',   brandId: '112', siteSlug: 'fiat-500' },
+  { id: 26451,  name: 'Peugeot 208',          category: 'Economy',   brandId: '251', siteSlug: 'peugeot-208' },
+  { id: 68317,  name: 'Citroen C3',           category: 'Economy',   brandId: '65',  siteSlug: 'citroen-c3' },
+  { id: 41909,  name: 'Toyota Yaris',         category: 'Economy',   brandId: '330', siteSlug: 'toyota-yaris' },
+  { id: 9195,   name: 'VW Golf',              category: 'Compact',   brandId: '343', siteSlug: 'vw-golf' },
+  { id: 131035, name: 'Kia Stonic',           category: 'Crossover', brandId: '181', siteSlug: 'kia-stonic' },
+  { id: 74121,  name: 'Peugeot 2008',         category: 'SUV',       brandId: '251', image: '/img/fleet/peugeot-2008.jpg' },
+  { id: 52579,  name: 'Renault Kadjar',       category: 'SUV',       brandId: '275', image: '/img/fleet/renault-kadjar.jpg' },
+  { id: 84393,  name: 'Dacia Sandero Stepway',category: 'Crossover', brandId: '77',  image: '/img/fleet/dacia-sandero-stepway.jpg' },
+  { id: 60069,  name: 'Renault Megane',       category: 'Compact',   brandId: '275', image: '/img/fleet/renault-megane.jpg' },
+  { id: 8860,   name: 'Citroen C4 Picasso',   category: 'MPV',       brandId: '65',  image: '/img/fleet/citroen-c4-picasso.jpg' },
 ];
 
 function Fleet() {
@@ -521,7 +521,7 @@ function Fleet() {
           {HOMEPAGE_BOOKING_CARS.map((car) => {
             const localCar = car.siteSlug ? slugMap[car.siteSlug] : null;
             const image = (localCar && localCar.image) || car.image || null;
-            const href = localePath(`/book?class=${car.lrClass}`);
+            const href = localePath(`/book?brand_id=${car.brandId}`);
             return (
               <a
                 key={car.id}
