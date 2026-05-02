@@ -190,7 +190,7 @@
     "bookNow": "Prenota Ora",
     "perDay": "al giorno",
     "emailUs": "Invia email",
-    "whatsappAria": "Chatta su WhatsApp",
+    "whatsappAria": "Email",
     "scrollTopAria": "Torna su"
   },
   "hero": {
@@ -346,7 +346,7 @@
     "localLink3": "Perast",
     "localEnd": ", o salendo le serpentine verso il Parco Nazionale di Lovćen, possiamo aiutarti a pianificare il viaggio perfetto.",
     "contactTitle": "Contattaci",
-    "contactText": "Hai una domanda sul noleggio di un'auto a Kotor? Siamo disponibili via telefono, WhatsApp e Viber. Cerca la nostra flotta online e prenota in pochi minuti, oppure contattaci e ti aiuteremo a trovare l'auto perfetta per il tuo viaggio."
+    "contactText": "Hai una domanda sul noleggio di un'auto a Kotor? Siamo disponibili via email. Cerca la nostra flotta online e prenota in pochi minuti, oppure contattaci e ti aiuteremo a trovare l'auto perfetta per il tuo viaggio."
   },
   "kotor": {
     "title": "Noleggio Auto a Kotor",
@@ -1175,8 +1175,8 @@
     "title": "Contattaci",
     "intro": "Hai una domanda sul noleggio auto a Kotor o nella zona delle Bocche di Cattaro? Contattaci e ti aiuteremo a trovare il veicolo perfetto per il tuo viaggio.",
     "emailLabel": "Email",
-    "whatsappLabel": "WhatsApp",
-    "chatWithUs": "Scrivici",
+    "whatsappLabel": "Email",
+    "chatWithUs": "Email",
     "sendUsMessage": "Inviaci un messaggio",
     "yourName": "Il tuo nome",
     "yourEmail": "La tua email",

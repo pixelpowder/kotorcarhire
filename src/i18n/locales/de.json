@@ -190,7 +190,7 @@
     "bookNow": "Jetzt buchen",
     "perDay": "pro Tag",
     "emailUs": "E-Mail senden",
-    "whatsappAria": "Auf WhatsApp chatten",
+    "whatsappAria": "E-Mail",
     "scrollTopAria": "Nach oben scrollen"
   },
   "hero": {
@@ -346,7 +346,7 @@
     "localLink3": "Perast",
     "localEnd": "nehmen oder die Serpentine zum Lovćen Nationalpark hinauffahren, wir können Ihnen helfen, die perfekte Autoreise zu planen.",
     "contactTitle": "Kontaktieren Sie uns",
-    "contactText": "Haben Sie eine Frage zur Autovermietung in Kotor? Wir sind per Telefon, WhatsApp und Viber erreichbar. Durchsuchen Sie unsere Flotte online und buchen Sie in wenigen Minuten, oder kontaktieren Sie uns und wir helfen Ihnen, das perfekte Auto für Ihre Reise zu finden."
+    "contactText": "Haben Sie eine Frage zur Autovermietung in Kotor? Wir sind per E-Mail erreichbar. Durchsuchen Sie unsere Flotte online und buchen Sie in wenigen Minuten, oder kontaktieren Sie uns und wir helfen Ihnen, das perfekte Auto für Ihre Reise zu finden."
   },
   "kotor": {
     "title": "Mietwagen in Kotor",
@@ -1175,8 +1175,8 @@
     "title": "Kontaktieren Sie uns",
     "intro": "Haben Sie eine Frage zur Autovermietung in Kotor oder der Bucht von Kotor? Kontaktieren Sie uns und wir helfen Ihnen, das perfekte Fahrzeug für Ihre Reise zu finden.",
     "emailLabel": "E-Mail",
-    "whatsappLabel": "WhatsApp",
-    "chatWithUs": "Schreiben Sie uns",
+    "whatsappLabel": "E-Mail",
+    "chatWithUs": "E-Mail",
     "sendUsMessage": "Nachricht senden",
     "yourName": "Ihr Name",
     "yourEmail": "Ihre E-Mail-Adresse",

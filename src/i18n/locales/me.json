@@ -190,7 +190,7 @@
     "bookNow": "Rezerviši Sad",
     "perDay": "po danu",
     "emailUs": "Pošaljite email",
-    "whatsappAria": "Razgovarajte na WhatsApp-u",
+    "whatsappAria": "Email",
     "scrollTopAria": "Idi na vrh"
   },
   "hero": {
@@ -346,7 +346,7 @@
     "localLink3": "Perasta",
     "localEnd": ", ili idete serpentinama prema Lovćenu, možemo vam pomoći da planujete savršeno putovanje.",
     "contactTitle": "Kontaktirajte nas",
-    "contactText": "Imate pitanje oko iznajmljivanja automobila u Kotoru? Dostupni smo putem telefona, WhatsAppa i Vibera. Pretražite našu flotu online i rezervujte u minutama, ili nam napišite i pomoći ćemo vam pronaći savršen automobil za vašu avanturu."
+    "contactText": "Imate pitanje oko iznajmljivanja automobila u Kotoru? Dostupni smo putem e-maila. Pretražite našu flotu online i rezervujte u minutama, ili nam napišite i pomoći ćemo vam pronaći savršen automobil za vašu avanturu."
   },
   "kotor": {
     "title": "Rent a Car Kotor",
@@ -1175,8 +1175,8 @@
     "title": "Kontaktirajte nas",
     "intro": "Imate pitanje o iznajmljivanju automobila u Kotoru ili okolini Boke Kotorske? Javite nam se i pomoći ćemo vam da pronađete savršeno vozilo za vaše putovanje.",
     "emailLabel": "Email",
-    "whatsappLabel": "WhatsApp",
-    "chatWithUs": "Pišite nam",
+    "whatsappLabel": "Email",
+    "chatWithUs": "Email",
     "sendUsMessage": "Pošaljite nam poruku",
     "yourName": "Vaše ime",
     "yourEmail": "Vaš email",
@@ -1199,7 +1199,7 @@
     "howWeUse1": "Za povezivanje sa dostupnošću i cijenama automobila",
     "howWeUse2": "Za poboljšanje sajta i korisničkog iskustva",
     "howWeUse3": "Za razumijevanje ponašanja posjetilaca (analitika)",
-    "howWeUse4": "Za odgovaranje na upite putem WhatsApp-a, Vibera ili emaila",
+    "howWeUse4": "Za odgovaranje na upite putem e-maila",
     "thirdPartyTitle": "Usluge trećih strana",
     "thirdPartyIntro": "Naš sajt koristi sljedeće usluge trećih strana:",
     "thirdParty1": "Partner za rezervacije: vidžet za rezervaciju najma automobila, obrađuje vaše upite i upravlja svim rezervacijama i plaćanjima",

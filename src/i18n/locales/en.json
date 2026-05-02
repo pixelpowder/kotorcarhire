@@ -190,7 +190,7 @@
     "bookNow": "Book Now",
     "perDay": "per day",
     "emailUs": "Email Us",
-    "whatsappAria": "Chat on WhatsApp",
+    "whatsappAria": "Email",
     "scrollTopAria": "Scroll to top"
   },
   "hero": {
@@ -587,7 +587,7 @@
     "h4": "We Know These Roads Personally",
     "p4": "Ask us which mornings the cruise ships dock and choke the Old Town car parks. We will tell you to arrive before 07:30 or skip to Dobrota instead. Ask about the Vrmac ridge trail and we will explain exactly where to leave the car at the trailhead near Prčanj. From the timing of the Kamenari-Lepetane ferry to the quietest hour at the Debeli Brijeg border crossing, our advice comes from driving these roads daily, not from a guidebook reprint. In January, when guests pair Kotor with a Kolašin weekend, we know which cars take a ski or snowboard rack cleanly and which need the Winter Pack for the climb over the passes.",
     "h5": "Reach Out Any Time",
-    "p5": "WhatsApp, Viber, old-fashioned phone calls, pick whatever suits you. We reply quickly, even during the frantic July cruise-ship season. Browse the fleet online, lock in a price, and we handle everything else. Or simply message us a question about parking near the Cathedral, the best road to Cetinje, or whether that mountain pass is open in December."
+    "p5": "Email is the easiest way to reach us. We reply quickly, even during the frantic July cruise-ship season. Browse the fleet online, lock in a price, and we handle everything else. Or simply message us a question about parking near the Cathedral, the best road to Cetinje, or whether that mountain pass is open in December."
   },
   "kotorBody": {
     "h1": "Twelve Centuries Behind the Walls",
@@ -1175,8 +1175,8 @@
     "title": "Contact Us",
     "intro": "Have a question about renting a car in Kotor or the Bay of Kotor area? Get in touch and we'll help you find the perfect vehicle for your trip.",
     "emailLabel": "Email",
-    "whatsappLabel": "WhatsApp",
-    "chatWithUs": "Chat with us",
+    "whatsappLabel": "Email",
+    "chatWithUs": "Email",
     "sendUsMessage": "Send us a message",
     "yourName": "Your name",
     "yourEmail": "Your email",
@@ -1301,7 +1301,7 @@
   },
   "contact": {
     "title": "Contact Us",
-    "seoDesc": "Message Kotor Car Hire for quotes, cruise shore pickups, or Tivat Airport delivery. Email, WhatsApp, or web form with two hour weekday replies.",
+    "seoDesc": "Message Kotor Car Hire for quotes, cruise shore pickups, or Tivat Airport delivery. Email or web form with two hour weekday replies.",
     "heading": "Contact Us",
     "intro": "Have a question about renting a car in Kotor? Get in touch and we'll help you find the perfect vehicle for your trip."
   },

@@ -181,7 +181,7 @@
     "seoDesc": "Voitures de location à Kotor taillées pour la baie : citadines et petits crossovers pour le stationnement étroit autour de la cité fortifiée et les 25 épingles du Lovćen.",
     "intro1": "La vieille ville de Kotor est piétonne, donc votre location passe son temps sur la route de la baie et sur les bandes de stationnement qui ceinturent les remparts. Les places de Tabacina sous le bastion, le débordement plus large au-dessus de Dobrota, le front de mer étroit entre Prčanj et Stoliv et la voie unique de Perast ont été tracés pour des gabarits sous quatre mètres. Un SUV plus large s'y glisse aussi, mais vous passez une bonne partie du trajet à reculer le long du trottoir.",
     "intro2": "L'autre moitié du cahier des charges Kotor, c'est le serpentin du Lovćen, l'ancienne route autrichienne grimpe 900 mètres en 25 épingles, et les voitures au plus petit rayon de braquage (208, Polo, Yaris, Fiat 500) prennent chaque virage sans frotter le pneu contre la bordure comme le font les SUV de location plus grands. Voyez Lovćen et Njeguši comme l'excursion de l'après-midi, pas le plat principal : Kotor → Perast → Risan fait 25 km de route côtière à voie unique, et Cetinje via la piste de Krštac est une boucle déjeuner. L'aéroport de Tivat (TIV) se trouve à 8 km par le tunnel de Vrmac, la plupart des voitures arrivent avec 90 % de réservoir, et le stationnement au point de remise aéroport est plus simple que tout ce qui suivra.",
-    "intro3": "Deux règles pratiques pour choisir. Première : choisir par le stationnement, pas par la puissance. Une Golf franchira le Lovćen plus vite qu'une 208 mais vous coûtera à la Tabacina un après-midi de juillet quand toutes les places rez-de-chaussée sont prises ; une 208 ne vous coûte rien dans les deux cas. Seconde : sous 300 km de route totale, considérez le carburant comme un non-sujet. Un séjour basé dans la baie tourne en moyenne autour de 60 km par jour, et la Yaris Hybrid, la plus économique de la liste, vous fait gagner environ 25 € sur un séjour de sept nuits face à la plus gourmande. À Kotor, la voiture qui termine fraîche chaque trajet compte plus que celle qui finit chaque trajet la première."
+    "intro3": "Deux règles pratiques pour choisir. Première : choisir par le stationnement, pas par la puissance. Une Golf franchira le Lovćen plus vite qu'une 208 mais vous coûtera à la Tabacina un après-midi de juillet quand toutes les places rez-de-chaussée sont prises; une 208 ne vous coûte rien dans les deux cas. Seconde : sous 300 km de route totale, considérez le carburant comme un non-sujet. Un séjour basé dans la baie tourne en moyenne autour de 60 km par jour, et la Yaris Hybrid, la plus économique de la liste, vous fait gagner environ 25 € sur un séjour de sept nuits face à la plus gourmande. À Kotor, la voiture qui termine fraîche chaque trajet compte plus que celle qui finit chaque trajet la première."
   },
   "common": {
     "home": "Accueil",
@@ -190,7 +190,7 @@
     "bookNow": "Réserver",
     "perDay": "par jour",
     "emailUs": "Nous contacter",
-    "whatsappAria": "Discuter sur WhatsApp",
+    "whatsappAria": "Email",
     "scrollTopAria": "Remonter en haut"
   },
   "hero": {
@@ -346,7 +346,7 @@
     "localLink3": "Perast",
     "localEnd": ", ou en montant les serpentines vers le Parc National de Lovćen, nous pouvons vous aider à planifier le voyage en voiture parfait.",
     "contactTitle": "Nous contacter",
-    "contactText": "Vous avez une question sur la location d'une voiture à Kotor? Nous sommes disponibles par téléphone, WhatsApp et Viber. Parcourez notre flotte en ligne et réservez en quelques minutes. ou contactez-nous et nous vous aiderons à trouver la voiture parfaite pour votre voyage."
+    "contactText": "Vous avez une question sur la location d'une voiture à Kotor? Nous sommes disponibles par email. Parcourez notre flotte en ligne et réservez en quelques minutes. ou contactez-nous et nous vous aiderons à trouver la voiture parfaite pour votre voyage."
   },
   "kotor": {
     "title": "Location de Voiture à Kotor",
@@ -599,7 +599,7 @@
     "cathedralTitle": "Cathédrale Saint-Tryphon",
     "cathedralText": "Construite en 809 après J.-C. et reconstruite en 1124, cette cathédrale renferme une remarquable architecture et un art byzantins reflétant la riche histoire de la région.",
     "dayTripsTitle": "Excursions d'une journée depuis Kotor",
-    "perastTrip": "Située dans la ville voisine de Perast, cette église se dresse sur une île artificielle dans la baie de Kotor. Les pêcheurs y déposent des rochers chaque année depuis 1452, agrandissant progressivement l'île. L'accès en ferry coûte environ 1 euro ; les bateaux privés coûtent environ 5 euros. Le trajet en voiture depuis Kotor prend moins de 30 minutes via la E65/E80 Nord.",
+    "perastTrip": "Située dans la ville voisine de Perast, cette église se dresse sur une île artificielle dans la baie de Kotor. Les pêcheurs y déposent des rochers chaque année depuis 1452, agrandissant progressivement l'île. L'accès en ferry coûte environ 1 euro; les bateaux privés coûtent environ 5 euros. Le trajet en voiture depuis Kotor prend moins de 30 minutes via la E65/E80 Nord.",
     "cetinjeTrip": "Construit en 1701, le monastère abrite la main de Jean-Baptiste. Il présente une décoration ornée et de l'art orthodoxe. Le trajet en voiture depuis Kotor prend environ une heure à travers des routes de montagne pittoresques.",
     "royalCourtText": "Le palais royal du Monténégro datant de 1871, exposant des œuvres d'art, des objets et des photographies de l'histoire royale du pays. Situé à côté du monastère dans l'ancienne capitale royale.",
     "perastLinkText": "Roulez jusqu’à Perast",
@@ -794,7 +794,7 @@
     "tip1": "Ayez tous vos documents prêts avant d'arriver au poste de contrôle, ne les cherchez pas au guichet",
     "tip2": "Coupez votre moteur en attendant dans les files (les gardes-frontières l'apprécient)",
     "tip3": "Les week-ends d'été sont les pires, prévoyez de traverser en semaine si possible",
-    "tip4": "Le passage côtier croate (Debeli Brijeg) est le plus fréquenté ; les passages intérieurs sont plus calmes",
+    "tip4": "Le passage côtier croate (Debeli Brijeg) est le plus fréquenté; les passages intérieurs sont plus calmes",
     "tip5": "Gardez un peu d'argent liquide en euros, utile pour les péages et petits achats de l'autre côté",
     "tip6": "Itinérance des données mobiles : vérifiez que votre forfait couvre le pays dans lequel vous entrez",
     "lawsTitle": "Règles de conduite qui changent aux frontières",
@@ -896,7 +896,7 @@
     "h2Perast": "Explorer Perast en voiture",
     "perastP": "Perast se trouve à 12 km au nord-ouest de Kotor le long de la route de la baie. Garez-vous au parking gratuit à l'entrée nord du village, la route du front de mer est piétonne en été. Promenez-vous vers le sud le long de la promenade en passant devant 16 anciens palais, pour la plupart des demeures vénitiennes en pierre qui s'effritent élégamment dans la baie. Le palais Bujović abrite un petit musée maritime. Au bout, le clocher de Saint-Nicolas offre la plus belle vue en hauteur sur les deux îles.",
     "h2BlueCave": "Combiner avec la Grotte Bleue",
-    "blueCaveP": "Depuis Perast, reprenez la route en passant par Kotor et continuez vers le sud autour de la baie jusqu'à la péninsule de Luštica. À la plage de Zanjice, des bateaux rapides proposent des excursions vers la Grotte Bleue, une grotte marine où la lumière réfractée teinte l'eau d'un bleu électrique. La visite de la grotte prend 30 minutes ; la traversée en bateau fait partie de l'expérience. C'est une extension d'une journée entière qui fonctionne mieux si vous partez tôt de Kotor.",
+    "blueCaveP": "Depuis Perast, reprenez la route en passant par Kotor et continuez vers le sud autour de la baie jusqu'à la péninsule de Luštica. À la plage de Zanjice, des bateaux rapides proposent des excursions vers la Grotte Bleue, une grotte marine où la lumière réfractée teinte l'eau d'un bleu électrique. La visite de la grotte prend 30 minutes; la traversée en bateau fait partie de l'expérience. C'est une extension d'une journée entière qui fonctionne mieux si vous partez tôt de Kotor.",
     "h2Itinerary": "Itinéraire suggéré pour la journée",
     "itinMorningLabel": "08 h 30,",
     "itinMorningVal": "Trajet de Kotor à Perast (20 min). Garez-vous, promenez-vous sur le front de mer, prenez le taxi nautique vers Notre-Dame du Rocher.",
@@ -938,7 +938,7 @@
     "h2Cetinje": "La descente vers Cetinje",
     "cetinjeP": "Plutôt que de revenir à Kotor par le même chemin, continuez au-delà de la montagne et descendez vers Cetinje, la capitale royale et spirituelle du Monténégro. La route du Lovćen à Cetinje est plus large et moins exigeante que les lacets côté baie. Cetinje mérite une heure de visite : le monastère abrite des reliques dont ce qui est présenté comme la main droite de Jean-Baptiste, et l'ancien palais royal est aujourd'hui un musée de l'histoire monténégrine.",
     "h2CarChoice": "Quelle voiture prendre",
-    "carChoiceP": "N'importe quelle voiture gère la route par temps sec, le revêtement est en asphalte sur toute la longueur. Mais une compacte avec un bon couple rend les lacets moins stressants. La Skoda Octavia ou la Toyota Corolla de notre flotte sont idéales. Évitez tout véhicule plus large qu'un SUV standard, les zones d'évitement sont étroites. En hiver (novembre à mars), les sections supérieures peuvent être verglacées ou enneigées ; vérifiez les conditions avant de partir et emportez des chaînes si nécessaire.",
+    "carChoiceP": "N'importe quelle voiture gère la route par temps sec, le revêtement est en asphalte sur toute la longueur. Mais une compacte avec un bon couple rend les lacets moins stressants. La Skoda Octavia ou la Toyota Corolla de notre flotte sont idéales. Évitez tout véhicule plus large qu'un SUV standard, les zones d'évitement sont étroites. En hiver (novembre à mars), les sections supérieures peuvent être verglacées ou enneigées; vérifiez les conditions avant de partir et emportez des chaînes si nécessaire.",
     "h2Stops": "Arrêts recommandés",
     "stopViewLabel": "Point de vue du virage 17 :",
     "stopViewVal": "La photo la plus célèbre de Kotor vue d'en haut. Garez-vous au point de vue balisé et marchez 20 mètres jusqu'au bord.",
@@ -1175,8 +1175,8 @@
     "title": "Contactez-nous",
     "intro": "Vous avez une question sur la location de voiture à Kotor ou dans la baie de Kotor ? Contactez-nous et nous vous aiderons à trouver le véhicule idéal pour votre voyage.",
     "emailLabel": "Email",
-    "whatsappLabel": "WhatsApp",
-    "chatWithUs": "Écrivez-nous",
+    "whatsappLabel": "Email",
+    "chatWithUs": "Email",
     "sendUsMessage": "Envoyez-nous un message",
     "yourName": "Votre nom",
     "yourEmail": "Votre email",
