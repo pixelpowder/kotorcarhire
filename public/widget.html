@@ -600,8 +600,11 @@
         script.setAttribute('data-product-id', carIdParam);
         script.setAttribute('data-vehicle-id', carIdParam);
         script.setAttribute('data-pickup-car-id', carIdParam);
-        if (!window.location.hash || !/car/i.test(window.location.hash)) {
-          history.replaceState(null, '', window.location.pathname + window.location.search + '#car_id=' + carIdParam);
+        // Correct LocalRent vue-router hash format is '#/cars/<ID>'
+        // (devtools-confirmed). With data-routing='on' the router reads
+        // this on init and navigates to that car's detail view.
+        if (!window.location.hash || !/cars\//i.test(window.location.hash)) {
+          history.replaceState(null, '', window.location.pathname + window.location.search + '#/cars/' + carIdParam);
         }
         var carPollAttempts = 0;
         var carDeepLinkPoll = setInterval(function() {
