@@ -496,7 +496,7 @@ const HOMEPAGE_BOOKING_CARS = [
   { id: 74121,  name: 'Peugeot 2008',         category: 'SUV',       lrClass: 'suv',     image: '/img/fleet/peugeot-2008.jpg' },
   { id: 52579,  name: 'Renault Kadjar',       category: 'SUV',       lrClass: 'suv',     image: '/img/fleet/renault-kadjar.jpg' },
   { id: 84393,  name: 'Dacia Sandero Stepway',category: 'Crossover', lrClass: 'suv',     image: '/img/fleet/dacia-sandero-stepway.jpg' },
-  { id: 2621,   name: 'VW Touran',            category: 'Van',       lrClass: 'minivan', image: '/img/fleet/vw-touran.jpg' },
+  { id: 60069,  name: 'Renault Megane',       category: 'Compact',   lrClass: 'compact', image: '/img/fleet/renault-megane.jpg' },
   { id: 8860,   name: 'Citroen C4 Picasso',   category: 'MPV',       lrClass: 'family',  image: '/img/fleet/citroen-c4-picasso.jpg' },
 ];
 
