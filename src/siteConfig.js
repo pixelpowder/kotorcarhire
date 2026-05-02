@@ -20,7 +20,7 @@ const siteConfig = {
       name: "VW Polo",
       category: "Economy",
       tagline: "Small-footprint hatch that slots into Kotor's south-gate bays without mirror-scrape",
-      lede: "Two carry-ons, five seats, a turning circle built for the medieval lanes that feed the Sea Gate.",
+      lede: "Five seats, two carry-ons in the boot, and a tight turning radius for the narrow approaches around Kotor's Old Town.",
       price: 25,
       image: "/img/fleet/vw-polo.jpg",
       seats: 5,

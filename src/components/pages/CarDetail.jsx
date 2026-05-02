@@ -9,6 +9,7 @@ import { carArticles as carArticlesIt } from '../../data/carArticles.it';
 import { carArticles as carArticlesFr } from '../../data/carArticles.fr';
 import { carArticles as carArticlesMe } from '../../data/carArticles.me';
 import { carImages } from '../../data/carImages';
+import { FLEET_SLUG_TO_CAR_IDS } from '../../data/fleetCars';
 import CarGallery from '../CarGallery';
 
 const CAR_ARTICLES_BY_LANG = {
@@ -245,7 +246,10 @@ export default function CarDetail({ slug }) {
       </ul>
 
       <div className="car-detail-cta">
-        <a href={localePath('/book')} className="car-detail-cta__btn">
+        <a
+          href={localePath(FLEET_SLUG_TO_CAR_IDS[slug] ? `/book?model=${slug}` : '/book')}
+          className="car-detail-cta__btn"
+        >
           {tf('cars.checkAvailability', 'Check availability & live pricing')} <ArrowRight size={16} />
         </a>
         <a href={localePath(`/cars/${next.slug}`)} className="car-detail-cta__next">

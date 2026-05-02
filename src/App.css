@@ -1096,6 +1096,11 @@ select.booking-field__input {
   margin-bottom: 12px;
 }
 
+html[data-theme="dark"] .section-label {
+  color: #E5E9F0;
+  background: rgba(255, 255, 255, 0.08);
+}
+
 .section-title {
   font-size: clamp(30px, 4vw, 42px);
   font-weight: 800;

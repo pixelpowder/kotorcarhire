@@ -8,6 +8,22 @@
   padding-top: 136px;
 }
 
+html[data-theme="dark"] .book-page {
+  background: #0F1115;
+}
+html[data-theme="dark"] .book-page__title {
+  color: #E5E9F0;
+}
+html[data-theme="dark"] .book-page__subtitle {
+  color: #A1AAB5;
+}
+html[data-theme="dark"] .book-page__body {
+  background: #0F1115;
+}
+html[data-theme="dark"] .book-page__widget {
+  background: #0F1115;
+}
+
 @media (max-width: 768px) {
   .book-page {
     padding-top: 64px;

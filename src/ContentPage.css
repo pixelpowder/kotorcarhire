@@ -126,6 +126,19 @@
   color: var(--blue-dark);
 }
 
+html[data-theme="dark"] .content-body__inner a {
+  color: #7AB7FF;
+}
+html[data-theme="dark"] .content-body__inner a:hover {
+  color: #B6D7FF;
+}
+html[data-theme="dark"] .breadcrumbs a {
+  color: #B6D7FF;
+}
+html[data-theme="dark"] .route-info__item a {
+  color: #7AB7FF;
+}
+
 .content-body__inner strong {
   color: var(--navy);
 }
@@ -282,6 +295,22 @@
 
 .sidebar-links a:hover {
   color: var(--navy);
+}
+
+html[data-theme="dark"] .sidebar-card__title {
+  color: #E5E9F0;
+}
+html[data-theme="dark"] .sidebar-card__text {
+  color: #A1AAB5;
+}
+html[data-theme="dark"] .sidebar-links a {
+  color: #E5E9F0;
+}
+html[data-theme="dark"] .sidebar-links a:hover {
+  color: #fff;
+}
+html[data-theme="dark"] .sidebar-links li {
+  border-bottom-color: rgba(255, 255, 255, 0.08);
 }
 
 /* ─── MOBILE ───────────────────────────────────────────── */
