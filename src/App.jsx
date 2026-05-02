@@ -494,16 +494,11 @@ const HOMEPAGE_BOOKING_CARS = [
   { id: 41909,  name: 'Toyota Yaris',         category: 'Economy',   siteSlug: 'toyota-yaris' },
   { id: 9195,   name: 'VW Golf',              category: 'Compact',   siteSlug: 'vw-golf' },
   { id: 131035, name: 'Kia Stonic',           category: 'Crossover', siteSlug: 'kia-stonic' },
-  { id: 74121,  name: 'Peugeot 2008',         category: 'SUV',
-    image: 'https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/074/121/client_card/Peugeot-2008-2022-white.webp' },
-  { id: 52579,  name: 'Renault Kadjar',       category: 'SUV',
-    image: 'https://s3-eu-west-1.amazonaws.com/localrent.images/images/files/000/134/096/show/IMG_6138.webp' },
-  { id: 84393,  name: 'Dacia Sandero Stepway',category: 'Crossover',
-    image: 'https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/084/393/client_card/Dacia-Sandero-Stepway-2022-blue_(1).webp' },
-  { id: 2621,   name: 'VW Touran',            category: 'Van',
-    image: 'https://s3-eu-west-1.amazonaws.com/localrent.images/images/files/000/022/196/show/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_viber_2020-08-05_21-43-53.webp' },
-  { id: 8860,   name: 'Citroen C4 Picasso',   category: 'MPV',
-    image: 'https://s3-eu-west-1.amazonaws.com/localrent.images/images/files/000/154/195/show/IMG-20190615-WA0025.webp' },
+  { id: 74121,  name: 'Peugeot 2008',         category: 'SUV',       image: '/img/fleet/peugeot-2008.jpg' },
+  { id: 52579,  name: 'Renault Kadjar',       category: 'SUV',       image: '/img/fleet/renault-kadjar.jpg' },
+  { id: 84393,  name: 'Dacia Sandero Stepway',category: 'Crossover', image: '/img/fleet/dacia-sandero-stepway.jpg' },
+  { id: 2621,   name: 'VW Touran',            category: 'Van',       image: '/img/fleet/vw-touran.jpg' },
+  { id: 8860,   name: 'Citroen C4 Picasso',   category: 'MPV',       image: '/img/fleet/citroen-c4-picasso.jpg' },
 ];
 
 function Fleet() {
