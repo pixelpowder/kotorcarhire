@@ -122,6 +122,89 @@
       color: rgb(27, 58, 92) !important;
       background-color: rgb(27, 58, 92) !important;
     }
+    /* Class-based overrides for SELECTED checkbox / filter states + close
+       button hover. Uses CSS (not inline JS) so when LocalRent removes
+       the selected class on 'Reset all filters', the override naturally
+       disappears with it — no persistence bug. */
+    .vue-checkbox.checked,
+    .vue-checkbox.selected,
+    .vue-checkbox.active,
+    .vue-checkbox.is-active,
+    [class*="vue-checkbox"][class*="checked"],
+    [class*="vue-checkbox"][class*="selected"],
+    [class*="vue-checkbox"][class*="active"],
+    [class*="filter-card"][class*="selected"],
+    [class*="filter-card"][class*="active"],
+    [class*="filter-card"][class*="checked"],
+    [class*="checkbox"][class*="checked"],
+    [class*="checkbox"][class*="selected"],
+    [class*="checkbox"][class*="active"] {
+      background-color: rgb(5, 32, 60) !important;
+      border-color: rgb(5, 32, 60) !important;
+      color: #fff !important;
+    }
+    /* Close (X) buttons — kill green hover state. Devtools-confirmed
+       class .settings__close. Override color on the wrapper AND
+       stroke/fill on svg children on :hover so paths with explicit
+       stroke colour also get caught. */
+    .settings__close:hover,
+    .settings__close:hover path,
+    .settings__close:hover line,
+    .settings__close:hover circle,
+    .settings__close:hover rect,
+    .settings__close:hover *,
+    [class*="settings__close"]:hover,
+    [class*="settings__close"]:hover *,
+    [class*="close"]:hover,
+    [class*="close-btn"]:hover,
+    [class*="modal-close"]:hover,
+    [class*="popup-close"]:hover {
+      color: rgb(5, 32, 60) !important;
+      stroke: rgb(5, 32, 60) !important;
+      fill: rgb(5, 32, 60) !important;
+      background-color: transparent !important;
+    }
+    [class*="close"]:hover svg,
+    [class*="close"]:hover svg *,
+    [class*="close-btn"]:hover svg,
+    [class*="close-btn"]:hover svg *,
+    [class*="modal-close"]:hover svg,
+    [class*="modal-close"]:hover svg *,
+    [class*="popup-close"]:hover svg,
+    [class*="popup-close"]:hover svg *,
+    [class*="settings__close"]:hover svg,
+    [class*="settings__close"]:hover svg *,
+    [class*="search-filters__close"]:hover svg,
+    [class*="search-filters__close"]:hover svg *,
+    [class*="cross"]:hover svg,
+    [class*="cross"]:hover svg *,
+    /* Catch hover anywhere that produces a green stroked path (X icons
+       are usually two lines) */
+    *:hover > svg path[stroke="#19a880"],
+    *:hover > svg path[stroke="rgb(25, 168, 128)"],
+    *:hover > svg line[stroke="#19a880"],
+    *:hover > svg line[stroke="rgb(25, 168, 128)"] {
+      fill: rgb(5, 32, 60) !important;
+      stroke: rgb(5, 32, 60) !important;
+      color: rgb(5, 32, 60) !important;
+    }
+    /* Selected/checked checkbox — broader pattern set so the green bg
+       (e.g. Crypto, Automatic) flips to navy when checked. */
+    input[type="checkbox"]:checked + *,
+    [class*="checkbox"][class*="checked"],
+    [class*="checkbox"].checked,
+    [class*="checkbox"].selected,
+    [class*="checkbox"].active,
+    [class*="checkbox"][aria-checked="true"],
+    .vue-checkbox.checked,
+    .vue-checkbox.is-checked,
+    .vue-checkbox--checked,
+    [class*="filter-row"].checked,
+    [class*="filter-row"].selected,
+    [class*="filter-row"][aria-checked="true"] {
+      background-color: rgb(5, 32, 60) !important;
+      border-color: rgb(5, 32, 60) !important;
+    }
     /* "Free of charge" green text inside insurance card */
     .insurance-card__price-free,
     [class*="price-free"],
@@ -277,6 +360,22 @@
       // caused our sweep to write inline styles every frame as the tooltip
       // animated, fighting its fade-in transition.
       if (el._mrcNuked) return;
+      // Skip interactive form controls — their bg-color is state-driven
+      // (selected/unselected). Setting an inline override here makes the
+      // selected colour stick after the user clicks "Reset all filters",
+      // because our inline !important beats LocalRent's reset. Walk up
+      // the ancestor tree (6 levels) looking for form-control related
+      // class names — more reliable than only checking own + immediate
+      // parent.
+      {
+        let _p = el;
+        for (let _i = 0; _i < 6 && _p; _i++) {
+          const _cn = typeof _p.className === 'string' ? _p.className
+                     : (_p.className && _p.className.baseVal) || '';
+          if (/check|checkbox|toggle|switch|radio|filter-card|filter-row|vue-checkbox|extras-filter|gear-box|gear_box|deposit/i.test(_cn)) return;
+          _p = _p.parentElement;
+        }
+      }
       const cs = window.getComputedStyle(el);
       let touched = false;
       const borderGreen =
@@ -330,14 +429,49 @@
     // attribute selectors) which are higher specificity than our class
     // selectors. Inline !important via setProperty always wins.
     function fixTooltipHover() {
-      document.querySelectorAll('.mrc-tooltip, .booking__info_btn, [class*="mrc-tooltip"], [class*="booking__info_btn"]').forEach(wrap => {
-        if (wrap._mrcHover) return;
+      // Different strategy: let the SVG catch hover natively via its filled
+      // <circle fill="#E7E8EA"> — visiblePainted catches anywhere on a
+      // painted (filled) shape, so cursor on any pixel of the grey circle
+      // OR the dark ? glyph fires hover. Both wrappers get inline-block +
+      // padding so even cursor in the negative-margin halo around the
+      // visual icon also catches hover. No pointer-events:none on svg
+      // anymore — that was forcing hover to depend on the wrappers' bounds.
+      const apply = (wrap, key) => {
+        if (wrap[key]) return;
         wrap.style.setProperty('pointer-events', 'auto', 'important');
-        wrap.style.setProperty('display', 'inline-block', 'important');
-        wrap.querySelectorAll('svg, svg *').forEach(child => {
-          child.style.setProperty('pointer-events', 'none', 'important');
-        });
-        wrap._mrcHover = true;
+        // No padding / margin / display tweaks — those shifted the tooltip
+        // popup anchor point and made it position off-screen. Hover hit
+        // area comes from the svg's visiblePainted (filled circle catches
+        // cursor anywhere on the painted area).
+        wrap[key] = true;
+      };
+      document.querySelectorAll('.mrc-tooltip, [class*="mrc-tooltip"]').forEach(w => apply(w, '_mrcHover'));
+      document.querySelectorAll('.booking__info_btn, [class*="booking__info_btn"]').forEach(w => apply(w, '_mrcHoverInner'));
+      // Reset pointer-events on any svg we previously turned off — let
+      // visiblePainted do its job.
+      document.querySelectorAll('.mrc-tooltip svg, .booking__info_btn svg, [class*="mrc-tooltip"] svg, [class*="booking__info_btn"] svg').forEach(svg => {
+        if (svg._mrcSvgBox) return;
+        // pointer-events: bounding-box makes the entire SVG box (24x24)
+        // catch events regardless of which sub-shapes are painted.
+        // Without this the SVG has fill='none' on the root, and only the
+        // painted <circle> + <path> children catch hover — the unpainted
+        // ring around the circle (~4px) drops hover, retriggering the
+        // popup. bounding-box covers the whole box.
+        svg.style.setProperty('pointer-events', 'bounding-box', 'important');
+        svg.querySelectorAll('*').forEach(c => c.style.setProperty('pointer-events', 'none', 'important'));
+        svg._mrcSvgBox = true;
+      });
+      // Kill transitions on tooltip popups — flicker from micro-hover-
+      // toggle becomes visible because the popup is mid fade-in/out
+      // animation. transition:none makes the popup just appear/disappear
+      // instantly, so brief hover-out followed by hover-back-in doesn't
+      // produce a visible flash. Don't touch pointer-events (broke
+      // popup visibility entirely last time).
+      document.querySelectorAll('[class*="tooltip-content"], [class*="tooltip-popup"], [class*="tooltip-body"], [class*="tooltip-text"], [class*="tooltip-inner"], [class*="tippy-content"], [class*="popper"], [class*="popover-body"], [class*="hint-content"], [class*="hint-popup"]').forEach(el => {
+        if (el._mrcPopupTrans) return;
+        el.style.setProperty('transition', 'none', 'important');
+        el.style.setProperty('animation', 'none', 'important');
+        el._mrcPopupTrans = true;
       });
     }
     // JS-based fill override for brand-chip svg paint. CSS rules on
@@ -395,7 +529,7 @@
       script.setAttribute('data-marker',   'kotorcarrental');
       script.setAttribute('data-country',  '133');
       script.setAttribute('data-city',     cityId);
-      script.setAttribute('data-routing',  'on');
+      script.setAttribute('data-routing',  'off');
       script.setAttribute('data-zindex',   '100');
       script.setAttribute('data-locale',   widgetLang);
       const dateFrom = _params.get('date_from');
@@ -692,9 +826,11 @@
       [class*="vehicles-grid__virtual-container"] {
         min-width: 0 !important;
       }
-      .vehicles-grid,
-      [class*="vehicles-grid"] {
-        grid-template-columns: minmax(0, 1fr) !important;
+      @media (max-width: 320px) {
+        .vehicles-grid,
+        [class*="vehicles-grid"] {
+          grid-template-columns: minmax(0, 1fr) !important;
+        }
       }
     `;
     const p = new URLSearchParams(window.location.search);
