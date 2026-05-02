@@ -586,22 +586,50 @@
       script.setAttribute('data-zindex',   '100');
       script.setAttribute('data-locale',   widgetLang);
       // Deep-link: when ?car_id=<ID> is on the URL (forwarded from
-      // BookPage when user clicks a homepage card), set the LocalRent
-      // car-id attribute (try several variants since the canonical
-      // attribute name isn't documented for the white-label widget)
-      // AND inject the URL hash so LocalRent's vue-router (with
-      // routing='on' set above) picks it up on init.
+      // BookPage when user clicks a homepage card), navigate the widget
+      // to that specific car. Throw-everything approach since LocalRent's
+      // WL widget API isn't documented:
+      //   1. Set data-* attributes on the embed script (multiple names)
+      //   2. Inject URL hash for the vue-router
+      //   3. After widget loads, poll for Vue instance + try router push,
+      //      store dispatch, and programmatic click on the matching
+      //      .vehicle-card[data-vehicle-id="<ID>"] — first to land wins.
       const carIdParam = _params.get('car_id');
       if (carIdParam) {
         script.setAttribute('data-car-id', carIdParam);
         script.setAttribute('data-product-id', carIdParam);
         script.setAttribute('data-vehicle-id', carIdParam);
         script.setAttribute('data-pickup-car-id', carIdParam);
-        // URL hash variants — LocalRent's router will read whichever
-        // matches its route definitions on first paint.
         if (!window.location.hash || !/car/i.test(window.location.hash)) {
           history.replaceState(null, '', window.location.pathname + window.location.search + '#car_id=' + carIdParam);
         }
+        var carPollAttempts = 0;
+        var carDeepLinkPoll = setInterval(function() {
+          carPollAttempts++;
+          if (carPollAttempts > 120) { clearInterval(carDeepLinkPoll); return; }
+          // Try clicking the matching vehicle-card directly — this is the
+          // most reliable since it triggers LocalRent's own click handler.
+          var card = document.querySelector('.vehicle-card[data-vehicle-id="' + carIdParam + '"]');
+          if (card) {
+            try { card.click(); } catch(e) {}
+            clearInterval(carDeepLinkPoll);
+            return;
+          }
+          // Fallback: find Vue instance + try router/store
+          var vue = null;
+          for (var el of document.querySelectorAll('*')) {
+            if (el.__vue__ && el.__vue__.$store) { vue = el.__vue__; break; }
+          }
+          if (!vue) return;
+          // Multiple routing/dispatch names — first that doesn't throw wins.
+          try { vue.$router && vue.$router.push({ name: 'car', params: { id: carIdParam } }); } catch(e) {}
+          try { vue.$router && vue.$router.push({ path: '/car/' + carIdParam }); } catch(e) {}
+          try { vue.$router && vue.$router.push({ path: '/cars/' + carIdParam }); } catch(e) {}
+          try { vue.$store.dispatch('selectCar', { id: parseInt(carIdParam) }); } catch(e) {}
+          try { vue.$store.commit('setSelectedCar', parseInt(carIdParam)); } catch(e) {}
+          try { vue.$store.dispatch('cars/select', parseInt(carIdParam)); } catch(e) {}
+          try { vue.$store.dispatch('booking/openCar', parseInt(carIdParam)); } catch(e) {}
+        }, 250);
       }
       const dateFrom = _params.get('date_from');
       const dateTo = _params.get('date_to');
