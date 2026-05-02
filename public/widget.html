@@ -582,6 +582,17 @@
       script.setAttribute('data-routing',  'off');
       script.setAttribute('data-zindex',   '100');
       script.setAttribute('data-locale',   widgetLang);
+      // Deep-link: when ?car_id=<ID> is on the URL (forwarded from
+      // BookPage when user clicks a homepage card), set the LocalRent
+      // car-id attribute (try several variants since the canonical
+      // attribute name isn't documented for the white-label widget).
+      const carIdParam = _params.get('car_id');
+      if (carIdParam) {
+        script.setAttribute('data-car-id', carIdParam);
+        script.setAttribute('data-product-id', carIdParam);
+        script.setAttribute('data-vehicle-id', carIdParam);
+        script.setAttribute('data-pickup-car-id', carIdParam);
+      }
       const dateFrom = _params.get('date_from');
       const dateTo = _params.get('date_to');
       const timeFrom = _params.get('time_from') || '10:00';

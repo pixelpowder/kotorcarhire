@@ -24,8 +24,9 @@ export default function BookPage({ searchParams = {} }) {
   if (get('dropoff_time'))    widgetParams.set('time_to',   get('dropoff_time'));
   if (location)               widgetParams.set('place',     location);
   if (get('city_id'))         widgetParams.set('city_id',   get('city_id'));
+  if (get('car_id'))          widgetParams.set('car_id',    get('car_id'));
   widgetParams.set('lang', WIDGET_LOCALE[lang] || 'en');
-  widgetParams.set('v', '12');
+  widgetParams.set('v', '14');
 
   const hashParams = new URLSearchParams();
   if (pickupDate) hashParams.set('pickup_date', pickupDate);
