@@ -480,24 +480,30 @@ function FleetShowcase() {
 }
 
 /* ─── FLEET ─────────────────────────────────────────────── */
-// LocalRent product IDs for deep-links into the booking widget. Empty
-// for now — fill in once captured from the live LocalRent widget. With
-// an ID present, card href becomes /book?car=<slug>; without, it falls
-// back to the generic /book page so each card still links somewhere
-// useful and the homepage layout works while IDs are populated.
-const LOCALRENT_CAR_IDS = {
-  // 'vw-polo': 12345,
-  // 'fiat-500': 12346,
-  // 'peugeot-208': 12347,
-  // 'citroen-c3': 12348,
-  // 'toyota-yaris': 12349,
-  // 'kia-stonic': 12350,
-  // 'vw-golf': 12351,
-};
+// 12 curated LocalRent listings to feature on the homepage Fleet grid.
+// Each entry's id is the LocalRent product ID — clicking the card sends
+// the user to /book?car_id=<ID> so we can later wire up auto-navigation
+// to that specific car in the booking widget. siteSlug (optional) maps
+// to a car in siteConfig.cars so we can pull a local image; cars without
+// a siteSlug fall back to a category-coloured placeholder card.
+const HOMEPAGE_BOOKING_CARS = [
+  { id: 5756,   name: 'VW Polo',              category: 'Economy',   siteSlug: 'vw-polo' },
+  { id: 64299,  name: 'Fiat 500',             category: 'Economy',   siteSlug: 'fiat-500' },
+  { id: 26451,  name: 'Peugeot 208',          category: 'Economy',   siteSlug: 'peugeot-208' },
+  { id: 68317,  name: 'Citroen C3',           category: 'Economy',   siteSlug: 'citroen-c3' },
+  { id: 41909,  name: 'Toyota Yaris',         category: 'Economy',   siteSlug: 'toyota-yaris' },
+  { id: 9195,   name: 'VW Golf',              category: 'Compact',   siteSlug: 'vw-golf' },
+  { id: 131035, name: 'Kia Stonic',           category: 'Crossover', siteSlug: 'kia-stonic' },
+  { id: 74121,  name: 'Peugeot 2008',         category: 'SUV' },
+  { id: 52579,  name: 'Renault Kadjar',       category: 'SUV' },
+  { id: 84393,  name: 'Dacia Sandero Stepway',category: 'Crossover' },
+  { id: 2621,   name: 'VW Touran',            category: 'Van' },
+  { id: 8860,   name: 'Citroen C4 Picasso',   category: 'MPV' },
+];
 
 function Fleet() {
   const { t, localePath } = useTranslation();
-  const cars = config.cars;
+  const slugMap = Object.fromEntries(config.cars.map(c => [c.slug, c]));
   return (
     <section className="section" id="fleet">
       <div className="container">
@@ -509,22 +515,17 @@ function Fleet() {
 
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
           gap: '20px',
           marginTop: '32px',
         }}>
-          {cars.map((car) => {
-            const tk = (sub, fb) => {
-              const v = t(`cars.${car.slug}.${sub}`);
-              return v && v !== `cars.${car.slug}.${sub}` ? v : fb;
-            };
-            const lrId = LOCALRENT_CAR_IDS[car.slug];
-            const href = lrId
-              ? localePath(`/book?car=${car.slug}`)
-              : localePath('/book');
+          {HOMEPAGE_BOOKING_CARS.map((car) => {
+            const localCar = car.siteSlug ? slugMap[car.siteSlug] : null;
+            const image = localCar && localCar.image;
+            const href = localePath(`/book?car_id=${car.id}`);
             return (
               <a
-                key={car.slug}
+                key={car.id}
                 href={href}
                 style={{
                   display: 'flex',
@@ -552,17 +553,27 @@ function Fleet() {
                 <div style={{
                   width: '100%',
                   aspectRatio: '16 / 10',
-                  backgroundImage: `url(${car.image})`,
+                  backgroundImage: image ? `url(${image})` : 'none',
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundColor: '#f4f5f7',
-                }} />
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  color: '#9ca3af',
+                  fontSize: '13px',
+                  fontWeight: 600,
+                  letterSpacing: '0.04em',
+                  textTransform: 'uppercase',
+                }}>
+                  {!image && car.category}
+                </div>
                 <div style={{ padding: '16px 18px 18px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
                   <span style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#0062e3' }}>
-                    {tk('category', car.category)}
+                    {car.category}
                   </span>
                   <span style={{ fontSize: '18px', fontWeight: 700, color: 'rgb(5,32,60)', letterSpacing: '-0.01em' }}>
-                    {tk('name', car.name)}
+                    {car.name}
                   </span>
                   <span style={{ marginTop: '8px', fontSize: '13px', fontWeight: 600, color: '#0062e3' }}>
                     {t('fleet.bookCta') || 'Book this car'} →
