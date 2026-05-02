@@ -579,19 +579,29 @@
       script.setAttribute('data-marker',   'kotorcarrental');
       script.setAttribute('data-country',  '133');
       script.setAttribute('data-city',     cityId);
-      script.setAttribute('data-routing',  'off');
+      // Routing 'off' for normal /book; 'on' when a car_id deep-link
+       // is being requested so LocalRent's router reads the URL hash
+       // we inject below and navigates straight to that car.
+      script.setAttribute('data-routing',  _params.get('car_id') ? 'on' : 'off');
       script.setAttribute('data-zindex',   '100');
       script.setAttribute('data-locale',   widgetLang);
       // Deep-link: when ?car_id=<ID> is on the URL (forwarded from
       // BookPage when user clicks a homepage card), set the LocalRent
       // car-id attribute (try several variants since the canonical
-      // attribute name isn't documented for the white-label widget).
+      // attribute name isn't documented for the white-label widget)
+      // AND inject the URL hash so LocalRent's vue-router (with
+      // routing='on' set above) picks it up on init.
       const carIdParam = _params.get('car_id');
       if (carIdParam) {
         script.setAttribute('data-car-id', carIdParam);
         script.setAttribute('data-product-id', carIdParam);
         script.setAttribute('data-vehicle-id', carIdParam);
         script.setAttribute('data-pickup-car-id', carIdParam);
+        // URL hash variants — LocalRent's router will read whichever
+        // matches its route definitions on first paint.
+        if (!window.location.hash || !/car/i.test(window.location.hash)) {
+          history.replaceState(null, '', window.location.pathname + window.location.search + '#car_id=' + carIdParam);
+        }
       }
       const dateFrom = _params.get('date_from');
       const dateTo = _params.get('date_to');
