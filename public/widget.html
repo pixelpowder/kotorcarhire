@@ -645,27 +645,32 @@
           try { vue.$store.commit('SET_CURRENT_CAR', idNum); } catch(e) {}
         }, 250);
       }
-      // Brand filter deep-link: ?brand_id=<numeric ID> applies the
-       // LocalRent brand_id filter so homepage car cards land users on a
-       // listing pre-filtered to that make (Volkswagen, Peugeot, etc.).
-       // Devtools-confirmed mutation chain.
-      const brandIdParam = _params.get('brand_id');
-      if (brandIdParam && /^\d+$/.test(brandIdParam)) {
-        var brandAttempts = 0;
-        var brandPoll = setInterval(function() {
-          brandAttempts++;
-          if (brandAttempts > 200) { clearInterval(brandPoll); return; }
-          var vue = null;
-          for (var el of document.querySelectorAll('*')) {
-            if (el.__vue__ && el.__vue__.$store) { vue = el.__vue__; break; }
-          }
-          if (!vue) return;
-          var store = vue.$store;
-          if (!store.state.carsCountFinished) return;
-          try { store.commit('setFiltersMapValue', { key: 'brand_id', value: [brandIdParam] }); } catch(e) {}
-          try { store.commit('applyFiltersMap', { path: 'brand_id', value: [brandIdParam] }); } catch(e) {}
-          clearInterval(brandPoll);
-        }, 200);
+      // Car IDs deep-link: ?car_ids=<csv> applies a LocalRent car_ids
+       // filter so homepage cards land users on a listing pre-filtered to
+       // the exact set of vendor listings for that model (e.g. all VW
+       // Polo listings across every operator). The IDs come from a static
+       // map in App.jsx HOMEPAGE_BOOKING_CARS, populated from devtools
+       // inspection of LocalRent's filtered listing.
+      const carIdsParam = _params.get('car_ids');
+      if (carIdsParam) {
+        var carIdsList = carIdsParam.split(',').filter(function(x){ return /^\d+$/.test(x); });
+        if (carIdsList.length > 0) {
+          var carIdsAttempts = 0;
+          var carIdsPoll = setInterval(function() {
+            carIdsAttempts++;
+            if (carIdsAttempts > 200) { clearInterval(carIdsPoll); return; }
+            var vue = null;
+            for (var el of document.querySelectorAll('*')) {
+              if (el.__vue__ && el.__vue__.$store) { vue = el.__vue__; break; }
+            }
+            if (!vue) return;
+            var store = vue.$store;
+            if (!store.state.carsCountFinished) return;
+            try { store.commit('setFiltersMapValue', { key: 'car_ids', value: carIdsList }); } catch(e) {}
+            try { store.commit('applyFiltersMap', { path: 'car_ids', value: carIdsList }); } catch(e) {}
+            clearInterval(carIdsPoll);
+          }, 200);
+        }
       }
       const dateFrom = _params.get('date_from');
       const dateTo = _params.get('date_to');

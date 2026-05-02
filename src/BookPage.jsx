@@ -1,5 +1,6 @@
 'use client';
 import { useEffect } from 'react';
+import { useSearchParams } from 'next/navigation';
 import Nav from './Nav';
 import useTranslation from './i18n/useTranslation';
 import { WIDGET_LOCALE } from './i18n/languages';
@@ -9,10 +10,11 @@ import './BookPage.css';
 // The iframe is sized via pure CSS to fill the page area; all widget content
 // (search, fleet, filter modal, car detail) scrolls internally inside the
 // iframe. Same UX as visiting LocalRent's own site directly.
-export default function BookPage({ searchParams = {} }) {
+export default function BookPage() {
   const { t, lang } = useTranslation();
+  const searchParams = useSearchParams();
 
-  const get = (k) => searchParams[k] ?? null;
+  const get = (k) => searchParams?.get(k) ?? null;
   const pickupDate  = get('pickup_date');
   const dropoffDate = get('dropoff_date');
   const location    = get('location');
@@ -25,8 +27,7 @@ export default function BookPage({ searchParams = {} }) {
   if (location)               widgetParams.set('place',     location);
   if (get('city_id'))         widgetParams.set('city_id',   get('city_id'));
   if (get('car_id'))          widgetParams.set('car_id',    get('car_id'));
-  if (get('class'))           widgetParams.set('class',     get('class'));
-  if (get('brand_id'))        widgetParams.set('brand_id',  get('brand_id'));
+  if (get('car_ids'))         widgetParams.set('car_ids',   get('car_ids'));
   widgetParams.set('lang', WIDGET_LOCALE[lang] || 'en');
   widgetParams.set('v', '14');
 
