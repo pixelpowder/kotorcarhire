@@ -205,6 +205,56 @@
       background-color: rgb(5, 32, 60) !important;
       border-color: rgb(5, 32, 60) !important;
     }
+    /* Selected filter-card chips (Convertibles, Van, etc.) — kill the
+       green border/checkbox-fill and the navy text-highlight bar across
+       the title, replace border with navy. Targets every common
+       selected-state class modifier LocalRent might use. */
+    .filter-card.checked,
+    .filter-card.selected,
+    .filter-card.active,
+    .filter-card--checked,
+    .filter-card--selected,
+    .filter-card[aria-checked="true"],
+    [class*="filter-card"][class*="checked"],
+    [class*="filter-card"][class*="selected"],
+    [class*="filter-card"][class*="active"] {
+      border-color: rgb(5, 32, 60) !important;
+      background-color: #fff !important;
+    }
+    /* Inner label/checkbox of a selected card */
+    .filter-card.checked .filter-card__label,
+    .filter-card.selected .filter-card__label,
+    .filter-card.active .filter-card__label,
+    [class*="filter-card"][class*="checked"] .filter-card__label,
+    [class*="filter-card"][class*="selected"] .filter-card__label,
+    [class*="filter-card"][class*="checked"] [class*="filter-card__label"],
+    [class*="filter-card"][class*="selected"] [class*="filter-card__label"] {
+      background: transparent !important;
+      color: rgb(5, 32, 60) !important;
+    }
+    /* SVG checkbox tick on selected card → navy */
+    .filter-card.checked .filter-card__checkbox,
+    .filter-card.selected .filter-card__checkbox,
+    [class*="filter-card"][class*="checked"] .filter-card__checkbox,
+    [class*="filter-card"][class*="selected"] .filter-card__checkbox,
+    [class*="filter-card"][class*="checked"] svg,
+    [class*="filter-card"][class*="selected"] svg,
+    [class*="filter-card"][class*="checked"] svg path,
+    [class*="filter-card"][class*="selected"] svg path,
+    [class*="filter-card"][class*="checked"] svg rect,
+    [class*="filter-card"][class*="selected"] svg rect {
+      fill: rgb(5, 32, 60) !important;
+      stroke: rgb(5, 32, 60) !important;
+      color: rgb(5, 32, 60) !important;
+      background-color: transparent !important;
+    }
+    /* Kill any ::selection navy block on filter-card text (looks like
+       the title is text-selected). */
+    .filter-card *::selection,
+    [class*="filter-card"] *::selection {
+      background: transparent !important;
+      color: inherit !important;
+    }
     /* "Free of charge" green text inside insurance card */
     .insurance-card__price-free,
     [class*="price-free"],
