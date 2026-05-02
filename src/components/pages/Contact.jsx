@@ -57,24 +57,14 @@ export default function Contact() {
               {t('contactPage.intro')}
             </p>
 
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px', marginBottom: '40px' }}>
-              <a href={`mailto:${config.email}`} style={{ display: 'flex', alignItems: 'center', gap: '12px', padding: '20px', background: 'var(--gray-50)', borderRadius: '12px', textDecoration: 'none', color: 'var(--navy)' }}>
+            <div style={{ marginBottom: '40px' }}>
+              <a href={`mailto:${config.email}`} style={{ display: 'flex', alignItems: 'center', gap: '12px', padding: '20px', background: 'var(--gray-50)', borderRadius: '12px', textDecoration: 'none', color: 'var(--navy)', maxWidth: '420px' }}>
                 <div style={{ width: '40px', height: '40px', borderRadius: '10px', background: 'var(--blue)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', flexShrink: 0 }}>
                   <Mail size={18} />
                 </div>
                 <div>
                   <div style={{ fontSize: '13px', color: 'var(--gray-500)', marginBottom: '2px' }}>{t('contactPage.emailLabel')}</div>
                   <div style={{ fontSize: '14px', fontWeight: 600 }}>{config.email}</div>
-                </div>
-              </a>
-
-              <a href={`https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Kotor.`} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '12px', padding: '20px', background: 'var(--gray-50)', borderRadius: '12px', textDecoration: 'none', color: 'var(--navy)' }}>
-                <div style={{ width: '40px', height: '40px', borderRadius: '10px', background: '#25d366', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', flexShrink: 0 }}>
-                  <MessageCircle size={18} />
-                </div>
-                <div>
-                  <div style={{ fontSize: '13px', color: 'var(--gray-500)', marginBottom: '2px' }}>{t('contactPage.whatsappLabel')}</div>
-                  <div style={{ fontSize: '14px', fontWeight: 600 }}>{t('contactPage.chatWithUs')}</div>
                 </div>
               </a>
             </div>

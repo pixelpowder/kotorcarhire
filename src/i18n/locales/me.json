@@ -272,7 +272,7 @@
     "bookTitle": "Rezervišite Vaš Auto",
     "bookText": "Pretražite dostupnost i cijene u realnom vremenu širom Crne Gore.",
     "helpTitle": "Trebate Pomoć?",
-    "helpText": "Naš tim je dostupan putem WhatsApp, Viber ili telefona.",
+    "helpText": "Pošaljite nam email, javljamo vam se uskoro.",
     "popularDest": "Popularne Destinacije",
     "tivatAirport": "Aerodrom Tivat",
     "dubrovnikAirport": "Aerodrom Dubrovnik"
@@ -406,9 +406,27 @@
     "seoDesc": "Aerodrom Dubrovnik je 60 km sjeverno od Kotora, 90 minuta preko trajekta Kamenari i prelaza Debeli Brijeg. Zelena karta spremna na prelazu."
   },
   "tivat": {
-    "title": "Rent a Car Tivat",
-    "subtitle": "Grad marina Crne Gore na Bokokotorskom zalivu.",
-    "seoDesc": "Tivat je 8 km od Kotora, 12 minuta vožnje uz zaliv. Marina Porto Montenegro, riblje konobe uz obalu i put prema poluostrvu Luštica."
+    "label": "Aerodrom Tivat",
+    "title": "Stižete na aerodrom Tivat?",
+    "subtitle": "Tivat je najbliži aerodrom Kotoru i polazna tačka većine iznajmljivanja. Preuzmite auto na terminalu i za par minuta ste na obalnom putu.",
+    "items": {
+      "0": {
+        "title": "8 km do Starog grada",
+        "desc": "Aerodrom Tivat smješten je s druge strane zaliva, na obalnom putu prema Kotoru. Van ljetnih popodnevnih špiceva vožnja je jednostavna i saobraćaj prohodan."
+      },
+      "1": {
+        "title": "Preuzimanje na aerodromu",
+        "desc": "Odaberite dostavu na aerodrom prilikom rezervacije i ključeve dobijate ispred terminala. Bez taksi reda, bez posebnog transfera."
+      },
+      "2": {
+        "title": "Sjever ili jug od prvog dana",
+        "desc": "Tivat je dobro pozicioniran u oba smjera obale. Sjeverno uz Bokokotorski zaliv ka Perastu i Hrvatskoj, ili južno ka Budvi i Svetom Stefanu."
+      },
+      "3": {
+        "title": "Sve rute Boke nadohvat ruke",
+        "desc": "Perast, Risan, Lovćenske serpentine i Cetinje su sve u blizini. Već prvog dana boravka možete krenuti u istraživanje, bez grupnih tura."
+      }
+    }
   },
   "montenegro": {
     "title": "Rent a Car i Vodič za Crnu Goru",
@@ -569,7 +587,7 @@
     "h4": "Lokalno znanje",
     "p4": "Pitajte nas kojih se jutara pristaju krstaški brodovi i kada zaguše parkinge u starom gradu. Savjetovaćemo Vam da stignete prije 07:30 ili da umjesto toga skrenete u Dobrotu. Pitajte za stazu duž grebena Vrmca i objasnićemo Vam gdje tačno ostaviti vozilo na polazištu kod Prčanja. Od vremena polaska trajekta Kamenari-Lepetane do najmirnijeg sata na graničnom prelazu Debeli Brijeg, naši savjeti nastaju iz svakodnevnog vožnje ovim putevima, a ne iz preštampanog vodiča. U januaru, kada gosti spajaju Kotor s vikendom u Kolašinu, znamo koja vozila uredno primaju nosač za skije ili snowboard, a kojima treba Winter Pack za uspon preko prevoja.",
     "h5": "Kontaktirajte nas",
-    "p5": "WhatsApp, Viber, klasičan telefonski poziv, izaberite što Vam odgovara. Odgovaramo brzo, čak i u užurbanoj sezoni krstaša u julu. Pregledajte flotu na sajtu, rezervišite cijenu, a za ostalo se brinemo mi. Ili nam jednostavno pošaljite pitanje o parkingu kod katedrale, najboljoj ruti do Cetinja ili je li taj planinski prevoj otvoren u decembru."
+    "p5": "putem e-maila, klasičan telefonski poziv, izaberite što Vam odgovara. Odgovaramo brzo, čak i u užurbanoj sezoni krstaša u julu. Pregledajte flotu na sajtu, rezervišite cijenu, a za ostalo se brinemo mi. Ili nam jednostavno pošaljite pitanje o parkingu kod katedrale, najboljoj ruti do Cetinja ili je li taj planinski prevoj otvoren u decembru."
   },
   "kotorBody": {
     "h1": "Kotor -- Lokalitet pod Zastitom-a",
@@ -1286,29 +1304,6 @@
     "seoDesc": "Kontaktirajte Kotor Car Hire za cene, preuzmanja sa krstarenja, ili dostavu na aerodrom Tivat.",
     "heading": "Kontaktirajte nas",
     "intro": "Imate pitanje o iznajmljivanju automobila u Kotoru? Javite nam se i pomoći ćemo vam pronaći savršeno vozilo za vaše putovanje."
-  },
-  "tivat": {
-    "label": "Aerodrom Tivat",
-    "title": "Stižete na aerodrom Tivat?",
-    "subtitle": "Tivat je najbliži aerodrom Kotoru i polazna tačka većine iznajmljivanja. Preuzmite auto na terminalu i za par minuta ste na obalnom putu.",
-    "items": {
-      "0": {
-        "title": "8 km do Starog grada",
-        "desc": "Aerodrom Tivat smješten je s druge strane zaliva, na obalnom putu prema Kotoru. Van ljetnih popodnevnih špiceva vožnja je jednostavna i saobraćaj prohodan."
-      },
-      "1": {
-        "title": "Preuzimanje na aerodromu",
-        "desc": "Odaberite dostavu na aerodrom prilikom rezervacije i ključeve dobijate ispred terminala. Bez taksi reda, bez posebnog transfera."
-      },
-      "2": {
-        "title": "Sjever ili jug od prvog dana",
-        "desc": "Tivat je dobro pozicioniran u oba smjera obale. Sjeverno uz Bokokotorski zaliv ka Perastu i Hrvatskoj, ili južno ka Budvi i Svetom Stefanu."
-      },
-      "3": {
-        "title": "Sve rute Boke nadohvat ruke",
-        "desc": "Perast, Risan, Lovćenske serpentine i Cetinje su sve u blizini. Već prvog dana boravka možete krenuti u istraživanje, bez grupnih tura."
-      }
-    }
   },
   "locations": {
     "label": "Mjesta preuzimanja",

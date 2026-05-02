@@ -272,7 +272,7 @@
     "bookTitle": "Réservez Votre Voiture",
     "bookText": "Recherchez la disponibilité et les prix en temps réel à travers le Monténégro.",
     "helpTitle": "Besoin d'Aide ?",
-    "helpText": "Notre équipe est disponible via WhatsApp, Viber ou téléphone.",
+    "helpText": "Écrivez-nous un email et nous vous répondrons rapidement.",
     "popularDest": "Destinations Populaires",
     "tivatAirport": "Aéroport de Tivat",
     "dubrovnikAirport": "Aéroport de Dubrovnik"
@@ -406,9 +406,27 @@
     "seoDesc": "L'aéroport de Dubrovnik est à 60 km au nord de Kotor, 90 minutes via le ferry de Kamenari et le passage de Debeli Brijeg. Carte verte au passage."
   },
   "tivat": {
-    "title": "Location de Voiture à Tivat",
-    "subtitle": "La ville marina du Monténégro sur la baie de Kotor.",
-    "seoDesc": "Tivat à 8 km de Kotor, 12 minutes le long de la baie. Marina Porto Montenegro, konobas de poisson, route de la péninsule de Luštica."
+    "label": "Aéroport de Tivat",
+    "title": "Vous arrivez à l'aéroport de Tivat ?",
+    "subtitle": "Tivat est l'aéroport le plus proche de Kotor et le point de départ de la plupart des locations. Récupérez la voiture au terminal et vous êtes sur la route de la baie en quelques minutes.",
+    "items": {
+      "0": {
+        "title": "8 km jusqu'à la vieille ville",
+        "desc": "L'aéroport de Tivat se trouve de l'autre côté de la baie sur la route côtière qui rejoint Kotor. Hors des pics d'après-midi en été, le trajet est simple et la circulation reste fluide."
+      },
+      "1": {
+        "title": "Livraison à l'aéroport",
+        "desc": "Choisissez la livraison à l'aéroport au moment de la réservation et les clés sont remises devant les arrivées. Pas de file de taxis, pas de transfert à organiser à part."
+      },
+      "2": {
+        "title": "Nord ou sud dès le premier jour",
+        "desc": "Tivat est bien placé dans les deux directions du littoral. Vers le nord, montez la baie de Kotor en direction de Perast et de la Croatie, ou descendez vers le sud à Budva et Sveti Stefan."
+      },
+      "3": {
+        "title": "Toute la baie à portée",
+        "desc": "Perast, Risan, les lacets de Lovćen et Cetinje se trouvent à proximité. Le jour où vous atterrissez, vous pouvez déjà partir à la découverte, sans excursion organisée."
+      }
+    }
   },
   "montenegro": {
     "title": "Location de Voiture et Guide du Monténégro",
@@ -569,7 +587,7 @@
     "h4": "Connaissance locale",
     "p4": "Demandez nous quels matins les paquebots accostent et saturent les parkings de la vieille ville. Nous vous dirons d'arriver avant 07:30 ou de filer plutôt vers Dobrota. Demandez nous le sentier de la crête du Vrmac et nous vous expliquerons précisément où laisser la voiture au départ près de Prčanj. De l'horaire du ferry Kamenari-Lepetane à l'heure la plus calme au passage frontalier de Debeli Brijeg, nos conseils viennent de la conduite quotidienne de ces routes, pas d'une réimpression de guide touristique. En janvier, quand les clients associent Kotor à un week-end à Kolašin, nous savons quels véhicules acceptent proprement un porte-skis ou porte-snowboard et lesquels ont besoin du Winter Pack pour franchir les cols.",
     "h5": "Contactez-nous",
-    "p5": "WhatsApp, Viber, bons vieux appels téléphoniques, choisissez ce qui vous convient. Nous répondons vite, même pendant la frénétique saison des paquebots en juillet. Parcourez la flotte en ligne, bloquez un tarif, et nous nous occupons du reste. Ou envoyez nous simplement une question sur le stationnement près de la cathédrale, la meilleure route vers Cetinje ou si tel col de montagne est ouvert en décembre."
+    "p5": "par email, bons vieux appels téléphoniques, choisissez ce qui vous convient. Nous répondons vite, même pendant la frénétique saison des paquebots en juillet. Parcourez la flotte en ligne, bloquez un tarif, et nous nous occupons du reste. Ou envoyez nous simplement une question sur le stationnement près de la cathédrale, la meilleure route vers Cetinje ou si tel col de montagne est ouvert en décembre."
   },
   "kotorBody": {
     "h1": "Kotor, site historique",
@@ -1181,7 +1199,7 @@
     "howWeUse1": "Pour vous proposer la disponibilité et les tarifs de location",
     "howWeUse2": "Pour améliorer notre site et l'expérience utilisateur",
     "howWeUse3": "Pour comprendre comment les visiteurs utilisent le site (analyses)",
-    "howWeUse4": "Pour répondre aux demandes via WhatsApp, Viber ou email",
+    "howWeUse4": "Pour répondre aux demandes par email ou email",
     "thirdPartyTitle": "Services tiers",
     "thirdPartyIntro": "Notre site utilise les services tiers suivants :",
     "thirdParty1": "Partenaire de réservation : widget de réservation de location de voiture, traite vos requêtes de recherche et gère toutes les réservations et tous les paiements",
@@ -1286,29 +1304,6 @@
     "seoDesc": "Contactez Kotor Car Hire pour devis, embarquement croisière, ou livraison à Tivat.",
     "heading": "Nous contacter",
     "intro": "Une question sur la location de voiture à Kotor ? Contactez-nous, nous vous aiderons à trouver le véhicule idéal pour votre séjour."
-  },
-  "tivat": {
-    "label": "Aéroport de Tivat",
-    "title": "Vous arrivez à l'aéroport de Tivat ?",
-    "subtitle": "Tivat est l'aéroport le plus proche de Kotor et le point de départ de la plupart des locations. Récupérez la voiture au terminal et vous êtes sur la route de la baie en quelques minutes.",
-    "items": {
-      "0": {
-        "title": "8 km jusqu'à la vieille ville",
-        "desc": "L'aéroport de Tivat se trouve de l'autre côté de la baie sur la route côtière qui rejoint Kotor. Hors des pics d'après-midi en été, le trajet est simple et la circulation reste fluide."
-      },
-      "1": {
-        "title": "Livraison à l'aéroport",
-        "desc": "Choisissez la livraison à l'aéroport au moment de la réservation et les clés sont remises devant les arrivées. Pas de file de taxis, pas de transfert à organiser à part."
-      },
-      "2": {
-        "title": "Nord ou sud dès le premier jour",
-        "desc": "Tivat est bien placé dans les deux directions du littoral. Vers le nord, montez la baie de Kotor en direction de Perast et de la Croatie, ou descendez vers le sud à Budva et Sveti Stefan."
-      },
-      "3": {
-        "title": "Toute la baie à portée",
-        "desc": "Perast, Risan, les lacets de Lovćen et Cetinje se trouvent à proximité. Le jour où vous atterrissez, vous pouvez déjà partir à la découverte, sans excursion organisée."
-      }
-    }
   },
   "locations": {
     "label": "Points de prise en charge",

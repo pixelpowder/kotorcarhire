@@ -272,7 +272,7 @@
     "bookTitle": "Book Your Car",
     "bookText": "Search real-time availability and prices for Kotor and the bay.",
     "helpTitle": "Need Help?",
-    "helpText": "Our team is available via WhatsApp, Viber, or phone.",
+    "helpText": "Send us an email and we will get back to you.",
     "popularDest": "Popular Destinations",
     "tivatAirport": "Tivat Airport",
     "dubrovnikAirport": "Dubrovnik Airport"
@@ -346,7 +346,7 @@
     "localLink3": "Perast",
     "localEnd": ", or heading up the serpentine to Lovcen National Park, we can help you plan the perfect road trip.",
     "contactTitle": "Get in Touch",
-    "contactText": "Have a question about renting a car in Kotor? We're available via phone, WhatsApp, and Viber. Search our fleet online and book in minutes, or reach out and we'll help you find the perfect car for your trip."
+    "contactText": "Have a question about renting a car in Kotor? We're available via email. Search our fleet online and book in minutes, or reach out and we'll help you find the perfect car for your trip."
   },
   "kotor": {
     "title": "Car Hire in Kotor",
@@ -406,9 +406,27 @@
     "seoDesc": "Dubrovnik Airport is 60 km north of Kotor, a 90 minute drive via the Kamenari ferry and Debeli Brijeg border. Green card ready at the crossing."
   },
   "tivat": {
-    "title": "Car Hire in Tivat",
-    "subtitle": "From Cold War naval arsenal to Adriatic superyacht marina in two decades.",
-    "seoDesc": "Tivat sits 8 km from Kotor, a 12 minute drive past the bay. Porto Montenegro marina, waterfront konobas, and the Luštica peninsula road."
+    "label": "Tivat Airport",
+    "title": "Arriving at Tivat Airport?",
+    "subtitle": "Tivat is the closest airport to Kotor and where most rentals start. Pick up at the terminal and you are on the bay road within minutes.",
+    "items": {
+      "0": {
+        "title": "8 km to the Old Town",
+        "desc": "Tivat Airport sits across the bay from Kotor on the coastal road. Outside summer afternoon peaks the drive is straightforward and traffic is light."
+      },
+      "1": {
+        "title": "Airport Delivery",
+        "desc": "Add airport delivery at booking and the keys are handed over outside arrivals. Skip the taxi rank, no transfer to arrange separately."
+      },
+      "2": {
+        "title": "North or South from Day One",
+        "desc": "Tivat is well placed for both directions along the coast. Head north up the Bay of Kotor towards Perast and Croatia, or south to Budva and Sveti Stefan."
+      },
+      "3": {
+        "title": "Every Bay Drive Within Reach",
+        "desc": "Perast, Risan, the Lovćen serpentines and Cetinje all sit close by. The day you land is the day you can start exploring, no group tour required."
+      }
+    }
   },
   "montenegro": {
     "title": "Montenegro Driving Guide",
@@ -1181,7 +1199,7 @@
     "howWeUse1": "To connect you with car rental availability and pricing",
     "howWeUse2": "To improve our website and user experience",
     "howWeUse3": "To understand how visitors use our site (analytics)",
-    "howWeUse4": "To respond to enquiries via WhatsApp, Viber, or email",
+    "howWeUse4": "To respond to enquiries via email",
     "thirdPartyTitle": "Third-Party Services",
     "thirdPartyIntro": "Our website uses the following third-party services:",
     "thirdParty1": "Booking partner: car rental booking widget, processes your search queries and handles all booking and payment",
@@ -1286,29 +1304,6 @@
     "seoDesc": "Message Kotor Car Hire for quotes, cruise shore pickups, or Tivat Airport delivery. Email, WhatsApp, or web form with two hour weekday replies.",
     "heading": "Contact Us",
     "intro": "Have a question about renting a car in Kotor? Get in touch and we'll help you find the perfect vehicle for your trip."
-  },
-  "tivat": {
-    "label": "Tivat Airport",
-    "title": "Arriving at Tivat Airport?",
-    "subtitle": "Tivat is the closest airport to Kotor and where most rentals start. Pick up at the terminal and you are on the bay road within minutes.",
-    "items": {
-      "0": {
-        "title": "8 km to the Old Town",
-        "desc": "Tivat Airport sits across the bay from Kotor on the coastal road. Outside summer afternoon peaks the drive is straightforward and traffic is light."
-      },
-      "1": {
-        "title": "Airport Delivery",
-        "desc": "Add airport delivery at booking and the keys are handed over outside arrivals. Skip the taxi rank, no transfer to arrange separately."
-      },
-      "2": {
-        "title": "North or South from Day One",
-        "desc": "Tivat is well placed for both directions along the coast. Head north up the Bay of Kotor towards Perast and Croatia, or south to Budva and Sveti Stefan."
-      },
-      "3": {
-        "title": "Every Bay Drive Within Reach",
-        "desc": "Perast, Risan, the Lovćen serpentines and Cetinje all sit close by. The day you land is the day you can start exploring, no group tour required."
-      }
-    }
   },
   "locations": {
     "label": "Pickup Points",

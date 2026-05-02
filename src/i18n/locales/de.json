@@ -272,7 +272,7 @@
     "bookTitle": "Ihr Auto buchen",
     "bookText": "Echtzeit-Verfügbarkeit und Preise in ganz Montenegro durchsuchen.",
     "helpTitle": "Brauchen Sie Hilfe?",
-    "helpText": "Unser Team ist per WhatsApp, Viber oder Telefon erreichbar.",
+    "helpText": "Schreiben Sie uns eine E-Mail und wir melden uns zurück.",
     "popularDest": "Beliebte Reiseziele",
     "tivatAirport": "Flughafen Tivat",
     "dubrovnikAirport": "Flughafen Dubrovnik"
@@ -406,9 +406,27 @@
     "seoDesc": "Der Flughafen Dubrovnik liegt 60 km nördlich von Kotor, 90 Minuten Fahrt über die Kamenari-Fähre und den Debeli-Brijeg-Übergang. Grüne Karte bereithalten."
   },
   "tivat": {
-    "title": "Mietwagen in Tivat",
-    "subtitle": "Montenegros Hafenstadt an der Bay of Kotor.",
-    "seoDesc": "Tivat liegt 8 km von Kotor, 12 Minuten entlang der Bucht. Porto Montenegro Marina, Fischkonobas am Ufer, Straße auf die Halbinsel Luštica."
+    "label": "Flughafen Tivat",
+    "title": "Anreise über den Flughafen Tivat?",
+    "subtitle": "Tivat ist der nächste Flughafen zu Kotor und der Startpunkt der meisten Mietwagenbuchungen. Übernehmen Sie das Auto am Terminal und Sie sind binnen Minuten auf der Buchtstraße.",
+    "items": {
+      "0": {
+        "title": "8 km bis zur Altstadt",
+        "desc": "Der Flughafen Tivat liegt auf der gegenüberliegenden Buchtseite an der Küstenstraße nach Kotor. Außerhalb der sommerlichen Nachmittags-Stoßzeiten ist die Fahrt unkompliziert und der Verkehr überschaubar."
+      },
+      "1": {
+        "title": "Übergabe am Flughafen",
+        "desc": "Wählen Sie bei der Buchung die Flughafen-Zustellung und der Wagenschlüssel wartet direkt vor der Ankunftshalle. Kein Taxistand, kein separater Transfer nötig."
+      },
+      "2": {
+        "title": "Nord oder Süd ab dem ersten Tag",
+        "desc": "Tivat liegt günstig für beide Küstenrichtungen. Nach Norden in die Bucht von Kotor zu Perast und Richtung Kroatien, oder südlich nach Budva und Sveti Stefan."
+      },
+      "3": {
+        "title": "Alle Buchtstrecken in Reichweite",
+        "desc": "Perast, Risan, die Lovćen-Serpentinen und Cetinje liegen in der Nähe. Schon am Anreisetag können Sie losfahren, ohne Gruppentour."
+      }
+    }
   },
   "montenegro": {
     "title": "Mietwagen & Reiseführer Montenegro",
@@ -569,7 +587,7 @@
     "h4": "Lokales Wissen",
     "p4": "Fragen Sie uns, an welchen Morgen die Kreuzfahrtschiffe anlegen und die Parkplätze der Altstadt überfüllen. Wir sagen Ihnen, dass Sie vor 07:30 kommen oder besser nach Dobrota ausweichen sollten. Fragen Sie nach dem Grat von Vrmac, und wir erklären Ihnen genau, wo Sie das Fahrzeug am Wanderbeginn in der Nähe von Prčanj abstellen. Von den Fahrzeiten der Kamenari-Lepetane-Fähre bis zur ruhigsten Stunde am Grenzübergang Debeli Brijeg, unser Rat entsteht beim täglichen Fahren dieser Straßen, nicht aus einem Reiseführer-Nachdruck. Im Januar, wenn Gäste Kotor mit einem Wochenende in Kolašin verbinden, wissen wir, welche Fahrzeuge sich sauber mit einem Ski- oder Snowboardträger ausstatten lassen und welche das Winter Pack für die Fahrt über die Pässe brauchen.",
     "h5": "Kontaktieren Sie uns",
-    "p5": "WhatsApp, Viber, klassische Telefonate, wählen Sie, was Ihnen passt. Wir antworten schnell, auch in der hektischen Kreuzfahrtsaison im Juli. Stöbern Sie online in der Flotte, sichern Sie sich einen Preis, und wir kümmern uns um alles Weitere. Oder schreiben Sie uns einfach eine Frage zum Parken in der Nähe der Kathedrale, zur besten Straße nach Cetinje oder ob jener Bergpass im Dezember offen ist."
+    "p5": "per E-Mail, klassische Telefonate, wählen Sie, was Ihnen passt. Wir antworten schnell, auch in der hektischen Kreuzfahrtsaison im Juli. Stöbern Sie online in der Flotte, sichern Sie sich einen Preis, und wir kümmern uns um alles Weitere. Oder schreiben Sie uns einfach eine Frage zum Parken in der Nähe der Kathedrale, zur besten Straße nach Cetinje oder ob jener Bergpass im Dezember offen ist."
   },
   "kotorBody": {
     "h1": "Kotor, Welterbe",
@@ -1181,7 +1199,7 @@
     "howWeUse1": "Um Sie mit Mietwagen-Verfügbarkeit und Preisen zu verbinden",
     "howWeUse2": "Um unsere Website und Benutzererfahrung zu verbessern",
     "howWeUse3": "Um zu verstehen, wie Besucher unsere Website nutzen (Analysen)",
-    "howWeUse4": "Um Anfragen per WhatsApp, Viber oder E-Mail zu beantworten",
+    "howWeUse4": "Um Anfragen per E-Mail oder E-Mail zu beantworten",
     "thirdPartyTitle": "Dienste von Drittanbietern",
     "thirdPartyIntro": "Unsere Website nutzt die folgenden Drittanbieter-Dienste:",
     "thirdParty1": "Buchungspartner: Buchungs-Widget für Mietwagen, verarbeitet Ihre Suchanfragen und wickelt sämtliche Buchungen und Zahlungen ab",
@@ -1286,29 +1304,6 @@
     "seoDesc": "Kontaktieren Sie Kotor Car Hire für Angebote, Abholungen an der Kreuzfahrt oder Lieferung am Flughafen Tivat.",
     "heading": "Kontaktieren Sie uns",
     "intro": "Haben Sie eine Frage zur Automiete in Kotor? Kontaktieren Sie uns, und wir helfen Ihnen, das passende Fahrzeug für Ihre Reise zu finden."
-  },
-  "tivat": {
-    "label": "Flughafen Tivat",
-    "title": "Anreise über den Flughafen Tivat?",
-    "subtitle": "Tivat ist der nächste Flughafen zu Kotor und der Startpunkt der meisten Mietwagenbuchungen. Übernehmen Sie das Auto am Terminal und Sie sind binnen Minuten auf der Buchtstraße.",
-    "items": {
-      "0": {
-        "title": "8 km bis zur Altstadt",
-        "desc": "Der Flughafen Tivat liegt auf der gegenüberliegenden Buchtseite an der Küstenstraße nach Kotor. Außerhalb der sommerlichen Nachmittags-Stoßzeiten ist die Fahrt unkompliziert und der Verkehr überschaubar."
-      },
-      "1": {
-        "title": "Übergabe am Flughafen",
-        "desc": "Wählen Sie bei der Buchung die Flughafen-Zustellung und der Wagenschlüssel wartet direkt vor der Ankunftshalle. Kein Taxistand, kein separater Transfer nötig."
-      },
-      "2": {
-        "title": "Nord oder Süd ab dem ersten Tag",
-        "desc": "Tivat liegt günstig für beide Küstenrichtungen. Nach Norden in die Bucht von Kotor zu Perast und Richtung Kroatien, oder südlich nach Budva und Sveti Stefan."
-      },
-      "3": {
-        "title": "Alle Buchtstrecken in Reichweite",
-        "desc": "Perast, Risan, die Lovćen-Serpentinen und Cetinje liegen in der Nähe. Schon am Anreisetag können Sie losfahren, ohne Gruppentour."
-      }
-    }
   },
   "locations": {
     "label": "Abholstellen",

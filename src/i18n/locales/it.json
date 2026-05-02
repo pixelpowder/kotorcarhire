@@ -272,7 +272,7 @@
     "bookTitle": "Prenota la Tua Auto",
     "bookText": "Cerca disponibilità e prezzi in tempo reale in tutto il Montenegro.",
     "helpTitle": "Hai Bisogno di Aiuto?",
-    "helpText": "Il nostro team è disponibile via WhatsApp, Viber o telefono.",
+    "helpText": "Inviaci un'email e ti risponderemo a breve.",
     "popularDest": "Destinazioni Popolari",
     "tivatAirport": "Aeroporto di Tivat",
     "dubrovnikAirport": "Aeroporto di Dubrovnik"
@@ -406,9 +406,27 @@
     "seoDesc": "L'aeroporto di Dubrovnik dista 60 km a nord di Kotor, 90 minuti via traghetto Kamenari e confine di Debeli Brijeg. Carta verde pronta al valico."
   },
   "tivat": {
-    "title": "Noleggio Auto a Tivat",
-    "subtitle": "La città marina del Montenegro sulle Bocche di Kotor.",
-    "seoDesc": "Tivat dista 8 km da Kotor, 12 minuti di guida lungo la baia. Marina di Porto Montenegro, konobe di pesce sul lungomare e la strada per Luštica."
+    "label": "Aeroporto di Tivat",
+    "title": "Arrivi all'aeroporto di Tivat?",
+    "subtitle": "Tivat è l'aeroporto più vicino a Kotor e il punto di partenza della maggior parte dei noleggi. Ritira l'auto al terminal e in pochi minuti sei sulla strada della baia.",
+    "items": {
+      "0": {
+        "title": "8 km dalla Città Vecchia",
+        "desc": "L'aeroporto di Tivat si trova sull'altro lato della baia, sulla strada costiera che porta a Kotor. Fuori dai picchi pomeridiani estivi il tragitto è semplice e il traffico resta scorrevole."
+      },
+      "1": {
+        "title": "Consegna in aeroporto",
+        "desc": "Seleziona la consegna in aeroporto al momento della prenotazione e le chiavi ti vengono consegnate davanti agli arrivi. Niente fila taxi, niente transfer da organizzare a parte."
+      },
+      "2": {
+        "title": "Nord o sud fin dal primo giorno",
+        "desc": "Tivat è ben posizionata in entrambe le direzioni della costa. Verso nord la Baia di Kotor con Perast e poi la Croazia, verso sud Budva e Sveti Stefan."
+      },
+      "3": {
+        "title": "Tutta la baia a portata di mano",
+        "desc": "Perast, Risan, i tornanti del Lovćen e Cetinje sono tutti nelle vicinanze. Il giorno stesso dell'arrivo puoi già metterti in viaggio, senza tour di gruppo."
+      }
+    }
   },
   "montenegro": {
     "title": "Noleggio Auto e Guida Viaggio Montenegro",
@@ -569,7 +587,7 @@
     "h4": "Conoscenza locale",
     "p4": "Ci chieda in quali mattine attraccano le navi da crociera e saturano i parcheggi della città vecchia. Le diremo di arrivare prima delle 07:30 o di dirigersi piuttosto a Dobrota. Ci chieda del sentiero sul crinale del Vrmac e Le spiegheremo esattamente dove lasciare l'auto all'imbocco vicino a Prčanj. Dagli orari del traghetto Kamenari-Lepetane all'ora più tranquilla al valico di confine di Debeli Brijeg, i nostri consigli nascono dal guidare quotidianamente queste strade, non dalla ristampa di una guida. A gennaio, quando gli ospiti abbinano Kotor a un weekend a Kolašin, sappiamo quali auto accolgono pulite un portasci o portasnowboard e quali hanno bisogno del Winter Pack per affrontare i passi.",
     "h5": "Contattaci",
-    "p5": "WhatsApp, Viber, le classiche telefonate, scelga Lei. Rispondiamo rapidamente, anche nella frenetica stagione delle crociere di luglio. Scorra la flotta online, blocchi un prezzo, e pensiamo noi a tutto il resto. Oppure ci scriva semplicemente una domanda sul parcheggio vicino alla Cattedrale, sulla strada migliore per Cetinje o se quel passo di montagna è aperto a dicembre."
+    "p5": "via email, le classiche telefonate, scelga Lei. Rispondiamo rapidamente, anche nella frenetica stagione delle crociere di luglio. Scorra la flotta online, blocchi un prezzo, e pensiamo noi a tutto il resto. Oppure ci scriva semplicemente una domanda sul parcheggio vicino alla Cattedrale, sulla strada migliore per Cetinje o se quel passo di montagna è aperto a dicembre."
   },
   "kotorBody": {
     "h1": "Kotor, Patrimonio Mondiale dell'UNESCO",
@@ -1181,7 +1199,7 @@
     "howWeUse1": "Per mettervi in contatto con disponibilità e prezzi di noleggio",
     "howWeUse2": "Per migliorare il sito e l'esperienza utente",
     "howWeUse3": "Per comprendere come i visitatori utilizzano il sito (analisi)",
-    "howWeUse4": "Per rispondere alle richieste via WhatsApp, Viber o email",
+    "howWeUse4": "Per rispondere alle richieste via email o email",
     "thirdPartyTitle": "Servizi di terze parti",
     "thirdPartyIntro": "Il nostro sito utilizza i seguenti servizi di terze parti:",
     "thirdParty1": "Partner di prenotazione: widget di prenotazione del noleggio auto, elabora le tue ricerche e gestisce tutte le prenotazioni e i pagamenti",
@@ -1286,29 +1304,6 @@
     "seoDesc": "Contatta Kotor Car Hire per preventivi, ritiri da crociera, o consegna all'Aeroporto di Tivat.",
     "heading": "Contattaci",
     "intro": "Hai una domanda sul noleggio auto a Kotor? Contattaci e ti aiuteremo a trovare il veicolo perfetto per il tuo viaggio."
-  },
-  "tivat": {
-    "label": "Aeroporto di Tivat",
-    "title": "Arrivi all'aeroporto di Tivat?",
-    "subtitle": "Tivat è l'aeroporto più vicino a Kotor e il punto di partenza della maggior parte dei noleggi. Ritira l'auto al terminal e in pochi minuti sei sulla strada della baia.",
-    "items": {
-      "0": {
-        "title": "8 km dalla Città Vecchia",
-        "desc": "L'aeroporto di Tivat si trova sull'altro lato della baia, sulla strada costiera che porta a Kotor. Fuori dai picchi pomeridiani estivi il tragitto è semplice e il traffico resta scorrevole."
-      },
-      "1": {
-        "title": "Consegna in aeroporto",
-        "desc": "Seleziona la consegna in aeroporto al momento della prenotazione e le chiavi ti vengono consegnate davanti agli arrivi. Niente fila taxi, niente transfer da organizzare a parte."
-      },
-      "2": {
-        "title": "Nord o sud fin dal primo giorno",
-        "desc": "Tivat è ben posizionata in entrambe le direzioni della costa. Verso nord la Baia di Kotor con Perast e poi la Croazia, verso sud Budva e Sveti Stefan."
-      },
-      "3": {
-        "title": "Tutta la baia a portata di mano",
-        "desc": "Perast, Risan, i tornanti del Lovćen e Cetinje sono tutti nelle vicinanze. Il giorno stesso dell'arrivo puoi già metterti in viaggio, senza tour di gruppo."
-      }
-    }
   },
   "locations": {
     "label": "Punti di ritiro",
