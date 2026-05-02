@@ -496,7 +496,7 @@ const HOMEPAGE_BOOKING_CARS = [
   { id: 131035, name: 'Kia Stonic',           category: 'Crossover', siteSlug: 'kia-stonic' },
   { id: 74121,  name: 'Peugeot 2008',         category: 'SUV',       image: '/img/fleet/peugeot-2008.jpg' },
   { id: 52579,  name: 'Renault Kadjar',       category: 'SUV',       image: '/img/fleet/renault-kadjar.jpg' },
-  { id: 84393,  name: 'Dacia Sandero Stepway',category: 'Crossover', image: '/img/fleet/dacia-sandero-stepway.jpg' },
+  { id: 84393,  name: 'Dacia Sandero Stepway',category: 'Crossover', image: 'https://images.pexels.com/photos/14607284/pexels-photo-14607284.jpeg?auto=compress&cs=tinysrgb&w=900&h=600&fit=crop' },
   { id: 2621,   name: 'VW Touran',            category: 'Van',       image: '/img/fleet/vw-touran.jpg' },
   { id: 8860,   name: 'Citroen C4 Picasso',   category: 'MPV',       image: '/img/fleet/citroen-c4-picasso.jpg' },
 ];
