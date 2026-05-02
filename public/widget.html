@@ -11,49 +11,201 @@
   <style>
     :root, html { color-scheme: light only; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    html, body { background: #fff; color: #333; }
+    html, body { background: #fff; color: #333; min-height: 100%; }
     @media (prefers-color-scheme: dark) {
       html, body { background-color: #fff !important; color: #333 !important; }
     }
-    /* Hide widget promotional sections — use exact classes only, avoid wildcards that break car detail modals */
+    /* Hide widget promotional sections */
     .featuring-cool-cars,
     .highlight-container { display: none !important; height: 0 !important; overflow: hidden !important; visibility: hidden !important; }
-
-    /* Fix for car detail lightbox — slides collapse to 0 height in iframe without explicit height */
-    .booking__lightbox { min-height: 600px !important; }
-    .booking__lightbox__gallery,
-    .booking__lightbox__gallery .swiper-wrapper { height: 100% !important; min-height: 500px !important; }
-    .booking__lightbox__gallery .swiper-slide {
-      height: auto !important;
-      min-height: 500px !important;
-      display: flex !important;
-      align-items: center !important;
-      justify-content: center !important;
-    }
-    .booking__lightbox__gallery .swiper-zoom-container {
-      width: 100% !important;
+    /* When LocalRent opens any modal it adds .mrc-lock-scroll or .mrc-no-scroll
+       to body. Lock body overflow — html overflow is locked via JS below
+       since :has() support varies. */
+    body.mrc-lock-scroll,
+    body.mrc-no-scroll {
+      overflow: hidden !important;
       height: 100% !important;
-      display: flex !important;
-      align-items: center !important;
-      justify-content: center !important;
     }
-    .booking__lightbox__gallery img {
-      max-height: 80vh !important;
-      max-width: 100% !important;
-      width: auto !important;
-      height: auto !important;
-      object-fit: contain !important;
-      display: block !important;
+    /* Make sure children of action bar (Reset link + View cars button) are
+       visible at narrow widths — LocalRent sometimes hides Reset on mobile. */
+    .search_buttons > *,
+    [class*="search_buttons"] > * {
+      display: inline-flex !important;
+      visibility: visible !important;
+    }
+    /* Prevent horizontal scroll on the iframe — clip only at root level
+       (html, body) so no element can extend the page past viewport. */
+    @media (max-width: 768px) {
+      html, body {
+        overflow-x: hidden !important;
+        max-width: 100vw !important;
+      }
+    }
+    /* Hide scrollbar visually while keeping scroll functionality. The
+       vertical scrollbar was eating ~12px of width on the right, making
+       content look off-center (asymmetric left/right spacing). */
+    html, body { scrollbar-width: none !important; -ms-overflow-style: none !important; }
+    html::-webkit-scrollbar,
+    body::-webkit-scrollbar { display: none !important; width: 0 !important; height: 0 !important; }
+    /* Hard CSS overrides for LocalRent's teal-green that leaks through
+       external stylesheets (the recolour script only catches <style> tags).
+       Replace any green border/color/background with our navy. */
+    :root, html, body {
+      --primary: rgb(27, 58, 92) !important;
+      --primary-color: rgb(27, 58, 92) !important;
+      --primary-text: rgb(27, 58, 92) !important;
+      --accent: rgb(27, 58, 92) !important;
+      --accent-color: rgb(27, 58, 92) !important;
+      --green: rgb(27, 58, 92) !important;
+      --color-primary: rgb(27, 58, 92) !important;
+      --color-accent: rgb(27, 58, 92) !important;
+      --localrent-primary: rgb(27, 58, 92) !important;
+      --localrent-green: rgb(27, 58, 92) !important;
+      --teal: rgb(27, 58, 92) !important;
+      --brand: rgb(27, 58, 92) !important;
+    }
+    .link-dashed,
+    .booking__show-all,
+    .gps-journal-link,
+    .booking__show-map,
+    .vue-slider-dot-handle,
+    [class*="link-dashed"],
+    .vehicle-card-insurance__price,
+    [class*="vehicle-card-insurance__price"],
+    .vehicle-card-info__no-credit-card,
+    [class*="no-credit-card"] {
+      border-color: rgb(27, 58, 92) !important;
+      color: rgb(27, 58, 92) !important;
+    }
+    /* Search bar outline pills (date range + Filters button).
+       Nuke ALL outlines/box-shadows/borders regardless of colour so no
+       green focus ring or wrapper outline can leak through, no matter
+       which class LocalRent applies it to. */
+    .search-cigarette,
+    .search-cigarette__wrap,
+    .search-cigarette__row,
+    .search-cigarette__calendar,
+    .search-cigarette__calendar:hover,
+    .search-cigarette__calendar:focus,
+    .search-cigarette__calendar:focus-visible,
+    .search-cigarette__calendar:focus-within,
+    .search-cigarette__place-time,
+    .search-cigarette__place-time:focus,
+    .search-cigarette__place-time:focus-visible,
+    .search-cigarette__place-time:focus-within,
+    .search-filters,
+    .search-filters:focus,
+    .search-filters:focus-visible,
+    .search-filters:focus-within,
+    .date-range,
+    [class*="search-cigarette"],
+    [class*="search-filters"],
+    [class*="date-range"] {
+      outline: none !important;
+      outline-color: transparent !important;
+      box-shadow: none !important;
+      border-color: rgba(255, 255, 255, 0.12) !important;
+    }
+    .search-filters__wrap,
+    .search-filters__wrap:hover,
+    .search-filters__wrap:focus {
+      background: rgb(5, 32, 60) !important;
+      border-color: rgba(255, 255, 255, 0.2) !important;
+      color: #fff !important;
+    }
+    /* Match any element with green inline style */
+    [style*="rgb(25, 168, 128)"],
+    [style*="rgb(39, 199, 154)"],
+    [style*="#19a880"],
+    [style*="#27c79a"] {
+      border-color: rgb(27, 58, 92) !important;
+      color: rgb(27, 58, 92) !important;
+      background-color: rgb(27, 58, 92) !important;
+    }
+    /* "Free of charge" green text inside insurance card */
+    .insurance-card__price-free,
+    [class*="price-free"],
+    [class*="free-of-charge"],
+    .vehicle-card-insurance__price,
+    [class*="vehicle-card-insurance__price"] {
+      color: rgb(27, 58, 92) !important;
+      border-color: rgb(27, 58, 92) !important;
+    }
+    /* Filter modal header — same white "Filters | X" treatment on all
+       screen sizes (mobile + desktop) so the modal has a consistent header. */
+    body.mrc-lock-scroll .search-filters__wrap {
+      background: #fff !important;
+      color: rgb(5, 32, 60) !important;
+      border-bottom: 1px solid #e7e8ea !important;
+    }
+    /* Mobile: pin header to viewport top, float action bar at bottom
+       (LocalRent's mobile pattern). Desktop uses native centred panel. */
+    @media (max-width: 768px) {
+      body.mrc-lock-scroll .search-filters__wrap {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        z-index: 2003 !important;
+        height: 54px !important;
+        min-height: 54px !important;
+        max-height: 54px !important;
+        padding: 0 0 0 16px !important;
+      }
+      body.mrc-lock-scroll .search-filters__footer,
+      body.mrc-lock-scroll [class*="search-filters__footer"],
+      body.mrc-lock-scroll .search_buttons,
+      body.mrc-lock-scroll [class*="search_buttons"] {
+        position: fixed !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        top: auto !important;
+        z-index: 2002 !important;
+        background: #fff !important;
+        padding: 12px 16px calc(12px + env(safe-area-inset-bottom, 0px)) !important;
+        box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.08) !important;
+        display: flex !important;
+        gap: 12px !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+      }
+      body.mrc-lock-scroll .view-cars-btn {
+        position: static !important;
+        flex: 1 1 auto !important;
+        top: auto !important;
+        bottom: auto !important;
+        left: auto !important;
+        right: auto !important;
+      }
+      body.mrc-lock-scroll .settings__popup-inner {
+        /* 54px header overlap from top of modal panel which sits at popup-outer
+           top:54 — content starts directly below header at 0 + small breath. */
+        padding: 8px 14px 96px !important;
+      }
     }
   </style>
   <script>
-    // Intercept widget style injections and recolour green → navy/blue
-    const NAVY  = '#05203c';
+    // Recolour widget greens to site navy/blue.
     const BLUE  = '#1B3A5C';
-    const LIGHT = '#E8EEF5';
-
-    // Colours to replace (widget greens)
     const replacements = [
+      // LocalRent's actual primary teal-green is rgb(25, 168, 128) = #19a880
+      // and accent rgb(39, 199, 154) = #27c79a
+      [/#19a880/gi, BLUE],
+      [/#27c79a/gi, BLUE],
+      [/rgb\(25,\s*168,\s*128\)/gi, 'rgb(27,58,92)'],
+      [/rgb\(39,\s*199,\s*154\)/gi, 'rgb(27,58,92)'],
+      [/rgba\(25,\s*168,\s*128,/gi, 'rgba(27,58,92,'],
+      [/rgba\(39,\s*199,\s*154,/gi, 'rgba(27,58,92,'],
+      // "Free of charge" green (#0dad36 / rgb(13, 173, 54))
+      [/#0dad36/gi, BLUE],
+      [/rgb\(13,\s*173,\s*54\)/gi, 'rgb(27,58,92)'],
+      [/rgba\(13,\s*173,\s*54,/gi, 'rgba(27,58,92,'],
+      // Lighter teal #82dbc2 / rgb(130, 219, 194) on no-credit-card pill
+      [/#82dbc2/gi, BLUE],
+      [/rgb\(130,\s*219,\s*194\)/gi, 'rgb(27,58,92)'],
+      [/rgba\(130,\s*219,\s*194,/gi, 'rgba(27,58,92,'],
+      // Older/alt LocalRent greens (kept defensively)
       [/#39b54a/gi, BLUE],
       [/#4caf50/gi, BLUE],
       [/#00a651/gi, BLUE],
@@ -65,13 +217,11 @@
       [/rgba\(57,\s*181,\s*74,/gi,  'rgba(27,58,92,'],
       [/rgba\(76,\s*175,\s*80,/gi,  'rgba(27,58,92,'],
     ];
-
     function recolour(css) {
       let out = css;
       for (const [from, to] of replacements) out = out.replace(from, to);
       return out;
     }
-
     function patchStyle(el) {
       if (el._mrcPatched) return;
       el._mrcPatched = true;
@@ -79,11 +229,7 @@
       const patched  = recolour(original);
       if (patched !== original) el.textContent = patched;
     }
-
-    // Patch existing style tags
     document.querySelectorAll('style').forEach(patchStyle);
-
-    // Patch future style tags
     new MutationObserver(mutations => {
       for (const m of mutations) {
         for (const node of m.addedNodes) {
@@ -92,6 +238,146 @@
         }
       }
     }).observe(document.documentElement, { childList: true, subtree: true });
+
+    // Lock html overflow when LocalRent opens any modal so the iframe-element
+    // scrollbar disappears. Direct JS for reliability across browsers.
+    new MutationObserver(() => {
+      const locked = document.body.classList.contains('mrc-lock-scroll')
+                  || document.body.classList.contains('mrc-no-scroll');
+      document.documentElement.style.overflow = locked ? 'hidden' : '';
+      document.documentElement.style.height   = locked ? '100%'   : '';
+    }).observe(document.documentElement, {
+      subtree: true, attributes: true, attributeFilter: ['class']
+    });
+
+    // Colour-detecting nuke for the green ring. Targeted-class CSS keeps
+    // losing because LocalRent has many wrapper variants and some greens
+    // come through external stylesheets that the recolour script doesn't
+    // touch. Instead: walk every element, read its computed styles, and if
+    // any border/outline/box-shadow colour is green-ish, force inline
+    // overrides (inline !important always beats external CSS).
+    const NAVY_BORDER = 'rgba(255, 255, 255, 0.12)';
+    function isGreenish(color) {
+      if (!color) return false;
+      const m = color.match(/rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/);
+      if (!m) return false;
+      const r = +m[1], g = +m[2], b = +m[3];
+      // Skip black / white / grey / fully-transparent.
+      if (r === g && g === b) return false;
+      if (color.includes('rgba') && /,\s*0\s*\)$/.test(color)) return false;
+      // Green dominant: g clearly larger than r and at least competitive
+      // with b. Catches LocalRent's teal-greens (25,168,128), (39,199,154),
+      // (13,173,54), (130,219,194), and similar.
+      return g > 100 && g > r + 20 && g >= b - 40;
+    }
+    function nukeIfGreen(el) {
+      if (!el || !el.style || el.nodeType !== 1) return;
+      // Idempotency guard: once we've nuked this element, don't re-process.
+      // Tooltip glitch fix — without this, hovering the "?" help triggers
+      // caused our sweep to write inline styles every frame as the tooltip
+      // animated, fighting its fade-in transition.
+      if (el._mrcNuked) return;
+      const cs = window.getComputedStyle(el);
+      let touched = false;
+      const borderGreen =
+        isGreenish(cs.borderTopColor) || isGreenish(cs.borderRightColor) ||
+        isGreenish(cs.borderBottomColor) || isGreenish(cs.borderLeftColor);
+      if (borderGreen) {
+        el.style.setProperty('border-color', NAVY_BORDER, 'important');
+        touched = true;
+      }
+      if (isGreenish(cs.outlineColor)) {
+        el.style.setProperty('outline', 'none', 'important');
+        el.style.setProperty('outline-color', 'transparent', 'important');
+        touched = true;
+      }
+      if (cs.boxShadow && cs.boxShadow !== 'none') {
+        const colors = cs.boxShadow.match(/rgba?\([^)]+\)/g) || [];
+        if (colors.some(isGreenish)) {
+          el.style.setProperty('box-shadow', 'none', 'important');
+          touched = true;
+        }
+      }
+      // Background-color: .search-cigarette__pinned uses #19a880 here.
+      if (isGreenish(cs.backgroundColor)) {
+        // Brand-filter chips (Mercedes/VW/etc) need a *light* replacement
+        // so the dark logo on top still reads — using navy would give a
+        // dark logo on a dark chip. Walk up looking for a "brand" parent.
+        let bgReplace = 'rgb(5, 32, 60)';
+        let p = el;
+        for (let i = 0; i < 6 && p; i++) {
+          const cn = typeof p.className === 'string' ? p.className
+                    : (p.className && p.className.baseVal) || '';
+          if (/brand/i.test(cn)) { bgReplace = '#f0f1f3'; break; }
+          p = p.parentElement;
+        }
+        el.style.setProperty('background-color', bgReplace, 'important');
+        touched = true;
+      }
+      if (touched) el._mrcNuked = true;
+    }
+    let sweepScheduled = false;
+    function sweepGreen() {
+      if (sweepScheduled) return;
+      sweepScheduled = true;
+      requestAnimationFrame(() => {
+        sweepScheduled = false;
+        document.querySelectorAll('*').forEach(nukeIfGreen);
+      });
+    }
+    // JS-based pointer-events enforcer for the "?" tooltip triggers.
+    // CSS-only kept losing — LocalRent uses Vue scoped styles ([data-v-XXX]
+    // attribute selectors) which are higher specificity than our class
+    // selectors. Inline !important via setProperty always wins.
+    function fixTooltipHover() {
+      document.querySelectorAll('.mrc-tooltip, .booking__info_btn, [class*="mrc-tooltip"], [class*="booking__info_btn"]').forEach(wrap => {
+        if (wrap._mrcHover) return;
+        wrap.style.setProperty('pointer-events', 'auto', 'important');
+        wrap.style.setProperty('display', 'inline-block', 'important');
+        wrap.querySelectorAll('svg, svg *').forEach(child => {
+          child.style.setProperty('pointer-events', 'none', 'important');
+        });
+        wrap._mrcHover = true;
+      });
+    }
+    // JS-based fill override for brand-chip svg paint. CSS rules on
+    // .brand-filter__icon path/rect are losing to Vue's scoped variant
+    // (.brand-filter__icon[data-v-XXX] path), so set inline !important
+    // on each path/rect — that always wins regardless of specificity.
+    function fixBrandIcons() {
+      document.querySelectorAll('.brand-filter__icon, [class*="brand-filter__icon"]').forEach(svg => {
+        svg.querySelectorAll('rect').forEach(r => {
+          if (r._mrcBrandRect) return;
+          // Only overwrite rects that originally had a fill — leave the
+          // stroke-only border rects alone so the white outline stays.
+          if (r.getAttribute('fill') && r.getAttribute('fill') !== 'none') {
+            r.style.setProperty('fill', '#f0f1f3', 'important');
+          }
+          r._mrcBrandRect = true;
+        });
+        svg.querySelectorAll('path').forEach(p => {
+          if (p._mrcBrandPath) return;
+          p.style.setProperty('fill', '#353E4E', 'important');
+          p.style.setProperty('fill-opacity', '0.85', 'important');
+          p._mrcBrandPath = true;
+        });
+      });
+    }
+    sweepGreen();
+    fixTooltipHover();
+    fixBrandIcons();
+    // Watch class changes and DOM additions only — NOT the 'style' attribute.
+    // Our own inline-style writes are themselves attribute mutations; if we
+    // observed them, every write would re-trigger the sweep, causing the
+    // tooltip-glitch loop on hover.
+    new MutationObserver(() => {
+      sweepGreen();
+      fixTooltipHover();
+      fixBrandIcons();
+    }).observe(document.documentElement, {
+      childList: true, subtree: true, attributes: true,
+      attributeFilter: ['class']
+    });
   </script>
 </head>
 <body>
@@ -109,10 +395,9 @@
       script.setAttribute('data-marker',   'kotorcarrental');
       script.setAttribute('data-country',  '133');
       script.setAttribute('data-city',     cityId);
-      script.setAttribute('data-routing',  'on');
+      script.setAttribute('data-routing',  'off');
       script.setAttribute('data-zindex',   '100');
       script.setAttribute('data-locale',   widgetLang);
-      // Try every possible date attribute the widget might read
       const dateFrom = _params.get('date_from');
       const dateTo = _params.get('date_to');
       const timeFrom = _params.get('time_from') || '10:00';
@@ -133,41 +418,31 @@
       }
       document.body.appendChild(script);
 
-      // Inject dates into Vue store — try multiple approaches
+      // Inject dates into the widget's Vue store on init.
       if (dateFrom && dateTo) {
         var attempts = 0;
         var earlyPoll = setInterval(function() {
           attempts++;
-          if (attempts > 200) { clearInterval(earlyPoll); return; } // 10s timeout
-
+          if (attempts > 200) { clearInterval(earlyPoll); return; }
           var vue = null;
           for (var el of document.querySelectorAll('*')) {
             if (el.__vue__ && el.__vue__.$store) { vue = el.__vue__; break; }
           }
           if (!vue) return;
-
           var store = vue.$store;
           var state = store.state;
-
-          // Approach 1: Set filtersDate directly
           if (state.filtersDate) {
             state.filtersDate.pickupDate = dateFrom;
             state.filtersDate.dropoffDate = dateTo;
           }
-
-          // Approach 2: Set calendar defaults
           if (state.calendar) {
             state.calendar.defaultPickup = dateFrom;
             state.calendar.defaultDropoff = dateTo;
           }
-
-          // Approach 3: Try all known commit mutations
           try { store.commit('setSelectedDates', true); } catch(e) {}
           try { store.commit('SET_FILTERS_DATE', { pickupDate: dateFrom, dropoffDate: dateTo }); } catch(e) {}
           try { store.commit('setFiltersDate', { pickupDate: dateFrom, dropoffDate: dateTo }); } catch(e) {}
           try { store.commit('filters/setDate', { pickupDate: dateFrom, dropoffDate: dateTo }); } catch(e) {}
-
-          // Approach 4: Set calendar component dates
           var calEl = document.querySelector('.search-cigarette__calendar');
           while (calEl) {
             var v = calEl.__vue__;
@@ -177,12 +452,8 @@
             }
             calEl = calEl.parentElement;
           }
-
-          // Approach 5: Dispatch action to trigger search with new dates
           try { store.dispatch('fetchCars'); } catch(e) {}
           try { store.dispatch('search/fetchCars'); } catch(e) {}
-
-          // Keep polling a few more times in case widget overwrites our values
           if (attempts < 20) return;
           clearInterval(earlyPoll);
         }, 50);
@@ -190,153 +461,37 @@
     })();
   </script>
   <script>
-    // Auto-resize — use body height to avoid counting invisible overflow.
-    // ResizeObserver alone doesn't reliably catch the LocalRent widget's
-    // initial render in some browsers/timing — so we also MutationObserver the
-    // body subtree and poll until the height stabilises. This guarantees the
-    // parent gets a correct iframeHeight without manual intervention.
-    let _lastH = 0;
-    function sendHeight() {
-      const h = document.body.offsetHeight || document.documentElement.scrollHeight;
-      if (h !== _lastH) {
-        _lastH = h;
-        window.parent.postMessage({ type: 'iframeHeight', height: h }, '*');
-      }
-    }
-    new ResizeObserver(sendHeight).observe(document.body);
-    new MutationObserver(sendHeight).observe(document.body, {
-      childList: true, subtree: true, attributes: true,
-      attributeFilter: ['style', 'class']
-    });
-    // Polling fallback — covers the case where LocalRent's Vue render doesn't
-    // mutate body in a way the observers see (eg. canvas-style updates).
-    let _polls = 0;
-    const _pollIv = setInterval(() => {
-      sendHeight();
-      _polls++;
-      // After 30s slow the poll way down — the widget should be stable by then.
-      if (_polls === 60) {
-        clearInterval(_pollIv);
-        setInterval(sendHeight, 2000);
-      }
-    }, 500);
-
-    // Filter modal wheel-scroll fix: when wheel occurs over the filter
-    // modal, directly scroll its inner element. Works around LocalRent's
-    // modal scroll behaviour breaking inside an iframe.
-    window.addEventListener('wheel', (e) => {
-      const inner = document.querySelector('.settings__popup-inner.search-filters__inner, .settings__popup-outer');
-      if (!inner) return;
-      if (!inner.contains(e.target) && e.target !== inner) return;
-      let scrollable = e.target;
-      while (scrollable && scrollable !== document.body) {
-        const s = getComputedStyle(scrollable);
-        if ((s.overflowY === 'auto' || s.overflowY === 'scroll') && scrollable.scrollHeight > scrollable.clientHeight) {
-          break;
-        }
-        scrollable = scrollable.parentElement;
-      }
-      if (scrollable && scrollable !== document.body) {
-        scrollable.scrollTop += e.deltaY;
-        e.preventDefault();
-      }
-    }, { passive: false });
-
-    // Filter modal white-space fix: when modal opens, force the modal panel
-    // height to match its actual content (so empty space below content is
-    // collapsed). Uses ResizeObserver on the .filters grid to track content
-    // size and update the panel ancestor heights.
-    function fitFilterModalToContent() {
-      const filters = document.querySelector('.settings__popup-inner.search-filters__inner .filters');
-      const inner = document.querySelector('.settings__popup-inner.search-filters__inner');
-      const outer = document.querySelector('.settings__popup-outer');
-      if (!filters || !inner || !outer) return;
-      const contentH = filters.scrollHeight;
-      const viewportH = window.innerHeight;
-      const target = Math.min(contentH + 20, viewportH);
-      inner.style.maxHeight = target + 'px';
-      inner.style.height = 'auto';
-      outer.style.maxHeight = target + 'px';
-      outer.style.height = 'auto';
-    }
-    let filterRO = null;
-    function startFilterFit() {
-      const filters = document.querySelector('.settings__popup-inner.search-filters__inner .filters');
-      if (!filters || filterRO) return;
-      filterRO = new ResizeObserver(fitFilterModalToContent);
-      filterRO.observe(filters);
-      fitFilterModalToContent();
-    }
-    function stopFilterFit() {
-      if (filterRO) { filterRO.disconnect(); filterRO = null; }
-    }
-    // Intercept "Back to top" click and scroll the PARENT page (not just
-    // the iframe content) so user actually returns to top of the visible page.
-    window.addEventListener('click', (e) => {
-      const t = e.target;
-      if (!t) return;
-      const txt = (t.textContent || '').trim().toLowerCase();
-      const isBackToTop = txt === 'back to top'
-        || (t.closest && t.closest('[class*="back-to-top"], [class*="scroll-top"], [class*="back_to_top"]'));
-      if (!isBackToTop) return;
-      e.preventDefault();
-      e.stopPropagation();
-      try {
-        window.parent.scrollTo({ top: 0, behavior: 'smooth' });
-      } catch (err) {
-        try { window.parent.scrollTo(0, 0); } catch (e2) {}
-      }
-    }, true);
-
-    let lastFilterOpen = false;
-    new MutationObserver(() => {
-      const open = isFilterModalOpen();
-      if (open === lastFilterOpen) return;
-      lastFilterOpen = open;
-      if (open) {
-        startFilterFit();
-      } else {
-        stopFilterFit();
-      }
-      // Force iframe height update — body resize won't trigger ResizeObserver
-      // since body has overflow:hidden when modal-locked.
-      // Note: do NOT postMessage lightboxOpen here — that's reserved for the
-      // booking__lightbox (car photo gallery) which needs fullscreen iframe.
-      // The filter modal is handled via sendHeight=viewport + sticky action bar.
-      sendHeight();
-    }).observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['style', 'class'] });
-
-    // When lightbox opens, tell parent to make iframe fullscreen-fixed so modal is in viewport
-    new MutationObserver((mutations) => {
-      for (const m of mutations) {
-        for (const node of m.addedNodes) {
-          if (node.nodeType !== 1) continue;
-          const lightbox = node.classList?.contains('booking__lightbox')
-            ? node
-            : node.querySelector?.('.booking__lightbox');
-          if (lightbox) {
-            window.parent.postMessage({ type: 'lightboxOpen' }, '*');
-          }
-        }
-        for (const node of m.removedNodes) {
-          if (node.nodeType !== 1) continue;
-          if (node.classList?.contains('booking__lightbox')) {
-            window.parent.postMessage({ type: 'lightboxClose' }, '*');
-          }
-        }
-      }
-    }).observe(document.body, { childList: true, subtree: true });
-    window.addEventListener('load', sendHeight);
-
-    // Inject brand overrides after widget CSS loads
+    // Inject brand overrides after widget CSS loads.
     const _p = new URLSearchParams(window.location.search);
     const hideSearch = _p.get('hide_search') === '1';
     const BRAND_CSS = `
       ${hideSearch ? '.search-cigarette, .search-cigarette__wrap, .search-filters, .search-filters__wrap { display: none !important; }' : ''}
-      /* Search bar — match nav exactly */
       .search-cigarette,
       .search-cigarette__wrap,
-      .search-cigarette__row { background: rgb(5, 32, 60) !important; }
+      .search-cigarette__row,
+      .search-cigarette__pinned,
+      [class*="search-cigarette__pinned"] { background: rgb(5, 32, 60) !important; }
+      /* Match LocalRent's natural content width — they centre everything
+         in a ~1180px container. Without this the iframe stretches its
+         children edge-to-edge on wide viewports, which is why the search
+         bar / car list / car detail look wider than LocalRent's own site. */
+      .search-cigarette__row,
+      .search-cigarette__inner,
+      .search-filters,
+      .search-filters__wrap,
+      [class*="search-results"],
+      [class*="vehicles-grid"],
+      [class*="vehicle-list"],
+      [class*="vehicle-card-detail"],
+      [class*="settings__popup-inner"],
+      .container,
+      .wrapper,
+      [class*="page-container"],
+      [class*="main-container"] {
+        max-width: 1180px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
       .search-cigarette__city,
       .search-cigarette__calendar,
       .search-cigarette__place-time { border-color: rgba(255,255,255,0.12) !important; }
@@ -346,7 +501,42 @@
       .search-place-time { color: #fff !important; }
       .search-cigarette__placeholder { color: rgba(255,255,255,0.55) !important; }
       .search-filters,
-      .search-filters__wrap { border-color: rgba(255,255,255,0.2) !important; color: #fff !important; background: rgb(5, 32, 60) !important; }
+      .search-filters__wrap { border-color: rgba(255,255,255,0.2) !important; color: rgba(255,255,255,0.7) !important; background: rgb(5, 32, 60) !important; }
+      /* Make the "Filters" text match the filter icon by forcing both to
+         currentColor — the parent .search-filters sets the colour above
+         and both children (svg + .settings__choice span) inherit it, so
+         they're guaranteed identical regardless of any LocalRent rules. */
+      .search-filters svg,
+      .search-filters__wrap svg,
+      [class*="search-filters"] svg,
+      .search-filters .settings__icon,
+      .search-filters__wrap .settings__icon {
+        color: currentColor !important;
+        fill: currentColor !important;
+        stroke: currentColor !important;
+      }
+      .search-filters .settings__choice,
+      .search-filters__wrap .settings__choice,
+      [class*="search-filters"] .settings__choice {
+        color: currentColor !important;
+      }
+      /* When the filter modal is open, the .search-filters__wrap becomes the
+         modal HEADER ("Filters" + X close). Style it like LocalRent's native
+         modal header — white background, dark text — instead of the navy
+         search-bar trigger styling. */
+      body.mrc-lock-scroll .search-filters,
+      body.mrc-lock-scroll .search-filters__wrap {
+        background: #fff !important;
+        color: rgb(5, 32, 60) !important;
+        border-color: #e7e8ea !important;
+        border-bottom: 1px solid #e7e8ea !important;
+      }
+      body.mrc-lock-scroll .search-filters svg,
+      body.mrc-lock-scroll .search-filters__wrap svg {
+        color: rgb(5, 32, 60) !important;
+        fill: rgb(5, 32, 60) !important;
+        stroke: rgb(5, 32, 60) !important;
+      }
       .search-cigarette__calendar { background: #fff !important; border-radius: 8px; }
       .search-calendar,
       .search-calendar__date,
@@ -358,8 +548,6 @@
       .date-range__dash,
       .search-cigarette__calendar .search-cigarette__trigger,
       .search-cigarette__calendar .search-cigarette__placeholder { color: rgb(5, 32, 60) !important; }
-
-      /* Calendar selected range — fix invisible white-on-white text */
       .calendar-day.calendar-highlighted {
         background: rgba(27,58,92,0.12) !important;
         color: rgb(5, 32, 60) !important;
@@ -368,21 +556,13 @@
         background: rgb(27,58,92) !important;
         color: #fff !important;
       }
-
-      /* Low deposit badge — wildcard to beat inline styles */
       .product-sticker--low-deposit,
       [class*="low-deposit"] { background: rgb(27,58,92) !important; color: #fff !important; border-color: rgb(27,58,92) !important; }
-
-      /* Buttons */
       .button { background: rgb(27,58,92) !important; border-color: rgb(27,58,92) !important; color: #fff !important; }
       .button:hover { background: rgb(20,45,74) !important; }
       .embla__button { background: rgb(27,58,92) !important; border-color: rgb(27,58,92) !important; }
-
-      /* Progress & accents */
       .search__progress { background: rgb(27,58,92) !important; }
       .vehicle-card-info__badge { color: rgb(27,58,92) !important; }
-
-      /* Hide promotional banners and filter badges */
       [class*="banner"], [class*="promo"], [class*="winter"], [class*="notification"],
       [class*="search-sticker"], [class*="sticker"],
       [class*="categor"], [class*="tag-list"], [class*="tags-row"],
@@ -392,104 +572,119 @@
       [class*="badge-list"], [class*="badges-row"],
       .featuring-cool-cars, [class*="featuring"],
       [class*="top-pick"], [class*="top_pick"] { display: none !important; }
-
-      /* LocalRent filter modal — class hierarchy:
-         body.mrc-lock-scroll (overflow lock when modal open)
-         .mrcwhitelabel > .search-cigarette__pinned > .search-cigarette__filters
-         > .search-filters__wrap > .settings__popup-outer
-         > .settings__popup-inner.search-filters__inner > .filters
-         Collapse panels to content height and enable internal mousewheel scroll. */
-      .settings__popup-outer {
-        display: block !important;
-        min-height: 0 !important;
-        height: auto !important;
-        /* Account for the 54px top offset so modal fits in viewport */
-        max-height: calc(100dvh - 54px) !important;
-        padding-bottom: 24px !important;
-        overflow-y: auto !important;
-        -webkit-overflow-scrolling: touch !important;
+      /* Centre LocalRent's .booking element. At narrow viewports it has a
+         hardcoded width: 400px which left-aligns at x=0, leaving the badges
+         clipped on the right. We don't touch its width (changing that breaks
+         flex children — they computed widths in the millions of px last time)
+         — just margin: auto so it sits symmetrically. */
+      .booking,
+      .booking__columns,
+      .booking__column-left,
+      [class*="booking__columns"],
+      [class*="booking__column-left"] {
+        margin-left: auto !important;
+        margin-right: auto !important;
       }
-      /* Pin the action bar (Reset / View cars buttons) to the bottom of the
-         modal panel so it stays visible while user scrolls filter content,
-         matching LocalRent's native-site UX. */
-      .settings__popup-inner > *:last-child,
-      [class*="search-filters__footer"],
-      [class*="search-filters__actions"],
-      [class*="filters__footer"] {
-        position: sticky !important;
-        bottom: 0 !important;
-        background: #fff !important;
-        z-index: 10 !important;
-        border-top: 1px solid #e7e8ea !important;
-        padding: 16px 16px 28px !important;
+      /* Pull the vehicle-card-info badges (Cash deposit possible, No credit
+         card) inside the card so they don't clip past the right edge. They
+         sit absolute-positioned at top-right of the card; constrain right
+         offset and allow wrap. */
+      .vehicle-card-info__badges,
+      [class*="vehicle-card-info__badges"],
+      .vehicle-card-badges,
+      [class*="vehicle-card-badges"] {
+        right: 8px !important;
+        max-width: calc(100% - 16px) !important;
+        flex-wrap: wrap !important;
+        white-space: normal !important;
       }
-      .settings__popup-inner.search-filters__inner {
-        min-height: 0 !important;
-        height: auto !important;
-        max-height: none !important;
-        flex: none !important;
-        overflow: visible !important;
+      .vehicle-card-info__badges > *,
+      [class*="vehicle-card-info__badges"] > *,
+      .vehicle-card-badges > *,
+      [class*="vehicle-card-badges"] > * {
+        max-width: 100% !important;
+        white-space: normal !important;
       }
-      /* Mobile-specific: kill any 100vh / fixed-height that LocalRent applies
-         in mobile breakpoints causing the panel to be full-viewport with
-         empty space below content. */
-      @media (max-width: 768px) {
-        body.mrc-lock-scroll,
-        body.mrc-lock-scroll #localrent-widget,
-        body.mrc-lock-scroll #localrent-widget > *,
-        body.mrc-lock-scroll [id^="mrc_wl_"],
-        body.mrc-lock-scroll [id^="mrc_wl_"] > *,
-        .mrcwhitelabel,
-        .search-cigarette,
-        .search-cigarette__pinned,
-        .search-cigarette__filters,
-        .search-filters,
-        .search-filters__wrap,
-        .search-filters__inner,
-        .search-filters__show,
-        .settings__popup-outer,
-        .settings__popup-inner,
-        .settings__setting-selected,
-        .filters {
-          height: auto !important;
-          min-height: 0 !important;
-          max-height: none !important;
-        }
-        .settings__popup-outer {
-          max-height: 100dvh !important;
-          overflow-y: auto !important;
-        }
-        /* Catch any wrapper with explicit 100vh inline style */
-        [style*="height: 100vh"],
-        [style*="min-height: 100vh"],
-        [style*="height:100vh"],
-        [style*="min-height:100vh"] {
-          height: auto !important;
-          min-height: 0 !important;
-        }
+      /* Match the badge text + icons (Free cancelation / Unlimited mileage /
+         No credit card etc.) to the Filters trigger colour — same muted
+         white. currentColor on svg keeps the icon tracking the text. */
+      .vehicle-card-badges,
+      [class*="vehicle-card-badges"],
+      .vehicle-card-info__badges,
+      [class*="vehicle-card-info__badges"] {
+        color: rgba(255, 255, 255, 0.7) !important;
       }
-      /* Mobile: when modal is open (.mrc-lock-scroll on body),
-         pin the action bar (.search_buttons) to viewport bottom so it
-         doesn't sit below filter content with white space between. */
-      body.mrc-lock-scroll .search_buttons {
-        position: fixed !important;
-        bottom: 0 !important;
-        left: 0 !important;
-        right: 0 !important;
-        z-index: 100 !important;
-        background: #fff !important;
-        box-shadow: 0 -4px 12px rgba(0,0,0,0.08) !important;
+      .vehicle-card-badges *,
+      [class*="vehicle-card-badges"] *,
+      .vehicle-card-info__badges *,
+      [class*="vehicle-card-info__badges"] * {
+        color: rgba(255, 255, 255, 0.7) !important;
       }
-      /* Ensure all children of search_buttons (Reset link + View cars button)
-         are visible on mobile — LocalRent hides the reset link at narrow widths. */
-      .search_buttons > *,
-      [class*="search_buttons__reset"],
-      [class*="search-buttons__reset"] {
-        display: inline-flex !important;
-        visibility: visible !important;
+      .vehicle-card-badges svg,
+      [class*="vehicle-card-badges"] svg,
+      .vehicle-card-info__badges svg,
+      [class*="vehicle-card-info__badges"] svg {
+        fill: currentColor !important;
+        stroke: currentColor !important;
+      }
+      /* Help "?" triggers — devtools-confirmed classes: .mrc-tooltip wraps
+         .booking__info_btn which holds a 24x24 svg with an r=8 circle. The
+         circle covers only ~16px of the 24px box, so 4px around it doesn't
+         catch hover. Push hover to the wrapper spans, kill it on the svg
+         and its children so hover stays stable across the full hitbox. */
+      .mrc-tooltip,
+      .booking__info_btn,
+      [class*="mrc-tooltip"],
+      [class*="booking__info_btn"] {
+        pointer-events: auto !important;
+        display: inline-block !important;
+      }
+      .mrc-tooltip svg,
+      .booking__info_btn svg,
+      [class*="mrc-tooltip"] svg,
+      [class*="booking__info_btn"] svg,
+      .mrc-tooltip svg *,
+      .booking__info_btn svg *,
+      [class*="mrc-tooltip"] svg *,
+      [class*="booking__info_btn"] svg * {
+        pointer-events: none !important;
+      }
+      /* Filter-panel brand circles — devtools-confirmed class
+         .brand-filter__icon. The SVG renders 3 overlapping ~21px circles
+         with rects fill="#F2F1F1" (light grey bg) and brand-coloured
+         logo paths (Mercedes #0066B1, VW #001E50, etc.) that cover most
+         of each circle, making the chips read as "blue blobs". Override
+         path fills to #353E4E (same as the class-chip car icons above)
+         so all three brand logos read as uniform grey marks on light
+         circles — matching the visual weight of Economy/Standard/SUV. */
+      .brand-filter__icon rect,
+      [class*="brand-filter__icon"] rect {
+        fill: #f0f1f3 !important;
+      }
+      .brand-filter__icon path,
+      [class*="brand-filter__icon"] path {
+        fill: #353E4E !important;
+        fill-opacity: 0.85 !important;
+      }
+      /* Release the ~331px minimum so the card can fit sub-320px viewports
+         (paranoid responsive testing at 306px etc.). At ≥ 360px viewports
+         these rules are no-ops because the card's natural width is already
+         above 0 — they only kick in when the parent width is the binding
+         constraint. Both the grid item's intrinsic min-content floor AND
+         the grid track minmax() floor need overriding. */
+      .vehicle-card,
+      [class*="vehicle-card"],
+      .vehicles-grid__row,
+      [class*="vehicles-grid__row"],
+      .vehicles-grid__virtual-container,
+      [class*="vehicles-grid__virtual-container"] {
+        min-width: 0 !important;
+      }
+      .vehicles-grid,
+      [class*="vehicles-grid"] {
+        grid-template-columns: minmax(0, 1fr) !important;
       }
     `;
-    // Location name update after widget loads
     const p = new URLSearchParams(window.location.search);
     const placeName = p.get('place');
     if (placeName) {
@@ -504,18 +699,15 @@
         try { vue.$store.commit('setDropoffCityName', placeName); } catch(e) {}
       }, 200);
     }
-
     let injected = false;
     function injectBrandStyles() {
       if (injected) return;
-      // Inject as soon as any widget content appears
       if (!document.querySelector('.search-cigarette') && !document.querySelector('.featuring-cool-cars') && !document.querySelector('[class*="vehicle"]')) return;
       injected = true;
       const style = document.createElement('style');
       style.textContent = BRAND_CSS;
       document.head.appendChild(style);
     }
-
     new MutationObserver(injectBrandStyles)
       .observe(document.documentElement, { childList: true, subtree: true });
     setTimeout(injectBrandStyles, 1000);
