@@ -480,37 +480,26 @@ function FleetShowcase() {
 }
 
 /* ─── FLEET ─────────────────────────────────────────────── */
+// LocalRent product IDs for deep-links into the booking widget. Empty
+// for now — fill in once captured from the live LocalRent widget. With
+// an ID present, card href becomes /book?car=<slug>; without, it falls
+// back to the generic /book page so each card still links somewhere
+// useful and the homepage layout works while IDs are populated.
+const LOCALRENT_CAR_IDS = {
+  // 'vw-polo': 12345,
+  // 'fiat-500': 12346,
+  // 'peugeot-208': 12347,
+  // 'citroen-c3': 12348,
+  // 'toyota-yaris': 12349,
+  // 'kia-stonic': 12350,
+  // 'vw-golf': 12351,
+};
+
 function Fleet() {
   const { t, localePath } = useTranslation();
-  const [iframeHeight, setIframeHeight] = useState(800);
-  const [iframeSrc, setIframeSrc] = useState(null);
-  const fleetRef = useRef(null);
-
-  // Defer iframe load until section is visible + page is idle
-  useEffect(() => {
-    function onMessage(e) {
-      if (e.data && e.data.type === 'iframeHeight') setIframeHeight(Math.min(e.data.height, 2190));
-    }
-    window.addEventListener('message', onMessage);
-
-    const obs = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        const load = () => setIframeSrc('/widget.html?city_id=9&hide_search=1&v=12');
-        if ('requestIdleCallback' in window) {
-          requestIdleCallback(load, { timeout: 1500 });
-        } else {
-          setTimeout(load, 100);
-        }
-        obs.disconnect();
-      }
-    }, { rootMargin: '200px' });
-
-    if (fleetRef.current) obs.observe(fleetRef.current);
-    return () => { obs.disconnect(); window.removeEventListener('message', onMessage); };
-  }, []);
-
+  const cars = config.cars;
   return (
-    <section className="section" id="fleet" ref={fleetRef}>
+    <section className="section" id="fleet">
       <div className="container">
         <div className="section-header">
           <span className="section-label">{t('fleet.label')}</span>
@@ -518,17 +507,71 @@ function Fleet() {
           <p className="section-subtitle">{t('fleet.subtitle')}</p>
         </div>
 
-        <a href={localePath('/book')} className="fleet-widget-wrap">
-          {iframeSrc && <iframe
-            src={iframeSrc}
-            title="Browse fleet"
-            frameBorder="0"
-            scrolling="no"
-            style={{ width: '100%', height: iframeHeight, border: 'none', display: 'block', pointerEvents: 'none', marginTop: '80px' }}
-          />}
-          <div className="fleet-widget-fade" />
-          <div className="fleet-widget-overlay" />
-        </a>
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+          gap: '20px',
+          marginTop: '32px',
+        }}>
+          {cars.map((car) => {
+            const tk = (sub, fb) => {
+              const v = t(`cars.${car.slug}.${sub}`);
+              return v && v !== `cars.${car.slug}.${sub}` ? v : fb;
+            };
+            const lrId = LOCALRENT_CAR_IDS[car.slug];
+            const href = lrId
+              ? localePath(`/book?car=${car.slug}`)
+              : localePath('/book');
+            return (
+              <a
+                key={car.slug}
+                href={href}
+                style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  background: '#fff',
+                  border: '1px solid rgba(0,0,0,0.06)',
+                  borderRadius: '16px',
+                  overflow: 'hidden',
+                  textDecoration: 'none',
+                  color: 'inherit',
+                  transition: 'transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease',
+                  boxShadow: '0 1px 2px rgba(0,0,0,0.04)',
+                }}
+                onMouseEnter={e => {
+                  e.currentTarget.style.transform = 'translateY(-2px)';
+                  e.currentTarget.style.boxShadow = '0 8px 20px rgba(0,98,227,0.12)';
+                  e.currentTarget.style.borderColor = 'rgba(0,98,227,0.25)';
+                }}
+                onMouseLeave={e => {
+                  e.currentTarget.style.transform = '';
+                  e.currentTarget.style.boxShadow = '0 1px 2px rgba(0,0,0,0.04)';
+                  e.currentTarget.style.borderColor = 'rgba(0,0,0,0.06)';
+                }}
+              >
+                <div style={{
+                  width: '100%',
+                  aspectRatio: '16 / 10',
+                  backgroundImage: `url(${car.image})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundColor: '#f4f5f7',
+                }} />
+                <div style={{ padding: '16px 18px 18px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                  <span style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#0062e3' }}>
+                    {tk('category', car.category)}
+                  </span>
+                  <span style={{ fontSize: '18px', fontWeight: 700, color: 'rgb(5,32,60)', letterSpacing: '-0.01em' }}>
+                    {tk('name', car.name)}
+                  </span>
+                  <span style={{ marginTop: '8px', fontSize: '13px', fontWeight: 600, color: '#0062e3' }}>
+                    {t('fleet.bookCta') || 'Book this car'} →
+                  </span>
+                </div>
+              </a>
+            );
+          })}
+        </div>
       </div>
     </section>
   );
