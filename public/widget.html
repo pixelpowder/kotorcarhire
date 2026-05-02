@@ -645,6 +645,30 @@
           try { vue.$store.commit('SET_CURRENT_CAR', idNum); } catch(e) {}
         }, 250);
       }
+      // Class filter deep-link: ?class=<slug> applies a LocalRent class
+       // filter (compact|family|suv|premium|cabriolet|minivan) so homepage
+       // cards land users on a pre-filtered listing of that vehicle type.
+       // Devtools-confirmed mutation chain (matches what clicking a class
+       // chip in the popular-filters strip dispatches).
+      const classParam = _params.get('class');
+      const VALID_CLASSES = ['compact','family','suv','premium','cabriolet','minivan'];
+      if (classParam && VALID_CLASSES.indexOf(classParam) !== -1) {
+        var classAttempts = 0;
+        var classPoll = setInterval(function() {
+          classAttempts++;
+          if (classAttempts > 200) { clearInterval(classPoll); return; }
+          var vue = null;
+          for (var el of document.querySelectorAll('*')) {
+            if (el.__vue__ && el.__vue__.$store) { vue = el.__vue__; break; }
+          }
+          if (!vue) return;
+          var store = vue.$store;
+          if (!store.state.carsCountFinished) return;
+          try { store.commit('setFiltersMapValue', { key: 'multi_tabs', value: [classParam] }); } catch(e) {}
+          try { store.commit('applyPopularFiltersMap', { path: 'multi_tabs', value: [classParam] }); } catch(e) {}
+          clearInterval(classPoll);
+        }, 200);
+      }
       const dateFrom = _params.get('date_from');
       const dateTo = _params.get('date_to');
       const timeFrom = _params.get('time_from') || '10:00';
