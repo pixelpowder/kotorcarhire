@@ -572,18 +572,30 @@
       [class*="badge-list"], [class*="badges-row"],
       .featuring-cool-cars, [class*="featuring"],
       [class*="top-pick"], [class*="top_pick"] { display: none !important; }
-      /* Centre LocalRent's .booking element. At narrow viewports it has a
-         hardcoded width: 400px which left-aligns at x=0, leaving the badges
-         clipped on the right. We don't touch its width (changing that breaks
-         flex children — they computed widths in the millions of px last time)
-         — just margin: auto so it sits symmetrically. */
+      /* Centre .booking + its column container only. DO NOT add margin:auto
+         to .booking__column-left / __column-right — they're flex items in
+         a row layout, and margin:auto on a flex item makes it claim all
+         available space along the main axis. Combined with LocalRent's
+         existing layout that produced .booking__column-left at 119975px
+         wide (devtools-confirmed), making the slideshow + insurance cards
+         + text all overflow the right edge at narrow viewports. */
       .booking,
       .booking__columns,
-      .booking__column-left,
-      [class*="booking__columns"],
-      [class*="booking__column-left"] {
+      [class*="booking__columns"] {
         margin-left: auto !important;
         margin-right: auto !important;
+      }
+      /* Allow long card-body text to wrap inside the card so it doesn't
+         run off the right edge. Scoped to text-bearing card classes only —
+         not .booking * (which would over-apply to flex containers). */
+      [class*="insurance-card"],
+      [class*="coverage-card"],
+      [class*="package-card"],
+      [class*="insurance-card"] *,
+      [class*="coverage-card"] *,
+      [class*="package-card"] * {
+        overflow-wrap: anywhere !important;
+        word-wrap: break-word !important;
       }
       /* Pull the vehicle-card-info badges (Cash deposit possible, No credit
          card) inside the card so they don't clip past the right edge. They
