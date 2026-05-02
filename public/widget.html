@@ -606,29 +606,40 @@
         var carPollAttempts = 0;
         var carDeepLinkPoll = setInterval(function() {
           carPollAttempts++;
-          if (carPollAttempts > 120) { clearInterval(carDeepLinkPoll); return; }
-          // Try clicking the matching vehicle-card directly — this is the
-          // most reliable since it triggers LocalRent's own click handler.
+          if (carPollAttempts > 200) { clearInterval(carDeepLinkPoll); return; }
+          // 1. Try clicking the matching vehicle-card if rendered.
           var card = document.querySelector('.vehicle-card[data-vehicle-id="' + carIdParam + '"]');
           if (card) {
             try { card.click(); } catch(e) {}
+            // Also try clicking inner header or main button (LocalRent's
+            // card may have a nested clickable target).
+            var hdr = card.querySelector('.vehicle-card-header, .vehicle-card-info, button, a, [role="button"]');
+            if (hdr) try { hdr.click(); } catch(e) {}
             clearInterval(carDeepLinkPoll);
             return;
           }
-          // Fallback: find Vue instance + try router/store
+          // 2. Card not in virtual DOM yet — scroll the list to load more.
+          var list = document.querySelector('.vehicles-grid__virtual-container, [class*="vehicles-grid"]');
+          if (list && carPollAttempts % 4 === 0) {
+            list.scrollTop = (list.scrollTop || 0) + window.innerHeight;
+            window.scrollTo(0, document.body.scrollHeight);
+          }
+          // 3. Fallback: find Vue instance + try router/store dispatches.
           var vue = null;
           for (var el of document.querySelectorAll('*')) {
             if (el.__vue__ && el.__vue__.$store) { vue = el.__vue__; break; }
           }
           if (!vue) return;
-          // Multiple routing/dispatch names — first that doesn't throw wins.
-          try { vue.$router && vue.$router.push({ name: 'car', params: { id: carIdParam } }); } catch(e) {}
-          try { vue.$router && vue.$router.push({ path: '/car/' + carIdParam }); } catch(e) {}
-          try { vue.$router && vue.$router.push({ path: '/cars/' + carIdParam }); } catch(e) {}
-          try { vue.$store.dispatch('selectCar', { id: parseInt(carIdParam) }); } catch(e) {}
-          try { vue.$store.commit('setSelectedCar', parseInt(carIdParam)); } catch(e) {}
-          try { vue.$store.dispatch('cars/select', parseInt(carIdParam)); } catch(e) {}
-          try { vue.$store.dispatch('booking/openCar', parseInt(carIdParam)); } catch(e) {}
+          var idNum = parseInt(carIdParam);
+          try { vue.$router && vue.$router.push({ name: 'car', params: { id: idNum } }); } catch(e) {}
+          try { vue.$router && vue.$router.push({ path: '/car/' + idNum }); } catch(e) {}
+          try { vue.$router && vue.$router.push({ path: '/cars/' + idNum }); } catch(e) {}
+          try { vue.$store.dispatch('selectCar', { id: idNum }); } catch(e) {}
+          try { vue.$store.commit('setSelectedCar', idNum); } catch(e) {}
+          try { vue.$store.dispatch('cars/select', idNum); } catch(e) {}
+          try { vue.$store.dispatch('booking/openCar', idNum); } catch(e) {}
+          try { vue.$store.dispatch('search/openCar', idNum); } catch(e) {}
+          try { vue.$store.commit('SET_CURRENT_CAR', idNum); } catch(e) {}
         }, 250);
       }
       const dateFrom = _params.get('date_from');
