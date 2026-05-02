@@ -2242,10 +2242,14 @@ select.booking-field__input {
     padding: 0 16px;
   }
 
-  /* Hero — use JS-locked height to prevent iOS address bar jump */
+  /* Hero — use JS-locked min-height to prevent iOS address bar jump but
+     allow growth when the booking form is taller than the viewport
+     (e.g. 306×480 narrow mobile testing). Fixed height was causing the
+     form to overflow visually into the section below while the document
+     flow still treated the hero as 100svh tall. */
   .hero {
-    height: var(--hero-h, 100svh);
-    min-height: 0;
+    min-height: var(--hero-h, 100svh);
+    height: auto;
     padding-top: 64px;
     align-items: center;
   }
