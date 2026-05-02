@@ -499,7 +499,7 @@ function Fleet() {
 
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
+          gridTemplateColumns: 'repeat(3, 1fr)',
           gap: '20px',
           marginTop: '32px',
         }}>
