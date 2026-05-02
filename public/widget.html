@@ -648,9 +648,15 @@
       // Car IDs deep-link: ?car_ids=<csv> applies a LocalRent car_ids
        // filter so homepage cards land users on a listing pre-filtered to
        // the exact set of vendor listings for that model (e.g. all VW
-       // Polo listings across every operator). The IDs come from a static
+       // Polo listings across every operator). IDs come from a static
        // map in App.jsx HOMEPAGE_BOOKING_CARS, populated from devtools
        // inspection of LocalRent's filtered listing.
+       //
+       // Apply the filter as early as possible — at the moment
+       // filtersDict.car_ids exists in the Vuex store (~450ms post-load,
+       // BEFORE the first cars fetch returns). Beats the unfiltered
+       // first-render flash. Waiting for carsCountFinished (which fires
+       // later) is too late — cars already on screen by then.
       const carIdsParam = _params.get('car_ids');
       if (carIdsParam) {
         var carIdsList = carIdsParam.split(',').filter(function(x){ return /^\d+$/.test(x); });
@@ -658,18 +664,18 @@
           var carIdsAttempts = 0;
           var carIdsPoll = setInterval(function() {
             carIdsAttempts++;
-            if (carIdsAttempts > 200) { clearInterval(carIdsPoll); return; }
+            if (carIdsAttempts > 1000) { clearInterval(carIdsPoll); return; }
             var vue = null;
             for (var el of document.querySelectorAll('*')) {
               if (el.__vue__ && el.__vue__.$store) { vue = el.__vue__; break; }
             }
             if (!vue) return;
             var store = vue.$store;
-            if (!store.state.carsCountFinished) return;
+            if (!store.state.filtersDict || !store.state.filtersDict.car_ids) return;
             try { store.commit('setFiltersMapValue', { key: 'car_ids', value: carIdsList }); } catch(e) {}
             try { store.commit('applyFiltersMap', { path: 'car_ids', value: carIdsList }); } catch(e) {}
             clearInterval(carIdsPoll);
-          }, 200);
+          }, 30);
         }
       }
       const dateFrom = _params.get('date_from');

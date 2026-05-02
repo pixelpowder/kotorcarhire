@@ -1287,26 +1287,26 @@
     "heading": "Contact Us",
     "intro": "Have a question about renting a car in Kotor? Get in touch and we'll help you find the perfect vehicle for your trip."
   },
-  "cruise": {
-    "label": "Cruise Port",
-    "title": "Arriving by Cruise Ship?",
-    "subtitle": "Over 2,000 cruise ships dock in Kotor each year. Here is what you need to know.",
+  "tivat": {
+    "label": "Tivat Airport",
+    "title": "Arriving at Tivat Airport?",
+    "subtitle": "Tivat is the closest airport to Kotor and where most rentals start. Pick up at the terminal and you are on the bay road within minutes.",
     "items": {
       "0": {
-        "title": "Dock to Gate in 5 Min",
-        "desc": "The cruise terminal sits at the foot of Kotor's walls. Walk off the ship, cross the quay, and enter the Old Town through the Sea Gate. No transfer needed."
+        "title": "8 km to the Old Town",
+        "desc": "Tivat Airport sits across the bay from Kotor on the coastal road. Outside summer afternoon peaks the drive is straightforward and traffic is light."
       },
       "1": {
-        "title": "Car-Free Old Town",
-        "desc": "The entire walled city is pedestrian. Walk end to end in 20 minutes. Cobblestones, churches, Maritime Museum, and cats on every corner."
+        "title": "Airport Delivery",
+        "desc": "Add airport delivery at booking and the keys are handed over outside arrivals. Skip the taxi rank, no transfer to arrange separately."
       },
       "2": {
-        "title": "1,355 Steps Up",
-        "desc": "The San Giovanni fortress hike starts inside the walls. Allow 45 minutes up and 30 down. Start early to beat the midday heat and the crowds."
+        "title": "North or South from Day One",
+        "desc": "Tivat is well placed for both directions along the coast. Head north up the Bay of Kotor towards Perast and Croatia, or south to Budva and Sveti Stefan."
       },
       "3": {
-        "title": "Bay Boat Trips",
-        "desc": "Water taxis to Perast and Our Lady of the Rocks leave from the harbour. About 5 EUR return, every 15 minutes in season."
+        "title": "Every Bay Drive Within Reach",
+        "desc": "Perast, Risan, the Lovćen serpentines and Cetinje all sit close by. The day you land is the day you can start exploring, no group tour required."
       }
     }
   },

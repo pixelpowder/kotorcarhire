@@ -1287,26 +1287,26 @@
     "heading": "Contattaci",
     "intro": "Hai una domanda sul noleggio auto a Kotor? Contattaci e ti aiuteremo a trovare il veicolo perfetto per il tuo viaggio."
   },
-  "cruise": {
-    "label": "Porto crociere",
-    "title": "Arrivi in nave da crociera?",
-    "subtitle": "Ogni anno oltre 2.000 navi da crociera attraccano a Kotor. Ecco cosa devi sapere.",
+  "tivat": {
+    "label": "Aeroporto di Tivat",
+    "title": "Arrivi all'aeroporto di Tivat?",
+    "subtitle": "Tivat è l'aeroporto più vicino a Kotor e il punto di partenza della maggior parte dei noleggi. Ritira l'auto al terminal e in pochi minuti sei sulla strada della baia.",
     "items": {
       "0": {
-        "title": "Dalla banchina alla porta in 5 minuti",
-        "desc": "Il terminal crociere si trova ai piedi delle mura di Kotor. Scendi dalla nave, attraversa la banchina ed entra nella Città Vecchia dalla Porta del Mare. Nessun transfer necessario."
+        "title": "8 km dalla Città Vecchia",
+        "desc": "L'aeroporto di Tivat si trova sull'altro lato della baia, sulla strada costiera che porta a Kotor. Fuori dai picchi pomeridiani estivi il tragitto è semplice e il traffico resta scorrevole."
       },
       "1": {
-        "title": "Città Vecchia senza auto",
-        "desc": "L'intera città murata è pedonale. La attraversi in 20 minuti. Acciottolato, chiese, Museo Marittimo e gatti a ogni angolo."
+        "title": "Consegna in aeroporto",
+        "desc": "Seleziona la consegna in aeroporto al momento della prenotazione e le chiavi ti vengono consegnate davanti agli arrivi. Niente fila taxi, niente transfer da organizzare a parte."
       },
       "2": {
-        "title": "1.355 gradini in salita",
-        "desc": "La salita alla fortezza San Giovanni inizia all'interno delle mura. Calcola 45 minuti in salita e 30 in discesa. Parti presto per evitare il caldo di mezzogiorno e le folle."
+        "title": "Nord o sud fin dal primo giorno",
+        "desc": "Tivat è ben posizionata in entrambe le direzioni della costa. Verso nord la Baia di Kotor con Perast e poi la Croazia, verso sud Budva e Sveti Stefan."
       },
       "3": {
-        "title": "Gite in barca nella Baia",
-        "desc": "I taxi-acqua per Perast e la Madonna dello Scarpello partono dal porto. Circa 5 EUR andata e ritorno, ogni 15 minuti in stagione."
+        "title": "Tutta la baia a portata di mano",
+        "desc": "Perast, Risan, i tornanti del Lovćen e Cetinje sono tutti nelle vicinanze. Il giorno stesso dell'arrivo puoi già metterti in viaggio, senza tour di gruppo."
       }
     }
   },

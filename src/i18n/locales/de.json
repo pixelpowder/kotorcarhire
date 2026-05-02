@@ -1287,26 +1287,26 @@
     "heading": "Kontaktieren Sie uns",
     "intro": "Haben Sie eine Frage zur Automiete in Kotor? Kontaktieren Sie uns, und wir helfen Ihnen, das passende Fahrzeug für Ihre Reise zu finden."
   },
-  "cruise": {
-    "label": "Kreuzfahrthafen",
-    "title": "Kommen Sie mit dem Kreuzfahrtschiff?",
-    "subtitle": "Jedes Jahr legen über 2.000 Kreuzfahrtschiffe in Kotor an. Hier finden Sie das Wichtigste.",
+  "tivat": {
+    "label": "Flughafen Tivat",
+    "title": "Anreise über den Flughafen Tivat?",
+    "subtitle": "Tivat ist der nächste Flughafen zu Kotor und der Startpunkt der meisten Mietwagenbuchungen. Übernehmen Sie das Auto am Terminal und Sie sind binnen Minuten auf der Buchtstraße.",
     "items": {
       "0": {
-        "title": "Vom Schiff zum Tor in 5 Minuten",
-        "desc": "Das Kreuzfahrtterminal liegt direkt am Fuß der Kotor-Mauern. Vom Schiff über die Kaimauer und durch das Seetor in die Altstadt. Kein Transfer nötig."
+        "title": "8 km bis zur Altstadt",
+        "desc": "Der Flughafen Tivat liegt auf der gegenüberliegenden Buchtseite an der Küstenstraße nach Kotor. Außerhalb der sommerlichen Nachmittags-Stoßzeiten ist die Fahrt unkompliziert und der Verkehr überschaubar."
       },
       "1": {
-        "title": "Autofreie Altstadt",
-        "desc": "Die gesamte ummauerte Stadt ist Fußgängerzone. Von einem Ende zum anderen in 20 Minuten. Kopfsteinpflaster, Kirchen, Schifffahrtsmuseum und Katzen an jeder Ecke."
+        "title": "Übergabe am Flughafen",
+        "desc": "Wählen Sie bei der Buchung die Flughafen-Zustellung und der Wagenschlüssel wartet direkt vor der Ankunftshalle. Kein Taxistand, kein separater Transfer nötig."
       },
       "2": {
-        "title": "1.355 Stufen aufwärts",
-        "desc": "Der Aufstieg zur Festung San Giovanni beginnt innerhalb der Mauern. Rechnen Sie mit 45 Minuten hoch und 30 hinunter. Früh starten, bevor Mittagshitze und Menschenmengen kommen."
+        "title": "Nord oder Süd ab dem ersten Tag",
+        "desc": "Tivat liegt günstig für beide Küstenrichtungen. Nach Norden in die Bucht von Kotor zu Perast und Richtung Kroatien, oder südlich nach Budva und Sveti Stefan."
       },
       "3": {
-        "title": "Bootsausflüge in der Bucht",
-        "desc": "Wassertaxis nach Perast und zur Felseninsel fahren vom Hafen. Etwa 5 EUR hin und zurück, alle 15 Minuten in der Saison."
+        "title": "Alle Buchtstrecken in Reichweite",
+        "desc": "Perast, Risan, die Lovćen-Serpentinen und Cetinje liegen in der Nähe. Schon am Anreisetag können Sie losfahren, ohne Gruppentour."
       }
     }
   },

@@ -333,23 +333,23 @@ function TrustStrip() {
 }
 
 /* ─── STAT COUNTERS ────────────────────────────────────── */
-/* ─── CRUISE VISITORS (KOTOR UNIQUE) ──────────────────── */
-function CruiseVisitors() {
+/* ─── TIVAT AIRPORT ARRIVALS ──────────────────────────── */
+function TivatArrivals() {
   const { t } = useTranslation();
   return (
-    <section className="section section--gray" id="cruise">
+    <section className="section section--gray" id="tivat">
       <div className="container">
         <div className="section-header">
-          <span className="section-label">{t('cruise.label')}</span>
-          <h2 className="section-title">{t('cruise.title')}</h2>
-          <p className="section-subtitle">{t('cruise.subtitle')}</p>
+          <span className="section-label">{t('tivat.label')}</span>
+          <h2 className="section-title">{t('tivat.title')}</h2>
+          <p className="section-subtitle">{t('tivat.subtitle')}</p>
         </div>
         <div className="cruise-grid">
           {[
-            { icon: <MapPin size={24} />, title: t('cruise.items.0.title'), desc: t('cruise.items.0.desc') },
-            { icon: <Car size={24} />, title: t('cruise.items.1.title'), desc: t('cruise.items.1.desc') },
-            { icon: <Star size={24} fill="currentColor" />, title: t('cruise.items.2.title'), desc: t('cruise.items.2.desc') },
-            { icon: <Globe size={24} />, title: t('cruise.items.3.title'), desc: t('cruise.items.3.desc') },
+            { icon: <MapPin size={24} />, title: t('tivat.items.0.title'), desc: t('tivat.items.0.desc') },
+            { icon: <Star size={24} fill="currentColor" />, title: t('tivat.items.1.title'), desc: t('tivat.items.1.desc') },
+            { icon: <Globe size={24} />, title: t('tivat.items.2.title'), desc: t('tivat.items.2.desc') },
+            { icon: <Car size={24} />, title: t('tivat.items.3.title'), desc: t('tivat.items.3.desc') },
           ].map((item) => (
             <div key={item.title} className="cruise-card reveal-item">
               <div className="cruise-card__icon">{item.icon}</div>
@@ -956,7 +956,7 @@ export default function App() {
         {/* <Reviews /> */}
         <Fleet />
         <FleetShowcase />
-        <CruiseVisitors />
+        <TivatArrivals />
         <Destinations />
         <Features />
         <BlogCards />

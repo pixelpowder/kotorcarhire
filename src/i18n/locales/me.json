@@ -1287,26 +1287,26 @@
     "heading": "Kontaktirajte nas",
     "intro": "Imate pitanje o iznajmljivanju automobila u Kotoru? Javite nam se i pomoći ćemo vam pronaći savršeno vozilo za vaše putovanje."
   },
-  "cruise": {
-    "label": "Krstareća luka",
-    "title": "Dolazite kruzerom?",
-    "subtitle": "Više od 2.000 kruzera pristaje u Kotoru svake godine. Evo šta treba da znate.",
+  "tivat": {
+    "label": "Aerodrom Tivat",
+    "title": "Stižete na aerodrom Tivat?",
+    "subtitle": "Tivat je najbliži aerodrom Kotoru i polazna tačka većine iznajmljivanja. Preuzmite auto na terminalu i za par minuta ste na obalnom putu.",
     "items": {
       "0": {
-        "title": "Od pristaništa do kapije za 5 min",
-        "desc": "Kruzerski terminal nalazi se podno zidina Kotora. Siđite sa broda, pređite kej i uđite u Stari grad kroz Morska vrata. Nije potreban transfer."
+        "title": "8 km do Starog grada",
+        "desc": "Aerodrom Tivat smješten je s druge strane zaliva, na obalnom putu prema Kotoru. Van ljetnih popodnevnih špiceva vožnja je jednostavna i saobraćaj prohodan."
       },
       "1": {
-        "title": "Stari grad bez automobila",
-        "desc": "Cijeli ograđeni grad je pješačka zona. Prelazite ga s kraja na kraj za 20 minuta. Kaldrma, crkve, Pomorski muzej i mačke na svakom uglu."
+        "title": "Preuzimanje na aerodromu",
+        "desc": "Odaberite dostavu na aerodrom prilikom rezervacije i ključeve dobijate ispred terminala. Bez taksi reda, bez posebnog transfera."
       },
       "2": {
-        "title": "1.355 stepenika ka tvrđavi",
-        "desc": "Uspon na tvrđavu San Giovanni počinje unutar zidina. Računajte 45 minuta gore i 30 dolje. Krenite rano da izbjegnete podnevnu vrućinu i gužve."
+        "title": "Sjever ili jug od prvog dana",
+        "desc": "Tivat je dobro pozicioniran u oba smjera obale. Sjeverno uz Bokokotorski zaliv ka Perastu i Hrvatskoj, ili južno ka Budvi i Svetom Stefanu."
       },
       "3": {
-        "title": "Vožnje brodom po Boki",
-        "desc": "Vodeni taksiji za Perast i Gospu od Škrpjela polaze iz luke. Oko 5 EUR povratno, svakih 15 minuta u sezoni."
+        "title": "Sve rute Boke nadohvat ruke",
+        "desc": "Perast, Risan, Lovćenske serpentine i Cetinje su sve u blizini. Već prvog dana boravka možete krenuti u istraživanje, bez grupnih tura."
       }
     }
   },
