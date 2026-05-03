@@ -35,6 +35,16 @@ import {
 } from 'lucide-react';
 import config from './siteConfig';
 import { HOMEPAGE_BOOKING_CARS } from './data/fleetCars';
+
+// "From €X / day" floor prices — Kotor pickup, off-season minimum
+// vendor price per model. Shared affiliate 14905 inventory with the
+// rest of the cluster, so prices match kotorcarrental.
+const FLEET_FLOOR_EUR = {
+  'vw-polo': 30, 'fiat-500': 32, 'peugeot-208': 18, 'citroen-c3': 22,
+  'toyota-yaris': 25, 'vw-golf': 32, 'kia-stonic': 29, 'peugeot-2008': 30,
+  'renault-kadjar': 32, 'dacia-sandero': 24, 'renault-megane': 19,
+  'citroen-c4-picasso': 40,
+};
 import './App.css';
 
 /* ─── ICON MAP ─────────────────────────────────────────── */
@@ -497,10 +507,10 @@ function Fleet() {
           <p className="section-subtitle">{t('fleet.subtitle')}</p>
         </div>
 
-        <div style={{
+        <div className="kch-fleet-grid" style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(3, 1fr)',
-          gap: '20px',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
+          gap: '16px',
           marginTop: '32px',
         }}>
           {HOMEPAGE_BOOKING_CARS.map((car) => {
@@ -557,12 +567,44 @@ function Fleet() {
                   <span style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#0062e3' }}>
                     {car.category}
                   </span>
-                  <span style={{ fontSize: '18px', fontWeight: 700, color: 'rgb(5,32,60)', letterSpacing: '-0.01em' }}>
+                  <span style={{ fontSize: '17px', fontWeight: 700, color: 'rgb(5,32,60)', letterSpacing: '-0.01em' }}>
                     {car.name}
                   </span>
-                  <span style={{ marginTop: '8px', fontSize: '13px', fontWeight: 600, color: '#0062e3' }}>
-                    {t('fleet.bookCta') || 'Book this car'} →
-                  </span>
+                  <div style={{
+                    marginTop: '10px',
+                    paddingTop: '10px',
+                    borderTop: '1px solid rgba(0,0,0,0.06)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'space-between',
+                    gap: '8px',
+                  }}>
+                    <span style={{ fontSize: '13px', fontWeight: 700, color: '#0062e3' }}>
+                      {t('fleet.bookCta') || 'Book this car'} →
+                    </span>
+                    {FLEET_FLOOR_EUR[car.slug] && (
+                      <span style={{
+                        display: 'inline-flex',
+                        alignItems: 'baseline',
+                        gap: '4px',
+                        background: '#0062e3',
+                        color: '#fff',
+                        padding: '4px 9px 5px',
+                        borderRadius: '7px',
+                        whiteSpace: 'nowrap',
+                      }}>
+                        <span style={{ fontSize: '9px', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', opacity: 0.85 }}>
+                          {t('fleet.fromPrefix') || 'From'}
+                        </span>
+                        <span style={{ fontSize: '15px', fontWeight: 800, letterSpacing: '-0.01em' }}>
+                          €{FLEET_FLOOR_EUR[car.slug]}
+                        </span>
+                        <span style={{ fontSize: '9px', fontWeight: 600, opacity: 0.9 }}>
+                          {t('fleet.perDay') || '/ day'}
+                        </span>
+                      </span>
+                    )}
+                  </div>
                 </div>
               </a>
             );

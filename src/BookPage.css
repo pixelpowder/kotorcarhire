@@ -5,7 +5,7 @@
   background: #fff;
   display: flex;
   flex-direction: column;
-  padding-top: 136px;
+  padding-top: 64px;
 }
 
 html[data-theme="dark"] .book-page {

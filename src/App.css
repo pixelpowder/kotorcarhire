@@ -317,7 +317,7 @@ html[data-theme="dark"] .booking-calendar .react-datepicker__day:hover {
   z-index: 100;
   background: rgb(5, 32, 60);
   border-bottom: none;
-  height: 136px;
+  height: 64px;
   display: flex;
   align-items: center;
 }
@@ -664,7 +664,7 @@ button.mobile-drawer__theme {
   height: calc(75vh + 50px);
   display: flex;
   align-items: flex-start;
-  padding-top: 136px;
+  padding-top: 64px;
   z-index: 2;
 }
 
@@ -3168,4 +3168,36 @@ a.car-detail-cta__btn:hover { background: rgb(5, 32, 60); color: #fff !important
   .fleet-index-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
   .car-detail-hero-card { flex-direction: column; align-items: flex-start; padding: 18px; }
   .car-detail-price__amount { font-size: 28px; }
+}
+
+
+/* Scroll-shrink nav: settles into a slimmer, blurred bar past 24px scroll */
+.nav--scrolled {
+  height: 56px !important;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+  border-bottom-color: transparent !important;
+  background: rgba(255, 255, 255, 0.92) !important;
+  backdrop-filter: saturate(140%) blur(8px);
+  -webkit-backdrop-filter: saturate(140%) blur(8px);
+  transition: height 0.22s ease, box-shadow 0.22s ease, background 0.22s ease, border-color 0.22s ease;
+}
+html[data-theme="dark"] .nav--scrolled {
+  background: rgba(22, 26, 34, 0.85) !important;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Pin homepage fleet grid to exactly 4 cols on full desktop, then
+   step down to 3, 2 cards as the viewport narrows. Overrides the
+   auto-fit minmax with max-width breakpoints. */
+@media (min-width: 1100px) {
+  .kch-fleet-grid { grid-template-columns: repeat(4, 1fr) !important; }
+}
+@media (min-width: 760px) and (max-width: 1099px) {
+  .kch-fleet-grid { grid-template-columns: repeat(3, 1fr) !important; }
+}
+@media (min-width: 480px) and (max-width: 759px) {
+  .kch-fleet-grid { grid-template-columns: repeat(2, 1fr) !important; }
+}
+@media (max-width: 479px) {
+  .kch-fleet-grid { grid-template-columns: 1fr !important; }
 }

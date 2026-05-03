@@ -12,6 +12,7 @@ export default function Nav({ logoHref }) {
   const pathname = usePathname();
   const router = useRouter();
   const [langOpen, setLangOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [theme, setTheme] = useState('light');
   const langRef = useRef(null);
@@ -20,6 +21,15 @@ export default function Nav({ logoHref }) {
     const stored = typeof window !== 'undefined' ? localStorage.getItem('theme') : null;
     setTheme(stored === 'dark' ? 'dark' : 'light');
   }, []);
+  useEffect(() => {
+    function onScroll() {
+      setScrolled(window.scrollY > 24);
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
 
   function toggleTheme() {
     const next = theme === 'dark' ? 'light' : 'dark';
@@ -67,7 +77,7 @@ export default function Nav({ logoHref }) {
 
   return (
     <>
-      <nav className="nav">
+      <nav className={`nav${scrolled ? ' nav--scrolled' : ''}`}>
         <div className="nav__inner">
           <a href={resolvedLogoHref} className="nav__logo">
             <div className="nav__logo-icon">
