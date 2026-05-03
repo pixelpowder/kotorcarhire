@@ -26,7 +26,7 @@ html[data-theme="dark"] .book-page__widget {
 
 @media (max-width: 768px) {
   .book-page {
-    padding-top: 64px;
+    padding-top: 100px;
   }
 }
 
