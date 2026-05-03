@@ -309,9 +309,39 @@ html[data-theme="dark"] .booking-calendar .react-datepicker__day:hover {
 }
 
 /* ─── NAV ─────────────────────────────────────────────── */
-.nav {
+.top-bar {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  z-index: 101;
+  background: #02152a;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+.top-bar__inner {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+.top-bar__link {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.78);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.top-bar__link:hover {
+  color: #fff;
+}
+
+.nav {
+  position: fixed;
+  top: 36px;
   left: 0;
   right: 0;
   z-index: 100;
@@ -664,7 +694,7 @@ button.mobile-drawer__theme {
   height: calc(75vh + 50px);
   display: flex;
   align-items: flex-start;
-  padding-top: 64px;
+  padding-top: 100px;
   z-index: 2;
 }
 
@@ -3171,33 +3201,24 @@ a.car-detail-cta__btn:hover { background: rgb(5, 32, 60); color: #fff !important
 }
 
 
-/* Scroll-shrink nav: settles into a slimmer, blurred bar past 24px scroll */
+/* Scroll-shrink nav: settles to a slimmer bar past 24px scroll. Keeps
+   the dark navy bg (white nav text would be unreadable on a light bg)
+   and just tightens height + adds a soft drop shadow. */
 .nav--scrolled {
   height: 56px !important;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
-  border-bottom-color: transparent !important;
-  background: rgba(255, 255, 255, 0.92) !important;
-  backdrop-filter: saturate(140%) blur(8px);
-  -webkit-backdrop-filter: saturate(140%) blur(8px);
-  transition: height 0.22s ease, box-shadow 0.22s ease, background 0.22s ease, border-color 0.22s ease;
-}
-html[data-theme="dark"] .nav--scrolled {
-  background: rgba(22, 26, 34, 0.85) !important;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
+  transition: height 0.22s ease, box-shadow 0.22s ease;
 }
 
 /* Pin homepage fleet grid to exactly 4 cols on full desktop, then
    step down to 3, 2 cards as the viewport narrows. Overrides the
    auto-fit minmax with max-width breakpoints. */
-@media (min-width: 1100px) {
-  .kch-fleet-grid { grid-template-columns: repeat(4, 1fr) !important; }
-}
-@media (min-width: 760px) and (max-width: 1099px) {
+@media (min-width: 900px) {
   .kch-fleet-grid { grid-template-columns: repeat(3, 1fr) !important; }
 }
-@media (min-width: 480px) and (max-width: 759px) {
+@media (min-width: 600px) and (max-width: 899px) {
   .kch-fleet-grid { grid-template-columns: repeat(2, 1fr) !important; }
 }
-@media (max-width: 479px) {
+@media (max-width: 599px) {
   .kch-fleet-grid { grid-template-columns: 1fr !important; }
 }
