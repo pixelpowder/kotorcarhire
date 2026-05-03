@@ -565,7 +565,7 @@ function Fleet() {
                   {!image && car.category}
                 </div>
                 <div style={{ padding: '16px 18px 18px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                  <span style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#1B3A5C' }}>
+                  <span style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#2D5C8A' }}>
                     {car.category}
                   </span>
                   <span style={{ fontSize: '17px', fontWeight: 700, color: 'rgb(5,32,60)', letterSpacing: '-0.01em' }}>
@@ -580,7 +580,7 @@ function Fleet() {
                     justifyContent: 'space-between',
                     gap: '8px',
                   }}>
-                    <span style={{ fontSize: '13px', fontWeight: 700, color: '#1B3A5C' }}>
+                    <span style={{ fontSize: '13px', fontWeight: 700, color: '#2D5C8A' }}>
                       {t('fleet.bookCta') || 'Book this car'} →
                     </span>
                     {FLEET_FLOOR_EUR[car.slug] && (
@@ -588,7 +588,7 @@ function Fleet() {
                         display: 'inline-flex',
                         alignItems: 'baseline',
                         gap: '4px',
-                        background: '#1B3A5C',
+                        background: '#2D5C8A',
                         color: '#fff',
                         padding: '4px 9px 5px',
                         borderRadius: '7px',
