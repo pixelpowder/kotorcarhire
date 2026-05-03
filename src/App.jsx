@@ -513,7 +513,7 @@ function Fleet() {
           gap: '16px',
           marginTop: '32px',
         }}>
-          {HOMEPAGE_BOOKING_CARS.map((car) => {
+          {HOMEPAGE_BOOKING_CARS.slice(0, 9).map((car) => {
             const localCar = car.siteSlug ? slugMap[car.siteSlug] : null;
             const image = (localCar && localCar.image) || car.image || null;
             const href = car.carIds ? localePath(`/book?model=${car.slug}`) : localePath('/book');
@@ -564,7 +564,7 @@ function Fleet() {
                   {!image && car.category}
                 </div>
                 <div style={{ padding: '16px 18px 18px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                  <span style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#0062e3' }}>
+                  <span style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#1B3A5C' }}>
                     {car.category}
                   </span>
                   <span style={{ fontSize: '17px', fontWeight: 700, color: 'rgb(5,32,60)', letterSpacing: '-0.01em' }}>
@@ -579,7 +579,7 @@ function Fleet() {
                     justifyContent: 'space-between',
                     gap: '8px',
                   }}>
-                    <span style={{ fontSize: '13px', fontWeight: 700, color: '#0062e3' }}>
+                    <span style={{ fontSize: '13px', fontWeight: 700, color: '#1B3A5C' }}>
                       {t('fleet.bookCta') || 'Book this car'} →
                     </span>
                     {FLEET_FLOOR_EUR[car.slug] && (
@@ -587,7 +587,7 @@ function Fleet() {
                         display: 'inline-flex',
                         alignItems: 'baseline',
                         gap: '4px',
-                        background: '#0062e3',
+                        background: '#1B3A5C',
                         color: '#fff',
                         padding: '4px 9px 5px',
                         borderRadius: '7px',
