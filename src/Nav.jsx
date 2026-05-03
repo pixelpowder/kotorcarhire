@@ -168,7 +168,7 @@ export default function Nav({ logoHref }) {
                 >
                   <span style={{ display: 'inline-flex', alignItems: 'center', gap: 10 }}>
                     {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
-                    {theme === 'dark' ? 'Light mode' : 'Dark mode'}
+                    {theme === 'dark' ? t('nav.lightMode') : t('nav.darkMode')}
                   </span>
                   <ChevronRight size={16} />
                 </button>

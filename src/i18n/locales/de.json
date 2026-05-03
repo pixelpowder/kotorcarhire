@@ -6,7 +6,9 @@
     "about": "Über uns",
     "blog": "Ratgeber",
     "contact": "Kontakt",
-    "bayOfKotor": "Bucht von Kotor"
+    "bayOfKotor": "Bucht von Kotor",
+    "darkMode": "Dunkelmodus",
+    "lightMode": "Hellmodus"
   },
   "cars": {
     "readGuide": "Ratgeber lesen",

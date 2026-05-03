@@ -6,7 +6,9 @@
     "about": "Chi Siamo",
     "blog": "Guida",
     "contact": "Contatti",
-    "bayOfKotor": "Bocche di Cattaro"
+    "bayOfKotor": "Bocche di Cattaro",
+    "darkMode": "Modalità scura",
+    "lightMode": "Modalità chiara"
   },
   "cars": {
     "readGuide": "Leggi la guida",

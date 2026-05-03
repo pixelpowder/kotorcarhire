@@ -6,7 +6,9 @@
     "destinations": "Destinations",
     "about": "About",
     "contact": "Contact",
-    "bayOfKotor": "Bay of Kotor"
+    "bayOfKotor": "Bay of Kotor",
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode"
   },
   "cars": {
     "readGuide": "Read guide",

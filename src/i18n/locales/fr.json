@@ -6,7 +6,9 @@
     "about": "À Propos",
     "blog": "Actualités",
     "contact": "Nous contacter",
-    "bayOfKotor": "Baie de Kotor"
+    "bayOfKotor": "Baie de Kotor",
+    "darkMode": "Mode sombre",
+    "lightMode": "Mode clair"
   },
   "cars": {
     "readGuide": "Lire le guide",

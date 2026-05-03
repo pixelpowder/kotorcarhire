@@ -6,7 +6,9 @@
     "about": "O Nama",
     "blog": "Vodič",
     "contact": "Kontakt",
-    "bayOfKotor": "Boka Kotorska"
+    "bayOfKotor": "Boka Kotorska",
+    "darkMode": "Tamni način",
+    "lightMode": "Svijetli način"
   },
   "cars": {
     "readGuide": "Pročitaj vodič",
