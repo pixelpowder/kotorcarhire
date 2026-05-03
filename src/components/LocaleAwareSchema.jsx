@@ -40,20 +40,15 @@ const BASE_AUTO_RENTAL = {
   ],
   "priceRange": "€25-€120",
   "currenciesAccepted": "EUR",
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "opens": "09:00",
-      "closes": "17:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Saturday", "Sunday"],
-      "opens": "00:00",
-      "closes": "23:59"
-    }
-  ],
+  // Open 24/7 because the booking flow is online — visitors can
+  // search and book any hour. Physical handover times vary per
+  // pickup partner and are noted in the rental confirmation.
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  }],
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5.0",
