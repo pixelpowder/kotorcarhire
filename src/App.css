@@ -2688,11 +2688,14 @@ html[data-theme="dark"] .section-label {
 }
 .fleet-showcase__strip {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
   margin-top: 24px;
 }
-@media (max-width: 640px) {
+@media (max-width: 1099px) {
+  .fleet-showcase__strip { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 760px) {
   .fleet-showcase__strip { grid-template-columns: repeat(2, 1fr); gap: 10px; }
 }
 .fleet-showcase__chip {
