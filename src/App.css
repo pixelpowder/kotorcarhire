@@ -725,7 +725,9 @@ button.mobile-drawer__theme {
 }
 
 .hero__headline {
-  font-size: clamp(28px, 4.2vw, 56px);
+  /* Removed white-space:nowrap + text-overflow:ellipsis — those were
+     truncating long translations (RU, FR). Multi-line headline handles
+     length variation per locale gracefully. */
   font-weight: 900;
   color: var(--on-inverse);
   line-height: 1.05;
@@ -733,9 +735,34 @@ button.mobile-drawer__theme {
   max-width: 100%;
   margin-bottom: 14px;
   padding: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+}
+
+/* Two-line hero headline: line 1 = destination anchor, line 2 = service.
+   Both lines same size + weight so the H1 reads as one cohesive brand
+   headline split across two lines. */
+.hero__headline--two-line {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+.hero__headline-line1,
+.hero__headline-line2 {
+  display: block;
+  font-size: clamp(48px, 12vw, 88px);
+  font-weight: 900;
+  letter-spacing: -0.025em;
+  line-height: 1;
+}
+
+.booking-card__urgency {
+  margin: 12px 0 0;
+  text-align: center;
+  font-size: 11.5px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.4;
+  letter-spacing: 0.01em;
 }
 
 .hero__badges {
@@ -1029,13 +1056,11 @@ select.booking-field__input {
 
 /* ─── TRUST STRIP ──────────────────────────────────────── */
 .trust-strip {
-  background: rgba(10, 25, 41, 0.93);
-  backdrop-filter: blur(80px);
-  -webkit-backdrop-filter: blur(80px);
+  background: rgb(5, 32, 60);
   padding: 40px 0;
   position: relative;
   overflow: hidden;
-  z-index: 0;
+  z-index: 3;
 }
 
 .trust-strip::before { display: none; }
