@@ -163,6 +163,8 @@ export default function CarDetail({ slug }) {
       description={suitability}
       image={car.image}
       heroPosition="center"
+      bookingHref={FLEET_SLUG_TO_CAR_IDS[slug] ? `/book?model=${slug}` : '/book'}
+      bookingLabelKey="common.bookNow"
     >
       <div className="car-detail-hero-card">
         <div className="car-detail-category-tag">{category}</div>

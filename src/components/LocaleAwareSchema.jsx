@@ -69,7 +69,7 @@ export default function LocaleAwareSchema({ lang = 'en', isHomepage = true }) {
   const description = pick(t, 'home.seoDesc')
     || pick(t, 'meta.homeDescription')
     || pick(t, 'hero.subtitle')
-    || 'Rent a car in Montenegro from trusted local providers with free cancellation, full insurance, and airport pickup included with every booking.';
+    || 'Rent a car in Montenegro from trusted local providers with free cancellation, flexible insurance options, and airport pickup with every booking.';
 
   const autoRental = { ...BASE_AUTO_RENTAL, description };
 

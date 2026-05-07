@@ -199,10 +199,11 @@
     "headline": "Kotor Car Hire",
     "badges": {
       "freeCancellation": "Free Cancellation",
-      "fullInsurance": "Full Insurance Included",
+      "fullInsurance": "Insurance Options",
       "airportPickup": "Tivat Airport 8 km",
       "trustpilot": "4.8/5 on Trustpilot",
-      "localProviders": "Local Providers"
+      "localProviders": "Local Providers",
+      "priceFrom": "From €20/day"
     },
     "search": "Search",
     "pickupLocation": "Pick-up location",
@@ -211,32 +212,36 @@
     "pickupTime": "Time",
     "dropoffDate": "Drop-off date",
     "dropoffTime": "Time",
-    "selectDates": "Select dates"
+    "selectDates": "Select dates",
+    "headlineLine1": "Kotor",
+    "headlineLine2": "Car Hire",
+    "urgency": "The Bay clogs with cruise ships from May. Reserve your handover slot before they fill up."
   },
   "trust": {
     "noHiddenFees": "No Hidden Fees",
     "noHiddenFeesDesc": "What you see at checkout is what you pay, no fuel deposits or hidden extras",
-    "fullInsurance": "Full Insurance",
+    "fullInsurance": "Insurance Options",
     "fullInsuranceDesc": "Comprehensive cover on every booking, with a zero-excess option for bay roads",
     "fastPickup": "Tivat Airport",
     "fastPickupDesc": "8 km from Kotor Old Town, your car is waiting when you land"
   },
   "stats": {
-    "years": "Years Experience",
-    "rentals": "Happy Rentals",
-    "rating": "Customer Rating",
-    "locations": "Pickup Locations"
+    "years": "Years on the Bay",
+    "rentals": "Rentals Handed Over",
+    "rating": "Guest Rating",
+    "cars": "Vehicles in Fleet",
+    "locations": "Pickup Points Around Kotor"
   },
   "howItWorks": {
-    "label": "How It Works",
-    "title": "On the Road in 3 Steps",
-    "subtitle": "Simple booking. Instant confirmation. No queues at the airport.",
-    "step1Title": "Choose Your Location",
-    "step1Desc": "Pick up at Tivat Airport, Kotor Old Town, Perast, Budva, or any of 28+ locations across Montenegro.",
-    "step2Title": "Pick Your Car",
-    "step2Desc": "Browse our fleet from economy runabouts to premium SUVs. Filter by size, transmission, or budget.",
-    "step3Title": "Drive the Bay of Kotor",
-    "step3Desc": "We meet you at arrivals or your hotel. Your car is ready. Explore the bay, mountains, and historic towns."
+    "label": "Booking Process",
+    "title": "Three Steps to Bay-Road Driving",
+    "subtitle": "Pick a car, name your slot, and we hand you the keys at Tivat Airport, the Old Town, or your hotel door.",
+    "step1Title": "Pick Your Slot",
+    "step1Desc": "Choose Tivat Airport meet & greet, hotel delivery in Kotor, the Bus Terminal, Kameija Mall, the Port, or Forza Mare in Dobrota.",
+    "step2Title": "Choose the Right Car",
+    "step2Desc": "Polo for Old Town parking, Yaris for the bay road, Kadjar if you are heading up Lovćen. Filter by transmission, fuel, or floor price.",
+    "step3Title": "Drive the Bay",
+    "step3Desc": "Your agent meets you at the agreed point with the keys. Drive to Perast, swing up the Lovćen serpentines, or pick a boat-day across the bay."
   },
   "fleet": {
     "label": "Our Fleet",
@@ -244,7 +249,7 @@
     "subtitle": "Browse real-time availability and prices, free cancellation, full insurance, book directly."
   },
   "brands": {
-    "label": "Trusted brands in our fleet"
+    "label": "Brands you'll find in our Kotor fleet"
   },
   "destinations": {
     "label": "Top Destinations",
@@ -287,7 +292,7 @@
     "iframeTitle": "Car rental booking"
   },
   "footer": {
-    "brandDesc": "Short term Kotor car hire from Tivat Airport and the Old Town gates. Full insurance, bay road expertise, and flat rates that stay flat all season.",
+    "brandDesc": "Tivat Airport pickup, in-town Kotor delivery, and hotel handovers across the Bay. Full insurance, bay road expertise, and flat rates that stay flat all season.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "locations": "Locations",
@@ -334,12 +339,12 @@
     "p3Link3": "Kotor Old Town",
     "p3d": ", and locations across the coast and interior.",
     "promiseTitle": "Our Promise",
-    "promise1": "Full insurance with zero excess options available",
+    "promise1": "Insurance tiers from basic third-party to zero-excess",
     "promise2": "Tivat Airport meet-and-greet, we bring the car to you at arrivals",
     "promise3": "No hidden fees, the price you see is the price you pay",
     "promise4": "Cross-border travel permitted to Croatia, Bosnia, Albania, Serbia, and Kosovo",
     "promise5": "Free cancellation on most bookings",
-    "promise6": "Local rental providers, full insurance and low or no-deposit options",
+    "promise6": "Local rental providers, flexible insurance tiers and low or no-deposit options",
     "localTitle": "Local Knowledge",
     "localText": "Based in Kotor, we know every road around the bay, the best routes, the hidden gems, and the shortcuts that guidebooks miss. Whether you're driving from",
     "localLink1": "Tivat Airport",
@@ -462,7 +467,7 @@
       "desc": "We meet you at Tivat arrivals, just 8 km from the Old Town walls. Drive the bay road into Kotor in 15 minutes, no shuttle, no waiting around."
     },
     "fullInsurance": {
-      "title": "Full Insurance",
+      "title": "Insurance Options",
       "desc": "Zero excess option available. Whether you're navigating the narrow lanes inside the Old Town or the Lovcen hairpins above, you're fully covered."
     },
     "support": {
@@ -1310,8 +1315,9 @@
   },
   "locations": {
     "label": "Pickup Points",
-    "title": "Where Can You Collect?",
-    "subtitle": "Multiple locations across Montenegro for maximum convenience."
+    "title": "Where We Hand Over the Keys",
+    "subtitle": "Six handover points around the Bay — Tivat Airport meet & greet, Kotor Port for cruisers, the Bus Terminal, Kameija Mall, Hotel Forza Mare, plus city delivery to your hotel or address.",
+    "seoDesc": "Six pickup points around the Bay of Kotor — Tivat Airport meet & greet, Kotor Port for cruise visitors, Bus Terminal, Kameija Mall, Hotel Forza Mare, plus city delivery to your hotel."
   },
   "imageAlts": {
     "kotorBayAerial": "Bay of Kotor aerial view from above the fortress walls",
@@ -1381,5 +1387,20 @@
     "luggage": "Luggage",
     "bootSize": "Boot",
     "mpg": "Economy"
+  },
+  "priceAlert": {
+    "title": "Watch Kotor Prices for {year}",
+    "titleFor": "Set a Bay Price Watch",
+    "text": "Booking ahead for the Bay? We'll ping you if rates drop on your dates.",
+    "textFor": "Eyeing a Kotor rental? We'll ping you when prices dip on {location} pickup.",
+    "placeholder": "you@example.com",
+    "submit": "Watch Prices",
+    "submitting": "Setting alert…",
+    "success": "Set — we'll email you the moment Kotor rates drop.",
+    "invalidEmail": "That email doesn't look right — please check and resend.",
+    "error": "Couldn't set the alert. Try again in a moment.",
+    "consent": "By signing up you agree to a small number of price-related messages. Unsubscribe any time.",
+    "consentShort": "By signing up you accept our",
+    "privacyLink": "Privacy Policy."
   }
 }

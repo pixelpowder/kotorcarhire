@@ -11,7 +11,7 @@ import { SUPPORTED_LANGS, DEFAULT_LANG, LANG_HREFLANG } from '@/src/i18n/languag
 import LocaleAwareSchema from '@/src/components/LocaleAwareSchema';
 
 const SITE_TITLE = 'Kotor Car Hire, Bay of Kotor & Old Town Rentals';
-const SITE_DESC = 'Explore Kotor\'s walled city and the fjord-like bay by car. Collect at Tivat Airport, just 8 km away, or right outside the medieval gates. From €13/day with full insurance.';
+const SITE_DESC = 'Explore Kotor\'s walled city and the fjord-like bay by car. Collect at Tivat Airport, just 8 km away, or right outside the medieval gates. From €13/day, with insurance options at checkout.';
 const SITE_URL = 'https://www.kotorcarhire.com';
 const SITE_NAME = 'Kotor Car Hire';
 
@@ -33,7 +33,10 @@ export const metadata = {
 
 async function activeContext() {
   const h = await headers();
-  const pathname = h.get('x-pathname') || h.get('x-invoke-path') || '';
+  // x-pathname is set by src/middleware.js. Note: in Next.js 16 with the
+  // `src/` directory, middleware MUST live at src/middleware.js — the
+  // project-root location used in earlier versions is silently ignored.
+  const pathname = h.get('x-pathname') || '';
   const segs = pathname.replace(/^\//, '').split('/').filter(Boolean);
   let lang = DEFAULT_LANG;
   let rest = segs;
@@ -63,8 +66,17 @@ export default async function RootLayout({ children }) {
             __html: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-KV9ELT3R9H');`,
           }}
         />
-        <link rel="preload" href="/hero-video.mp4" as="video" type="video/mp4" />
-        <link rel="preload" href="/hero-bg.webp" as="image" type="image/webp" />
+        <link rel="preload" href="/hero-video.mp4" as="video" type="video/mp4" media="(min-width: 769px)" />
+        <link rel="preload" href="/hero-bg.webp" as="image" type="image/webp" media="(max-width: 768px)" />
+        {/* Warm the connection to LocalRent's CDN ahead of /book.
+            preconnect does DNS + TCP + TLS handshake upfront; the
+            iframe's app.js (and the CSS/JS chunks it pulls) all live
+            on this origin, so one preconnect saves 200-500ms on the
+            first request when the user clicks Search Cars / Book.
+            dns-prefetch is a fallback for browsers that ignore
+            preconnect under resource pressure. */}
+        <link rel="preconnect" href="https://static.localrent.com" crossOrigin="" />
+        <link rel="dns-prefetch" href="https://static.localrent.com" />
         <LocaleAwareSchema lang={lang} isHomepage={isHomepage} />
       </head>
       <body>

@@ -241,7 +241,7 @@ const siteConfig = {
 
   features: [
     { icon: "map-pin", title: "Tivat Airport Pickup", description: "We meet you at Tivat arrivals, just 8 km from the Old Town walls. Drive the bay road into Kotor in 15 minutes, no shuttle, no waiting around." },
-    { icon: "shield-check", title: "Full Insurance", description: "Zero excess option available. Whether you're navigating the narrow lanes inside the Old Town or the Lovcen hairpins above, you're fully covered." },
+    { icon: "shield-check", title: "Insurance Options", description: "Insurance tiers from basic third-party up to no-deposit zero-excess. Pick the cover that suits your drive, whether the narrow lanes of the Old Town or the Lovcen hairpins above." },
     { icon: "clock", title: "24/7 Support", description: "Stuck behind a cruise bus on the bay road? Unsure about the Tabacina car park? Call us any time, we know every metre of these roads." },
     { icon: "ban", title: "No Hidden Fees", description: "One transparent price covers insurance, VAT, and mileage. What you see when you book is exactly what you pay at pickup, nothing added at the desk." },
     { icon: "refresh-cw", title: "Free Cancellation", description: "Cruise schedule moved? Lovcen road closed by weather? Cancel up to 7 days before collection for a full refund, no questions asked." },
@@ -270,12 +270,12 @@ const siteConfig = {
   ],
 
   locations: [
-    { name: "Tivat Airport", tag: "Most Popular" },
-    { name: "Kotor Old Town", tag: "Local Pickup" },
-    { name: "Budva", tag: "" },
-    { name: "Perast", tag: "" },
-    { name: "Tivat", tag: "" },
-    { name: "Herceg Novi", tag: "" },
+    { name: "Tivat Airport", tag: "Meet & Greet" },
+    { name: "City Delivery", tag: "Hotel & Address" },
+    { name: "Kotor Port", tag: "Cruise Pickup" },
+    { name: "Bus Terminal", tag: "" },
+    { name: "Kameija Mall", tag: "" },
+    { name: "Hotel Forza Mare", tag: "" },
   ],
 
   destinations: [
@@ -334,6 +334,34 @@ const siteConfig = {
       tag: "Capital City",
       desc: "Montenegro's capital, gateway to the interior.",
       image: "/img/podgorica-city.webp",
+    },
+    {
+      name: "Herceg Novi",
+      slug: "herceg-novi",
+      tag: "Bay entrance",
+      desc: "Coastal town at the mouth of the Bay, hour drive from Kotor.",
+      image: "/img/pexels-29071814.jpg",
+    },
+    {
+      name: "Bar",
+      slug: "bar",
+      tag: "South coast",
+      desc: "Mediterranean port town, two hours south of Kotor.",
+      image: "/img/pexels-28674522.jpg",
+    },
+    {
+      name: "Ulcinj",
+      slug: "ulcinj",
+      tag: "Albanian border",
+      desc: "Sandy beaches and Ottoman old town near the Albanian frontier.",
+      image: "/img/pexels-26753897.jpg",
+    },
+    {
+      name: "Nikšić",
+      slug: "niksic",
+      tag: "Inland",
+      desc: "Mountain-fringed brewery town, gateway to Durmitor.",
+      image: "/img/pexels-9526645.jpg",
     },
   ],
 };

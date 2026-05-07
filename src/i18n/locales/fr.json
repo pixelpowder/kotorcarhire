@@ -202,7 +202,8 @@
       "fullInsurance": "Assurance Tous Risques Incluse",
       "airportPickup": "Aéroport de Tivat 8 km",
       "trustpilot": "4.8/5 sur Trustpilot",
-      "localProviders": "Prestataires Locaux"
+      "localProviders": "Prestataires Locaux",
+      "priceFrom": "À partir de 20 €/jour"
     },
     "search": "Rechercher",
     "pickupLocation": "Lieu de prise en charge",
@@ -211,7 +212,10 @@
     "pickupTime": "Heure",
     "dropoffDate": "Date de restitution",
     "dropoffTime": "Heure",
-    "selectDates": "Sélectionner les dates"
+    "selectDates": "Sélectionner les dates",
+    "headlineLine1": "Kotor",
+    "headlineLine2": "Voitures à Louer",
+    "urgency": "Dès l'arrivée des bateaux de croisière en mai, la baie est saturée. Bloquez votre créneau de remise des clés à l'avance."
   },
   "trust": {
     "noHiddenFees": "Aucun Frais Caché",
@@ -222,29 +226,30 @@
     "fastPickupDesc": "Nous vous accueillons aux arrivées"
   },
   "stats": {
-    "years": "Années d'Expérience",
-    "rentals": "Locations Réussies",
-    "rating": "Note des Clients",
-    "locations": "Points de Prise en Charge"
+    "years": "Ans dans la baie",
+    "rentals": "Locations remises",
+    "rating": "Note des clients",
+    "cars": "Véhicules dans la flotte",
+    "locations": "Points de remise autour de Kotor"
   },
   "howItWorks": {
-    "label": "Comment Ça Marche",
-    "title": "Sur la Route en 3 Étapes",
-    "subtitle": "Réservation en trois étapes. Sans queue. Remise des clés sur la place devant l'entrée de la vieille ville.",
-    "step1Title": "Choisissez Votre Lieu",
-    "step1Desc": "Prise en charge à l'aéroport de Tivat, dans la vieille ville de Kotor, à Perast, Budva, ou à l'un des plus de 28 points du Monténégro.",
-    "step2Title": "Choisissez Votre Voiture",
-    "step2Desc": "Comparez notre flotte, de la citadine économique au SUV premium. Tri par taille, boîte de vitesses ou budget quotidien.",
-    "step3Title": "Conduisez au Monténégro",
-    "step3Desc": "Nous vous retrouvons aux arrivées ou à votre hôtel, clés en main. Baie de Kotor, Perast et route de Lovćen vous attendent."
+    "label": "Le Processus",
+    "title": "Trois étapes pour rouler dans la baie",
+    "subtitle": "Choisissez la voiture, indiquez le créneau — nous vous remettons les clés à l'aéroport de Tivat, dans la vieille ville ou à votre hôtel.",
+    "step1Title": "Choisissez le point de remise",
+    "step1Desc": "Accueil à l'aéroport de Tivat, livraison à l'hôtel dans Kotor, gare routière, centre commercial Kameija, port ou Forza Mare à Dobrota.",
+    "step2Title": "Choisissez la voiture",
+    "step2Desc": "Polo pour se garer dans la vieille ville, Yaris pour la route côtière, Kadjar pour monter à Lovćen. Filtrez par transmission, carburant ou prix plancher.",
+    "step3Title": "Roulez dans la baie",
+    "step3Desc": "Votre agent vous attend au point convenu avec les clés. Direction Perast, les lacets de Lovćen ou une journée en bateau dans la baie."
   },
   "fleet": {
     "label": "Notre Flotte",
     "title": "Location de Voiture à Kotor",
-    "subtitle": "Consultez la disponibilité et les prix en temps réel, annulation gratuite, assurance tous risques, réservez directement."
+    "subtitle": "Consultez la disponibilité et les prix en temps réel, annulation gratuite, options d'assurance flexibles, réservez directement."
   },
   "brands": {
-    "label": "Marques de confiance dans notre flotte"
+    "label": "Marques présentes dans notre flotte de Kotor"
   },
   "destinations": {
     "label": "Destinations Phares",
@@ -287,7 +292,7 @@
     "iframeTitle": "Réservation de location de voiture"
   },
   "footer": {
-    "brandDesc": "Location de voiture courte durée à Kotor depuis l'aéroport de Tivat et les portes de la Vieille Ville. Assurance complète, expertise des routes côtières, et tarifs fixes toute la saison.",
+    "brandDesc": "Prise en charge à l'aéroport de Tivat, livraison en ville à Kotor et remise des clés à l'hôtel partout dans la baie. Options d'assurance, connaissance des routes côtières et tarifs fixes toute la saison.",
     "quickLinks": "Liens Rapides",
     "guides": "Guides",
     "locations": "Nos Agences",
@@ -334,12 +339,12 @@
     "p3Link3": "la Vieille Ville de Kotor",
     "p3d": ", et des lieux partout sur la côte et à l'intérieur.",
     "promiseTitle": "Notre engagement",
-    "promise1": "Assurance complète avec options franchises zéro disponibles",
+    "promise1": "Options d'assurance avec options franchises zéro disponibles",
     "promise2": "Accueil à l'Aéroport de Tivat. nous vous apportons la voiture à l'arrivée",
     "promise3": "Aucun frais caché. le prix affiché est le prix que vous payez",
     "promise4": "Voyage transfrontalier autorisé en Croatie, Bosnie, Albanie, Serbie et Kosovo",
     "promise5": "Annulation gratuite sur la plupart des réservations",
-    "promise6": "Loueurs locaux, assurance tous risques et options sans ou avec faible caution",
+    "promise6": "Loueurs locaux, options d'assurance flexibles et options sans ou avec faible caution",
     "localTitle": "Connaissance locale",
     "localText": "Basés à Kotor, nous connaissons chaque route autour de la baie. les meilleures routes, les pépites cachées et les raccourcis que les guides touristiques oublient. Que vous conduisiez depuis",
     "localLink1": "l'Aéroport de Tivat",
@@ -462,7 +467,7 @@
       "desc": "Nous vous accueillons aux arrivées de Tivat, à seulement 8 km des remparts de la vieille ville. La route de la baie jusqu'à Kotor se fait en 15 minutes, sans navette, sans attente."
     },
     "fullInsurance": {
-      "title": "Assurance tous risques",
+      "title": "Options d'assurance",
       "desc": "Option zéro franchise disponible. Que vous naviguiez dans les ruelles de la vieille ville ou sur les lacets du Lovcen, vous êtes entièrement couvert."
     },
     "support": {
@@ -579,9 +584,9 @@
     "h2": "Pourquoi nous avons commencé",
     "p2": "Les bus publics suivent la route principale et s'arrêtent. Point final. Ils ne feront pas de détour par le belvédère non signalisé au dessus de Perast où la baie s'ouvre en deux bras. Ils ne peuvent pas s'arrêter aux mosaïques romaines de Risan ni emprunter la route à voie unique vers Gornji Stoliv, le village abandonné accroché à la paroi rocheuse à 400 mètres au dessus de l'eau. Seul un volant entre les mains et la curiosité ouvrent vraiment les Bouches de Boka Kotorska.",
     "h3": "Ce que nous proposons",
-    "p3": "Les points de prise en charge couvrent toute la baie: aéroport de Tivat (à 8 km des remparts de Kotor), directement devant le parking de la Porte de la Rivière, et dans 28 villes, de Herceg Novi à Ulcinj. Les citadines compactes se faufilent facilement dans les accès de la vieille ville. Les SUV maîtrisent sans broncher les 25 épingles de la serpentine du Lovćen. Les options s'ajoutent dans le même flux de réservation: un porte-bagages pour les kayaks que les opérateurs de la Bay of Boka louent, une trottinette électrique avec chargeur pour les courses entre la vieille ville fortifiée (interdite aux voitures) et Dobrota, trois tailles de siège enfant pour les familles de croisière, et un hotspot Wi-Fi mobile pour les passagers sans carte SIM locale. Chaque véhicule est entièrement assuré, et les documents transfrontaliers se déclinent en trois niveaux couvrant Croatie, Bosnie, Serbie, Albanie et Kosovo selon l'étendue de l'itinéraire.",
+    "p3": "Les points de prise en charge couvrent toute la baie: aéroport de Tivat (à 8 km des remparts de Kotor), directement devant le parking de la Porte de la Rivière, et dans 28 villes, de Herceg Novi à Ulcinj. Les citadines compactes se faufilent facilement dans les accès de la vieille ville. Les SUV maîtrisent sans broncher les 25 épingles de la serpentine du Lovćen. Les options s'ajoutent dans le même flux de réservation: un porte-bagages pour les kayaks que les opérateurs de la Bay of Boka louent, une trottinette électrique avec chargeur pour les courses entre la vieille ville fortifiée (interdite aux voitures) et Dobrota, trois tailles de siège enfant pour les familles de croisière, et un hotspot Wi-Fi mobile pour les passagers sans carte SIM locale. Chaque véhicule est disponible avec des options d'assurance, et les documents transfrontaliers se déclinent en trois niveaux couvrant Croatie, Bosnie, Serbie, Albanie et Kosovo selon l'étendue de l'itinéraire.",
     "promiseTitle": "Notre engagement",
-    "promise1": "Assurance tous risques avec option zéro franchise",
+    "promise1": "Options d'assurance avec option zéro franchise",
     "promise2": "Un chauffeur nommé vous attend aux arrivées de Tivat, panneau en main, voiture garée à la sortie",
     "promise3": "Aucun frais caché, le prix affiché est le prix final",
     "promise4": "Carte Verte préparée pour cinq pays voisins",
@@ -1310,8 +1315,9 @@
   },
   "locations": {
     "label": "Points de prise en charge",
-    "title": "Où récupérer le véhicule ?",
-    "subtitle": "Plusieurs points de retrait à travers le Monténégro pour un maximum de commodité."
+    "title": "Où nous remettons les clés",
+    "subtitle": "Six points de remise autour de la baie — accueil personnalisé à l'aéroport de Tivat, port de Kotor pour les croisiéristes, gare routière, centre commercial Kameija, Hôtel Forza Mare, plus livraison en ville à votre hôtel ou adresse.",
+    "seoDesc": "Six points de remise autour de la baie de Kotor — accueil à l'aéroport de Tivat, port de Kotor pour les croisiéristes, gare routière, centre commercial Kameija, Hôtel Forza Mare et livraison à l'hôtel."
   },
   "imageAlts": {
     "kotorBayAerial": "Vue aérienne de la baie de Kotor depuis le sommet des murailles",
@@ -1381,5 +1387,20 @@
     "luggage": "Bagages",
     "bootSize": "Coffre",
     "mpg": "Consommation"
+  },
+  "priceAlert": {
+    "title": "Surveiller les prix Kotor {year}",
+    "titleFor": "Activer la veille de prix",
+    "text": "Vous prévoyez la baie ? Nous vous écrirons dès que les tarifs baisseront sur vos dates.",
+    "textFor": "Une location à Kotor en tête ? Nous vous prévenons dès que le prix baisse pour la remise à {location}.",
+    "placeholder": "vous@exemple.fr",
+    "submit": "Surveiller",
+    "submitting": "Activation…",
+    "success": "C'est en place — vous serez alerté à la première baisse.",
+    "invalidEmail": "Cette adresse ne semble pas valide — vérifiez et renvoyez.",
+    "error": "Impossible de créer l'alerte. Réessayez dans un instant.",
+    "consent": "En vous inscrivant, vous acceptez de recevoir quelques messages relatifs aux prix. Désinscription possible à tout moment.",
+    "consentShort": "En vous inscrivant, vous acceptez notre",
+    "privacyLink": "Politique de confidentialité."
   }
 }

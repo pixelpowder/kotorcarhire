@@ -202,7 +202,8 @@
       "fullInsurance": "Assicurazione Completa Inclusa",
       "airportPickup": "Aeroporto di Tivat 8 km",
       "trustpilot": "4.8/5 su Trustpilot",
-      "localProviders": "Fornitori Locali"
+      "localProviders": "Fornitori Locali",
+      "priceFrom": "Da €20/giorno"
     },
     "search": "Cerca",
     "pickupLocation": "Luogo di ritiro",
@@ -211,7 +212,10 @@
     "pickupTime": "Ora",
     "dropoffDate": "Data di riconsegna",
     "dropoffTime": "Ora",
-    "selectDates": "Seleziona le date"
+    "selectDates": "Seleziona le date",
+    "headlineLine1": "Kotor",
+    "headlineLine2": "Auto a Noleggio",
+    "urgency": "Da maggio le navi da crociera bloccano la baia. Prenota in anticipo il tuo orario di consegna prima che si esaurisca."
   },
   "trust": {
     "noHiddenFees": "Nessun Costo Nascosto",
@@ -222,29 +226,30 @@
     "fastPickupDesc": "Ti accogliamo agli arrivi"
   },
   "stats": {
-    "years": "Anni di Esperienza",
-    "rentals": "Noleggi Soddisfatti",
-    "rating": "Valutazione Clienti",
-    "locations": "Punti di Ritiro"
+    "years": "Anni sulla Boka",
+    "rentals": "Noleggi consegnati",
+    "rating": "Valutazione ospiti",
+    "cars": "Veicoli in flotta",
+    "locations": "Punti di consegna intorno a Kotor"
   },
   "howItWorks": {
-    "label": "Come Funziona",
-    "title": "In Strada in 3 Passi",
-    "subtitle": "Prenotazione in tre passaggi. Niente code. Consegna delle chiavi sulla piazza davanti all'ingresso della città vecchia.",
-    "step1Title": "Scegli il Luogo",
-    "step1Desc": "Ritiro all'aeroporto di Tivat, nella città vecchia di Kotor, a Perast, Budva o in uno degli oltre 28 punti in Montenegro.",
-    "step2Title": "Scegli la Tua Auto",
-    "step2Desc": "Sfogli la nostra flotta, dalle utilitarie economiche ai SUV premium. Ordini per taglia, cambio o budget giornaliero.",
-    "step3Title": "Guida in Montenegro",
-    "step3Desc": "La accogliamo agli arrivi o in hotel. La Sua auto è pronta. Esplori la baia, le montagne e le città storiche."
+    "label": "Il Processo",
+    "title": "Tre passi e sei sulla strada della baia",
+    "subtitle": "Scegli l'auto, indica l'orario — noi consegniamo le chiavi all'aeroporto di Tivat, nel centro storico o direttamente in hotel.",
+    "step1Title": "Scegli il punto di consegna",
+    "step1Desc": "Accoglienza all'aeroporto di Tivat, consegna in hotel a Kotor, stazione autobus, Kameija Mall, porto o Hotel Forza Mare a Dobrota.",
+    "step2Title": "Scegli l'auto giusta",
+    "step2Desc": "Polo per parcheggiare in centro storico, Yaris per la costa, Kadjar per salire al Lovćen. Filtra per cambio, alimentazione o prezzo base.",
+    "step3Title": "Guida sulla baia",
+    "step3Desc": "Il nostro agente ti aspetta al punto concordato con le chiavi. Visita Perast, sali i tornanti del Lovćen o scegli una giornata in barca."
   },
   "fleet": {
     "label": "La Nostra Flotta",
     "title": "Noleggio Auto Kotor",
-    "subtitle": "Consulta disponibilità e prezzi in tempo reale, cancellazione gratuita, assicurazione completa, prenota direttamente."
+    "subtitle": "Consulta disponibilità e prezzi in tempo reale, cancellazione gratuita, opzioni di assicurazione flessibili, prenota direttamente."
   },
   "brands": {
-    "label": "Marchi affidabili nella nostra flotta"
+    "label": "Marchi presenti nella nostra flotta di Kotor"
   },
   "destinations": {
     "label": "Destinazioni Principali",
@@ -287,7 +292,7 @@
     "iframeTitle": "Prenotazione noleggio auto"
   },
   "footer": {
-    "brandDesc": "Noleggio auto a breve termine a Kotor da Aeroporto di Tivat e dalle porte della Città Vecchia. Assicurazione completa, esperienza della strada della baia, e tariffe fisse che rimangono fisse tutto l'anno.",
+    "brandDesc": "Ritiro all'aeroporto di Tivat, consegna in città a Kotor e riconsegna direttamente in hotel in tutta la Boka. Opzioni di assicurazione, conoscenza delle strade della baia e tariffe fisse tutta la stagione.",
     "quickLinks": "Link Rapidi",
     "guides": "Guide",
     "locations": "Sedi",
@@ -334,12 +339,12 @@
     "p3Link3": "la Città Vecchia di Kotor",
     "p3d": ", e località lungo la costa e l'entroterra.",
     "promiseTitle": "La nostra promessa",
-    "promise1": "Assicurazione completa con opzioni a scopertura zero disponibili",
+    "promise1": "Opzioni di assicurazione con opzioni a scopertura zero disponibili",
     "promise2": "Servizio di accoglienza all'Aeroporto di Tivat, portiamo l'auto agli arrivi",
     "promise3": "Nessuna commissione nascosta: il prezzo che vedi è il prezzo che paghi",
     "promise4": "Viaggi transfrontalieri consentiti verso Croazia, Bosnia, Albania, Serbia e Kosovo",
     "promise5": "Cancellazione gratuita sulla maggior parte delle prenotazioni",
-    "promise6": "Operatori di noleggio locali, assicurazione completa e opzioni con cauzione bassa o nulla",
+    "promise6": "Operatori di noleggio locali, opzioni di assicurazione flessibili e opzioni con cauzione bassa o nulla",
     "localTitle": "Conoscenza locale",
     "localText": "Con base a Kotor, conosciamo ogni strada attorno alla baia: le migliori rotte, i gemme nascoste, i scorciatoie che le guide turistiche non segnalano. Che tu guidi dall'",
     "localLink1": "Aeroporto di Tivat",
@@ -462,7 +467,7 @@
       "desc": "Ti accogliamo agli arrivi di Tivat, a soli 8 km dalle mura della città vecchia. La strada della baia fino a Kotor si percorre in 15 minuti, nessuna navetta, nessuna attesa."
     },
     "fullInsurance": {
-      "title": "Assicurazione completa",
+      "title": "Opzioni di assicurazione",
       "desc": "Opzione franchigia zero disponibile. Che tu stia percorrendo i vicoli della città vecchia o i tornanti del Lovcen, sei completamente coperto."
     },
     "support": {
@@ -579,9 +584,9 @@
     "h2": "Perché abbiamo iniziato",
     "p2": "Gli autobus pubblici seguono la strada principale e si fermano. Punto. Non deviano verso il belvedere non segnalato sopra Perast, dove la baia si apre in due bracci. Non possono fermarsi ai mosaici romani di Risan né affrontare la carreggiata singola fino a Gornji Stoliv, il villaggio abbandonato aggrappato alla parete rocciosa 400 metri sopra l'acqua. Solo un volante e un pizzico di curiosità aprono davvero le Bocche di Kotor.",
     "h3": "Cosa offriamo",
-    "p3": "I punti di ritiro coprono tutta la baia: aeroporto di Tivat (8 km dalle mura di Kotor), proprio davanti al parcheggio della Porta del Fiume, e in 28 città da Herceg Novi a Ulcinj. Le utilitarie compatte passano con facilità sulle strade di accesso alla città vecchia. I SUV affrontano senza fatica le 25 curve a gomito della serpentina del Lovćen. Gli accessori si aggiungono nello stesso flusso di prenotazione: un portapacchi per i kayak che gli operatori dei tour della Bay of Boka noleggiano, un monopattino elettrico con caricabatterie per le commissioni tra la Città Vecchia murata (dove non si entra in auto) e Dobrota, tre misure di seggiolino per le famiglie in crociera, e un hotspot Wi-Fi portatile per i passeggeri senza SIM locale. Ogni veicolo è completamente assicurato, e la documentazione transfrontaliera è organizzata su tre livelli che coprono Croazia, Bosnia, Serbia, Albania e Kosovo a seconda di quanto si estende l'itinerario.",
+    "p3": "I punti di ritiro coprono tutta la baia: aeroporto di Tivat (8 km dalle mura di Kotor), proprio davanti al parcheggio della Porta del Fiume, e in 28 città da Herceg Novi a Ulcinj. Le utilitarie compatte passano con facilità sulle strade di accesso alla città vecchia. I SUV affrontano senza fatica le 25 curve a gomito della serpentina del Lovćen. Gli accessori si aggiungono nello stesso flusso di prenotazione: un portapacchi per i kayak che gli operatori dei tour della Bay of Boka noleggiano, un monopattino elettrico con caricabatterie per le commissioni tra la Città Vecchia murata (dove non si entra in auto) e Dobrota, tre misure di seggiolino per le famiglie in crociera, e un hotspot Wi-Fi portatile per i passeggeri senza SIM locale. Ogni veicolo è disponibile con opzioni di assicurazione, e la documentazione transfrontaliera è organizzata su tre livelli che coprono Croazia, Bosnia, Serbia, Albania e Kosovo a seconda di quanto si estende l'itinerario.",
     "promiseTitle": "La nostra promessa",
-    "promise1": "Assicurazione completa con opzione franchigia zero su ogni prenotazione nella flotta di Cattaro",
+    "promise1": "Opzioni di assicurazione con opzione franchigia zero su ogni prenotazione nella flotta di Cattaro",
     "promise2": "Un autista nominato L'attende agli arrivi di Tivat, cartello in mano, auto parcheggiata all'uscita",
     "promise3": "Prezzi trasparenti, nessun sovrapprezzo aeroportuale, nessuna sorpresa sul carburante",
     "promise4": "Documenti Carta Verde preparati in anticipo per viaggi in cinque Paesi confinanti",
@@ -1310,8 +1315,9 @@
   },
   "locations": {
     "label": "Punti di ritiro",
-    "title": "Dove puoi ritirare l'auto?",
-    "subtitle": "Più sedi in tutto il Montenegro per la massima comodità."
+    "title": "Dove ti consegniamo le chiavi",
+    "subtitle": "Sei punti di consegna intorno alla baia — accoglienza all'aeroporto di Tivat, Porto di Kotor per chi arriva in crociera, Stazione degli autobus, Kameija Mall, Hotel Forza Mare, oltre alla consegna in città presso il tuo hotel o indirizzo.",
+    "seoDesc": "Sei punti di consegna intorno alla Boka di Kotor — accoglienza all'aeroporto di Tivat, Porto di Kotor per chi arriva in crociera, Stazione autobus, Kameija Mall, Hotel Forza Mare e consegna in hotel."
   },
   "imageAlts": {
     "kotorBayAerial": "Vista aerea delle Bocche di Cattaro dall'alto delle mura della fortezza",
@@ -1381,5 +1387,20 @@
     "luggage": "Bagagli",
     "bootSize": "Bagagliaio",
     "mpg": "Consumi"
+  },
+  "priceAlert": {
+    "title": "Tieni d'occhio i prezzi Kotor {year}",
+    "titleFor": "Avviso prezzo per la Boka",
+    "text": "Prenoti con anticipo per la Boka? Ti avvisiamo se le tariffe calano nelle tue date.",
+    "textFor": "Hai in mente un noleggio a Kotor? Ti avvisiamo quando il prezzo cala sul ritiro a {location}.",
+    "placeholder": "tu@esempio.it",
+    "submit": "Tieni d'occhio",
+    "submitting": "Impostazione…",
+    "success": "Pronto — ti scriviamo appena i prezzi a Kotor scendono.",
+    "invalidEmail": "Questa email non sembra valida — controlla e invia di nuovo.",
+    "error": "Non è stato possibile creare l'avviso. Riprova tra un attimo.",
+    "consent": "Iscrivendoti accetti di ricevere alcune email sui prezzi. Disiscrizione in qualsiasi momento.",
+    "consentShort": "Iscrivendoti accetti la nostra",
+    "privacyLink": "Informativa sulla privacy."
   }
 }

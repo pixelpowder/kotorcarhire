@@ -199,10 +199,11 @@
     "headline": "Mietwagen in Kotor",
     "badges": {
       "freeCancellation": "Kostenlose Stornierung",
-      "fullInsurance": "Vollkasko inklusive",
+      "fullInsurance": "Versicherungsoptionen",
       "airportPickup": "Flughafen Tivat 8 km",
       "trustpilot": "4.8/5 auf Trustpilot",
-      "localProviders": "Lokale Anbieter"
+      "localProviders": "Lokale Anbieter",
+      "priceFrom": "Ab €20/Tag"
     },
     "search": "Suchen",
     "pickupLocation": "Abholort",
@@ -211,40 +212,44 @@
     "pickupTime": "Uhrzeit",
     "dropoffDate": "Rückgabedatum",
     "dropoffTime": "Uhrzeit",
-    "selectDates": "Daten wählen"
+    "selectDates": "Daten wählen",
+    "headlineLine1": "Kotor",
+    "headlineLine2": "Autovermietung",
+    "urgency": "Ab Mai füllt sich die Bucht mit Kreuzfahrtschiffen. Sichern Sie Ihren Übergabe-Termin, bevor alles vergeben ist."
   },
   "trust": {
     "noHiddenFees": "Keine versteckten Kosten",
     "noHiddenFeesDesc": "Der angezeigte Preis ist all-inclusive",
-    "fullInsurance": "Vollkasko",
+    "fullInsurance": "Versicherungsoptionen",
     "fullInsuranceDesc": "Option ohne Selbstbeteiligung verfügbar",
     "fastPickup": "Flughafen Tivat",
     "fastPickupDesc": "Nur 8 km von Kotor Altstadt"
   },
   "stats": {
-    "years": "Jahre Erfahrung",
-    "rentals": "Zufriedene Vermietungen",
-    "rating": "Kundenbewertung",
-    "locations": "Abholorte"
+    "years": "Jahre an der Bucht",
+    "rentals": "Übergebene Mietwagen",
+    "rating": "Gäste-Bewertung",
+    "cars": "Fahrzeuge in der Flotte",
+    "locations": "Übergabepunkte um Kotor"
   },
   "howItWorks": {
-    "label": "So funktioniert's",
-    "title": "In 3 Schritten unterwegs",
-    "subtitle": "In drei Schritten gebucht. Ohne Anstehen. Schlüsselübergabe auf dem Platz vor dem-Eingang.",
-    "step1Title": "Wählen Sie Ihren Abholort",
-    "step1Desc": "Abholung am Flughafen Tivat, in der Altstadt von Kotor, in Perast, Budva oder an einer der über 28 Stationen in ganz Montenegro.",
-    "step2Title": "Wählen Sie Ihr Auto",
-    "step2Desc": "Stöbern Sie in unserer Flotte, von günstigen Kleinwagen bis zu Premium-SUVs. Filtern Sie nach Größe, Getriebe oder Budget.",
-    "step3Title": "Erkunden Sie die Bucht von Kotor",
-    "step3Desc": "Wir empfangen Sie bei der Ankunft oder in Ihrem Hotel. Ihr Fahrzeug ist bereit. Erkunden Sie die Bucht, die Berge und die historischen Städte."
+    "label": "Buchungsablauf",
+    "title": "In drei Schritten auf die Buchtstraße",
+    "subtitle": "Auto wählen, Zeitfenster nennen — wir übergeben den Schlüssel am Flughafen Tivat, in der Altstadt oder direkt am Hotel.",
+    "step1Title": "Übergabepunkt wählen",
+    "step1Desc": "Meet & Greet am Flughafen Tivat, Hotel-Lieferung in Kotor, Busbahnhof, Kameija Mall, Hafen oder Forza Mare in Dobrota.",
+    "step2Title": "Das passende Auto wählen",
+    "step2Desc": "Polo zum Parken in der Altstadt, Yaris für die Buchtstraße, Kadjar für die Lovćen-Auffahrt. Filtern Sie nach Getriebe, Kraftstoff oder Mindestpreis.",
+    "step3Title": "Buchtstraßen fahren",
+    "step3Desc": "Ihr Übergabe-Agent wartet am vereinbarten Punkt mit den Schlüsseln. Fahren Sie nach Perast, hoch zum Lovćen oder mit dem Boot über die Bucht."
   },
   "fleet": {
     "label": "Unsere Flotte",
     "title": "Mietwagen Kotor",
-    "subtitle": "Verfügbarkeit und Preise in Echtzeit ansehen, kostenlose Stornierung, Vollkasko, direkt buchen."
+    "subtitle": "Verfügbarkeit und Preise in Echtzeit ansehen, kostenlose Stornierung, Versicherungsoptionen, direkt buchen."
   },
   "brands": {
-    "label": "Vertrauenswürdige Marken in unserer Flotte"
+    "label": "Marken, die Sie in unserer Kotor-Flotte finden"
   },
   "destinations": {
     "label": "Top-Reiseziele",
@@ -287,7 +292,7 @@
     "iframeTitle": "Mietwagen-Buchung"
   },
   "footer": {
-    "brandDesc": "Kurzzeit-Autovermietung in Kotor vom Flughafen Tivat und den Toren der Altstadt. Vollversicherung, Expertise auf der Buchtstraße und Flatrate-Preise, die das ganze Jahr über stabil bleiben.",
+    "brandDesc": "Abholung am Flughafen Tivat, Lieferung in die Altstadt von Kotor und Übergabe direkt am Hotel. Versicherungsoptionen, Erfahrung auf den Buchtstraßen und Festpreise – die ganze Saison gleich.",
     "quickLinks": "Schnelllinks",
     "guides": "Reiseführer",
     "locations": "Standorte",
@@ -339,7 +344,7 @@
     "promise3": "Keine versteckten Gebühren: Der angezeigte Preis ist der Preis, den Sie zahlen",
     "promise4": "Grenzüberschreitende Fahrten nach Kroatien, Bosnien, Albanien, Serbien und dem Kosovo gestattet",
     "promise5": "Kostenlose Stornierung bei den meisten Buchungen",
-    "promise6": "Lokale Mietanbieter, Vollkasko und Optionen mit niedriger oder keiner Kaution",
+    "promise6": "Lokale Mietanbieter, Versicherungsoptionen und Optionen mit niedriger oder keiner Kaution",
     "localTitle": "Lokale Kenntnisse",
     "localText": "Basierend in Kotor kennen wir jede Straße um die Bucht: die besten Routen, die versteckten Schätze und die Abkürzungen, die Reiseführer nicht nennen. Ob Sie vom",
     "localLink1": "Flughafen Tivat",
@@ -579,9 +584,9 @@
     "h2": "Warum wir angefangen haben",
     "p2": "Öffentliche Busse folgen der Hauptstraße und halten. Punkt. Sie machen keinen Umweg zum unbeschilderten Aussichtspunkt oberhalb von Perast, wo sich die Bucht in zwei Arme öffnet. Sie können nicht an den römischen Mosaiken in Risan halten oder die einspurige Straße nach Gornji Stoliv befahren, das verlassene Dorf, das sich 400 Meter über dem Wasser an die Felswand klammert. Erst ein eigenes Lenkrad und Neugier öffnen die Boka Kotorska richtig.",
     "h3": "Was wir anbieten",
-    "p3": "Abholpunkte ziehen sich durch die gesamte Bucht: Flughafen Tivat (8 km von den Mauern Kotors), direkt vor dem Parkplatz am Flusstor und in 28 Ortschaften von Herceg Novi bis Ulcinj. Kompakte Kleinwagen gleiten mühelos durch die Zufahrtsstraßen der Altstadt. SUVs bewältigen die 25 Serpentinen der Lovćen-Strecke ohne Mühe. Extras laufen im selben Buchungsablauf: ein Dachträger für die Kajaks der Bay of Boka Tour-Anbieter, ein Elektroroller mit Ladegerät für Besorgungen zwischen der ummauerten Altstadt (im Inneren keine Fahrzeuge erlaubt) und Dobrota, drei Größen Kindersitze für Kreuzfahrtfamilien sowie ein mobiler WLAN-Hotspot für Passagiere ohne lokale SIM-Karte. Jedes Fahrzeug ist vollständig versichert, und die Grenzpapiere laufen in drei Stufen, die Kroatien, Bosnien, Serbien, Albanien und Kosovo abdecken, je nachdem, wie weit die Reiseroute reicht.",
+    "p3": "Abholpunkte ziehen sich durch die gesamte Bucht: Flughafen Tivat (8 km von den Mauern Kotors), direkt vor dem Parkplatz am Flusstor und in 28 Ortschaften von Herceg Novi bis Ulcinj. Kompakte Kleinwagen gleiten mühelos durch die Zufahrtsstraßen der Altstadt. SUVs bewältigen die 25 Serpentinen der Lovćen-Strecke ohne Mühe. Extras laufen im selben Buchungsablauf: ein Dachträger für die Kajaks der Bay of Boka Tour-Anbieter, ein Elektroroller mit Ladegerät für Besorgungen zwischen der ummauerten Altstadt (im Inneren keine Fahrzeuge erlaubt) und Dobrota, drei Größen Kindersitze für Kreuzfahrtfamilien sowie ein mobiler WLAN-Hotspot für Passagiere ohne lokale SIM-Karte. Jedes Fahrzeug ist mit flexiblen Versicherungsoptionen, und die Grenzpapiere laufen in drei Stufen, die Kroatien, Bosnien, Serbien, Albanien und Kosovo abdecken, je nachdem, wie weit die Reiseroute reicht.",
     "promiseTitle": "Unser Versprechen",
-    "promise1": "Vollkaskoversicherung mit Null-Selbstbeteiligung-Option bei jeder Buchung",
+    "promise1": "Versicherungsoptionenversicherung mit Null-Selbstbeteiligung-Option bei jeder Buchung",
     "promise2": "Ein namentlich genannter Fahrer wartet bei der Ankunft in Tivat, Schild in der Hand, Fahrzeug direkt davor",
     "promise3": "Transparente Preise, keine Flughafenzuschläge, keine Überraschungen bei der Tankregelung",
     "promise4": "Grüne-Karte-Unterlagen für Fahrten in fünf Nachbarländer im Voraus vorbereitet",
@@ -1310,8 +1315,9 @@
   },
   "locations": {
     "label": "Abholstellen",
-    "title": "Wo können Sie das Auto abholen?",
-    "subtitle": "Mehrere Standorte in ganz Montenegro für maximale Bequemlichkeit."
+    "title": "Wo wir die Schlüssel übergeben",
+    "subtitle": "Sechs Übergabepunkte rund um die Bucht — Meet & Greet am Flughafen Tivat, Kotor Port für Kreuzfahrtgäste, Busbahnhof, Kameija Mall, Hotel Forza Mare, dazu City-Lieferung zu Ihrem Hotel oder zur Adresse.",
+    "seoDesc": "Sechs Übergabepunkte rund um die Bucht von Kotor — Meet & Greet am Flughafen Tivat, Kotor Port für Kreuzfahrtgäste, Busbahnhof, Kameija Mall, Hotel Forza Mare und City-Lieferung zum Hotel."
   },
   "imageAlts": {
     "kotorBayAerial": "Luftbild der Bucht von Kotor von oberhalb der Festungsmauern",
@@ -1381,5 +1387,20 @@
     "luggage": "Gepäck",
     "bootSize": "Kofferraum",
     "mpg": "Verbrauch"
+  },
+  "priceAlert": {
+    "title": "Kotor-Preise {year} beobachten",
+    "titleFor": "Buchten-Preisalarm setzen",
+    "text": "Buchen Sie für die Bucht im Voraus? Wir benachrichtigen Sie, wenn die Preise an Ihren Tagen fallen.",
+    "textFor": "Planen Sie einen Mietwagen in Kotor? Wir melden uns, wenn der Preis für die Übergabe an {location} sinkt.",
+    "placeholder": "ihre@adresse.de",
+    "submit": "Preise beobachten",
+    "submitting": "Alarm wird gesetzt…",
+    "success": "Erledigt — wir melden uns, sobald die Kotor-Preise fallen.",
+    "invalidEmail": "Diese E-Mail sieht nicht korrekt aus — bitte prüfen und erneut senden.",
+    "error": "Der Alarm konnte nicht gesetzt werden. Bitte gleich noch einmal versuchen.",
+    "consent": "Mit dem Anmelden willigen Sie ein, wenige preisbezogene Nachrichten zu erhalten. Jederzeit abbestellbar.",
+    "consentShort": "Mit dem Anmelden akzeptieren Sie unsere",
+    "privacyLink": "Datenschutzerklärung."
   }
 }

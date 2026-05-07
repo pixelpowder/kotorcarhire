@@ -202,7 +202,8 @@
       "fullInsurance": "Puno Osiguranje Uključeno",
       "airportPickup": "Aerodrom Tivat 8 km",
       "trustpilot": "4.8/5 na Trustpilot",
-      "localProviders": "Lokalni provajderi"
+      "localProviders": "Lokalni provajderi",
+      "priceFrom": "Od €20/dan"
     },
     "search": "Pretraži",
     "pickupLocation": "Mjesto preuzimanja",
@@ -211,7 +212,10 @@
     "pickupTime": "Vrijeme",
     "dropoffDate": "Datum vraćanja",
     "dropoffTime": "Vrijeme",
-    "selectDates": "Odaberite datume"
+    "selectDates": "Odaberite datume",
+    "headlineLine1": "Kotor",
+    "headlineLine2": "Iznajmljivanje Auta",
+    "urgency": "Od maja brodovi krstaše blokiraju Boku. Rezervišite ranije da osigurate vrijeme preuzimanja."
   },
   "trust": {
     "noHiddenFees": "Bez Skrivenih Troškova",
@@ -222,29 +226,30 @@
     "fastPickupDesc": "Dočekujemo vas na izlazu"
   },
   "stats": {
-    "years": "Godina Iskustva",
-    "rentals": "Zadovoljnih Iznajmljivanja",
-    "rating": "Ocjena Korisnika",
-    "locations": "Lokacija za Preuzimanje"
+    "years": "Godina u Boci",
+    "rentals": "Predatih iznajmljivanja",
+    "rating": "Ocjena gostiju",
+    "cars": "Vozila u floti",
+    "locations": "Mjesta preuzimanja oko Kotora"
   },
   "howItWorks": {
-    "label": "Kako Funkcioniše",
-    "title": "Na Putu u 3 Koraka",
-    "subtitle": "Rezervacija u tri koraka. Bez redova. Ključevi se predaju na trgu ispred ulaza u Stari grad.",
-    "step1Title": "Izaberite Lokaciju",
-    "step1Desc": "Preuzmite na aerodromu Tivat, u kotorskom Starom gradu, Perastu, Budvi ili na više od 28 lokacija širom Crne Gore.",
-    "step2Title": "Izaberite Auto",
-    "step2Desc": "Pregledajte flotu, od gradskih ekonomičnih vozila do premium SUV-ova. Filtrirajte po veličini, mjenjaču ili dnevnoj cijeni.",
-    "step3Title": "Vozite Crnom Gorom",
-    "step3Desc": "Dočekujemo vas na aerodromu ili u hotelu sa spremnim ključevima. Obilazite zaliv, Perast i Lovćen u svom tempu."
+    "label": "Postupak",
+    "title": "Tri koraka do vožnje Bokom",
+    "subtitle": "Odaberite auto, javite vrijeme — predajemo ključeve na Aerodromu Tivat, u Starom gradu ili pred hotelom.",
+    "step1Title": "Izaberite mjesto preuzimanja",
+    "step1Desc": "Doček na Aerodromu Tivat, dostava do hotela u Kotoru, Autobuska stanica, Kameija Mall, Luka ili Hotel Forza Mare u Dobroti.",
+    "step2Title": "Izaberite pravi auto",
+    "step2Desc": "Polo za parking u Starom gradu, Yaris za obalu, Kadjar za uspon na Lovćen. Filtrirajte po mjenjaču, gorivu ili minimalnoj cijeni.",
+    "step3Title": "Vozite Bokom",
+    "step3Desc": "Naš agent Vas čeka na dogovorenom mjestu sa ključevima. Idite u Perast, na lovćenske serpentine ili na cjelodnevni izlet brodom."
   },
   "fleet": {
     "label": "Naša Flota",
     "title": "Rent-a-Car Kotor",
-    "subtitle": "Pregledajte dostupnost i cijene u realnom vremenu, besplatno otkazivanje, puno osiguranje, rezervišite direktno."
+    "subtitle": "Pregledajte dostupnost i cijene u realnom vremenu, besplatno otkazivanje, fleksibilne opcije osiguranja, rezervišite direktno."
   },
   "brands": {
-    "label": "Provjereni brendovi u našoj floti"
+    "label": "Brendovi koje ćete naći u našoj kotorskoj floti"
   },
   "destinations": {
     "label": "Top Destinacije",
@@ -287,7 +292,7 @@
     "iframeTitle": "Rezervacija najma vozila"
   },
   "footer": {
-    "brandDesc": "Kratkoročne iznajmljivanje automobila u Kotoru od aerodroma Tivat i kapija Starog Grada. Potpuno osiguranje, iskustvo na bajevskoj cesti, i fiksne cene koje ostaju iste tokom celog sezone.",
+    "brandDesc": "Preuzimanje na Aerodromu Tivat, dostava u sam Kotor i predaja ključeva na hotelu duž cijele Boke. Opcije osiguranja, iskustvo na zavojitim putevima Boke i fiksne cijene cijelu sezonu.",
     "quickLinks": "Brzi Linkovi",
     "guides": "Vodiči",
     "locations": "Lokacije",
@@ -334,12 +339,12 @@
     "p3Link3": "Starom gradu Kotor",
     "p3d": ", i lokacijama duž obale i u unutrašnjosti.",
     "promiseTitle": "Naša obaveza",
-    "promise1": "Potpuno osiguranje sa opcijom nultog samoudjela",
+    "promise1": "Opcije osiguranja sa opcijom nultog samoudjela",
     "promise2": "Susretanje na Aerodromu Tivat, donosimo vam automobil na izlazu iz terminala",
     "promise3": "Bez skrivenih naknada, cijena koju vidite je cijena koju plaćate",
     "promise4": "Putovanja prema Hrvatskoj, Bosni i Hercegovini, Albaniji, Srbiji i Kosovu su dozvoljena",
     "promise5": "Besplatna otkazivanja za većinu rezervacija",
-    "promise6": "Lokalni najmodavci, puno osiguranje i opcije sa niskim ili bez depozita",
+    "promise6": "Lokalni najmodavci, fleksibilne opcije osiguranja i opcije sa niskim ili bez depozita",
     "localTitle": "Lokalno znanje",
     "localText": "Sa sjedištem u Kotoru, poznajemo svaki put oko zaljeva, najbolje rute, skrivene biserke i prečice koje vodiči propuštaju. Bilo da vozite sa",
     "localLink1": "Aerodroma Tivat",
@@ -462,7 +467,7 @@
       "desc": "Dočekujemo vas na dolasku u Tivatu, svega 8 km od zidina Starog grada. Putem uz zaliv do Kotora stižete za 15 minuta, bez prevoza, bez čekanja."
     },
     "fullInsurance": {
-      "title": "Potpuno osiguranje",
+      "title": "Opcije osiguranja",
       "desc": "Dostupna opcija nulte franšize. Bilo da vozite uskim ulicama Starog grada ili serpentinom Lovćena, u potpunosti ste osigurani."
     },
     "support": {
@@ -579,9 +584,9 @@
     "h2": "Zašto smo počeli",
     "p2": "Gradski autobusi prate glavnu magistralu i zaustavljaju se. To je sve. Neće skrenuti do neoznačenog vidikovca iznad Perasta, gdje se zaliv otvara u dva kraka. Ne mogu zastati kod rimskih mozaika u Risnu niti savladati jednotračni put do Gornjeg Stoliva, napuštenog sela koje se drži litice 400 metara iznad vode. Tek sopstveni volan i doza radoznalosti zaista otključavaju Bokokotorski zaliv.",
     "h3": "Šta nudimo",
-    "p3": "Mjesta preuzimanja pokrivaju cijeli zaliv: aerodrom Tivat (8 km od bedema Kotora), direktno ispred parkinga kod Riječnih vrata, kao i u 28 gradova od Herceg Novog do Ulcinja. Ekonomični hečbek modeli lako prolaze prilaznim ulicama starog grada. SUV vozila bez napora savladavaju 25 serpentina Lovćenske krivine. Dodaci se naručuju u istom toku rezervacije: krovni nosač za kajake koje izdaju operatori tura po Bay of Boka, električni trotinet sa punjačem za obaveze između zidina Starog grada (unutra automobili nisu dozvoljeni) i Dobrote, tri veličine dječjeg sjedišta za krstareće porodice i prenosivi Wi-Fi hotspot za putnike bez lokalne SIM kartice. Svako vozilo ima puno osiguranje, a granična dokumentacija ide u tri nivoa koji pokrivaju Hrvatsku, Bosnu, Srbiju, Albaniju i Kosovo, u zavisnosti od toga koliko se ruta proteže.",
+    "p3": "Mjesta preuzimanja pokrivaju cijeli zaliv: aerodrom Tivat (8 km od bedema Kotora), direktno ispred parkinga kod Riječnih vrata, kao i u 28 gradova od Herceg Novog do Ulcinja. Ekonomični hečbek modeli lako prolaze prilaznim ulicama starog grada. SUV vozila bez napora savladavaju 25 serpentina Lovćenske krivine. Dodaci se naručuju u istom toku rezervacije: krovni nosač za kajake koje izdaju operatori tura po Bay of Boka, električni trotinet sa punjačem za obaveze između zidina Starog grada (unutra automobili nisu dozvoljeni) i Dobrote, tri veličine dječjeg sjedišta za krstareće porodice i prenosivi Wi-Fi hotspot za putnike bez lokalne SIM kartice. Svako vozilo ima fleksibilne opcije osiguranja, a granična dokumentacija ide u tri nivoa koji pokrivaju Hrvatsku, Bosnu, Srbiju, Albaniju i Kosovo, u zavisnosti od toga koliko se ruta proteže.",
     "promiseTitle": "Naše obećanje",
-    "promise1": "Potpuno osiguranje sa opcijom nulte franšize",
+    "promise1": "Opcije osiguranja sa opcijom nulte franšize",
     "promise2": "Imenovani vozač Vas čeka na dolascima u Tivtu, sa natpisom u ruci, vozilo parkirano ispred",
     "promise3": "Transparentne cijene, bez aerodromskih doplata, bez iznenađenja u pogledu goriva",
     "promise4": "Zelena karta pripremljena za pet susjednih zemalja",
@@ -1310,8 +1315,9 @@
   },
   "locations": {
     "label": "Mjesta preuzimanja",
-    "title": "Gdje možete preuzeti vozilo?",
-    "subtitle": "Više lokacija širom Crne Gore za maksimalnu praktičnost."
+    "title": "Gdje vam predajemo ključeve",
+    "subtitle": "Šest mjesta preuzimanja oko Boke — doček na aerodromu Tivat, Kotorska luka za kruzere, Autobuska stanica, Kameija Mall, Hotel Forza Mare, plus dostava u grad na adresu ili hotel.",
+    "seoDesc": "Šest mjesta preuzimanja oko Boke Kotorske — doček na Aerodromu Tivat, Kotorska luka za kruzere, Autobuska stanica, Kameija Mall, Hotel Forza Mare i dostava do hotela."
   },
   "imageAlts": {
     "kotorBayAerial": "Vazdušni snimak Boke Kotorske s vrha bedema tvrđave",
@@ -1381,5 +1387,20 @@
     "luggage": "Prtljag",
     "bootSize": "Prtljažnik",
     "mpg": "Potrošnja"
+  },
+  "priceAlert": {
+    "title": "Pratite Kotor cijene za {year}",
+    "titleFor": "Postavite Boku-praćenje cijene",
+    "text": "Bukirate unaprijed za Boku? Javićemo vam čim cijene padnu za vaše datume.",
+    "textFor": "Razmišljate o iznajmljivanju u Kotoru? Javljamo se kad cijena padne za preuzimanje na {location}.",
+    "placeholder": "vasa@adresa.me",
+    "submit": "Prati cijene",
+    "submitting": "Postavljanje…",
+    "success": "Spremno — javićemo vam čim cijene u Kotoru padnu.",
+    "invalidEmail": "Ova adresa ne izgleda ispravno — provjerite i pošaljite ponovo.",
+    "error": "Nismo uspjeli postaviti obavještenje. Pokušajte ponovo za trenutak.",
+    "consent": "Prijavom prihvatate primanje nekoliko poruka o cijenama. Otkazivanje u svakom trenutku.",
+    "consentShort": "Prijavom prihvatate našu",
+    "privacyLink": "Politiku privatnosti."
   }
 }
