@@ -690,8 +690,7 @@ button.mobile-drawer__theme {
 /* ─── HERO ─────────────────────────────────────────────── */
 .hero {
   position: relative;
-  min-height: 500px;
-  height: calc(75vh + 50px);
+  min-height: calc(75vh + 50px);
   display: flex;
   align-items: flex-start;
   padding-top: 100px;
