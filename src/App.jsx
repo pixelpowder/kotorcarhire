@@ -1,5 +1,5 @@
 'use client';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import Select from 'react-select';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
@@ -7,6 +7,7 @@ import { useRouter } from 'next/navigation';
 import useTranslation from './i18n/useTranslation';
 import Nav from './Nav';
 import Footer from './Footer';
+import StickyMobileCTA from './StickyMobileCTA';
 import useGlobalReveal from './useReveal';
 import {
   Car,
@@ -32,6 +33,8 @@ import {
   Menu,
   X,
   MessageCircle,
+  Award,
+  TrendingUp,
 } from 'lucide-react';
 import config from './siteConfig';
 import { HOMEPAGE_BOOKING_CARS } from './data/fleetCars';
@@ -45,6 +48,51 @@ const FLEET_FLOOR_EUR = {
   'renault-kadjar': 32, 'dacia-sandero': 24, 'renault-megane': 19,
   'citroen-c4-picasso': 40,
 };
+
+// Spec fallbacks for cars whose entry isn't in the local siteConfig.cars
+// list — keeps the homepage card spec row populated regardless.
+const FLEET_SPECS_FALLBACK = {
+  'peugeot-2008':       { seats: 5, transmission: 'Manual',    luggage: 3, fuel: 'Diesel' },
+  'renault-kadjar':     { seats: 5, transmission: 'Manual',    luggage: 3, fuel: 'Diesel' },
+  'dacia-sandero':      { seats: 5, transmission: 'Manual',    luggage: 2, fuel: 'Petrol' },
+  'renault-megane':     { seats: 5, transmission: 'Manual',    luggage: 3, fuel: 'Diesel' },
+  'citroen-c4-picasso': { seats: 7, transmission: 'Automatic', luggage: 4, fuel: 'Diesel' },
+};
+
+// SSR-safe "are we on mobile" hook. Returns false on the server and on
+// the very first client render (so SSR HTML matches client hydration),
+// then flips to true after mount if the viewport is <=768px.
+function useIsMobile(breakpoint = 768) {
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth <= breakpoint);
+    check();
+    window.addEventListener('resize', check, { passive: true });
+    return () => window.removeEventListener('resize', check);
+  }, [breakpoint]);
+  return isMobile;
+}
+
+// True only after first client mount. Use to gate browser-only DOM
+// (video, navigator checks) so SSR and first client render agree.
+function useMounted() {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => { setMounted(true); }, []);
+  return mounted;
+}
+
+// Fisher-Yates shuffle that runs once per page load.
+function shuffled(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+const HOMEPAGE_FLEET_LIMIT = 9;
+const HOMEPAGE_FLEET_COLUMNS = 3;
 import './App.css';
 
 /* ─── ICON MAP ─────────────────────────────────────────── */
@@ -187,6 +235,7 @@ const locationSelectStyles = {
 
 function LocationField({ value, onChange }) {
   const { t } = useTranslation();
+  const isMobile = useIsMobile();
   const selected = LOCATION_OPTIONS.find(o => o.value === value) || null;
   return (
     <div className="booking-field location-field">
@@ -196,16 +245,17 @@ function LocationField({ value, onChange }) {
       </label>
       <Select
         inputId="f-location"
+        instanceId="location-select"
         options={LOCATION_OPTIONS}
         value={selected}
         onChange={opt => onChange(opt.value)}
         styles={locationSelectStyles}
-        isSearchable={window.innerWidth >= 768}
+        isSearchable={!isMobile}
         placeholder={t('hero.searchLocation')}
         menuPlacement="auto"
-        menuPortalTarget={document.body}
+        menuPortalTarget={typeof document !== 'undefined' ? document.body : null}
         maxMenuHeight={200}
-        onMenuOpen={() => { if (window.innerWidth < 768) { document.activeElement?.blur(); setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 50); } }}
+        onMenuOpen={() => { if (window.innerWidth < 768) { document.activeElement?.blur(); setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 400); } }}
       />
     </div>
   );
@@ -235,6 +285,7 @@ function TimeField({ id, label, value, onChange }) {
 function Hero() {
   const { t, localePath } = useTranslation();
   const router = useRouter();
+  const isMobile = useIsMobile();
   const [pickup, setPickup] = useState('Tivat');
   const [startDate, setStartDate] = useState(() => {
     const d = new Date();
@@ -282,12 +333,15 @@ function Hero() {
       <div className="hero__content">
         <div className="hero-fade-in">
           <div className="hero__form-wrapper">
-          <h1 className="hero__headline">{t('hero.headline')}</h1>
+          <h1 className="hero__headline hero__headline--two-line">
+            <span className="hero__headline-line1">{t('hero.headlineLine1') || t('hero.headline')}</span>{' '}
+            <span className="hero__headline-line2">{t('hero.headlineLine2') || ''}</span>
+          </h1>
           <div className="hero__badges">
             <span className="hero__badge"><CheckCircle size={14} /> {t('hero.badges.freeCancellation')}</span>
             <span className="hero__badge"><ShieldCheck size={14} /> {t('hero.badges.fullInsurance')}</span>
             <span className="hero__badge"><Clock size={14} /> {t('hero.badges.airportPickup')}</span>
-            <span className="hero__badge hero__badge--accent"><Star size={14} fill="currentColor" /> {t('hero.badges.localProviders')}</span>
+            <span className="hero__badge hero__badge--accent"><Star size={14} fill="currentColor" /> {t('hero.badges.priceFrom')}</span>
           </div>
 
           <div className="booking-card">
@@ -301,7 +355,7 @@ function Hero() {
                   endDate={endDate}
                   onChange={handleDateChange}
                   minDate={new Date()}
-                  monthsShown={window.innerWidth < 768 ? 1 : 2}
+                  monthsShown={isMobile ? 1 : 2}
                   dateFormat="dd MMM yyyy"
                   placeholderText={t('hero.selectDates') || 'Select dates'}
                   className="booking-field__input"
@@ -319,6 +373,15 @@ function Hero() {
                 {t('hero.search')}
               </button>
             </div>
+            {(() => {
+              const pickupMonth = startDate ? startDate.getMonth() + 1 : null;
+              const currentMonth = new Date().getMonth() + 1;
+              const inPeak = pickupMonth ? (pickupMonth >= 5 && pickupMonth <= 9) : (currentMonth >= 3 && currentMonth <= 8);
+              if (!inPeak) return null;
+              return (
+                <p className="booking-card__urgency">{t('hero.urgency')}</p>
+              );
+            })()}
           </div>
           </div>
         </div>
@@ -508,8 +571,15 @@ function FleetShowcase() {
 function Fleet() {
   const { t, localePath } = useTranslation();
   const slugMap = Object.fromEntries(config.cars.map(c => [c.slug, c]));
+  // SSR-safe shuffle: render the deterministic first slice on the server
+  // (and on first client render so hydration matches), then shuffle after
+  // mount via useEffect.
+  const [cars, setCars] = useState(() => HOMEPAGE_BOOKING_CARS.slice(0, HOMEPAGE_FLEET_LIMIT));
+  useEffect(() => {
+    setCars(shuffled(HOMEPAGE_BOOKING_CARS).slice(0, HOMEPAGE_FLEET_LIMIT));
+  }, []);
   return (
-    <section className="section" id="fleet">
+    <section className="section" id="fleet-widget">
       <div className="container">
         <div className="section-header">
           <span className="section-label">{t('fleet.label')}</span>
@@ -517,16 +587,16 @@ function Fleet() {
           <p className="section-subtitle">{t('fleet.subtitle')}</p>
         </div>
 
-        <div className="kch-fleet-grid" style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
-          gap: '16px',
+        <div className="fleet-grid" style={{
+          gridTemplateColumns: `repeat(${HOMEPAGE_FLEET_COLUMNS}, 1fr)`,
+          gap: '20px',
           marginTop: '32px',
         }}>
-          {HOMEPAGE_BOOKING_CARS.slice(0, 9).map((car) => {
-            const localCar = car.siteSlug ? slugMap[car.siteSlug] : null;
-            const image = (localCar && localCar.image) || car.image || null;
+          {cars.map((car) => {
+            const localCar = car.siteSlug ? slugMap[car.siteSlug] : (slugMap[car.slug] || null);
+            const image = (localCar && localCar.image) || car.image || `/img/fleet/${car.slug}.jpg`;
             const href = car.carIds ? localePath(`/book?model=${car.slug}`) : localePath('/book');
+            const specs = localCar || FLEET_SPECS_FALLBACK[car.slug] || null;
             return (
               <a
                 key={car.id}
@@ -557,29 +627,61 @@ function Fleet() {
                 <div style={{
                   width: '100%',
                   aspectRatio: '16 / 10',
-                  backgroundImage: image ? `url(${image})` : 'none',
+                  backgroundImage: `url(${image})`,
                   backgroundSize: 'contain',
                   backgroundRepeat: 'no-repeat',
                   backgroundPosition: 'center',
                   backgroundColor: '#fff',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  color: '#9ca3af',
-                  fontSize: '13px',
-                  fontWeight: 600,
-                  letterSpacing: '0.04em',
-                  textTransform: 'uppercase',
-                }}>
-                  {!image && car.category}
-                </div>
+                }} />
                 <div style={{ padding: '16px 18px 18px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                  <span style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#2D5C8A' }}>
-                    {car.category}
+                  <span style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#6b7280' }}>
+                    {t(`cars.categories.${car.category}`, car.category)}
                   </span>
-                  <span style={{ fontSize: '17px', fontWeight: 700, color: 'rgb(5,32,60)', letterSpacing: '-0.01em' }}>
+                  <span style={{ fontSize: '17px', fontWeight: 700, color: 'var(--navy)', letterSpacing: '-0.01em' }}>
                     {car.name}
                   </span>
+                  {specs && (
+                    <div style={{
+                      marginTop: '8px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      flexWrap: 'wrap',
+                      rowGap: '6px',
+                      columnGap: '12px',
+                      fontSize: '12px',
+                      color: '#4b5563',
+                      fontWeight: 500,
+                    }}>
+                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px 14px' }}>
+                        <span style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+                          <Users size={13} /> {specs.seats}
+                        </span>
+                        <span style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+                          <Settings size={13} /> {(specs.transmission || '').slice(0, 1) || 'M'}
+                        </span>
+                        <span style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+                          <Briefcase size={13} /> {specs.luggage}
+                        </span>
+                        <span style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+                          <Fuel size={13} /> {specs.fuel}
+                        </span>
+                      </div>
+                      <span style={{
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '4px',
+                        color: '#0f6b34',
+                        fontSize: '11px',
+                        fontWeight: 600,
+                        whiteSpace: 'nowrap',
+                        flexShrink: 0,
+                        marginLeft: 'auto',
+                      }}>
+                        <CheckCircle size={11} strokeWidth={3} />
+                        {t('hero.badges.freeCancellation') || 'Free Cancellation'}
+                      </span>
+                    </div>
+                  )}
                   <div style={{
                     marginTop: '10px',
                     paddingTop: '10px',
@@ -663,6 +765,120 @@ function Features() {
   );
 }
 
+
+/* ─── HOW IT WORKS ─────────────────────────────────────── */
+function HowItWorks() {
+  const { t } = useTranslation();
+  const steps = [
+    { num: '01', title: t('howItWorks.step1Title'), desc: t('howItWorks.step1Desc') },
+    { num: '02', title: t('howItWorks.step2Title'), desc: t('howItWorks.step2Desc') },
+    { num: '03', title: t('howItWorks.step3Title'), desc: t('howItWorks.step3Desc') },
+  ];
+  return (
+    <section className="section section--gray" id="how-it-works">
+      <div className="container">
+        <div className="section-header">
+          <span className="section-label">{t('howItWorks.label')}</span>
+          <h2 className="section-title">{t('howItWorks.title')}</h2>
+          <p className="section-subtitle">{t('howItWorks.subtitle')}</p>
+        </div>
+        <div className="steps-grid">
+          {steps.map((step) => (
+            <div key={step.num} className="step-card reveal-item">
+              <div className="step-card__num">{step.num}</div>
+              <h3 className="step-card__title">{step.title}</h3>
+              <p className="step-card__desc">{step.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ─── STAT COUNTERS ────────────────────────────────────── */
+function useCountUp(end, duration = 1.8) {
+  const [count, setCount] = useState(0);
+  const ref = useRef(null);
+  const started = useRef(false);
+  const onView = useCallback((entry) => {
+    if (entry[0]?.isIntersecting && !started.current) {
+      started.current = true;
+      const start = performance.now();
+      const tick = (now) => {
+        const progress = Math.min((now - start) / (duration * 1000), 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        setCount(Math.round(eased * end));
+        if (progress < 1) requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+    }
+  }, [end, duration]);
+  useEffect(() => {
+    const obs = new IntersectionObserver(onView, { threshold: 0.3 });
+    if (ref.current) obs.observe(ref.current);
+    return () => obs.disconnect();
+  }, [onView]);
+  return [count, ref];
+}
+
+function StatCounters() {
+  const { t } = useTranslation();
+  const [years, yearsRef] = useCountUp(18);
+  const [rentals, rentalsRef] = useCountUp(2000);
+  const [locations, locsRef] = useCountUp(6);
+  const stats = [
+    { value: `${years}+`, label: t('stats.years'), icon: <Award size={22} />, ref: yearsRef },
+    { value: rentals >= 2000 ? '2,000+' : rentals.toLocaleString(), label: t('stats.rentals'), icon: <TrendingUp size={22} />, ref: rentalsRef },
+    { value: '200+', label: t('stats.cars'), icon: <Car size={22} />, ref: null },
+    { value: `${locations}`, label: t('stats.locations'), icon: <MapPin size={22} />, ref: locsRef },
+  ];
+  return (
+    <section className="stats-section">
+      <div className="container">
+        <div className="stats-grid">
+          {stats.map((s) => (
+            <div key={s.label} className="stat-card reveal-item" ref={s.ref}>
+              <div className="stat-card__icon">{s.icon}</div>
+              <div className="stat-card__value">{s.value}</div>
+              <div className="stat-card__label">{s.label}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ─── BRAND LOGOS ──────────────────────────────────────── */
+const CAR_BRANDS = [
+  { name: 'Toyota',     logo: '/img/logo-toyota.png' },
+  { name: 'Fiat',       logo: '/img/logo-fiat.png' },
+  { name: 'Volkswagen', logo: '/img/logo-volkswagen.png' },
+  { name: 'Peugeot',    logo: '/img/logo-peugeot.png' },
+  { name: 'Renault',    logo: '/img/logo-renault.png' },
+  { name: 'Hyundai',    logo: '/img/logo-hyundai.png' },
+  { name: 'Citroën',    logo: '/img/logo-citroen.png' },
+  { name: 'Suzuki',     logo: '/img/logo-suzuki.png' },
+  { name: 'Ford',       logo: '/img/logo-ford.png' },
+  { name: 'Dacia',      logo: '/img/logo-dacia.png' },
+];
+
+function BrandLogos() {
+  const { t } = useTranslation();
+  return (
+    <section className="brands-section">
+      <div className="container">
+        <p className="brands-label">{t('brands.label')}</p>
+        <div className="brands-row">
+          {CAR_BRANDS.map((brand) => (
+            <img key={brand.name} className="brand-logo" src={brand.logo} alt={brand.name} loading="lazy" />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
 
 /* ─── REVIEWS ──────────────────────────────────────────── */
 function Reviews() {
@@ -890,28 +1106,6 @@ function CTABanner() {
   );
 }
 
-/* ─── STICKY MOBILE CTA ───────────────────────────────── */
-function StickyMobileCTA() {
-  const { t, localePath } = useTranslation();
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    function onScroll() {
-      setVisible(window.scrollY > 600);
-    }
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
-
-  return (
-    <div className={`sticky-cta${visible ? ' sticky-cta--visible' : ''}`}>
-      <a href={localePath("/book")} className="sticky-cta__btn">
-        {t('common.bookNow')} <ArrowRight size={16} />
-      </a>
-    </div>
-  );
-}
-
 function ScrollToTop() {
   const { t } = useTranslation();
   const [show, setShow] = useState(false);
@@ -939,6 +1133,7 @@ function ScrollToTop() {
 export default function App() {
   useGlobalReveal();
   const { t } = useTranslation();
+  const mounted = useMounted();
 
   // Lock hero height on mount to prevent iOS address bar scroll jump
   useEffect(() => {
@@ -952,7 +1147,7 @@ export default function App() {
       <main>
         <div className="hero-wrapper">
           <div className="hero-wrapper__bg">
-            {typeof navigator !== 'undefined' && (!navigator.connection || navigator.connection.effectiveType === '4g') && (
+            {mounted && (!navigator.connection || navigator.connection.effectiveType === '4g') && (
               <video className="hero__video" autoPlay muted loop playsInline preload="auto"
                 onPlaying={e => e.target.classList.add('playing')}
                 ref={el => {
@@ -972,6 +1167,9 @@ export default function App() {
         {/* <Reviews /> */}
         <Fleet />
         <FleetShowcase />
+        <HowItWorks />
+        <StatCounters />
+        <BrandLogos />
         <TivatArrivals />
         <Destinations />
         <Features />

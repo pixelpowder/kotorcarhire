@@ -2,10 +2,11 @@
 import { usePathname } from 'next/navigation';
 import Nav from './Nav';
 import Footer from './Footer';
+import StickyMobileCTA from './StickyMobileCTA';
 import useTranslation from './i18n/useTranslation';
 import './ContentPage.css';
 
-export default function ContentPage({ title, subtitle, image, description, children }) {
+export default function ContentPage({ title, subtitle, image, description, bookingHref = '/book', bookingLabelKey = 'common.searchCars', children }) {
   const pathname = usePathname();
   const { t, localePath } = useTranslation();
 
@@ -29,10 +30,10 @@ export default function ContentPage({ title, subtitle, image, description, child
           {children}
         </div>
         <aside className="content-sidebar">
-          <div className="sidebar-card">
+          <div className="sidebar-card sidebar-card--booking">
             <h3 className="sidebar-card__title">{t('sidebar.bookTitle')}</h3>
             <p className="sidebar-card__text">{t('sidebar.bookText')}</p>
-            <a href={localePath('/book')} className="sidebar-card__btn">{t('common.searchCars')}</a>
+            <a href={localePath(bookingHref)} className="sidebar-card__btn">{t(bookingLabelKey)}</a>
           </div>
           <div className="sidebar-card">
             <h3 className="sidebar-card__title">{t('sidebar.helpTitle')}</h3>
@@ -54,6 +55,7 @@ export default function ContentPage({ title, subtitle, image, description, child
         </aside>
       </div>
       <Footer />
+      <StickyMobileCTA />
     </div>
   );
 }

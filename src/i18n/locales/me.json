@@ -1402,5 +1402,353 @@
     "consent": "Prijavom prihvatate primanje nekoliko poruka o cijenama. Otkazivanje u svakom trenutku.",
     "consentShort": "Prijavom prihvatate našu",
     "privacyLink": "Politiku privatnosti."
+  },
+  "bar": {
+    "title": "Rent a car za Bar iz Kotora",
+    "subtitle": "Mediteranski lučki grad dva sata južno od Boke",
+    "seoDesc": "Iz Kotora do Bara za manje od dva sata Jadranskom magistralom. Maslinjaci, ruševine Starog Bara i terminal trajekta za Italiju — sve dostupno jednim iznajmljenim autom."
+  },
+  "barBody": {
+    "h1": "Vožnja na jug iz Kotora ka Baru",
+    "p1": "Bar leži 90 km južno od Kotora na otvorenom Jadranu, iza Budve i rta Sveti Stefan. Put prati cijelu obalu — oko sat i četrdeset u laganom saobraćaju, duže u julu kada karavani usporavaju krivine kod Petrovca.",
+    "p2": "Većina posjetilaca Kotora vidi Bar kao mjesto prolaska, ali i moderni lučki grad i ruševine Starog Bara u zaleđu vrijede dana. Sa svojim autom obavite oba u jednoj kružnoj turi i vraćate se u Boku do večere.",
+    "whyRentTitle": "Zašto vožnja u Bar a ne autobus",
+    "whyRentText": "Linija autobusa Kotor-Bar postoji ali je spora — tri presjedanja, najmanje četiri sata, i ostavlja vas u modernom gradu bez lakog pristupa Starom Baru udaljenom 4 km u zaleđu. Iznajmljenim autom obilazite oba mjesta i sami birate kada se vraćate uz obalu u kasnom popodnevnom svjetlu.",
+    "pickupTitle": "Preuzimanje auta za izlet",
+    "pickupText": "Preuzmite na Aerodromu Tivat po dolasku ili u Kotoru ujutru na dan izleta. Južna Jadranska magistrala E65 počinje na izlazu Boke, prolazi kroz Budvu i Sveti Stefan, pa se otvara nakon Petrovca za dugi pravac do Bara.",
+    "fleetTitle": "Najbolji izbor flote za Bar",
+    "fleetText": "Put je uglavnom dvotračni primorski asfalt sa širokim krivinama — udoban od Pola pa naviše. Birajte Yaris ili Polo radi potrošnje na povratnoj relaciji, ili Kadjar ako želite veću svjetlinu za neasfaltiranu dionicu do ruševina Starog Bara. Cijela lista na",
+    "fleetLink": "stranici flote",
+    "landmarksTitle": "Šta vidjeti u Baru",
+    "landmarksText": "Stari Bar leži 4 km u zaleđu — napušten srednjovjekovni grad pod Rumijom, dramatično ruiniran i tih. Moderni grad ima dugo palmino šetalište, dvor i muzej kralja Nikole, i radnu luku iz koje noćni trajekt plovi za Bari u Italiji.",
+    "oliveTitle": "Maslinjaci",
+    "oliveText": "Barski kraj ima najveću koncentraciju starih maslina u Evropi — Stara Maslina kod Mirovice datirana je preko 2.000 godina i još uvijek rađa. Kratak skretanje s magistrale ostavlja vas na korak od stabla.",
+    "ferryTitle": "Trajektna veza za Italiju",
+    "ferryText": "Barska luka održava noćni trajekt za Bari u Italiji — korisno ako kombinujete sedmicu u Crnoj Gori s nastavkom u Pulju. Možete sići samo radi razgledanja, ili provjerite uslove agencije ako planirate ukrcati auto (većina ne dozvoljava prelazak Jadrana).",
+    "drivingTitle": "Uslovi vožnje Kotor ka Baru",
+    "drivingText": "Magistrala je dobro održavana ali puna krivina. Radovi su mogući bilo kada tokom ljeta — Crna Gora dionice širi u dvije trake. Natočite gorivo u Petrovcu ako ste ispod pola — duga dionica između Petrovca i Bara ima samo jednu-dvije pumpe.",
+    "dayTripsTitle": "Izleti iz Bara",
+    "dayTrip1": "Ruševine Starog Bara — 4 km u zaleđu, 10 minuta vožnje od modernog grada, najatmosfernija stanica.",
+    "dayTrip2": "Virpazar i Skadarsko jezero — 25 km na sjever preko Sutormana; aktivno ribarsko selo s brodićima u močvare.",
+    "dayTrip3": "Ulcinj na južnoj obali — 26 km dalje na jug.",
+    "dayTrip3Prefix": "Nastavite za",
+    "dayTrip3Link": "Ulcinj",
+    "dayTrip3Suffix": " radi pjeskovitih plaža i otomanske čaršije ako imate još jedan dan.",
+    "dayTrip4": "Aerodrom Podgorica — 42 km sjeverno na E80 ako vraćate auto na vrijeme leta.",
+    "tableTitle": "Razdaljine iz Bara",
+    "table": [
+      [
+        "Destinacija",
+        "Razdaljina",
+        "Vrijeme"
+      ],
+      [
+        "Ruševine Starog Bara",
+        "4 km",
+        "10 min"
+      ],
+      [
+        "Virpazar / Skadarsko jezero",
+        "25 km",
+        "30 min"
+      ],
+      [
+        "Ulcinj",
+        "26 km",
+        "35 min"
+      ],
+      [
+        "Aerodrom Podgorica",
+        "42 km",
+        "50 min"
+      ],
+      [
+        "Budva",
+        "65 km",
+        "1 h 15"
+      ],
+      [
+        "Kotor (povratak na bazu)",
+        "92 km",
+        "1 h 40"
+      ]
+    ],
+    "faqTitle": "FAQ izlet Bar",
+    "faq": [
+      {
+        "q": "Vrijedi li izlet iz Kotora u Bar za jedan dan?",
+        "a": "Da, ako kombinujete Stari Bar, posjetu maslinjacima i zaustavljanje na Skadarskom jezeru u povratku. Dug dan ali izvediv s iznajmljenim autom iz Kotora."
+      },
+      {
+        "q": "Treba li 4x4 do Starog Bara?",
+        "a": "Ne — pristupni put je asfaltiran do sela. Samo zemljani putevi iznad ruševina traže veću svjetlinu. Svako vozilo iz flote prolazi glavnim putem."
+      },
+      {
+        "q": "Gdje parkirati u Baru?",
+        "a": "Vansezonski je obično moguće besplatno parkirati uz šetalište. U punoj sezoni koristite plaćeni parking kod marine, oko 1 EUR/sat."
+      }
+    ]
+  },
+  "hercegNovi": {
+    "title": "Rent a car za Herceg Novi iz Kotora",
+    "subtitle": "Zapadni ulaz u Boku, sat vožnje od Starog grada",
+    "seoDesc": "Iz Kotora do Herceg Novog za oko sat vremena obalom. Tri tvrđave, igalska spa obala i polazište za brodove ka Mamuli i Plavoj špilji."
+  },
+  "hercegNoviBody": {
+    "h1": "Vožnja Bokom iz Kotora ka Herceg Novom",
+    "p1": "Herceg Novi čuva zapadni ulaz u Boku Kotorsku — sat zapadno od Kotora primorskom magistralom koja prati cijelu obalu. Prolazite Perast, Risan i Verige prije nego se put otvori kod Kamenara za prečicu trajekta Lepetane, ili ostajete na obalskoj cesti oko Tivta za dužu panoramsku verziju.",
+    "p2": "Većina posjetilaca Kotora obilazi Herceg Novi za jedan dan, ali grad zaslužuje noćenje ako želite vrijeme za stepenisti hod, tri tvrđave ili brod do Mamule i Plave špilje na Žanjicama.",
+    "whyRentTitle": "Zašto auto iz Kotora a ne tura autobusom",
+    "whyRentText": "Turistički autobusi iz Kotora staju u Herceg Novom 90 minuta — taman za Stari grad i kafu, a kamoli za stazu tvrđava ili brod. S iznajmljenim autom dijelite dan između grada i zapadnih plaža i sami birate vrijeme trajekta na Lepetanima da preskočite kopneni obilazak.",
+    "pickupTitle": "Preuzimanje auta",
+    "pickupText": "Preuzmite na Aerodromu Tivat ili u Kotoru ujutru na dan izleta. Iz Kotora idete sjeverno obalom, uzimate trajekt Lepetane (5 minuta vožnje, svakih 15 minuta), i u Herceg Novom ste za 45 minuta zapadnom obalom.",
+    "fleetTitle": "Najbolji izbor za izlet",
+    "fleetText": "Obalska cesta je asfaltirana i jednostavna — sve iz flote prolazi udobno. Ako idete dalje na Prevlaku ili granicu Hrvatske, uzmite Polo ili Yaris (manje je lakše u uskim seoskim ulicama). Za kombinaciju brod-Žanjice parking u Mirištima je tijesan — opet manji auto pomaže. Sve opcije na",
+    "fleetLink": "stranici flote",
+    "beachesTitle": "Plaže oko Herceg Novog",
+    "beachesIntro": "Šljunak i beton prate veći dio Boke, ali zapadni rub ima mjesta za kupanje:",
+    "beachMirista": "Mirišta — polazište brodova ka Mamuli i Plavoj špilji, plus mala šljunčana plaža za kupanje dok čekate.",
+    "beachRose": "Rose — restaurirano ribarsko selo na Luštici, dostupno plaćenim brodom iz Herceg Novog ili autom kroz južnu boku.",
+    "beachZanjic": "Žanjice — šljunčana uvala u maslinama, popularna stanica na ruti Plave špilje.",
+    "beachIgalo": "Igalo — široka šljunčana plaža s poznatim paviljonom za blato, 3 km zapadno od Starog grada.",
+    "landmarksTitle": "Šta vidjeti u Herceg Novom",
+    "landmarksText": "Tri tvrđave okružuju Stari grad: Forte Mare na obali, Kanli Kula nad popločanim centrom i Španjola na vrhu brda (strm uspon, ogroman pogled). Sam grad je vertikalna stepenasta čaršija — navodno 100.000 stepenika ukupno, mada šetnja Starim gradom koristi tek nekoliko stotina. Ne propustite Sahat Kulu na istočnom ulazu.",
+    "drivingTitle": "Uslovi vožnje obalskom cestom",
+    "drivingText": "Obalska cesta je dvotračna cijelim putem, mjestimično stisnuta između Boke i stijene. Trajekt Lepetane-Kamenari ide neprekidno i štedi 30 minuta u odnosu na obilazak preko Tivta. Parkirajte van zidina Starog grada — centar je pješački, parking unutra je za stanare.",
+    "dayTripsTitle": "Izleti iz Herceg Novog",
+    "dayTrip1": "Brod do Mamule i Plave špilje iz Mirišta — pola dana, više operatera radi.",
+    "dayTrip1Prefix": "U povratku stanite u",
+    "dayTrip1Link": "Perast",
+    "dayTrip1Suffix": " radi otoka Gospe od Škrpjela ako još niste bili.",
+    "dayTrip2": "Poluotok Prevlaka — 25 km zapadno, kratko ulazi u Hrvatsku radi vidikovca nad ulazom u Boku.",
+    "dayTrip3": "Manastir Savina — 2 km od Herceg Novog, u borovoj šumici iznad Boke.",
+    "dayTrip4": "Igalska blatna banja — 3 km zapadno, dnevna karta u Institutu Igalo za poznati tretman mineralnim blatom.",
+    "tableTitle": "Razdaljine iz Herceg Novog",
+    "table": [
+      [
+        "Destinacija",
+        "Razdaljina",
+        "Vrijeme"
+      ],
+      [
+        "Igalo",
+        "3 km",
+        "8 min"
+      ],
+      [
+        "Mirišta (brod Plava špilja)",
+        "12 km",
+        "20 min"
+      ],
+      [
+        "Trajekt Lepetane",
+        "10 km",
+        "15 min"
+      ],
+      [
+        "Aerodrom Tivat",
+        "33 km",
+        "45 min"
+      ],
+      [
+        "Kotor (povratak na bazu)",
+        "43 km",
+        "1 h 0"
+      ],
+      [
+        "Aerodrom Dubrovnik (HR)",
+        "32 km",
+        "45 min"
+      ]
+    ],
+    "faqTitle": "FAQ izlet Herceg Novi",
+    "faq": [
+      {
+        "q": "Trajekt Lepetane ili obilazak Boke?",
+        "a": "Uzmite trajekt — ide svakih 15 minuta, prelaz traje 5 minuta i štedi 30 minuta u odnosu na obilazak preko Tivta. Auta se naplaćuju po kategoriji dužine, oko 5 EUR za malo."
+      },
+      {
+        "q": "Mogu li u Hrvatsku iz Herceg Novog?",
+        "a": "Da ako ugovor dozvoljava prelazak granice. Birajte tarifu prekograničnog osiguranja pri rezervaciji; većina dobavljača cluster-a uključuje Hrvatsku u osnovni nivo. Granica Debeli Brijeg je 8 km zapadno."
+      },
+      {
+        "q": "Gdje parkirati blizu Starog grada?",
+        "a": "Koristite parking na zapadnom ulazu Starog grada blizu Sahat Kule, oko 1,50 EUR po satu. Ne pokušavajte voziti u istorijskom centru — većina ulica su stepenice."
+      }
+    ]
+  },
+  "niksic": {
+    "title": "Rent a car za Nikšić iz Kotora",
+    "subtitle": "Pivarski grad Crne Gore među planinama, kapija ka Durmitoru",
+    "seoDesc": "Iz Kotora do Nikšića za oko 90 minuta preko Cetinja i prevoja Lovćen. Pivarski grad, jezerski krug i polazište za kanjon Tare i Nacionalni park Durmitor."
+  },
+  "niksicBody": {
+    "h1": "Vožnja u unutrašnjost iz Kotora ka Nikšiću",
+    "p1": "Nikšić je drugi grad Crne Gore — radnički grad u kraškoj ravnici sjeverozapadno od Podgorice, opasan jezerima Krupac, Slano i Vrtac. Iz Kotora oko 90 minuta preko Cetinja i prevoja Lovćen, ili dva sata dužim unutrašnjim putem preko Podgorice.",
+    "p2": "Nije na većini obalnih maršruta, ali ako idete dalje u Durmitor ili kanjon Tare, Nikšić je logičan međustop. Pivara Trebjesa i jezera su razlozi da se zadržite.",
+    "whyRentTitle": "Zašto je rent iz Kotora pravi izbor",
+    "whyRentText": "Nema direktne autobuske linije Kotor-Nikšić — ruta ide Kotor pa Podgorica pa Nikšić, tri presjedanja i skoro cio dan. Iznajmljenim autom uzimate scensku rutu preko Cetinja kroz lovćenske serpentine, ručate na Krupcu i nastavljate u Durmitor bez planiranja oko reda vožnje.",
+    "pickupTitle": "Preuzimanje auta",
+    "pickupText": "Preuzmite na Aerodromu Tivat ili u Kotoru ujutru na dan izleta. Iz Kotora se penjete lovćenskim serpentinama (25 vijuga iznad Kotora) ka Cetinju, pa nastavljate na M2 ka Nikšiću.",
+    "fleetTitle": "Najbolji izbor za unutrašnju vožnju",
+    "fleetText": "Lovćenski prevoj je asfaltiran ali strm i tijesan — Yaris, Polo ili 208 najbolje rade. Ako produžavate ka Durmitoru, Megane ili Kadjar daju bolji komfor na visini na unutrašnjim pravcima. Modeli i cijene na",
+    "fleetLink": "stranici flote",
+    "landmarksTitle": "Šta vidjeti u Nikšiću",
+    "landmarksText": "Dvor kralja Nikole i sabor Svetog Vasilija na Trgu slobode. Pivara Trebjesa (Nikšićko pivo) ima ograničene ture, a stara tvrđava na brdu Trebjesa daje najbolji pogled na grad. Ostaci Bedema su 10 minuta hoda zapadno od centra.",
+    "lakesTitle": "Nikšićka jezera",
+    "lakesText": "Tri vještačka jezera — Krupac, Slano, Vrtac — okružuju grad. Krupac je najpristupačniji, sa malom plažom, kafićem i pješačkom stazom; mještani se kupaju ljeti. Slano ima bolji zalazak nad ogoljenim kraškim brdima. Sva su 15 minuta vožnje od centra.",
+    "drivingTitle": "Uslovi vožnje",
+    "drivingText": "Cetinjska ruta je scenska, ali 25 serpentina iznad Kotora su spore — računajte 90 minuta ukupno. Duža ruta preko Podgorice na M-2 je brža (dva sata) i to je put kada nosite više prtljaga. Sipajte gorivo u Cetinju u odlasku — unutrašnja dionica između Cetinja i Nikšića ima malo pumpi.",
+    "dayTripsTitle": "Izleti iz Nikšića",
+    "dayTrip1": "Krug oko jezera Krupac i Slano — kratka petlja južno i zapadno od grada, izvodljivo svakim autom.",
+    "dayTrip2": "Nacionalni park Durmitor i Crno jezero — 70 km sjeverno, oko 90 minuta na M-18 ka Šavniku pa Žabljaku.",
+    "parksSeeOurPrefix": "Pogledajte naš",
+    "parksLink": "vodič za vožnju Lovćenom",
+    "parksSuffix": "za rutu kroz nacionalni park.",
+    "dayTrip3": "Manastir Ostrog — 35 km jugoistočno na putu nazad ka Podgorici, bijela crkva uklesana u stijeni.",
+    "dayTrip4": "Kanjon Tare i most na Đurđevića Tari — 130 km sjeverno, dug ali izvodljiv dan ako rano krenete.",
+    "taraAlsoSeePrefix": "Vidite i naš",
+    "taraLink": "vodič za panoramsku vožnju mozaicima Risana",
+    "tableTitle": "Razdaljine iz Nikšića",
+    "table": [
+      [
+        "Destinacija",
+        "Razdaljina",
+        "Vrijeme"
+      ],
+      [
+        "Jezero Krupac",
+        "7 km",
+        "12 min"
+      ],
+      [
+        "Manastir Ostrog",
+        "35 km",
+        "50 min"
+      ],
+      [
+        "Durmitor (Žabljak)",
+        "70 km",
+        "1 h 30"
+      ],
+      [
+        "Podgorica",
+        "55 km",
+        "55 min"
+      ],
+      [
+        "Cetinje",
+        "55 km",
+        "1 h"
+      ],
+      [
+        "Kotor (povratak na bazu)",
+        "75 km",
+        "1 h 30"
+      ]
+    ],
+    "faqTitle": "FAQ izlet Nikšić",
+    "faq": [
+      {
+        "q": "Vrijedi li Nikšić u turi po Crnoj Gori?",
+        "a": "Vrijedi kao međustop ako idete s obale na Durmitor ili kanjon Tare. Preskočite ako ostajete na obali."
+      },
+      {
+        "q": "Mogu li sa malim autom do Durmitora?",
+        "a": "Da, M-18 ka Žabljaku je asfaltirana cijelim putem. Serpentinski dio kroz Šavnik je mjestimično tijesan ali svaki auto prođe. Lanci obavezni zimi — agencije ih uključuju u zimski paket."
+      },
+      {
+        "q": "Kada je pivara Trebjesa otvorena za ture?",
+        "a": "Ture idu po nepravilnom rasporedu — rezervišite preko sajta Nikšićko pivo. Bez najave se obično razočarate."
+      }
+    ]
+  },
+  "ulcinj": {
+    "title": "Rent a car za Ulcinj iz Kotora",
+    "subtitle": "Najjužnija obala Crne Gore — otomanski Stari grad i najduža pješčana plaža",
+    "seoDesc": "Iz Kotora do Ulcinja za oko 2,5 sata Jadranskom magistralom. Pješčana Velika plaža, otomanska utvrđena čaršija i Ada Bojana na albanskoj granici."
+  },
+  "ulcinjBody": {
+    "h1": "Vožnja na jug iz Kotora ka Ulcinju",
+    "p1": "Ulcinj je najjužniji grad Crne Gore — primorska otomanska čaršija uz najdužu pješčanu plažu istočnog Jadrana. Iz Kotora oko 2,5 sata magistralom kroz Budvu, Petrovac i Bar, pa završni dio kroz maslinjake do albanske granice.",
+    "p2": "Većina posjetilaca Kotora ne stiže tako daleko na jug, što je dio čari. Velika plaža i Ada Bojana izgledaju potpuno drugačije od Boke — ravne, pješčane, samo ljetne i kulturno različite (grad većinski albanski sa snažnim otomanskim tragom).",
+    "whyRentTitle": "Zašto vožnja iz Kotora a ne autobusi",
+    "whyRentText": "Linija Kotor-Ulcinj postoji ali ide preko Bara s bar jednim presjedanjem — najmanje pet sati. Iznajmljenim autom 2,5 sata po smjeru, i ono presudno: dolazite do Ade Bojane i Valdanosa koje autobusi uopšte ne opslužuju.",
+    "pickupTitle": "Preuzimanje auta",
+    "pickupText": "Preuzmite na Aerodromu Tivat ili u Kotoru ujutru. Južna magistrala E65 počinje na izlazu Boke, prolazi cijelu Budvansku rivijeru i nastavlja iza Bara prije skretanja u zaleđe za prilaz Ulcinju.",
+    "fleetTitle": "Najbolji izbor za južnu obalu",
+    "fleetText": "Put je dobro asfaltiran do Bara i istanjuje se dalje — Polo ili 208 dovoljni za glavnu rutu, ali za zemljani prilaz Adi Bojani treba veća svjetlina. Kadjar ili Stonic prolaze oba. ",
+    "fleetLink": "stranica flote",
+    "beachesTitle": "Plaže oko Ulcinja",
+    "beachesIntro": "Ulcinj ima najraznolikiju geografiju plaža na crnogorskoj obali:",
+    "beachVelika": "Velika plaža — 12 km finog pijeska istočno od grada do rijeke Bojane. Bezvjetro za kitesurf, ležaljke i barovi ljeti.",
+    "beachAda": "Ada Bojana — riječno otok gdje Bojana ulijeva u more. Tradicionalno naturistička, pješčana s tri strane, dostupna preko jednog mosta.",
+    "beachMalaPlaza": "Mala plaža — gradska plaža ispod zidina Starog grada, pješčana i plitka, krcata u julu.",
+    "beachValdanos": "Uvala Valdanos — šljunkovita uvala 6 km sjeverno od grada, opasana sa 10.000 maslina, mnogo mirnija od pješčanih dijelova.",
+    "landmarksTitle": "Šta vidjeti u Ulcinju",
+    "landmarksText": "Utvrđeni Stari grad penje se na rt između Male plaže i marine — otomanski zidovi, uske ulice, muzej u Balšića kuli i obnovljena džamija. Stara maslina u Mirovici (preko 2.000 godina) i ruševine tvrđave Saš u zaleđu zaokružuju kulturne stanice.",
+    "drivingTitle": "Uslovi vožnje Kotor ka Ulcinju",
+    "drivingText": "Magistrala cijelim putem, dvije trake i vijugava. Gust saobraćaj u julu kada se Ulcinj puni albanskim i kosovskim posjetiocima zbog plaže. Parking u Starom gradu nemoguć — koristite parking na zapadnom ulazu, dalje pješke.",
+    "dayTripsTitle": "Izleti iz Ulcinja",
+    "dayTrip1": "Velika plaža i ušće Bojane — 12 km istočno, pješčani pojas i restorani jegulja na šipovima.",
+    "dayTrip2": "Južna obala Skadarskog jezera — 25 km sjeverno, plaža Murići i nasip Vranjina.",
+    "dayTrip3": "Sjeverno do Bara — 26 km uz obalu, povratak preko Starog Bara.",
+    "dayTrip3Prefix": "Kombinujte sa našim",
+    "dayTrip3Link": "vodičem za Bar",
+    "dayTrip3Suffix": " za petlju s dvije baze.",
+    "dayTrip4": "Albanski granični prelaz — Sukobin, 8 km od grada. Izlet u Skadar moguć ako ugovor dozvoljava prelaz granice.",
+    "tableTitle": "Razdaljine iz Ulcinja",
+    "table": [
+      [
+        "Destinacija",
+        "Razdaljina",
+        "Vrijeme"
+      ],
+      [
+        "Velika plaža",
+        "5 km",
+        "10 min"
+      ],
+      [
+        "Ada Bojana",
+        "13 km",
+        "25 min"
+      ],
+      [
+        "Uvala Valdanos",
+        "6 km",
+        "12 min"
+      ],
+      [
+        "Bar",
+        "26 km",
+        "35 min"
+      ],
+      [
+        "Skadarsko jezero (Murići)",
+        "30 km",
+        "45 min"
+      ],
+      [
+        "Kotor (povratak na bazu)",
+        "120 km",
+        "2 h 30"
+      ]
+    ],
+    "faqTitle": "FAQ izlet Ulcinj",
+    "faq": [
+      {
+        "q": "Mogu li u Albaniju s rentanim autom?",
+        "a": "Da ako ugovor uključuje Albaniju u tarifi prelaza granice. Većina dobavljača cluster-a uključuje je u višu tarifu — provjerite pri rezervaciji. Granica Sukobin je najbliža, 8 km od grada."
+      },
+      {
+        "q": "Da li je Ulcinj izvediv kao dnevni izlet iz Kotora?",
+        "a": "Izvediv kao dug dan (5 sati vožnje plus razgledanje), ali tijesno. Za vrijeme i Veliku plažu i Stari grad bolje noćenje."
+      },
+      {
+        "q": "Da li je Ada Bojana stvarno naturistička?",
+        "a": "Tradicionalno da, primjena varira. Istočna polovina otoka je obilježena kao naturistička; zapadna kod mosta je miješana."
+      }
+    ]
   }
 }

@@ -329,4 +329,11 @@ html[data-theme="dark"] .sidebar-links li {
   .content-sidebar {
     position: static;
   }
+
+  /* Sticky 'Book Now' bar already covers booking on mobile;
+     hide the sidebar's redundant Book Your Car card to avoid
+     two stacked blue CTAs at the bottom of the page. */
+  .sidebar-card--booking {
+    display: none;
+  }
 }

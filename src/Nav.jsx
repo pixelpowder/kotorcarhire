@@ -77,13 +77,7 @@ export default function Nav({ logoHref }) {
 
   return (
     <>
-      <div className="top-bar">
-        <div className="top-bar__inner">
-          <a href={localePath('/book')} className="top-bar__link">{t('navTop.carRental')}</a>
-          <a href={localePath('/#destinations')} className="top-bar__link">{t('navTop.destinations')}</a>
-          <a href={localePath('/blog')} className="top-bar__link">{t('navTop.travelGuides')}</a>
-        </div>
-      </div>
+      <div className="top-bar" />
       <nav className={`nav${scrolled ? ' nav--scrolled' : ''}`}>
         <div className="nav__inner">
           <a href={resolvedLogoHref} className="nav__logo">

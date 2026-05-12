@@ -1402,5 +1402,353 @@
     "consent": "Mit dem Anmelden willigen Sie ein, wenige preisbezogene Nachrichten zu erhalten. Jederzeit abbestellbar.",
     "consentShort": "Mit dem Anmelden akzeptieren Sie unsere",
     "privacyLink": "Datenschutzerklärung."
+  },
+  "bar": {
+    "title": "Mietwagen nach Bar ab Kotor",
+    "subtitle": "Die mediterrane Hafenstadt zwei Stunden südlich der Bucht",
+    "seoDesc": "Fahren Sie in unter zwei Stunden von Kotor nach Bar entlang der Küstenstraße. Olivenhaine, die Stari-Bar-Ruinen und der Fährhafen nach Italien — alles mit einem Mietwagen erreichbar."
+  },
+  "barBody": {
+    "h1": "Von Kotor südwärts nach Bar fahren",
+    "p1": "Bar liegt 90 km südlich von Kotor an der offenen Adria, hinter Budva und der Sveti-Stefan-Landzunge. Die Strecke folgt der gesamten Küstenstraße — etwa eine Stunde vierzig in lockerem Verkehr, länger im Juli, wenn Wohnmobile die Kurven bei Petrovac verstopfen.",
+    "p2": "Die meisten Kotor-Besucher sehen Bar nur als Durchgangsort, doch sowohl die moderne Hafenstadt als auch die älteren Stari-Bar-Ruinen im Hinterland lohnen einen Tag. Mit dem eigenen Wagen schaffen Sie beides in einer Schleife und sind vor dem Abendessen wieder an der Bucht.",
+    "whyRentTitle": "Warum nach Bar fahren statt Bus nehmen",
+    "whyRentText": "Es gibt eine Busverbindung von Kotor nach Bar, sie ist aber langsam — drei Umstiege, mindestens vier Stunden, und die Routen enden in der modernen Stadt ohne einfache Anbindung an Stari Bar 4 km im Hinterland. Mit dem Mietwagen sehen Sie beides, plus Sie wählen, wann Sie im Spätnachmittagslicht zurück an die Küste fahren.",
+    "pickupTitle": "Wagen für die Tour abholen",
+    "pickupText": "Übernehmen Sie am Flughafen Tivat bei Ankunft oder am Morgen der Tour in der Stadt Kotor. Die südliche Küstenstraße E65 beginnt am Buchten-Abzweig, führt durch Budva und Sveti Stefan und öffnet sich nach Petrovac für die lange Strecke nach Bar.",
+    "fleetTitle": "Beste Fahrzeugwahl für die Bar-Strecke",
+    "fleetText": "Die Straße ist meist zweispuriger Küstenasphalt mit langen Kurven — bequem mit allem ab Polo aufwärts. Wählen Sie einen Yaris oder Polo für sparsamen Verbrauch beim Pendeln, oder einen Kadjar für mehr Bodenfreiheit auf der holprigen Piste hoch zu den Stari-Bar-Ruinen. Sehen Sie die volle Liste auf der",
+    "fleetLink": "Flottenseite",
+    "landmarksTitle": "Was Sie in Bar sehen sollten",
+    "landmarksText": "Stari Bar (Alt-Bar) liegt 4 km im Hinterland — eine verlassene mittelalterliche Stadt unter dem Berg Rumija, dramatisch verfallen und ruhig atmosphärisch. Die moderne Stadt hat eine lange Palmenpromenade, den Palast und das Museum von König Nikola sowie den Hafen, von dem das Übernachtschiff nach Bari, Italien fährt.",
+    "oliveTitle": "Die Olivenhaine",
+    "oliveText": "Die Region Bar hat die höchste Dichte alter Olivenbäume in Europa — die Stara Maslina bei Mirovica wird auf über 2.000 Jahre datiert und trägt noch Früchte. Eine kurze Nebenstraße von der Küstenautobahn führt Sie auf Gehweite heran.",
+    "ferryTitle": "Die Fährverbindung nach Italien",
+    "ferryText": "Der Hafen von Bar fährt im Übernachtbetrieb nach Bari, Italien — nützlich, wenn Sie eine Montenegro-Woche mit der Weiterreise nach Apulien kombinieren. Sie können den Mietwagen nur zur Besichtigung herunterfahren, oder klären Sie die Vermieter-Bedingungen, falls Sie das Auto auf die Fähre setzen wollen (die meisten lehnen Adria-Überquerungen ab).",
+    "drivingTitle": "Fahrbedingungen auf der Strecke Kotor zu Bar",
+    "drivingText": "Die Küstenstraße ist gut instand gehalten, aber kurvig. Im Sommer sind jederzeit Bauarbeiten möglich — Montenegro baut Abschnitte zur zweispurigen Schnellstraße aus. Tanken Sie in Petrovac, wenn Sie unter halb sind — auf dem langen Stück zwischen Petrovac und Bar gibt es nur ein, zwei Stationen.",
+    "dayTripsTitle": "Tagesausflüge ab Bar",
+    "dayTrip1": "Stari-Bar-Ruinen — 4 km im Hinterland, 10 Minuten Fahrt von der modernen Stadt, der atmosphärischste Stopp der Region.",
+    "dayTrip2": "Virpazar und Skadar-See — 25 km nördlich über den Sutorman-Pass; ein lebendiges Fischerdorf am Südufer mit Bootstouren in die Feuchtgebiete.",
+    "dayTrip3": "Ulcinj an der Südküste — 26 km weiter südlich.",
+    "dayTrip3Prefix": "Fahren Sie weiter nach",
+    "dayTrip3Link": "Ulcinj",
+    "dayTrip3Suffix": " für Sandstrände und die osmanische Altstadt, wenn Sie einen zweiten Tag haben.",
+    "dayTrip4": "Flughafen Podgorica — 42 km nördlich auf der E80, falls Sie zur Abflugzeit ein Auto zurückgeben.",
+    "tableTitle": "Entfernungen ab Bar",
+    "table": [
+      [
+        "Ziel",
+        "Entfernung",
+        "Fahrzeit"
+      ],
+      [
+        "Stari-Bar-Ruinen",
+        "4 km",
+        "10 Min"
+      ],
+      [
+        "Virpazar / Skadar-See",
+        "25 km",
+        "30 Min"
+      ],
+      [
+        "Ulcinj",
+        "26 km",
+        "35 Min"
+      ],
+      [
+        "Flughafen Podgorica",
+        "42 km",
+        "50 Min"
+      ],
+      [
+        "Budva",
+        "65 km",
+        "1 h 15"
+      ],
+      [
+        "Kotor (zurück zur Basis)",
+        "92 km",
+        "1 h 40"
+      ]
+    ],
+    "faqTitle": "FAQ Bar-Tour",
+    "faq": [
+      {
+        "q": "Lohnt die Fahrt von Kotor nach Bar als Tagesausflug?",
+        "a": "Ja, wenn Sie Stari-Bar-Ruinen, einen Olivenhain-Besuch und einen Stopp am Skadar-See auf dem Rückweg verbinden möchten. Es ist ein langer Tag, aber mit einem Mietwagen ab Kotor machbar."
+      },
+      {
+        "q": "Brauche ich einen 4x4 für Stari Bar?",
+        "a": "Nein — die Zufahrtsstraße ist bis zum Dorf asphaltiert. Nur die Schotterwege oberhalb der Ruinen verlangen Bodenfreiheit. Jedes Fahrzeug der Flotte schafft die Hauptstraße."
+      },
+      {
+        "q": "Wo parke ich in Bar?",
+        "a": "In der Nebensaison ist meist kostenloses Straßenparken entlang der Promenade möglich. Im Hochsommer den kostenpflichtigen Parkplatz nahe dem Yachthafen nutzen, etwa 1 EUR pro Stunde."
+      }
+    ]
+  },
+  "hercegNovi": {
+    "title": "Mietwagen nach Herceg Novi ab Kotor",
+    "subtitle": "Der westliche Eingang zur Bucht, eine Stunde von der Altstadt entfernt",
+    "seoDesc": "Fahren Sie in etwa einer Stunde von Kotor nach Herceg Novi entlang der Buchtstraße. Drei Festungen, die Igalo-Spa-Küste und Basis für Bootstouren nach Mamula und zur Blauen Grotte."
+  },
+  "hercegNoviBody": {
+    "h1": "Die Buchtstraße von Kotor nach Herceg Novi fahren",
+    "p1": "Herceg Novi bewacht den westlichen Buchteingang — eine Stunde westlich von Kotor auf der Küstenstraße, die das gesamte Ufer umrundet. Sie passieren Perast, Risan und die Verige-Engstelle, bevor die Straße bei Kamenari für die Lepetane-Fährabkürzung öffnet, oder Sie bleiben für die längere Panoramavariante auf der Buchtstraße um Tivat.",
+    "p2": "Viele Kotor-Besucher sehen Herceg Novi als Tagesausflug, doch die Stadt verdient eine Übernachtung, wenn Sie Zeit für die Treppenstadt-Wanderung, die drei Festungen oder das Boot nach Mamula und zur Blauen Grotte bei Žanjice wollen.",
+    "whyRentTitle": "Warum mit dem Mietwagen statt mit dem Reisebus",
+    "whyRentText": "Tagestouren ab Kotor halten in Herceg Novi 90 Minuten — kaum genug für den Altstadtgang und einen Kaffee, geschweige denn die Festungstour oder die Bootsfahrt. Mit dem Mietwagen teilen Sie den Tag zwischen der Stadt und den westlichen Buchten und wählen Ihre Lepetane-Fährzeit selbst, um den Inland-Umweg zu sparen.",
+    "pickupTitle": "Wagen abholen",
+    "pickupText": "Übernehmen Sie am Flughafen Tivat bei Ankunft oder am Morgen der Tour in Kotor. Von Kotor aus nordwärts auf der Buchtstraße, dann die Lepetane-Fährabkürzung (5-Min-Überfahrt, alle 15 Minuten), und Sie sind in 45 Minuten in Herceg Novi über das Westufer.",
+    "fleetTitle": "Beste Fahrzeugwahl für die Tour",
+    "fleetText": "Die Buchtstraße ist asphaltiert und einfach — alles aus der Flotte schafft sie bequem. Wenn Sie weiter zur Prevlaka-Halbinsel oder zur kroatischen Grenze wollen, nehmen Sie einen Polo oder Yaris (kleiner ist in den engen Dorfstraßen leichter). Für die Boots-Žanjice-Kombi ist das Parken in Mirista enger — wieder hilft das kleinere Auto. Volle Auswahl auf der",
+    "fleetLink": "Flottenseite",
+    "beachesTitle": "Strände um Herceg Novi",
+    "beachesIntro": "Kies und Beton säumen den Großteil der Bucht, aber das westliche Ende hat schwimmbare Stellen:",
+    "beachMirista": "Mirista — Startpunkt der Boote nach Mamula und zur Blauen Grotte, plus ein kleiner Kiesstrand zum Schwimmen während der Wartezeit.",
+    "beachRose": "Rose — restauriertes Fischerdorf auf der Halbinsel Luštica, erreichbar per kostenpflichtigem Bootsshuttle ab Herceg Novi oder per Auto über die südliche Buchtstraße.",
+    "beachZanjic": "Žanjice — Kiesbucht im Olivenhain, beliebter Stopp auf der Blaue-Grotte-Bootsschleife.",
+    "beachIgalo": "Igalo — breiter Kiesstrand mit dem berühmten Schlamm-Spa-Pavillon, 3 km westlich der Altstadt.",
+    "landmarksTitle": "Was Sie in Herceg Novi sehen sollten",
+    "landmarksText": "Drei Festungen umringen die Altstadt: Forte Mare am Wasser, Kanli Kula über dem gepflasterten Zentrum und Španjola oben am Hügel (steiler Aufstieg, große Aussicht). Die Stadt selbst ist eine vertikale Treppenstadt — angeblich 100.000 Stufen insgesamt, der Altstadtgang nutzt aber nur einige Hundert. Verpassen Sie nicht die Sahat-Kula-Uhr am östlichen Eingang.",
+    "drivingTitle": "Fahrbedingungen auf der Buchtstraße",
+    "drivingText": "Die Uferstraße ist durchweg zweispurig, manchmal eingezwängt zwischen Bucht und Felswand. Die Lepetane-Kamenari-Fähre fährt ständig und spart 30 Minuten gegenüber dem Inland-Umweg um Tivat. Parken Sie außerhalb der Altstadtmauern — das Zentrum ist meist Fußgängerzone, Parken innen nur für Anwohner.",
+    "dayTripsTitle": "Tagesausflüge ab Herceg Novi",
+    "dayTrip1": "Bootstour nach Mamula und zur Blauen Grotte ab Mirista — Halbtagsausflug, mehrere Anbieter.",
+    "dayTrip1Prefix": "Auf dem Rückweg halten in",
+    "dayTrip1Link": "Perast",
+    "dayTrip1Suffix": " für die Insel Our Lady of the Rocks, falls noch nicht gemacht.",
+    "dayTrip2": "Halbinsel Prevlaka — 25 km westlich, kurz nach Kroatien für einen Aussichtspunkt über den Buchtmund.",
+    "dayTrip3": "Kloster Savina — 2 km von Herceg Novi, in einem Pinienhain über der Bucht.",
+    "dayTrip4": "Igalo-Schlamm-Spa — 3 km westlich, Tageskarte am Institut Igalo für die berühmte Mineralschlamm-Behandlung.",
+    "tableTitle": "Entfernungen ab Herceg Novi",
+    "table": [
+      [
+        "Ziel",
+        "Entfernung",
+        "Fahrzeit"
+      ],
+      [
+        "Igalo",
+        "3 km",
+        "8 Min"
+      ],
+      [
+        "Mirista (Blaue Grotte Boot)",
+        "12 km",
+        "20 Min"
+      ],
+      [
+        "Lepetane-Fähre",
+        "10 km",
+        "15 Min"
+      ],
+      [
+        "Flughafen Tivat",
+        "33 km",
+        "45 Min"
+      ],
+      [
+        "Kotor (zurück zur Basis)",
+        "43 km",
+        "1 h 0"
+      ],
+      [
+        "Flughafen Dubrovnik (HR)",
+        "32 km",
+        "45 Min"
+      ]
+    ],
+    "faqTitle": "FAQ Herceg-Novi-Tour",
+    "faq": [
+      {
+        "q": "Lepetane-Fähre nehmen oder um die Bucht fahren?",
+        "a": "Fähre nehmen — sie fährt alle 15 Minuten, dauert 5 Minuten und spart einen 30-minütigen Inland-Umweg über Tivat. Autos werden nach Längenkategorie berechnet, etwa 5 EUR für ein Kleinwagen."
+      },
+      {
+        "q": "Kann ich von Herceg Novi nach Kroatien fahren?",
+        "a": "Ja, wenn Ihr Mietvertrag Grenzfahrten erlaubt. Wählen Sie die grenzüberschreitende Versicherungsstufe bei der Buchung; die meisten Cluster-Vermieter haben Kroatien in der Basisstufe. Der Übergang Debeli Brijeg ist 8 km westlich."
+      },
+      {
+        "q": "Wo parke ich nahe der Altstadt?",
+        "a": "Nutzen Sie den Parkplatz am Westeingang der Altstadt nahe der Sahat-Kula-Uhr, etwa 1,50 EUR pro Stunde. Versuchen Sie nicht, in das historische Zentrum zu fahren — die meisten Gassen sind Treppen."
+      }
+    ]
+  },
+  "niksic": {
+    "title": "Mietwagen nach Nikšić ab Kotor",
+    "subtitle": "Montenegros bergumsäumte Brauereistadt, das Tor zum Durmitor",
+    "seoDesc": "Fahren Sie in etwa 90 Minuten von Kotor nach Nikšić über Cetinje und den Lovćen-Pass. Brauereistadt, Seenrundkurs und Ausgangspunkt für Tara-Schlucht und Durmitor-Nationalpark."
+  },
+  "niksicBody": {
+    "h1": "Vom Küsten-Kotor ins Landesinnere nach Nikšić fahren",
+    "p1": "Nikšić ist Montenegros zweitgrößte Stadt — eine Arbeiterstadt in der Karstebene nordwestlich von Podgorica, umgeben von den Seen Krupac, Slano und Vrtac. Von Kotor aus dauert die Fahrt etwa 90 Minuten über Cetinje und die Lovćen-Pass-Straße, oder zwei Stunden auf der längeren Inlandsroute über Podgorica.",
+    "p2": "Sie steht auf den meisten Küstenitineraren nicht oben, aber wenn Sie weiter ins Innere zum Durmitor oder zur Tara-Schlucht wollen, ist Nikšić ein logischer Zwischenstopp. Die Brauerei Trebjesa und die Seen sind Gründe zu bleiben.",
+    "whyRentTitle": "Warum ein Mietwagen ab Kotor die richtige Wahl ist",
+    "whyRentText": "Es gibt keinen Direktbus von Kotor nach Nikšić — die Route führt über Podgorica mit drei Umstiegen und fast einem ganzen Tag. Mit einem Mietwagen nehmen Sie die landschaftliche Cetinje-Route über die Lovćen-Serpentinen, essen am Krupac-See zu Mittag und fahren weiter in den Durmitor, ohne sich um Busfahrpläne zu kümmern.",
+    "pickupTitle": "Wagen abholen",
+    "pickupText": "Übernehmen Sie am Flughafen Tivat bei Ankunft oder am Morgen der Tour in Kotor. Von Kotor die Lovćen-Serpentinen hinauf (die 25 Haarnadelkurven über Kotor) Richtung Cetinje, dann weiter auf der M2 nach Nikšić.",
+    "fleetTitle": "Beste Fahrzeugwahl für Inlandsstrecken",
+    "fleetText": "Der Lovćen-Pass ist asphaltiert, aber steil und eng — ein Yaris, Polo oder 208 fährt sich am besten. Wenn Sie weiter zum Durmitor wollen, geben Megane oder Kadjar besseren Kurvenkomfort auf den Inlandsgeraden in Höhenlage. Modelle und Preise auf der",
+    "fleetLink": "Flottenseite",
+    "landmarksTitle": "Was Sie in Nikšić sehen sollten",
+    "landmarksText": "Der Palast König Nikolas und die Kathedrale des Heiligen Vasilije am Trg Slobode. Die Brauerei Trebjesa (heimat des lokalen Nikšićko pivo) bietet begrenzte Touren, und die alte Festung am Trebjesa-Hügel hat den besten Stadtblick. Die Bedem-Festungsreste sind 10 Minuten zu Fuß westlich des Zentrums.",
+    "lakesTitle": "Die Nikšić-Seen",
+    "lakesText": "Drei Stauseen — Krupac, Slano, Vrtac — umgeben die Stadt. Krupac ist der zugänglichste, mit kleinem Strand, Café und Rundweg; Einheimische schwimmen dort im Sommer. Slano hat den besseren Sonnenuntergang über den kahlen Karsthügeln. Alle sind in 15 Minuten Fahrt vom Zentrum aus erreichbar.",
+    "drivingTitle": "Fahrbedingungen",
+    "drivingText": "Die Cetinje-Route ist die landschaftliche, aber die 25 Serpentinen über Kotor sind langsam — rechnen Sie mit insgesamt 90 Minuten. Die längere Route über Podgorica auf der M-2 ist schneller (zwei Stunden) und ist die Straße, die Sie bei mehr Gepäck wollen. Tanken Sie auf der Hinfahrt in Cetinje — die Inlandstrecke zwischen Cetinje und Nikšić hat begrenzte Stationen.",
+    "dayTripsTitle": "Tagesausflüge ab Nikšić",
+    "dayTrip1": "Krupac- und Slano-See-Rundkurs — kurze Schleife südlich und westlich der Stadt, mit jedem Auto machbar.",
+    "dayTrip2": "Durmitor-Nationalpark und Schwarzer See — 70 km nördlich, ca. 90 Minuten auf der M-18 Richtung Šavnik dann Žabljak.",
+    "parksSeeOurPrefix": "Siehe unseren",
+    "parksLink": "Lovćen-Fahrführer",
+    "parksSuffix": "für die Route durch den Nationalpark.",
+    "dayTrip3": "Kloster Ostrog — 35 km südöstlich auf der Straße zurück nach Podgorica, die in den Felsen geschnittene weiße Kirche.",
+    "dayTrip4": "Tara-Schlucht und Đurđevića-Brücke — 130 km nördlich, ein langer aber machbarer Tag, wenn Sie früh starten.",
+    "taraAlsoSeePrefix": "Siehe auch unsere",
+    "taraLink": "Risan-Mosaik-Panoramafahrt",
+    "tableTitle": "Entfernungen ab Nikšić",
+    "table": [
+      [
+        "Ziel",
+        "Entfernung",
+        "Fahrzeit"
+      ],
+      [
+        "Krupac-See",
+        "7 km",
+        "12 Min"
+      ],
+      [
+        "Kloster Ostrog",
+        "35 km",
+        "50 Min"
+      ],
+      [
+        "Durmitor (Žabljak)",
+        "70 km",
+        "1 h 30"
+      ],
+      [
+        "Podgorica",
+        "55 km",
+        "55 Min"
+      ],
+      [
+        "Cetinje",
+        "55 km",
+        "1 h"
+      ],
+      [
+        "Kotor (zurück zur Basis)",
+        "75 km",
+        "1 h 30"
+      ]
+    ],
+    "faqTitle": "FAQ Nikšić-Tour",
+    "faq": [
+      {
+        "q": "Lohnt sich Nikšić auf einer Montenegro-Tour?",
+        "a": "Lohnenswert als Zwischenstopp, wenn Sie von der Küste zum Durmitor oder zur Tara-Schlucht wollen. Auslassen, wenn Sie an der Küste bleiben."
+      },
+      {
+        "q": "Kann ich mit einem Kleinwagen zum Durmitor?",
+        "a": "Ja, die M-18 nach Žabljak ist durchgehend asphaltiert. Der serpentinige Abschnitt durch Šavnik ist stellenweise eng, aber jedes Auto schafft das. Im Winter Schneeketten Pflicht — Vermieter haben sie im Winterpaket."
+      },
+      {
+        "q": "Wann hat die Brauerei Trebjesa für Touren geöffnet?",
+        "a": "Touren laufen unregelmäßig — buchen Sie vorab über die Nikšićko-pivo-Website. Walk-ins meist enttäuscht."
+      }
+    ]
+  },
+  "ulcinj": {
+    "title": "Mietwagen nach Ulcinj ab Kotor",
+    "subtitle": "Montenegros südlichste Küste — osmanische Altstadt und der längste Sandstrand",
+    "seoDesc": "Fahren Sie in etwa 2,5 Stunden von Kotor nach Ulcinj entlang der Küstenstraße. Velika-Plaža-Sandstrand, die osmanisch befestigte Altstadt und Ada Bojana an der albanischen Grenze."
+  },
+  "ulcinjBody": {
+    "h1": "Von Kotor südwärts nach Ulcinj fahren",
+    "p1": "Ulcinj ist Montenegros südlichste Stadt — ein Küstenort osmanischer Bauart, flankiert vom längsten Sandstrand der östlichen Adria. Von Kotor sind es etwa 2,5 Stunden auf der Küstenstraße über Budva, Petrovac und Bar, dann ein letztes Stück durch Olivenhaine zur albanischen Grenze.",
+    "p2": "Die meisten Kotor-Besucher kommen nicht so weit nach Süden, was den Reiz ausmacht. Velika Plaža und Ada Bojana wirken völlig anders als die Bucht — flach, sandig, sommerlich, kulturell verschieden (albanisch geprägte Stadt mit starker osmanischer Spur).",
+    "whyRentTitle": "Warum mit dem Mietwagen statt mit Bussen",
+    "whyRentText": "Es gibt einen Bus von Kotor nach Ulcinj, aber die Route führt über Bar mit mindestens einem Umstieg — mindestens fünf Stunden. Mit einem Mietwagen schaffen Sie die Strecke in 2,5 Stunden je Richtung, und vor allem erreichen Sie Ada Bojana und die Valdanos-Bucht, die der Bus nicht bedient.",
+    "pickupTitle": "Wagen abholen",
+    "pickupText": "Übernehmen Sie am Flughafen Tivat bei Ankunft oder am Morgen der Tour in Kotor. Die südliche Küstenstraße E65 beginnt am Buchten-Abzweig, durchquert die volle Budva-Riviera, dann weiter über Bar, bevor sie für die Ulcinj-Anfahrt ins Land schwenkt.",
+    "fleetTitle": "Beste Fahrzeugwahl für die Südküste",
+    "fleetText": "Die Straße ist bis Bar gut asphaltiert und wird danach schmaler — ein Polo oder 208 reicht für die Hauptroute, aber für die Schotterpiste nach Ada Bojana wollen Sie mehr Bodenfreiheit. Ein Kadjar oder Stonic schafft beides. ",
+    "fleetLink": "Flottenseite",
+    "beachesTitle": "Strände um Ulcinj",
+    "beachesIntro": "Ulcinj hat die abwechslungsreichste Strandgeografie der montenegrinischen Küste:",
+    "beachVelika": "Velika Plaža (Großer Strand) — 12 km feiner Sand, der von der Stadt ostwärts zum Bojana-Fluss läuft. Windflach, Kitesurf-Hochburg, Liegen und Bars im Sommer.",
+    "beachAda": "Ada Bojana — Flussmündungsinsel, wo die Bojana ins Meer fließt. Traditionell FKK-freundlich, an drei Seiten Sand, über eine einzige Brücke erreichbar.",
+    "beachMalaPlaza": "Mala Plaža (Kleiner Strand) — Stadtstrand unter den Altstadtmauern, sandig und flach, im Juli überfüllt.",
+    "beachValdanos": "Valdanos-Bucht — Kiesbucht 6 km nördlich der Stadt, von 10.000 Olivenbäumen umrahmt, viel ruhiger als die Sandstrecken.",
+    "landmarksTitle": "Was Sie in Ulcinj sehen sollten",
+    "landmarksText": "Die befestigte Altstadt klettert auf der Landzunge zwischen Mala Plaža und dem Yachthafen — osmanische Mauern, schmale Gassen, das Balšić-Turm-Museum und die renovierte Moschee. Der alte Olivenbaum bei Mirovica (über 2.000 Jahre) und die Saš-Festungsruinen runden die Kulturstops ab.",
+    "drivingTitle": "Fahrbedingungen Kotor zu Ulcinj",
+    "drivingText": "Die ganze Strecke Küstenstraße, zweispurig und kurvig. Im Juli starker Verkehr, wenn Ulcinj sich mit albanischen und kosovarischen Strandgästen füllt. Parken in der Altstadt unmöglich — nutzen Sie den Parkplatz am Westeingang und gehen zu Fuß.",
+    "dayTripsTitle": "Tagesausflüge ab Ulcinj",
+    "dayTrip1": "Velika Plaža und die Bojana-Mündung — 12 km östlich, der Sandstreifen und die Aalrestaurants auf Stelzen am Fluss.",
+    "dayTrip2": "Skadar-See Südufer — 25 km nördlich, Strand Murići und der Vranjina-Damm.",
+    "dayTrip3": "Nordwärts nach Bar — 26 km die Küste hoch, mit Stari-Bar-Schleife auf dem Rückweg.",
+    "dayTrip3Prefix": "Kombinieren Sie mit unserem",
+    "dayTrip3Link": "Bar-Fahrführer",
+    "dayTrip3Suffix": " für eine Zwei-Basis-Schleife.",
+    "dayTrip4": "Albanischer Grenzübergang — Sukobin-Checkpoint, 8 km von der Stadt. Tagestrip nach Shkodër möglich, wenn Ihr Vertrag Grenzfahrten erlaubt.",
+    "tableTitle": "Entfernungen ab Ulcinj",
+    "table": [
+      [
+        "Ziel",
+        "Entfernung",
+        "Fahrzeit"
+      ],
+      [
+        "Velika Plaža",
+        "5 km",
+        "10 Min"
+      ],
+      [
+        "Ada Bojana",
+        "13 km",
+        "25 Min"
+      ],
+      [
+        "Valdanos-Bucht",
+        "6 km",
+        "12 Min"
+      ],
+      [
+        "Bar",
+        "26 km",
+        "35 Min"
+      ],
+      [
+        "Skadar-See (Murići)",
+        "30 km",
+        "45 Min"
+      ],
+      [
+        "Kotor (zurück zur Basis)",
+        "120 km",
+        "2 h 30"
+      ]
+    ],
+    "faqTitle": "FAQ Ulcinj-Tour",
+    "faq": [
+      {
+        "q": "Kann ich mit dem Mietwagen nach Albanien?",
+        "a": "Ja, wenn Ihr Vertrag Albanien in der Grenz-Stufe enthält. Die meisten Cluster-Vermieter haben es in der oberen Stufe — bei der Buchung prüfen. Der Sukobin-Übergang ist mit 8 km am nächsten."
+      },
+      {
+        "q": "Ist Ulcinj als Tagestour ab Kotor machbar oder lieber Übernachtung?",
+        "a": "Machbar als langer Tag (5 Stunden Fahren plus Sightseeing), aber knapp. Wer Zeit für Velika Plaža und den Altstadtgang will, übernachtet besser."
+      },
+      {
+        "q": "Ist Ada Bojana wirklich FKK?",
+        "a": "Traditionell ja, mit unterschiedlicher Auslegung. Die östliche Inselhälfte ist als FKK ausgewiesen; die westliche an der Brücke gemischt."
+      }
+    ]
   }
 }
