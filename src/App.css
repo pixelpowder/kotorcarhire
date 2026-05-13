@@ -3249,3 +3249,81 @@ a.car-detail-cta__btn:hover { background: rgb(5, 32, 60); color: #fff !important
 @media (max-width: 599px) {
   .kch-fleet-grid { grid-template-columns: 1fr !important; }
 }
+
+
+/* ─── COOKIE BANNER MOBILE (synced from MNE) ───────────────── */
+@media (max-width: 640px) {
+  .cookie-banner {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 12px 16px 14px;
+    font-size: 12px;
+  }
+  .cookie-banner__text {
+    flex: 1 1 100%;
+    line-height: 1.4;
+    padding-right: 28px;
+    margin: 0;
+  }
+  .cookie-banner__actions {
+    flex: 1 1 auto;
+    justify-content: flex-end;
+  }
+  .cookie-banner__accept,
+  .cookie-banner__decline {
+    padding: 7px 16px;
+    font-size: 12px;
+  }
+  .cookie-banner__close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  }
+}
+
+/* ─── 320 PX SAFETY NET ─────────────────────────────────────
+   Smallest common iPhone SE 1 / older Android viewport. Brand text
+   plus the lang dropdown plus the burger overshoots the inner row
+   by ~7px at 16px logo font, so shrink the brand and tighten the
+   right group's gaps. Also adds a small breathing gap between the
+   booking card and the trust strip below it. */
+@media (max-width: 360px) {
+  .nav__inner { padding-left: 12px !important; padding-right: 12px !important; }
+  .nav__logo { gap: 8px !important; }
+  .nav__logo-text { font-size: 14px !important; }
+  .nav__logo-icon { width: 32px !important; height: 32px !important; }
+  .nav__right { gap: 4px !important; }
+  .nav__lang { padding: 6px 8px !important; font-size: 12px !important; }
+}
+
+/* ─── PRICE PILL: STABLE DIGIT FALLBACK ─────────────────────
+   The "FROM €30 / day" pill on fleet cards painted as "FROM €••• /
+   day" briefly during font swap on cold loads — Inter took a frame
+   to load and the system fallback didn't have matching digit glyphs
+   in some Android WebViews. Lock down tabular-nums and prepend
+   Arial/Helvetica to the fallback chain for guaranteed digit
+   support before sans-serif. */
+.fleet-card__cta-label,
+.fleet-card__cta-label + span {
+  font-feature-settings: "tnum" 1, "lnum" 1;
+  font-variant-numeric: tabular-nums lining-nums;
+  font-family: Inter, "Inter Fallback", Arial, Helvetica, system-ui, -apple-system, sans-serif !important;
+}
+
+/* ─── BOOKING CARD <-> TRUST STRIP GAP ──────────────────────
+   On mobile the booking card overflowed the .hero by ~14px, so
+   the bottom of the form rendered visually against the trust
+   strip's dark navy background — looking "cut off". Padding the
+   hero gives the card room to finish before the next section
+   begins. Also reserves bottom space for the sticky CTA bar. */
+@media (max-width: 768px) {
+  /* The .hero-fade-in inside .hero translates 24px down at rest as
+     part of the entry animation, so the booking card naturally sits
+     ~24px past the hero's content bottom. Pad enough that the card
+     finishes inside the hero and the trust strip starts cleanly
+     below. */
+  .hero { padding-bottom: 64px !important; }
+  /* Reserve room for the fixed sticky CTA so the last section
+     above it isn't half-covered. */
+  body { padding-bottom: 76px; }
+}
