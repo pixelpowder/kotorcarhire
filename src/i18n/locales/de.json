@@ -246,7 +246,7 @@
   "fleet": {
     "label": "Unsere Flotte",
     "title": "Mietwagen Kotor",
-    "subtitle": "Verfügbarkeit und Preise in Echtzeit ansehen, kostenlose Stornierung, Versicherungsoptionen, direkt buchen."
+    "subtitle": "Verfügbarkeit und Preise in Echtzeit ansehen, kostenlose Stornierung bei ausgewählten Autos, kostenlose Mindestdeckung mit Upgrades ab 8 €/Tag, direkt buchen."
   },
   "brands": {
     "label": "Marken, die Sie in unserer Kotor-Flotte finden"
@@ -292,7 +292,7 @@
     "iframeTitle": "Mietwagen-Buchung"
   },
   "footer": {
-    "brandDesc": "Abholung am Flughafen Tivat, Lieferung in die Altstadt von Kotor und Übergabe direkt am Hotel. Versicherungsoptionen, Erfahrung auf den Buchtstraßen und Festpreise – die ganze Saison gleich.",
+    "brandDesc": "Abholung am Flughafen Tivat, Lieferung in die Altstadt von Kotor und Übergabe direkt am Hotel. Kostenlose Mindestdeckung mit Upgrades ab 8 €/Tag, Erfahrung auf den Buchtstraßen und Festpreise – die ganze Saison gleich.",
     "quickLinks": "Schnelllinks",
     "guides": "Reiseführer",
     "locations": "Standorte",
@@ -467,29 +467,29 @@
       "desc": "Wir empfangen Sie am Flughafen Tivat, nur 8 km von der Altstadt. Die Buchtstraße nach Kotor fahren Sie in 15 Minuten, kein Shuttle, kein Warten."
     },
     "fullInsurance": {
-      "title": "Vollversicherung",
-      "desc": "Option ohne Selbstbeteiligung verfügbar. Ob Sie durch die engen Gassen der Altstadt oder über die Serpentinen des Lovcen fahren, Sie sind rundum abgesichert."
+      "title": "Versicherungsoptionen",
+      "desc": "Kostenlose Mindestdeckung (Haftpflicht) bei jeder Buchung — Basic ab 8 €/Tag, Full ab 10 €/Tag, Full Plus ohne Kaution ab 18 €/Tag."
     },
     "support": {
-      "title": "24/7 Unterstützung",
-      "desc": "Hinter einem Kreuzfahrtbus auf der Buchtstraße festgesteckt? Unsicher wegen des Tabacina-Parkplatzes? Rufen Sie uns jederzeit an, wir kennen jeden Meter dieser Straßen."
+      "title": "24/7 Buchungssupport",
+      "desc": "Buchungshilfe rund um die Uhr für die Fahrt entlang der Buchtstraße nach Kotor; der Pannendienst wird vom Vermieter gestellt."
     },
     "noHiddenFees": {
-      "title": "Keine versteckten Kosten",
-      "desc": "Ein transparenter Preis für Versicherung, MwSt. und Kilometerleistung. Was Sie bei der Buchung sehen, zahlen Sie bei der Abholung, nichts kommt am Schalter dazu."
+      "title": "Keine Kreditkarte erforderlich",
+      "desc": "Jedes Auto auf der Plattform ist ohne Kreditkarte buchbar — Zahlung in bar, mit Debitkarte oder Krypto direkt beim Vermieter."
     },
     "freeCancellation": {
       "title": "Kostenlose Stornierung",
-      "desc": "Kreuzfahrtplan geändert? Lovcen-Straße wegen Wetter gesperrt? Stornieren Sie bis 7 Tage vor Abholung für eine volle Rückerstattung, ohne Fragen."
+      "desc": "Bei ausgewählten Autos (rund 46 % der Flotte): Rückerstattung der Anzahlung bei Stornierung mehr als 24 Stunden vor Abholung."
     },
     "crossBorder": {
-      "title": "Grenzüberschreitend",
-      "desc": "Dubrovnik ist 2 Stunden entfernt über den Grenzübergang Debeli Brijeg, Grüne Karte bei Abholung bereit. Bosnien und Albanien mit Vorankündigung ebenfalls erlaubt."
+      "title": "Grenzüberquerung",
+      "desc": "Kostenpflichtige Grenzgenehmigung in drei Stufen — Nachbarländer, inkl. Albanien & Kosovo oder ganz EU + Schweiz. Dubrovnik in 2 Std. über Debeli Brijeg."
     }
   },
   "testimonials": {
     "0": {
-      "text": "Die Buchtstraße zwischen Kotor und Perast ist eine der schönsten Fahrten, die wir je gemacht haben. Wir hielten an jeder Ausweichstelle und fuhren mit dem Boot zur Felseninsel. Mit dem Auto konnten wir alles in unserem eigenen Tempo erleben. Einfache Abholung in Tivat und der gesamte Ablauf war reibungslos."
+      "text": "In zwei Klicks ein Auto für Tivat gebucht, der Vermieter holte uns am Ankunftsbereich ab, und schon ging es über die Buchtstraße nach Kotor. Wir fuhren weiter nach Perast und zur Insel Our Lady of the Rocks — alles in unserem eigenen Tempo."
     },
     "1": {
       "text": "Ich bin extra nach Kotor gereist, um die Festung San Giovanni zu besteigen und nach Lovcen zu fahren. Das Auto war schon in Tivat bereit, bevor ich den Ausgang gefunden hatte. Die Serpentinenstraße zum Mausoleum ist wie nichts, was ich bisher in Europa gefahren bin, steil, eng, spektakulär. Jederzeit wieder."
@@ -500,32 +500,32 @@
   },
   "faqItems": {
     "0": {
-      "q": "Welche Dokumente werden benötigt?",
-      "a": "Bringen Sie Führerschein, Reisepass und eine physische Kreditkarte auf den Namen des Hauptfahrers mit. Enthält Ihr Führerschein keine Angaben in lateinischer Schrift, ist zusätzlich ein internationaler Führerschein erforderlich."
+      "q": "Welche Dokumente brauche ich?",
+      "a": "Ein gültiger Führerschein und Reisepass oder Personalausweis. Die meisten Autos akzeptieren Bargeld, Debitkarte oder Krypto — eine Kreditkarte ist bei keiner Buchung auf der Plattform erforderlich. Für Nicht-EU-Führerscheine kann je nach Vermieter ein internationaler Führerschein nötig sein."
     },
     "1": {
-      "q": "Sind Fahrten nach Kroatien oder Albanien erlaubt?",
-      "a": "Die Grenzgebühren sind in drei Stufen gegliedert. Stufe 1 deckt Nachbarländer ohne Albanien und Kosovo ab, der Standardzuschlag für die meistgefahrene Kotor-Route nach Dubrovnik über Debeli Brijeg sowie für Bosnien und Serbien. Stufe 2 deckt Nachbarländer einschließlich Albanien und Kosovo ab, die richtige Stufe für einen Tagesausflug zum Skadar-See mit anschließender Fahrt durch Sukobin nach Albanien oder einen Vorstoß über Rožaje nach Peja. Stufe 3 deckt Nachbar- und entferntere Länder ab, wenn Ihre Reiseroute weiter führt. Wählen Sie bei der Buchung jedes Land aus, die Grüne Karte liegt bei der Übergabe im Handschuhfach."
+      "q": "Kann ich nach Kroatien, Albanien oder Italien fahren?",
+      "a": "Ja — die Grenzfahrt wird als kostenpflichtige Genehmigung in drei Stufen verkauft: (1) Kroatien, Bosnien & Herzegowina und Serbien (keine Grüne Karte nötig); (2) dasselbe plus Albanien und Kosovo (Grüne Karte enthalten); (3) Albanien, Kosovo, Kroatien, Bosnien, Serbien, Mazedonien, alle EU-Länder und die Schweiz (Grüne Karte enthalten). Die passende Stufe wird beim Checkout angezeigt."
     },
     "2": {
       "q": "Gibt es ein Mindestalter?",
-      "a": "Fahrer müssen mindestens 21 Jahre alt sein und mindestens 2 Jahre Fahrerfahrung vorweisen. Für Fahrer unter 25 gilt ein Jungefahrer-Aufschlag, der genaue Betrag variiert je nach Fahrzeug und wird in den Suchergebnissen angezeigt."
+      "a": "Alter und erforderliche Fahrpraxis variieren je nach Fahrzeug. Die niedrigsten Fahrzeuge auf der Plattform sind ab 18 Jahren mit 1 Jahr Fahrpraxis verfügbar."
     },
     "3": {
       "q": "Was ist im Preis enthalten?",
-      "a": "Haftpflicht- und CDW-Versicherung sind im Grundpreis aller Fahrzeuge enthalten, ebenso Mehrwertsteuer und Pflichtausrüstung. Unbegrenzte Kilometerleistung ist bei den meisten Autos verfügbar, prüfen Sie die Fahrzeugkarte vor der Buchung."
+      "a": "Jede Buchung enthält die kostenlose Mindestdeckung (Haftpflicht) mit typischer 100-€-Kaution, einen kostenlosen zweiten Fahrer und MwSt. Versicherungs-Upgrades sind kostenpflichtige Extras: Basic ab 8 €/Tag, Full ab 10 €/Tag und Full Plus ohne Kaution ab 18 €/Tag. Unbegrenzte Kilometer sind bei den meisten Autos enthalten (376 von etwa 380)."
     },
     "4": {
       "q": "Wie funktioniert die Abholung am Flughafen Tivat?",
       "a": "Ihr Agent wartet im Ankunftsbereich des Flughafens Tivat mit einem Schild mit Ihrem Namen. Das Auto steht direkt davor. Vom Terminal bis zu den Altstadtmauern Kotors dauert es entlang der Buchtstraße etwa 15 Minuten. Alternativ ist auch eine Abholung am Tabacina-Parkplatz am Altstadteingang möglich."
     },
     "5": {
-      "q": "Was ist die Stornierungsbedingung?",
-      "a": "Kostenlose Stornierung bis 7 Tage vor Mietbeginn. Für Luxusfahrzeuge und Cabriolets sind 30 Tage Vorlauf erforderlich. Bei allen Stornierungen fällt unabhängig vom Zeitpunkt eine Bearbeitungsgebühr von 6 % an."
+      "q": "Wie lautet die Stornierungsrichtlinie?",
+      "a": "Kostenlose Stornierung ist bei ausgewählten Autos verfügbar (rund 176 von ca. 380, in der Suche klar markiert). Bei diesen Autos wird die gesamte Anzahlung erstattet, wenn Sie mehr als 24 Stunden vor Abholung stornieren; Stornierungen innerhalb von 24 Stunden vor Abholung sind nicht erstattungsfähig."
     },
     "6": {
-      "q": "Ist eine Mietkaution erforderlich?",
-      "a": "Die meisten Fahrzeuge erfordern eine Kaution von 100-350 € auf einer physischen Kreditkarte des Hauptfahrers. Einige Kleinwagen sind ohne Kaution erhältlich, diese sind in den Suchergebnissen klar gekennzeichnet. Die Rückgabe der Kaution erfolgt bei unbeschädigter Fahrzeugrückgabe."
+      "q": "Ist eine Kaution erforderlich?",
+      "a": "Die meisten Autos hinterlegen bei Abholung eine Kaution von 100 €. 47 Autos auf der Plattform verlangen gar keine Kaution, weitere 124 bieten die Kautionsfreiheit als kostenpflichtigen Service an. Auch die Wahl der Full-Plus-Versicherung (ab 18 €/Tag) erlässt die Kaution."
     },
     "7": {
       "q": "Wo parkt man in der Altstadt von Kotor?",

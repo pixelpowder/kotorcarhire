@@ -246,7 +246,7 @@
   "fleet": {
     "label": "Our Fleet",
     "title": "Car Hire Kotor",
-    "subtitle": "Browse real-time availability and prices, free cancellation, full insurance, book directly."
+    "subtitle": "Browse real-time availability and prices, free cancellation on selected cars, free Minimum cover with paid upgrades from €8/day, book directly."
   },
   "brands": {
     "label": "Brands you'll find in our Kotor fleet"
@@ -292,7 +292,7 @@
     "iframeTitle": "Car rental booking"
   },
   "footer": {
-    "brandDesc": "Tivat Airport pickup, in-town Kotor delivery, and hotel handovers across the Bay. Full insurance, bay road expertise, and flat rates that stay flat all season.",
+    "brandDesc": "Tivat Airport pickup, in-town Kotor delivery, and hotel handovers across the Bay. Free Minimum cover with paid upgrades from €8/day, bay road expertise, and flat rates that stay flat all season.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "locations": "Locations",
@@ -468,28 +468,28 @@
     },
     "fullInsurance": {
       "title": "Insurance Options",
-      "desc": "Zero excess option available. Whether you're navigating the narrow lanes inside the Old Town or the Lovcen hairpins above, you're fully covered."
+      "desc": "Free Minimum (third-party) cover on every booking — Basic from €8/day, Full from €10/day, no-deposit Full Plus from €18/day."
     },
     "support": {
-      "title": "24/7 Support",
-      "desc": "Stuck behind a cruise bus on the bay road? Unsure about the Tabacina car park? Call us any time, we know every metre of these roads."
+      "title": "24/7 Booking Support",
+      "desc": "Booking help around the clock for your bay-road drive into Kotor; roadside assistance is provided by the rental supplier."
     },
     "noHiddenFees": {
-      "title": "No Hidden Fees",
-      "desc": "One transparent price covers insurance, VAT, and mileage. What you see when you book is exactly what you pay at pickup, nothing added at the desk."
+      "title": "No Credit Card Needed",
+      "desc": "Every car on the platform is bookable without a credit card — pay by cash, debit card or crypto at the supplier."
     },
     "freeCancellation": {
       "title": "Free Cancellation",
-      "desc": "Cruise schedule moved? Lovcen road closed by weather? Cancel up to 7 days before collection for a full refund, no questions asked."
+      "desc": "On selected cars (around 46% of the fleet): refund of advance payment if you cancel more than 24 hours before pickup."
     },
     "crossBorder": {
       "title": "Cross-Border",
-      "desc": "Dubrovnik is 2 hours via the Debeli Brijeg crossing, Green Card ready at pickup. Bosnia and Albania also permitted with advance notice."
+      "desc": "Paid cross-border permit at three tiers — neighbours, including Albania & Kosovo, or all-EU + Switzerland. Dubrovnik is 2 hours via Debeli Brijeg."
     }
   },
   "testimonials": {
     "0": {
-      "text": "The bay road between Kotor and Perast is one of the most beautiful drives we've ever done. We stopped at every layby and took the boat out to Our Lady of the Rocks. Having the car meant we did it entirely on our own schedule. Easy pickup at Tivat and the whole process was smooth from start to finish."
+      "text": "Booked a compact for Tivat in two clicks, met by the supplier at arrivals, and on the bay road to Kotor in minutes. Drove down to Perast and out to Our Lady of the Rocks on our own schedule, no waiting around."
     },
     "1": {
       "text": "Came to Kotor specifically to climb San Giovanni fortress and drive up to Lovcen. The car was ready at Tivat arrivals before I'd even found the exit. The serpentine road to the mausoleum is unlike anything I've driven in North America, steep, narrow, spectacular. Would book again without hesitation."
@@ -501,19 +501,19 @@
   "faqItems": {
     "0": {
       "q": "What documents do I need?",
-      "a": "Bring your driving licence, passport, and a physical credit card in the main driver's name. If your licence doesn't display Latin-script details, an International Driving Permit is also required."
+      "a": "A valid driving licence and passport or ID. Most cars accept cash, debit card or crypto for payment — a credit card is not required on any booking on the platform. International Driving Permit may be needed for non-EU licences depending on the supplier."
     },
     "1": {
-      "q": "Can I drive to Croatia or Albania?",
-      "a": "Cross-border fees fall into three tiers. Tier 1 covers neighbouring countries excluding Albania and Kosovo, the standard add-on for the most-used Kotor route, Dubrovnik via Debeli Brijeg, plus Bosnia and Serbia. Tier 2 covers neighbouring countries including Albania and Kosovo, the right tier for a Skadar-then-Albania day trip down through Sukobin or a push to Peja via Rožaje. Tier 3 covers neighbouring and distant countries when your itinerary stretches further. Tick every country at booking, the Green Card lives in the glovebox at handover."
+      "q": "Can I drive to Croatia, Albania or Italy?",
+      "a": "Yes — cross-border travel is sold as a paid permit at three tiers: (1) Croatia, Bosnia & Herzegovina and Serbia (no Green Card needed); (2) the same plus Albania and Kosovo (Green Card provided); (3) Albania, Kosovo, Croatia, Bosnia, Serbia, Macedonia, all EU countries and Switzerland (Green Card provided). The right tier for your trip is shown at checkout."
     },
     "2": {
       "q": "Is there a minimum age?",
-      "a": "Drivers must be at least 21 with a minimum of 2 years' experience. A young driver supplement applies for those under 25, the exact amount varies by vehicle and is shown in the search results."
+      "a": "Age and required driving experience vary by vehicle. The lowest cars on the platform are available from 18+ years old with 1+ years driving experience."
     },
     "3": {
       "q": "What's included in the price?",
-      "a": "Third Party Liability and CDW insurance are included in the base price for all vehicles, along with VAT and the mandatory safety kit. Unlimited mileage is available on most cars, check the vehicle card before booking."
+      "a": "Every booking includes the free Minimum (third-party liability) cover with a typical €100 deposit, plus a free second driver and VAT. Insurance upgrades are paid extras: Basic from €8/day, Full from €10/day, and a no-deposit Full Plus from €18/day. Unlimited mileage is included on most cars (376 of around 380)."
     },
     "4": {
       "q": "How does pickup work at Tivat Airport?",
@@ -521,11 +521,11 @@
     },
     "5": {
       "q": "What is the cancellation policy?",
-      "a": "Free cancellation is available up to 7 days before the rental start date. Luxury cars and convertibles require 30 days' notice. A 6% payment processing fee is applied to all cancellations regardless of timing."
+      "a": "Free cancellation is available on selected cars (around 176 of approximately 380, marked clearly in the search results). On those cars, the full advance payment is refunded if you cancel more than 24 hours before pickup; cancellations within 24 hours of pickup are non-refundable."
     },
     "6": {
       "q": "Is a deposit required?",
-      "a": "Most vehicles require a deposit of €100, €350 held on a physical credit card in the driver's name. Some budget cars are available with no deposit, these are clearly flagged in the search results. The hold is released when the vehicle is returned undamaged."
+      "a": "Most cars hold a €100 deposit at pickup. 47 cars on the platform require no deposit at all, and a further 124 offer a no-deposit option as a paid service. Choosing the Full Plus insurance tier (from €18/day) also waives the deposit."
     },
     "7": {
       "q": "Where do I park in Kotor Old Town?",

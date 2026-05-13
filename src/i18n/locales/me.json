@@ -199,7 +199,7 @@
     "headline": "Rent a Car Kotor",
     "badges": {
       "freeCancellation": "Besplatna Otkazivanja",
-      "fullInsurance": "Puno Osiguranje Uključeno",
+      "fullInsurance": "Opcije osiguranja",
       "airportPickup": "Aerodrom Tivat 8 km",
       "trustpilot": "4.8/5 na Trustpilot",
       "localProviders": "Lokalni provajderi",
@@ -220,7 +220,7 @@
   "trust": {
     "noHiddenFees": "Bez Skrivenih Troškova",
     "noHiddenFeesDesc": "Prikazana cijena uključuje sve",
-    "fullInsurance": "Puno Osiguranje",
+    "fullInsurance": "Opcije osiguranja",
     "fullInsuranceDesc": "Opcija bez učešća dostupna",
     "fastPickup": "Preuzimanje za 10 Min",
     "fastPickupDesc": "Dočekujemo vas na izlazu"
@@ -246,7 +246,7 @@
   "fleet": {
     "label": "Naša Flota",
     "title": "Rent-a-Car Kotor",
-    "subtitle": "Pregledajte dostupnost i cijene u realnom vremenu, besplatno otkazivanje, fleksibilne opcije osiguranja, rezervišite direktno."
+    "subtitle": "Pregledajte dostupnost i cijene u realnom vremenu, besplatno otkazivanje na odabranim automobilima, besplatno Minimalno pokriće sa nadogradnjama od 8 €/dan, rezervišite direktno."
   },
   "brands": {
     "label": "Brendovi koje ćete naći u našoj kotorskoj floti"
@@ -292,7 +292,7 @@
     "iframeTitle": "Rezervacija najma vozila"
   },
   "footer": {
-    "brandDesc": "Preuzimanje na Aerodromu Tivat, dostava u sam Kotor i predaja ključeva na hotelu duž cijele Boke. Opcije osiguranja, iskustvo na zavojitim putevima Boke i fiksne cijene cijelu sezonu.",
+    "brandDesc": "Preuzimanje na Aerodromu Tivat, dostava u sam Kotor i predaja ključeva na hotelu duž cijele Boke. Besplatno Minimalno pokriće sa nadogradnjama od 8 €/dan, iskustvo na zavojitim putevima Boke i fiksne cijene cijelu sezonu.",
     "quickLinks": "Brzi Linkovi",
     "guides": "Vodiči",
     "locations": "Lokacije",
@@ -468,28 +468,28 @@
     },
     "fullInsurance": {
       "title": "Opcije osiguranja",
-      "desc": "Dostupna opcija nulte franšize. Bilo da vozite uskim ulicama Starog grada ili serpentinom Lovćena, u potpunosti ste osigurani."
+      "desc": "Besplatno Minimalno (osiguranje od odgovornosti) pokriće za svaku rezervaciju — Basic od 8 €/dan, Full od 10 €/dan, Full Plus bez depozita od 18 €/dan."
     },
     "support": {
-      "title": "Podrška 24/7",
-      "desc": "Zaglavili ste iza kruzerskog autobusa na putu uz zaliv? Niste sigurni oko parkinga Tabacina? Pozovite nas u bilo kom trenutku, poznajemo svaki metar ovih puteva."
+      "title": "Podrška za rezervacije 24/7",
+      "desc": "Pomoć pri rezervaciji u svako doba dana za vožnju obalnim putem do Kotora; pomoć na putu pruža iznajmljivač."
     },
     "noHiddenFees": {
-      "title": "Bez skrivenih troškova",
-      "desc": "Jedna transparentna cijena pokriva osiguranje, PDV i kilometražu. Ono što vidite pri rezervaciji tačno je ono što plaćate pri preuzimanju, ništa se ne dodaje na šalteru."
+      "title": "Bez kreditne kartice",
+      "desc": "Svaki automobil na platformi može se rezervisati bez kreditne kartice — plaćanje gotovinom, debitnom karticom ili kriptovalutom kod iznajmljivača."
     },
     "freeCancellation": {
       "title": "Besplatno otkazivanje",
-      "desc": "Promijenjen raspored kruzera? Put na Lovćen zatvoren zbog vremena? Otkažite do 7 dana prije preuzimanja za puni povrat, bez pitanja."
+      "desc": "Na odabranim automobilima (oko 46 % flote): povrat avansa ukoliko otkažete više od 24 sata prije preuzimanja."
     },
     "crossBorder": {
       "title": "Prelazak granice",
-      "desc": "Dubrovnik je 2 sata vožnje preko graničnog prelaza Debeli Brijeg, Zelena karta spremna pri preuzimanju. Bosna i Albanija također dozvoljene uz prethodnu najavu."
+      "desc": "Plaćena dozvola za prelazak granice u tri nivoa — susjedne zemlje, uključujući Albaniju i Kosovo, ili cijela EU + Švajcarska. Dubrovnik je 2 sata preko Debelog Brijega."
     }
   },
   "testimonials": {
     "0": {
-      "text": "Put uz zaliv između Kotora i Perasta jedno je od najljepših vožnji koje smo ikada doživjeli. Zaustavljali smo se na svakom proširenju i uzeli čamac do Gospe od Škrpjela. Imati auto značilo je da smo sve radili po svom rasporedu. Lako preuzimanje u Tivatu i cijeli proces prošao je glatko od početka do kraja."
+      "text": "Rezervisali smo kompaktni automobil za Tivat u dva klika, iznajmljivač nas je dočekao u dolascima, i za nekoliko minuta smo bili na obalnom putu ka Kotoru. Nastavili smo do Perasta i Gospe od Škrpjela, sve u sopstvenom tempu."
     },
     "1": {
       "text": "Došao sam u Kotor posebno da se popnem na tvrđavu San Giovanni i odvezem do Lovćena. Auto je bio spreman na dolasku u Tivatu prije nego sam uopće našao izlaz. Serpentinska cesta do mauzoleja ne liči ni na šta što sam vozio u Sjevernoj Americi, strma, uska, spektakularna. Rezervisao bih ponovo bez oklijevanja."
@@ -500,32 +500,32 @@
   },
   "faqItems": {
     "0": {
-      "q": "Koja dokumenta su mi potrebna?",
-      "a": "Ponesite vozačku dozvolu, pasoš i fizičku kreditnu karticu na ime glavnog vozača. Ako vaša dozvola ne sadrži podatke na latiničnom pismu, potrebna je i međunarodna vozačka dozvola."
+      "q": "Koja dokumenta su potrebna?",
+      "a": "Važeća vozačka dozvola i pasoš ili lična karta. Većina automobila prihvata gotovinu, debitnu karticu ili kriptovalutu — kreditna kartica nije potrebna ni za jednu rezervaciju na platformi. Za vozačke dozvole van EU može biti potrebna međunarodna vozačka dozvola, zavisno od iznajmljivača."
     },
     "1": {
-      "q": "Mogu li voziti do Hrvatske ili Albanije?",
-      "a": "Naknade za prelazak granice idu u tri nivoa. Nivo 1 pokriva susjedne zemlje bez Albanije i Kosova, standardni dodatak za najtraženiju rutu iz Kotora, Dubrovnik preko Debeli Brijega, plus Bosnu i Srbiju. Nivo 2 pokriva susjedne zemlje uključujući Albaniju i Kosovo, pravi nivo za jednodnevni izlet do Skadarskog jezera s nastavkom u Albaniju kroz Sukobin ili odlazak do Peje preko Rožaja. Nivo 3 pokriva susjedne i udaljenije zemlje kada se ruta proteže dalje. Označite svaku zemlju pri rezervaciji, Zelena karta čeka u pretincu pri preuzimanju vozila."
+      "q": "Mogu li voziti u Hrvatsku, Albaniju ili Italiju?",
+      "a": "Da — prelazak granice se naplaćuje kao dozvola u tri nivoa: (1) Hrvatska, Bosna i Hercegovina i Srbija (zelena karta nije potrebna); (2) iste zemlje plus Albanija i Kosovo (zelena karta uključena); (3) Albanija, Kosovo, Hrvatska, Bosna, Srbija, Makedonija, sve zemlje EU i Švajcarska (zelena karta uključena). Odgovarajući nivo se prikazuje pri plaćanju."
     },
     "2": {
-      "q": "Postoji li minimalna starosna granica?",
-      "a": "Vozači moraju imati najmanje 21 godinu i minimum 2 godine iskustva. Za vozače mlađe od 25 godina primjenjuje se doplata za mlade vozače, tačan iznos zavisi od vozila i prikazan je u rezultatima pretrage."
+      "q": "Postoji li minimalna starost?",
+      "a": "Starost i potrebno iskustvo u vožnji zavise od vozila. Najpristupačniji automobili na platformi dostupni su od 18 godina sa najmanje 1 godinom iskustva u vožnji."
     },
     "3": {
       "q": "Šta je uključeno u cijenu?",
-      "a": "Osiguranje od odgovornosti prema trećim licima i CDW zaštita uključeni su u osnovnu cijenu svih vozila, zajedno sa PDV-om i obaveznim sigurnosnim kompletom. Neograničena kilometraža dostupna je na većini automobila, provjerite karticu vozila prije rezervacije."
+      "a": "Svaka rezervacija uključuje besplatno Minimalno osiguranje (od odgovornosti) sa tipičnim depozitom od 100 €, plus besplatnog drugog vozača i PDV. Nadogradnje osiguranja su dodatne usluge koje se plaćaju: Basic od 8 €/dan, Full od 10 €/dan i Full Plus bez depozita od 18 €/dan. Neograničena kilometraža je uključena na većini automobila (376 od oko 380)."
     },
     "4": {
       "q": "Kako funkcioniše preuzimanje na aerodromu Tivat?",
       "a": "Vaš agent čeka vas u holu dolazaka aerodroma Tivat s tablom na kojoj piše vaše ime. Auto je parkiran odmah ispred. Od terminala do zidina Starog grada Kotora traje oko 15 minuta putem uz zaliv. Alternativno, možemo organizovati preuzimanje na parkingu Tabacina, na ulazu u Stari grad."
     },
     "5": {
-      "q": "Koja je politika otkazivanja?",
-      "a": "Besplatno otkazivanje moguće je do 7 dana prije početka iznajmljivanja. Luksuzni automobili i kabrioleti zahtijevaju najavu 30 dana unaprijed. Naknada za obradu od 6 % primjenjuje se na sva otkazivanja bez obzira na vrijeme."
+      "q": "Kakva je politika otkazivanja?",
+      "a": "Besplatno otkazivanje je dostupno na odabranim automobilima (oko 176 od približno 380, jasno označeni u rezultatima pretrage). Na tim automobilima se cijeli iznos avansa vraća ako otkažete više od 24 sata prije preuzimanja; otkazivanja u roku od 24 sata prije preuzimanja nisu povratljiva."
     },
     "6": {
       "q": "Da li je potreban depozit?",
-      "a": "Većina vozila zahtijeva depozit od 100-350 € na fizičkoj kreditnoj kartici glavnog vozača. Neki ekonomični automobili dostupni su bez depozita i jasno su označeni u rezultatima pretrage. Iznos se oslobađa kada se vozilo vrati neoštećeno."
+      "a": "Većina automobila zadržava depozit od 100 € pri preuzimanju. 47 automobila na platformi uopšte ne traže depozit, a još 124 nude opciju bez depozita kao plaćenu uslugu. Izborom Full Plus osiguranja (od 18 €/dan) takođe se uklanja depozit."
     },
     "7": {
       "q": "Gdje se parkira u Starom gradu Kotoru?",

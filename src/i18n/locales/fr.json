@@ -199,7 +199,7 @@
     "headline": "Location de Voiture à Kotor",
     "badges": {
       "freeCancellation": "Annulation Gratuite",
-      "fullInsurance": "Assurance Tous Risques Incluse",
+      "fullInsurance": "Options d'assurance",
       "airportPickup": "Aéroport de Tivat 8 km",
       "trustpilot": "4.8/5 sur Trustpilot",
       "localProviders": "Prestataires Locaux",
@@ -220,7 +220,7 @@
   "trust": {
     "noHiddenFees": "Aucun Frais Caché",
     "noHiddenFeesDesc": "Le prix affiché est tout compris",
-    "fullInsurance": "Assurance Tous Risques",
+    "fullInsurance": "Options d'assurance",
     "fullInsuranceDesc": "Option zéro franchise disponible",
     "fastPickup": "Prise en Charge en 10 Min",
     "fastPickupDesc": "Nous vous accueillons aux arrivées"
@@ -246,7 +246,7 @@
   "fleet": {
     "label": "Notre Flotte",
     "title": "Location de Voiture à Kotor",
-    "subtitle": "Consultez la disponibilité et les prix en temps réel, annulation gratuite, options d'assurance flexibles, réservez directement."
+    "subtitle": "Consultez la disponibilité et les prix en temps réel, annulation gratuite sur certaines voitures, couverture Minimum gratuite avec upgrades dès 8 €/jour, réservez directement."
   },
   "brands": {
     "label": "Marques présentes dans notre flotte de Kotor"
@@ -292,7 +292,7 @@
     "iframeTitle": "Réservation de location de voiture"
   },
   "footer": {
-    "brandDesc": "Prise en charge à l'aéroport de Tivat, livraison en ville à Kotor et remise des clés à l'hôtel partout dans la baie. Options d'assurance, connaissance des routes côtières et tarifs fixes toute la saison.",
+    "brandDesc": "Prise en charge à l'aéroport de Tivat, livraison en ville à Kotor et remise des clés à l'hôtel partout dans la baie. Couverture Minimum gratuite avec upgrades dès 8 €/jour, connaissance des routes côtières et tarifs fixes toute la saison.",
     "quickLinks": "Liens Rapides",
     "guides": "Guides",
     "locations": "Nos Agences",
@@ -468,28 +468,28 @@
     },
     "fullInsurance": {
       "title": "Options d'assurance",
-      "desc": "Option zéro franchise disponible. Que vous naviguiez dans les ruelles de la vieille ville ou sur les lacets du Lovcen, vous êtes entièrement couvert."
+      "desc": "Couverture Minimum (responsabilité civile) gratuite à chaque réservation — Basic dès 8 €/jour, Full dès 10 €/jour, Full Plus sans caution dès 18 €/jour."
     },
     "support": {
-      "title": "Assistance 24h/24",
-      "desc": "Bloqué derrière un bus de croisière sur la route de la baie ? Incertain pour le parking Tabacina ? Appelez-nous à tout moment, nous connaissons chaque mètre de ces routes."
+      "title": "Assistance réservation 24/7",
+      "desc": "Assistance à la réservation à toute heure pour votre trajet sur la route de la baie vers Kotor ; l'assistance routière est assurée par le loueur."
     },
     "noHiddenFees": {
-      "title": "Aucun frais caché",
-      "desc": "Un prix transparent couvrant assurance, TVA et kilométrage. Ce que vous voyez à la réservation est exactement ce que vous payez à la prise en charge, rien de plus au comptoir."
+      "title": "Sans carte de crédit",
+      "desc": "Chaque voiture de la plateforme est réservable sans carte de crédit — paiement en espèces, par carte de débit ou crypto chez le loueur."
     },
     "freeCancellation": {
       "title": "Annulation gratuite",
-      "desc": "Programme de croisière modifié ? Route du Lovcen fermée par mauvais temps ? Annulez jusqu'à 7 jours avant pour un remboursement intégral, sans justification."
+      "desc": "Sur certaines voitures (environ 46 % de la flotte) : remboursement de l’acompte si vous annulez plus de 24 heures avant la prise en charge."
     },
     "crossBorder": {
-      "title": "Transfrontalier",
-      "desc": "Dubrovnik est à 2 heures via le passage de Debeli Brijeg, carte verte prête à la prise en charge. Bosnie et Albanie également autorisées avec préavis."
+      "title": "Passage frontalier",
+      "desc": "Permis frontalier payant en trois niveaux — voisins, incluant Albanie et Kosovo, ou toute l’UE + Suisse. Dubrovnik à 2 h via Debeli Brijeg."
     }
   },
   "testimonials": {
     "0": {
-      "text": "La route de la baie entre Kotor et Perast est l'un des plus beaux trajets que nous ayons jamais faits. Nous nous sommes arrêtés à chaque belvédère et avons pris le bateau jusqu'à Notre-Dame du Rocher. Avoir la voiture nous a permis de tout faire à notre propre rythme. Prise en charge facile à Tivat et tout s'est déroulé sans accroc du début à la fin."
+      "text": "Réservation d’une compacte à Tivat en deux clics, accueil par le loueur à l’arrivée, puis route de la baie jusqu’à Kotor en quelques minutes. Nous avons poursuivi jusqu’à Perast et à l’île Notre-Dame du Rocher, à notre rythme."
     },
     "1": {
       "text": "Je suis venu à Kotor spécialement pour gravir la forteresse San Giovanni et monter jusqu'au Lovcen. La voiture était prête aux arrivées de Tivat avant même que j'aie trouvé la sortie. La route en lacets jusqu'au mausolée est comme rien de ce que j'ai conduit en Amérique du Nord, escarpée, étroite, spectaculaire. Je réserverai à nouveau sans hésiter."
@@ -500,20 +500,20 @@
   },
   "faqItems": {
     "0": {
-      "q": "Quels documents dois-je fournir ?",
-      "a": "Apportez votre permis de conduire, votre passeport et une carte de crédit physique au nom du conducteur principal. Si votre permis ne comporte pas de données en caractères latins, un permis de conduire international est également requis."
+      "q": "Quels documents dois-je présenter ?",
+      "a": "Un permis de conduire valide et un passeport ou une pièce d’identité. La plupart des voitures acceptent les espèces, la carte de débit ou la crypto — aucune carte de crédit n’est exigée pour les réservations sur la plateforme. Un permis international peut être requis pour les permis hors UE selon le loueur."
     },
     "1": {
-      "q": "Puis-je conduire en Croatie ou en Albanie ?",
-      "a": "Les frais transfrontaliers se répartissent en trois niveaux. Le niveau 1 couvre les pays voisins hors Albanie et Kosovo, le supplément standard pour la route la plus empruntée depuis Kotor, Dubrovnik via Debeli Brijeg, ainsi que la Bosnie et la Serbie. Le niveau 2 couvre les pays voisins y compris l'Albanie et le Kosovo, le bon niveau pour une journée au lac Skadar prolongée vers l'Albanie par Sukobin ou pour pousser jusqu'à Peja par Rožaje. Le niveau 3 couvre les pays voisins et plus lointains lorsque l'itinéraire s'étire davantage. Cochez chaque pays à la réservation, la Carte Verte se trouve dans la boîte à gants à la remise des clés."
+      "q": "Puis-je conduire en Croatie, en Albanie ou en Italie ?",
+      "a": "Oui — le passage frontalier est vendu sous forme de permis payant en trois niveaux : (1) Croatie, Bosnie-Herzégovine et Serbie (Carte Verte non nécessaire) ; (2) mêmes pays plus Albanie et Kosovo (Carte Verte fournie) ; (3) Albanie, Kosovo, Croatie, Bosnie, Serbie, Macédoine, tous les pays de l’UE et la Suisse (Carte Verte fournie). Le bon niveau est affiché au paiement."
     },
     "2": {
       "q": "Y a-t-il un âge minimum ?",
-      "a": "Les conducteurs doivent avoir au moins 21 ans et justifier de 2 ans d'expérience minimum. Un supplément jeune conducteur s'applique pour les moins de 25 ans, le montant exact varie selon le véhicule et est indiqué dans les résultats de recherche."
+      "a": "L’âge et l’expérience de conduite requis varient selon le véhicule. Les voitures les plus accessibles sur la plateforme sont disponibles dès 18 ans avec 1 an d’expérience de conduite."
     },
     "3": {
-      "q": "Qu'est-ce qui est inclus dans le prix ?",
-      "a": "La responsabilité civile et l'assurance CDW sont incluses dans le prix de base pour tous les véhicules, ainsi que la TVA et le kit de sécurité obligatoire. Le kilométrage illimité est disponible sur la plupart des voitures, vérifiez la fiche du véhicule avant de réserver."
+      "q": "Que comprend le prix ?",
+      "a": "Chaque réservation inclut la couverture Minimum (responsabilité civile) gratuite avec une caution typique de 100 €, plus un deuxième conducteur gratuit et la TVA. Les upgrades d’assurance sont des extras payants : Basic dès 8 €/jour, Full dès 10 €/jour et Full Plus sans caution dès 18 €/jour. Le kilométrage illimité est inclus sur la plupart des voitures (376 sur environ 380)."
     },
     "4": {
       "q": "Comment se passe la prise en charge à l'aéroport de Tivat ?",
@@ -521,11 +521,11 @@
     },
     "5": {
       "q": "Quelle est la politique d'annulation ?",
-      "a": "Annulation gratuite jusqu'à 7 jours avant la date de début de location. Les voitures de luxe et cabriolets nécessitent un préavis de 30 jours. Des frais de traitement de 6 % s'appliquent à toutes les annulations, quelle que soit la période."
+      "a": "L’annulation gratuite est disponible sur certaines voitures (environ 176 sur ~380, clairement signalées dans les résultats). Sur ces voitures, l’acompte est intégralement remboursé en cas d’annulation plus de 24 heures avant la prise en charge ; les annulations dans les 24 heures précédant la prise en charge ne sont pas remboursables."
     },
     "6": {
-      "q": "Une caution est-elle requise ?",
-      "a": "La plupart des véhicules nécessitent une caution de 100 € à 350 € sur une carte de crédit physique au nom du conducteur. Certaines voitures économiques sont disponibles sans caution, ces options sont clairement indiquées dans les résultats. La caution est libérée lorsque le véhicule est rendu sans dommage."
+      "q": "Une caution est-elle exigée ?",
+      "a": "La plupart des voitures retiennent une caution de 100 € à la prise en charge. 47 voitures de la plateforme ne demandent aucune caution, et 124 autres proposent l’option sans caution comme service payant. Choisir l’assurance Full Plus (dès 18 €/jour) supprime également la caution."
     },
     "7": {
       "q": "Où se garer dans la vieille ville de Kotor ?",
