@@ -3324,6 +3324,8 @@ a.car-detail-cta__btn:hover { background: rgb(5, 32, 60); color: #fff !important
      below. */
   .hero { padding-bottom: 64px !important; }
   /* Reserve room for the fixed sticky CTA so the last section
-     above it isn't half-covered. */
-  body { padding-bottom: 76px; }
+     above it isn't half-covered. Scoped via :has() so /book and other
+     pages that don't render the StickyMobileCTA component don't get
+     a 76px dead-space band below the viewport-locked iframe. */
+  body:has(.sticky-cta) { padding-bottom: 76px; }
 }

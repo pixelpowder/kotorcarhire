@@ -5,7 +5,6 @@ import '@/src/BookPage.css';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { headers } from 'next/headers';
-import CookieBanner from '@/src/CookieBanner';
 import DynamicLanguageProvider from '@/src/i18n/DynamicLanguageProvider';
 import { SUPPORTED_LANGS, DEFAULT_LANG, LANG_HREFLANG } from '@/src/i18n/languages';
 import LocaleAwareSchema from '@/src/components/LocaleAwareSchema';
@@ -82,7 +81,6 @@ export default async function RootLayout({ children }) {
       <body>
         <DynamicLanguageProvider initialLang={lang}>
           {children}
-          <CookieBanner />
           <Analytics />
           <SpeedInsights />
         </DynamicLanguageProvider>
