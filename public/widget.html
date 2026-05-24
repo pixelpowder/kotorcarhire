@@ -495,12 +495,28 @@
         // cursor anywhere on the painted area).
         wrap[key] = true;
       };
-      document.querySelectorAll('.mrc-tooltip, [class*="mrc-tooltip"]').forEach(w => apply(w, '_mrcHover'));
-      document.querySelectorAll('.booking__info_btn, [class*="booking__info_btn"]').forEach(w => apply(w, '_mrcHoverInner'));
+      // Skip action buttons (copy/share/etc.) — they need native click
+      // handling on their svg paths and the bounding-box hack breaks them
+      // in Firefox (invalid value → falls back to none from CSS → dead button).
+      const isActionBtn = (el) => {
+        const cls = (typeof el.className === 'string' ? el.className : el.className?.baseVal) || '';
+        return /copy|share|action|btn-close/i.test(cls);
+      };
+      document.querySelectorAll('.mrc-tooltip, [class*="mrc-tooltip"]').forEach(w => {
+        if (isActionBtn(w)) return;
+        apply(w, '_mrcHover');
+      });
+      document.querySelectorAll('.booking__info_btn, [class*="booking__info_btn"]').forEach(w => {
+        if (isActionBtn(w)) return;
+        apply(w, '_mrcHoverInner');
+      });
       // Reset pointer-events on any svg we previously turned off — let
       // visiblePainted do its job.
       document.querySelectorAll('.mrc-tooltip svg, .booking__info_btn svg, [class*="mrc-tooltip"] svg, [class*="booking__info_btn"] svg').forEach(svg => {
         if (svg._mrcSvgBox) return;
+        // Skip action buttons — see comment above.
+        const wrap = svg.closest('.mrc-tooltip, .booking__info_btn, [class*="mrc-tooltip"], [class*="booking__info_btn"]');
+        if (wrap && isActionBtn(wrap)) return;
         // pointer-events: bounding-box makes the entire SVG box (24x24)
         // catch events regardless of which sub-shapes are painted.
         // Without this the SVG has fill='none' on the root, and only the
@@ -931,14 +947,23 @@
         pointer-events: auto !important;
         display: inline-block !important;
       }
-      .mrc-tooltip svg,
-      .booking__info_btn svg,
-      [class*="mrc-tooltip"] svg,
-      [class*="booking__info_btn"] svg,
-      .mrc-tooltip svg *,
-      .booking__info_btn svg *,
-      [class*="mrc-tooltip"] svg *,
-      [class*="booking__info_btn"] svg * {
+      /* Only kill SVG hit-testing on the "?" tooltip triggers — NOT on
+         action buttons that share the .mrc-tooltip class (e.g.
+         .booking__copy-link, share, etc.). Killing pointer-events on
+         their svgs broke clicks in Firefox: the inline pointer-events:
+         bounding-box override (set by JS for Chrome) is invalid in
+         Firefox and falls back to this CSS, leaving the action icon
+         completely unclickable. Excluding action-suggestive classes
+         keeps the hover-hitbox fix for "?" icons while letting real
+         buttons receive clicks normally. */
+      .mrc-tooltip:not([class*="copy"]):not([class*="share"]):not([class*="action"]):not([class*="btn-close"]) svg,
+      .booking__info_btn:not([class*="copy"]):not([class*="share"]):not([class*="action"]):not([class*="btn-close"]) svg,
+      [class*="mrc-tooltip"]:not([class*="copy"]):not([class*="share"]):not([class*="action"]):not([class*="btn-close"]) svg,
+      [class*="booking__info_btn"]:not([class*="copy"]):not([class*="share"]):not([class*="action"]):not([class*="btn-close"]) svg,
+      .mrc-tooltip:not([class*="copy"]):not([class*="share"]):not([class*="action"]):not([class*="btn-close"]) svg *,
+      .booking__info_btn:not([class*="copy"]):not([class*="share"]):not([class*="action"]):not([class*="btn-close"]) svg *,
+      [class*="mrc-tooltip"]:not([class*="copy"]):not([class*="share"]):not([class*="action"]):not([class*="btn-close"]) svg *,
+      [class*="booking__info_btn"]:not([class*="copy"]):not([class*="share"]):not([class*="action"]):not([class*="btn-close"]) svg * {
         pointer-events: none !important;
       }
       /* Filter-panel brand circles — devtools-confirmed class
