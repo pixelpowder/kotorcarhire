@@ -583,6 +583,27 @@
 <body>
   <div id="localrent-widget"></div>
   <script>
+    // Strip non-LocalRent-format hashes BEFORE the bundle loads.
+    // With data-routing: on, LocalRent's router parses window.location.hash
+    // on boot and expects routes like `#/en/montenegro/cars/...`. Our
+    // BookPage.jsx wrapper appends a flat-key hash like
+    // `#pickup_date=...&dropoff_date=...&pickup_city_id=15`, which the
+    // router can't make sense of — it tries to render a phantom entity,
+    // the car-fetch 404s, and the modal breaks (most visibly in Firefox
+    // with "car.country is undefined" / "car.images is undefined").
+    // Stripping any hash that doesn't start with `#/` keeps `/book?...`
+    // wrapper URLs clean while preserving chain-icon share URLs (which
+    // always have the valid `#/` route prefix).
+    (function() {
+      try {
+        const h = window.location.hash;
+        if (h && h.length > 1 && !h.startsWith('#/')) {
+          history.replaceState(null, '', window.location.pathname + window.location.search);
+        }
+      } catch(e) { /* best effort, never block boot */ }
+    })();
+  </script>
+  <script>
     (function() {
       const _params = new URLSearchParams(window.location.search);
       const cityId = _params.get('city_id') || '9';
@@ -595,10 +616,13 @@
       script.setAttribute('data-marker',   'kotorcarrental');
       script.setAttribute('data-country',  '133');
       script.setAttribute('data-city',     cityId);
-      // Routing 'off' for normal /book; 'on' when a car_id deep-link
-       // is being requested so LocalRent's router reads the URL hash
-       // we inject below and navigates straight to that car.
-      script.setAttribute('data-routing',  _params.get('car_id') ? 'on' : 'off');
+      // data-routing: on always — LocalRent's router needs to parse hash
+      // routes (e.g. #/en/montenegro/cars/peugeot-208/?pickup_date=...T22:45)
+      // for chain icon share URLs to restore booking state for the recipient.
+      // The hash-strip block at the top of <body> protects against BookPage.jsx
+      // wrapper URLs that send non-route hashes (#pickup_date=... etc.) which
+      // would otherwise confuse the router and 404 the car-fetch.
+      script.setAttribute('data-routing',  'on');
       script.setAttribute('data-zindex',   '100');
       script.setAttribute('data-lang',     widgetLang);
       // Deep-link: when ?car_id=<ID> is on the URL (forwarded from
