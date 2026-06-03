@@ -1030,7 +1030,31 @@
     `;
     const p = new URLSearchParams(window.location.search);
     const placeName = p.get('place');
-    if (placeName) {
+    // `place_name` is the resolved pickup-point name (e.g. "Podgorica Airport
+    // (TGD)") added by BookPage's forward pipe when the URL carries a
+    // pickup_place_ids[] but no curated `location`. Falls back to placeName so
+    // older URLs still work.
+    const pointName = p.get('place_name') || placeName;
+    // One-way URLs (different pickup vs dropoff airport / city) get a separate
+    // dropoff_place_name so the dropoff placesMap gets the right point label.
+    // Falls back to pointName for same-place URLs.
+    const dropoffPointName = p.get('dropoff_place_name') || pointName;
+    // True when the URL carries a different dropoff city; the existing
+    // dropoff_city_name handler below will commit setDropoffCityName, so we
+    // must NOT mirror placeName onto the dropoff side here (would clobber it).
+    const dropoffCityNameParam = p.get('dropoff_city_name');
+    // Share URLs emitted by the widget's reverse pipe carry the specific
+    // pickup point via `pickup_place_ids[]=<id>` (wire form). Without
+    // committing setPickupPlacesIds, the city is correct but the
+    // "Specify location" dropdown sticks on "Any location in the city".
+    // Resolve once at boot from the URL since the widget never re-reads it.
+    const pickupPlaceIds = p.getAll('pickup_place_ids[]')
+      .map(function (s) { return Number(s); })
+      .filter(function (n) { return Number.isFinite(n); });
+    const dropoffPlaceIds = p.getAll('dropoff_place_ids[]')
+      .map(function (s) { return Number(s); })
+      .filter(function (n) { return Number.isFinite(n); });
+    if (placeName || pickupPlaceIds.length || dropoffPlaceIds.length) {
       var locPoll = setInterval(function() {
         var vue = null;
         for (var el of document.querySelectorAll('*')) {
@@ -1038,8 +1062,37 @@
         }
         if (!vue || !vue.$store.state.carsCountFinished) return;
         clearInterval(locPoll);
-        try { vue.$store.commit('setPickupCityName', placeName); } catch(e) {}
-        try { vue.$store.commit('setDropoffCityName', placeName); } catch(e) {}
+        if (placeName) {
+          try { vue.$store.commit('setPickupCityName', placeName); } catch(e) {}
+          // Only mirror onto the dropoff side when the URL is same-place. If
+          // dropoff_city_name is set (one-way URL), the dedicated dropoff
+          // handler later in this file commits setDropoffCityName itself.
+          if (!dropoffCityNameParam) {
+            try { vue.$store.commit('setDropoffCityName', placeName); } catch(e) {}
+          }
+        }
+        // Build a minimal placesMap entry for each selected id so the closed
+        // dropdown trigger renders the point name instead of "Any location in
+        // the city". Map shape: the widget's getFirstPickupPlace getter calls
+        // .get(id) on the places map, so it must be a native ES Map, not a
+        // plain object. A plain object slips past setPickupPlacesMap silently
+        // but throws later when the Location component reads its computed prop.
+        if (pickupPlaceIds.length) {
+          try { vue.$store.commit('setPickupPlacesIds', pickupPlaceIds); } catch(e) {}
+          if (pointName && pickupPlaceIds.length === 1) {
+            const m = new Map();
+            m.set(pickupPlaceIds[0], { id: pickupPlaceIds[0], name: pointName });
+            try { vue.$store.commit('setPickupPlacesMap', m); } catch(e) {}
+          }
+        }
+        if (dropoffPlaceIds.length) {
+          try { vue.$store.commit('setDropoffPlacesIds', dropoffPlaceIds); } catch(e) {}
+          if (dropoffPointName && dropoffPlaceIds.length === 1) {
+            const m = new Map();
+            m.set(dropoffPlaceIds[0], { id: dropoffPlaceIds[0], name: dropoffPointName });
+            try { vue.$store.commit('setDropoffPlacesMap', m); } catch(e) {}
+          }
+        }
       }, 200);
     }
     let injected = false;

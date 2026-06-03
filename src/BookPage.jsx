@@ -5,12 +5,40 @@ import Nav from './Nav';
 import useTranslation from './i18n/useTranslation';
 import { WIDGET_LOCALE } from './i18n/languages';
 import { FLEET_SLUG_TO_CAR_IDS } from './data/fleetCars';
+import pickupPoints from './data/pickupPoints.json';
 import './BookPage.css';
 
 // Fixed-height iframe approach — no postMessage, no auto-resize, no Suspense.
 // The iframe is sized via pure CSS to fill the page area; all widget content
 // (search, fleet, filter modal, car detail) scrolls internally inside the
 // iframe. Same UX as visiting LocalRent's own site directly.
+
+// Resolve a numeric pickup_place_id back to its human-readable point name and
+// its parent city name by consulting the cached pickupPoints.json catalogue.
+// Used by the forward pipe below to handle share URLs that the widget's reverse
+// pipe emitted as `pickup_place_ids[]=<id>` (wire form). Without this, a fresh
+// visitor lands on /book with the city correct but the "Specify location"
+// dropdown stuck on "Any location in the city". We need BOTH names because the
+// widget keeps city label and point label in separate Vuex state.
+function lookupPlace(placeId, hintCityId) {
+  if (placeId == null) return null;
+  const numId = Number(placeId);
+  if (!Number.isFinite(numId)) return null;
+  const tryCity = (cid) => {
+    const city = cid != null ? pickupPoints[cid] : null;
+    if (!city || !Array.isArray(city.points)) return null;
+    const hit = city.points.find(p => Number(p.id) === numId);
+    return hit ? { pointName: hit.name.trim(), cityName: city.name } : null;
+  };
+  const fromHint = tryCity(hintCityId);
+  if (fromHint) return fromHint;
+  for (const cid of Object.keys(pickupPoints)) {
+    const hit = tryCity(cid);
+    if (hit) return hit;
+  }
+  return null;
+}
+
 export default function BookPage() {
   const { t, lang } = useTranslation();
   const searchParams = useSearchParams();
@@ -26,7 +54,39 @@ export default function BookPage() {
   if (get('pickup_time'))     widgetParams.set('time_from', get('pickup_time'));
   if (get('dropoff_time'))    widgetParams.set('time_to',   get('dropoff_time'));
   if (location)               widgetParams.set('place',     location);
-  if (get('city_id'))         widgetParams.set('city_id',   get('city_id'));
+  // Pickup city accepts either URL-form (`city_id`) or wire-form
+  // (`pickup_city_id`) so share URLs work whichever name the address bar
+  // carried.
+  const cityIdVal = get('city_id') || get('pickup_city_id');
+  // Share URLs emitted by the widget's reverse pipe carry the specific pickup
+  // and dropoff points as `pickup_place_ids[]=<id>` / `dropoff_place_ids[]=<id>`
+  // (LocalRent wire form). Resolve each id into BOTH the city name and the
+  // point name so the widget can populate "Specify location" instead of leaving
+  // it stuck on "Any location in the city". Skip if the URL already carries an
+  // explicit `location` (curated CTA link, not a widget round-trip).
+  if (!location) {
+    const pickupPlaceId = searchParams?.getAll('pickup_place_ids[]')[0]
+      ?? searchParams?.get('pickup_place_ids[]');
+    const pickupResolved = lookupPlace(pickupPlaceId, cityIdVal);
+    if (pickupResolved) {
+      widgetParams.set('place', pickupResolved.cityName);
+      widgetParams.set('place_name', pickupResolved.pointName);
+    }
+    const dropoffPlaceId = searchParams?.getAll('dropoff_place_ids[]')[0]
+      ?? searchParams?.get('dropoff_place_ids[]');
+    const dropoffCityIdHint = get('dropoff_city_id') || cityIdVal;
+    const dropoffResolved = lookupPlace(dropoffPlaceId, dropoffCityIdHint);
+    const isSamePlace = pickupResolved && dropoffResolved
+      && pickupResolved.cityName === dropoffResolved.cityName
+      && Number(pickupPlaceId) === Number(dropoffPlaceId);
+    if (dropoffResolved && !isSamePlace) {
+      widgetParams.set('dropoff_place_name', dropoffResolved.pointName);
+      if (!get('dropoff_city_name')) {
+        widgetParams.set('dropoff_city_name', dropoffResolved.cityName);
+      }
+    }
+  }
+  if (cityIdVal)              widgetParams.set('city_id',   cityIdVal);
   if (get('car_id'))          widgetParams.set('car_id',    get('car_id'));
   // Resolve /book?model=<slug> against the shared fleet map so the
   // user-facing URL stays clean (?model=renault-megane) while the
@@ -36,13 +96,15 @@ export default function BookPage() {
   const carIdsFromSlug = modelSlug ? FLEET_SLUG_TO_CAR_IDS[modelSlug] : null;
   const carIdsParam = carIdsFromSlug || get('car_ids');
   if (carIdsParam)            widgetParams.set('car_ids',   carIdsParam);
+  for (const v of (searchParams?.getAll('pickup_place_ids[]') || [])) widgetParams.append('pickup_place_ids[]', v);
+  for (const v of (searchParams?.getAll('dropoff_place_ids[]') || [])) widgetParams.append('dropoff_place_ids[]', v);
   widgetParams.set('lang', WIDGET_LOCALE[lang] || 'en');
-  widgetParams.set('v', '14');
+  widgetParams.set('v', '15');
 
   const hashParams = new URLSearchParams();
   if (pickupDate) hashParams.set('pickup_date', pickupDate);
   if (dropoffDate) hashParams.set('dropoff_date', dropoffDate);
-  if (get('city_id')) hashParams.set('pickup_city_id', get('city_id'));
+  if (cityIdVal) hashParams.set('pickup_city_id', cityIdVal);
   const hash = hashParams.toString() ? `#${hashParams.toString()}` : '';
   const widgetSrc = `/widget.html?${widgetParams.toString()}${hash}`;
 

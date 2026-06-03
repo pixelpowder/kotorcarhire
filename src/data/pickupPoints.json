@@ -1,0 +1,969 @@
+{
+  "2": {
+    "name": "Bar",
+    "country": 133,
+    "points": [
+      {
+        "id": 41,
+        "name": "Hotel Princess",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 42,
+        "name": "Port",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 43,
+        "name": "Robna Kuca mall",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 44,
+        "name": "Railway Station",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 41459,
+        "name": "City delivery",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "5": {
+    "name": "Budva",
+    "country": 133,
+    "points": [
+      {
+        "id": 4,
+        "name": "Hotel Tre Canne",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 5,
+        "name": "Hotel Avala",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 6,
+        "name": "Vila LUX hotel",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 7,
+        "name": "Hipermarket HDL",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 8,
+        "name": "Bus Terminal",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 9,
+        "name": "Hotel Aleksandar",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 96,
+        "name": "Petrol EKO",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 97,
+        "name": "Plaza Jaz",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 19620,
+        "name": "Vila Park hotel",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 19730,
+        "name": "Caffe El Rey",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 41459,
+        "name": "City delivery",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "7": {
+    "name": "Zabljak",
+    "country": 133,
+    "points": [
+      {
+        "id": 82,
+        "name": "Bus Terminal",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 83,
+        "name": "Hotel Ski",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 84,
+        "name": "Hotel Enigma",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 85,
+        "name": "Hotel Zabljak",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 86,
+        "name": "Ski-center",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "8": {
+    "name": "Kolasin",
+    "country": 133,
+    "points": [
+      {
+        "id": 78,
+        "name": "Hotel Lipka",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 79,
+        "name": "Hotel Bianka",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 80,
+        "name": "Restaurant Savardak",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 81,
+        "name": "Ski-center",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 41459,
+        "name": "City delivery",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "9": {
+    "name": "Kotor",
+    "country": 133,
+    "points": [
+      {
+        "id": 52,
+        "name": "Kameija mall",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 53,
+        "name": "Bus Terminal",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 55,
+        "name": "Hotel Forza Mare",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 90,
+        "name": "Port",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 41459,
+        "name": "City delivery",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "15": {
+    "name": "Podgorica",
+    "country": 133,
+    "points": [
+      {
+        "id": 73,
+        "name": "Podgorica Airport (TGD)",
+        "isAirport": true,
+        "iata": "TGD"
+      },
+      {
+        "id": 74,
+        "name": "Hotel Hilton Crna Gora",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 75,
+        "name": "Mall of Montenegro",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 76,
+        "name": " Big fashion mall",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 77,
+        "name": "Railway Station",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 19633,
+        "name": "Hotel Podgorica",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 41459,
+        "name": "City delivery",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "17": {
+    "name": "Tivat",
+    "country": 133,
+    "points": [
+      {
+        "id": 70,
+        "name": "Tivat Airport (TIV)",
+        "isAirport": true,
+        "iata": "TIV"
+      },
+      {
+        "id": 71,
+        "name": "Hotel Palma",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 92,
+        "name": "Restourant Salon Prive",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 94,
+        "name": "Bus Terminal",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 95,
+        "name": "Petrol EKO",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 7138,
+        "name": "Info-punkt Donja Lastva",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 7282,
+        "name": "Hotel Regent",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 40119,
+        "name": "Hotel Carrubba",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 50258,
+        "name": "Port of Lepetane",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 41459,
+        "name": "City delivery",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "18": {
+    "name": "Ulcinj",
+    "country": 133,
+    "points": [
+      {
+        "id": 47,
+        "name": "Hotel Albatros",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 48,
+        "name": "Hotel Otrant",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 49,
+        "name": "Doni Stoj",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 50,
+        "name": "Hotel Ada Bojana",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 19639,
+        "name": "Post Office",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 19640,
+        "name": "Hotel Velika Plaza",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 41459,
+        "name": "City delivery",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "19": {
+    "name": "Herceg Novi",
+    "country": 133,
+    "points": [
+      {
+        "id": 62,
+        "name": "Hotel Hungest Sun Resort",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 63,
+        "name": "Hotel Plaza",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 64,
+        "name": "Hotel Iberostar Herceg-Novi",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 65,
+        "name": "Restaurant Gradska kafana",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 66,
+        "name": "Savina monastery",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 6980,
+        "name": "Croatia Border Post",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 8260,
+        "name": "BUS station",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 50246,
+        "name": "Portonovi",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 41459,
+        "name": "City delivery",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "22": {
+    "name": "Rafailovici",
+    "country": 133,
+    "points": [
+      {
+        "id": 12,
+        "name": "Info-kiosk",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 13,
+        "name": "Hotel Falkensteiner (ex. The Queen Of Montenegro)",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 14,
+        "name": "Hotel Bella Vista",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 23164,
+        "name": "Gradski parking",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 41459,
+        "name": "City delivery",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "23": {
+    "name": "Becici",
+    "country": 133,
+    "points": [
+      {
+        "id": 15,
+        "name": "Hotel Iberostar (building C)",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 16,
+        "name": "Hotel Tara",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 17,
+        "name": "Hotel Mediteran",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 18,
+        "name": "Hotel Montenegro",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 19,
+        "name": "Hotel Splendid SPA",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 7000,
+        "name": "Hotel Bella Vista",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 7001,
+        "name": "Hotel Falkensteiner (ex. The Queen Of Montenegro)",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 41459,
+        "name": "City delivery",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "24": {
+    "name": "Przno",
+    "country": 133,
+    "points": [
+      {
+        "id": 20,
+        "name": "Hotel Maestral",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 21,
+        "name": "Hotel Rezidence",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 7940,
+        "name": "Restourant Kusta",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 41459,
+        "name": "City delivery",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "25": {
+    "name": "Sveti Stefan",
+    "country": 133,
+    "points": [
+      {
+        "id": 22,
+        "name": "Hotel Aman Sveti Stefan",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 23,
+        "name": "Villa Milocer",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 24,
+        "name": "Hotel Azimut-Romanov",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 25,
+        "name": "Restaurant Adrovic",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 26,
+        "name": "Villa Montenegro",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "26": {
+    "name": "Rezevici",
+    "country": 133,
+    "points": [
+      {
+        "id": 27,
+        "name": "Rezevici monastery",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "29": {
+    "name": "Sutomore",
+    "country": 133,
+    "points": [
+      {
+        "id": 37,
+        "name": "Bus Terminal",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 38,
+        "name": "Hotel Sato",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 39,
+        "name": "Hotel Korali",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 40,
+        "name": "Restaurant Pulena",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 41459,
+        "name": "City delivery",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "30": {
+    "name": "Dobre Vode",
+    "country": 133,
+    "points": [
+      {
+        "id": 45,
+        "name": "Villa XXL",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 46,
+        "name": "Hotel Kalamper",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 19622,
+        "name": "BUS Stop",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 41459,
+        "name": "City delivery",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "32": {
+    "name": "Orahovac",
+    "country": 133,
+    "points": [
+      {
+        "id": 56,
+        "name": "Villa Amfora",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 57,
+        "name": "BUS STOP",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "33": {
+    "name": "Perast",
+    "country": 133,
+    "points": [
+      {
+        "id": 58,
+        "name": "Istocni parking",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 59,
+        "name": "Zapadni parking",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "34": {
+    "name": "Risan",
+    "country": 133,
+    "points": [
+      {
+        "id": 60,
+        "name": "Central square",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 61,
+        "name": "EKO Petrol",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "35": {
+    "name": "Igalo",
+    "country": 133,
+    "points": [
+      {
+        "id": 67,
+        "name": "Mediterranean Health Center Igalo",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "36": {
+    "name": "Prcanj",
+    "country": 133,
+    "points": [
+      {
+        "id": 68,
+        "name": "Hotel Splendido",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 69,
+        "name": "Church of the Theotokos",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "39": {
+    "name": "Petrovac",
+    "country": 133,
+    "points": [
+      {
+        "id": 28,
+        "name": "Hotel Rivijera",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 29,
+        "name": "Ville Oliva",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 30,
+        "name": "Hotel Palas",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 31,
+        "name": "Hotel Monte Casa",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 32,
+        "name": "Bus Terminal",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 18688,
+        "name": "Hotel Petrovac",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 41459,
+        "name": "City delivery",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "40": {
+    "name": "Rose",
+    "country": 133,
+    "points": [
+      {
+        "id": 93,
+        "name": "Parking",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "107271": {
+    "name": "Dubrovnik Airport",
+    "country": 202,
+    "points": [
+      {
+        "id": 50100,
+        "name": "Dubrovnik airport (DBV)",
+        "isAirport": true,
+        "iata": "DBV"
+      },
+      {
+        "id": 41459,
+        "name": "City delivery",
+        "isAirport": false,
+        "iata": null
+      }
+    ],
+    "floor": 27,
+    "models": [
+      {
+        "name": "Fiat 500",
+        "from": 27,
+        "image": "https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/095/182/home/Fiat-500-2021-white.jpg?1753260173"
+      },
+      {
+        "name": "Toyota Aygo",
+        "from": 30.99,
+        "image": "https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/052/786/home/Toyota-Aygo-2016-gray.jpg?1711985530"
+      },
+      {
+        "name": "Opel Corsa",
+        "from": 31,
+        "image": "https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/052/780/home/Opel-Corsa-2023-white_(3).png?1746786684"
+      },
+      {
+        "name": "SEAT Ibiza",
+        "from": 34,
+        "image": "https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/037/342/home/Seat-Ibiza-2023-white.jpg?1746444584"
+      },
+      {
+        "name": "Volkswagen Polo",
+        "from": 37.14,
+        "image": "https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/046/779/home/VW-Polo-2020-white_(1)_(1).jpg?1687875179"
+      },
+      {
+        "name": "Toyota Yaris",
+        "from": 39.91,
+        "image": "https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/046/492/home/Toyota-Yaris-2021-red.jpg?1742907885"
+      },
+      {
+        "name": "Volkswagen T-Cross",
+        "from": 40,
+        "image": "https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/165/711/home/Volkswagen-T-Cross-2024-blue_(1).png?1775467875"
+      },
+      {
+        "name": "Kia Ceed",
+        "from": 42.03,
+        "image": "https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/052/777/home/Kia-Ceed-2020-silver.jpg?1711984736"
+      }
+    ]
+  },
+  "548984": {
+    "name": "Krasici",
+    "country": 133,
+    "points": [
+      {
+        "id": 19624,
+        "name": "BUS Stop",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 19625,
+        "name": "ONNA Beach Club",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "548985": {
+    "name": "Djenovici",
+    "country": 133,
+    "points": [
+      {
+        "id": 19644,
+        "name": "Restourant Papagaj",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 19645,
+        "name": "Restourant Olimpija",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "549113": {
+    "name": "Niksic",
+    "country": 133,
+    "points": [
+      {
+        "id": 41459,
+        "name": "City delivery",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "549187": {
+    "name": "Lustica Bay",
+    "country": 133,
+    "points": [
+      {
+        "id": 50247,
+        "name": "Main parking",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 41459,
+        "name": "City delivery",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  },
+  "549193": {
+    "name": "Bijela",
+    "country": 133,
+    "points": [
+      {
+        "id": 50294,
+        "name": "Carine Hotel Park",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 50295,
+        "name": "Petrol S&M",
+        "isAirport": false,
+        "iata": null
+      },
+      {
+        "id": 41459,
+        "name": "City delivery",
+        "isAirport": false,
+        "iata": null
+      }
+    ]
+  }
+}
