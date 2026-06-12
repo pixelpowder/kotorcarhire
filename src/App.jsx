@@ -450,7 +450,7 @@ function TivatArrivals() {
         </div>
         <div className="cruise-grid">
           {[
-            { image: '/img/kotor-old-town.webp', title: t('tivat.items.0.title'), desc: t('tivat.items.0.desc') },
+            { image: '/img/kotor-domes.jpg', title: t('tivat.items.0.title'), desc: t('tivat.items.0.desc') },
             { image: '/img/tivat-airport.webp', title: t('tivat.items.1.title'), desc: t('tivat.items.1.desc') },
             { image: '/img/montenegro-coast-road.webp', title: t('tivat.items.2.title'), desc: t('tivat.items.2.desc') },
             { image: '/img/perast-village.webp', title: t('tivat.items.3.title'), desc: t('tivat.items.3.desc') },
