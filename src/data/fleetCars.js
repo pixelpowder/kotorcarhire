@@ -31,3 +31,6 @@ export const HOMEPAGE_BOOKING_CARS = [
 export const FLEET_SLUG_TO_CAR_IDS = Object.fromEntries(
   HOMEPAGE_BOOKING_CARS.map(c => [c.slug, c.carIds])
 );
+
+// kotorcarhire has no Dubrovnik (Croatia) page; empty so BookPageNative import resolves.
+export const DBV_SLUG_TO_CAR_IDS = {};

@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 import { t, buildAlternates } from '../metadata';
-import BookPage from '@/src/BookPage';
+import BookPageNative from '@/src/BookPageNative';
 
 // Force dynamic rendering — useSearchParams() inside BookPage requires per-request
 // SSR with the live search params. Without this, Next.js leaves the Suspense
@@ -21,7 +21,7 @@ export async function generateMetadata() {
 export default function BookRoute() {
   return (
     <Suspense fallback={<div style={{ minHeight: '100vh' }} />}>
-      <BookPage />
+      <BookPageNative />
     </Suspense>
   );
 }
