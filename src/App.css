@@ -677,15 +677,16 @@ button.mobile-drawer__theme {
   position: absolute;
   inset: 0;
   z-index: 1;
-  /* Slow Ken Burns zoom, same subtle motion the video gave. transform-origin
-     centred so it pushes out evenly; forwards so it settles fully zoomed. */
-  animation: heroZoom 18s ease-out forwards;
-  transform-origin: center 35%;
+  /* Continuous Ken Burns zoom: slowly pushes in then back out, forever, so
+     there's always perceptible motion (the old run-once version settled after
+     18s and looked static). ease-in-out + alternate keeps the turns smooth. */
+  animation: heroZoom 22s ease-in-out infinite alternate;
+  transform-origin: center 40%;
 }
 
 @keyframes heroZoom {
-  0% { transform: scale(1); }
-  100% { transform: scale(1.07); }
+  from { transform: scale(1); }
+  to   { transform: scale(1.12); }
 }
 
 @media (prefers-reduced-motion: reduce) {
