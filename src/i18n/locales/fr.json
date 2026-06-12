@@ -223,13 +223,13 @@
   },
   "trust": {
     "noHiddenFees": "Aucun Frais Caché",
-    "noHiddenFeesDesc": "Le prix affiché est tout compris",
+    "noHiddenFeesDesc": "Le prix affiché est le prix payé.",
     "fullInsurance": "Options d'assurance",
-    "fullInsuranceDesc": "Option zéro franchise disponible",
+    "fullInsuranceDesc": "Couverture complète, sans franchise.",
     "fastPickup": "Prise en Charge en 10 Min",
-    "fastPickupDesc": "Nous vous accueillons aux arrivées",
+    "fastPickupDesc": "À 8 km du vieux Kotor.",
     "freeCancellation": "Annulation gratuite",
-    "freeCancellationDesc": "Annulation gratuite jusqu’à 24 heures avant la prise en charge sur la plupart des voitures"
+    "freeCancellationDesc": "Gratuit jusqu’à 24 h avant."
   },
   "stats": {
     "years": "Ans dans la baie",

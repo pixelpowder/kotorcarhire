@@ -223,13 +223,13 @@
   },
   "trust": {
     "noHiddenFees": "Bez Skrivenih Troškova",
-    "noHiddenFeesDesc": "Prikazana cijena uključuje sve",
+    "noHiddenFeesDesc": "Što vidite, to plaćate.",
     "fullInsurance": "Opcije osiguranja",
-    "fullInsuranceDesc": "Opcija bez učešća dostupna",
+    "fullInsuranceDesc": "Potpuno pokriće, bez učešća.",
     "fastPickup": "Preuzimanje za 10 Min",
-    "fastPickupDesc": "Dočekujemo vas na izlazu",
+    "fastPickupDesc": "8 km od Starog grada Kotora.",
     "freeCancellation": "Besplatno otkazivanje",
-    "freeCancellationDesc": "Besplatno otkazivanje do 24 sata prije preuzimanja za većinu vozila"
+    "freeCancellationDesc": "Besplatno do 24 h prije."
   },
   "stats": {
     "years": "Godina u Boci",

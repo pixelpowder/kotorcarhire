@@ -223,13 +223,13 @@
   },
   "trust": {
     "noHiddenFees": "Без скрытых платежей",
-    "noHiddenFeesDesc": "Указанная цена включает всё",
+    "noHiddenFeesDesc": "Цена на сайте без доплат.",
     "fullInsurance": "Варианты страхования",
-    "fullInsuranceDesc": "Возможность нулевой франшизы",
+    "fullInsuranceDesc": "Полное покрытие, без франшизы.",
     "fastPickup": "Подача за 10 минут",
-    "fastPickupDesc": "Встретим вас в зоне прилёта",
+    "fastPickupDesc": "8 км от Старого Котора.",
     "freeCancellation": "Бесплатная отмена",
-    "freeCancellationDesc": "Бесплатная отмена за 24 часа до получения для большинства автомобилей"
+    "freeCancellationDesc": "Бесплатно за 24 ч до выдачи."
   },
   "stats": {
     "years": "Лет в Боке",

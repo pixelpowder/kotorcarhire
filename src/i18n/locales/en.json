@@ -223,13 +223,13 @@
   },
   "trust": {
     "noHiddenFees": "No Hidden Fees",
-    "noHiddenFeesDesc": "What you see at checkout is what you pay, no fuel deposits or hidden extras",
+    "noHiddenFeesDesc": "What you see is what you pay.",
     "fullInsurance": "Insurance Options",
-    "fullInsuranceDesc": "Comprehensive cover on every booking, with a zero-excess option for bay roads",
+    "fullInsuranceDesc": "Comprehensive cover, zero-excess.",
     "fastPickup": "Tivat Airport",
-    "fastPickupDesc": "8 km from Kotor Old Town, your car is waiting when you land",
+    "fastPickupDesc": "8 km from Kotor Old Town.",
     "freeCancellation": "Free Cancellation",
-    "freeCancellationDesc": "Cancel free up to 24 hours before pickup on most cars"
+    "freeCancellationDesc": "Free up to 24h before pickup."
   },
   "stats": {
     "years": "Years on the Bay",

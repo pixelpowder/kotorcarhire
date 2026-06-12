@@ -223,13 +223,13 @@
   },
   "trust": {
     "noHiddenFees": "Keine versteckten Kosten",
-    "noHiddenFeesDesc": "Der angezeigte Preis ist all-inclusive",
+    "noHiddenFeesDesc": "Was Sie sehen, zahlen Sie.",
     "fullInsurance": "Versicherungsoptionen",
-    "fullInsuranceDesc": "Option ohne Selbstbeteiligung verfügbar",
+    "fullInsuranceDesc": "Vollkasko, ohne Selbstbeteiligung.",
     "fastPickup": "Flughafen Tivat",
-    "fastPickupDesc": "Nur 8 km von Kotor Altstadt",
+    "fastPickupDesc": "8 km von Kotors Altstadt.",
     "freeCancellation": "Kostenlose Stornierung",
-    "freeCancellationDesc": "Bei den meisten Autos bis 24 Stunden vor Abholung kostenlos stornierbar"
+    "freeCancellationDesc": "Bis 24 Std. vor Abholung gratis."
   },
   "stats": {
     "years": "Jahre an der Bucht",

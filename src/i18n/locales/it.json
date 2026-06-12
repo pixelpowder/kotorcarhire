@@ -223,13 +223,13 @@
   },
   "trust": {
     "noHiddenFees": "Nessun Costo Nascosto",
-    "noHiddenFeesDesc": "Il prezzo indicato è tutto incluso",
+    "noHiddenFeesDesc": "Quello che vedi è quello che paghi.",
     "fullInsurance": "Opzioni assicurative",
-    "fullInsuranceDesc": "Opzione zero franchigia disponibile",
+    "fullInsuranceDesc": "Copertura completa, zero franchigia.",
     "fastPickup": "Ritiro in 10 Min",
-    "fastPickupDesc": "Ti accogliamo agli arrivi",
+    "fastPickupDesc": "A 8 km dal centro di Kotor.",
     "freeCancellation": "Cancellazione gratuita",
-    "freeCancellationDesc": "Cancellazione gratuita fino a 24 ore prima del ritiro sulla maggior parte delle auto"
+    "freeCancellationDesc": "Gratis fino a 24 h prima."
   },
   "stats": {
     "years": "Anni sulla Boka",
