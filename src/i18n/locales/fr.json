@@ -161,7 +161,8 @@
         "Cockpit numérique",
         "Apple CarPlay"
       ]
-    }
+    },
+    "from": "À partir de"
   },
   "fleetShowcase": {
     "label": "Connaître sa voiture",
@@ -249,7 +250,13 @@
   "fleet": {
     "label": "Notre Flotte",
     "title": "Location de Voiture à Kotor",
-    "subtitle": "Consultez la disponibilité et les prix en temps réel, annulation gratuite sur certaines voitures, couverture Minimum gratuite avec upgrades dès 8 €/jour, réservez directement."
+    "subtitle": "Consultez la disponibilité et les prix en temps réel, annulation gratuite sur certaines voitures, couverture Minimum gratuite avec upgrades dès 8 €/jour, réservez directement.",
+    "priceNote": "Les prix indiqués sont les tarifs journaliers minimums pour une location de 7 jours aux dates actuelles. Le prix réel varie selon les dates exactes, le lieu de prise en charge, le loueur et la saison.",
+    "badges": {
+      "unlimitedKm": "Km illimités",
+      "instant": "Instantané",
+      "deposit": "caution"
+    }
   },
   "brands": {
     "label": "Marques présentes dans notre flotte de Kotor"

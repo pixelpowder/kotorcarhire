@@ -39,7 +39,7 @@ import {
 } from 'lucide-react';
 import config from './siteConfig';
 import { HOMEPAGE_BOOKING_CARS } from './data/fleetCars';
-import { FLEET_FLOOR_EUR } from './data/fleetFloor';
+import { FLEET_FLOOR_EUR, FLEET_FLOOR_BY_CITY_EUR } from './data/fleetFloor';
 
 // "From €X / day" floor prices — Kotor pickup, off-season minimum
 // vendor price per model. Shared affiliate 14905 inventory with the
@@ -53,6 +53,26 @@ const FLEET_SPECS_FALLBACK = {
   'dacia-sandero':      { seats: 5, transmission: 'Manual',    luggage: 2, fuel: 'Petrol' },
   'renault-megane':     { seats: 5, transmission: 'Manual',    luggage: 3, fuel: 'Diesel' },
   'citroen-c4-picasso': { seats: 7, transmission: 'Automatic', luggage: 4, fuel: 'Diesel' },
+};
+
+// Per-model booking badges shown on the homepage fleet cards. Mirrors the
+// montenegrocarhire card content. Values are the shared affiliate-14905
+// cluster facts (same LocalRent vendor listings across the cluster), so
+// instant-booking availability and the standard €100 deposit carry over per
+// model; not site-specific or invented.
+const FLEET_BADGES = {
+  'vw-polo':            { unlimitedMileage: true, instantBooking: true,  deposit: '€100' },
+  'fiat-500':           { unlimitedMileage: true, instantBooking: true,  deposit: '€100' },
+  'peugeot-208':        { unlimitedMileage: true, instantBooking: false, deposit: '€100' },
+  'citroen-c3':         { unlimitedMileage: true, instantBooking: true,  deposit: '€100' },
+  'toyota-yaris':       { unlimitedMileage: true, instantBooking: true,  deposit: '€100' },
+  'vw-golf':            { unlimitedMileage: true, instantBooking: true,  deposit: '€100' },
+  'kia-stonic':         { unlimitedMileage: true, instantBooking: false, deposit: '€100' },
+  'peugeot-2008':       { unlimitedMileage: true, instantBooking: false, deposit: '€100' },
+  'renault-kadjar':     { unlimitedMileage: true, instantBooking: false, deposit: '€100' },
+  'dacia-sandero':      { unlimitedMileage: true, instantBooking: true,  deposit: '€100' },
+  'renault-megane':     { unlimitedMileage: true, instantBooking: false, deposit: '€100' },
+  'citroen-c4-picasso': { unlimitedMileage: true, instantBooking: false, deposit: '€100' },
 };
 
 // SSR-safe "are we on mobile" hook. Returns false on the server and on
@@ -77,17 +97,8 @@ function useMounted() {
   return mounted;
 }
 
-// Fisher-Yates shuffle that runs once per page load.
-function shuffled(arr) {
-  const a = arr.slice();
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-const HOMEPAGE_FLEET_LIMIT = 9;
+const HOMEPAGE_FLEET_LIMIT_DESKTOP = 9;
+const HOMEPAGE_FLEET_LIMIT_MOBILE = 6;
 const HOMEPAGE_FLEET_COLUMNS = 3;
 import './App.css';
 
@@ -578,14 +589,44 @@ function FleetShowcase() {
 
 function Fleet() {
   const { t, localePath } = useTranslation();
+  const isMobile = useIsMobile();
   const slugMap = Object.fromEntries(config.cars.map(c => [c.slug, c]));
-  // SSR-safe shuffle: render the deterministic first slice on the server
-  // (and on first client render so hydration matches), then shuffle after
-  // mount via useEffect.
-  const [cars, setCars] = useState(() => HOMEPAGE_BOOKING_CARS.slice(0, HOMEPAGE_FLEET_LIMIT));
-  useEffect(() => {
-    setCars(shuffled(HOMEPAGE_BOOKING_CARS).slice(0, HOMEPAGE_FLEET_LIMIT));
-  }, []);
+  // Dynamic cards: price + ordering come from the live cloud sync, not a
+  // random shuffle. The homepage features ONLY cars bookable at Tivat (the
+  // default pickup the card click uses), priced at Tivat. tivatFloor() reads
+  // the Tivat per-city floor DIRECTLY so a model stocked only elsewhere is
+  // hidden rather than shown with a dead-end click. Falls back to the
+  // nationwide map only if a partial sync left the Tivat entry empty, so the
+  // grid is never blank.
+  const TIVAT_ID = CITY_ID_MAP['Tivat'];
+  const tivatMap = FLEET_FLOOR_BY_CITY_EUR[TIVAT_ID] || {};
+  const useTivat = Object.keys(tivatMap).length > 0;
+  const tivatFloor = (slug) => (useTivat ? tivatMap[slug] : FLEET_FLOOR_EUR[slug]);
+  // Pass today→today+7 dates on fleet card click so the LocalRent widget
+  // renders the same 7-day window the daily sync queries. SSR href stays bare
+  // (no hydration shift); onClick intercepts and navigates with full params.
+  // Date formatting uses LOCAL components (NOT toISOString) so Montenegro's
+  // UTC+2 doesn't push the date back a day.
+  const handleFleetCardClick = (e, slug) => {
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button === 1) return;
+    e.preventDefault();
+    const today = new Date();
+    const plus7 = new Date(today); plus7.setDate(plus7.getDate() + 7);
+    const fmt = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    window.location.href = localePath(`/book?model=${slug}&location=Tivat&city_id=${TIVAT_ID}&pickup_date=${fmt(today)}&dropoff_date=${fmt(plus7)}&pickup_time=10:00&dropoff_time=10:00&driver_age=30`);
+  };
+  // Filter to cars with a live Tivat price (sync drops the entry when
+  // LocalRent reports zero availability for the window), then sort
+  // cheapest-first so the row is a price ladder. No client-side shuffle —
+  // every visitor sees the same cards in the same order, matching what the
+  // synced prices were queried against. Mobile shows 6 to keep the scroll
+  // tight; desktop shows the full 3×3.
+  const fleetLimit = isMobile ? HOMEPAGE_FLEET_LIMIT_MOBILE : HOMEPAGE_FLEET_LIMIT_DESKTOP;
+  const byPrice = (a, b) => (tivatFloor(a.slug) || 0) - (tivatFloor(b.slug) || 0);
+  const cars = HOMEPAGE_BOOKING_CARS
+    .filter(c => typeof tivatFloor(c.slug) === 'number' && tivatFloor(c.slug) > 0)
+    .sort(byPrice)
+    .slice(0, fleetLimit);
   return (
     <section className="section" id="fleet-widget">
       <div className="container">
@@ -603,12 +644,14 @@ function Fleet() {
           {cars.map((car) => {
             const localCar = car.siteSlug ? slugMap[car.siteSlug] : (slugMap[car.slug] || null);
             const image = (localCar && localCar.image) || car.image || `/img/fleet/${car.slug}.jpg`;
-            const href = car.carIds ? localePath(`/book?model=${car.slug}`) : localePath('/book');
+            const href = car.carIds ? localePath(`/book?model=${car.slug}&location=Tivat&city_id=${TIVAT_ID}`) : localePath('/book');
             const specs = localCar || FLEET_SPECS_FALLBACK[car.slug] || null;
+            const badges = FLEET_BADGES[car.slug] || null;
             return (
               <a
                 key={car.id}
                 href={href}
+                onClick={car.carIds ? (e) => handleFleetCardClick(e, car.slug) : undefined}
                 style={{
                   display: 'flex',
                   flexDirection: 'column',
@@ -645,7 +688,7 @@ function Fleet() {
                   <span style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#6b7280' }}>
                     {t(`cars.categories.${car.category}`, car.category)}
                   </span>
-                  <span style={{ fontSize: '17px', fontWeight: 700, color: 'var(--navy)', letterSpacing: '-0.01em' }}>
+                  <span style={{ fontSize: '17px', fontWeight: 700, color: '#05203c', letterSpacing: '-0.01em' }}>
                     {car.name}
                   </span>
                   {specs && (
@@ -665,7 +708,7 @@ function Fleet() {
                           <Users size={13} /> {specs.seats}
                         </span>
                         <span style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
-                          <Settings size={13} /> {(specs.transmission || '').slice(0, 1) || 'M'}
+                          <Settings size={13} /> {specs.transmission === 'Automatic' ? 'Auto' : 'Manual'}
                         </span>
                         <span style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
                           <Briefcase size={13} /> {specs.luggage}
@@ -674,20 +717,25 @@ function Fleet() {
                           <Fuel size={13} /> {specs.fuel}
                         </span>
                       </div>
-                      <span style={{
-                        display: 'inline-flex',
-                        alignItems: 'center',
-                        gap: '4px',
-                        color: '#0f6b34',
-                        fontSize: '11px',
-                        fontWeight: 600,
-                        whiteSpace: 'nowrap',
-                        flexShrink: 0,
-                        marginLeft: 'auto',
-                      }}>
-                        <CheckCircle size={11} strokeWidth={3} />
-                        {t('hero.badges.freeCancellation') || 'Free Cancellation'}
-                      </span>
+                    </div>
+                  )}
+                  {badges && (badges.unlimitedMileage || badges.instantBooking || badges.deposit) && (
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '5px', marginTop: '8px' }}>
+                      {badges.unlimitedMileage && (
+                        <span style={{ display: 'inline-flex', alignItems: 'center', gap: '3px', background: '#f0fdf4', border: '1px solid #bbf7d0', color: '#15803d', borderRadius: '999px', padding: '2px 8px', fontSize: '10px', fontWeight: 600, whiteSpace: 'nowrap' }}>
+                          ∞ {t('fleet.badges.unlimitedKm') || 'Unlimited km'}
+                        </span>
+                      )}
+                      {badges.instantBooking && (
+                        <span style={{ display: 'inline-flex', alignItems: 'center', gap: '3px', background: '#fffbeb', border: '1px solid #fde68a', color: '#b45309', borderRadius: '999px', padding: '2px 8px', fontSize: '10px', fontWeight: 600, whiteSpace: 'nowrap' }}>
+                          ⚡ {t('fleet.badges.instant') || 'Instant'}
+                        </span>
+                      )}
+                      {badges.deposit && (
+                        <span style={{ display: 'inline-flex', alignItems: 'center', gap: '3px', background: '#f0f9ff', border: '1px solid #bae6fd', color: '#0369a1', borderRadius: '999px', padding: '2px 8px', fontSize: '10px', fontWeight: 600, whiteSpace: 'nowrap' }}>
+                          {badges.deposit} {t('fleet.badges.deposit') || 'deposit'}
+                        </span>
+                      )}
                     </div>
                   )}
                   <div style={{
@@ -699,29 +747,19 @@ function Fleet() {
                     justifyContent: 'space-between',
                     gap: '8px',
                   }}>
-                    <span style={{ fontSize: '13px', fontWeight: 700, color: '#2D5C8A' }}>
+                    <span className="fleet-card__cta-label" style={{
+                      display: 'inline-flex', alignItems: 'center', gap: '4px',
+                      background: '#05203c', color: '#fff',
+                      padding: '8px 18px', borderRadius: '999px',
+                      fontSize: '13px', fontWeight: 700, whiteSpace: 'nowrap',
+                    }}>
                       {t('fleet.bookCta') || 'Book this car'} →
                     </span>
-                    {FLEET_FLOOR_EUR[car.slug] && (
-                      <span style={{
-                        display: 'inline-flex',
-                        alignItems: 'baseline',
-                        gap: '4px',
-                        background: '#2D5C8A',
-                        color: '#fff',
-                        padding: '4px 9px 5px',
-                        borderRadius: '7px',
-                        whiteSpace: 'nowrap',
-                      }}>
-                        <span style={{ fontSize: '9px', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', opacity: 0.85 }}>
-                          {t('fleet.fromPrefix') || 'From'}
-                        </span>
-                        <span style={{ fontSize: '15px', fontWeight: 800, letterSpacing: '-0.01em' }}>
-                          €{FLEET_FLOOR_EUR[car.slug]}
-                        </span>
-                        <span style={{ fontSize: '9px', fontWeight: 600, opacity: 0.9 }}>
-                          {t('fleet.perDay') || '/ day'}
-                        </span>
+                    {tivatFloor(car.slug) && (
+                      <span style={{ display: 'inline-flex', alignItems: 'baseline', gap: '2px', whiteSpace: 'nowrap' }}>
+                        <span style={{ fontSize: '10px', fontWeight: 600, color: '#6b7280', textTransform: 'uppercase', letterSpacing: '0.06em' }}>{t('cars.from') || 'From'} </span>
+                        <span style={{ fontSize: '32px', fontWeight: 800, color: '#05203c', letterSpacing: '-0.02em', lineHeight: 1 }}>€{tivatFloor(car.slug)}</span>
+                        <span style={{ fontSize: '10px', fontWeight: 500, color: '#6b7280' }}>/day</span>
                       </span>
                     )}
                   </div>
@@ -730,6 +768,9 @@ function Fleet() {
             );
           })}
         </div>
+        <p style={{ fontSize: '12px', color: '#94a3b8', marginTop: '24px', fontStyle: 'italic', textAlign: 'center' }}>
+          {t('fleet.priceNote')}
+        </p>
       </div>
     </section>
   );

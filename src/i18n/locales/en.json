@@ -161,7 +161,8 @@
         "Digital Cockpit",
         "Apple CarPlay"
       ]
-    }
+    },
+    "from": "From"
   },
   "fleetShowcase": {
     "label": "Know your car",
@@ -249,7 +250,13 @@
   "fleet": {
     "label": "Our Fleet",
     "title": "Car Hire Kotor",
-    "subtitle": "Browse real-time availability and prices, free cancellation on selected cars, free Minimum cover with paid upgrades from €8/day, book directly."
+    "subtitle": "Browse real-time availability and prices, free cancellation on selected cars, free Minimum cover with paid upgrades from €8/day, book directly.",
+    "priceNote": "Prices shown are per-day floor rates for a 7-day rental at current dates. Actual price varies by exact dates, pickup location, vendor and season.",
+    "badges": {
+      "unlimitedKm": "Unlimited km",
+      "instant": "Instant",
+      "deposit": "deposit"
+    }
   },
   "brands": {
     "label": "Brands you'll find in our Kotor fleet"

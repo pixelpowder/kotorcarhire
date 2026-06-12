@@ -161,7 +161,8 @@
         "Digital-Cockpit",
         "Apple CarPlay"
       ]
-    }
+    },
+    "from": "Ab"
   },
   "fleetShowcase": {
     "label": "Fahrzeug-Guide",
@@ -249,7 +250,13 @@
   "fleet": {
     "label": "Unsere Flotte",
     "title": "Mietwagen Kotor",
-    "subtitle": "Verfügbarkeit und Preise in Echtzeit ansehen, kostenlose Stornierung bei ausgewählten Autos, kostenlose Mindestdeckung mit Upgrades ab 8 €/Tag, direkt buchen."
+    "subtitle": "Verfügbarkeit und Preise in Echtzeit ansehen, kostenlose Stornierung bei ausgewählten Autos, kostenlose Mindestdeckung mit Upgrades ab 8 €/Tag, direkt buchen.",
+    "priceNote": "Angezeigte Preise sind Mindesttagessätze für eine 7-Tage-Anmietung zu aktuellen Daten. Der tatsächliche Preis variiert je nach Datum, Abholort, Anbieter und Saison.",
+    "badges": {
+      "unlimitedKm": "Unbegrenzte km",
+      "instant": "Sofort",
+      "deposit": "Kaution"
+    }
   },
   "brands": {
     "label": "Marken, die Sie in unserer Kotor-Flotte finden"

@@ -161,7 +161,8 @@
         "Digitalna instrument-tabla",
         "Apple CarPlay"
       ]
-    }
+    },
+    "from": "Od"
   },
   "fleetShowcase": {
     "label": "Upoznaj svoj auto",
@@ -249,7 +250,13 @@
   "fleet": {
     "label": "Naša Flota",
     "title": "Rent-a-Car Kotor",
-    "subtitle": "Pregledajte dostupnost i cijene u realnom vremenu, besplatno otkazivanje na odabranim automobilima, besplatno Minimalno pokriće sa nadogradnjama od 8 €/dan, rezervišite direktno."
+    "subtitle": "Pregledajte dostupnost i cijene u realnom vremenu, besplatno otkazivanje na odabranim automobilima, besplatno Minimalno pokriće sa nadogradnjama od 8 €/dan, rezervišite direktno.",
+    "priceNote": "Prikazane cijene su minimalni dnevni iznosi za 7-dnevni najam u trenutnim datumima. Stvarna cijena zavisi od tačnih datuma, mjesta preuzimanja, dobavljača i sezone.",
+    "badges": {
+      "unlimitedKm": "Neograničeni km",
+      "instant": "Odmah",
+      "deposit": "depozit"
+    }
   },
   "brands": {
     "label": "Brendovi koje ćete naći u našoj kotorskoj floti"

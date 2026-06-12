@@ -161,7 +161,8 @@
         "Cruscotto digitale",
         "Apple CarPlay"
       ]
-    }
+    },
+    "from": "Da"
   },
   "fleetShowcase": {
     "label": "Conosci l'auto",
@@ -249,7 +250,13 @@
   "fleet": {
     "label": "La Nostra Flotta",
     "title": "Noleggio Auto Kotor",
-    "subtitle": "Consulta disponibilità e prezzi in tempo reale, cancellazione gratuita su auto selezionate, copertura Minima gratuita con upgrade da 8 €/giorno, prenota direttamente."
+    "subtitle": "Consulta disponibilità e prezzi in tempo reale, cancellazione gratuita su auto selezionate, copertura Minima gratuita con upgrade da 8 €/giorno, prenota direttamente.",
+    "priceNote": "I prezzi indicati sono tariffe giornaliere minime per un noleggio di 7 giorni con date attuali. Il prezzo effettivo varia in base alle date, al luogo di ritiro, all’operatore e alla stagione.",
+    "badges": {
+      "unlimitedKm": "Km illimitati",
+      "instant": "Immediato",
+      "deposit": "cauzione"
+    }
   },
   "brands": {
     "label": "Marchi presenti nella nostra flotta di Kotor"
