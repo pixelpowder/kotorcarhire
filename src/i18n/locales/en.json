@@ -227,7 +227,9 @@
     "fullInsurance": "Insurance Options",
     "fullInsuranceDesc": "Comprehensive cover on every booking, with a zero-excess option for bay roads",
     "fastPickup": "Tivat Airport",
-    "fastPickupDesc": "8 km from Kotor Old Town, your car is waiting when you land"
+    "fastPickupDesc": "8 km from Kotor Old Town, your car is waiting when you land",
+    "freeCancellation": "Free Cancellation",
+    "freeCancellationDesc": "Cancel free up to 24 hours before pickup on most cars"
   },
   "stats": {
     "years": "Years on the Bay",

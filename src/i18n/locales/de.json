@@ -227,7 +227,9 @@
     "fullInsurance": "Versicherungsoptionen",
     "fullInsuranceDesc": "Option ohne Selbstbeteiligung verfügbar",
     "fastPickup": "Flughafen Tivat",
-    "fastPickupDesc": "Nur 8 km von Kotor Altstadt"
+    "fastPickupDesc": "Nur 8 km von Kotor Altstadt",
+    "freeCancellation": "Kostenlose Stornierung",
+    "freeCancellationDesc": "Bei den meisten Autos bis 24 Stunden vor Abholung kostenlos stornierbar"
   },
   "stats": {
     "years": "Jahre an der Bucht",

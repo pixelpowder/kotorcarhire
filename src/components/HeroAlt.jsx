@@ -325,17 +325,6 @@ export default function HeroAlt() {
                   {t('hero.search') || 'Find'}
                 </button>
               </div>
-              {(() => {
-                // Peak-season urgency line (May-Sep pickup, or Mar-Aug today
-                // when no date picked yet). Same logic as the legacy hero.
-                const pickupMonth = startDate ? startDate.getMonth() + 1 : null;
-                const currentMonth = new Date().getMonth() + 1;
-                const inPeak = pickupMonth ? (pickupMonth >= 5 && pickupMonth <= 9) : (currentMonth >= 3 && currentMonth <= 8);
-                if (!inPeak) return null;
-                return (
-                  <p className="booking-card__urgency">{t('hero.urgency')}</p>
-                );
-              })()}
             </div>
           </div>
         </div>

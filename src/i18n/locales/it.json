@@ -227,7 +227,9 @@
     "fullInsurance": "Opzioni assicurative",
     "fullInsuranceDesc": "Opzione zero franchigia disponibile",
     "fastPickup": "Ritiro in 10 Min",
-    "fastPickupDesc": "Ti accogliamo agli arrivi"
+    "fastPickupDesc": "Ti accogliamo agli arrivi",
+    "freeCancellation": "Cancellazione gratuita",
+    "freeCancellationDesc": "Cancellazione gratuita fino a 24 ore prima del ritiro sulla maggior parte delle auto"
   },
   "stats": {
     "years": "Anni sulla Boka",

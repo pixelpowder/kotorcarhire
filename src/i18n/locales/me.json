@@ -227,7 +227,9 @@
     "fullInsurance": "Opcije osiguranja",
     "fullInsuranceDesc": "Opcija bez učešća dostupna",
     "fastPickup": "Preuzimanje za 10 Min",
-    "fastPickupDesc": "Dočekujemo vas na izlazu"
+    "fastPickupDesc": "Dočekujemo vas na izlazu",
+    "freeCancellation": "Besplatno otkazivanje",
+    "freeCancellationDesc": "Besplatno otkazivanje do 24 sata prije preuzimanja za većinu vozila"
   },
   "stats": {
     "years": "Godina u Boci",

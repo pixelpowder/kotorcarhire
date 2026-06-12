@@ -417,6 +417,7 @@ function TrustStrip() {
     { icon: <CheckCircle size={18} />, strong: t('trust.noHiddenFees'), text: t('trust.noHiddenFeesDesc') },
     { icon: <ShieldCheck size={18} />, strong: t('trust.fullInsurance'), text: t('trust.fullInsuranceDesc') },
     { icon: <Clock size={18} />, strong: t('trust.fastPickup'), text: t('trust.fastPickupDesc') },
+    { icon: <RefreshCw size={18} />, strong: t('trust.freeCancellation'), text: t('trust.freeCancellationDesc') },
   ];
 
   return (
@@ -518,7 +519,10 @@ function Fleet() {
   const TIVAT_ID = CITY_ID_MAP['Tivat'];
   const tivatMap = FLEET_FLOOR_BY_CITY_EUR[TIVAT_ID] || {};
   const useTivat = Object.keys(tivatMap).length > 0;
-  const tivatFloor = (slug) => (useTivat ? tivatMap[slug] : FLEET_FLOOR_EUR[slug]);
+  // Tivat per-city price, falling back to the nationwide floor when a model
+  // has no Tivat-specific price yet (keeps the grid at a full 9 instead of
+  // dropping a car that's still bookable, just not separately priced at Tivat).
+  const tivatFloor = (slug) => (useTivat ? (tivatMap[slug] ?? FLEET_FLOOR_EUR[slug]) : FLEET_FLOOR_EUR[slug]);
   // Pass today→today+7 dates on fleet card click so the LocalRent widget
   // renders the same 7-day window the daily sync queries. SSR href stays bare
   // (no hydration shift); onClick intercepts and navigates with full params.

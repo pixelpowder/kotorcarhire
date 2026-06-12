@@ -227,7 +227,9 @@
     "fullInsurance": "Options d'assurance",
     "fullInsuranceDesc": "Option zéro franchise disponible",
     "fastPickup": "Prise en Charge en 10 Min",
-    "fastPickupDesc": "Nous vous accueillons aux arrivées"
+    "fastPickupDesc": "Nous vous accueillons aux arrivées",
+    "freeCancellation": "Annulation gratuite",
+    "freeCancellationDesc": "Annulation gratuite jusqu’à 24 heures avant la prise en charge sur la plupart des voitures"
   },
   "stats": {
     "years": "Ans dans la baie",

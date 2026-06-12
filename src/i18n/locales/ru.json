@@ -227,7 +227,9 @@
     "fullInsurance": "Варианты страхования",
     "fullInsuranceDesc": "Возможность нулевой франшизы",
     "fastPickup": "Подача за 10 минут",
-    "fastPickupDesc": "Встретим вас в зоне прилёта"
+    "fastPickupDesc": "Встретим вас в зоне прилёта",
+    "freeCancellation": "Бесплатная отмена",
+    "freeCancellationDesc": "Бесплатная отмена за 24 часа до получения для большинства автомобилей"
   },
   "stats": {
     "years": "Лет в Боке",
