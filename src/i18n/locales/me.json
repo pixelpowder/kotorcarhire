@@ -480,7 +480,7 @@
     },
     "fullInsurance": {
       "title": "Opcije osiguranja",
-      "desc": "Besplatno Minimalno (osiguranje od odgovornosti) pokriće za svaku rezervaciju — Basic od 8 €/dan, Full od 10 €/dan, Full Plus bez depozita od 18 €/dan."
+      "desc": "Besplatno Minimalno (osiguranje od odgovornosti) pokriće za svaku rezervaciju, uz Basic, Full i Full Plus bez depozita kao plaćene nadogradnje."
     },
     "support": {
       "title": "Podrška za rezervacije 24/7",
