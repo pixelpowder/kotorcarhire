@@ -9,6 +9,7 @@ import DynamicLanguageProvider from '@/src/i18n/DynamicLanguageProvider';
 import { SUPPORTED_LANGS, DEFAULT_LANG, LANG_HREFLANG } from '@/src/i18n/languages';
 import LocaleAwareSchema from '@/src/components/LocaleAwareSchema';
 import ClickIdCapture from '@/src/components/ClickIdCapture';
+import { getHeroIdx, getHeroVariant } from '@/src/lib/heroRotation';
 
 const SITE_TITLE = 'Kotor Car Hire, Bay of Kotor & Old Town Rentals';
 const SITE_DESC = 'Explore Kotor\'s walled city and the fjord-like bay by car. Collect at Tivat Airport, just 8 km away, or right outside the medieval gates. From €13/day, with insurance options at checkout.';
@@ -51,6 +52,9 @@ async function activeContext() {
 export default async function RootLayout({ children }) {
   const { lang, isHomepage } = await activeContext();
   const htmlLang = LANG_HREFLANG[lang] || lang;
+  // Same index the homepage <img> uses (computed per request, homepage is
+  // dynamically rendered) so the preload and the rendered hero image match.
+  const heroVariant = getHeroVariant(getHeroIdx());
 
   return (
     <html lang={htmlLang} suppressHydrationWarning>
@@ -66,8 +70,21 @@ export default async function RootLayout({ children }) {
             __html: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-KV9ELT3R9H');`,
           }}
         />
-        <link rel="preload" href="/hero-video.mp4" as="video" type="video/mp4" media="(min-width: 769px)" />
-        <link rel="preload" href="/hero-bg.webp" as="image" type="image/webp" media="(max-width: 768px)" />
+        {/* Hero image preload (homepage only). imagesrcset/imagesizes mirror
+            the <img srcset/sizes> in App.jsx so the browser picks the SAME
+            variant for both preload and consumer: phones get the 1600w mobile
+            file, desktop + retina get the 3000w desktop file. One fetch, no
+            race, and it's the LCP element so it's worth the early hint. */}
+        {isHomepage && (
+          <link
+            rel="preload"
+            as="image"
+            href={heroVariant.mobile}
+            imageSrcSet={`${heroVariant.mobile} 1600w, ${heroVariant.desktop} 3000w`}
+            imageSizes="100vw"
+            fetchPriority="high"
+          />
+        )}
         {/* Warm the connection to LocalRent's CDN ahead of /book.
             preconnect does DNS + TCP + TLS handshake upfront; the
             iframe's app.js (and the CSS/JS chunks it pulls) all live

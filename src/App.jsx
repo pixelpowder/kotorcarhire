@@ -9,6 +9,7 @@ import Nav from './Nav';
 import Footer from './Footer';
 import StickyMobileCTA from './StickyMobileCTA';
 import HeroAlt from './components/HeroAlt';
+import { HERO_IMG_VARIANTS } from './lib/heroRotation';
 import useGlobalReveal from './useReveal';
 import {
   Car,
@@ -1032,10 +1033,9 @@ function ScrollToTop() {
 }
 
 /* ─── APP ──────────────────────────────────────────────── */
-export default function App() {
+export default function App({ heroIdx = 0 }) {
   useGlobalReveal();
   const { t } = useTranslation();
-  const mounted = useMounted();
 
   // Lock hero height on mount to prevent iOS address bar scroll jump
   useEffect(() => {
@@ -1049,19 +1049,26 @@ export default function App() {
       <main>
         <div className="hero-wrapper">
           <div className="hero-wrapper__bg">
-            {mounted && (!navigator.connection || navigator.connection.effectiveType === '4g') && (
-              <video className="hero__video" autoPlay muted loop playsInline preload="auto"
-                onPlaying={e => e.target.classList.add('playing')}
-                ref={el => {
-                  if (!el) return;
-                  el.play().catch(() => {});
-                  setTimeout(() => { if (el.paused) el.play().catch(() => {}); }, 2000);
-                  setTimeout(() => { if (el.paused) el.play().catch(() => {}); }, 5000);
-                }}
-              >
-                <source src="/hero-video.mp4" type="video/mp4" />
-              </video>
-            )}
+            {/* Rotating hero image (one of HERO_IMG_VARIANTS per UTC day,
+                chosen server-side in page.jsx so the SSR <img> matches the
+                layout preload). Real <img> (not CSS background) so the
+                browser's preload scanner picks it up and Safari reuses the
+                <link rel=preload> bytes. */}
+            {(() => {
+              const variant = HERO_IMG_VARIANTS[heroIdx] || HERO_IMG_VARIANTS[0];
+              return (
+                <img
+                  className="hero-wrapper__bg-img"
+                  src={variant.mobile}
+                  srcSet={`${variant.mobile} 1600w, ${variant.desktop} 3000w`}
+                  sizes="100vw"
+                  alt=""
+                  aria-hidden="true"
+                  fetchPriority="high"
+                  decoding="async"
+                />
+              );
+            })()}
           </div>
           <Hero />
           <TrustStrip />

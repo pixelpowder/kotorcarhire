@@ -5,6 +5,6 @@
 // via useIsMobile() / useMounted() / typeof guards.
 import App from '@/src/App';
 
-export default function HomeClient() {
-  return <App />;
+export default function HomeClient({ heroIdx = 0 }) {
+  return <App heroIdx={heroIdx} />;
 }

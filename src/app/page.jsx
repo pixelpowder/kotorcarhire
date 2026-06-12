@@ -1,5 +1,6 @@
 import { t, buildAlternates, OG_LOCALE } from './metadata';
 import HomeClient from '@/src/HomeClient';
+import { getHeroIdx } from '@/src/lib/heroRotation';
 
 const SITE_URL = 'https://www.kotorcarhire.com';
 const SITE_NAME = 'Kotor Car Hire';
@@ -25,5 +26,8 @@ export async function generateMetadata() {
 }
 
 export default function HomePage() {
-  return <HomeClient />;
+  // Computed per request (homepage is dynamically rendered) so the hero
+  // image rotates day to day. Passed down so the SSR <img> matches the
+  // layout <link rel=preload> for the same request.
+  return <HomeClient heroIdx={getHeroIdx()} />;
 }
