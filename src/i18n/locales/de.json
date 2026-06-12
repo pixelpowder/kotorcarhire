@@ -215,7 +215,10 @@
     "selectDates": "Daten wählen",
     "headlineLine1": "Kotor",
     "headlineLine2": "Autovermietung",
-    "urgency": "Ab Mai füllt sich die Bucht mit Kreuzfahrtschiffen. Sichern Sie Ihren Übergabe-Termin, bevor alles vergeben ist."
+    "urgency": "Ab Mai füllt sich die Bucht mit Kreuzfahrtschiffen. Sichern Sie Ihren Übergabe-Termin, bevor alles vergeben ist.",
+    "tabPickup": "Abholung",
+    "tabDropoff": "Rückgabe",
+    "sameLocation": "Gleicher Ort"
   },
   "trust": {
     "noHiddenFees": "Keine versteckten Kosten",

@@ -1,0 +1,329 @@
+/* HeroAlt - custom React form with LR v3 widget visual polish. Pixel
+   spec mirrors the LR cigarette so the homepage form and the /book
+   widget read as one product. ALL rendering is React, no third-party
+   widget, so first paint is instant. Ported from montenegrocarhire. */
+
+/* hero__content z-index lift lives inline in HeroAlt.jsx (style prop)
+   because per-component CSS files load in a lower CSS layer that lost
+   the cascade. */
+
+/* App.css gives .hero z-index:2 and the sibling .trust-strip section
+   z-index:3, so by default the trust strip paints OVER anything inside
+   the hero - including the location/calendar popovers, whose z-index
+   9999 is trapped inside the hero's stacking context. (montenegrocarhire
+   dodges this structurally: its TrustStrip renders inside the hero
+   section.) Lift the alt hero above the trust strip so popovers that
+   overhang the hero's bottom edge stay clickable. The sections don't
+   geometrically overlap in normal flow, so this changes nothing else. */
+.hero.hero--alt {
+  z-index: 4;
+}
+
+.hero--alt .ha-fields {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+  align-items: stretch;
+  width: 100%;
+}
+
+/* ── Pill (location + dates) ───────────────────────────────────── */
+.hero--alt .ha-pill {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+}
+.hero--alt .ha-pill__trigger {
+  width: 100%;
+  background: #ffffff;
+  border: 0;
+  border-radius: 0;
+  height: 72px;
+  padding: 10px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+  font-family: Inter, "Inter Fallback", system-ui, -apple-system, sans-serif;
+}
+.hero--alt .ha-pill__label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #6b7280;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  margin-bottom: 2px;
+}
+.hero--alt .ha-pill__label svg {
+  color: rgb(0, 98, 227);
+  flex-shrink: 0;
+}
+.hero--alt .ha-pill__value {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(5, 32, 60);
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+.hero--alt .ha-pill__chev {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(5, 32, 60);
+  transition: transform 0.2s ease;
+}
+.hero--alt .ha-pill__chev.is-open {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+/* ── Find button ───────────────────────────────────────────────── */
+.hero--alt .ha-find {
+  flex: 0 0 200px;
+  width: 200px;
+  height: 72px;
+  border: 0;
+  border-radius: 0;
+  color: #ffffff;
+  font-family: Inter, "Inter Fallback", system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  background: linear-gradient(180deg, rgb(7, 119, 240) 0%, rgb(0, 88, 207) 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    0 1px 2px rgba(5, 32, 60, 0.18),
+    0 6px 16px rgba(7, 119, 240, 0.32);
+  cursor: pointer;
+  transition: filter 0.15s ease;
+}
+.hero--alt .ha-find:hover { filter: brightness(1.06); }
+.hero--alt .ha-find:active { filter: brightness(0.96); }
+@media (max-width: 1024px) and (min-width: 769px) {
+  .hero--alt .ha-find {
+    flex: 0 0 140px;
+    width: 140px;
+    font-size: 14px;
+  }
+}
+
+/* ── Popover (shared by location + calendar) ───────────────────── */
+.hero--alt .ha-pop {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  /* Very high z-index so the popup always wins over below-the-fold
+     sections (.fleet-grid etc.) which create their own stacking
+     contexts via content-visibility: auto. */
+  z-index: 9999;
+  box-shadow: 0 8px 24px rgba(5, 32, 60, 0.18);
+  color-scheme: only light;
+  color: rgb(5, 32, 60);
+}
+/* Calendar - extend to cover the whole booking card width on desktop
+   so both months fit without squashing. Anchored to the pill but
+   widened via right offset. On mobile a separate rule (further down)
+   makes it span the viewport. */
+.hero--alt .ha-pop--cal {
+  width: auto;
+  /* Cover from the date pill's left edge all the way to the right
+     edge of the booking-card row (which is the right edge of the
+     Find button). 100% of the pill + the gap + Find button width. */
+  right: calc(-200px - 8px);
+}
+/* Tablet: Find button is 140px (see above). */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .hero--alt .ha-pop--cal {
+    right: calc(-140px - 8px);
+  }
+}
+.hero--alt .ha-pop--loc {
+  /* Show ~5 cities + the Pick-up/Drop-off tabs at once. Scroll for more. */
+  max-height: 280px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.hero--alt .ha-pop__tabs {
+  display: flex;
+  border-bottom: 1px solid #e5e7eb;
+}
+.hero--alt .ha-pop__tab {
+  flex: 1;
+  background: transparent;
+  border: 0;
+  padding: 14px;
+  font-family: Inter, "Inter Fallback", system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(5, 32, 60);
+  cursor: pointer;
+  position: relative;
+  text-transform: none;
+}
+.hero--alt .ha-pop__tab.is-active::after {
+  content: '';
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 0;
+  height: 2px;
+  background: rgb(5, 32, 60);
+}
+.hero--alt .ha-pop__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.hero--alt .ha-pop__item {
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(5, 32, 60);
+  cursor: pointer;
+  background: #ffffff;
+  border-bottom: 1px solid #f3f4f6;
+}
+.hero--alt .ha-pop__item:last-child {
+  border-bottom: 0;
+}
+.hero--alt .ha-pop__item:hover {
+  background: rgba(5, 32, 60, 0.05);
+}
+.hero--alt .ha-pop__item.is-active {
+  color: rgb(5, 32, 60);
+  font-weight: 700;
+}
+
+/* ── Calendar ──────────────────────────────────────────────────── */
+.hero--alt .ha-cal__nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px 0;
+}
+.hero--alt .ha-cal__navbtn {
+  background: transparent;
+  border: 0;
+  font-size: 22px;
+  cursor: pointer;
+  color: rgb(5, 32, 60);
+  padding: 4px 12px;
+  line-height: 1;
+}
+.hero--alt .ha-cal__navbtn:hover { color: rgb(0, 98, 227); }
+.hero--alt .ha-cal__months {
+  display: flex;
+  gap: 24px;
+  padding: 8px 16px 16px;
+}
+.hero--alt .ha-cal__month {
+  flex: 1;
+  min-width: 0;
+}
+.hero--alt .ha-cal__month-title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(5, 32, 60);
+  margin-bottom: 8px;
+}
+.hero--alt .ha-cal__weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  color: #6b7280;
+  letter-spacing: 0.02em;
+  padding-bottom: 6px;
+}
+.hero--alt .ha-cal__grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  /* Remove the 1px gap that left visible white seams between cells.
+     LR's calendar has a seamless grid. */
+  gap: 0;
+}
+.hero--alt .ha-cal__cell {
+  background: #ffffff;
+  border: 0;
+  padding: 10px 0;
+  font-family: Inter, "Inter Fallback", system-ui, sans-serif;
+  font-size: 14px;
+  color: rgb(5, 32, 60);
+  cursor: pointer;
+  text-align: center;
+}
+.hero--alt .ha-cal__cell:hover:not(.is-past):not(:disabled) {
+  background: rgba(0, 98, 227, 0.12);
+}
+.hero--alt .ha-cal__cell.is-past {
+  color: #d1d5db;
+  cursor: not-allowed;
+}
+.hero--alt .ha-cal__cell.is-selected {
+  background: rgb(0, 98, 227);
+  color: #ffffff;
+  font-weight: 700;
+}
+.hero--alt .ha-cal__cell.is-between {
+  /* Use a SOLID light blue (not rgba) so nothing behind shows through.
+     Was rgba(0, 98, 227, 0.18 / 0.35) - both let trust-strip cards
+     bleed through on mobile because the cell paints semi-transparent
+     on top of an opaque white popup. Solid background = no bleed. */
+  background: rgb(204, 224, 250);
+  color: rgb(5, 32, 60);
+}
+.hero--alt .ha-cal__cell--empty {
+  cursor: default;
+  background: transparent;
+}
+
+/* ── Mobile ────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .hero--alt .ha-fields {
+    flex-direction: column;
+    gap: 11px;
+  }
+  .hero--alt .ha-pill {
+    /* Explicit full width so each pill fills the booking-card row when
+       fields stack vertically. flex:1 1 0 default wasn't stretching
+       the cross-axis on every browser. */
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  .hero--alt .ha-pill__trigger {
+    width: 100%;
+  }
+  .hero--alt .ha-find {
+    width: 100%;
+    flex: 0 0 auto;
+    height: 56px;
+  }
+  .hero--alt .ha-pop--cal {
+    /* Match the pill width exactly. Not viewport. Not wider. */
+    min-width: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    max-width: 100%;
+    transform: none;
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+  .hero--alt .ha-cal__months {
+    /* Mobile shows months stacked. */
+    flex-direction: column;
+    gap: 16px;
+  }
+}

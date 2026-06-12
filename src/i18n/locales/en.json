@@ -215,7 +215,10 @@
     "selectDates": "Select dates",
     "headlineLine1": "Kotor",
     "headlineLine2": "Car Hire",
-    "urgency": "The Bay clogs with cruise ships from May. Reserve your handover slot before they fill up."
+    "urgency": "The Bay clogs with cruise ships from May. Reserve your handover slot before they fill up.",
+    "tabPickup": "Pick up",
+    "tabDropoff": "Drop off",
+    "sameLocation": "Same place"
   },
   "trust": {
     "noHiddenFees": "No Hidden Fees",

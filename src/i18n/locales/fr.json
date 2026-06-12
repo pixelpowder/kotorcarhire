@@ -215,7 +215,10 @@
     "selectDates": "Sélectionner les dates",
     "headlineLine1": "Kotor",
     "headlineLine2": "Voitures à Louer",
-    "urgency": "Dès l'arrivée des bateaux de croisière en mai, la baie est saturée. Bloquez votre créneau de remise des clés à l'avance."
+    "urgency": "Dès l'arrivée des bateaux de croisière en mai, la baie est saturée. Bloquez votre créneau de remise des clés à l'avance.",
+    "tabPickup": "Prise en charge",
+    "tabDropoff": "Restitution",
+    "sameLocation": "Même lieu"
   },
   "trust": {
     "noHiddenFees": "Aucun Frais Caché",

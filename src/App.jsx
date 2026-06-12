@@ -8,6 +8,7 @@ import useTranslation from './i18n/useTranslation';
 import Nav from './Nav';
 import Footer from './Footer';
 import StickyMobileCTA from './StickyMobileCTA';
+import HeroAlt from './components/HeroAlt';
 import useGlobalReveal from './useReveal';
 import {
   Car,
@@ -278,6 +279,18 @@ function TimeField({ id, label, value, onChange }) {
 
 /* ─── HERO ─────────────────────────────────────────────── */
 function Hero() {
+  // Default: HeroAlt - custom React form with LR-widget visual polish
+  // (white pills, two-tab pick-up/drop-off city picker, brand calendar,
+  // gradient Find button). Instant first paint, no third-party widget.
+  // Rollback path: ?legacy=1 -> HeroLegacy (the react-datepicker form).
+  if (typeof window !== 'undefined') {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('legacy') === '1') return <HeroLegacy />;
+  }
+  return <HeroAlt />;
+}
+
+function HeroLegacy() {
   const { t, localePath } = useTranslation();
   const router = useRouter();
   const isMobile = useIsMobile();

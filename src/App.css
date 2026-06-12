@@ -3329,3 +3329,35 @@ a.car-detail-cta__btn:hover { background: rgb(5, 32, 60); color: #fff !important
      a 76px dead-space band below the viewport-locked iframe. */
   body:has(.sticky-cta) { padding-bottom: 76px; }
 }
+
+/* ─── /BOOK PAGE CHROME (native LocalRent build) ───────────
+   Selector .on-book-page is set on <html> by BookPageNative via useEffect.
+   Drop the brand chrome (top-bar + nav) from position:fixed to
+   position:static so it scrolls away with the page content naturally. The
+   LR cigarette below it has position:sticky top:0, so it pins at viewport
+   top once the nav has scrolled out of view; scroll back up and the nav
+   reappears. No transform-based scroll-hide, no JS, no out-of-sync
+   animations between nav and cigarette because they're physically
+   connected in document flow. (montenegrocarhire does the same via its
+   .header-stack wrapper; this site's top-bar and nav are siblings.) */
+html.on-book-page .top-bar,
+html.on-book-page .nav {
+  position: static !important;
+  transform: none !important;
+  transition: none !important;
+}
+/* Chrome is in normal flow now, so the fixed-nav clearance padding from
+   BookPage.css would just add a dead band. */
+html.on-book-page .book-page {
+  padding-top: 0 !important;
+}
+@media (max-width: 768px) {
+  /* On /book mobile, hide the (link-less) top-bar row so a single row of
+     brand chrome remains; LR's booking bar takes its place on scroll. */
+  html.on-book-page .top-bar {
+    display: none !important;
+  }
+  /* Hide the page scrollbar on mobile /book pages. */
+  html.on-book-page { scrollbar-width: none; }
+  html.on-book-page::-webkit-scrollbar { display: none; }
+}

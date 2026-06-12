@@ -11,24 +11,22 @@
 //   - desktop 3-column grid
 // All of which work natively when LR is mounted on the page.
 //
-// This file only changes the brand PALETTE to KCR: the cigarette bar uses
-// KCR charcoal (#1A1A1A, the same dark surface as the site top-bar/footer),
-// the form pills stay white with charcoal text, and every accent (primary
-// buttons, calendar selection, links, badges, stickers) becomes KCR red
-// (#E31937 / gradient). Every rule is scoped to .mrcwhitelabel.
+// This file only changes the brand PALETTE: replace LR's green accents with
+// the site navy (rgb(5, 32, 60), same dark surface as the hero/nav), white
+// the Filters button on the navy cigarette, recolour the calendar selection,
+// swap stickers. Every rule is scoped to .mrcwhitelabel.
 //
 // Injected at runtime by LocalRentWidget.jsx so the rules are in the head
 // before LR's app.js boots.
 
 export const LOCALRENT_BRAND_CSS = `
-  /* Cigarette bar -> KCR charcoal (matches the site top-bar / footer dark
-     surface, var(--surface-inverse) #1A1A1A). Red is reserved for accents. */
+  /* Cigarette navy bar */
   .mrcwhitelabel .search-cigarette,
   .mrcwhitelabel .search-cigarette__wrap,
   .mrcwhitelabel .search-cigarette__row,
   .mrcwhitelabel .search-cigarette__pinned,
   .mrcwhitelabel [class*="search-cigarette__pinned"] {
-    background: #1A1A1A !important;
+    background: rgb(5, 32, 60) !important;
   }
   /* LR ships id-scoped selectors (#mrc_wl_xxxx ...) at higher specificity;
      chain the class to outrank them */
@@ -36,12 +34,12 @@ export const LOCALRENT_BRAND_CSS = `
   .mrcwhitelabel [id^="mrc_wl_"] .search-cigarette__wrap,
   .mrcwhitelabel [id^="mrc_wl_"] .search-cigarette__row,
   .mrcwhitelabel [id^="mrc_wl_"] .search-cigarette__pinned {
-    background-color: #1A1A1A !important;
+    background-color: rgb(5, 32, 60) !important;
   }
 
-  /* All form-field pills white on the charcoal cigarette: Pick-up / Drop-off
+  /* All form-field pills white on the navy cigarette: Pick-up / Drop-off
      city pill, Dates pill (calendar), Specify location, Filters. Each one
-     gets the same white-bg + charcoal-text + rounded-corners treatment so
+     gets the same white-bg + navy-text + rounded-corners treatment so
      they read as a consistent set of inputs across the row. */
   .mrcwhitelabel .search-filters,
   .mrcwhitelabel .search-filters__wrap,
@@ -58,7 +56,7 @@ export const LOCALRENT_BRAND_CSS = `
   .mrcwhitelabel .search-placeholder__date-time,
   .mrcwhitelabel .search-placeholder__places {
     background-color: #ffffff !important;
-    color: #1A1A1A !important;
+    color: rgb(5, 32, 60) !important;
     border-radius: 8px !important;
   }
   .mrcwhitelabel .search-filters,
@@ -66,16 +64,16 @@ export const LOCALRENT_BRAND_CSS = `
     border-color: #ffffff !important;
   }
   .mrcwhitelabel .search-cigarette__filters { overflow: hidden !important; }
-  /* Recolour the Filters button's own icon (sliders/chevron) to charcoal so
-     it matches the dark "Filters" label on the white pill. Scoped to the
+  /* Recolour the Filters button's own icon (sliders/chevron) to navy so
+     it matches the navy "Filters" label on the white pill. Scoped to the
      cigarette button ONLY - was previously also matching .search-filters
      (the entire filters PANEL), which force-filled every brand-logo SVG
-     inside the brand picker ("Car brand" appeared as solid blobs instead of
-     Audi rings / Toyota oval / etc.). */
+     inside the brand picker to navy ("Car brand" appeared as solid navy
+     blobs instead of Audi rings / Toyota oval / etc.). */
   .mrcwhitelabel .search-cigarette__filters > svg *,
   .mrcwhitelabel .search-cigarette__filters > button svg * {
-    stroke: #1A1A1A !important;
-    fill: #1A1A1A !important;
+    stroke: rgb(5, 32, 60) !important;
+    fill: rgb(5, 32, 60) !important;
   }
 
   /* Date pill text: match the Filters button colour exactly. LR ships
@@ -85,35 +83,34 @@ export const LOCALRENT_BRAND_CSS = `
   .mrcwhitelabel .date-range__days,
   .mrcwhitelabel .date-range__dash,
   .mrcwhitelabel .date-range__time {
-    color: #1A1A1A !important;
+    color: rgb(5, 32, 60) !important;
   }
   /* LR's small separator dots between date / time ship as
-     rgba(255,255,255,0.8) - invisible on the white pill. Force charcoal. */
+     rgba(255,255,255,0.8) - invisible on the white pill. Force navy. */
   .mrcwhitelabel .date-range__dot {
-    background-color: #1A1A1A !important;
-    color: #1A1A1A !important;
+    background-color: rgb(5, 32, 60) !important;
+    color: rgb(5, 32, 60) !important;
   }
 
-  /* Active-filter count badge on Filters button -> KCR red so it pops
-     against the white pill and dark bar. */
+  /* Active-filter count badge on Filters button */
   .mrcwhitelabel .search-filters__count,
   .mrcwhitelabel [class*="search-filters__count"],
   .mrcwhitelabel [class*="filters__counter"],
   .mrcwhitelabel [class*="filter-count"] {
-    background-color: #E31937 !important;
+    background-color: rgb(5, 32, 60) !important;
     color: #ffffff !important;
   }
 
-  /* Primary buttons (View, Continue, Show more) -> KCR red gradient. Same
-     gradient as the homepage Find button so the brand-red lineage is
+  /* Primary buttons (View, Continue) -> brand blue gradient. Same
+     gradient as the homepage Find button, so the brand-blue lineage is
      consistent across the entire conversion funnel (search -> car cards
      -> checkout). */
   .mrcwhitelabel .button.appearance-default,
   .mrcwhitelabel .vehicle-card-footer__view,
   .mrcwhitelabel .search__button-more,
   .mrcwhitelabel [class*="button-primary"] {
-    background: linear-gradient(135deg, #ff3a55 0%, #e31937 50%, #b3142a 100%) !important;
-    border-color: #b3142a !important;
+    background: linear-gradient(180deg, rgb(7, 119, 240) 0%, rgb(0, 88, 207) 100%) !important;
+    border-color: rgb(0, 88, 207) !important;
     color: #ffffff !important;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18) !important;
   }
@@ -124,9 +121,9 @@ export const LOCALRENT_BRAND_CSS = `
     filter: brightness(1.06) !important;
   }
 
-  /* Calendar (date picker) green -> KCR red. color-scheme:only light keeps
+  /* Calendar (date picker) green -> navy. color-scheme:only light keeps
      Firefox's forced-dark-mode from auto-inverting the calendar pop-up
-     on mobile, which was bleaching the selected dates' text into
+     on mobile, which was bleaching the selected dates' navy text into
      near-unreadable grey against the white calendar bg. */
   .mrcwhitelabel,
   .mrcwhitelabel .calendar,
@@ -138,14 +135,14 @@ export const LOCALRENT_BRAND_CSS = `
     color-scheme: only light !important;
   }
   .mrcwhitelabel .calendar-day.calendar-highlighted {
-    background: rgba(227, 25, 55, 0.12) !important;
-    color: #1A1A1A !important;
+    background: rgba(5, 32, 60, 0.12) !important;
+    color: rgb(5, 32, 60) !important;
   }
   .mrcwhitelabel .calendar-day.calendar-selected {
-    background: #E31937 !important;
+    background: rgb(5, 32, 60) !important;
     color: #ffffff !important;
   }
-  /* Belt-and-braces: defensively force the red-on-white pair on every
+  /* Belt-and-braces: defensively force the navy-on-white pair on every
      selected-date class LR ships across white-label + v3 widget code
      paths. Covers .month-date.isSelected (v3), .calendar-day-selected
      (older WL), .day--selected (newer WL build). */
@@ -154,26 +151,26 @@ export const LOCALRENT_BRAND_CSS = `
   .mrcwhitelabel .day--selected,
   .mrcwhitelabel [class*="day"][class*="selected"],
   .mrcwhitelabel [class*="date"][class*="selected"] {
-    background: #E31937 !important;
+    background: rgb(5, 32, 60) !important;
     color: #ffffff !important;
   }
   .mrcwhitelabel input[type="checkbox"],
-  .mrcwhitelabel input[type="radio"] { accent-color: #E31937 !important; }
+  .mrcwhitelabel input[type="radio"] { accent-color: rgb(5, 32, 60) !important; }
 
-  /* "Free" insurance / success badges (LR green -> KCR red) */
+  /* "Free" insurance / success badges (LR green -> brand blue) */
   .mrcwhitelabel .vehicle-card-insurance__price--free,
   .mrcwhitelabel [class*="price--free"] {
-    color: #E31937 !important;
-    border-color: #E31937 !important;
+    color: rgb(0, 98, 227) !important;
+    border-color: rgb(0, 98, 227) !important;
   }
 
   /* Low-deposit sticker on car cards. Scoped to .product-sticker so it
      does NOT hit the filter chip with the same class fragment. */
   .mrcwhitelabel .product-sticker--low-deposit,
   .mrcwhitelabel .product-sticker[class*="low-deposit"] {
-    background: #E31937 !important;
+    background: rgb(5, 32, 60) !important;
     color: #ffffff !important;
-    border-color: #E31937 !important;
+    border-color: rgb(5, 32, 60) !important;
   }
 
   /* "Top picks" carousel badges that overlay the car-card image (Low
@@ -196,28 +193,28 @@ export const LOCALRENT_BRAND_CSS = `
     fill: #000000 !important;
   }
 
-  /* Dashed links inside the widget -> KCR red */
+  /* Dashed links inside the widget -> brand blue */
   .mrcwhitelabel .link-dashed,
   .mrcwhitelabel .link-dashed-M,
   .mrcwhitelabel [class*="link-dashed"] {
-    color: #E31937 !important;
-    border-color: #E31937 !important;
+    color: rgb(0, 98, 227) !important;
+    border-color: rgb(0, 98, 227) !important;
   }
 
-  /* No-credit-card / cash-deposit pills -> charcoal outline */
+  /* No-credit-card / cash-deposit pills -> navy outline */
   .mrcwhitelabel .vehicle-card-info__no-credit-card,
   .mrcwhitelabel [class*="no-credit-card"] {
-    border-color: #1A1A1A !important;
-    color: #1A1A1A !important;
+    border-color: rgb(5, 32, 60) !important;
+    color: rgb(5, 32, 60) !important;
   }
 
   /* Replace LR's hard-coded green color literals across helper classes */
   .mrcwhitelabel [style*="rgb(25, 168, 128)"],
   .mrcwhitelabel [style*="#19a880"],
   .mrcwhitelabel [style*="#27c79a"] {
-    border-color: #E31937 !important;
-    color: #E31937 !important;
-    background-color: #E31937 !important;
+    border-color: rgb(5, 32, 60) !important;
+    color: rgb(5, 32, 60) !important;
+    background-color: rgb(5, 32, 60) !important;
   }
 
   /* Centre LR's app root within the page max-width */
@@ -238,16 +235,19 @@ export const LOCALRENT_BRAND_CSS = `
      qualifier) - the earlier .booking__desktop-only version worked on desktop
      but on mobile LR emits .booking__mobile, so the rule never fired and the
      nav kept covering the X.
+     This site has no .header-stack wrapper (unlike montenegrocarhire): the
+     top-bar and nav are siblings rendered by Nav.jsx, so hide both.
      :has() is supported in every browser the site targets (Firefox 121+,
      Chrome 105+, Safari 15.4+). */
-  body:has(.booking__link-close) .header-stack {
+  body:has(.booking__link-close) .top-bar,
+  body:has(.booking__link-close) .nav {
     display: none !important;
   }
 
   /* LR's .search-cigarette ships with min-height: 108px. When the
      compact placeholder + chip strip together are shorter than 108px
-     (very common on mobile), the leftover space renders as a tall band
-     below the chips. Let the cigarette shrink to its content. */
+     (very common on mobile), the leftover space renders as a tall navy
+     band below the chips. Let the cigarette shrink to its content. */
   .mrcwhitelabel .search-cigarette {
     min-height: 0 !important;
     height: auto !important;

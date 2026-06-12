@@ -215,7 +215,10 @@
     "selectDates": "Seleziona le date",
     "headlineLine1": "Kotor",
     "headlineLine2": "Auto a Noleggio",
-    "urgency": "Da maggio le navi da crociera bloccano la baia. Prenota in anticipo il tuo orario di consegna prima che si esaurisca."
+    "urgency": "Da maggio le navi da crociera bloccano la baia. Prenota in anticipo il tuo orario di consegna prima che si esaurisca.",
+    "tabPickup": "Ritiro",
+    "tabDropoff": "Riconsegna",
+    "sameLocation": "Stesso luogo"
   },
   "trust": {
     "noHiddenFees": "Nessun Costo Nascosto",

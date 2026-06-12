@@ -115,3 +115,14 @@ html[data-theme="dark"] .book-page__widget {
     min-height: 400px;
   }
 }
+
+/* Native /book build: bump the car-card drop shadow so the cards read as
+   lifted "tiles" on the white page bg. LR ships a faint
+   `rgba(0,0,0,0.1) 0 0 16px` halo by default; this two-stage shadow
+   (soft far + tight close) gives the cards more depth without going dark. */
+.mrcwhitelabel .vehicle-card {
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.08),
+    0 1px 3px rgba(0, 0, 0, 0.06) !important;
+  border-radius: 12px !important;
+}

@@ -215,7 +215,10 @@
     "selectDates": "Odaberite datume",
     "headlineLine1": "Kotor",
     "headlineLine2": "Iznajmljivanje Auta",
-    "urgency": "Od maja brodovi krstaše blokiraju Boku. Rezervišite ranije da osigurate vrijeme preuzimanja."
+    "urgency": "Od maja brodovi krstaše blokiraju Boku. Rezervišite ranije da osigurate vrijeme preuzimanja.",
+    "tabPickup": "Preuzimanje",
+    "tabDropoff": "Vraćanje",
+    "sameLocation": "Isto mjesto"
   },
   "trust": {
     "noHiddenFees": "Bez Skrivenih Troškova",
