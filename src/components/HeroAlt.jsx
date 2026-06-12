@@ -204,9 +204,8 @@ export default function HeroAlt() {
       <div className="hero__content" style={{ zIndex: 9999, position: 'relative' }}>
         <div className="hero-fade-in">
           <div className="hero__form-wrapper">
-            <h1 className="hero__headline hero__headline--two-line">
-              <span className="hero__headline-line1">{t('hero.headlineLine1') || t('hero.headline')}</span>{' '}
-              <span className="hero__headline-line2">{t('hero.headlineLine2') || ''}</span>
+            <h1 className="hero__headline">
+              {`${t('hero.headlineLine1') || t('hero.headline') || ''} ${t('hero.headlineLine2') || ''}`.trim()}
             </h1>
             <div className="hero__badges">
               <span className="hero__badge"><CheckCircle size={14} /> {t('hero.badges.freeCancellation')}</span>

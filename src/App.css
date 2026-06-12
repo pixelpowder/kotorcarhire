@@ -729,9 +729,10 @@ button.mobile-drawer__theme {
 }
 
 .hero__headline {
-  /* Removed white-space:nowrap + text-overflow:ellipsis — those were
-     truncating long translations (RU, FR). Multi-line headline handles
-     length variation per locale gracefully. */
+  /* Single line for short locales (EN "Kotor Car Hire"); no white-space:nowrap
+     so longer translations (DE/FR/RU) wrap to a second line gracefully rather
+     than overflow or truncate. */
+  font-size: clamp(44px, 8vw, 80px);
   font-weight: 900;
   color: var(--on-inverse);
   line-height: 1.05;
@@ -2383,7 +2384,7 @@ html[data-theme="dark"] .section-label {
   }
 
   .hero__headline {
-    font-size: clamp(26px, 7vw, 34px);
+    font-size: clamp(30px, 8.5vw, 40px);
     margin-bottom: 14px;
   }
 
