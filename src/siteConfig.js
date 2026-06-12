@@ -284,7 +284,7 @@ const siteConfig = {
       slug: "tivat-airport",
       tag: "Most Popular",
       desc: "Just 8 km from Kotor. We meet you at arrivals.",
-      image: "/img/tivat-airport.webp",
+      image: "/img/tivat-airplane.jpg",
     },
     {
       name: "Kotor",
