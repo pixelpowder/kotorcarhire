@@ -38,16 +38,11 @@ import {
 } from 'lucide-react';
 import config from './siteConfig';
 import { HOMEPAGE_BOOKING_CARS } from './data/fleetCars';
+import { FLEET_FLOOR_EUR } from './data/fleetFloor';
 
 // "From €X / day" floor prices — Kotor pickup, off-season minimum
 // vendor price per model. Shared affiliate 14905 inventory with the
 // rest of the cluster, so prices match kotorcarrental.
-const FLEET_FLOOR_EUR = {
-  'vw-polo': 30, 'fiat-500': 32, 'peugeot-208': 18, 'citroen-c3': 22,
-  'toyota-yaris': 25, 'vw-golf': 32, 'kia-stonic': 29, 'peugeot-2008': 30,
-  'renault-kadjar': 32, 'dacia-sandero': 24, 'renault-megane': 19,
-  'citroen-c4-picasso': 40,
-};
 
 // Spec fallbacks for cars whose entry isn't in the local siteConfig.cars
 // list — keeps the homepage card spec row populated regardless.

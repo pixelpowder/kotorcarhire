@@ -1,0 +1,50 @@
+name: LocalRent price sync
+
+# Runs the price sync in the cloud every 4 hours so FLEET_FLOOR_EUR and
+# FLEET_FLOOR_BY_CITY_EUR stay fresh WITHOUT any PC being on. Replaces the
+# local Claude-in-Chrome scheduled task that only ran while the dev machine
+# was up. Uses headless Playwright to load the public /book page, capture
+# LocalRent's signed search URL, and recompute the floors.
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'   # every 2 hours (UTC)
+  workflow_dispatch: {}       # allow manual "Run workflow" from the Actions tab
+
+concurrency:
+  group: localrent-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write             # lets the built-in GITHUB_TOKEN push the commit
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright@1
+          npx playwright install --with-deps chromium
+
+      - name: Run price sync
+        run: node scripts/localrent-cloud-sync.mjs
+
+      - name: Commit & push if prices changed
+        run: |
+          git config user.name  "localrent-sync-bot"
+          git config user.email "actions@github.com"
+          if git diff --quiet -- src/data/fleetFloor.js src/data/fleetCars.js; then
+            echo "No price changes this run."
+            exit 0
+          fi
+          git add src/data/fleetFloor.js src/data/fleetCars.js
+          git commit -m "chore: cloud LocalRent sync (automated, every 4h)"
+          git push
