@@ -204,7 +204,7 @@
       "airportPickup": "Aeroporto di Tivat 8 km",
       "trustpilot": "4.8/5 su Trustpilot",
       "localProviders": "Fornitori Locali",
-      "priceFrom": "Da €20/giorno"
+      "priceFrom": "Tariffe competitive"
     },
     "search": "Cerca",
     "pickupLocation": "Luogo di ritiro",
@@ -252,7 +252,7 @@
   "fleet": {
     "label": "La Nostra Flotta",
     "title": "Noleggio Auto Kotor",
-    "subtitle": "Consulta disponibilità e prezzi in tempo reale, cancellazione gratuita su auto selezionate, copertura Minima gratuita con upgrade da 8 €/giorno, prenota direttamente.",
+    "subtitle": "Consulta disponibilità e prezzi in tempo reale, cancellazione gratuita su auto selezionate, copertura Minima gratuita con upgrade, prenota direttamente.",
     "priceNote": "I prezzi indicati sono tariffe giornaliere minime per un noleggio di 7 giorni con date attuali. Il prezzo effettivo varia in base alle date, al luogo di ritiro, all’operatore e alla stagione.",
     "badges": {
       "unlimitedKm": "Km illimitati",
@@ -304,7 +304,7 @@
     "iframeTitle": "Prenotazione noleggio auto"
   },
   "footer": {
-    "brandDesc": "Ritiro all'aeroporto di Tivat, consegna in città a Cattaro e riconsegna direttamente in hotel in tutta la Boka. Copertura Minima gratuita con upgrade da 8 €/giorno, conoscenza delle strade della baia e tariffe fisse tutta la stagione.",
+    "brandDesc": "Ritiro all'aeroporto di Tivat, consegna in città a Cattaro e riconsegna direttamente in hotel in tutta la Boka. Copertura Minima gratuita con upgrade, conoscenza delle strade della baia e tariffe fisse tutta la stagione.",
     "quickLinks": "Link Rapidi",
     "guides": "Guide",
     "locations": "Sedi",
@@ -525,7 +525,7 @@
     },
     "3": {
       "q": "Cosa è incluso nel prezzo?",
-      "a": "Ogni prenotazione include la copertura Minima (responsabilità civile) gratuita con una cauzione tipica di 100 € e l’IVA. Gli upgrade assicurativi sono extra a pagamento: Basic da 8 €/giorno, Full da 10 €/giorno e Full Plus senza cauzione da 18 €/giorno. Il chilometraggio illimitato è incluso sulla maggior parte delle auto (376 su circa 380)."
+      "a": "Ogni prenotazione include la copertura Minima (responsabilità civile) gratuita con una cauzione tipica di 100 € e l’IVA. Gli upgrade assicurativi sono extra a pagamento: Basic, Full e Full Plus senza cauzione. Il chilometraggio illimitato è incluso sulla maggior parte delle auto (376 su circa 380)."
     },
     "4": {
       "q": "Come funziona il ritiro all'aeroporto di Tivat?",
@@ -537,7 +537,7 @@
     },
     "6": {
       "q": "È richiesta una cauzione?",
-      "a": "La maggior parte delle auto trattiene una cauzione di 100 € al ritiro. 47 auto sulla piattaforma non richiedono alcuna cauzione, altre 124 offrono l’opzione senza cauzione come servizio a pagamento. Scegliendo l’assicurazione Full Plus (da 18 €/giorno) si elimina anche la cauzione."
+      "a": "La maggior parte delle auto trattiene una cauzione di 100 € al ritiro. 47 auto sulla piattaforma non richiedono alcuna cauzione, altre 124 offrono l’opzione senza cauzione come servizio a pagamento. Scegliendo l’assicurazione Full Plus si elimina anche la cauzione."
     },
     "7": {
       "q": "Dove si parcheggia nella Città Vecchia di Kotor?",
@@ -1107,7 +1107,7 @@
     "h3DayTrips": "Gite Invernali",
     "dayTripsP": "La strada costiera verso Perast e Risan è bella nella luce invernale. Cetinje, l'antica capitale reale del Montenegro, si raggiunge in 45 minuti attraverso il Lovćen (tempo permettendo) o con un percorso più lungo via Budva. Il Monastero di Ostrog, incastonato in una parete rocciosa a due ore a nord, è particolarmente suggestivo in inverno quando la neve spolvera le montagne circostanti.",
     "h2Prices": "Prezzi in Bassa Stagione",
-    "pricesP": "Le tariffe di noleggio auto calano del 30-50% tra novembre e marzo. Un'auto compatta che costa €35/giorno in luglio potrebbe essere €18/giorno in gennaio. Gli hotel seguono uno schema simile. I ristoranti spesso propongono menù ridotti ma la qualità resta alta, anzi, alcuni locali sostengono che il cibo sia migliore in inverno perché gli chef hanno tempo di cucinare come si deve invece di affrettarsi tra i coperti.",
+    "pricesP": "Le tariffe di noleggio auto calano del 30-50% tra novembre e marzo. Un'auto compatta che costa in luglio potrebbe essere in gennaio. Gli hotel seguono uno schema simile. I ristoranti spesso propongono menù ridotti ma la qualità resta alta, anzi, alcuni locali sostengono che il cibo sia migliore in inverno perché gli chef hanno tempo di cucinare come si deve invece di affrettarsi tra i coperti.",
     "h2Packing": "Cosa Mettere in Valigia",
     "pack1": "Una giacca impermeabile, non un ombrello. Il vento di Kotor rende gli ombrelli inutili durante le tempeste.",
     "pack2": "Vestiti a strati. Le mattine sono fredde, i pomeriggi possono essere sorprendentemente caldi quando il sole fa capolino.",

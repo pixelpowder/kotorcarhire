@@ -204,7 +204,7 @@
       "airportPickup": "Aerodrom Tivat 8 km",
       "trustpilot": "4.8/5 na Trustpilot",
       "localProviders": "Lokalni provajderi",
-      "priceFrom": "Od €20/dan"
+      "priceFrom": "Povoljne cijene"
     },
     "search": "Pretraži",
     "pickupLocation": "Mjesto preuzimanja",
@@ -252,7 +252,7 @@
   "fleet": {
     "label": "Naša Flota",
     "title": "Rent-a-Car Kotor",
-    "subtitle": "Pregledajte dostupnost i cijene u realnom vremenu, besplatno otkazivanje na odabranim automobilima, besplatno Minimalno pokriće sa nadogradnjama od 8 €/dan, rezervišite direktno.",
+    "subtitle": "Pregledajte dostupnost i cijene u realnom vremenu, besplatno otkazivanje na odabranim automobilima, besplatno Minimalno pokriće sa nadogradnjama, rezervišite direktno.",
     "priceNote": "Prikazane cijene su minimalni dnevni iznosi za 7-dnevni najam u trenutnim datumima. Stvarna cijena zavisi od tačnih datuma, mjesta preuzimanja, dobavljača i sezone.",
     "badges": {
       "unlimitedKm": "Neograničeni km",
@@ -304,7 +304,7 @@
     "iframeTitle": "Rezervacija najma vozila"
   },
   "footer": {
-    "brandDesc": "Preuzimanje na Aerodromu Tivat, dostava u sam Kotor i predaja ključeva na hotelu duž cijele Boke. Besplatno Minimalno pokriće sa nadogradnjama od 8 €/dan, iskustvo na zavojitim putevima Boke i fiksne cijene cijelu sezonu.",
+    "brandDesc": "Preuzimanje na Aerodromu Tivat, dostava u sam Kotor i predaja ključeva na hotelu duž cijele Boke. Besplatno Minimalno pokriće sa nadogradnjama, iskustvo na zavojitim putevima Boke i fiksne cijene cijelu sezonu.",
     "quickLinks": "Brzi Linkovi",
     "guides": "Vodiči",
     "locations": "Lokacije",
@@ -525,7 +525,7 @@
     },
     "3": {
       "q": "Šta je uključeno u cijenu?",
-      "a": "Svaka rezervacija uključuje besplatno Minimalno osiguranje (od odgovornosti) sa tipičnim depozitom od 100 € i PDV. Nadogradnje osiguranja su dodatne usluge koje se plaćaju: Basic od 8 €/dan, Full od 10 €/dan i Full Plus bez depozita od 18 €/dan. Neograničena kilometraža je uključena na većini automobila (376 od oko 380)."
+      "a": "Svaka rezervacija uključuje besplatno Minimalno osiguranje (od odgovornosti) sa tipičnim depozitom od 100 € i PDV. Nadogradnje osiguranja su dodatne usluge koje se plaćaju: Basic, Full i Full Plus bez depozita. Neograničena kilometraža je uključena na većini automobila (376 od oko 380)."
     },
     "4": {
       "q": "Kako funkcioniše preuzimanje na aerodromu Tivat?",
@@ -537,7 +537,7 @@
     },
     "6": {
       "q": "Da li je potreban depozit?",
-      "a": "Većina automobila zadržava depozit od 100 € pri preuzimanju. 47 automobila na platformi uopšte ne traže depozit, a još 124 nude opciju bez depozita kao plaćenu uslugu. Izborom Full Plus osiguranja (od 18 €/dan) takođe se uklanja depozit."
+      "a": "Većina automobila zadržava depozit od 100 € pri preuzimanju. 47 automobila na platformi uopšte ne traže depozit, a još 124 nude opciju bez depozita kao plaćenu uslugu. Izborom Full Plus osiguranja takođe se uklanja depozit."
     },
     "7": {
       "q": "Gdje se parkira u Starom gradu Kotoru?",
@@ -1107,7 +1107,7 @@
     "h3DayTrips": "Zimski Jednodnevni Izleti",
     "dayTripsP": "Put uz zaliv do Perasta i Risna je lijep pod zimskim svjetlom. Cetinje, crnogorska stara kraljevska prijestonica, je na 45 minuta vožnje preko Lovćena (ako vrijeme dopušta) ili dužom rutom preko Budve. Manastir Ostrog, usječen u liticu dva sata na sjever, posebno je atmosferičan zimi kada snijeg pospe okolne planine.",
     "h2Prices": "Cijene van Sezone",
-    "pricesP": "Cijene iznajmljivanja automobila padaju za 30-50% između novembra i marta. Kompaktni automobil koji košta €35/dan u julu može biti €18/dan u januaru. Hoteli prate sličan obrazac. Restorani često nude redukovane menije ali kvalitet ostaje visok, zapravo, neki mještani tvrde da je hrana bolja zimi jer kuhari imaju vremena da kuvaju kako treba umjesto da žure kroz promete.",
+    "pricesP": "Cijene iznajmljivanja automobila padaju za 30-50% između novembra i marta. Kompaktni automobil koji košta u julu može biti u januaru. Hoteli prate sličan obrazac. Restorani često nude redukovane menije ali kvalitet ostaje visok, zapravo, neki mještani tvrde da je hrana bolja zimi jer kuhari imaju vremena da kuvaju kako treba umjesto da žure kroz promete.",
     "h2Packing": "Šta Spakovati",
     "pack1": "Vodootpornu jaknu, ne kišobran. Kotorski vjetar čini kišobrane beskorisnim tokom oluja.",
     "pack2": "Slojeve. Jutra su hladna, popodneva mogu biti iznenađujuće topla kada sunce probije.",

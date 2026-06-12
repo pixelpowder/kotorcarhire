@@ -204,7 +204,7 @@
       "airportPickup": "Tivat Airport 8 km",
       "trustpilot": "4.8/5 on Trustpilot",
       "localProviders": "Local Providers",
-      "priceFrom": "From €20/day"
+      "priceFrom": "Competitive rates"
     },
     "search": "Search",
     "pickupLocation": "Pick-up location",
@@ -252,7 +252,7 @@
   "fleet": {
     "label": "Our Fleet",
     "title": "Car Hire Kotor",
-    "subtitle": "Browse real-time availability and prices, free cancellation on selected cars, free Minimum cover with paid upgrades from €8/day, book directly.",
+    "subtitle": "Browse real-time availability and prices, free cancellation on selected cars, free Minimum cover with paid upgrades, book directly.",
     "priceNote": "Prices shown are per-day floor rates for a 7-day rental at current dates. Actual price varies by exact dates, pickup location, vendor and season.",
     "badges": {
       "unlimitedKm": "Unlimited km",
@@ -304,7 +304,7 @@
     "iframeTitle": "Car rental booking"
   },
   "footer": {
-    "brandDesc": "Tivat Airport pickup, in-town Kotor delivery, and hotel handovers across the Bay. Free Minimum cover with paid upgrades from €8/day, bay road expertise, and flat rates that stay flat all season.",
+    "brandDesc": "Tivat Airport pickup, in-town Kotor delivery, and hotel handovers across the Bay. Free Minimum cover with paid upgrades, bay road expertise, and flat rates that stay flat all season.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "locations": "Locations",
@@ -525,7 +525,7 @@
     },
     "3": {
       "q": "What's included in the price?",
-      "a": "Every booking includes the free Minimum (third-party liability) cover with a typical €100 deposit and VAT. Insurance upgrades are paid extras: Basic from €8/day, Full from €10/day, and a no-deposit Full Plus from €18/day. Unlimited mileage is included on most cars (376 of around 380)."
+      "a": "Every booking includes the free Minimum (third-party liability) cover with a typical €100 deposit and VAT. Insurance upgrades are paid extras: Basic, Full, and a no-deposit Full Plus. Unlimited mileage is included on most cars (376 of around 380)."
     },
     "4": {
       "q": "How does pickup work at Tivat Airport?",
@@ -537,7 +537,7 @@
     },
     "6": {
       "q": "Is a deposit required?",
-      "a": "Most cars hold a €100 deposit at pickup. 47 cars on the platform require no deposit at all, and a further 124 offer a no-deposit option as a paid service. Choosing the Full Plus insurance tier (from €18/day) also waives the deposit."
+      "a": "Most cars hold a €100 deposit at pickup. 47 cars on the platform require no deposit at all, and a further 124 offer a no-deposit option as a paid service. Choosing the Full Plus insurance tier also waives the deposit."
     },
     "7": {
       "q": "Where do I park in Kotor Old Town?",
@@ -1107,7 +1107,7 @@
     "h3DayTrips": "Winter Day Trips",
     "dayTripsP": "The bay road to Perast and Risan is beautiful in winter light. Cetinje, Montenegro's old royal capital, is a 45-minute drive over Lovćen (weather permitting) or a longer route via Budva. The Ostrog Monastery, carved into a cliff face two hours north, is particularly atmospheric in winter when snow dusts the surrounding mountains.",
     "h2Prices": "Off-Season Pricing",
-    "pricesP": "Car rental rates drop by 30-50% between November and March. A compact car that costs €35/day in July might be €18/day in January. Hotels follow a similar pattern. Restaurants often run reduced menus but the quality stays high, in fact, some locals argue the food is better in winter because chefs have time to cook properly instead of rushing through covers.",
+    "pricesP": "Car rental rates drop by 30-50% between November and March. A compact car that costs in July might be in January. Hotels follow a similar pattern. Restaurants often run reduced menus but the quality stays high, in fact, some locals argue the food is better in winter because chefs have time to cook properly instead of rushing through covers.",
     "h2Packing": "What to Pack",
     "pack1": "A waterproof jacket, not an umbrella. Kotor's wind makes umbrellas useless during storms.",
     "pack2": "Layers. Mornings are cold, afternoons can be surprisingly warm when the sun breaks through.",

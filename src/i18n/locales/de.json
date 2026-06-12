@@ -204,7 +204,7 @@
       "airportPickup": "Flughafen Tivat 8 km",
       "trustpilot": "4.8/5 auf Trustpilot",
       "localProviders": "Lokale Anbieter",
-      "priceFrom": "Ab €20/Tag"
+      "priceFrom": "Faire Preise"
     },
     "search": "Suchen",
     "pickupLocation": "Abholort",
@@ -252,7 +252,7 @@
   "fleet": {
     "label": "Unsere Flotte",
     "title": "Mietwagen Kotor",
-    "subtitle": "Verfügbarkeit und Preise in Echtzeit ansehen, kostenlose Stornierung bei ausgewählten Autos, kostenlose Mindestdeckung mit Upgrades ab 8 €/Tag, direkt buchen.",
+    "subtitle": "Verfügbarkeit und Preise in Echtzeit ansehen, kostenlose Stornierung bei ausgewählten Autos, kostenlose Mindestdeckung mit Upgrades, direkt buchen.",
     "priceNote": "Angezeigte Preise sind Mindesttagessätze für eine 7-Tage-Anmietung zu aktuellen Daten. Der tatsächliche Preis variiert je nach Datum, Abholort, Anbieter und Saison.",
     "badges": {
       "unlimitedKm": "Unbegrenzte km",
@@ -304,7 +304,7 @@
     "iframeTitle": "Mietwagen-Buchung"
   },
   "footer": {
-    "brandDesc": "Abholung am Flughafen Tivat, Lieferung in die Altstadt von Kotor und Übergabe direkt am Hotel. Kostenlose Mindestdeckung mit Upgrades ab 8 €/Tag, Erfahrung auf den Buchtstraßen und Festpreise – die ganze Saison gleich.",
+    "brandDesc": "Abholung am Flughafen Tivat, Lieferung in die Altstadt von Kotor und Übergabe direkt am Hotel. Kostenlose Mindestdeckung mit Upgrades, Erfahrung auf den Buchtstraßen und Festpreise – die ganze Saison gleich.",
     "quickLinks": "Schnelllinks",
     "guides": "Reiseführer",
     "locations": "Standorte",
@@ -525,7 +525,7 @@
     },
     "3": {
       "q": "Was ist im Preis enthalten?",
-      "a": "Jede Buchung enthält die kostenlose Mindestdeckung (Haftpflicht) mit typischer 100-€-Kaution, einen kostenlosen zweiten Fahrer und MwSt. Versicherungs-Upgrades sind kostenpflichtige Extras: Basic ab 8 €/Tag, Full ab 10 €/Tag und Full Plus ohne Kaution ab 18 €/Tag. Unbegrenzte Kilometer sind bei den meisten Autos enthalten (376 von etwa 380)."
+      "a": "Jede Buchung enthält die kostenlose Mindestdeckung (Haftpflicht) mit typischer 100-€-Kaution, einen kostenlosen zweiten Fahrer und MwSt. Versicherungs-Upgrades sind kostenpflichtige Extras: Basic, Full und Full Plus ohne Kaution. Unbegrenzte Kilometer sind bei den meisten Autos enthalten (376 von etwa 380)."
     },
     "4": {
       "q": "Wie funktioniert die Abholung am Flughafen Tivat?",
@@ -537,7 +537,7 @@
     },
     "6": {
       "q": "Ist eine Kaution erforderlich?",
-      "a": "Die meisten Autos hinterlegen bei Abholung eine Kaution von 100 €. 47 Autos auf der Plattform verlangen gar keine Kaution, weitere 124 bieten die Kautionsfreiheit als kostenpflichtigen Service an. Auch die Wahl der Full-Plus-Versicherung (ab 18 €/Tag) erlässt die Kaution."
+      "a": "Die meisten Autos hinterlegen bei Abholung eine Kaution von 100 €. 47 Autos auf der Plattform verlangen gar keine Kaution, weitere 124 bieten die Kautionsfreiheit als kostenpflichtigen Service an. Auch die Wahl der Full-Plus-Versicherung erlässt die Kaution."
     },
     "7": {
       "q": "Wo parkt man in der Altstadt von Kotor?",
@@ -1107,7 +1107,7 @@
     "h3DayTrips": "Winterausflüge",
     "dayTripsP": "Die Küstenstraße nach Perast und Risan ist im Winterlicht wunderschön. Cetinje, Montenegros alte königliche Hauptstadt, ist eine 45-minütige Fahrt über den Lovćen (wetterabhängig) oder eine längere Route über Budva. Das Kloster Ostrog, in eine Felswand eingelassen und zwei Stunden nördlich gelegen, wirkt im Winter besonders eindrucksvoll, wenn Schnee die umliegenden Berge bedeckt.",
     "h2Prices": "Preise in der Nebensaison",
-    "pricesP": "Mietwagenpreise sinken zwischen November und März um 30-50 %. Ein Kompaktwagen, der im Juli 35 €/Tag kostet, kann im Januar 18 €/Tag kosten. Hotels folgen demselben Muster. Restaurants bieten oft reduzierte Speisekarten an, aber die Qualität bleibt hoch, manche Einheimische behaupten sogar, das Essen sei im Winter besser, weil die Köche Zeit zum ordentlichen Kochen haben, statt Gedecke im Akkord durchzuschicken.",
+    "pricesP": "Mietwagenpreise sinken zwischen November und März um 30-50 %. Ein Kompaktwagen, der im Juli kostet, kann im Januar kosten. Hotels folgen demselben Muster. Restaurants bieten oft reduzierte Speisekarten an, aber die Qualität bleibt hoch, manche Einheimische behaupten sogar, das Essen sei im Winter besser, weil die Köche Zeit zum ordentlichen Kochen haben, statt Gedecke im Akkord durchzuschicken.",
     "h2Packing": "Was Sie einpacken sollten",
     "pack1": "Eine wasserdichte Jacke, keinen Regenschirm. Kotors Wind macht Regenschirme bei Stürmen nutzlos.",
     "pack2": "Schichten. Morgens ist es kalt, nachmittags kann es überraschend warm sein, wenn die Sonne durchbricht.",

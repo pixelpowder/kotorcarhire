@@ -204,7 +204,7 @@
       "airportPickup": "Aéroport de Tivat 8 km",
       "trustpilot": "4.8/5 sur Trustpilot",
       "localProviders": "Prestataires Locaux",
-      "priceFrom": "À partir de 20 €/jour"
+      "priceFrom": "Tarifs compétitifs"
     },
     "search": "Rechercher",
     "pickupLocation": "Lieu de prise en charge",
@@ -252,7 +252,7 @@
   "fleet": {
     "label": "Notre Flotte",
     "title": "Location de Voiture à Kotor",
-    "subtitle": "Consultez la disponibilité et les prix en temps réel, annulation gratuite sur certaines voitures, couverture Minimum gratuite avec upgrades dès 8 €/jour, réservez directement.",
+    "subtitle": "Consultez la disponibilité et les prix en temps réel, annulation gratuite sur certaines voitures, couverture Minimum gratuite avec upgrades, réservez directement.",
     "priceNote": "Les prix indiqués sont les tarifs journaliers minimums pour une location de 7 jours aux dates actuelles. Le prix réel varie selon les dates exactes, le lieu de prise en charge, le loueur et la saison.",
     "badges": {
       "unlimitedKm": "Km illimités",
@@ -304,7 +304,7 @@
     "iframeTitle": "Réservation de location de voiture"
   },
   "footer": {
-    "brandDesc": "Prise en charge à l'aéroport de Tivat, livraison en ville à Kotor et remise des clés à l'hôtel partout dans la baie. Couverture Minimum gratuite avec upgrades dès 8 €/jour, connaissance des routes côtières et tarifs fixes toute la saison.",
+    "brandDesc": "Prise en charge à l'aéroport de Tivat, livraison en ville à Kotor et remise des clés à l'hôtel partout dans la baie. Couverture Minimum gratuite avec upgrades, connaissance des routes côtières et tarifs fixes toute la saison.",
     "quickLinks": "Liens Rapides",
     "guides": "Guides",
     "locations": "Nos Agences",
@@ -525,7 +525,7 @@
     },
     "3": {
       "q": "Que comprend le prix ?",
-      "a": "Chaque réservation inclut la couverture Minimum (responsabilité civile) gratuite avec une caution typique de 100 € et la TVA. Les upgrades d’assurance sont des extras payants : Basic dès 8 €/jour, Full dès 10 €/jour et Full Plus sans caution dès 18 €/jour. Le kilométrage illimité est inclus sur la plupart des voitures (376 sur environ 380)."
+      "a": "Chaque réservation inclut la couverture Minimum (responsabilité civile) gratuite avec une caution typique de 100 € et la TVA. Les upgrades d’assurance sont des extras payants: Basic, Full et Full Plus sans caution. Le kilométrage illimité est inclus sur la plupart des voitures (376 sur environ 380)."
     },
     "4": {
       "q": "Comment se passe la prise en charge à l'aéroport de Tivat ?",
@@ -537,7 +537,7 @@
     },
     "6": {
       "q": "Une caution est-elle exigée ?",
-      "a": "La plupart des voitures retiennent une caution de 100 € à la prise en charge. 47 voitures de la plateforme ne demandent aucune caution, et 124 autres proposent l’option sans caution comme service payant. Choisir l’assurance Full Plus (dès 18 €/jour) supprime également la caution."
+      "a": "La plupart des voitures retiennent une caution de 100 € à la prise en charge. 47 voitures de la plateforme ne demandent aucune caution, et 124 autres proposent l’option sans caution comme service payant. Choisir l’assurance Full Plus supprime également la caution."
     },
     "7": {
       "q": "Où se garer dans la vieille ville de Kotor ?",
@@ -1107,7 +1107,7 @@
     "h3DayTrips": "Excursions d'hiver à la journée",
     "dayTripsP": "La route de la baie vers Perast et Risan est magnifique sous la lumière hivernale. Cetinje, l'ancienne capitale royale du Monténégro, est à 45 minutes de route par le Lovćen (si la météo le permet) ou par un itinéraire plus long via Budva. Le monastère d'Ostrog, creusé dans une falaise à deux heures au nord, est particulièrement atmosphérique en hiver quand la neige saupoudre les montagnes environnantes.",
     "h2Prices": "Tarifs hors saison",
-    "pricesP": "Les tarifs de location de voiture baissent de 30 à 50 % entre novembre et mars. Une compacte à 35 €/jour en juillet peut coûter 18 €/jour en janvier. Les hôtels suivent la même tendance. Les restaurants proposent souvent des menus réduits mais la qualité reste élevée, certains habitants affirment même que la cuisine est meilleure en hiver parce que les chefs ont le temps de cuisiner correctement au lieu d'enchaîner les couverts.",
+    "pricesP": "Les tarifs de location de voiture baissent de 30 à 50 % entre novembre et mars. Une compacte à en juillet peut coûter en janvier. Les hôtels suivent la même tendance. Les restaurants proposent souvent des menus réduits mais la qualité reste élevée, certains habitants affirment même que la cuisine est meilleure en hiver parce que les chefs ont le temps de cuisiner correctement au lieu d'enchaîner les couverts.",
     "h2Packing": "Quoi emporter",
     "pack1": "Une veste imperméable, pas un parapluie. Le vent de Kotor rend les parapluies inutiles pendant les tempêtes.",
     "pack2": "Des couches de vêtements. Les matins sont frais, les après-midi peuvent être étonnamment chauds quand le soleil perce.",
