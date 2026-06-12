@@ -498,90 +498,6 @@ function Destinations() {
   );
 }
 
-/* ─── FLEET SHOWCASE (homepage teaser → /cars) ─────────── */
-const FLEET_TABS = [
-  { key: 'all',     fallback: 'All' },
-  { key: 'economy', fallback: 'Economy' },
-  { key: 'suv',     fallback: 'SUV' },
-  { key: 'midsize', fallback: 'Mid-Size' },
-];
-
-// Homepage curates 6 of 7, the Kotor cruise/bay set.
-const HOMEPAGE_FLEET_SLUGS = [
-  'vw-polo', 'fiat-500', 'peugeot-208',
-  'toyota-yaris', 'kia-stonic', 'vw-golf',
-];
-
-function FleetShowcase() {
-  const { t, localePath } = useTranslation();
-  const [activeTab, setActiveTab] = useState('all');
-  const tf = (key, fb) => {
-    const v = t(key);
-    return v && v !== key ? v : fb;
-  };
-  const homepageCars = config.cars.filter(c => HOMEPAGE_FLEET_SLUGS.includes(c.slug));
-  const filtered = activeTab === 'all'
-    ? homepageCars
-    : homepageCars.filter(c => c.typeGroup === activeTab);
-
-  return (
-    <section className="section fleet-showcase" id="fleet-info">
-      <div className="container">
-        <div className="section-header">
-          <span className="section-label">{tf('fleetShowcase.label', 'Know your car')}</span>
-          <h2 className="section-title">{tf('fleetShowcase.title', 'Guides to every car in the Kotor fleet')}</h2>
-          <p className="section-subtitle">{tf('fleetShowcase.subtitle', 'Specs, fuel use, boot size and what each car is really good at around the Bay of Kotor, Perast and Lovćen.')}</p>
-        </div>
-
-        <div className="fleet-showcase__tabs" role="tablist">
-          {FLEET_TABS.map(tab => (
-            <button
-              key={tab.key}
-              role="tab"
-              aria-selected={activeTab === tab.key}
-              onClick={() => setActiveTab(tab.key)}
-              className={`fleet-showcase__tab${activeTab === tab.key ? ' fleet-showcase__tab--active' : ''}`}
-            >
-              {tf(`fleetShowcase.tabs.${tab.key}`, tab.fallback)}
-            </button>
-          ))}
-        </div>
-
-        <div className="fleet-showcase__strip">
-          {filtered.map((car) => {
-            const tk = (sub, fb) => {
-              const val = t(`cars.${car.slug}.${sub}`);
-              return val && val !== `cars.${car.slug}.${sub}` ? val : fb;
-            };
-            const name = tk('name', car.name);
-            const category = tk('category', car.category);
-            return (
-              <a
-                key={car.slug}
-                href={localePath(`/cars/${car.slug}`)}
-                className="fleet-showcase__chip"
-                title={tk('tagline', car.tagline)}
-              >
-                <div className="fleet-showcase__chip-img" style={{ backgroundImage: `url(${car.image})` }} />
-                <div className="fleet-showcase__chip-body">
-                  <div className="fleet-showcase__chip-cat">{category}</div>
-                  <div className="fleet-showcase__chip-name">{name}</div>
-                </div>
-              </a>
-            );
-          })}
-        </div>
-
-        <div className="fleet-showcase__all">
-          <a href={localePath('/cars')} className="fleet-showcase__all-link">
-            {tf('fleetShowcase.viewAll', 'See all fleet guides')} <ArrowRight size={14} />
-          </a>
-        </div>
-      </div>
-    </section>
-  );
-}
-
 /* ─── FLEET ─────────────────────────────────────────────── */
 // HOMEPAGE_BOOKING_CARS lives in src/data/fleetCars.js so BookPage can
 // resolve a /book?model=<slug> URL back to the vendor car_ids list
@@ -815,36 +731,6 @@ function Features() {
 }
 
 
-/* ─── HOW IT WORKS ─────────────────────────────────────── */
-function HowItWorks() {
-  const { t } = useTranslation();
-  const steps = [
-    { num: '01', title: t('howItWorks.step1Title'), desc: t('howItWorks.step1Desc') },
-    { num: '02', title: t('howItWorks.step2Title'), desc: t('howItWorks.step2Desc') },
-    { num: '03', title: t('howItWorks.step3Title'), desc: t('howItWorks.step3Desc') },
-  ];
-  return (
-    <section className="section section--gray" id="how-it-works">
-      <div className="container">
-        <div className="section-header">
-          <span className="section-label">{t('howItWorks.label')}</span>
-          <h2 className="section-title">{t('howItWorks.title')}</h2>
-          <p className="section-subtitle">{t('howItWorks.subtitle')}</p>
-        </div>
-        <div className="steps-grid">
-          {steps.map((step) => (
-            <div key={step.num} className="step-card reveal-item">
-              <div className="step-card__num">{step.num}</div>
-              <h3 className="step-card__title">{step.title}</h3>
-              <p className="step-card__desc">{step.desc}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
 /* ─── STAT COUNTERS ────────────────────────────────────── */
 function useCountUp(end, duration = 1.8) {
   const [count, setCount] = useState(0);
@@ -892,36 +778,6 @@ function StatCounters() {
               <div className="stat-card__value">{s.value}</div>
               <div className="stat-card__label">{s.label}</div>
             </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-/* ─── BRAND LOGOS ──────────────────────────────────────── */
-const CAR_BRANDS = [
-  { name: 'Toyota',     logo: '/img/logo-toyota.png' },
-  { name: 'Fiat',       logo: '/img/logo-fiat.png' },
-  { name: 'Volkswagen', logo: '/img/logo-volkswagen.png' },
-  { name: 'Peugeot',    logo: '/img/logo-peugeot.png' },
-  { name: 'Renault',    logo: '/img/logo-renault.png' },
-  { name: 'Hyundai',    logo: '/img/logo-hyundai.png' },
-  { name: 'Citroën',    logo: '/img/logo-citroen.png' },
-  { name: 'Suzuki',     logo: '/img/logo-suzuki.png' },
-  { name: 'Ford',       logo: '/img/logo-ford.png' },
-  { name: 'Dacia',      logo: '/img/logo-dacia.png' },
-];
-
-function BrandLogos() {
-  const { t } = useTranslation();
-  return (
-    <section className="brands-section">
-      <div className="container">
-        <p className="brands-label">{t('brands.label')}</p>
-        <div className="brands-row">
-          {CAR_BRANDS.map((brand) => (
-            <img key={brand.name} className="brand-logo" src={brand.logo} alt={brand.name} loading="lazy" />
           ))}
         </div>
       </div>
@@ -1215,10 +1071,7 @@ export default function App() {
         </div>
         {/* <Reviews /> */}
         <Fleet />
-        <FleetShowcase />
-        <HowItWorks />
         <StatCounters />
-        <BrandLogos />
         <TivatArrivals />
         <Destinations />
         <Features />
