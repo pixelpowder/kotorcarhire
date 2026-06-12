@@ -1438,7 +1438,10 @@ html[data-theme="dark"] .section-label {
 .destinations-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 200px);
+  /* auto-rows (not a fixed repeat(2,...)) so every row gets a full 200px,
+     including the 3rd row of destinations — a fixed 2-row template left the
+     9th-12th cards collapsing to a 2px sliver (just their borders) below. */
+  grid-auto-rows: 200px;
   gap: 12px;
 }
 
