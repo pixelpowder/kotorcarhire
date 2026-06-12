@@ -608,12 +608,29 @@
       const _params = new URLSearchParams(window.location.search);
       const cityId = _params.get('city_id') || '9';
       const widgetLang = _params.get('lang') || 'en';
+      // Read the paid-click gclid persisted by clickId.js on the landing page.
+      // This iframe is same-origin (/widget.html on this domain), so it shares
+      // localStorage with the parent — no URL forwarding needed. Baked into
+      // data-marker below so LocalRent's booking record carries the gclid for
+      // Google Ads offline-conversion attribution. 90-day TTL mirrors clickId.js
+      // so a stale click can't credit a fresh booking.
+      let markerGclid = null;
+      try {
+        const _raw = localStorage.getItem('kch_clickid_v1');
+        if (_raw) {
+          const _p = JSON.parse(_raw);
+          const _ttl = 90 * 24 * 60 * 60 * 1000;
+          if (_p && typeof _p.gclid === 'string' && typeof _p.ts === 'number' && (Date.now() - _p.ts) <= _ttl) {
+            markerGclid = _p.gclid;
+          }
+        }
+      } catch (e) { /* private mode / quota — skip attribution, booking still works */ }
       const script = document.createElement('script');
       script.src = 'https://static.localrent.com/booking/v2/wl/app.js';
       script.async = true;
       script.setAttribute('data-mrc-wl',   'true');
       script.setAttribute('data-affiliate','14905');
-      script.setAttribute('data-marker',   'kotorcarrental');
+      script.setAttribute('data-marker',   'kch_' + widgetLang + (markerGclid ? '_' + markerGclid : ''));
       script.setAttribute('data-country',  '133');
       script.setAttribute('data-city',     cityId);
       // data-routing: on always — LocalRent's router needs to parse hash

@@ -8,6 +8,7 @@ import { headers } from 'next/headers';
 import DynamicLanguageProvider from '@/src/i18n/DynamicLanguageProvider';
 import { SUPPORTED_LANGS, DEFAULT_LANG, LANG_HREFLANG } from '@/src/i18n/languages';
 import LocaleAwareSchema from '@/src/components/LocaleAwareSchema';
+import ClickIdCapture from '@/src/components/ClickIdCapture';
 
 const SITE_TITLE = 'Kotor Car Hire, Bay of Kotor & Old Town Rentals';
 const SITE_DESC = 'Explore Kotor\'s walled city and the fjord-like bay by car. Collect at Tivat Airport, just 8 km away, or right outside the medieval gates. From €13/day, with insurance options at checkout.';
@@ -80,6 +81,7 @@ export default async function RootLayout({ children }) {
       </head>
       <body>
         <DynamicLanguageProvider initialLang={lang}>
+          <ClickIdCapture />
           {children}
           <Analytics />
           <SpeedInsights />
