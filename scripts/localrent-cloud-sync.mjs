@@ -119,7 +119,7 @@ async function main(){
   })();
   src = src.replace(/export const FLEET_FLOOR_EUR = \{[\s\S]*?\n\};/, natLit);
   src = src.replace(/export const FLEET_FLOOR_BY_CITY_EUR = \{[\s\S]*?\n\};/, cityLit);
-  if(src===before){ throw new Error('ABORT: fleetFloor.js literals did not match for replacement'); }
+  if (!/FLEET_FLOOR_EUR\s*=\s*\{[\s\S]*?\n\};/.test(before) || !/FLEET_FLOOR_BY_CITY_EUR\s*=\s*\{[\s\S]*?\n\};/.test(before)) { throw new Error('ABORT: fleetFloor.js literals not found'); }
   fs.writeFileSync(FLEET_FLOOR, src);
 
   // car_ids additions back into fleetCars.js
