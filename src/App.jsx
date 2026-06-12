@@ -451,15 +451,17 @@ function TivatArrivals() {
         </div>
         <div className="cruise-grid">
           {[
-            { icon: <MapPin size={24} />, title: t('tivat.items.0.title'), desc: t('tivat.items.0.desc') },
-            { icon: <Star size={24} fill="currentColor" />, title: t('tivat.items.1.title'), desc: t('tivat.items.1.desc') },
-            { icon: <Globe size={24} />, title: t('tivat.items.2.title'), desc: t('tivat.items.2.desc') },
-            { icon: <Car size={24} />, title: t('tivat.items.3.title'), desc: t('tivat.items.3.desc') },
+            { image: '/img/kotor-old-town.webp', title: t('tivat.items.0.title'), desc: t('tivat.items.0.desc') },
+            { image: '/img/tivat-airport.webp', title: t('tivat.items.1.title'), desc: t('tivat.items.1.desc') },
+            { image: '/img/montenegro-coast-road.webp', title: t('tivat.items.2.title'), desc: t('tivat.items.2.desc') },
+            { image: '/img/perast-village.webp', title: t('tivat.items.3.title'), desc: t('tivat.items.3.desc') },
           ].map((item) => (
             <div key={item.title} className="cruise-card reveal-item">
-              <div className="cruise-card__icon">{item.icon}</div>
-              <h3 className="cruise-card__title">{item.title}</h3>
-              <p className="cruise-card__desc">{item.desc}</p>
+              <div className="cruise-card__img" style={{ backgroundImage: `url(${item.image})` }} />
+              <div className="cruise-card__body">
+                <h3 className="cruise-card__title">{item.title}</h3>
+                <p className="cruise-card__desc">{item.desc}</p>
+              </div>
             </div>
           ))}
         </div>

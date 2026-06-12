@@ -2657,26 +2657,6 @@ html[data-theme="dark"] .section-label {
 }
 
 /* ─── CRUISE VISITORS (KOTOR UNIQUE) ─────────────────── */
-/* Tivat section: a very subtle bay image behind the cards for depth,
-   washed out under a near-white veil so the cards stay legible. */
-#tivat {
-  position: relative;
-  overflow: hidden;
-}
-#tivat::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: url('/hero-bg.webp') center / cover no-repeat;
-  opacity: 0.07;
-  z-index: 0;
-  pointer-events: none;
-}
-#tivat .container {
-  position: relative;
-  z-index: 1;
-}
-
 .cruise-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -2691,36 +2671,28 @@ html[data-theme="dark"] .section-label {
   background: var(--white);
   border: 1px solid rgba(5, 32, 60, 0.07);
   border-radius: var(--radius-lg);
-  padding: 28px 24px;
+  overflow: hidden;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 10px 28px rgba(5, 32, 60, 0.05);
-  text-align: center;
+  text-align: left;
   transition: transform 0.3s cubic-bezier(0.4,0,0.2,1), box-shadow 0.3s, border-color 0.3s;
+}
+.cruise-card__img {
+  height: 158px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.45s ease;
+}
+.cruise-card:hover .cruise-card__img {
+  transform: scale(1.06);
+}
+.cruise-card__body {
+  padding: 18px 20px 22px;
 }
 
 .cruise-card:hover {
   transform: translateY(-4px);
   border-color: rgba(0, 98, 227, 0.2);
   box-shadow: 0 16px 36px rgba(5, 32, 60, 0.1);
-}
-
-.cruise-card__icon {
-  width: 52px;
-  height: 52px;
-  border-radius: 14px;
-  background: rgba(0, 98, 227, 0.10);
-  color: rgb(0, 98, 227);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 16px;
-  transition: transform 0.3s, background 0.3s, color 0.3s;
-}
-
-.cruise-card:hover .cruise-card__icon {
-  transform: scale(1.15);
-  background: rgb(0, 98, 227);
-  color: #fff;
-  box-shadow: 0 6px 20px rgba(0, 98, 227, 0.3);
 }
 
 .cruise-card__title {
