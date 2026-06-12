@@ -23,8 +23,8 @@ export const FLEET_FLOOR_EUR = {
 export const FLEET_FLOOR_BY_CITY_EUR = {
   2     : { 'fiat-500': 75, 'citroen-c3': 42, 'toyota-yaris': 45, 'vw-golf': 60, 'peugeot-2008': 61, 'renault-kadjar': 65, 'renault-megane': 55, 'citroen-c4-picasso': 61 },
   5     : { 'fiat-500': 60, 'citroen-c3': 42, 'toyota-yaris': 42, 'vw-golf': 51, 'peugeot-2008': 61, 'renault-kadjar': 65, 'renault-megane': 50, 'citroen-c4-picasso': 61 },
-  7     : { 'citroen-c3': 95, 'toyota-yaris': 113, 'vw-golf': 88, 'peugeot-2008': 69, 'renault-kadjar': 113, 'dacia-sandero': 88, 'renault-megane': 103 },
-  8     : { 'citroen-c3': 81, 'toyota-yaris': 68, 'vw-golf': 80, 'peugeot-2008': 72, 'renault-kadjar': 98, 'renault-megane': 88 },
+  7     : { 'citroen-c3': 110, 'toyota-yaris': 113, 'vw-golf': 88, 'peugeot-2008': 69, 'renault-kadjar': 113, 'dacia-sandero': 88, 'renault-megane': 103 },
+  8     : { 'citroen-c3': 110, 'toyota-yaris': 68, 'vw-golf': 80, 'peugeot-2008': 72, 'renault-kadjar': 98, 'renault-megane': 88 },
   9     : { 'fiat-500': 63, 'citroen-c3': 38, 'toyota-yaris': 42, 'vw-golf': 56, 'peugeot-2008': 46, 'renault-kadjar': 62, 'renault-megane': 55, 'citroen-c4-picasso': 61 },
   15    : { 'fiat-500': 70, 'citroen-c3': 42, 'toyota-yaris': 45, 'vw-golf': 51, 'peugeot-2008': 46, 'renault-kadjar': 65, 'dacia-sandero': 45, 'renault-megane': 50, 'citroen-c4-picasso': 61 },
   17    : { 'fiat-500': 63, 'citroen-c3': 38, 'toyota-yaris': 42, 'vw-golf': 51, 'peugeot-2008': 46, 'renault-kadjar': 62, 'renault-megane': 50, 'citroen-c4-picasso': 61 },
