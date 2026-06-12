@@ -708,10 +708,7 @@ function Features() {
           {[
             { icon: 'map-pin', key: 'airportPickup' },
             { icon: 'shield-check', key: 'fullInsurance' },
-            { icon: 'clock', key: 'support' },
-            { icon: 'ban', key: 'noHiddenFees' },
             { icon: 'refresh-cw', key: 'freeCancellation' },
-            { icon: 'globe', key: 'crossBorder' },
           ].map((f, i) => {
             const Icon = FEATURE_ICONS[f.icon] || ShieldCheck;
             return (
