@@ -236,7 +236,8 @@
     "rentals": "Übergebene Mietwagen",
     "rating": "Gäste-Bewertung",
     "cars": "Fahrzeuge in der Flotte",
-    "locations": "Übergabepunkte um Kotor"
+    "locations": "Übergabepunkte um Kotor",
+    "unlimited": "Unbegrenzte Kilometer"
   },
   "howItWorks": {
     "label": "Buchungsablauf",

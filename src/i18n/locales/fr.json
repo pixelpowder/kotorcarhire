@@ -236,7 +236,8 @@
     "rentals": "Locations remises",
     "rating": "Note des clients",
     "cars": "Véhicules dans la flotte",
-    "locations": "Points de remise autour de Kotor"
+    "locations": "Points de remise autour de Kotor",
+    "unlimited": "Kilométrage illimité"
   },
   "howItWorks": {
     "label": "Le Processus",

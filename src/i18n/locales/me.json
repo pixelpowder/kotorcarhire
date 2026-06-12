@@ -236,7 +236,8 @@
     "rentals": "Predatih iznajmljivanja",
     "rating": "Ocjena gostiju",
     "cars": "Vozila u floti",
-    "locations": "Mjesta preuzimanja oko Kotora"
+    "locations": "Mjesta preuzimanja oko Kotora",
+    "unlimited": "Neograničena kilometraža"
   },
   "howItWorks": {
     "label": "Postupak",

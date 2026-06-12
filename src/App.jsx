@@ -36,7 +36,6 @@ import {
   X,
   MessageCircle,
   Award,
-  TrendingUp,
 } from 'lucide-react';
 import config from './siteConfig';
 import { HOMEPAGE_BOOKING_CARS } from './data/fleetCars';
@@ -764,11 +763,10 @@ function useCountUp(end, duration = 1.8) {
 function StatCounters() {
   const { t } = useTranslation();
   const [years, yearsRef] = useCountUp(18);
-  const [rentals, rentalsRef] = useCountUp(2000);
   const [locations, locsRef] = useCountUp(6);
   const stats = [
     { value: `${years}+`, label: t('stats.years'), icon: <Award size={22} />, ref: yearsRef },
-    { value: rentals >= 2000 ? '2,000+' : rentals.toLocaleString(), label: t('stats.rentals'), icon: <TrendingUp size={22} />, ref: rentalsRef },
+    { value: '∞', label: t('stats.unlimited'), icon: <RefreshCw size={22} />, ref: null },
     { value: '200+', label: t('stats.cars'), icon: <Car size={22} />, ref: null },
     { value: `${locations}`, label: t('stats.locations'), icon: <MapPin size={22} />, ref: locsRef },
   ];

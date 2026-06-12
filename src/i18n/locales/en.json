@@ -236,7 +236,8 @@
     "rentals": "Rentals Handed Over",
     "rating": "Guest Rating",
     "cars": "Vehicles in Fleet",
-    "locations": "Pickup Points Around Kotor"
+    "locations": "Pickup Points Around Kotor",
+    "unlimited": "Unlimited Mileage"
   },
   "howItWorks": {
     "label": "Booking Process",
