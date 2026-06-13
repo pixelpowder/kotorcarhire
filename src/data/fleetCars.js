@@ -14,7 +14,7 @@
 // local fleet image; cards with `image` instead bypass that lookup.
 
 export const HOMEPAGE_BOOKING_CARS = [
-  { slug: 'vw-polo',              id: 5756,   name: 'VW Polo',              category: 'Economy',   carIds: '5756,47278,16221,61891,45336,44220,62672,53199,30630,85108,52174,31166', siteSlug: 'vw-polo' },
+  { slug: 'vw-polo',              id: 5756,   name: 'VW Polo',              category: 'Economy',   carIds: '5756,47278,16221,61891,45336,44220,62672,53199,30630,85108,52174,31166,61890', siteSlug: 'vw-polo' },
   { slug: 'fiat-500',             id: 64299,  name: 'Fiat 500',             category: 'Economy',   carIds: '64299,158191,31876,47008', siteSlug: 'fiat-500' },
   { slug: 'peugeot-208',          id: 26451,  name: 'Peugeot 208',          category: 'Economy',   carIds: '26451,11094,88677,144459,42650,169029,92397,113143', siteSlug: 'peugeot-208' },
   { slug: 'citroen-c3',           id: 68317,  name: 'Citroen C3',           category: 'Economy',   carIds: '41909,20865,68317,85926,43351,159867,74198,97133,93615,93035,85564,10740,87976,63398,96523,86323,124829,46113,96339,85093,87887,175287', siteSlug: 'citroen-c3' },
